@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import Search from '../components/search'
 
 export default function Home({ allPostsData }) {
   return (
@@ -14,6 +15,10 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>Browse all theatre events in Cyprus</p>
       </section>
+
+       <h2 className={utilStyles.headingLg}>Search</h2>
+       <Search />
+
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Events</h2>
         <ul className={utilStyles.list}>
