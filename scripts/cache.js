@@ -3,18 +3,18 @@ const path = require('path')
 const matter = require('gray-matter')
 
 function postData() {
-   const postsDirectory = path.join(process.cwd(), 'posts')
-   const fileNames = fs.readdirSync(postsDirectory)
+   const postsDirectory = path.join(process.cwd(), 'posts');
+   const fileNames = fs.readdirSync(postsDirectory);
    const posts = fileNames.map(fileName => {
-      const id = fileName.replace(/\.md$/, '')
+      const id = fileName.replace(/\.md$/, '');
       const fullPath = path.join(postsDirectory, fileName)
-      const fileContents = fs.readFileSync(fullPath, 'utf8')
-      const matterResult = matter(fileContents)
+      const fileContents = fs.readFileSync(fullPath, 'utf8');
+      const matterResult = matter(fileContents);
       return {
          id,
          title: matterResult.data.title
       }
-   })
+   });
    return `export const posts = ${JSON.stringify(posts)}`
 }
 
