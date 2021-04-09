@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "cache-posts": "node scripts/cache.js"
+    "cache-posts": "node scripts/cache.js",
+    "prepare": "husky install"
   },
   "dependencies": {
     "date-fns": "^2.11.1",
@@ -19,10 +20,5 @@
   },
   "devDependencies": {
     "husky": "^6.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn cache-posts && git add cache/data.js"
-    }
   }
 }
