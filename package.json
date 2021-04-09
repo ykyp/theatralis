@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "cache-posts": "node scripts/cache.js",
-    "prepare": "husky install"
+    "postinstall": "husky install"
   },
   "dependencies": {
     "date-fns": "^2.11.1",
