@@ -4,10 +4,25 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
-import Search from '../components/search'
+import { Filter } from '../components/filter';
+import {useState} from "react";
 
 export default function Home({ allPostsData }) {
-  return (
+   const [results, setResults] = useState(allPostsData);
+
+   const searchEndpoint = (query) => `/api/search?q=${query}`;
+
+   const handleCityChange = (e) => {
+      console.log("parent", e.value);
+      fetch(searchEndpoint(e.value.name))
+         .then(res => res.json())
+         .then(res => {
+            setResults(res.results);
+         })
+
+   };
+
+   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
@@ -16,18 +31,22 @@ export default function Home({ allPostsData }) {
         <p>Browse all theatre events in Cyprus</p>
       </section>
 
-       <h2 className={utilStyles.headingLg}>Search</h2>
-       <Search />
+       <Filter onCityChange={handleCityChange} />
+
+
+       {/*<h2 className={utilStyles.headingLg}>Search</h2>
+       <Search />*/}
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Events</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {results.map(({ id, date, title, city }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
+               {city}
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
@@ -40,7 +59,7 @@ export default function Home({ allPostsData }) {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
   return {
     props: {
       allPostsData

@@ -18,7 +18,6 @@ export default function Search() {
          fetch(searchEndpoint(query))
             .then(res => res.json())
             .then(res => {
-
                setResults(res.results)
             })
       } else {

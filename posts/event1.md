@@ -1,6 +1,7 @@
 ---
 title: "Η ΨΙΛΙΚΑΤΖΟΥ"
 date: "2020-01-01"
+city: "Limassol, Nicosia"
 ---
 - Where: LIMASSOL, NICOSIA
 
