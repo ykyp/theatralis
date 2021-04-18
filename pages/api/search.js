@@ -1,6 +1,7 @@
 import { getSortedPostsData } from '../../lib/posts'
 
-const posts = process.env.NODE_ENV === 'production' ? require('../../cache/data').posts : getSortedPostsData();
+//const posts = process.env.NODE_ENV === 'production' ? require('../../cache/data').posts : getSortedPostsData();
+const posts = getSortedPostsData();
 
 export default (req, res) => {
   console.log("posts", posts);
