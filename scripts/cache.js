@@ -13,6 +13,7 @@ function postData() {
       return {
          id,
          title: matterResult.data.title,
+         date: matterResult.data.date,
          city: matterResult.data.city,
       }
    });
