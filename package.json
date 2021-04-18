@@ -7,13 +7,15 @@
     "build": "next build",
     "start": "next start",
     "cache-posts": "node scripts/cache.js",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "prepare": "husky install"
   },
   "dependencies": {
     "classnames": "^2.3.1",
     "date-fns": "^2.11.1",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",
+    "npm-upgrade": "^3.0.0",
     "primeflex": "^2.0.0",
     "primeicons": "^4.1.0",
     "primereact": "^6.2.1",
