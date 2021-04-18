@@ -9,10 +9,12 @@ import {useState} from "react";
 
 export default function Home({ allPostsData }) {
    const [results, setResults] = useState(allPostsData);
+   const [selectedCity, setSelectedCity] = useState(null);
 
    const searchEndpoint = (query) => `/api/search?q=${query}`;
 
    const handleCityChange = (e) => {
+      setSelectedCity(e.value);
       const searchBy = e.value.code === 'ALL'? 'ALL' : e.value.name;
       fetch(searchEndpoint(searchBy))
          .then(res => res.json())
@@ -31,14 +33,15 @@ export default function Home({ allPostsData }) {
         <p>Browse all theatre events in Cyprus</p>
       </section>
 
-       <Filter onCityChange={handleCityChange} />
+       <Filter onCityChange={handleCityChange}
+               selectedCity={selectedCity}/>
 
 
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
        <Search />*/}
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Events</h2>
+        <h2 className={utilStyles.headingLg}>Events {selectedCity && `in ${selectedCity.name}`}</h2>
          { results.length === 0 && <div>No Events found.</div> }
         <ul className={utilStyles.list}>
           {results.map(({ id, startDate, endDate, title, city }) => (

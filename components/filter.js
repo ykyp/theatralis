@@ -13,7 +13,6 @@ const FiltersContainer = styled.section`
    `;
 
 export const Filter = (props) => {
-   const [selectedCity, setSelectedCity] = useState(null);
    const [selectedPeriod, setSelectedPeriod] = useState(null);
 
    const cities = [
@@ -31,7 +30,6 @@ export const Filter = (props) => {
    ];
 
    const onCityChange = (e) => {
-      setSelectedCity(e.value);
       props.onCityChange(e);
    };
 
@@ -46,7 +44,7 @@ export const Filter = (props) => {
             <div className="card">
                <h5>City</h5>
                <Dropdown id="cityDropdown"
-                         value={selectedCity}
+                         value={props.selectedCity}
                          options={cities}
                          onChange={onCityChange}
                          optionLabel="name"
