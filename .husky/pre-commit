@@ -2,3 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo test
+npm run cache-posts
+git add cache/data.js

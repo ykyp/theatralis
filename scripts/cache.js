@@ -12,7 +12,8 @@ function postData() {
       const matterResult = matter(fileContents);
       return {
          id,
-         title: matterResult.data.title
+         title: matterResult.data.title,
+         city: matterResult.data.city,
       }
    });
    return `export const posts = ${JSON.stringify(posts)}`
