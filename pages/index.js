@@ -13,7 +13,6 @@ export default function Home({ allPostsData }) {
    const searchEndpoint = (query) => `/api/search?q=${query}`;
 
    const handleCityChange = (e) => {
-      console.log("parent", e.value);
       fetch(searchEndpoint(e.value.name))
          .then(res => res.json())
          .then(res => {
@@ -39,6 +38,7 @@ export default function Home({ allPostsData }) {
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Events</h2>
+         { results.length === 0 && <div>No Events found.</div> }
         <ul className={utilStyles.list}>
           {results.map(({ id, date, title, city }) => (
             <li className={utilStyles.listItem} key={id}>
