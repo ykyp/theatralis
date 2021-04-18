@@ -1,20 +1,22 @@
 ---
-title: "Test"
-date: "2020-01-01"
-city: "Limassol, Nicosia"
+title: "ΜΙΑ ΖΩΗ ΓΕΡΜΑΝΙΚΗ"
+startDate: "2021-04-21"
+endDate: "2021-04-24"
+city: "Nicosia"
 ---
-- Where: LIMASSOL, NICOSIA
+Where: SATIRIKO THEATRE NICOSIA
 
-- When: 16/04/2021 - 22/04/2021
+When: 21/04/2021 - 24/04/2021
 
-- Tickets: €15 | €10 (actors, pensioners, students)
+Tickets: €12
 
-- Duration: 60'
+Duration: 100'
 
-- Language: Greek
+Language: Greek
 
 
 **About the event:**
 
-Lorem ipsum
+Για 6 μόνο παραστάσεις επιστρέφει η Δέσποινα Μπεμπεδέλη στην παράσταση «Μια Ζωή Γερμανική» του Κρίστοφερ Χάμπτον, σε σκηνοθεσία Ανδρέα Αραούζου.
+Διαθέσιμες Θέσεις: 50
 

@@ -1,6 +1,7 @@
 ---
 title: "Η ΨΙΛΙΚΑΤΖΟΥ"
-date: "2020-01-01"
+startDate: "2021-03-31"
+endDate: "2021-04-22"
 city: "Limassol, Nicosia"
 ---
 - Where: LIMASSOL, NICOSIA

@@ -13,7 +13,8 @@ export default function Home({ allPostsData }) {
    const searchEndpoint = (query) => `/api/search?q=${query}`;
 
    const handleCityChange = (e) => {
-      fetch(searchEndpoint(e.value.name))
+      const searchBy = e.value.code === 'ALL'? 'ALL' : e.value.name;
+      fetch(searchEndpoint(searchBy))
          .then(res => res.json())
          .then(res => {
             setResults(res.results);
@@ -40,15 +41,14 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Events</h2>
          { results.length === 0 && <div>No Events found.</div> }
         <ul className={utilStyles.list}>
-          {results.map(({ id, date, title, city }) => (
+          {results.map(({ id, startDate, endDate, title, city }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
-               {city}
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                 {city}, <Date dateString={startDate} /> - <Date dateString={endDate} />
               </small>
             </li>
           ))}
