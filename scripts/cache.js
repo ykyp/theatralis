@@ -13,7 +13,8 @@ function postData() {
       return {
          id,
          title: matterResult.data.title,
-         date: matterResult.data.date,
+         startDate: matterResult.data.startDate,
+         endDate: matterResult.data.endDate,
          city: matterResult.data.city,
       }
    });
