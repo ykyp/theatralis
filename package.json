@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "cache-posts": "node scripts/cache.js",
-    "postinstall": "husky install; node scripts/cache.js",
+    "postinstall": "npm run cache-posts",
     "prepare": "husky install"
   },
   "dependencies": {
