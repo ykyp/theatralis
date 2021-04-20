@@ -4,19 +4,21 @@ import 'primereact/resources/primereact.css';
 import 'primeflex/primeflex.css';
 import styled from 'styled-components'
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Dropdown } from 'primereact/dropdown';
 
 const FiltersContainer = styled.section`
       display: flex;
-      justify-content: space-between;      
+      justify-content: normal;      
+   `;
+
+const WithMargin = styled.div`
+      margin-left: 25px;      
    `;
 
 export const Filter = (props) => {
-   const [selectedPeriod, setSelectedPeriod] = useState(null);
-
    const cities = [
-      { name: 'All', code: 'ALL' },
+      { name: 'Anywhere', code: 'ALL' },
       { name: 'Nicosia', code: 'NIC' },
       { name: 'Limassol', code: 'LIM' },
       { name: 'Larnaca', code: 'LAR' },
@@ -24,6 +26,7 @@ export const Filter = (props) => {
    ];
 
    const periods = [
+      { name: 'Anytime', code: 'ALL' },
       { name: 'This week', code: 'THIS_WEEK' },
       { name: 'Next week', code: 'NEXT_WEEK' },
       { name: 'This month', code: 'THIS_MONTH' },
@@ -34,34 +37,31 @@ export const Filter = (props) => {
    };
 
    const onPeriodChange = (e) => {
-      setSelectedPeriod(e.value);
       props.onPeriodChange(e);
    };
 
    return (
       <FiltersContainer>
-         <div className="dropdown-demo">
             <div className="card">
-               <h5>City</h5>
+               <h3>Where</h3>
                <Dropdown id="cityDropdown"
+                         key="cityDropdown"
                          value={props.selectedCity}
                          options={cities}
                          onChange={onCityChange}
                          optionLabel="name"
                          placeholder="Select where" />
             </div>
-         </div>
-         {/*<div className="dropdown-demo">
-            <div className="card">
-               <h5>Period</h5>
+            <WithMargin>
+               <h3>When</h3>
                <Dropdown id="periodDropdown"
-                         value={selectedPeriod}
+                         key="periodDropdown"
+                         value={props.selectedPeriod}
                          options={periods}
                          onChange={onPeriodChange}
                          optionLabel="name"
                          placeholder="Select when" />
-            </div>
-         </div>*/}
+            </WithMargin>
       </FiltersContainer>
    );
 };

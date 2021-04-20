@@ -5,23 +5,38 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import { Filter } from '../components/filter';
-import {useState} from "react";
+import { useState, useEffect } from 'react';
 
 export default function Home({ allPostsData }) {
    const [results, setResults] = useState(allPostsData);
-   const [selectedCity, setSelectedCity] = useState(null);
+   const [selectedCity, setSelectedCity] = useState({ name: 'Anywhere', code: 'ALL' });
+   const [selectedPeriod, setSelectedPeriod] = useState({ name: 'Anytime', code: 'ALL' });
 
-   const searchEndpoint = (query) => `/api/search?q=${query}`;
+   const searchEndpoint = (city, period) => `/api/search?city=${city}&period=${period}`;
 
    const handleCityChange = (e) => {
       setSelectedCity(e.value);
-      const searchBy = e.value.code === 'ALL'? 'ALL' : e.value.name;
-      fetch(searchEndpoint(searchBy))
+   };
+
+   const handlePeriodChange = (e) => {
+      setSelectedPeriod(e.value);
+
+   };
+
+   useEffect(() => {
+      searchEvents();
+   }, [selectedPeriod, selectedCity]);
+
+   const searchEvents = () => {
+      const query = {
+         city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity.name,
+         period: selectedPeriod.code
+      };
+      fetch(searchEndpoint(query.city, query.period))
          .then(res => res.json())
          .then(res => {
             setResults(res.results);
-         })
-
+         });
    };
 
    return (
@@ -34,7 +49,10 @@ export default function Home({ allPostsData }) {
       </section>
 
        <Filter onCityChange={handleCityChange}
-               selectedCity={selectedCity}/>
+               selectedCity={selectedCity}
+               onPeriodChange={handlePeriodChange}
+               selectedPeriod={selectedPeriod}
+       />
 
 
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
