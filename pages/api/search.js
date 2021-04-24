@@ -1,9 +1,7 @@
 import { getSortedPostsData } from '../../lib/posts'
-import { parseISO } from 'date-fns'
+import { isInThisWeek, isInNextWeek, isInThisMonth } from '../../components/date'
 
 const posts = process.env.NODE_ENV === 'production' ? require('../../cache/data').posts : getSortedPostsData();
-
-const isBetween = (date, min, max) => (date.getTime() >= min.getTime() && date.getTime() <= max.getTime());
 
 const intersect = (a, b) => {
    return a.filter(Set.prototype.has, new Set(b));
@@ -11,8 +9,7 @@ const intersect = (a, b) => {
 
 export default (req, res) => {
    let results = [];
-  console.log("posts", posts);
-   if (req.query.city === 'ALL') {
+   if (req.query.city === 'ALL' && req.query.period == 'ALL') {
       results = posts;
    } else {
       const matchingCities = req.query.city !== 'ALL' ?
@@ -25,13 +22,15 @@ export default (req, res) => {
             break;
          case 'THIS_WEEK':
             matchingPeriods = posts.filter(post =>
-               isBetween(new Date(), parseISO(post.startDate), parseISO(post.endDate)));
+               isInThisWeek(post.startDate, post.endDate));
             break;
          case 'NEXT_WEEK':
-            matchingPeriods = posts;
+            matchingPeriods = posts.filter(post =>
+               isInNextWeek(post.startDate, post.endDate));
             break;
          case 'THIS_MONTH':
-            matchingPeriods = posts;
+            matchingPeriods = posts.filter(post =>
+               isInThisMonth(post.startDate, post.endDate));
             break;
          default:
             matchingPeriods = posts;

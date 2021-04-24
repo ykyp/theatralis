@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
-import Date from '../components/date'
+import FormattedDate from '../components/date'
 import { Filter } from '../components/filter';
 import { useState, useEffect } from 'react';
 
@@ -69,7 +69,7 @@ export default function Home({ allPostsData }) {
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                 {city}, <Date dateString={startDate} /> - <Date dateString={endDate} />
+                 {city}, <FormattedDate dateString={startDate} /> - <FormattedDate dateString={endDate} />
               </small>
             </li>
           ))}
