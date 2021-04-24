@@ -15,6 +15,7 @@ export default function Post({ postData }) {
         <div className={utilStyles.lightText}>
           <FormattedDate dateString={postData.startDate} /> - <FormattedDate dateString={postData.endDate} />
         </div>
+        <h3>For {postData.audience}</h3>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>

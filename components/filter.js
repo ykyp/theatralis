@@ -32,12 +32,22 @@ export const Filter = (props) => {
       { name: 'This month', code: 'THIS_MONTH' },
    ];
 
+   const audiences = [
+      { name: 'Everyone', code: 'ALL' },
+      { name: 'Adults', code: 'ADULTS' },
+      { name: 'Children', code: 'children' },
+   ];
+
    const onCityChange = (e) => {
       props.onCityChange(e);
    };
 
    const onPeriodChange = (e) => {
       props.onPeriodChange(e);
+   };
+
+   const onAudienceChange = (e) => {
+      props.onAudienceChange(e);
    };
 
    return (
@@ -62,6 +72,16 @@ export const Filter = (props) => {
                          optionLabel="name"
                          placeholder="Select when" />
             </WithMargin>
+         <WithMargin>
+            <h3>For</h3>
+            <Dropdown id="agesDropdown"
+                      key="agesDropdown"
+                      value={props.selectedAudience}
+                      options={audiences}
+                      onChange={onAudienceChange}
+                      optionLabel="name"
+                      placeholder="Select audience" />
+         </WithMargin>
       </FiltersContainer>
    );
 };

@@ -16,6 +16,7 @@ function postData() {
          startDate: matterResult.data.startDate,
          endDate: matterResult.data.endDate,
          city: matterResult.data.city,
+         audience: matterResult.data.audience,
       }
    });
    return `export const posts = ${JSON.stringify(posts)}`

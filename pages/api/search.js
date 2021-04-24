@@ -1,15 +1,14 @@
 import { getSortedPostsData } from '../../lib/posts'
 import { isInThisWeek, isInNextWeek, isInThisMonth } from '../../components/date'
+import { intersection } from 'lodash';
 
 const posts = process.env.NODE_ENV === 'production' ? require('../../cache/data').posts : getSortedPostsData();
 
-const intersect = (a, b) => {
-   return a.filter(Set.prototype.has, new Set(b));
-};
 
 export default (req, res) => {
    let results = [];
-   if (req.query.city === 'ALL' && req.query.period == 'ALL') {
+   if (req.query.city === 'ALL' && req.query.period == 'ALL'
+      && req.query.audience == 'ALL') {
       results = posts;
    } else {
       const matchingCities = req.query.city !== 'ALL' ?
@@ -35,7 +34,16 @@ export default (req, res) => {
          default:
             matchingPeriods = posts;
       }
-      results = intersect(matchingCities, matchingPeriods);
+
+      const matchingAudience = req.query.audience !== 'ALL' ?
+         posts.filter(post =>  req.query.audience.toLowerCase() === "children" ?
+            post.audience.toLowerCase() === "children" :
+            post.audience.toLowerCase() ===
+            req.query.audience.toLowerCase() ||
+            post.audience.toLowerCase() === 'all')
+         : posts;
+
+      results = intersection(matchingCities, matchingPeriods, matchingAudience);
    }
   res.statusCode = 200;
   res.setHeader('Content-Type', 'application/json');

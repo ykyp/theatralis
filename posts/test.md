@@ -3,6 +3,7 @@ title: "ΜΙΑ ΖΩΗ ΓΕΡΜΑΝΙΚΗ"
 startDate: "2021-04-21"
 endDate: "2021-04-24"
 city: "Nicosia"
+audience: "all"
 ---
 Where: SATIRIKO THEATRE NICOSIA
 
