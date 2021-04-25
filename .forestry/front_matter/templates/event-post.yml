@@ -20,3 +20,5 @@ fields:
   config:
     required: true
   default: all
+pages:
+- posts/female-ink.md
