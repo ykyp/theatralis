@@ -8,9 +8,15 @@ fields:
 - type: datetime
   name: startDate
   label: startDate
+  config:
+    date_format: YYYY-MM-DD
+    export_format: YYYY-MM-DD
 - type: datetime
   name: endDate
   label: endDate
+  config:
+    date_format: YYYY-MM-DD
+    export_format: YYYY-MM-DD
 - type: text
   name: city
   label: city
