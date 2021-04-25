@@ -4,8 +4,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Cyprus theatre listing';
-export const siteTitle = 'Cyprus theatre listing';
+const name = 'Theatralis';
+export const siteTitle = 'Theatralis - Cyprus theatre listing';
 
 export default function Layout({ children, home }) {
   return (
@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/theatralis.jpeg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/theatralis.jpeg"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
