@@ -6,12 +6,15 @@ fields:
   name: title
   label: Title
   description: "<strong>The title of the theatre event</strong>"
+  config:
+    required: true
 - type: datetime
   name: startDate
   label: Start Date
   config:
     date_format: YYYY-MM-DD
     export_format: YYYY-MM-DD
+    required: true
   description: "<strong>When the theatre events starts</strong>"
 - type: datetime
   name: endDate
@@ -19,11 +22,14 @@ fields:
   config:
     date_format: YYYY-MM-DD
     export_format: YYYY-MM-DD
+    required: true
   description: "<strong>When the theatre event ends</strong>"
 - type: text
   name: city
   label: 'City '
   description: "<strong>Add all cities with a comma<br>eg: Nicosia, Limassol</strong>"
+  config:
+    required: true
 - type: text
   name: audience
   label: 'Audience '
