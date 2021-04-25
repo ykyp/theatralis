@@ -28,25 +28,16 @@ Actor: Mara Constantinou
 
 Musicians: Michalis Messios (Double-bass, bass), Ioannis Vafeas (drums, percussion), Iacovos Parpas (flute, saxophone), Konstantinos Demirtzoglou (violin), Christos Υerolatsitis (piano), Alexandros Komodros (el. guitar)
 
-Lighting design: Vasilis Petinaris
-
-Costume editor: Panos Yerolemides
-
-Scene design: Pavlina Evgeniou
-
-Makeup: Andria Anastasiadou
-
-Sound engineer: Christos Chrysanthou
-
-Video art handling: Petros Koshis
-
-Lighting operation: Andreas Markitanis
-
-Organization & artistic direction: Dream Theatre Productions
-
-Photographic material: Dimitris Vattis
-
-Video recording: Nicholas Demetriou
+* Lighting design: Vasilis Petinaris
+* Costume editor: Panos Yerolemides
+* Scene design: Pavlina Evgeniou
+* Makeup: Andria Anastasiadou
+* Sound engineer: Christos Chrysanthou
+* Video art handling: Petros Koshis
+* Lighting operation: Andreas Markitanis
+* Organization & artistic direction: Dream Theatre Productions
+* Photographic material: Dimitris Vattis
+* Video recording: Nicholas Demetriou
 
 _The play is dedicated to Ritsa Economou, grandmother of Mara and Nicolas Constantinou, an exceptional woman, who in turn left her own mark on history, both as a person and as an artist._
 
