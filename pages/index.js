@@ -76,7 +76,7 @@ export default function Home({ allPostsData }) {
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                 {city}, <FormattedDate dateString={startDate} /> - <FormattedDate dateString={endDate} />
+                 {city}, {/*<FormattedDate dateString={startDate} /> - <FormattedDate dateString={endDate} />*/}
               </small>
             </li>
           ))}

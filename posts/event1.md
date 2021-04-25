@@ -1,7 +1,7 @@
 ---
 title: "Η ΨΙΛΙΚΑΤΖΟΥ"
-startDate: "2021-03-31"
-endDate: "2021-04-17"
+startDate: 2021-03-31T21:00:00Z
+endDate: 2021-04-17T21:00:00Z
 city: "Limassol, Nicosia"
 audience: "all"
 ---

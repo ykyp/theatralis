@@ -1,7 +1,7 @@
 ---
 title: "ΛΕΥΚΕΣ ΝΥΧΤΕΣ"
-startDate: "2021-04-17"
-endDate: "2021-05-23"
+startDate: 2021-04-17T21:00:00Z
+endDate: 2021-05-23T21:00:00Z
 city: "NICOSIA, LIMASSOL"
 audience: "adults"
 ---

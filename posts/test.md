@@ -1,7 +1,7 @@
 ---
 title: "ΜΙΑ ΖΩΗ ΓΕΡΜΑΝΙΚΗ"
-startDate: "2021-04-21"
-endDate: "2021-04-24"
+startDate: 2021-04-21T21:00:00Z
+endDate: 2021-04-24T21:00:00Z
 city: "Nicosia"
 audience: "all"
 ---

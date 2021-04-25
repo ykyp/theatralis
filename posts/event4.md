@@ -1,7 +1,7 @@
 ---
 title: "OI FASOULIDES TOU KATSIPORA"
-startDate: "2021-03-14"
-endDate: "2021-04-25"
+startDate: 2021-03-14T21:00:00Z
+endDate: 2021-04-25T21:00:00Z
 city: "NICOSIA"
 audience: "children"
 ---

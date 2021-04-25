@@ -1,7 +1,7 @@
 ---
 title: "«ΕΓΚΛΗΜΑΤΑ ΚΑΡΔΙΑΣ»"
-startDate: "2021-03-26"
-endDate: "2021-04-25"
+startDate: 2021-03-26T21:00:00Z
+endDate: 2021-04-25T21:00:00Z
 city: "Pafos"
 audience: "all"
 ---

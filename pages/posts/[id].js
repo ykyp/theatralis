@@ -13,7 +13,7 @@ export default function Post({ postData }) {
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
-          <FormattedDate dateString={postData.startDate} /> - <FormattedDate dateString={postData.endDate} />
+          {/*<FormattedDate dateString={postData.startDate} /> - <FormattedDate dateString={postData.endDate} />*/}
         </div>
         <h3>For {postData.audience}</h3>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
