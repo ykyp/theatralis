@@ -49,8 +49,8 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>Find all theatre events in Cyprus</p>
+      <section className={`${utilStyles.headingMd} ${utilStyles.textAlignCenter}`}>
+        <h2>Find all theatre events in Cyprus</h2>
       </section>
 
        <Filter onCityChange={handleCityChange}
