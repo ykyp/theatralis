@@ -17,3 +17,6 @@ fields:
 - type: text
   name: audience
   label: audience
+  config:
+    required: true
+  default: all
