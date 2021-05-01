@@ -6,14 +6,19 @@ import Link from 'next/link'
 import FormattedDate from '../components/date'
 import { Filter } from '../components/filter';
 import { useState, useEffect } from 'react';
+import { Paginator } from 'primereact/paginator';
 
 export default function Home({ allPostsData }) {
-   const [results, setResults] = useState(allPostsData);
+   const [results, setResults] = useState([]);
    const [selectedCity, setSelectedCity] = useState({ name: 'Anywhere', code: 'ALL' });
    const [selectedPeriod, setSelectedPeriod] = useState({ name: 'Anytime', code: 'ALL' });
    const [selectedAudience, setSelectedAudience] = useState({ name: 'Everyone', code: 'ALL' });
+   const [pageFirst, setPageFirst] = useState(0);
+   const [currentPage, setCurrentPage] = useState(0);
+   const [rowsPerPage, setRowsPerPage] = useState(10);
+   const [currentTotalCount, setCurrentTotalCount] = useState(allPostsData.length);
 
-   const searchEndpoint = (city, period, audience) => `/api/search?city=${city}&period=${period}&audience=${audience}`;
+   const searchEndpoint = (city, period, audience, page, rows) => `/api/search?city=${city}&period=${period}&audience=${audience}&page=${page}&rows=${rows}`;
 
    const handleCityChange = (e) => {
       setSelectedCity(e.value);
@@ -27,20 +32,33 @@ export default function Home({ allPostsData }) {
       setSelectedAudience(e.value);
    };
 
+   const onBasicPageChange = (event) => {
+      setCurrentPage(event.page); 
+      setPageFirst(event.first); 
+      setRowsPerPage(event.rows);
+   };
+
    useEffect(() => {
       searchEvents();
-   }, [selectedPeriod, selectedCity, selectedAudience]);
+   }, [selectedPeriod, selectedCity, selectedAudience, currentPage]);
 
    const searchEvents = () => {
       const query = {
          city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity.name,
          period: selectedPeriod.code,
          audience:  selectedAudience.code === 'ALL'? 'ALL' : selectedAudience.name,
+         page: currentPage,
+         rows: rowsPerPage,
       };
-      fetch(searchEndpoint(query.city, query.period, query.audience))
+      fetch(searchEndpoint(query.city,
+         query.period,
+         query.audience,
+         query.page,
+         query.rows))
          .then(res => res.json())
          .then(res => {
             setResults(res.results);
+            setCurrentTotalCount(res.totalLength);
          });
    };
 
@@ -82,6 +100,13 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+
+       <Paginator first={pageFirst}
+                  rows={rowsPerPage}
+                  totalRecords={currentTotalCount}
+                  rowsPerPageOptions={[10, 20, 30]}
+                  onPageChange={onBasicPageChange}>
+       </Paginator>
     </Layout>
   )
 }
@@ -90,7 +115,7 @@ export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
     props: {
-      allPostsData
+      allPostsData,
     }
   }
 }
