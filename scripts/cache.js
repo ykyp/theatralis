@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 
-function postData() {
-   const postsDirectory = path.join(process.cwd(), 'posts');
+function eventData() {
+   const postsDirectory = path.join(process.cwd(), 'events');
    const fileNames = fs.readdirSync(postsDirectory);
-   const posts = fileNames.map(fileName => {
+   const events = fileNames.map(fileName => {
       const id = fileName.replace(/\.md$/, '');
       const fullPath = path.join(postsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
@@ -19,7 +19,7 @@ function postData() {
          audience: matterResult.data.audience,
       }
    });
-   return `export const posts = ${JSON.stringify(posts)}`
+   return `export const events = ${JSON.stringify(events)}`
 }
 
 try {
@@ -28,7 +28,7 @@ try {
    fs.mkdirSync('cache')
 }
 
-fs.writeFile('cache/data.js', postData(), function (err) {
+fs.writeFile('cache/data.js', eventData(), function (err) {
    if (err) return console.log(err);
-   console.log('Posts cached.');
+   console.log('Events cached.');
 });

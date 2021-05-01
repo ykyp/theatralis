@@ -1,5 +1,5 @@
 ---
-label: Event Post
+label: Event Details
 hide_body: false
 fields:
 - type: text
@@ -38,6 +38,6 @@ fields:
   default: all
   description: <strong>Add either of "all", "adults", "children".</strong>
 pages:
-- posts/female-ink.md
-- posts/για-τησ-μαρουλλουσ-τ-αμμαθκια.md
-- posts/η-σκοτεινη-πετρα.md
+- events/female-ink.md
+- events/για-τησ-μαρουλλουσ-τ-αμμαθκια.md
+- events/η-σκοτεινη-πετρα.md

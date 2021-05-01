@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
+import { getSortedEventsData } from '../lib/events'
 import Link from 'next/link'
 import FormattedDate from '../components/date'
 import { Filter } from '../components/filter';
 import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
 
-export default function Home({ allPostsData }) {
+export default function Home({ allEventsData }) {
    const [results, setResults] = useState([]);
    const [selectedCity, setSelectedCity] = useState({ name: 'Anywhere', code: 'ALL' });
    const [selectedPeriod, setSelectedPeriod] = useState({ name: 'Anytime', code: 'ALL' });
@@ -16,7 +16,7 @@ export default function Home({ allPostsData }) {
    const [pageFirst, setPageFirst] = useState(0);
    const [currentPage, setCurrentPage] = useState(0);
    const [rowsPerPage, setRowsPerPage] = useState(10);
-   const [currentTotalCount, setCurrentTotalCount] = useState(allPostsData.length);
+   const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
 
    const searchEndpoint = (city, period, audience, page, rows) => `/api/search?city=${city}&period=${period}&audience=${audience}&page=${page}&rows=${rows}`;
 
@@ -112,10 +112,10 @@ export default function Home({ allPostsData }) {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+  const allEventsData = getSortedEventsData();
   return {
     props: {
-      allPostsData,
+      allEventsData: allEventsData,
     }
   }
 }

@@ -1,8 +1,8 @@
-import { getSortedPostsData } from '../../lib/posts'
+import { getSortedEventsData } from '../../lib/events'
 import { isInThisWeek, isInNextWeek, isInThisMonth } from '../../components/date'
 import { intersection } from 'lodash';
 
-const posts = process.env.NODE_ENV === 'production' ? require('../../cache/data').posts : getSortedPostsData();
+const events = process.env.NODE_ENV === 'production' ? require('../../cache/data').events : getSortedEventsData();
 
 const paginateResults = (results, query) => {
   const page = query.page || 1;
@@ -17,40 +17,40 @@ export default (req, res) => {
    let totalLength = 0;
    if (req.query.city === 'ALL' && req.query.period == 'ALL'
       && req.query.audience == 'ALL') {
-      totalLength = posts.length;
-      results =  paginateResults(posts, req.query);
+      totalLength = events.length;
+      results =  paginateResults(events, req.query);
    } else {
       const matchingCities = req.query.city !== 'ALL' ?
-         posts.filter(post => post.city.toLowerCase().includes(req.query.city.toLowerCase())) : posts;
+         events.filter(event => event.city.toLowerCase().includes(req.query.city.toLowerCase())) : events;
 
       let matchingPeriods = [];
       switch (req.query.period) {
          case 'ALL':
-            matchingPeriods = posts;
+            matchingPeriods = events;
             break;
          case 'THIS_WEEK':
-            matchingPeriods = posts.filter(post =>
-               isInThisWeek(post.startDate, post.endDate));
+            matchingPeriods = events.filter(event =>
+               isInThisWeek(event.startDate, event.endDate));
             break;
          case 'NEXT_WEEK':
-            matchingPeriods = posts.filter(post =>
-               isInNextWeek(post.startDate, post.endDate));
+            matchingPeriods = events.filter(event =>
+               isInNextWeek(event.startDate, event.endDate));
             break;
          case 'THIS_MONTH':
-            matchingPeriods = posts.filter(post =>
-               isInThisMonth(post.startDate, post.endDate));
+            matchingPeriods = events.filter(event =>
+               isInThisMonth(event.startDate, event.endDate));
             break;
          default:
-            matchingPeriods = posts;
+            matchingPeriods = events;
       }
 
       const matchingAudience = req.query.audience !== 'ALL' ?
-         posts.filter(post =>  req.query.audience.toLowerCase() === "children" ?
-            post.audience.toLowerCase() === "children" :
-            post.audience.toLowerCase() ===
+         events.filter(event =>  req.query.audience.toLowerCase() === "children" ?
+            event.audience.toLowerCase() === "children" :
+            event.audience.toLowerCase() ===
             req.query.audience.toLowerCase() ||
-            post.audience.toLowerCase() === 'all')
-         : posts;
+            event.audience.toLowerCase() === 'all')
+         : events;
 
       const intersectedResults = intersection(matchingCities, matchingPeriods, matchingAudience);
       totalLength = intersectedResults.length;
