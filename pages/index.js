@@ -96,7 +96,7 @@ export default function Home({ allEventsData }) {
               <small className={utilStyles.lightText}>
                  {city}, {/*<FormattedDate dateString={startDate} /> - <FormattedDate dateString={endDate} />*/}
               </small>
-               { event_image && <img width={35} height={35} src={`public/images/upload/${event_image}`}/> }
+               { event_image && <img width={35} height={35} src={event_image}/> }
             </li>
           ))}
         </ul>
