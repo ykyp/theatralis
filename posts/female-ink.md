@@ -6,7 +6,7 @@ endDate: 2021-05-02T21:00:00Z
 city: Nicosia
 
 ---
-_![](/uploads/gm290.jpeg)_
+_![](../uploads/gm290.jpeg)_
 
 ## More about the event:
 
