@@ -46,7 +46,7 @@ export default function Search() {
             className={styles.search}
             onChange={onChange}
             onFocus={onFocus}
-            placeholder='Search posts'
+            placeholder='Search events'
             type='text'
             value={query}
          />
@@ -54,7 +54,7 @@ export default function Search() {
             <ul className={styles.results}>
                {results.map(({ id, title }) => (
                   <li className={styles.result} key={id}>
-                     <Link href="/events/[id]" as={`/posts/${id}`}>
+                     <Link href="/events/[id]" as={`/events/${id}`}>
                         <a>{title}</a>
                      </Link>
                   </li>

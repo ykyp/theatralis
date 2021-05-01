@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "node scripts/cache.js; next build",
     "start": "next start",
-    "cache-posts": "node scripts/cache.js",
+    "cache-events": "node scripts/cache.js",
     "postinstall": "husky install; node scripts/cache.js",
     "prepare": "husky install"
   },

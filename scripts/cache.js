@@ -3,11 +3,11 @@ const path = require('path');
 const matter = require('gray-matter');
 
 function eventData() {
-   const postsDirectory = path.join(process.cwd(), 'events');
-   const fileNames = fs.readdirSync(postsDirectory);
+   const eventsDirectory = path.join(process.cwd(), 'events');
+   const fileNames = fs.readdirSync(eventsDirectory);
    const events = fileNames.map(fileName => {
       const id = fileName.replace(/\.md$/, '');
-      const fullPath = path.join(postsDirectory, fileName);
+      const fullPath = path.join(eventsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
       const matterResult = matter(fileContents);
       return {
