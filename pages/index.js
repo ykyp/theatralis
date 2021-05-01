@@ -89,7 +89,7 @@ export default function Home({ allEventsData }) {
         <ul className={utilStyles.list}>
           {results.map(({ id, startDate, endDate, title, city }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
+              <Link href={`/events/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
