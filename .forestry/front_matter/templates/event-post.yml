@@ -37,6 +37,12 @@ fields:
     required: true
   default: all
   description: <strong>Add either of "all", "adults", "children".</strong>
+- name: event_image
+  type: file
+  config:
+    maxSize: 64
+  label: Event Image
+  description: This will be shown in the homepage list
 pages:
 - events/female-ink.md
 - events/για-τησ-μαρουλλουσ-τ-αμμαθκια.md
