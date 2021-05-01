@@ -87,7 +87,7 @@ export default function Home({ allEventsData }) {
         <h2 className={utilStyles.headingLg}>Events {selectedCity && `in ${selectedCity.name}`}</h2>
          { results.length === 0 && <div>No Events found.</div> }
         <ul className={utilStyles.list}>
-          {results.map(({ id, startDate, endDate, title, city }) => (
+          {results.map(({ id, startDate, endDate, title, city, event_image }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/events/${id}`}>
                 <a>{title}</a>
@@ -96,6 +96,7 @@ export default function Home({ allEventsData }) {
               <small className={utilStyles.lightText}>
                  {city}, {/*<FormattedDate dateString={startDate} /> - <FormattedDate dateString={endDate} />*/}
               </small>
+               { event_image && <img width={35} height={35} src={`public/images/upload/${event_image}`}/> }
             </li>
           ))}
         </ul>

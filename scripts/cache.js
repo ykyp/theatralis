@@ -17,6 +17,7 @@ function eventData() {
          endDate: matterResult.data.endDate,
          city: matterResult.data.city,
          audience: matterResult.data.audience,
+         event_image: matterResult.data.event_image,
       }
    });
    return `export const events = ${JSON.stringify(events)}`
