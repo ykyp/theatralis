@@ -7,6 +7,7 @@ import FormattedDate from '../components/date'
 import { Filter } from '../components/filter';
 import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
+import * as ga from '../lib/ga'
 
 export default function Home({ allEventsData }) {
    const [results, setResults] = useState([]);
@@ -60,6 +61,13 @@ export default function Home({ allEventsData }) {
             setResults(res.results);
             setCurrentTotalCount(res.totalLength);
          });
+
+      ga.event({
+         action: "search",
+         params : {
+            search_term: selectedCity.code
+         }
+      })
    };
 
    return (
