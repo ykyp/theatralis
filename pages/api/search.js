@@ -46,7 +46,7 @@ export default (req, res) => {
 
       const matchingAudience = req.query.audience !== 'ALL' ?
          events.filter(event =>  req.query.audience.toLowerCase() === "children" ?
-            event.audience.toLowerCase() === "children" :
+            event.audience.toLowerCase() === "children" || event.audience.toLowerCase() === 'all':
             event.audience.toLowerCase() ===
             req.query.audience.toLowerCase() ||
             event.audience.toLowerCase() === 'all')
