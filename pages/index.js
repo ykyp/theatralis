@@ -10,11 +10,33 @@ import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
 import * as ga from '../lib/ga'
 
+const SELECTED_CITY_KEY = 'th.selectedCity';
+const SELECTED_AUDIENCE_KEY = 'th.selectedAudience';
+const SELECTED_PERIOD_KEY = 'th.selectedPeriod';
+
+function useStickyState(defaultValue, key) {
+   const [value, setValue] = useState(defaultValue);
+
+   useEffect(() => {
+      const stickyValue = window.localStorage.getItem(key);
+
+      if (stickyValue !== null) {
+         setValue(JSON.parse(stickyValue));
+      }
+   }, [key]);
+
+   useEffect(() => {
+      window.localStorage.setItem(key, JSON.stringify(value));
+   }, [key, value]);
+
+   return [value, setValue];
+}
+
 export default function Home({ allEventsData }) {
    const [results, setResults] = useState([]);
-   const [selectedCity, setSelectedCity] = useState({ name: 'Anywhere', code: 'ALL' });
-   const [selectedPeriod, setSelectedPeriod] = useState({ name: 'Anytime', code: 'ALL' });
-   const [selectedAudience, setSelectedAudience] = useState({ name: 'Everyone', code: 'ALL' });
+   const [selectedCity, setSelectedCity] = useStickyState({ name: 'Anywhere', code: 'ALL' }, SELECTED_CITY_KEY);
+   const [selectedPeriod, setSelectedPeriod] = useStickyState( { name: 'Anytime', code: 'ALL' }, SELECTED_PERIOD_KEY);
+   const [selectedAudience, setSelectedAudience] =  useStickyState( { name: 'Everyone', code: 'ALL' }, SELECTED_AUDIENCE_KEY);
    const [pageFirst, setPageFirst] = useState(0);
    const [currentPage, setCurrentPage] = useState(0);
    const [rowsPerPage, setRowsPerPage] = useState(10);
@@ -23,14 +45,17 @@ export default function Home({ allEventsData }) {
    const searchEndpoint = (city, period, audience, page, rows) => `/api/search?city=${city}&period=${period}&audience=${audience}&page=${page}&rows=${rows}`;
 
    const handleCityChange = (e) => {
+      localStorage.setItem(SELECTED_CITY_KEY, JSON.stringify(e.value));
       setSelectedCity(e.value);
    };
 
    const handlePeriodChange = (e) => {
+      localStorage.setItem(SELECTED_PERIOD_KEY, JSON.stringify(e.value));
       setSelectedPeriod(e.value);
    };
 
    const handleAudienceChange = (e) => {
+      localStorage.setItem(SELECTED_AUDIENCE_KEY, JSON.stringify(e.value));
       setSelectedAudience(e.value);
    };
 
