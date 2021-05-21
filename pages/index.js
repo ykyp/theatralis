@@ -5,6 +5,7 @@ import { getSortedEventsData } from '../lib/events'
 import Link from 'next/link'
 import FormattedDate from '../components/date'
 import { Filter } from '../components/filter';
+import { ListingEvent } from '../components/listing-event';
 import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
 import * as ga from '../lib/ga'
@@ -94,20 +95,11 @@ export default function Home({ allEventsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Events {selectedCity && `in ${selectedCity.name}`}</h2>
          { results.length === 0 && <div>No Events found.</div> }
-        <ul className={utilStyles.list}>
-          {results.map(({ id, startDate, endDate, title, city, event_image }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/events/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                 {city}, {/*<FormattedDate dateString={startDate} /> - <FormattedDate dateString={endDate} />*/}
-              </small>
-               { event_image && <img width={35} height={35} src={event_image}/> }
-            </li>
+        <div className={utilStyles.list}>
+          {results.map((event) => (
+             <ListingEvent event={event} />
           ))}
-        </ul>
+        </div>
       </section>
 
        <Paginator first={pageFirst}
