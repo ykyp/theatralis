@@ -10,14 +10,16 @@ export default function Event({ eventData: eventData }) {
       <Head>
         <title>{eventData.title}</title>
       </Head>
-      <article className="prose prose-purple">
-        <h1 className={utilStyles.headingXl}>{eventData.title}</h1>
-        <div className={utilStyles.lightText}>
-          {/*<FormattedDate dateString={eventData.startDate} /> - <FormattedDate dateString={eventData.endDate} />*/}
-        </div>
-        <h3>For {eventData.audience}</h3>
-        <div dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
-      </article>
+      <div className="w-full flex justify-around">
+        <article className="prose prose-purple ">
+          <h1 className={utilStyles.headingXl}>{eventData.title}</h1>
+          <div className={utilStyles.lightText}>
+            {/*<FormattedDate dateString={eventData.startDate} /> - <FormattedDate dateString={eventData.endDate} />*/}
+          </div>
+          <h3>For {eventData.audience}</h3>
+          <div dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
+        </article>
+      </div>
     </Layout>
   )
 }

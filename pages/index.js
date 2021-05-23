@@ -101,9 +101,10 @@ export default function Home({ allEventsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={`${utilStyles.headingMd} ${utilStyles.textAlignCenter} prose prose-purple`}>
-        <h2>Find all theatre events in Cyprus</h2>
-      </section>
+
+       <div className="w-full bg-gray-100">
+          <div className="max-w-screen-xl py-12 mx-auto px-36">
+
 
        <Filter onCityChange={handleCityChange}
                selectedCity={selectedCity}
@@ -127,12 +128,16 @@ export default function Home({ allEventsData }) {
         </div>
       </section>
 
+
+          </div>
+          </div>
        <Paginator first={pageFirst}
                   rows={rowsPerPage}
                   totalRecords={currentTotalCount}
                   rowsPerPageOptions={[10, 20, 30]}
                   onPageChange={onBasicPageChange}>
        </Paginator>
+
     </Layout>
   )
 }
