@@ -51,7 +51,7 @@ export const Filter = (props) => {
    };
 
    return (
-      <FiltersContainer>
+      <FiltersContainer className={"prose prose-purple"}>
             <div className="card">
                <h3>Where</h3>
                <Dropdown id="cityDropdown"

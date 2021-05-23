@@ -2,6 +2,7 @@ import '../styles/global.css'
 import 'primeflex/primeflex.css';
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import 'tailwindcss/tailwind.css';
 
 import * as ga from '../lib/ga'
 

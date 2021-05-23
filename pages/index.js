@@ -101,7 +101,7 @@ export default function Home({ allEventsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={`${utilStyles.headingMd} ${utilStyles.textAlignCenter}`}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.textAlignCenter} prose prose-purple`}>
         <h2>Find all theatre events in Cyprus</h2>
       </section>
 
@@ -117,7 +117,7 @@ export default function Home({ allEventsData }) {
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
        <Search />*/}
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} prose prose-purple`}>
         <h2 className={utilStyles.headingLg}>Events {selectedCity && `in ${selectedCity.name}`}</h2>
          { results.length === 0 && <div>No Events found.</div> }
         <div className={utilStyles.list}>

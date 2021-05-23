@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { Navbar } from "./navigation/navbar";
 
 const name = 'Theatralis';
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
@@ -23,22 +24,35 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+
+       <Navbar>
+          <li className={"ml-8"}>
+             <Link href="/">
+                <a>About</a>
+             </Link>
+          </li>
+          <li className={"ml-8"}>
+             <Link href="/">
+                <a>Contact Us</a>
+             </Link>
+          </li>
+       </Navbar>
+
+      <header className={`${styles.header} my-12 bg-gradient-to-r from-yellow-100 via-red-500 to-pink-100`}>
         {home ? (
           <>
             <Image
               priority
-              src="/images/thoc.jpg"
-              className={utilStyles.borderCircle}
+              src="/images/theatralis-big.png"
               height={144}
-              width={144}
+              width={270}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            {/*<h1 className={utilStyles.heading2Xl}>{name}</h1>*/}
           </>
         ) : (
           <>
-            <Link href="/">
+            {/*<Link href="/">
               <a>
                 <Image
                   priority
@@ -49,12 +63,12 @@ export default function Layout({ children, home }) {
                   alt={name}
                 />
               </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
+            </Link>*/}
+            {/*<h2 className={utilStyles.headingLg}>
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
-            </h2>
+            </h2>*/}
           </>
         )}
       </header>
