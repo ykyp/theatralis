@@ -12,7 +12,7 @@ export const siteTitle = 'Theatralis - Cyprus theatre listing';
 
 export default function Layout({ children, home }) {
   return (
-    <div className={`${styles.container} antialiased w-full text-gray-700`}>
+    <div className={`antialiased w-full text-gray-700`}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
