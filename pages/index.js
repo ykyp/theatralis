@@ -103,7 +103,7 @@ export default function Home({ allEventsData }) {
       </Head>
 
        <div className="w-full bg-gray-100">
-          <div className="max-w-screen-xl py-12 mx-auto px-36">
+          <div className="max-w-screen-xl py-12 mx-auto md:px-36">
 
 
        <Filter onCityChange={handleCityChange}
