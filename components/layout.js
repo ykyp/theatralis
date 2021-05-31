@@ -6,11 +6,15 @@ import Link from 'next/link'
 import { Navbar } from "./navigation/navbar";
 import { Footer } from "./footer/footer";
 import { Hero } from "./hero/hero";
+import useTranslation from 'next-translate/useTranslation'
 
 
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
 
 export default function Layout({ children, home }) {
+
+   const { t, lang } = useTranslation('home');
+
   return (
     <div className={`antialiased w-full text-gray-700`}>
       <Head>
@@ -30,12 +34,22 @@ export default function Layout({ children, home }) {
        <Navbar>
           <li className={"ml-8"}>
              <Link href="/">
-                <a>About</a>
+                <a>{t('about-us')}</a>
              </Link>
           </li>
           <li className={"ml-8"}>
              <Link href="/">
-                <a>Contact Us</a>
+                <a>{t('contact-us')}</a>
+             </Link>
+          </li>
+          <li className={"ml-8"}>
+             <Link href="/" locale="en">
+                <a>en</a>
+             </Link>
+          </li>
+          <li className={"ml-8"}>
+             <Link href="/"  locale="gr">
+                <a>gr</a>
              </Link>
           </li>
        </Navbar>

@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { Card } from 'primereact/card';
+import useTranslation from 'next-translate/useTranslation';
 
 import React from 'react';
 import FormattedDate from "./date";
@@ -31,6 +32,7 @@ const WithMargin = styled.div`
          { event_image && <img width={35} height={35} src={event_image}/> }
       </div>*/
 export const ListingEvent = (props) => {
+   const { t, lang } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image } = props.event;
    const onlyStartDate = startDate.split(" ").splice(0, 4).join(" ");
    const onlyEndDate = endDate.split(" ").splice(0, 4).join(" ");
@@ -52,7 +54,7 @@ export const ListingEvent = (props) => {
                   </Link>
                </h3>
                <div className="p-card-subtitle">{onlyStartDate} - {onlyEndDate}</div>
-               <strong>Cities: {city}</strong>
+               <strong>{t('cities')}: {city}</strong>
             </p>
 
          </div>
