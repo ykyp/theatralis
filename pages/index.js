@@ -34,7 +34,7 @@ function useStickyState(defaultValue, key) {
 
 export default function Home({ allEventsData }) {
    const [results, setResults] = useState([]);
-   const [selectedCity, setSelectedCity] = useStickyState({ name: 'Anywhere', code: 'ALL' }, SELECTED_CITY_KEY);
+   const [selectedCity, setSelectedCity] = useStickyState({ name: 'All Cities', code: 'ALL' }, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStickyState( { name: 'Anytime', code: 'ALL' }, SELECTED_PERIOD_KEY);
    const [selectedAudience, setSelectedAudience] =  useStickyState( { name: 'Everyone', code: 'ALL' }, SELECTED_AUDIENCE_KEY);
    const [pageFirst, setPageFirst] = useState(0);
@@ -103,7 +103,7 @@ export default function Home({ allEventsData }) {
       </Head>
 
        <div className="w-full bg-gray-100">
-          <div className="max-w-screen-xl py-12 mx-auto md:px-36">
+          <div className="max-w-screen-xl pb-6 mx-auto md:px-36">
 
 
        <Filter onCityChange={handleCityChange}
@@ -119,7 +119,8 @@ export default function Home({ allEventsData }) {
        <Search />*/}
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} prose prose-purple`}>
-        <h2 className={utilStyles.headingLg}>Events {selectedCity && `in ${selectedCity.name}`}</h2>
+        <h3 className={utilStyles.headingLg} style={{marginTop: '0.6em'}}>
+           Events {selectedCity && `in ${selectedCity.name}`}, {selectedPeriod.name.toLowerCase()} for {selectedAudience.name.toLowerCase()}</h3>
          { results.length === 0 && <div>No Events found.</div> }
         <div className={utilStyles.list}>
           {results.map((event) => (

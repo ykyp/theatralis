@@ -18,7 +18,7 @@ const WithMargin = styled.div`
 
 export const Filter = (props) => {
    const cities = [
-      { name: 'Anywhere', code: 'ALL' },
+      { name: 'All Cities', code: 'ALL' },
       { name: 'Nicosia', code: 'NIC' },
       { name: 'Limassol', code: 'LIM' },
       { name: 'Larnaca', code: 'LAR' },

@@ -35,22 +35,24 @@ export const ListingEvent = (props) => {
    const onlyStartDate = startDate.split(" ").splice(0, 4).join(" ");
    const onlyEndDate = endDate.split(" ").splice(0, 4).join(" ");
    return (
-      <Card title={ <Link href={`/events/${id}`}>
-         <a>{title}</a>
-      </Link>} subTitle={`${onlyStartDate} - ${onlyEndDate}`} style={{ width: '100%', marginBottom: '2em' }}>
+      <Card style={{ width: '100%', marginBottom: '1em' }}>
 
         {/* <div className="grid grid-cols-3">*/}
          <div className="p-grid">
-            <div class="p-col-4">
+            <div class="p-col-3">
                { event_image ?
-                  <img width={270} height={'auto'} style={{ margin: '0'}} src={event_image}/> :
-                  <img width={270} height={'auto'} style={{ margin: '0'}} src="/images/theatralis-sm-coloured.png"/>}
+                  <img width={'auto'} height={150} style={{ margin: 'auto'}} src={event_image}/> :
+                  <img width={'auto'} height={150} style={{ margin: 'auto'}} src="/images/theatralis-sm-white.png"/>}
             </div>
 
-            <p className="p-col-7" style={{lineHeight: '1.5', margin: '0 20px'}}>
-               <strong>Cities: {city}</strong> <br/>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-               quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+            <p className="p-col-8" style={{lineHeight: '1.5', margin: '0 20px'}}>
+               <h3 style={{margin: 0}}>
+                  <Link href={`/events/${id}`}>
+                     <a>{title}</a>
+                  </Link>
+               </h3>
+               <div className="p-card-subtitle">{onlyStartDate} - {onlyEndDate}</div>
+               <strong>Cities: {city}</strong>
             </p>
 
          </div>
