@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/cache.js; next build",
+    "build": "node scripts/cache.js; next build; npm run export",
     "start": "next start",
     "cache-events": "node scripts/cache.js",
     "postinstall": "husky install; node scripts/cache.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
