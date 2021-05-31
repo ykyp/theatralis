@@ -1,5 +1,8 @@
 {
   "title": "Geia sou kosme!",
   "variable-example": "Paradigma {{count}}",
-  "cities": "Επαρχίες"
+  "cities": "Επαρχίες",
+  "when": "Πότε",
+  "where": "Που",
+  "for": "Για"
 }

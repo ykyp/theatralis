@@ -6,6 +6,7 @@ import styled from 'styled-components'
 
 import React from 'react';
 import { Dropdown } from 'primereact/dropdown';
+import useTranslation from "next-translate/useTranslation";
 
 const FiltersContainer = styled.section`
       display: flex;
@@ -50,10 +51,12 @@ export const Filter = (props) => {
       props.onAudienceChange(e);
    };
 
+   const { t, lang } = useTranslation('common');
+
    return (
       <FiltersContainer className={"prose prose-purple"}>
             <div className="card">
-               <h3>Where</h3>
+               <h3>{t('where')}</h3>
                <Dropdown id="cityDropdown"
                          key="cityDropdown"
                          value={props.selectedCity}
@@ -63,7 +66,7 @@ export const Filter = (props) => {
                          placeholder="Select where" />
             </div>
             <WithMargin>
-               <h3>When</h3>
+               <h3>{t('when')}</h3>
                <Dropdown id="periodDropdown"
                          key="periodDropdown"
                          value={props.selectedPeriod}
@@ -73,7 +76,7 @@ export const Filter = (props) => {
                          placeholder="Select when" />
             </WithMargin>
          <WithMargin>
-            <h3>For</h3>
+            <h3>{t('for')}</h3>
             <Dropdown id="agesDropdown"
                       key="agesDropdown"
                       value={props.selectedAudience}
