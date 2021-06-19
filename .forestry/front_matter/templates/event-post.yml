@@ -36,7 +36,7 @@ fields:
   config:
     required: true
   default: all
-  description: <strong>Add either of "all", "adults", "children".</strong>
+  description: <strong>Add either of "all", "children".</strong>
 - name: event_image
   type: file
   config:

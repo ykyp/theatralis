@@ -37,7 +37,6 @@ export const Filter = (props) => {
 
    const audiences = [
       { name: 'Everyone', code: 'ALL' },
-      { name: 'Adults', code: 'ADULTS' },
       { name: 'Children', code: 'children' },
    ];
 
