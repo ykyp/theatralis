@@ -10,11 +10,13 @@ import useTranslation from "next-translate/useTranslation";
 
 const FiltersContainer = styled.section`
       display: flex;
-      justify-content: normal;      
+  
+    max-width: 100%;
+    flex-wrap: wrap;     
    `;
 
 const WithMargin = styled.div`
-      margin-left: 25px;      
+      margin-left: 25px; 
    `;
 
 export const Filter = (props) => {
@@ -55,9 +57,10 @@ export const Filter = (props) => {
 
    return (
       <FiltersContainer className={"prose prose-purple"}>
-            <div className="card">
+            <div style={{width: '27%'}}>
                <h3>{t('where')}</h3>
                <Dropdown id="cityDropdown"
+                         style={{width: '100%'}}
                          key="cityDropdown"
                          value={props.selectedCity}
                          options={cities}
@@ -65,9 +68,10 @@ export const Filter = (props) => {
                          optionLabel="name"
                          placeholder="Select where" />
             </div>
-            <WithMargin>
+            <WithMargin style={{width: '27%'}}>
                <h3>{t('when')}</h3>
                <Dropdown id="periodDropdown"
+                         style={{width: '100%'}}
                          key="periodDropdown"
                          value={props.selectedPeriod}
                          options={periods}
@@ -75,10 +79,11 @@ export const Filter = (props) => {
                          optionLabel="name"
                          placeholder="Select when" />
             </WithMargin>
-         <WithMargin>
+         <WithMargin style={{width: '27%'}}>
             <h3>{t('for')}</h3>
             <Dropdown id="agesDropdown"
                       key="agesDropdown"
+                      style={{width: '100%'}}
                       value={props.selectedAudience}
                       options={audiences}
                       onChange={onAudienceChange}

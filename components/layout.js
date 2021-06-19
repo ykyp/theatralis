@@ -8,7 +8,6 @@ import { Footer } from "./footer/footer";
 import { Hero } from "./hero/hero";
 import useTranslation from 'next-translate/useTranslation'
 
-
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
 
 export default function Layout({ children, home }) {
