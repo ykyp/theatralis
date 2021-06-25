@@ -31,24 +31,33 @@ export default function Layout({ children, home }) {
       </Head>
 
        <Navbar>
-          <li className={"ml-8"}>
+          <li className="ml-4">
              <Link href="/">
                 <a>{t('about-us')}</a>
              </Link>
           </li>
-          <li className={"ml-8"}>
+          <li className="ml-4 brand-red">
+             |
+          </li>
+          <li className={"ml-4"}>
              <Link href="/">
                 <a>{t('contact-us')}</a>
              </Link>
           </li>
-          <li className={"ml-8"}>
+          <li className="ml-4 brand-red">
+             |
+          </li>
+          <li className={"ml-4"}>
              <Link href="/" locale="en">
-                <a>en</a>
+                <a>EN</a>
              </Link>
           </li>
-          <li className={"ml-8"}>
+          <li className="ml-4 brand-red">
+             |
+          </li>
+          <li className={"ml-4"}>
              <Link href="/"  locale="gr">
-                <a>gr</a>
+                <a>GR</a>
              </Link>
           </li>
        </Navbar>

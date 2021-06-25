@@ -25,3 +25,43 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("../public/images/curtains.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.brand-red {
+  color: #780811;
+}
+
+.brand-yellow {
+  color: #fcbc18;
+}
+
+.brand-yellow-bck {
+  background-color: #fcbc18;
+}
+
+a:hover {
+  color: #780811;
+}
+
+.formatted-h3 {
+  color: #111827;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.6;
+}
+
