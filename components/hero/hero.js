@@ -8,7 +8,7 @@ const Hero = () => {
 return (
 
    <header className="max-w-screen-xl text-center mx-auto object-center">
-      <div class="hero-image px-0">
+      <div className="hero-image px-0">
          <img
             src="/images/theatralis-big.png"
             height={144}

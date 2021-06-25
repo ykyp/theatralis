@@ -120,8 +120,9 @@ export default function Home({ allEventsData }) {
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
        <Search />*/}
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} prose prose-purple m-auto`}>
-        <h3 className={utilStyles.headingLg} style={{marginTop: '0.6em'}}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
+               style={{'max-width': '874px'}}>
+        <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
            Events {selectedCity && `in ${selectedCity.name}`}, {selectedPeriod.name.toLowerCase()} for {selectedAudience.name.toLowerCase()}</h3>
          { results.length === 0 && <div>No Events found.</div> }
         <div className={utilStyles.list}>
