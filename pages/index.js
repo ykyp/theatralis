@@ -103,7 +103,7 @@ export default function Home({ allEventsData }) {
       </Head>
 
        <div className="w-full bg-gray-100">
-          <div className="max-w-screen-xl pb-6 mx-auto md:px-36">
+          <div className="max-w-screen-xl pb-6 mx-auto ">
 
 
        <Filter onCityChange={handleCityChange}
@@ -118,7 +118,7 @@ export default function Home({ allEventsData }) {
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
        <Search />*/}
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} prose prose-purple`}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} prose prose-purple m-auto`}>
         <h3 className={utilStyles.headingLg} style={{marginTop: '0.6em'}}>
            Events {selectedCity && `in ${selectedCity.name}`}, {selectedPeriod.name.toLowerCase()} for {selectedAudience.name.toLowerCase()}</h3>
          { results.length === 0 && <div>No Events found.</div> }
