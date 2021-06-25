@@ -9,6 +9,7 @@ import { ListingEvent } from '../components/listing-event';
 import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
 import * as ga from '../lib/ga'
+import React from "react";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_AUDIENCE_KEY = 'th.selectedAudience';
@@ -106,6 +107,7 @@ export default function Home({ allEventsData }) {
           <div className="max-w-screen-xl pb-6 mx-auto ">
 
 
+             <div  className="brand-yellow-bck pb-4">
        <Filter onCityChange={handleCityChange}
                selectedCity={selectedCity}
                onPeriodChange={handlePeriodChange}
@@ -113,7 +115,7 @@ export default function Home({ allEventsData }) {
                onAudienceChange={handleAudienceChange}
                selectedAudience={selectedAudience}
        />
-
+             </div>
 
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
        <Search />*/}

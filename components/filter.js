@@ -55,7 +55,8 @@ export const Filter = (props) => {
    const { t, lang } = useTranslation('common');
 
    return (
-      <FiltersContainer className="brand-yellow-bck">
+      <FiltersContainer
+      style={{'max-width': '874px', 'margin': 'auto'}}>
             <div style={{width: '27%'}}>
                <h3 class="formatted-h3">{t('where')}</h3>
                <Dropdown id="cityDropdown"
