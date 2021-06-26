@@ -1,5 +1,8 @@
 import '../styles/global.css'
+import '../styles/theme-theatralis.css'
 import 'primeflex/primeflex.css';
+import 'primereact/resources/primereact.css';
+import 'primeicons/primeicons.css';
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import 'tailwindcss/tailwind.css';

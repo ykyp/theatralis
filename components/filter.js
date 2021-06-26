@@ -1,9 +1,4 @@
-import 'primeicons/primeicons.css';
-import 'primereact/resources/themes/saga-blue/theme.css';
-import 'primereact/resources/primereact.css';
-import 'primeflex/primeflex.css';
 import styled from 'styled-components'
-
 import React from 'react';
 import { Dropdown } from 'primereact/dropdown';
 import useTranslation from "next-translate/useTranslation";

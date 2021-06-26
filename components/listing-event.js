@@ -1,7 +1,3 @@
-import 'primeicons/primeicons.css';
-import 'primereact/resources/themes/saga-blue/theme.css';
-import 'primereact/resources/primereact.css';
-import 'primeflex/primeflex.css';
 import styled from 'styled-components'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
