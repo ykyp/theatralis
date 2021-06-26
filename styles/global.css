@@ -68,3 +68,14 @@ a:hover {
 .brand-red a {
   color: #780811;
 }
+
+::selection {
+  color: white;
+  background-color: #fcbc18;
+}
+
+/* for firefox */
+::moz-selection {
+  color: white;
+  background-color: #fcbc18;
+}
