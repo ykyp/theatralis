@@ -11,7 +11,7 @@ export default function Event({ eventData: eventData }) {
         <title>{eventData.title}</title>
       </Head>
       <div className="w-full flex justify-around">
-        <article className="prose prose-purple ">
+        <article className="prose prose-purple">
           <h1 className={utilStyles.headingXl}>{eventData.title}</h1>
           <div className={utilStyles.lightText}>
             {/*<FormattedDate dateString={eventData.startDate} /> - <FormattedDate dateString={eventData.endDate} />*/}

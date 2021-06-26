@@ -56,7 +56,7 @@ export const Filter = (props) => {
 
    return (
       <FiltersContainer
-      style={{'max-width': '874px', 'margin': 'auto'}}>
+      style={{maxWidth: '874px', 'margin': 'auto'}}>
             <div style={{width: '27%'}}>
                <h3 className="formatted-h3">{t('where')}</h3>
                <Dropdown id="cityDropdown"

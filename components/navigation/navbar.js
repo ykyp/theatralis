@@ -33,7 +33,7 @@ const Navbar = (props) => (
       </div>
 
       <nav className="navbar">
-         <ul className="flex flex-wrap items-center font-extrabold ">
+         <ul className="flex flex-wrap items-center font-semibold ">
             {props.children}
          </ul>
       </nav>
