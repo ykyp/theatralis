@@ -1,33 +1,21 @@
 import React from 'react';
 import Link from 'next/link';
+import useTranslation from "next-translate/useTranslation";
 
-const Navbar = (props) => (
-   <div className="max-w-screen-xl flex flex-wrap justify-between items-center py-6 px-3 mx-auto">
+const Navbar = (props) =>  {
+   const {t, lang} = useTranslation('home');
+
+   return (
+   <div className="max-w-screen-xl flex flex-wrap justify-between items-center py-4 px-3 mx-auto">
       <div className="font-bold text-2xl text-gray-800">
          <Link href="/">
             <a className="flex items-center">
                <img
-                  src="/images/theatralis-sm-coloured.png"
-                  height={30}
-                  width={30}
+                  src={t('nav-image')}
+                  height={"auto"}
+                  width={170}
                   alt={'Theatralis'}
                />
-               {/*<svg
-                  className="text-primary stroke-current mr-1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="36"
-                  height="36"
-                  viewBox="0 0 24 24"
-                  strokeWidth="2"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-               >
-                  <path d="M0 0h24v24H0z" stroke="none" />
-                  <path d="M12 4L4 8l8 4 8-4-8-4M4 12l8 4 8-4M4 16l8 4 8-4" />
-               </svg>
-               */}
-               Theatralis
             </a>
          </Link>
       </div>
@@ -54,6 +42,6 @@ const Navbar = (props) => (
       `}
       </style>
    </div>
-);
+   )};
 
 export { Navbar };
