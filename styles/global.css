@@ -27,7 +27,7 @@ img {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../public/images/curtains.png");
+  background-image: url("../public/images/theatralis-hero.png");
 
   /* Set a specific height */
   height: 50%;
@@ -37,6 +37,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding: 42px 0;
 }
 
 .brand-red {
@@ -81,4 +82,9 @@ a:hover {
 
 .p-inputwrapper-filled .p-inputtext {
   padding: 12px 12px;
+}
+
+.hero-subtitle {
+  background-color: black;
+  padding: 1px 0 7px 0;
 }

@@ -121,13 +121,13 @@ export default function Home({ allEventsData }) {
        <Search />*/}
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
-               style={{'max-width': '874px'}}>
+               style={{maxWidth: '874px'}}>
         <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
            Events {selectedCity && `in ${selectedCity.name}`}, {selectedPeriod.name.toLowerCase()} for {selectedAudience.name.toLowerCase()}</h3>
          { results.length === 0 && <div>No Events found.</div> }
         <div className={utilStyles.list}>
           {results.map((event) => (
-             <ListingEvent event={event} />
+             <ListingEvent event={event} key={event.title} />
           ))}
         </div>
       </section>
