@@ -27,7 +27,7 @@ img {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../public/images/theatralis-hero.png");
+  background-image: url("../static/images/theatralis-hero.png");
 
   /* Set a specific height */
   height: 50%;
