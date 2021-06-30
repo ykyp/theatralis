@@ -14,6 +14,7 @@ return (
             height={144}
             width={270}
             alt={name}
+            loading="eager"
             className="m-auto"
          />
        {/*  <h1 className="text-4xl text-white font-semibold">{name}</h1>
