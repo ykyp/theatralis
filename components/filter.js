@@ -55,7 +55,7 @@ export const Filter = (props) => {
          'margin': 'auto',
          'display': 'flex',
          'justify-content': 'space-between'}}>
-            <div style={{width: '30%'}}>
+            <div style={{width: '28%'}}>
                <h3 className="formatted-h3">{t('where')}</h3>
                <Dropdown id="cityDropdown"
                          style={{width: '100%'}}
@@ -66,7 +66,7 @@ export const Filter = (props) => {
                          optionLabel="name"
                          placeholder="Select where" />
             </div>
-            <WithMargin style={{width: '30%'}}>
+            <WithMargin style={{width: '28%'}}>
                <h3  className="formatted-h3" >{t('when')}</h3>
                <Dropdown id="periodDropdown"
                          style={{width: '100%'}}
@@ -77,7 +77,7 @@ export const Filter = (props) => {
                          optionLabel="name"
                          placeholder="Select when" />
             </WithMargin>
-         <WithMargin style={{width: '30%'}}>
+         <WithMargin style={{width: '28%'}}>
             <h3  className="formatted-h3">{t('for')}</h3>
             <Dropdown id="agesDropdown"
                       key="agesDropdown"
