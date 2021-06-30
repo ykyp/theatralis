@@ -88,3 +88,16 @@ a:hover {
   background-color: black;
   padding: 1px 0 7px 0;
 }
+
+.prose .hide-li li {
+  margin: 0;
+  padding: 0;
+}
+.prose .hide-li li:before {
+  content: '';
+  display: none;
+}
+
+.prose .hide-li ul {
+  list-style: none
+}
