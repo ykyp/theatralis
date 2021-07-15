@@ -54,7 +54,7 @@ export const Filter = (props) => {
       style={{maxWidth: '874px',
          'margin': 'auto',
          'display': 'flex',
-         'justify-content': 'space-between'}}>
+         'justifyContent': 'space-between'}}>
             <div style={{width: '28%'}}>
                <h3 className="formatted-h3">{t('where')}</h3>
                <Dropdown id="cityDropdown"

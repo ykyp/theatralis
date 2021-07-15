@@ -10,7 +10,7 @@ import { useRouter } from 'next/router';
 
 const FiltersContainer = styled.section`
       display: flex;
-      justify-content: normal;      
+      justifyContent: normal;      
    `;
 
 const WithMargin = styled.div`

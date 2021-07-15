@@ -3,7 +3,7 @@ import Link from 'next/link';
 import useTranslation from "next-translate/useTranslation";
 
 const Navbar = (props) =>  {
-   const {t, lang} = useTranslation('home');
+   const {t, lang} = useTranslation('common');
 
    return (
    <div className="max-w-screen-xl flex flex-wrap justify-between items-center py-4 px-3 mx-auto">

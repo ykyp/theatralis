@@ -3,7 +3,7 @@ import useTranslation from "next-translate/useTranslation";
 const name = 'Theatralis';
 
 const Hero = () => {
-   const {t, lang} = useTranslation('home');
+   const {t, lang} = useTranslation('common');
 
 return (
 
