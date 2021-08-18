@@ -45,7 +45,7 @@ export async function getStaticPaths() {
   const paths = getAllEventIds();
   return {
     paths,
-    fallback: false
+    fallback: true
   }
 }
 
