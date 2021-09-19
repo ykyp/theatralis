@@ -32,8 +32,8 @@ const WithMargin = styled.div`
 export const ListingEvent = (props) => {
    const { t, lang } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image } = props.event;
-   const onlyStartDate = startDate.split("T")[0];
-   const onlyEndDate = endDate.split("T")[0];
+   const onlyStartDate = startDate.split("T")[0].replace("-", "/");
+   const onlyEndDate = endDate.split("T")[0].replace("-", "/");
    const [hover, setHover] = useState(false);
    const router = useRouter();
 
