@@ -41,12 +41,13 @@ export default function Event({ eventData: eventData }) {
   )
 }
 
-export async function getStaticPaths() {
-  const paths = getAllEventIds();
+
+export async function getStaticPaths({ locales }) {
+  const paths = getAllEventIds(locales);
   return {
     paths,
-    fallback: true
-  }
+    fallback: false,
+  };
 }
 
 export async function getStaticProps({ params }) {
