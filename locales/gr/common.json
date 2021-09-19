@@ -9,5 +9,12 @@
   "contact-us": "Επικοινωνία",
   "hero-subtitle": "Βρές όλες τις θεατρικές εκδηλώσεις στην Κύπρο",
   "hero-image": "/images/theatralis_greek_white.png",
-  "nav-image": "/images/theatralis_horizontal_greek_colour.png"
+  "nav-image": "/images/theatralis_horizontal_greek_colour.png",
+  "events-for": "Παραστάσεις",
+  "for-m": "για",
+  "nicosia": "Λευκωσία",
+  "limassol": "Λεμεσός",
+  "pafos": "Πάφος",
+  "larnaca": "Λάρνακα",
+  "all-cities": "Όλες οι πόλεις"
 }

@@ -12,8 +12,6 @@ export default function Event({ eventData: eventData }) {
         <title>{eventData.title}</title>
       </Head>
 
-
-
       <div className="w-full flex justify-around">
 
         <article className="prose prose-purple">
@@ -33,8 +31,6 @@ export default function Event({ eventData: eventData }) {
               </TabPanel>
             </TabView>
           </div>
-
-
         </article>
       </div>
     </Layout>

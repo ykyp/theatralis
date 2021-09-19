@@ -11,7 +11,6 @@ import useTranslation from 'next-translate/useTranslation'
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
 
 export default function Layout({ children, home }) {
-
    const { t, lang } = useTranslation('common');
 
   return (

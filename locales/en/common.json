@@ -9,5 +9,12 @@
   "contact-us": "Contact Us",
   "hero-subtitle": "Find all theatre events in Cyprus",
   "hero-image": "/images/theatralis_english_white.png",
-  "nav-image": "/images/theatralis_horizontal_english_colour.png"
+  "nav-image": "/images/theatralis_horizontal_english_colour.png",
+  "events-for": "Events",
+  "for-m": "for",
+  "nicosia": "Nicosia",
+  "limassol": "Limassol",
+  "pafos": "Pafos",
+  "larnaca": "Larnaca",
+  "all-cities": "All cities"
 }

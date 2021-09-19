@@ -10,6 +10,7 @@ import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
 import * as ga from '../lib/ga'
 import React from "react";
+import useTranslation from "next-translate/useTranslation";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_AUDIENCE_KEY = 'th.selectedAudience';
@@ -34,8 +35,10 @@ function useStickyState(defaultValue, key) {
 }
 
 export default function Home({ allEventsData }) {
+   const { t, lang } = useTranslation('common');
+
    const [results, setResults] = useState([]);
-   const [selectedCity, setSelectedCity] = useStickyState({ name: 'All Cities', code: 'ALL' }, SELECTED_CITY_KEY);
+   const [selectedCity, setSelectedCity] = useStickyState({ name: 'All Cities', code: 'ALL', lang_key: "all-cities" }, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStickyState( { name: 'Anytime', code: 'ALL' }, SELECTED_PERIOD_KEY);
    const [selectedAudience, setSelectedAudience] =  useStickyState( { name: 'Everyone', code: 'ALL' }, SELECTED_AUDIENCE_KEY);
    const [pageFirst, setPageFirst] = useState(0);
@@ -97,6 +100,9 @@ export default function Home({ allEventsData }) {
       })
    };
 
+   const translatedCity = t(""+selectedCity.lang_key);
+   console.log("translated city" , translatedCity);
+
    return (
     <Layout home>
       <Head>
@@ -107,14 +113,14 @@ export default function Home({ allEventsData }) {
           <div className="max-w-screen-xl pb-6 mx-auto ">
 
 
-             <div  className="brand-yellow-bck pb-3">
-       <Filter onCityChange={handleCityChange}
-               selectedCity={selectedCity}
-               onPeriodChange={handlePeriodChange}
-               selectedPeriod={selectedPeriod}
-               onAudienceChange={handleAudienceChange}
-               selectedAudience={selectedAudience}
-       />
+             <div  className="pb-3">
+                <Filter onCityChange={handleCityChange}
+                        selectedCity={selectedCity}
+                        onPeriodChange={handlePeriodChange}
+                        selectedPeriod={selectedPeriod}
+                        onAudienceChange={handleAudienceChange}
+                        selectedAudience={selectedAudience}
+                />
              </div>
 
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
@@ -123,7 +129,7 @@ export default function Home({ allEventsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
                style={{maxWidth: '874px'}}>
         <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
-           Events {selectedCity && `in ${selectedCity.name}`}, {selectedPeriod.name.toLowerCase()} for {selectedAudience.name.toLowerCase()}</h3>
+           {t('events-for')} {selectedCity && `${t('for')} ${(translatedCity)}`}, {selectedPeriod.name.toLowerCase()} for {selectedAudience.name.toLowerCase()}</h3>
          { results.length === 0 && <div>No Events found.</div> }
         <div className={utilStyles.list}>
           {results.map((event) => (

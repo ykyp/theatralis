@@ -16,11 +16,11 @@ const WithMargin = styled.div`
 
 export const Filter = (props) => {
    const cities = [
-      { name: 'All Cities', code: 'ALL' },
-      { name: 'Nicosia', code: 'NIC' },
-      { name: 'Limassol', code: 'LIM' },
-      { name: 'Larnaca', code: 'LAR' },
-      { name: 'Pafos', code: 'PAF' },
+      { name: 'All Cities', code: 'ALL', lang_key: "all-cities" },
+      { name: 'Nicosia', code: 'NIC', lang_key: "nicosia"  },
+      { name: 'Limassol', code: 'LIM', lang_key: "limassol"  },
+      { name: 'Larnaca', code: 'LAR', lang_key: "larnaca"  },
+      { name: 'Pafos', code: 'PAF', lang_key: "pafos"  },
    ];
 
    const periods = [
