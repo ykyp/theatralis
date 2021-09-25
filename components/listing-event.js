@@ -17,7 +17,6 @@ const WithMargin = styled.div`
       margin-left: 25px;      
    `;
 
-
 /*
 * {/*<div className={utilStyles.listItem} key={id}>
          <Link href={`/events/${id}`}>
@@ -37,6 +36,15 @@ export const ListingEvent = (props) => {
    const [hover, setHover] = useState(false);
    const router = useRouter();
 
+   const translatedCities = (citiesAsString) => {
+     const cities = citiesAsString.split(",").map(c => c.trim());
+     const tCities = cities.map(city => {
+        const key = city.charAt(0).toUpperCase() + city.slice(1).toLowerCase();
+        return t(""+ key);
+     });
+
+     return tCities.join(", ");
+   };
    return (
       <Card style={{ width: '100%',
          marginBottom: '1em',
@@ -70,7 +78,7 @@ export const ListingEvent = (props) => {
                   </Link>
                </h3>
                <div className="p-card-subtitle">{onlyStartDate} - {onlyEndDate}</div>
-               <strong>{t('cities')}: {city}</strong>
+               <strong>{t('cities')}: {translatedCities(city)}</strong>
             </div>
 
          </div>
