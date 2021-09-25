@@ -12,9 +12,15 @@
   "nav-image": "/images/theatralis_horizontal_greek_colour.png",
   "events-for": "Παραστάσεις",
   "for-m": "για",
-  "nicosia": "Λευκωσία",
-  "limassol": "Λεμεσός",
-  "pafos": "Πάφος",
-  "larnaca": "Λάρνακα",
-  "all-cities": "Όλες οι πόλεις"
+  "Nicosia": "Λευκωσία",
+  "Limassol": "Λεμεσός",
+  "Pafos": "Πάφος",
+  "Larnaca": "Λάρνακα",
+  "AllCities": "Oλες οι πόλεις",
+  "Anytime": "Οποτεδήποτε",
+  "ThisWeek": "Αυτή την εβδομάδα",
+  "NextWeek": "Την επόμενη εβδομάδα",
+  "ThisMonth": "Αυτο το μηνα",
+  "Everyone": "Όλους",
+  "Children": "Παιδιά"
 }

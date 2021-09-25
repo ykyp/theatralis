@@ -38,7 +38,7 @@ export default function Home({ allEventsData }) {
    const { t, lang } = useTranslation('common');
 
    const [results, setResults] = useState([]);
-   const [selectedCity, setSelectedCity] = useStickyState({ name: 'All Cities', code: 'ALL', lang_key: "all-cities" }, SELECTED_CITY_KEY);
+   const [selectedCity, setSelectedCity] = useStickyState({ name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStickyState( { name: 'Anytime', code: 'ALL' }, SELECTED_PERIOD_KEY);
    const [selectedAudience, setSelectedAudience] =  useStickyState( { name: 'Everyone', code: 'ALL' }, SELECTED_AUDIENCE_KEY);
    const [pageFirst, setPageFirst] = useState(0);
@@ -100,7 +100,9 @@ export default function Home({ allEventsData }) {
       })
    };
 
-   const translatedCity = t(""+selectedCity.lang_key);
+   const translatedCity = t(""+selectedCity.name);
+   const translatedPeriod = t(""+selectedPeriod.name);
+   const translatedAudience = t(""+selectedAudience.name);
    console.log("translated city" , translatedCity);
 
    return (
@@ -129,7 +131,8 @@ export default function Home({ allEventsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
                style={{maxWidth: '874px'}}>
         <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
-           {t('events-for')} {selectedCity && `${t('for')} ${(translatedCity)}`}, {selectedPeriod.name.toLowerCase()} for {selectedAudience.name.toLowerCase()}</h3>
+           {t('events-for')} {selectedCity && `${t('for-m')} ${(translatedCity)}`},
+           {" " + translatedPeriod.toLowerCase()} {t('for-m')} {translatedAudience.toLowerCase()}</h3>
          { results.length === 0 && <div>No Events found.</div> }
         <div className={utilStyles.list}>
           {results.map((event) => (

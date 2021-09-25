@@ -12,9 +12,15 @@
   "nav-image": "/images/theatralis_horizontal_english_colour.png",
   "events-for": "Events",
   "for-m": "for",
-  "nicosia": "Nicosia",
-  "limassol": "Limassol",
-  "pafos": "Pafos",
-  "larnaca": "Larnaca",
-  "all-cities": "All cities"
+  "Nicosia": "Nicosia",
+  "Limassol": "Limassol",
+  "Pafos": "Pafos",
+  "Larnaca": "Larnaca",
+  "AllCities": "All cities",
+  "Anytime": "Anytime",
+  "ThisWeek": "This Week",
+  "NextWeek": "Next Week",
+  "ThisMonth": "This Month",
+  "Everyone": "Everyone",
+  "Children": "Children"
 }

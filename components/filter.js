@@ -16,18 +16,18 @@ const WithMargin = styled.div`
 
 export const Filter = (props) => {
    const cities = [
-      { name: 'All Cities', code: 'ALL', lang_key: "all-cities" },
-      { name: 'Nicosia', code: 'NIC', lang_key: "nicosia"  },
-      { name: 'Limassol', code: 'LIM', lang_key: "limassol"  },
-      { name: 'Larnaca', code: 'LAR', lang_key: "larnaca"  },
-      { name: 'Pafos', code: 'PAF', lang_key: "pafos"  },
+      { name: 'AllCities', code: 'ALL' },
+      { name: 'Nicosia', code: 'NIC' },
+      { name: 'Limassol', code: 'LIM' },
+      { name: 'Larnaca', code: 'LAR' },
+      { name: 'Pafos', code: 'PAF' },
    ];
 
    const periods = [
       { name: 'Anytime', code: 'ALL' },
-      { name: 'This week', code: 'THIS_WEEK' },
-      { name: 'Next week', code: 'NEXT_WEEK' },
-      { name: 'This month', code: 'THIS_MONTH' },
+      { name: 'ThisWeek', code: 'THIS_WEEK' },
+      { name: 'NextWeek', code: 'NEXT_WEEK' },
+      { name: 'ThisMonth', code: 'THIS_MONTH' },
    ];
 
    const audiences = [
@@ -49,6 +49,30 @@ export const Filter = (props) => {
 
    const { t, lang } = useTranslation('common');
 
+   const selectedTranslatedOptionTemplate = (option, props) => {
+      if (option) {
+         return (
+            <div className="country-item country-item-value">
+               <div>{t(""+option.name)}</div>
+            </div>
+         );
+      }
+
+      return (
+         <span>
+            {props.placeholder}
+        </span>
+      );
+   };
+
+   const translatedOptionTemplate = (option) => {
+      return (
+         <div className="country-item">
+            <div>{t(""+option.name)}</div>
+         </div>
+      );
+   };
+
    return (
       <FiltersContainer
       style={{maxWidth: '874px',
@@ -57,36 +81,46 @@ export const Filter = (props) => {
          'justifyContent': 'space-between'}}>
             <div style={{width: '28%'}}>
                <h3 className="formatted-h3">{t('where')}</h3>
-               <Dropdown id="cityDropdown"
+               <Dropdown value={props.selectedCity}
                          style={{width: '100%'}}
                          key="cityDropdown"
-                         value={props.selectedCity}
                          options={cities}
                          onChange={onCityChange}
                          optionLabel="name"
-                         placeholder="Select where" />
+                         placeholder="Select where"
+                         valueTemplate={selectedTranslatedOptionTemplate}
+                         itemTemplate={translatedOptionTemplate}
+               />
             </div>
             <WithMargin style={{width: '28%'}}>
                <h3  className="formatted-h3" >{t('when')}</h3>
-               <Dropdown id="periodDropdown"
+               <Dropdown
+                         id="periodDropdown"
+                         value={props.selectedPeriod}
                          style={{width: '100%'}}
                          key="periodDropdown"
-                         value={props.selectedPeriod}
                          options={periods}
                          onChange={onPeriodChange}
                          optionLabel="name"
-                         placeholder="Select when" />
+                         placeholder="Select when"
+                         valueTemplate={selectedTranslatedOptionTemplate}
+                         itemTemplate={translatedOptionTemplate} />
             </WithMargin>
          <WithMargin style={{width: '28%'}}>
             <h3  className="formatted-h3">{t('for')}</h3>
-            <Dropdown id="agesDropdown"
-                      key="agesDropdown"
-                      style={{width: '100%'}}
-                      value={props.selectedAudience}
-                      options={audiences}
-                      onChange={onAudienceChange}
-                      optionLabel="name"
-                      placeholder="Select audience" />
+
+            <Dropdown
+               id="agesDropdown"
+               value={props.selectedAudience}
+               style={{width: '100%'}}
+               key="agesDropdown"
+               options={audiences}
+               onChange={onAudienceChange}
+               optionLabel="name"
+               placeholder="Select audience"
+               valueTemplate={selectedTranslatedOptionTemplate}
+               itemTemplate={translatedOptionTemplate} />
+
          </WithMargin>
       </FiltersContainer>
    );
