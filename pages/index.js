@@ -103,7 +103,7 @@ export default function Home({ allEventsData }) {
    const translatedCity = t(""+selectedCity.name);
    const translatedPeriod = t(""+selectedPeriod.name);
    const translatedAudience = t(""+selectedAudience.name);
-   console.log("translated city" , translatedCity);
+
 
    return (
     <Layout home>

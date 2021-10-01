@@ -5,11 +5,12 @@ import { intersection } from 'lodash';
 const events = process.env.NODE_ENV === 'production' ? require('../../cache/data').events : getSortedEventsData();
 
 const paginateResults = (results, query) => {
-  const page = query.page || 1;
-  const rows = query.rows || 10;
-  const offset = (page - 1) * rows;
-  const paginatedResults = results.slice(offset).slice(0, rows);
-  return paginatedResults;
+   const currPage = Number(query.page) || 0;
+   const numberPerPage = Number(query.rows) || 10;
+   const trimStart = (currPage)*numberPerPage;
+   const trimEnd = trimStart + numberPerPage;
+   const paginatedResults = results.slice(trimStart, trimEnd);
+   return paginatedResults;
 };
 
 export default (req, res) => {
