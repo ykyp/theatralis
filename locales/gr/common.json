@@ -3,8 +3,8 @@
   "variable-example": "Paradigma {{count}}",
   "cities": "Επαρχίες",
   "when": "Πότε",
-  "where": "Πού",
-  "for": "Γιά",
+  "where": "Που",
+  "for": "Για",
   "about-us": "Σχετικά με εμάς",
   "contact-us": "Επικοινωνία",
   "hero-subtitle": "Βρές όλες τις θεατρικές εκδηλώσεις στην Κύπρο",
@@ -21,7 +21,7 @@
   "Anytime": "Οποτεδήποτε",
   "ThisWeek": "Αυτή την εβδομάδα",
   "NextWeek": "Την επόμενη εβδομάδα",
-  "ThisMonth": "Αυτο το μηνα",
+  "ThisMonth": "Αυτόν το μηνα",
   "Everyone": "Όλους",
   "Children": "Παιδιά"
 }

@@ -131,8 +131,8 @@ export default function Home({ allEventsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
                style={{maxWidth: '874px'}}>
         <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
-           {t('events-for')} {selectedCity && `${t('for-m')} ${(translatedCity)}`},
-           {" " + translatedPeriod.toLowerCase()} {t('for-m')} {translatedAudience.toLowerCase()}</h3>
+         {/*  {t('events-for')} {selectedCity && `${t('for-m')} ${(translatedCity)}`},
+           {" " + translatedPeriod.toLowerCase()} {t('for-m')} {translatedAudience.toLowerCase()}*/}</h3>
          { results.length === 0 && <div>No Events found.</div> }
         <div className={utilStyles.list}>
           {results.map((event) => (
