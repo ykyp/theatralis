@@ -1,9 +1,10 @@
 ---
-title: "Η ΨΙΛΙΚΑΤΖΟΥ"
-startDate: 2021-03-31T21:00:00Z
-endDate: 2021-04-17T21:00:00Z
-city: "Limassol, Nicosia"
-audience: "all"
+title: Η ΨΙΛΙΚΑΤΖΟΥ
+startDate: 2021-12-19T22:00:00Z
+endDate: 2021-12-30T22:00:00Z
+city: Limassol, Nicosia
+audience: all
+
 ---
 - Where: LIMASSOL, NICOSIA
 
@@ -21,4 +22,3 @@ audience: "all"
 Η Ψιλικατζού, μια θεατρική διασκευή του ομώνυμου βιβλίου της Κωνσταντίνας Δελημήτρου
 Διαθέσιμες Θέσεις: 50
 Κατάλληλο για άνω των 15 ετών
-

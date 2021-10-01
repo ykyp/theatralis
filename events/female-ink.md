@@ -1,9 +1,10 @@
 ---
-audience: all
+audience: adults
 title: FEMALE INK
-startDate: 2021-04-24T21:00:00Z
-endDate: 2021-05-02T21:00:00Z
+startDate: 2021-11-10
+endDate: 2021-11-24
 city: Nicosia
+event_image: ''
 
 ---
 _![](/images/uploads/gm290.jpeg)_
@@ -42,3 +43,11 @@ Musicians: Michalis Messios (Double-bass, bass), Ioannis Vafeas (drums, percussi
 _The play is dedicated to Ritsa Economou, grandmother of Mara and Nicolas Constantinou, an exceptional woman, who in turn left her own mark on history, both as a person and as an artist._
 
 Logos: \[Dream Theatre Productions, Media Studio, Pepper sneeze, AlfaMega, The Agency, 3.14 Τhe Concept Store, Double Haircut\]
+
+### Table title
+
+| Header | Header | Header |
+| --- | --- | --- |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |

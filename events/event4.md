@@ -1,9 +1,10 @@
 ---
-title: "OI FASOULIDES TOU KATSIPORA"
-startDate: 2021-03-14T21:00:00Z
-endDate: 2021-04-25T21:00:00Z
-city: "NICOSIA"
-audience: "children"
+title: OI FASOULIDES TOU KATSIPORA
+startDate: 2021-09-27T20:00:00Z
+endDate: 2021-10-10T21:00:00Z
+city: NICOSIA
+audience: children
+
 ---
 Πρεμιέρα:  Κυριακή 14 Μαρτίου 2021, στις 11.00 π.μ.
 
@@ -76,4 +77,3 @@ audience: "children"
 ΧΟΡΗΓΟΣ: Πολιτιστικές Υπηρεσίες Υπουργείου Παιδείας και Πολιτισμού
 
 ΧΟΡΗΓΟΙ ΕΠΙΚΟΙΝΩΝΙΑΣ: ΡΙΚ, ΔΙΕΣΗ 101.1
-
