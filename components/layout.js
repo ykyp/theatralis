@@ -66,7 +66,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>  ← {t("backToHome")}</a>
           </Link>
         </div>
       )}

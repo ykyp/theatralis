@@ -28,5 +28,8 @@
   "contactUsSubhd": "Tell us about a new theatre, or anything else that you want",
   "submit": "Submit",
   "subject": "Subject",
-  "message": "Message"
+  "message": "Message",
+  "aboutUsHd": "About Us",
+  "aboutUsSubhd": "Who we are",
+  "backToHome": "Back to home"
 }
