@@ -8,12 +8,13 @@ import { Footer } from "./footer/footer";
 import { Hero } from "./hero/hero";
 import useTranslation from 'next-translate/useTranslation'
 import { navLinks } from "./nav-data";
+import { useRouter } from 'next/router';
 
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
 
 export default function Layout({ children, home }) {
    const { t, lang } = useTranslation('common');
-
+   const router = useRouter();
   return (
     <div className={`antialiased w-full text-gray-700`}>
       <Head>
@@ -35,8 +36,9 @@ export default function Layout({ children, home }) {
              return (
                 <>
                 <li className="ml-2">
-                   <Link href={link.path}>
-                      <a key={index}>{t(link.key)}</a>
+                   <Link href={link.path} activeStyle={{'fontWeight': "bold"}}>
+                      <a key={index}
+                         className={router.pathname === link.path ? "active" : ""}>{t(link.key)}</a>
                    </Link>
                 </li>
                 <li className="ml-2 brand-red">

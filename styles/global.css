@@ -52,7 +52,7 @@ img {
   background-color: #fcbc18;
 }
 
-a:hover {
+a:hover, a.active {
   color: #780811;
 }
 
