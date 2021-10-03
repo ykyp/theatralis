@@ -23,5 +23,10 @@
   "NextWeek": "Next Week",
   "ThisMonth": "This Month",
   "Everyone": "Everyone",
-  "Children": "Children"
+  "Children": "Children",
+  "contactUsHd": "Contact Us",
+  "contactUsSubhd": "Tell us about a new theatre, or anything else that you want",
+  "submit": "Submit",
+  "subject": "Subject",
+  "message": "Message"
 }

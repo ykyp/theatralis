@@ -7,6 +7,7 @@ import { Navbar } from "./navigation/navbar";
 import { Footer } from "./footer/footer";
 import { Hero } from "./hero/hero";
 import useTranslation from 'next-translate/useTranslation'
+import { navLinks } from "./nav-data";
 
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
 
@@ -30,22 +31,20 @@ export default function Layout({ children, home }) {
       </Head>
 
        <Navbar>
-          <li className="ml-2">
-             <Link href="/">
-                <a>{t('about-us')}</a>
-             </Link>
-          </li>
-          <li className="ml-2 brand-red">
-             |
-          </li>
-          <li className={"ml-2"}>
-             <Link href="/">
-                <a>{t('contact-us')}</a>
-             </Link>
-          </li>
-          <li className="ml-2 brand-red">
-             |
-          </li>
+          {navLinks.map((link, index) => {
+             return (
+                <>
+                <li className="ml-2">
+                   <Link href={link.path}>
+                      <a key={index}>{t(link.key)}</a>
+                   </Link>
+                </li>
+                <li className="ml-2 brand-red">
+                  |
+               </li>
+                </>
+             );
+          })}
           <li className={"ml-2"}>
              <Link href="/" locale="en">
                 <a>EN</a>
