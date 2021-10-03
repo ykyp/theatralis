@@ -14,7 +14,7 @@ export default function AboutUs() {
          <div className="w-full flex justify-around">
             <article className="prose prose-purple">
                <h1>{t("aboutUsHd")}</h1>
-               <h3> {t("aboutUsSubhd")}</h3>
+               <h3> 💁🏻‍♀️💁🏻‍♂️💁🏻‍♀️️ {t("aboutUsSubhd")}</h3>
 
                <p>Είμαστε μια ομάδα θεατρόφιλων (ναι, μπορούμε να χρησιμοποιήσουμε αυτό τον χαρακτηρισμό
                   γιατί περάσαμε αμέτρητες ώρες στα θεατρικά καθίσματα και μπροστά από μια θεατρική σκηνή)
