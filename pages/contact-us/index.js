@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef }  from "react";
 import Layout from '../../components/layout'
 import Head from 'next/head'
 import { InputText } from 'primereact/inputtext';
@@ -6,8 +6,10 @@ import { InputTextarea } from 'primereact/inputtextarea';
 import { Button } from 'primereact/button';
 import { useState } from 'react';
 import useTranslation from "next-translate/useTranslation";
+import { Toast } from 'primereact/toast';
 
 export default function ContactUs() {
+   const toast = useRef(null);
    const [subject, setSubject] = useState('');
    const [message, setMessage] = useState('');
    const { t, lang } = useTranslation('common');
@@ -21,9 +23,19 @@ export default function ContactUs() {
          method: 'post',
          body: JSON.stringify(data),
       }).then(() => {
+         e.target[0].value = '';
+         e.target[1].value = '';
          setSubject("");
          setMessage("");
+         showSuccess();
       });
+   };
+
+   const showSuccess = () => {
+      toast.current.show({
+         severity: 'success',
+         summary: 'Success Message',
+         detail: t("contactUsSubmit")});
    };
 
    return (
@@ -31,6 +43,8 @@ export default function ContactUs() {
          <Head>
             <title>Contact Us</title>
          </Head>
+
+         <Toast ref={toast} />
 
          <div className="w-full flex justify-around">
 
