@@ -43,6 +43,12 @@ fields:
     maxSize: 64
   label: Event Image
   description: This will be shown in the homepage list
+- name: category
+  type: text
+  config:
+    required: false
+  label: Category
+  description: I katigoria tou ergou
 pages:
 - events/female-ink.md
 - events/για-τησ-μαρουλλουσ-τ-αμμαθκια.md
