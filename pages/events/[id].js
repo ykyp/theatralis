@@ -20,6 +20,7 @@ export default function Event({ eventData: eventData }) {
             {/*<FormattedDate dateString={eventData.startDate} /> - <FormattedDate dateString={eventData.endDate} />*/}
           </div>
           <h3>{t("suitable")} {t("for-m")} {t(eventData.audience + '')}</h3>
+          {eventData.category && <h3>{t("category")}: {eventData.category}</h3>}
 
           <div className="hide-li">
             <TabView>

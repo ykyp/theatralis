@@ -30,7 +30,7 @@ const WithMargin = styled.div`
       </div>*/
 export const ListingEvent = (props) => {
    const { t, lang } = useTranslation('common');
-   const { id, startDate, endDate, title, city, event_image } = props.event;
+   const { id, startDate, endDate, title, city, event_image, category } = props.event;
    const onlyStartDate = startDate.split("T")[0].replaceAll("-", "/");
    const onlyEndDate = endDate.split("T")[0].replaceAll("-", "/");
    const [hover, setHover] = useState(false);
@@ -78,6 +78,7 @@ export const ListingEvent = (props) => {
                   </Link>
                </h3>
                <div className="p-card-subtitle">{onlyStartDate} - {onlyEndDate}</div>
+               {category && <div className="p-card-subtitle">{t('category')}: {category}</div>}
                <strong>{t('cities')}: {translatedCities(city)}</strong>
             </div>
 
