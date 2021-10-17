@@ -5,9 +5,19 @@ import FormattedDate from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { TabView, TabPanel } from 'primereact/tabview';
 import useTranslation from "next-translate/useTranslation";
+import {useEffect, useState} from 'react';
+import { PrimeIcons } from 'primereact/api';
 
 export default function Event({ eventData: eventData }) {
   const { t, lang } = useTranslation('common');
+  const [facebookShareLink, setFacebookShareLink] = useState("");
+  const [twitterShareLink, setTwitterShareLink] = useState("");
+  useEffect(() => {
+    setFacebookShareLink("https://www.facebook.com/sharer.php?u="+encodeURIComponent(window.location.href));
+    setTwitterShareLink("https://twitter.com/share?text=Check this theatre out&url="+ encodeURIComponent(window.location.href) +"&hashtags=theatralis");
+  });
+
+
   return (
     <Layout>
       <Head>
@@ -16,12 +26,29 @@ export default function Event({ eventData: eventData }) {
       <div className="w-full flex justify-around">
         <article className="prose prose-purple">
           <h1 className={utilStyles.headingXl}>{eventData.title}</h1>
-          <div className={utilStyles.lightText}>
-            {/*<FormattedDate dateString={eventData.startDate} /> - <FormattedDate dateString={eventData.endDate} />*/}
-          </div>
-          <h3>{t("suitable")} {t("for-m")} {t(eventData.audience + '')}</h3>
-          {eventData.category && <h3>{t("category")}: {eventData.category}</h3>}
+          <div className={utilStyles.lightText}></div>
+                {/*<FormattedDate dateString={eventData.startDate} /> - <FormattedDate dateString={eventData.endDate} />*/}
 
+          <div className="flex justify-between">
+            <div className="justify-start">
+              <h3>{t("suitable")} {t("for-m")} {t(eventData.audience + '')}</h3>
+                  {eventData.category && <h3>{t("category")}: {eventData.category}</h3>}
+            </div>
+
+              <div className="socials-container justify-end">
+                <a href={facebookShareLink}
+                   target="blank"
+                   rel="noopener noreferrer"
+                   alt="Share Page on Facebook"
+                   className="pi pi-facebook"
+                ></a>
+                <a href={twitterShareLink}
+                   target="blank"
+                   rel="noopener noreferrer"
+                   alt="Share Page on Twitter"
+                   className="pi pi-twitter"></a>
+              </div>
+          </div>
           <div className="hide-li">
             <TabView>
               <TabPanel header={t("details")}>

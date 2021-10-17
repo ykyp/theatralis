@@ -114,3 +114,30 @@ a:hover, a.active {
   }
 }
 
+.pi-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.pi-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.socials-container {
+}
+.prose .socials-container a {
+  font-size: 24px;
+  padding: 5px;
+  border-radius: 50%;
+  width: 36px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 7px;
+  color: white;
+}
+
+.prose .socials-container a:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
