@@ -24,6 +24,8 @@
   "ThisMonth": "This Month",
   "Everyone": "Everyone",
   "Children": "Children",
+  "all": "all",
+  "children": "children",
   "contactUsHd": "Contact Us",
   "contactUsSubhd": "Tell us about a new theatre, or anything else that you want",
   "submit": "Submit",
@@ -32,5 +34,7 @@
   "aboutUsHd": "About Us",
   "aboutUsSubhd": "Who we are",
   "backToHome": "Back to home",
-  "contactUsSubmit": "Thanks for contacting us! We received your message and will contact you back as soon as possible if needed"
+  "contactUsSubmit": "Thanks for contacting us! We received your message and will contact you back as soon as possible if needed",
+  "details": "Details",
+  "suitable": "Suitable"
 }

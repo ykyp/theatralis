@@ -4,8 +4,10 @@ import Head from 'next/head'
 import FormattedDate from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { TabView, TabPanel } from 'primereact/tabview';
+import useTranslation from "next-translate/useTranslation";
 
 export default function Event({ eventData: eventData }) {
+  const { t, lang } = useTranslation('common');
   return (
     <Layout>
       <Head>
@@ -17,16 +19,16 @@ export default function Event({ eventData: eventData }) {
           <div className={utilStyles.lightText}>
             {/*<FormattedDate dateString={eventData.startDate} /> - <FormattedDate dateString={eventData.endDate} />*/}
           </div>
-          <h3>For {eventData.audience}</h3>
+          <h3>{t("suitable")} {t("for-m")} {t(eventData.audience + '')}</h3>
 
           <div className="hide-li">
             <TabView>
-              <TabPanel header="About">
+              <TabPanel header={t("details")}>
                 <div dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
               </TabPanel>
-              <TabPanel header="Map">
+              {/*<TabPanel header="Map">
                 <p>Map will go here...</p>
-              </TabPanel>
+              </TabPanel>*/}
             </TabView>
           </div>
         </article>
