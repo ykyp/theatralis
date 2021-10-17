@@ -11,7 +11,7 @@ export default async (req, res) => {
   `;
 
    const data = {
-      to: 'theatraliscy@gmail.com, myrokyp@hotmail.com, pantelis-petrou@hotmail.com, yannakyp@gmail.com',
+      to: ['theatraliscy@gmail.com', 'myrokyp@hotmail.com', 'pantelis-petrou@hotmail.com', 'yannakyp@gmail.com'],
       from: 'theatraliscy@gmail.com',
       subject: `New message to Theatralis via Contact Us form`,
       text: message,
