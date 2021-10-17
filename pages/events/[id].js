@@ -33,9 +33,7 @@ export default function Event({ eventData: eventData }) {
             <div className="justify-start">
               <h3>{t("suitable")} {t("for-m")} {t(eventData.audience + '')}</h3>
                   {eventData.category && <h3>{t("category")}: {eventData.category}</h3>}
-            </div>
-
-              <div className="socials-container justify-end">
+              <div className="socials-container">
                 <a href={facebookShareLink}
                    target="blank"
                    rel="noopener noreferrer"
@@ -48,6 +46,9 @@ export default function Event({ eventData: eventData }) {
                    alt="Share Page on Twitter"
                    className="pi pi-twitter"></a>
               </div>
+            </div>
+
+
           </div>
           <div className="hide-li">
             <TabView>
