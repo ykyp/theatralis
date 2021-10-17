@@ -7,7 +7,7 @@ const Footer = () => (
          {`© Copyright ${new Date().getFullYear()} Theatralis`}
       </div>
 
-      <FooterIconList />
+      {/*<FooterIconList />*/}
    </footer>
 );
 
