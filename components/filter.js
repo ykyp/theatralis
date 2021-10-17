@@ -82,12 +82,13 @@ export const Filter = (props) => {
             <div style={{width: '28%'}}>
                <h3 className="formatted-h3">{t('where')}</h3>
                <Dropdown value={props.selectedCity}
-                         style={{width: '100%'}}
+                         style={{width: '100%', maxHeight: '290px'}}
                          key="cityDropdown"
                          options={cities}
                          onChange={onCityChange}
                          optionLabel="name"
                          placeholder="Select where"
+                         scrollHeight="300px"
                          valueTemplate={selectedTranslatedOptionTemplate}
                          itemTemplate={translatedOptionTemplate}
                />
