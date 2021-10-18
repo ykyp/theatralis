@@ -45,6 +45,7 @@ export const ListingEvent = (props) => {
 
      return tCities.join(", ");
    };
+   console.log("category", category);
    return (
       <Card style={{ width: '100%',
          marginBottom: '1em',
@@ -63,8 +64,7 @@ export const ListingEvent = (props) => {
             <div className="p-col-8" style={{lineHeight: '1.5', margin: '0 20px'}}>
                <h3  className="formatted-h3" style={{margin: 0}}>
                   <Link  href={`/events/${id}`}>
-                     <a className='brand-red'
-                        >{title}</a>
+                     <a className='brand-red'>{title}</a>
                   </Link>
                </h3>
                <div className="p-card-subtitle">{onlyStartDate} - {onlyEndDate}</div>
