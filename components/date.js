@@ -43,3 +43,8 @@ export function isInThisMonth(startDateString, endDateString) {
   const endDate = parseISO(endDateString);
   return isBetween(new Date(), startDate, endDate);
 }
+
+export function formatDate(dateString) {
+  const date = Date.parse(dateString);
+  return format(date, 'dd/MM/yyyy');
+}

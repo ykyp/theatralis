@@ -5,7 +5,7 @@ import { Card } from 'primereact/card';
 import useTranslation from 'next-translate/useTranslation';
 import { useState } from 'react';
 import React from 'react';
-import FormattedDate from "./date";
+import FormattedDate, {formatDate} from "./date";
 import { useRouter } from 'next/router';
 
 const FiltersContainer = styled.section`
@@ -67,7 +67,7 @@ export const ListingEvent = (props) => {
                      <a className='brand-red'>{title}</a>
                   </Link>
                </h3>
-               <div className="p-card-subtitle">{onlyStartDate} - {onlyEndDate}</div>
+               <div className="p-card-subtitle">{formatDate(startDate)} - {formatDate(endDate)} </div>
                {category && <div className="p-card-subtitle">{t('category')}: {category}</div>}
                <strong>{t('cities')}: {translatedCities(city)}</strong>
             </div>
