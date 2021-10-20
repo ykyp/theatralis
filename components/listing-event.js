@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { Card } from 'primereact/card';
 import useTranslation from 'next-translate/useTranslation';
 import { useState } from 'react';
 import React from 'react';
-import FormattedDate, {formatDate} from "./date";
+import {formatDate} from "./date";
 import { useRouter } from 'next/router';
 
 const FiltersContainer = styled.section`
@@ -31,9 +30,6 @@ const WithMargin = styled.div`
 export const ListingEvent = (props) => {
    const { t, lang } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image, category } = props.event;
-   const onlyStartDate = startDate.split("T")[0].replaceAll("-", "/");
-   const onlyEndDate = endDate.split("T")[0].replaceAll("-", "/");
-   const [hover, setHover] = useState(false);
    const router = useRouter();
 
    const translatedCities = (citiesAsString) => {
