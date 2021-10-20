@@ -41,7 +41,6 @@ export const ListingEvent = (props) => {
 
      return tCities.join(", ");
    };
-   console.log("category", category);
    return (
       <Card style={{ width: '100%',
          marginBottom: '1em',

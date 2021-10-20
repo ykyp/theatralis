@@ -16,31 +16,27 @@ const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_AUDIENCE_KEY = 'th.selectedAudience';
 const SELECTED_PERIOD_KEY = 'th.selectedPeriod';
 
-function useStickyState(defaultValue, key) {
-   const [value, setValue] = useState(defaultValue);
-
-   useEffect(() => {
-      const stickyValue = sessionStorage.getItem(key);
-
-      if (stickyValue !== null) {
-         setValue(JSON.parse(stickyValue));
-      }
-   }, [key]);
-
-   useEffect(() => {
-      sessionStorage.setItem(key, JSON.stringify(value));
-   }, [key, value]);
-
-   return [value, setValue];
-}
 
 export default function Home({ allEventsData }) {
    const { t, lang } = useTranslation('common');
 
    const [results, setResults] = useState([]);
-   const [selectedCity, setSelectedCity] = useStickyState({ name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
-   const [selectedPeriod, setSelectedPeriod] = useStickyState( { name: 'Anytime', code: 'ALL' }, SELECTED_PERIOD_KEY);
-   const [selectedAudience, setSelectedAudience] =  useStickyState( { name: 'Everyone', code: 'ALL' }, SELECTED_AUDIENCE_KEY);
+
+   const useStateFromStorage = (defaultValue, key) => {
+      return useState(() => {
+      try {
+         const item = sessionStorage.getItem(key);
+         return item ? JSON.parse(item) : defaultValue;
+      } catch (error) {
+         // If error also return initialValue
+         console.log(error);
+         return defaultValue;
+      }
+      });
+   };
+   const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
+   const [selectedPeriod, setSelectedPeriod] = useStateFromStorage({name: 'Anytime', code: 'ALL'}, SELECTED_PERIOD_KEY);
+   const [selectedAudience, setSelectedAudience] = useStateFromStorage({name: 'Everyone', code: 'ALL'}, SELECTED_AUDIENCE_KEY);
    const [pageFirst, setPageFirst] = useState(0);
    const [currentPage, setCurrentPage] = useState(0);
    const [rowsPerPage, setRowsPerPage] = useState(10);
