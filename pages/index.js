@@ -88,8 +88,8 @@ export default function Home({ allEventsData }) {
          query.rows))
          .then(res => res.json())
          .then(res => {
-            setResults(res.results);
-            setCurrentTotalCount(res.totalLength);
+            setResults(() => res.results);
+            setCurrentTotalCount(() => res.totalLength);
          });
 
       ga.event({
