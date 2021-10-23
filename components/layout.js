@@ -11,6 +11,8 @@ import { navLinks } from "./nav-data";
 import { useRouter } from 'next/router';
 
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
+export const defaultDesc = 'Find all theatres in Cyprus';
+export const defaultImage = '/images/theatralis_english_white.png';
 
 export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName }) {
    const { t, lang } = useTranslation('common');
@@ -22,12 +24,20 @@ export default function Layout({ children, home, pageTitle, description, current
          <title>{pageTitle || siteTitle}</title>
          <meta name="description" content={description} />
 
+         {/*<!-- Google / Search Engine Tags -->*/}
+         <meta itemprop="name" content={pageTitle || siteTitle} />
+         <meta itemprop="description" content={description || defaultDesc} />
+         <meta itemprop="image" content={previewImage || defaultImage} />
+
          {/* Twitter */}
          <meta name="twitter:card" content="summary" key="twcard" />
+         <meta name="twitter:title" content={pageTitle || siteTitle} />
+         <meta name="twitter:description" content={description || defaultDesc} />
+         <meta name="twitter:image" content={previewImage || defaultImage} />
 
          {/* Open Graph */}
          {/*<meta property="og:url" content={currentURL} key="ogurl" />*/}
-         <meta property="og:image" content={previewImage} key="ogimage" />
+         <meta property="og:image" content={previewImage || defaultImage} key="ogimage" />
          <meta property="og:site_name" content={siteName || siteTitle} key="ogsitename" />
          <meta property="og:title" content={pageTitle || siteTitle} key="ogtitle" />
          <meta property="og:description" content={description} key="ogdesc" />
