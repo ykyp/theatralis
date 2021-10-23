@@ -1,12 +1,11 @@
 import Layout from '../../components/layout'
 import { getAllEventIds, getEventData } from '../../lib/events'
 import Head from 'next/head'
-import FormattedDate from '../../components/date'
+import {formatDate} from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { TabView, TabPanel } from 'primereact/tabview';
 import useTranslation from "next-translate/useTranslation";
 import {useEffect, useState} from 'react';
-import { PrimeIcons } from 'primereact/api';
 
 export default function Event({ eventData: eventData }) {
   const { t, lang } = useTranslation('common');
@@ -17,9 +16,20 @@ export default function Event({ eventData: eventData }) {
     setTwitterShareLink("https://twitter.com/share?text=Check this theatre out&url="+ encodeURIComponent(window.location.href) +"&hashtags=theatralis");
   });
 
+  const translatedCities = (citiesAsString) => {
+    const cities = citiesAsString.split(",").map(c => c.trim());
+    const tCities = cities.map(city => {
+      const key = city.charAt(0).toUpperCase() + city.slice(1).toLowerCase();
+      return t(""+ key);
+    });
+
+    return tCities.join(", ");
+  };
 
   return (
-    <Layout>
+    <Layout description={eventData.title}
+            previewImage={eventData.event_image}
+    >
       <Head>
         <title>{eventData.title}</title>
       </Head>
@@ -27,12 +37,13 @@ export default function Event({ eventData: eventData }) {
         <article className="prose prose-purple">
           <h1 className={utilStyles.headingXl}>{eventData.title}</h1>
           <div className={utilStyles.lightText}></div>
-                {/*<FormattedDate dateString={eventData.startDate} /> - <FormattedDate dateString={eventData.endDate} />*/}
+                {formatDate(eventData.startDate)} - {formatDate(eventData.endDate)}
 
-          <div className="flex justify-between">
+                <div className="flex justify-between">
             <div className="justify-start">
               <h3>{t("suitable")} {t("for-m")} {t(eventData.audience + '')}</h3>
                   {eventData.category && <h3>{t("category")}: {eventData.category}</h3>}
+              <h3>{t('cities')}: {translatedCities(eventData.city)}</h3>
               <div className="socials-container">
                 <a href={facebookShareLink}
                    target="blank"
@@ -47,8 +58,6 @@ export default function Event({ eventData: eventData }) {
                    className="pi pi-twitter"></a>
               </div>
             </div>
-
-
           </div>
           <div className="hide-li">
             <TabView>
@@ -65,7 +74,6 @@ export default function Event({ eventData: eventData }) {
     </Layout>
   )
 }
-
 
 export async function getStaticPaths({ locales }) {
   const paths = getAllEventIds(locales);

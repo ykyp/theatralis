@@ -12,23 +12,25 @@ import { useRouter } from 'next/router';
 
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName }) {
    const { t, lang } = useTranslation('common');
    const router = useRouter();
   return (
     <div className={`antialiased w-full text-gray-700`}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Find all theatre events in Cyprus"
-        />
-        <meta
-          property="og:image"
-          content={`https://i.pinimg.com/originals/fb/86/15/fb8615290f9d95e38e701377b3d3e78d.png`}
-        />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
+         <title>{pageTitle || siteTitle}</title>
+         <meta name="description" content={description} />
+
+         {/* Twitter */}
+         <meta name="twitter:card" content="summary" key="twcard" />
+
+         {/* Open Graph */}
+         {/*<meta property="og:url" content={currentURL} key="ogurl" />*/}
+         <meta property="og:image" content={previewImage} key="ogimage" />
+         <meta property="og:site_name" content={siteName || siteTitle} key="ogsitename" />
+         <meta property="og:title" content={pageTitle || siteTitle} key="ogtitle" />
+         <meta property="og:description" content={description} key="ogdesc" />
       </Head>
 
        <Navbar>
