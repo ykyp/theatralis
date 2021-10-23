@@ -12,7 +12,7 @@ import { useRouter } from 'next/router';
 
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
 export const defaultDesc = 'Find all theatres in Cyprus';
-export const defaultImage = '/images/background-cropped.jpg';
+export const defaultImage = '/images/defaultHomeImg.png';
 
 export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName }) {
    const { t, lang } = useTranslation('common');
