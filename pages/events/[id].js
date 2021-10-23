@@ -13,8 +13,8 @@ export default function Event({ eventData: eventData }) {
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
   useEffect(() => {
-    setFacebookShareLink("https://www.facebook.com/sharer.php?u="+encodeURIComponent(window.location.href));
-    setTwitterShareLink("https://twitter.com/share?text=Check this theatre out&url="+ encodeURIComponent(window.location.href) +"&hashtags=theatralis");
+    setFacebookShareLink("https://www.facebook.com/sharer.php?u="+decodeURIComponent(window.location.href));
+    setTwitterShareLink("https://twitter.com/share?text=Check this theatre out&url="+ decodeURIComponent(window.location.href) +"&hashtags=theatralis");
   });
 
 
