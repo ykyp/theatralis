@@ -35,12 +35,13 @@ export default function Layout({ children, home, pageTitle, description, current
          <meta name="twitter:description" content={description || defaultDesc} />
          <meta name="twitter:image" content={`${process.env.BASE_URL}${previewImage || defaultImage}`} />
 
-         {/* Open Graph */}
+         {/* Open Graph app id: 342107034384158*/}
          {/*<meta property="og:url" content={currentURL} key="ogurl" />*/}
          <meta property="og:image" content={`${process.env.BASE_URL}${previewImage||defaultImage}`} key="ogimage" />
          <meta property="og:site_name" content={siteName || siteTitle} key="ogsitename" />
          <meta property="og:title" content={pageTitle || siteTitle} key="ogtitle" />
          <meta property="og:description" content={description} key="ogdesc" />
+         <meta property="og:type" content="website" />
       </Head>
 
        <Navbar>
