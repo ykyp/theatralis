@@ -1,7 +1,7 @@
 ---
 title: Η ΨΙΛΙΚΑΤΖΟΥ
-startDate: 2021-12-19T22:00:00Z
-endDate: 2021-12-30T22:00:00Z
+startDate: 2021-12-19T22:00:00.000+00:00
+endDate: 2021-12-30T22:00:00.000+00:00
 city: Limassol, Nicosia
 audience: all
 
