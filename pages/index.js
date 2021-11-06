@@ -61,13 +61,13 @@ export default function Home({ allEventsData }) {
 
    const onBasicPageChange = (event) => {
       setCurrentPage(event.page); 
-      setPageFirst(event.first); 
+      setPageFirst(event.first);
       setRowsPerPage(event.rows);
    };
 
    useEffect(() => {
       searchEvents();
-   }, [selectedPeriod, selectedCity, selectedAudience, currentPage]);
+   }, [selectedPeriod, selectedCity, selectedAudience, currentPage, rowsPerPage]);
 
    const searchEvents = () => {
       const query = {
