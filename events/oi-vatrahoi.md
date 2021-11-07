@@ -5,6 +5,6 @@ startDate: 2021-12-20
 endDate: 2021-12-23
 city: LImassol
 event_image: ''
-category: Μιουζικαλ
+category: Musical
 
 ---
