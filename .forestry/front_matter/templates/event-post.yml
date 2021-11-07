@@ -42,7 +42,7 @@ fields:
   config:
     required: false
   label: Category
-  description: I katigoria tou ergou
+  description: 'I katigoria tou ergou e.g: <strong>"Drama"</strong>,<br><strong>"Comedy"</strong>,<br><strong>"Standup"</strong>,<br><strong>"Children"</strong>,<br><strong>"Historical"</strong>,<br><strong>"Musical"</strong>,<br><strong>"Amateur""</strong>'
 pages:
 - events/event4.md
 - events/female-ink.md
