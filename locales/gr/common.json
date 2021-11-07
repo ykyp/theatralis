@@ -43,9 +43,13 @@
   "AllCategories": "Όλες οι κατηγορίες",
   "Drama": "Δράμα",
   "Comedy": "Κωμωδία",
+  "Tragedy": "Τραγωδία",
+  "Mystery": "Μυστηριο",
+  "Satire": "Σατιρα",
+  "Opera": "Οπερα",
   "Standup": "Standup Comedy",
   "Children": "Παιδικό",
-  "Historical" : "Εποχής",
+  "Historical" : "Ιστορικο",
   "Musical" : "Μιούζικαλ",
   "Amateur" : "Ερασιτεχνικό"
 }

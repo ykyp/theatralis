@@ -47,5 +47,9 @@
   "Children": "Children",
   "Historical" : "Historical",
   "Musical" : "Musical",
-  "Amateur" : "Amateur"
+  "Amateur" : "Amateur",
+  "Tragedy": "Tragedy",
+  "Mystery": "Mystery",
+  "Satire": "Satire",
+  "Opera": "Opera"
 }
