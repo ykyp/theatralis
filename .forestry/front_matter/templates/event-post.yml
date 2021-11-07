@@ -42,7 +42,9 @@ fields:
   config:
     required: false
   label: Category
-  description: 'I katigoria tou ergou e.g: <strong>"Drama"</strong>,<br><strong>"Comedy"</strong>,<br><strong>"Standup"</strong>,<br><strong>"Children"</strong>,<br><strong>"Historical"</strong>,<br><strong>"Musical"</strong>,<br><strong>"Amateur""</strong>'
+  description: 'I katigoria tou ergou e.g: <strong>Drama</strong>, <strong>Comedy</strong>,
+    <strong>Standup</strong>, <strong>Children</strong>, <strong>Historical</strong>,
+    <strong>Musical</strong>, <strong>Amateur</strong>'
 pages:
 - events/event4.md
 - events/female-ink.md
