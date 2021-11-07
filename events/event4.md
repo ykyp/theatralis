@@ -1,9 +1,11 @@
 ---
 title: OI FASOULIDES TOU KATSIPORA
-startDate: 2021-09-27T20:00:00Z
-endDate: 2021-10-10T21:00:00Z
+startDate: 2021-09-27T20:00:00.000+00:00
+endDate: 2021-10-10T21:00:00.000+00:00
 city: NICOSIA
 audience: children
+category: children
+event_image: ''
 
 ---
 Πρεμιέρα:  Κυριακή 14 Μαρτίου 2021, στις 11.00 π.μ.
