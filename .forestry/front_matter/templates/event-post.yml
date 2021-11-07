@@ -30,13 +30,6 @@ fields:
   description: "<strong>Add all cities with a comma<br>eg: Nicosia, Limassol</strong>"
   config:
     required: true
-- type: text
-  name: audience
-  label: 'Audience '
-  config:
-    required: true
-  default: all
-  description: <strong>Add either of "all", "children".</strong>
 - name: event_image
   type: file
   config:
