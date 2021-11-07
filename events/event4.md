@@ -4,7 +4,7 @@ startDate: 2021-09-27T20:00:00.000+00:00
 endDate: 2021-10-10T21:00:00.000+00:00
 city: NICOSIA
 audience: children
-category: children
+category: children, Comedy
 event_image: ''
 
 ---
