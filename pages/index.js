@@ -15,6 +15,9 @@ import useTranslation from "next-translate/useTranslation";
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
 const SELECTED_PERIOD_KEY = 'th.selectedPeriod';
+const SELECTED_FIRST_PAGE = 'th.firstPage';
+const SELECTED_CURRENT_PAGE = 'th.currentPage';
+const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
 
 export default function Home({ allEventsData }) {
@@ -37,9 +40,9 @@ export default function Home({ allEventsData }) {
    const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStateFromStorage({name: 'Anytime', code: 'ALL'}, SELECTED_PERIOD_KEY);
    const [selectedCategory, setSelectedCategory] = useStateFromStorage({name: 'AllCategories', code: 'ALL'}, SELECTED_CATEGORY_KEY);
-   const [pageFirst, setPageFirst] = useState(0);
-   const [currentPage, setCurrentPage] = useState(0);
-   const [rowsPerPage, setRowsPerPage] = useState(10);
+   const [pageFirst, setPageFirst] = useStateFromStorage(0, SELECTED_FIRST_PAGE);
+   const [currentPage, setCurrentPage] = useStateFromStorage(0, SELECTED_CURRENT_PAGE);
+   const [rowsPerPage, setRowsPerPage] = useStateFromStorage(10, SELECTED_ITEMS_PER_PAGE);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
 
    const searchEndpoint = (city, period, category, page, rows) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}`;
@@ -63,6 +66,9 @@ export default function Home({ allEventsData }) {
       setCurrentPage(event.page); 
       setPageFirst(event.first);
       setRowsPerPage(event.rows);
+      sessionStorage.setItem(SELECTED_FIRST_PAGE, event.first);
+      sessionStorage.setItem(SELECTED_CURRENT_PAGE, event.page);
+      sessionStorage.setItem(SELECTED_ITEMS_PER_PAGE, event.rows);
    };
 
    useEffect(() => {
