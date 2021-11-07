@@ -32,15 +32,16 @@ export const ListingEvent = (props) => {
    const { id, startDate, endDate, title, city, event_image, category } = props.event;
    const router = useRouter();
 
-   const translatedCities = (citiesAsString) => {
-     const cities = citiesAsString.split(",").map(c => c.trim());
-     const tCities = cities.map(city => {
-        const key = city.charAt(0).toUpperCase() + city.slice(1).toLowerCase();
-        return t(""+ key);
-     });
+   const translatedKeys = (keysAsString) => {
+      const keys = keysAsString.split(",").map(c => c.trim());
+      const tKeys = keys.map(city => {
+         const key = city.charAt(0).toUpperCase() + city.slice(1).toLowerCase();
+         return t(""+ key);
+      });
 
-     return tCities.join(", ");
+      return tKeys.join(", ");
    };
+
    return (
       <Card style={{ width: '100%',
          marginBottom: '1em',
@@ -63,8 +64,8 @@ export const ListingEvent = (props) => {
                   </Link>
                </h3>
                <div className="p-card-subtitle">{formatDate(startDate)} - {formatDate(endDate)} </div>
-               {category && <div className="p-card-subtitle">{t('category')}: {category}</div>}
-               <strong>{t('cities')}: {translatedCities(city)}</strong>
+               {category && <div className="p-card-subtitle">{t('category')}: {translatedKeys(category)}</div>}
+               <strong>{t('cities')}: {translatedKeys(city)}</strong>
             </div>
 
          </div>

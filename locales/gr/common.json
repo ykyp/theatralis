@@ -1,7 +1,8 @@
 {
   "title": "Geia sou kosme!",
   "variable-example": "Paradigma {{count}}",
-  "cities": "Επαρχίες",
+  "cities": "Πόλεις",
+  "city": "Πόλη",
   "when": "Πότε",
   "where": "Που",
   "for": "Για",
@@ -16,6 +17,7 @@
   "Limassol": "Λεμεσό",
   "Pafos": "Πάφος",
   "Paphos": "Πάφος",
+  "Famagusta": "Αμμόχωστος",
   "Larnaca": "Λάρνακα",
   "AllCities": "Oλες οι πόλεις",
   "Anytime": "Οποτεδήποτε",
@@ -25,7 +27,6 @@
   "Everyone": "Όλους",
   "all": "όλους",
   "children": "παιδιά",
-  "Children": "Παιδιά",
   "contactUsHd": "Επικοινωνήστε μαζί μας",
   "contactUsSubhd": "Μιλήστε μας για ένα νέο θέατρο ή οτιδήποτε άλλο θέλετε",
   "submit": "Στείλετε",
@@ -37,5 +38,13 @@
   "contactUsSubmit": "Ευχαριστούμε που επικοινωνήσατε μαζί μας! Λάβαμε το μήνυμά σας και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατόν αν χρειαστεί",
   "details": "Πληροφορίες",
   "suitable": "Κατάλληλο",
-  "category": "Κατηγορία"
+  "category": "Κατηγορία",
+  "AllCategories": "Όλες οι κατηγορίες",
+  "Drama": "Δράμα",
+  "Comedy": "Κωμωδία",
+  "Standup": "Standup Comedy",
+  "Children": "Παιδικό",
+  "Historical" : "Εποχής",
+  "Musical" : "Μιούζικαλ",
+  "Amateur" : "Ερασιτεχνικό"
 }

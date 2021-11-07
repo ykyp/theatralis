@@ -13,7 +13,7 @@ import React from "react";
 import useTranslation from "next-translate/useTranslation";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
-const SELECTED_AUDIENCE_KEY = 'th.selectedAudience';
+const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
 const SELECTED_PERIOD_KEY = 'th.selectedPeriod';
 
 
@@ -36,13 +36,13 @@ export default function Home({ allEventsData }) {
    };
    const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStateFromStorage({name: 'Anytime', code: 'ALL'}, SELECTED_PERIOD_KEY);
-   const [selectedAudience, setSelectedAudience] = useStateFromStorage({name: 'Everyone', code: 'ALL'}, SELECTED_AUDIENCE_KEY);
+   const [selectedCategory, setSelectedCategory] = useStateFromStorage({name: 'AllCategories', code: 'ALL'}, SELECTED_CATEGORY_KEY);
    const [pageFirst, setPageFirst] = useState(0);
    const [currentPage, setCurrentPage] = useState(0);
    const [rowsPerPage, setRowsPerPage] = useState(10);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
 
-   const searchEndpoint = (city, period, audience, page, rows) => `/api/search?city=${city}&period=${period}&audience=${audience}&page=${page}&rows=${rows}`;
+   const searchEndpoint = (city, period, category, page, rows) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}`;
 
    const handleCityChange = (e) => {
       sessionStorage.setItem(SELECTED_CITY_KEY, JSON.stringify(e.value));
@@ -54,9 +54,9 @@ export default function Home({ allEventsData }) {
       setSelectedPeriod(e.value);
    };
 
-   const handleAudienceChange = (e) => {
-      sessionStorage.setItem(SELECTED_AUDIENCE_KEY, JSON.stringify(e.value));
-      setSelectedAudience(e.value);
+   const handleCategoryChange = (e) => {
+      sessionStorage.setItem(SELECTED_CATEGORY_KEY, JSON.stringify(e.value));
+      setSelectedCategory(e.value);
    };
 
    const onBasicPageChange = (event) => {
@@ -67,19 +67,19 @@ export default function Home({ allEventsData }) {
 
    useEffect(() => {
       searchEvents();
-   }, [selectedPeriod, selectedCity, selectedAudience, currentPage, rowsPerPage]);
+   }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage]);
 
    const searchEvents = () => {
       const query = {
          city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity.name,
          period: selectedPeriod.code,
-         audience:  selectedAudience.code === 'ALL'? 'ALL' : selectedAudience.name,
+         category:  selectedCategory.code === 'ALL'? 'ALL' : selectedCategory.name,
          page: currentPage,
          rows: rowsPerPage,
       };
       fetch(searchEndpoint(query.city,
          query.period,
-         query.audience,
+         query.category,
          query.page,
          query.rows))
          .then(res => res.json())
@@ -98,7 +98,7 @@ export default function Home({ allEventsData }) {
 
    const translatedCity = t(""+selectedCity.name);
    const translatedPeriod = t(""+selectedPeriod.name);
-   const translatedAudience = t(""+selectedAudience.name);
+   const translatedAudience = t(""+selectedCategory.name);
 
 
    return (
@@ -109,15 +109,13 @@ export default function Home({ allEventsData }) {
 
        <div className="w-full bg-gray-100">
           <div className="max-w-screen-xl pb-6 mx-auto ">
-
-
              <div  className="pb-3">
                 <Filter onCityChange={handleCityChange}
                         selectedCity={selectedCity}
                         onPeriodChange={handlePeriodChange}
                         selectedPeriod={selectedPeriod}
-                        onAudienceChange={handleAudienceChange}
-                        selectedAudience={selectedAudience}
+                        onCategoryChange={handleCategoryChange}
+                        selectedCategory={selectedCategory}
                 />
              </div>
 

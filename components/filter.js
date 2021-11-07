@@ -21,6 +21,7 @@ export const Filter = (props) => {
       { name: 'Limassol', code: 'LIM' },
       { name: 'Larnaca', code: 'LAR' },
       { name: 'Pafos', code: 'PAF' },
+      { name: 'Famagusta', code: 'FAM' },
    ];
 
    const periods = [
@@ -30,9 +31,15 @@ export const Filter = (props) => {
       { name: 'ThisMonth', code: 'THIS_MONTH' },
    ];
 
-   const audiences = [
-      { name: 'Everyone', code: 'ALL' },
-      { name: 'Children', code: 'children' },
+   const categories = [
+      { name: 'AllCategories', code: 'ALL' },
+      { name: 'Drama', code: 'Drama' },
+      { name: 'Comedy', code: 'Comedy' },
+      { name: 'Standup', code: 'Standup' },
+      { name: 'Historical', code: 'Historical' },
+      { name: 'Musical', code: 'Musical' },
+      { name: 'Amateur', code: 'Amateur' },
+      { name: 'Children', code: 'Children' },
    ];
 
    const onCityChange = (e) => {
@@ -43,8 +50,8 @@ export const Filter = (props) => {
       props.onPeriodChange(e);
    };
 
-   const onAudienceChange = (e) => {
-      props.onAudienceChange(e);
+   const onCategoryChange = (e) => {
+      props.onCategoryChange(e);
    };
 
    const { t, lang } = useTranslation('common');
@@ -80,9 +87,9 @@ export const Filter = (props) => {
          'display': 'flex',
          'justifyContent': 'space-between'}}>
             <div style={{width: '28%'}}>
-               <h3 className="formatted-h3">{t('where')}</h3>
+               <h3 className="formatted-h3">{t('city')}</h3>
                <Dropdown value={props.selectedCity}
-                         style={{width: '100%', maxHeight: '290px'}}
+                         style={{width: '100%', maxHeight: '310px'}}
                          key="cityDropdown"
                          options={cities}
                          onChange={onCityChange}
@@ -108,17 +115,17 @@ export const Filter = (props) => {
                          itemTemplate={translatedOptionTemplate} />
             </WithMargin>
          <WithMargin style={{width: '28%'}}>
-            <h3  className="formatted-h3">{t('for')}</h3>
+            <h3  className="formatted-h3">{t('category')}</h3>
 
             <Dropdown
-               id="agesDropdown"
-               value={props.selectedAudience}
+               id="categoryDropdown"
+               value={props.selectedCategory}
                style={{width: '100%'}}
-               key="agesDropdown"
-               options={audiences}
-               onChange={onAudienceChange}
+               key="categoryDropdown"
+               options={categories}
+               onChange={onCategoryChange}
                optionLabel="name"
-               placeholder="Select audience"
+               placeholder="Select category"
                valueTemplate={selectedTranslatedOptionTemplate}
                itemTemplate={translatedOptionTemplate} />
 

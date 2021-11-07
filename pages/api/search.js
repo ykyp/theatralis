@@ -17,7 +17,7 @@ export default (req, res) => {
    let results = [];
    let totalLength = 0;
    if (req.query.city === 'ALL' && req.query.period == 'ALL'
-      && req.query.audience == 'ALL') {
+      && req.query.category == 'ALL') {
       totalLength = events.length;
       results =  paginateResults(events, req.query);
    } else {
@@ -49,13 +49,10 @@ export default (req, res) => {
             matchingPeriods = events;
       }
 
-      const matchingAudience = req.query.audience !== 'ALL' ?
-         events.filter(event =>  req.query.audience.toLowerCase() === "children" ?
-            event.audience.toLowerCase() === "children":
-            event.audience.toLowerCase() ===
-            req.query.audience.toLowerCase() ||
-            event.audience.toLowerCase() === 'all')
-         : events;
+      const matchingAudience = req.query.category !== 'ALL' ?
+         events.filter(event => event.category ?
+            event.category.toLowerCase().includes(req.query.category.toLowerCase()) : false
+         ) : events;
 
       const intersectedResults = intersection(matchingCities, matchingPeriods, matchingAudience);
       totalLength = intersectedResults.length;

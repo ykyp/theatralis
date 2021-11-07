@@ -16,14 +16,14 @@ export default function Event({ eventData: eventData }) {
     setTwitterShareLink("https://twitter.com/share?text=Check this theatre out&url="+ encodeURIComponent(window.location.href) +"&hashtags=theatralis");
   });
 
-  const translatedCities = (citiesAsString) => {
-    const cities = citiesAsString.split(",").map(c => c.trim());
-    const tCities = cities.map(city => {
+  const translatedKeys = (keysAsString) => {
+    const keys = keysAsString.split(",").map(c => c.trim());
+    const tKeys = keys.map(city => {
       const key = city.charAt(0).toUpperCase() + city.slice(1).toLowerCase();
       return t(""+ key);
     });
 
-    return tCities.join(", ");
+    return tKeys.join(", ");
   };
 
   return (
@@ -42,9 +42,8 @@ export default function Event({ eventData: eventData }) {
 
                 <div className="flex justify-between">
             <div className="justify-start">
-              <h3>{t("suitable")} {t("for-m")} {t(eventData.audience + '')}</h3>
-                  {eventData.category && <h3>{t("category")}: {eventData.category}</h3>}
-              <h3>{t('cities')}: {translatedCities(eventData.city)}</h3>
+                  {eventData.category && <h3>{t("category")}: {translatedKeys(eventData.category)}</h3>}
+              <h3>{t('cities')}: {translatedKeys(eventData.city)}</h3>
 
               <div className="socials-container">
                 <a href={facebookShareLink}
