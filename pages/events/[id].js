@@ -34,9 +34,10 @@ export default function Event({ eventData: eventData }) {
         <title>{eventData.title}</title>
       </Head>
       <div className="w-full flex justify-around">
-        <article className="prose prose-purple">
-          <h1 className={utilStyles.headingXl}>{eventData.title}</h1>
-          <div className={utilStyles.lightText}></div>
+        <article className="prose prose-purple max-w-sm lg:max-w-lg">
+          <div className="p-4">
+            <h1 className={utilStyles.headingXl}>{eventData.title} </h1>
+            <div className={utilStyles.lightText}></div>
                 {formatDate(eventData.startDate)} - {formatDate(eventData.endDate)}
 
                 <div className="flex justify-between">
@@ -44,6 +45,7 @@ export default function Event({ eventData: eventData }) {
               <h3>{t("suitable")} {t("for-m")} {t(eventData.audience + '')}</h3>
                   {eventData.category && <h3>{t("category")}: {eventData.category}</h3>}
               <h3>{t('cities')}: {translatedCities(eventData.city)}</h3>
+
               <div className="socials-container">
                 <a href={facebookShareLink}
                    target="blank"
@@ -58,6 +60,7 @@ export default function Event({ eventData: eventData }) {
                    className="pi pi-twitter"></a>
               </div>
             </div>
+                </div>
           </div>
           <div className="hide-li">
             <TabView>
