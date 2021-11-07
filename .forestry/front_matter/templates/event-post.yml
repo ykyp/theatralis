@@ -42,7 +42,8 @@ fields:
     required: false
   label: Category
   description: I katigoria tou ergou. Mia apo autes:<br><strong>Drama, Comedy, Standup,
-    Children, Historical, Musical, Amateur</strong>
+    Children, Historical, Musical, Amateur, Tragedy</strong>, <strong>Mystery, Satire,
+    Opera</strong>
 pages:
 - events/event4.md
 - events/female-ink.md
