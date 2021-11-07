@@ -97,7 +97,7 @@ export default function Home({ allEventsData }) {
       ga.event({
          action: "search",
          params : {
-            search_term: selectedCity.code
+            search_term: selectedCity.name + "-" + selectedPeriod.name + "-"+ selectedCategory.name
          }
       })
    };
