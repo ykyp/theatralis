@@ -145,3 +145,7 @@ a:hover, a.active {
   text-decoration: none;
 }
 
+a.brand-red:hover {
+  color: #fcbc18;
+}
+
