@@ -50,7 +50,6 @@ fields:
   label: Category
   description: I katigoria tou ergou
 pages:
-- events/.....md
 - events/female-ink.md
 - events/gia-tis-maroullous-tamathkia.md
 - events/kisses.md
