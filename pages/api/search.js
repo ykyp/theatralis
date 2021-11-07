@@ -22,7 +22,11 @@ export default (req, res) => {
       results =  paginateResults(events, req.query);
    } else {
       const matchingCities = req.query.city !== 'ALL' ?
-         events.filter(event => event.city.toLowerCase().includes(req.query.city.toLowerCase())) : events;
+         events.filter(event => {
+            const cityLowercase = event.city.toLowerCase();
+            const formattedCity = cityLowercase === "paphos" ? "pafos" : cityLowercase;
+            return formattedCity.includes(req.query.city.toLowerCase())
+         }) : events;
 
       let matchingPeriods = [];
       switch (req.query.period) {
