@@ -49,7 +49,7 @@ export const ListingEvent = (props) => {
             >
 
         {/* <div className="grid grid-cols-3">*/}
-         <div className="p-grid">
+         <div className="p-grid flex-nowrap">
             <div className="p-col-3" style={{cursor: 'pointer'}} onClick={() => router.push(`/events/${id}`)}>
                { event_image ?
                   <img width={'auto'} height={150} style={{ margin: 'auto'}} src={event_image}/> :
