@@ -38,9 +38,23 @@ fields:
   label: Event Image
   description: This will be shown in the homepage list
 - name: category
-  type: text
+  type: select
+  default: []
   config:
     required: false
+    options:
+    - Drama
+    - Comedy
+    - Standup
+    - Children
+    - Historical
+    - Musical
+    - Amateur
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: Category
   description: 'I katigoria tou ergou e.g: <strong>Drama</strong>, <strong>Comedy</strong>,
     <strong>Standup</strong>, <strong>Children</strong>, <strong>Historical</strong>,
