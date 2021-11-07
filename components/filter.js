@@ -40,6 +40,10 @@ export const Filter = (props) => {
       { name: 'Musical', code: 'Musical' },
       { name: 'Amateur', code: 'Amateur' },
       { name: 'Children', code: 'Children' },
+      { name: 'Tragedy', code: 'Tragedy' },
+      { name: 'Mystery', code: 'Mystery' },
+      { name: 'Satire', code: 'Satire' },
+      { name: 'Opera', code: 'Opera' },
    ];
 
    const onCityChange = (e) => {
@@ -120,7 +124,7 @@ export const Filter = (props) => {
             <Dropdown
                id="categoryDropdown"
                value={props.selectedCategory}
-               style={{width: '100%'}}
+               style={{width: '100%', maxHeight: '410px'}}
                key="categoryDropdown"
                options={categories}
                onChange={onCategoryChange}
