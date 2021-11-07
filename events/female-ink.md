@@ -1,10 +1,11 @@
 ---
-audience: adults
+audience: all
 title: FEMALE INK
 startDate: 2021-11-10
 endDate: 2021-11-24
 city: Nicosia
 event_image: ''
+category: ''
 
 ---
 _![](/images/uploads/gm290.jpeg)_
