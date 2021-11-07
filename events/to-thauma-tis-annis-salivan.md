@@ -5,7 +5,7 @@ startDate: 2021-09-27
 endDate: 2021-10-03
 city: Nicosia
 event_image: "/images/uploads/as290/2021/05.jpeg"
-category: Δράμα
+category: Drama
 
 ---
 ![](/images/uploads/anniesallivanposter/2021/05.jpeg)
