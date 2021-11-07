@@ -42,8 +42,8 @@ export default function Event({ eventData: eventData }) {
 
                 <div className="flex justify-between">
             <div className="justify-start">
-                  {eventData.category && <h3>{t("category")}: {translatedKeys(eventData.category)}</h3>}
-              <h3>{t('cities')}: {translatedKeys(eventData.city)}</h3>
+                  {eventData.category && <h3>{(eventData.category.split(',').length > 1) ? t('categories'): t('category')}: {translatedKeys(eventData.category)}</h3>}
+              <h3>{(eventData.city.split(',').length > 1) ? t('cities'): t('city')}: {translatedKeys(eventData.city)}</h3>
 
               <div className="socials-container">
                 <a href={facebookShareLink}

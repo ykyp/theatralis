@@ -64,8 +64,8 @@ export const ListingEvent = (props) => {
                   </Link>
                </h3>
                <div className="p-card-subtitle">{formatDate(startDate)} - {formatDate(endDate)} </div>
-               {category && <div className="p-card-subtitle">{t('category')}: {translatedKeys(category)}</div>}
-               <strong>{t('cities')}: {translatedKeys(city)}</strong>
+               {category && <div className="p-card-subtitle">{(category.split(',').length > 1) ? t('categories'): t('category')}: {translatedKeys(category)}</div>}
+               <strong>{(city.split(',').length > 1) ? t('cities'): t('city')}: {translatedKeys(city)}</strong>
             </div>
 
          </div>
