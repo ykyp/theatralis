@@ -27,7 +27,8 @@ fields:
 - type: text
   name: city
   label: 'City '
-  description: "<strong>Add all cities with a comma<br>eg: Nicosia, Limassol</strong>"
+  description: "<strong>Add all cities with a comma<br>eg: Nicosia, Limassol, Larnaca,
+    Pafos, Famagusta</strong>"
   config:
     required: true
 - name: event_image
