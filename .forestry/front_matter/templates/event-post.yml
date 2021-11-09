@@ -41,9 +41,9 @@ fields:
   config:
     required: false
   label: Category
-  description: I katigoria tou ergou. Mia apo autes:<br><strong>Drama, Comedy, Standup,
-    Children, Historical, Musical, Amateur, Tragedy</strong>, <strong>Mystery, Satire,
-    Opera</strong>
+  description: I katigoria/katigories tou ergou, comma separated<br><strong>Drama,
+    Comedy, Standup, Children, Historical, Musical, Amateur, Tragedy</strong>, <strong>Mystery,
+    Satire, Opera</strong>
 pages:
 - events/1964.md
 - events/2022-1.md
