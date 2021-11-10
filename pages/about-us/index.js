@@ -12,7 +12,7 @@ export default function AboutUs() {
          </Head>
 
          <div className="w-full flex justify-around">
-            <article className="prose prose-purple p-5">
+            <article className="prose prose-purple p-5 text-justify ">
                <h1>{t("aboutUsHd")}</h1>
                <h3> 💁🏻‍♀️💁🏻‍♂️💁🏻‍♀️️ {t("aboutUsSubhd")}</h3>
 
