@@ -38,12 +38,13 @@ export default function Event({ eventData: eventData }) {
           <div className="p-4">
             <h1 className={utilStyles.headingXl}>{eventData.title} </h1>
             <div className={utilStyles.lightText}></div>
-                {formatDate(eventData.startDate)} - {formatDate(eventData.endDate)}
+            <i className="pi pi-calendar th-icon"></i>
+            {formatDate(eventData.startDate)} - {formatDate(eventData.endDate)}
 
                 <div className="flex justify-between">
             <div className="justify-start">
-                  {eventData.category && <h3>{(eventData.category.split(',').length > 1) ? t('categories'): t('category')}: {translatedKeys(eventData.category)}</h3>}
-              <h3>{(eventData.city.split(',').length > 1) ? t('cities'): t('city')}: {translatedKeys(eventData.city)}</h3>
+              {eventData.category && <div className="mt-2 mb-2"><i className="pi pi-tag th-icon"></i> {translatedKeys(eventData.category)}</div>}
+              <div className="mt-2 mb-2"><i className="pi pi-map-marker th-icon"></i>{translatedKeys(eventData.city)}</div>
 
               <div className="socials-container">
                 <a href={facebookShareLink}
