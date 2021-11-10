@@ -34,7 +34,7 @@ export default function Event({ eventData: eventData }) {
         <title>{eventData.title}</title>
       </Head>
       <div className="w-full flex justify-around">
-        <article className="prose prose-purple max-w-sm lg:max-w-2xl">
+        <article className="prose prose-purple max-w-sm lg:max-w-3xl">
           <div className="p-4">
             <h1 className={utilStyles.headingXl}>{eventData.title} </h1>
             <div className={utilStyles.lightText}></div>
