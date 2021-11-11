@@ -153,3 +153,7 @@ a.brand-red:hover {
   margin-right: 10px;
   color: #8a8d93;
 }
+
+.p-dropdown-items-wrapper {
+  max-height: 340px !important;
+}
