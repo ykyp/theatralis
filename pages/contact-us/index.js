@@ -68,7 +68,7 @@ export default function ContactUs() {
                      />
                   </div>
                </div>
-                  <Button type="submit" label={t("submit")}/>
+                  <Button type="submit" disabled={!message || !subject} label={t("submit")}/>
                </form>
 
             </article>
