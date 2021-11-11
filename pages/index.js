@@ -133,7 +133,7 @@ export default function Home({ allEventsData }) {
         <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
          {/*  {t('events-for')} {selectedCity && `${t('for-m')} ${(translatedCity)}`},
            {" " + translatedPeriod.toLowerCase()} {t('for-m')} {translatedAudience.toLowerCase()}*/}</h3>
-         { results.length === 0 && <div>No Events found.</div> }
+         { results.length === 0 && <div>{t("noEventsFound")}</div> }
         <div className={utilStyles.list}>
           {results.map((event) => (
              <ListingEvent event={event} key={event.title} />

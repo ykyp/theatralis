@@ -42,7 +42,7 @@ export default function Event({ eventData: eventData }) {
 
                 <div className="flex justify-between">
             <div className="justify-start">
-              <h4><i className="pi pi-calendar th-icon"></i>
+              <h4 className="mt-0 mb-2"><i className="pi pi-calendar th-icon"></i>
                 {formatDate(eventData.startDate)} - {formatDate(eventData.endDate)}</h4>
               {eventData.category && <h4 className="mt-2 mb-2"><i className="pi pi-tag th-icon"></i> {translatedKeys(eventData.category)}</h4>}
               <h4 className="mt-2 mb-2"><i className="pi pi-map-marker th-icon"></i>{translatedKeys(eventData.city)}</h4>
