@@ -6,7 +6,7 @@ import utilStyles from '../../styles/utils.module.css'
 import { TabView, TabPanel } from 'primereact/tabview';
 import useTranslation from "next-translate/useTranslation";
 import React, { useEffect, useState } from 'react';
-import EventMap from './event-google-map';
+import EventMap from '../../components/google-maps/event-google-map';
 
 export default function Event({ eventData: eventData }) {
   const { t, lang } = useTranslation('common');
