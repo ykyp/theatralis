@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { GMap } from 'primereact/gmap';
-import { loadGoogleMaps, removeGoogleMaps } from './google-maps';
+import loadGoogleMaps, { removeGoogleMaps } from './google-maps';
 
 export default function EventMap () {
    const [googleMapsReady, setGoogleMapsReady] = useState(false);

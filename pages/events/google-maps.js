@@ -1,4 +1,4 @@
-export const loadGoogleMaps = (callback) => {
+export default function loadGoogleMaps (callback) {
    const existingScript = document.getElementById('googleMaps');
 
    if (!existingScript) {
