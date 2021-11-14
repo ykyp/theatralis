@@ -1,5 +1,5 @@
 ---
-title: Harold & Maude
+title: Harold and Maude
 startDate: 2021-11-22
 endDate: 2021-11-28
 city: Nicosia, Famagusta, Pafos
