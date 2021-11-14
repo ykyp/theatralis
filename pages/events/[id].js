@@ -68,7 +68,7 @@ export default function Event({ eventData: eventData }) {
                 <div dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
               </TabPanel>
               <TabPanel header="Map">
-                <p>Map will go here...</p>
+                Address: Grigori Afxentiou 9 1096, Nicosia
                 <EventMap/>
               </TabPanel>
             </TabView>
