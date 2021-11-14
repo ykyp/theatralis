@@ -5,7 +5,8 @@ import {formatDate} from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { TabView, TabPanel } from 'primereact/tabview';
 import useTranslation from "next-translate/useTranslation";
-import {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
+import EventMap from './event-google-map';
 
 export default function Event({ eventData: eventData }) {
   const { t, lang } = useTranslation('common');
@@ -38,9 +39,7 @@ export default function Event({ eventData: eventData }) {
           <div className="p-4">
             <h1 className={utilStyles.headingXl}>{eventData.title} </h1>
             <div className={utilStyles.lightText}></div>
-
-
-                <div className="flex justify-between">
+            <div className="flex justify-between">
             <div className="justify-start">
               <h4 className="mt-0 mb-2"><i className="pi pi-calendar th-icon"></i>
                 {formatDate(eventData.startDate)} - {formatDate(eventData.endDate)}</h4>
@@ -68,9 +67,10 @@ export default function Event({ eventData: eventData }) {
               <TabPanel header={t("details")}>
                 <div dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
               </TabPanel>
-              {/*<TabPanel header="Map">
+              <TabPanel header="Map">
                 <p>Map will go here...</p>
-              </TabPanel>*/}
+                <EventMap/>
+              </TabPanel>
             </TabView>
           </div>
         </article>
