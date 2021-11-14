@@ -157,3 +157,7 @@ a.brand-red:hover {
 .p-dropdown-items-wrapper {
   max-height: 340px !important;
 }
+
+.prose .gm-style img {
+  margin: 0;
+}

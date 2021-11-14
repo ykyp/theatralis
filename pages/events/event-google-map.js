@@ -4,13 +4,7 @@ import { loadGoogleMaps, removeGoogleMaps } from './google-maps';
 
 export default function EventMap () {
    const [googleMapsReady, setGoogleMapsReady] = useState(false);
-   const [dialogVisible, setDialogVisible] = useState(false);
-   const [markerTitle, setMarkerTitle] = useState('');
-   const [draggableMarker, setDraggableMarker] = useState(false);
    const [overlays, setOverlays] = useState(null);
-   const [selectedPosition, setSelectedPosition] = useState(null);
-
-   const infoWindow = useRef(null);
 
    useEffect(() => {
       loadGoogleMaps(() => {
@@ -22,51 +16,60 @@ export default function EventMap () {
       };
    },[]);
 
-   const onMapClick = (event) => {
-      setDialogVisible(true);
-      setSelectedPosition(event.latLng)
-   };
+   const contentString =
+      '<div id="content">' +
+      '<div id="bodyContent">' +
+      "<p><b>Thoc</b>,  " +
+      "Grigori Afxentiou 9 1096, Nicosia" +
+      "</p>" +
+      '<p>Get directions , <a target="_blank" href="https://www.google.com/maps?saddr=My+Location&daddr=35.1680902,33.3531578">' +
+      "here</a> " +
+      "</p>" +
+      "</div>" +
+      "</div>";
 
-   const onOverlayClick = (event) => {
-      let isMarker = event.overlay.getTitle !== undefined;
-
-      if(isMarker) {
-         let title = event.overlay.getTitle();
-         infoWindow.current = infoWindow.current||new google.maps.InfoWindow();
-         infoWindow.setContent('<div>' + title + '</div>');
-         infoWindow.open(event.map, event.overlay);
-         event.map.setCenter(event.overlay.getPosition());
-      }
-   };
-
-   const addMarker = () => {
-      let newMarker = new google.maps.Marker({
-         position: {
-            lat: selectedPosition.lat(),
-            lng: selectedPosition.lng()
-         },
-         title: markerTitle,
-         draggable: draggableMarker
-      });
-
-      setOverlays([...overlays, newMarker]);
-      setDialogVisible(false);
-      setDraggableMarker(false);
-      setMarkerTitle('');
-   };
 
    const onMapReady = (event) => {
+
+      const marker = new google.maps.Marker({
+         position: {lat: 35.1680605, lng: 33.3552834},
+         title:"Thoc",
+         icon:`//${process.env.BASE_URL}/images/theatralis_pin.png`});
+
       setOverlays(
          [
-            new google.maps.Marker({position: {lat: 35.1856, lng: 35.1856}, title:"Thoc"}),
-            new google.maps.Circle({center: {lat: 35.1856, lng: 33.3823}, fillColor: '#1976D2', fillOpacity: 0.35, strokeWeight: 1, radius: 1500}),
+            marker,
+            //new google.maps.Circle({center: {lat: 35.1856, lng: 33.3823}, fillColor: '#1976D2', fillOpacity: 0.35, strokeWeight: 1, radius: 1500}),
          ]
       );
+
+      const infowindow = new google.maps.InfoWindow({
+         content: contentString,
+      });
+
+      const map = document.getElementById("map");
+
+      infowindow.open({
+         anchor: marker,
+         map,
+         shouldFocus: false,
+      });
+
+      marker.addListener("click", () => {
+         infowindow.open({
+            anchor: marker,
+            map,
+            shouldFocus: false,
+         });
+      });
    };
 
    const options = {
-      center: {lat: 35.1856, lng: 33.3823},
-      zoom: 12
+      center: {lat: 35.1680605, lng: 33.3552834},
+      zoom: 14,
+      zoomControl: true,
+      mapId: 'bc03a351bf3a9067',
+      disableDefaultUI: true
    };
 
    return (
@@ -74,8 +77,10 @@ export default function EventMap () {
          {
             googleMapsReady && (
                <div className="card">
-                  <GMap overlays={overlays} options={options} style={{width: '100%', minWidth:'500px', minHeight: '320px'}} onMapReady={onMapReady}
-                        onMapClick={onMapClick} onOverlayClick={onOverlayClick}/>
+                  <GMap overlays={overlays}
+                        options={options}
+                        style={{width: '100%', minWidth:'500px', minHeight: '320px'}}
+                        onMapReady={onMapReady} />
                </div>
             )
          }
