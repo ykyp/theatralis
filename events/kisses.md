@@ -4,7 +4,7 @@ title: Μολότωφ kisses
 startDate: 2021-11-22
 endDate: 2021-11-29
 city: Paphos
-event_image: ''
+event_image: "/images/uploads/molotovposter.jpeg"
 category: Comedy
 
 ---
