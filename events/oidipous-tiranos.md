@@ -4,7 +4,7 @@ title: ΟΙΔΟΙΠΟΥΣ ΤΥΡΑΝΝΟΣ
 startDate: 2022-07-13
 endDate: 2022-07-13
 city: NIcosia
-event_image: ''
+event_image: "/images/uploads/οιδιποθσ.jpeg"
 category: Drama
 
 ---
