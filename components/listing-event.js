@@ -57,7 +57,7 @@ export const ListingEvent = (props) => {
             </div>
 
             <div className="p-col-8" style={{lineHeight: '1.5', margin: '0 20px'}}>
-               <h3  className="formatted-h3" style={{margin: 0}}>
+               <h3  className="formatted-h3">
                   <Link  href={`/events/${id}`}>
                      <a className='brand-red'>{title}</a>
                   </Link>

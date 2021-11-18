@@ -96,7 +96,6 @@ a:hover, a.active {
 .formatted-h3 {
   color: #111827;
   font-size: 18px;
-  margin-top: 4px;
   margin-bottom: 4px;
   line-height: 1.6;
 }
@@ -192,5 +191,9 @@ a.brand-red:hover {
 
 .p-dropdown-items-wrapper {
   max-height: 340px !important;
+}
+
+.p-card .p-card-content {
+  padding: 0;
 }
 
