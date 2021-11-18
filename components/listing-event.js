@@ -46,15 +46,14 @@ export const ListingEvent = (props) => {
       <Card style={{ width: '100%',
          marginBottom: '1em',
          borderBottom: '2px solid #780811'
-      }}
-            >
+      }}>
 
         {/* <div className="grid grid-cols-3">*/}
          <div className="p-grid flex-nowrap">
             <div className="p-col-3" style={{cursor: 'pointer'}} onClick={() => router.push(`/events/${id}`)}>
                { event_image ?
-                  <img width={'auto'} height={150} style={{ margin: 'auto'}} src={event_image}/> :
-                  <img width={'auto'} height={150} style={{ margin: 'auto'}} src="/images/theatralis-sm-white.png"/>}
+                  <img width={'auto'} height={150} style={{ margin: 'auto', maxHeight: '134px'}} src={event_image}/> :
+                  <img width={'auto'} height={150} style={{ margin: 'auto', maxHeight: '134px'}} src="/images/theatralis-sm-white.png"/>}
             </div>
 
             <div className="p-col-8" style={{lineHeight: '1.5', margin: '0 20px'}}>

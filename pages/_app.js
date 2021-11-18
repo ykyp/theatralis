@@ -1,5 +1,5 @@
-import '../styles/global.css'
 import '../styles/theme-theatralis.css'
+import '../styles/global.css'
 import 'primeflex/primeflex.css';
 import 'primereact/resources/primereact.css';
 import 'primeicons/primeicons.css';
