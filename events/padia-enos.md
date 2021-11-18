@@ -4,7 +4,7 @@ title: Παιδία ενός κατώτερου θεού
 startDate: 2021-12-03
 endDate: 2021-12-03
 city: Paphos
-event_image: ''
+event_image: "/images/uploads/katoterou.jpeg"
 category: Drama
 
 ---
