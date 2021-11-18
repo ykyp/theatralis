@@ -21,7 +21,7 @@ const Navbar = (props) =>  {
       </div>
 
       <nav className="navbar">
-         <ul className="flex flex-wrap items-center font-semibold ">
+         <ul className="flex flex-wrap items-center">
             {props.children}
          </ul>
       </nav>

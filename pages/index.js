@@ -129,7 +129,7 @@ export default function Home({ allEventsData }) {
        <Search />*/}
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
-               style={{maxWidth: '874px'}}>
+               style={{maxWidth: '787px'}}>
         <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
          {/*  {t('events-for')} {selectedCity && `${t('for-m')} ${(translatedCity)}`},
            {" " + translatedPeriod.toLowerCase()} {t('for-m')} {translatedAudience.toLowerCase()}*/}</h3>

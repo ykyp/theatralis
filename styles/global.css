@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Ubuntu, Roboto, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
 }
 
@@ -40,6 +39,40 @@ img {
   padding: 42px 0;
 }
 
+.hero-image-2 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("../public/images/th7.png");
+
+  /* Set a specific height */
+  height: 10%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 20px 0;
+}
+
+.hero-image-2::after {
+  content: " ";
+  height: 10px;
+  color: black;
+  position: absolute;
+  width: 100%;
+  border-bottom: 2px solid black;
+  top: 35px;
+  left: 0;
+  bottom: 0;
+}
+
+.prose h1 {
+  color: #7c141f;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+
 .brand-red {
   color: #780811;
 }
@@ -58,8 +91,7 @@ a:hover, a.active {
 
 .formatted-h3 {
   color: #111827;
-  font-weight: 600;
-  font-size: 1.25em;
+  font-size: 18px;
   margin-top: 4px;
   margin-bottom: 4px;
   line-height: 1.6;
@@ -157,3 +189,4 @@ a.brand-red:hover {
 .p-dropdown-items-wrapper {
   max-height: 340px !important;
 }
+

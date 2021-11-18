@@ -86,7 +86,7 @@ export const Filter = (props) => {
 
    return (
       <FiltersContainer
-      style={{maxWidth: '874px',
+      style={{maxWidth: '787px',
          'margin': 'auto',
          'display': 'flex',
          'justifyContent': 'space-between'}}>

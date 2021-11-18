@@ -7,7 +7,7 @@ const Hero = () => {
 
 return (
 
-   <header className="max-w-screen-xl text-center mx-auto object-center">
+   <header className="max-w-screen-l text-center mx-auto object-center">
       <div className="hero-image px-0">
          <img
             src={t('hero-image')}
@@ -21,7 +21,7 @@ return (
          <div className="text-2xl text-white mt-1">{t('hero-subtitle')}</div>*/}
       </div>
       <div className="hero-subtitle">
-         <div className="text-2xl text-white mt-1">{t('hero-subtitle')}</div>
+         <div className="text-l text-white mt-1">{t('hero-subtitle')}</div>
       </div>
    </header>
 )};
