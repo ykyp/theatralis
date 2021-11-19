@@ -62,11 +62,20 @@ export const ListingEvent = (props) => {
                      <a className='brand-red'>{title}</a>
                   </Link>
                </h3>
-               <div className="p-card-subtitle">
-                  <i className="pi pi-calendar th-icon"></i>{formatDate(startDate)} - {formatDate(endDate)}
+               <div className="p-card-subtitle md:text-sm  sm:text-xs flex items-center">
+                  <i className="pi pi-calendar th-icon"></i>
+                  <div className="th-icon-text">{formatDate(startDate)} - {formatDate(endDate)}</div>
                </div>
-               {category && <div className="p-card-subtitle"><i className="pi pi-tag th-icon"></i>{translatedKeys(category)}</div>}
-               <div className="p-card-subtitle"><i className="pi pi-map-marker th-icon"></i>{translatedKeys(city)}</div>
+               {category &&
+                  <div className="p-card-subtitle md:text-sm  sm:text-xs flex items-center">
+                     <i className="pi pi-tag th-icon"></i>
+                     <div className="th-icon-text">{translatedKeys(category)}</div>
+                  </div>
+               }
+               <div className="p-card-subtitle md:text-sm  sm:text-xs flex items-center">
+                  <i className="pi pi-map-marker th-icon"></i>
+                  <div className="th-icon-text">{translatedKeys(city)}</div>
+               </div>
             </div>
 
          </div>

@@ -96,6 +96,7 @@ a:hover, a.active {
 .formatted-h3 {
   color: #111827;
   font-size: 18px;
+  font-weight: bold;
   margin-bottom: 4px;
   line-height: 1.6;
 }
@@ -187,6 +188,11 @@ a.brand-red:hover {
 .th-icon {
   margin-right: 10px;
   color: #8a8d93;
+  /*color: #780811;*/
+}
+
+.th-icon-text {
+  display: inline;
 }
 
 .p-dropdown-items-wrapper {
@@ -197,3 +203,7 @@ a.brand-red:hover {
   padding: 0;
 }
 
+.p-card-subtitle {
+  /*color: rgba(0,0,0,.54);*/
+  color: #5a5a5a
+}
