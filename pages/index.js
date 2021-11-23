@@ -115,7 +115,7 @@ export default function Home({ allEventsData }) {
 
        <div className="w-full bg-gray-100">
           <div className="max-w-screen-xl pb-6 mx-auto ">
-             <div  className="pb-3">
+             <div  className="pb-2 pt-2">
                 <Filter onCityChange={handleCityChange}
                         selectedCity={selectedCity}
                         onPeriodChange={handlePeriodChange}
