@@ -52,7 +52,7 @@ export const ListingEvent = (props) => {
          <div className="p-grid flex-nowrap">
             <div className="p-col-3" style={{cursor: 'pointer'}} onClick={() => router.push(`/events/${id}`)}>
                { event_image ?
-                  <img width={'auto'} height={150} style={{ margin: 'auto', maxHeight: '134px'}} src={event_image}/> :
+                  <img width={'auto'} className="listing-img" height={150} style={{ margin: 'auto', maxHeight: '134px'}} src={event_image}/> :
                   <img width={'auto'} height={150} style={{ margin: 'auto', maxHeight: '134px'}} src="/images/theatralis-sm-white.png"/>}
             </div>
 
@@ -62,17 +62,17 @@ export const ListingEvent = (props) => {
                      <a className='brand-red'>{title}</a>
                   </Link>
                </h3>
-               <div className="p-card-subtitle md:text-sm  sm:text-xs flex items-center">
+               <div className="p-card-subtitle md:text-sm  sm:mobile-card-text flex items-center">
                   <i className="pi pi-calendar th-icon"></i>
                   <div className="th-icon-text">{formatDate(startDate)} - {formatDate(endDate)}</div>
                </div>
                {category &&
-                  <div className="p-card-subtitle md:text-sm  sm:text-xs flex items-center">
+                  <div className="p-card-subtitle md:text-sm  sm:mobile-card-text flex items-center">
                      <i className="pi pi-tag th-icon"></i>
                      <div className="th-icon-text">{translatedKeys(category)}</div>
                   </div>
                }
-               <div className="p-card-subtitle md:text-sm  sm:text-xs flex items-center">
+               <div className="p-card-subtitle md:text-sm  sm:mobile-card-text flex items-center">
                   <i className="pi pi-map-marker th-icon"></i>
                   <div className="th-icon-text">{translatedKeys(city)}</div>
                </div>

@@ -11,6 +11,7 @@ import { Paginator } from 'primereact/paginator';
 import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
+import { ProgressSpinner } from 'primereact/progressspinner';
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
@@ -44,6 +45,7 @@ export default function Home({ allEventsData }) {
    const [currentPage, setCurrentPage] = useStateFromStorage(0, SELECTED_CURRENT_PAGE);
    const [rowsPerPage, setRowsPerPage] = useStateFromStorage(10, SELECTED_ITEMS_PER_PAGE);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
+   const [isLoading, setLoading] = useState(true);
 
    const searchEndpoint = (city, period, category, page, rows) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}`;
 
@@ -92,6 +94,7 @@ export default function Home({ allEventsData }) {
          .then(res => {
             setResults(() => res.results);
             setCurrentTotalCount(() => res.totalLength);
+            setLoading(false);
          });
 
       ga.event({
@@ -128,7 +131,7 @@ export default function Home({ allEventsData }) {
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
        <Search />*/}
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
+             { !isLoading && <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
                style={{maxWidth: '787px'}}>
         <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
          {/*  {t('events-for')} {selectedCity && `${t('for-m')} ${(translatedCity)}`},
@@ -139,7 +142,15 @@ export default function Home({ allEventsData }) {
              <ListingEvent event={event} key={event.title} />
           ))}
         </div>
-      </section>
+      </section>}
+
+             { isLoading  && <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto flex `}
+                                      style={{maxWidth: '787px'}}>
+                <ProgressSpinner
+                   style={{width: '50px', height: '50px'}}
+                   strokeWidth="4"
+                   animationDuration="1s"/>
+             </section>}
 
 
           </div>
