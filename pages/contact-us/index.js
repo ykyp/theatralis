@@ -83,6 +83,14 @@ export default function ContactUs() {
             <title>Contact Us</title>
          </Head>
 
+         <header className="max-w-screen-xl text-center mx-auto object-center">
+            <div className="hero-image-2 px-0 hero-image-small">
+
+               {/*  <h1 className="text-4xl text-white font-semibold">{name}</h1>
+         <div className="text-2xl text-white mt-1">{t('hero-subtitle')}</div>*/}
+            </div>
+         </header>
+
          <Toast ref={toast} />
 
          <div className="w-full flex justify-around">
