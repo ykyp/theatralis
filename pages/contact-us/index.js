@@ -87,7 +87,7 @@ export default function ContactUs() {
 
          <div className="w-full flex justify-around">
             <article className="prose prose-purple p-5">
-               <div className="event-title pb-3">{t("contactUsHd")}</div>
+               <div className="event-title pb-3 sharp-line">{t("contactUsHd")}</div>
                <div className="event-details flex items-center ">
                     <i className="pi pi-arrow-circle-right mr-2"></i>
                   ️ <div className="th-icon-text">{t("contactUsSubhd")}</div>

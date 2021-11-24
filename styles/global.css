@@ -235,7 +235,7 @@ a.brand-red:hover {
   position: relative;
 }
 
-.event-title::after {
+/*.event-title::after {
   content: " ";
   width: 7px;
   height: 25px;
@@ -245,4 +245,14 @@ a.brand-red:hover {
   border-radius: 5px;
   top: 11px;
   left: -8px;
+}*/
+
+.sharp-line::after {
+  content: " ";
+  width: 120px;
+  position: absolute;
+  border-bottom: 3px solid #7c141f;
+  border-radius: 74%;
+  bottom: 8px;
+  left: 0;
 }
