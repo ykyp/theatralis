@@ -235,6 +235,10 @@ a.brand-red:hover {
   position: relative;
 }
 
+.th-24 {
+  font-size: 24px;
+}
+
 /*.event-title::after {
   content: " ";
   width: 7px;

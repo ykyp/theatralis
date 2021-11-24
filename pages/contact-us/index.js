@@ -89,8 +89,8 @@ export default function ContactUs() {
             <article className="prose prose-purple p-5">
                <div className="event-title pb-3 sharp-line">{t("contactUsHd")}</div>
                <div className="event-details flex items-center ">
-                    <i className="pi pi-arrow-circle-right mr-2"></i>
-                  ️ <div className="th-icon-text">{t("contactUsSubhd")}</div>
+                    <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
+                  ️ <div className="th-icon-text font-bold">{t("contactUsSubhd")}</div>
                </div>
                <div className="event-details flex items-center pt-3 pb-3">
                   ️ <div className="th-icon-text">
