@@ -44,17 +44,27 @@ export default function Event({ eventData: eventData }) {
       </Head>
       <div className="w-full flex justify-around">
         <article className="prose prose-purple max-w-sm lg:max-w-3xl">
-          <div className="p-4">
-            <h1 className={utilStyles.headingXl}>{eventData.title} </h1>
+          <div className="pt-4 pl-4 pr-4 pb-0">
+            <div className={`event-title m-0`}>{eventData.title} </div>
             <div className={utilStyles.lightText}></div>
 
 
                 <div className="flex justify-between">
             <div className="justify-start">
-              <h4 className="mt-0 mb-2"><i className="pi pi-calendar th-icon"></i>
-                {formatDate(eventData.startDate)} - {formatDate(eventData.endDate)}</h4>
-              {eventData.category && <h4 className="mt-2 mb-2"><i className="pi pi-tag th-icon"></i> {translatedKeys(eventData.category)}</h4>}
-              <h4 className="mt-2 mb-2"><i className="pi pi-map-marker th-icon"></i>{translatedKeys(eventData.city)}</h4>
+              <div className="event-details flex items-center mt-2 mb-1">
+                <i className="pi pi-calendar th-icon"></i>
+                <div className="th-icon-text">{formatDate(eventData.startDate)} - {formatDate(eventData.endDate)}</div>
+              </div>
+              {eventData.category &&
+              <div className="event-details flex items-center mb-1">
+                <i className="pi pi-tag th-icon"></i>
+                <div className="th-icon-text"> {translatedKeys(eventData.category)}</div>
+              </div>
+             }
+              <div className="event-details flex items-center mb-2">
+                <i className="pi pi-map-marker th-icon "></i>
+                <div className="th-icon-text">{translatedKeys(eventData.city)}</div>
+              </div>
 
               <div className="socials-container">
                 <a href={facebookShareLink}

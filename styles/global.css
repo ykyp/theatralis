@@ -217,3 +217,13 @@ a.brand-red:hover {
   -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
   box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
 }
+
+.event-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.event-details {
+  font-size: 15px;
+}
+
