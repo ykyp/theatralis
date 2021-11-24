@@ -103,7 +103,7 @@ export default function ContactUs() {
                <div className="p-fluid">
 
                   <div className="p-field">
-                     <label htmlFor="reason">{t("contactReason")} <span className='brand-red'>*</span></label>
+                     <label htmlFor="reason">{t("subject")} <span className='brand-red'>*</span></label>
                      <Dropdown value={reason}
                                style={{width: '100%', maxHeight: '310px'}}
                                key="reason"
