@@ -28,7 +28,9 @@
   "all": "all",
   "children": "children",
   "contactUsHd": "Contact Us",
-  "contactUsSubhd": "Tell us about a new theatre, or anything else that you want",
+  "contactUsSubhd": "Tell us about a new theatre, or anything else that you want.",
+  "contactUsSubhd2": "You can email us directly at ",
+  "contactUsSubhd3": " or fill the form below.",
   "submit": "Submit",
   "subject": "Subject",
   "message": "Message",
@@ -52,5 +54,11 @@
   "Mystery": "Mystery",
   "Satire": "Satire",
   "Opera": "Opera",
-  "noEventsFound": "No Events found with these criteria, please try searching something else."
+  "noEventsFound": "No Events found with these criteria, please try searching something else.",
+  "contactReason": "Contact Reason",
+  "selectReason": "Select a Reason",
+  "InfoForTheatre": "Information about a theatre event",
+  "NewTheatre": "Submit a new theatre event",
+  "Suggestions": "Suggestions",
+  "Other": "Other"
 }

@@ -6,12 +6,12 @@ export default async (req, res) => {
    const body = JSON.parse(req.body);
 
    const message = `
-    Subject: ${body.subject}\r\n
+    Reason: ${body.reason}\r\n
     Message: ${body.message}
   `;
 
    const data = {
-      to: ['theatraliscy@gmail.com', 'myrokyp@hotmail.com', 'pantelis-petrou@hotmail.com', 'yannakyp@gmail.com'],
+      to: ['myrokyp@hotmail.com', 'pantelis-petrou@hotmail.com', 'yannakyp@gmail.com', 'info@theatralis.com.cy'],
       from: 'theatraliscy@gmail.com',
       subject: `New message to Theatralis via Contact Us form`,
       text: message,

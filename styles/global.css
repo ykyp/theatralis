@@ -105,6 +105,10 @@ a:hover, a.active {
   color: #780811;
 }
 
+i {
+  color: #780811;
+}
+
 ::selection {
   color: white;
   background-color: #fcbc18;
@@ -227,3 +231,18 @@ a.brand-red:hover {
   font-size: 15px;
 }
 
+.event-title {
+  position: relative;
+}
+
+.event-title::after {
+  content: " ";
+  width: 7px;
+  height: 25px;
+  position: absolute;
+  border-left: 3px
+  solid #7c141f;
+  border-radius: 5px;
+  top: 11px;
+  left: -8px;
+}
