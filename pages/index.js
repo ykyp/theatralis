@@ -22,14 +22,18 @@ const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
 export default function Home({ allEventsData }) {
    const { t, lang } = useTranslation('common');
+   const ISSERVER = typeof window === "undefined";
 
    const [results, setResults] = useState([]);
 
    const useStateFromStorage = (defaultValue, key) => {
       return useState(() => {
       try {
-         const item = sessionStorage.getItem(key);
-         return item ? JSON.parse(item) : defaultValue;
+         if(!ISSERVER) {
+            const item = sessionStorage.getItem(key);
+            return item ? JSON.parse(item) : defaultValue;
+         }
+         return defaultValue;
       } catch (error) {
          // If error also return initialValue
          console.log(error);
@@ -47,17 +51,23 @@ export default function Home({ allEventsData }) {
    const [isLoading, setLoading] = useState(true);
 
    const handleCityChange = (e) => {
-      sessionStorage.setItem(SELECTED_CITY_KEY, JSON.stringify(e.value));
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_CITY_KEY, JSON.stringify(e.value));
+      }
       setSelectedCity(e.value);
    };
 
    const handlePeriodChange = (e) => {
-      sessionStorage.setItem(SELECTED_PERIOD_KEY, JSON.stringify(e.value));
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_PERIOD_KEY, JSON.stringify(e.value));
+      }
       setSelectedPeriod(e.value);
    };
 
    const handleCategoryChange = (e) => {
-      sessionStorage.setItem(SELECTED_CATEGORY_KEY, JSON.stringify(e.value));
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_CATEGORY_KEY, JSON.stringify(e.value));
+      }
       setSelectedCategory(e.value);
    };
 
@@ -65,9 +75,11 @@ export default function Home({ allEventsData }) {
       setCurrentPage(event.page); 
       setPageFirst(event.first);
       setRowsPerPage(event.rows);
-      sessionStorage.setItem(SELECTED_FIRST_PAGE, event.first);
-      sessionStorage.setItem(SELECTED_CURRENT_PAGE, event.page);
-      sessionStorage.setItem(SELECTED_ITEMS_PER_PAGE, event.rows);
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_FIRST_PAGE, event.first);
+         sessionStorage.setItem(SELECTED_CURRENT_PAGE, event.page);
+         sessionStorage.setItem(SELECTED_ITEMS_PER_PAGE, event.rows);
+      }
    };
 
    useEffect(() => {
@@ -76,9 +88,9 @@ export default function Home({ allEventsData }) {
 
    const searchEvents = () => {
       const query = {
-         city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity.name,
+         city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity?.name,
          period: selectedPeriod.code,
-         category:  selectedCategory.code === 'ALL'? 'ALL' : selectedCategory.name,
+         category:  selectedCategory.code === 'ALL'? 'ALL' : selectedCategory?.name,
          page: currentPage,
          rows: rowsPerPage,
       };
@@ -94,9 +106,9 @@ export default function Home({ allEventsData }) {
       })
    };
 
-   const translatedCity = t(""+selectedCity.name);
+   /*const translatedCity = t(""+selectedCity.name);
    const translatedPeriod = t(""+selectedPeriod.name);
-   const translatedAudience = t(""+selectedCategory.name);
+   const translatedAudience = t(""+selectedCategory.name);*/
 
 
    return (

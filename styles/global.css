@@ -220,6 +220,7 @@ a.brand-red:hover {
 .listing-img {
   -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
   box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+  border-radius: 3px;
 }
 
 .event-title {
