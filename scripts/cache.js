@@ -21,7 +21,10 @@ function eventData() {
          category: matterResult.data.category,
       }
    });
-   return `export const events = ${JSON.stringify(events)}`
+   const sortedEvents = events.sort((a, b) => {
+      return new Date(b.startDate) - new Date(a.startDate);
+   });
+   return `export const events = ${JSON.stringify(sortedEvents)}`
 }
 
 try {
