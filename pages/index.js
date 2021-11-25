@@ -84,7 +84,7 @@ export default function Home({ allEventsData }) {
       };
       const newResults = searchAll(allEventsData, query);
       setResults(() => newResults);
-      setCurrentTotalCount(() => newResults.totalLength);
+      setCurrentTotalCount(() => newResults.length);
       setLoading(false);
       ga.event({
          action: "search",
