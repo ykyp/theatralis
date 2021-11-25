@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
-import Link from 'next/link'
-import FormattedDate from '../components/date'
 import { Filter } from '../components/filter';
 import { ListingEvent } from '../components/listing-event';
 import { useState, useEffect } from 'react';
@@ -12,6 +10,7 @@ import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
+import {searchAll} from "../components/search-utils";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
@@ -46,8 +45,6 @@ export default function Home({ allEventsData }) {
    const [rowsPerPage, setRowsPerPage] = useStateFromStorage(10, SELECTED_ITEMS_PER_PAGE);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
    const [isLoading, setLoading] = useState(true);
-
-   const searchEndpoint = (city, period, category, page, rows) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}`;
 
    const handleCityChange = (e) => {
       sessionStorage.setItem(SELECTED_CITY_KEY, JSON.stringify(e.value));
@@ -85,18 +82,10 @@ export default function Home({ allEventsData }) {
          page: currentPage,
          rows: rowsPerPage,
       };
-      fetch(searchEndpoint(query.city,
-         query.period,
-         query.category,
-         query.page,
-         query.rows))
-         .then(res => res.json())
-         .then(res => {
-            setResults(() => res.results);
-            setCurrentTotalCount(() => res.totalLength);
-            setLoading(false);
-         });
-
+      const newResults = searchAll(allEventsData, query);
+      setResults(() => newResults);
+      setCurrentTotalCount(() => newResults.totalLength);
+      setLoading(false);
       ga.event({
          action: "search",
          params : {
@@ -170,6 +159,8 @@ export default function Home({ allEventsData }) {
   )
 }
 
+//this is not used except to populate the length.
+//actual data are been fetched from the cache via search.js
 export async function getStaticProps() {
   const allEventsData = getSortedEventsData();
   return {

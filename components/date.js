@@ -14,8 +14,8 @@ const isBetween = (date, min, max) => isToday(min) || isToday(max)||
    date.getTime() <= max.getTime());
 
 const isInWeek = (startDateString, endDateString, addWeeks) => {
-  const startDate = parseISO(startDateString);
-  const endDate = parseISO(endDateString);
+  const startDate = new Date(startDateString);
+  const endDate = new Date(endDateString);
   const today = new Date();
   const todayWeek = getISOWeek(today);
   const weekToCompare =  addWeeks ? todayWeek + addWeeks : todayWeek;
@@ -39,8 +39,8 @@ export function isInNextWeek(startDateString, endDateString) {
 }
 
 export function isInThisMonth(startDateString, endDateString) {
-  const startDate = parseISO(startDateString);
-  const endDate = parseISO(endDateString);
+  const startDate = new Date(startDateString);
+  const endDate = new Date(endDateString);
   return isBetween(new Date(), startDate, endDate);
 }
 
