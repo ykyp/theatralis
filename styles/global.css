@@ -261,3 +261,7 @@ a.brand-red:hover {
   bottom: 8px;
   left: 0;
 }
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  text-decoration: none;
+}

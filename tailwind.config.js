@@ -22,6 +22,24 @@ module.exports = {
           '"Noto Color Emoji"',
         ],
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#3F3F42',
+            a: {
+              color: '#3F3F42',
+              'text-decoration': 'underline #BABABA',
+              'text-decoration-thickness': '1px',
+              'text-decoration-skip-ink': 'none',
+              'text-underline-offset': '0.25em',
+              'font-weight': '700',
+              '&:hover': {
+                color: '#780811',
+              },
+            },
+          },
+        },
+      }
     },
   },
   variants: {

@@ -2,6 +2,7 @@ import React from "react";
 import Layout from '../../components/layout'
 import Head from 'next/head'
 import useTranslation from "next-translate/useTranslation";
+import {BackToHome} from "../../components/navigation/backToHome";
 
 export default function AboutUs() {
    const { t, lang } = useTranslation('common');
@@ -12,7 +13,7 @@ export default function AboutUs() {
          </Head>
 
          <div className="w-full flex justify-around">
-            <article className="prose prose-purple p-5 text-justify ">
+            <article className="prose p-5 text-justify ">
                <h1>{t("aboutUsHd")}</h1>
                <h3> 💁🏻‍♀️💁🏻‍♂️💁🏻‍♀️️ {t("aboutUsSubhd")}</h3>
 
@@ -27,6 +28,7 @@ export default function AboutUs() {
                </p>
 
                <p>Όποτε αποφασίσαμε να δημιουργήσουμε μία ενιαία ιστοσελίδα όπου θα καταχωρούμε όλες σχεδόν τις θεατρικές παραστάσεις σε όλη την Κύπρο.</p>
+               <BackToHome/>
             </article>
          </div>
       </Layout>

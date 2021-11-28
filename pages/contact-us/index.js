@@ -8,6 +8,7 @@ import { useState } from 'react';
 import useTranslation from "next-translate/useTranslation";
 import { Toast } from 'primereact/toast';
 import {Dropdown} from "primereact/dropdown";
+import {BackToHome} from "../../components/navigation/backToHome";
 
 export default function ContactUs() {
    const reasons = [
@@ -94,7 +95,7 @@ export default function ContactUs() {
          <Toast ref={toast} />
 
          <div className="w-full flex justify-around">
-            <article className="prose prose-purple p-5">
+            <article className="prose p-5">
                <div className="event-title pb-3 sharp-line">{t("contactUsHd")}</div>
                <div className="event-details flex items-center ">
                     <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
@@ -140,6 +141,7 @@ export default function ContactUs() {
                           label={t("submit")}/>
                </form>
 
+               <BackToHome/>
             </article>
          </div>
       </Layout>

@@ -6,6 +6,7 @@ import utilStyles from '../../styles/utils.module.css'
 import { TabView, TabPanel } from 'primereact/tabview';
 import useTranslation from "next-translate/useTranslation";
 import {useEffect, useState} from 'react';
+import {BackToHome} from "../../components/navigation/backToHome";
 
 export default function Event({ eventData: eventData }) {
   const { t, lang } = useTranslation('common');
@@ -43,7 +44,7 @@ export default function Event({ eventData: eventData }) {
         <title>{eventData.title}</title>
       </Head>
       <div className="w-full flex justify-around">
-        <article className="prose prose-purple max-w-sm lg:max-w-3xl">
+        <article className="prose max-w-sm lg:max-w-3xl">
           <div className="pt-4 pl-4 pr-4 pb-0">
             <div className={`event-title m-0`}>{eventData.title} </div>
             <div className={utilStyles.lightText}></div>
@@ -92,8 +93,12 @@ export default function Event({ eventData: eventData }) {
               </TabPanel>*/}
             </TabView>
           </div>
+
+          <BackToHome/>
         </article>
       </div>
+
+
     </Layout>
   )
 }
