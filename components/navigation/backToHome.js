@@ -9,7 +9,7 @@ const BackToHome = () =>  {
    return (
       <div className={styles.backToHome}>
          <Link href="/">
-            <a>  ← {t("backToHome")}</a>
+            <a className="font-normal">  ← {t("backToHome")}</a>
          </Link>
       </div>
    )};

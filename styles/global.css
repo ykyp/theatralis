@@ -265,3 +265,7 @@ a.brand-red:hover {
 .p-tabview .p-tabview-nav li .p-tabview-nav-link {
   text-decoration: none;
 }
+
+.font-normal {
+  font-weight: 400!important;
+}
