@@ -269,3 +269,32 @@ a.brand-red:hover {
 .font-normal {
   font-weight: 400!important;
 }
+
+.scrollTop {
+  position: fixed;
+  width: 40px;
+  bottom: 5px;
+  right: 3%;
+  align-items: end;
+  height: 20px;
+  justify-content: end;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover{
+  opacity:0.8;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+

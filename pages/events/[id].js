@@ -7,6 +7,7 @@ import { TabView, TabPanel } from 'primereact/tabview';
 import useTranslation from "next-translate/useTranslation";
 import {useEffect, useState} from 'react';
 import {BackToHome} from "../../components/navigation/backToHome";
+import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
 
 export default function Event({ eventData: eventData }) {
   const { t, lang } = useTranslation('common');
@@ -95,10 +96,14 @@ export default function Event({ eventData: eventData }) {
           </div>
 
           <BackToHome/>
+
         </article>
+
+
+
       </div>
 
-
+      <ScrollTopArrow/>
     </Layout>
   )
 }
