@@ -97,14 +97,14 @@ export default function ContactUs() {
          <div className="w-full flex justify-around">
             <article className="prose p-5">
                <div className="event-title pb-3 sharp-line">{t("contactUsHd")}</div>
-               <div className="event-details flex items-center ">
+               <div className="event-details flex items-center pt-5">
                     <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
                   ️ <div className="th-icon-text font-bold">{t("contactUsSubhd")}</div>
                </div>
                <div className="event-details flex items-center pt-3 pb-3">
                   ️ <div className="th-icon-text">
                   {t("contactUsSubhd2")}
-                  <strong>info@theatralis.com.cy</strong>
+                  <a href="mailto:info@theatralis.com.cy">info@theatralis.com.cy</a>
                   {t("contactUsSubhd3")}
                </div>
                </div>
