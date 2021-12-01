@@ -45,13 +45,13 @@ export const ListingEvent = (props) => {
    return (
       <>
       <div className="th-card-container mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red m-4">
-         <div className="md:flex">
+         <div className="md:flex relative">
             <div className="md:flex-shrink-0" style={{cursor: 'pointer'}} onClick={() => router.push(`/events/${id}`)}>
                { event_image ?
                   <img className="h-48 w-full object-cover md:h-full md:w-48"
                     src={event_image}
                     alt={title}/> :
-                  <img className="h-48 w-full md:h-full "
+                  <img className="h-48 w-full md:h-full"
                        src="/images/th-200x150.png"
                        alt={title}/> }
 
@@ -62,25 +62,31 @@ export const ListingEvent = (props) => {
                      <Link  href={`/events/${id}`}>
                         <a className='brand-red uppercase'>{title}</a>
                      </Link>
+                     <div className="mt-2 text-gray-500 th-subh-a">
+                        <div className="md:text-sm  sm:mobile-card-text flex items-center th-subh">
+                           <div className="th-icon-text">{formatDate(startDate)} - {formatDate(endDate)}</div>
+                        </div>
+                     </div>
                   </h3>
                </div>
                <div className="mt-2 text-gray-500">
-                  <div className="md:text-sm  sm:mobile-card-text flex items-center">
-                  <i className="pi pi-calendar th-icon"></i>
-                  <div className="th-icon-text">{formatDate(startDate)} - {formatDate(endDate)}</div>
-               </div>
+
                   {category &&
-                  <div className=" md:text-sm  sm:mobile-card-text flex items-center">
+                  <div className="mt-1 md:text-sm  sm:mobile-card-text flex items-center">
                      <i className="pi pi-tag th-icon"></i>
                      <div className="th-icon-text">{translatedKeys(category)}</div>
                   </div>
                   }
-                  <div className=" md:text-sm  sm:mobile-card-text flex items-center">
+                  <div className="mt-1 md:text-sm  sm:mobile-card-text flex items-center">
                      <i className="pi pi-map-marker th-icon"></i>
                      <div className="th-icon-text">{translatedKeys(city)}</div>
                   </div></div>
             </div>
+            <p className="read-more">
+               <a href={`/events/${id}`}>{t("readMore")}</a>
+            </p>
          </div>
+
       </div>
 
       {/*<Card style={{ width: '100%',

@@ -306,7 +306,48 @@ a.brand-red:hover {
   padding: 0;
 }
 
+/*calc(100% - 25px)*/
 .th-card-container img {
   min-width: 200px;
   max-height: 150px;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 0 100%)
 }
+
+.th-subh-a {
+  position: relative;
+}
+
+.th-subh:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  background: #fcbc18;
+  width: 35px;
+  top: -0.75rem;
+  border-radius: 3px;
+}
+
+.read-more {
+  text-align: right;
+  position: absolute;
+  margin: 0 5px 10px 0;
+  bottom: 0;
+  font-size: 18px;
+  right: 5px;
+}
+.read-more a {
+  display: inline-block;
+  position: relative;
+}
+.read-more a:after {
+  content: ">";
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+  transition: margin 0.3s, opacity 0.3s;
+}
+.read-more a:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
+
