@@ -298,3 +298,15 @@ a.brand-red:hover {
   }
 }
 
+.border-bottom-red {
+  border-bottom: 2px solid rgb(120, 8, 17);
+}
+
+.p-card .p-card-body {
+  padding: 0;
+}
+
+.th-card-container img {
+  min-width: 200px;
+  max-height: 150px;
+}
