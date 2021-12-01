@@ -306,25 +306,9 @@ a.brand-red:hover {
   padding: 0;
 }
 
-/*calc(100% - 25px)*/
 .th-card-container img {
   min-width: 200px;
   max-height: 150px;
-  clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 0 100%)
-}
-
-.th-subh-a {
-  position: relative;
-}
-
-.th-subh:before {
-  content: "";
-  position: absolute;
-  height: 5px;
-  background: #fcbc18;
-  width: 35px;
-  top: -0.75rem;
-  border-radius: 3px;
 }
 
 .read-more {

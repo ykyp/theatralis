@@ -44,7 +44,7 @@ export const ListingEvent = (props) => {
 
    return (
       <>
-      <div className="th-card-container mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red m-4">
+      <div className="th-card-container md:mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red m-4">
          <div className="md:flex relative">
             <div className="md:flex-shrink-0" style={{cursor: 'pointer'}} onClick={() => router.push(`/events/${id}`)}>
                { event_image ?
@@ -62,14 +62,13 @@ export const ListingEvent = (props) => {
                      <Link  href={`/events/${id}`}>
                         <a className='brand-red uppercase'>{title}</a>
                      </Link>
-                     <div className="mt-2 text-gray-500 th-subh-a">
-                        <div className="md:text-sm  sm:mobile-card-text flex items-center th-subh">
-                           <div className="th-icon-text">{formatDate(startDate)} - {formatDate(endDate)}</div>
-                        </div>
-                     </div>
                   </h3>
                </div>
                <div className="mt-2 text-gray-500">
+                  <div className="mt-1 md:text-sm  sm:mobile-card-text flex items-center">
+                     <i className="pi pi-calendar th-icon"></i>
+                     <div className="th-icon-text">{formatDate(startDate)} - {formatDate(endDate)}</div>
+                  </div>
 
                   {category &&
                   <div className="mt-1 md:text-sm  sm:mobile-card-text flex items-center">
@@ -82,9 +81,9 @@ export const ListingEvent = (props) => {
                      <div className="th-icon-text">{translatedKeys(city)}</div>
                   </div></div>
             </div>
-            <p className="read-more">
+            {/*<p className="read-more">
                <a href={`/events/${id}`}>{t("readMore")}</a>
-            </p>
+            </p>*/}
          </div>
 
       </div>
