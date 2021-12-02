@@ -44,7 +44,7 @@ export const ListingEvent = (props) => {
 
    return (
       <>
-      <div className="th-card-container md:mx-auto sm:mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red md:m-4 sm:m-4 xs:m-2">
+      <div className="th-card-container md:mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red md:m-4 sm:m-4 xs:m-2">
          <div className="flex">
             <div className="flex-shrink-0" style={{cursor: 'pointer'}} onClick={() => router.push(`/events/${id}`)}>
                { event_image ?
@@ -60,23 +60,23 @@ export const ListingEvent = (props) => {
                <div className="uppercase tracking-wide text-sm xs:text-xs brand-red font-semibold">
                   <h3  className="formatted-h3">
                      <Link  href={`/events/${id}`}>
-                        <a className='brand-red uppercase xs:text-xs '>{title}</a>
+                        <a className='brand-red uppercase xs:text-sm '>{title}</a>
                      </Link>
                   </h3>
                </div>
                <div className="mt-2 text-gray-500">
-                  <div className="mt-1 xs:text-xs md:text-sm sm:text-sm  xs:mobile-card-text flex items-center">
+                  <div className="mt-1 xs:text-sm md:text-sm sm:text-sm  xs:mobile-card-text flex items-center">
                      <i className="pi pi-calendar th-icon"></i>
                      <div className="th-icon-text">{formatDate(startDate)} - {formatDate(endDate)}</div>
                   </div>
 
                   {category &&
-                  <div className="mt-1 xs:text-xs md:text-sm sm:text-sm xs:mobile-card-text flex items-center">
+                  <div className="mt-1 xs:text-sm md:text-sm sm:text-sm xs:mobile-card-text flex items-center">
                      <i className="pi pi-tag th-icon"></i>
                      <div className="th-icon-text">{translatedKeys(category)}</div>
                   </div>
                   }
-                  <div className="mt-1 xs:text-xs md:text-sm sm:text-sm xs:mobile-card-text flex items-center">
+                  <div className="mt-1 xs:text-sm md:text-sm sm:text-sm xs:mobile-card-text flex items-center">
                      <i className="pi pi-map-marker th-icon"></i>
                      <div className="th-icon-text">{translatedKeys(city)}</div>
                   </div></div>
