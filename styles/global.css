@@ -307,8 +307,8 @@ a.brand-red:hover {
 }
 
 .th-card-container img {
-  min-width: 200px;
-  max-height: 150px;
+  /*min-width: 200px;
+  max-height: 150px;*/
 }
 
 .read-more {
