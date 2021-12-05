@@ -12,6 +12,11 @@ export default function AboutUs() {
             <title>About Us</title>
          </Head>
 
+         <header className="max-w-screen-xl text-center mx-auto object-center">
+            <div className="hero-image-2 px-0 hero-image-small">
+            </div>
+         </header>
+
          <div className="w-full flex justify-around">
             <article className="prose p-5">
                <div className="event-title pb-3 sharp-line">{t("aboutUsHd")}</div>
