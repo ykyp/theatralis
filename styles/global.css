@@ -298,3 +298,40 @@ a.brand-red:hover {
   }
 }
 
+.border-bottom-red {
+  border-bottom: 2px solid rgb(120, 8, 17);
+}
+
+.p-card .p-card-body {
+  padding: 0;
+}
+
+.th-card-container img {
+  /*min-width: 200px;
+  max-height: 150px;*/
+}
+
+.read-more {
+  text-align: right;
+  position: absolute;
+  margin: 0 5px 10px 0;
+  bottom: 0;
+  font-size: 18px;
+  right: 5px;
+}
+.read-more a {
+  display: inline-block;
+  position: relative;
+}
+.read-more a:after {
+  content: ">";
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+  transition: margin 0.3s, opacity 0.3s;
+}
+.read-more a:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
+
