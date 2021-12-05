@@ -346,3 +346,7 @@ a.brand-red:hover {
 .socials-container a:hover {
   color: white !important;
 }
+
+.prose p {
+  text-align: justify;
+}
