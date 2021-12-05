@@ -177,7 +177,6 @@ export default function Home({ allEventsData }) {
                   rowsPerPageOptions={[10, 20, 30]}
                   onPageChange={onBasicPageChange}>
        </Paginator>
-
     </Layout>
   )
 }

@@ -2,15 +2,12 @@ import React from "react";
 import Layout from '../../components/layout'
 import Head from 'next/head'
 import useTranslation from "next-translate/useTranslation";
-import {BackToHome} from "../../components/navigation/backToHome";
-import {Dropdown} from "primereact/dropdown";
-import {InputTextarea} from "primereact/inputtextarea";
-import {Button} from "primereact/button";
+import { BackToHome } from "../../components/navigation/backToHome";
 
 export default function AboutUs() {
-   const { t, lang } = useTranslation('common');
+   const { t } = useTranslation('common');
    return (
-      <Layout>
+      <Layout description="About Theatralis">
          <Head>
             <title>About Us</title>
          </Head>

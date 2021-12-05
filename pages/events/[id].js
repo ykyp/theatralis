@@ -10,7 +10,7 @@ import {BackToHome} from "../../components/navigation/backToHome";
 import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
 
 export default function Event({ eventData: eventData }) {
-  const { t, lang } = useTranslation('common');
+  const { t } = useTranslation('common');
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
   useEffect(() => {
@@ -47,7 +47,7 @@ export default function Event({ eventData: eventData }) {
       <div className="w-full flex justify-around">
         <article className="prose max-w-sm lg:max-w-3xl">
           <div className="pt-4 pl-4 pr-4 pb-0">
-            <div className={`event-title m-0`}>{eventData.title} </div>
+            <div className={`event-title m-0 uppercase`}>{eventData.title} </div>
             <div className={utilStyles.lightText}></div>
 
 
@@ -68,7 +68,7 @@ export default function Event({ eventData: eventData }) {
                 <div className="th-icon-text">{translatedKeys(eventData.city)}</div>
               </div>
 
-              <div className="socials-container">
+              <div className="socials-container flex">
                 <a href={facebookShareLink}
                    target="blank"
                    rel="noopener noreferrer"

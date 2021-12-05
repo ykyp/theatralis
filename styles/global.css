@@ -342,3 +342,7 @@ a.brand-red:hover {
 .aboutus-section {
   border-bottom: 2px solid #7c141f;
 }
+
+.socials-container a:hover {
+  color: white !important;
+}
