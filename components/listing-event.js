@@ -44,7 +44,7 @@ export const ListingEvent = (props) => {
 
    return (
       <>
-      <div className="th-card-container md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red m-4 sm:m-4 xs:m-2">
+      <div className="th-card-container md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red m-4 sm:m-4 xs:ml-4 xs:mr-4 xs:mb-2 xs:mt-2">
          <div className="flex">
             <div className="flex-shrink-0" style={{cursor: 'pointer'}} onClick={() => router.push(`/events/${id}`)}>
                { event_image ?
@@ -56,7 +56,7 @@ export const ListingEvent = (props) => {
                        alt={title}/> }
 
             </div>
-            <div className="pt-3 sm:pt-3 xs:pt-2 pl-8 sm:pl-8 xs:pl-4 pr-8 sm:pr-8 xs:pr-4 pb-6 sm:pb-6 xs:pb-4">
+            <div className="pt-3 sm:pt-3 xs:pt-2 pl-8 sm:pl-8 xs:pl-3 pr-8 sm:pr-8 xs:pr-3 pb-6 sm:pb-6 xs:pb-3">
                <div className="uppercase tracking-wide text-sm xs:text-xs brand-red font-semibold">
                   <h3  className="formatted-h3">
                      <Link  href={`/events/${id}`}>

@@ -11,7 +11,7 @@ const FiltersContainer = styled.section`
    `;
 
 const WithMargin = styled.div`
-      margin-left: 25px; 
+      margin-left: 22px; 
    `;
 
 export const Filter = (props) => {
@@ -90,16 +90,16 @@ export const Filter = (props) => {
          'margin': 'auto',
          'display': 'flex',
          'justifyContent': 'space-between'}}>
-            <div style={{width: '28%'}}>
+            <div style={{width: '28%'}} className="xs:ml-4 sm:ml-4">
                <h3 className="formatted-h3">{t('city')}</h3>
                <Dropdown value={props.selectedCity}
-                         style={{width: '100%', maxHeight: '310px'}}
+                         style={{width: '100%', maxHeight: '350px'}}
                          key="cityDropdown"
                          options={cities}
                          onChange={onCityChange}
                          optionLabel="name"
                          placeholder="Select where"
-                         scrollHeight="300px"
+                         scrollHeight="350px"
                          valueTemplate={selectedTranslatedOptionTemplate}
                          itemTemplate={translatedOptionTemplate}
                />
@@ -118,13 +118,14 @@ export const Filter = (props) => {
                          valueTemplate={selectedTranslatedOptionTemplate}
                          itemTemplate={translatedOptionTemplate} />
             </WithMargin>
-         <WithMargin style={{width: '28%'}}>
+         <WithMargin style={{width: '28%'}} className="xs:mr-4 sm:mr-4">
             <h3  className="formatted-h3">{t('category')}</h3>
 
             <Dropdown
                id="categoryDropdown"
                value={props.selectedCategory}
                style={{width: '100%', maxHeight: '410px'}}
+               className="show-scroll"
                key="categoryDropdown"
                options={categories}
                onChange={onCategoryChange}
