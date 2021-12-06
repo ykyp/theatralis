@@ -90,7 +90,7 @@ export const Filter = (props) => {
          'margin': 'auto',
          'display': 'flex',
          'justifyContent': 'space-between'}}>
-            <div style={{width: '28%'}} className="xs:ml-4 sm:ml-4">
+            <div style={{width: '28%'}} className="xs:ml-2 sm:ml-4">
                <h3 className="formatted-h3">{t('city')}</h3>
                <Dropdown value={props.selectedCity}
                          style={{width: '100%', maxHeight: '350px'}}
@@ -118,7 +118,7 @@ export const Filter = (props) => {
                          valueTemplate={selectedTranslatedOptionTemplate}
                          itemTemplate={translatedOptionTemplate} />
             </WithMargin>
-         <WithMargin style={{width: '28%'}} className="xs:mr-4 sm:mr-4">
+         <WithMargin style={{width: '28%'}} className="xs:mr-2 sm:mr-4">
             <h3  className="formatted-h3">{t('category')}</h3>
 
             <Dropdown
