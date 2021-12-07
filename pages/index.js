@@ -86,6 +86,7 @@ export default function Home({ allEventsData }) {
    };
 
    useEffect(() => {
+      setLoading(true);
       searchEvents();
    }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage]);
 
