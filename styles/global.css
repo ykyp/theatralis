@@ -95,10 +95,9 @@ a:hover, a.active {
 
 .formatted-h3 {
   color: #111827;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 4px;
-  line-height: 1.6;
 }
 
 .brand-red a {
@@ -195,7 +194,11 @@ a.brand-red:hover {
 }
 
 .th-icon-text {
-  display: inline;
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .p-dropdown-items-wrapper {
@@ -380,4 +383,8 @@ a.brand-red:hover {
   border-radius: 76%;
   bottom: -5px;
   left: 0px;
+}
+
+.th-card-container {
+  min-height: 128px;
 }

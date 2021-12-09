@@ -51,12 +51,12 @@ export const ListingEvent = (props) => {
                   <img className="h-36 sm:h-36 xs:h-32 object-cover w-48 sm:w-48 xs:w-28"
                     src={event_image}
                     alt={title}/> :
-                  <img className="h-36 sm:h-36 xs:h-32 h-full w-48 sm:w-48 xs:w-28"
+                  <img className=" sm:h-36 xs:h-32 h-full w-48 sm:w-48 xs:w-28"
                        src="/images/th-200x150.png"
                        alt={title}/> }
 
             </div>
-            <div className="pt-3 sm:pt-3 xs:pt-2 pl-8 sm:pl-8 xs:pl-4 pr-8 sm:pr-8 xs:pr-4 pb-6 sm:pb-6 xs:pb-4">
+            <div className="pt-3 sm:pt-3 xs:pt-1 pl-8 sm:pl-8 xs:pl-2 pr-8 sm:pr-8 xs:pr-4 pb-6 sm:pb-6 xs:pb-2">
                <div className="uppercase tracking-wide text-sm xs:text-xs brand-red font-semibold">
                   <h3  className="formatted-h3">
                      <Link  href={`/events/${id}`}>
@@ -73,12 +73,12 @@ export const ListingEvent = (props) => {
                   {category &&
                   <div className="mt-1 xs:text-sm text-sm sm:text-sm xs:mobile-card-text flex items-center">
                      <i className="pi pi-tag th-icon"></i>
-                     <div className="th-icon-text">{translatedKeys(category)}</div>
+                     <div className="xs:th-icon-text">{translatedKeys(category)}</div>
                   </div>
                   }
                   <div className="mt-1 xs:text-sm text-sm sm:text-sm xs:mobile-card-text flex items-center">
                      <i className="pi pi-map-marker th-icon"></i>
-                     <div className="th-icon-text">{translatedKeys(city)}</div>
+                     <div className="xs:th-icon-text">{translatedKeys(city)}</div>
                   </div></div>
             </div>
             {/*<p className="read-more">
