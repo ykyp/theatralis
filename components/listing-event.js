@@ -58,7 +58,7 @@ export const ListingEvent = (props) => {
             </div>
             <div className="pt-3 sm:pt-3 xs:pt-1 pl-8 sm:pl-8 xs:pl-2 pr-8 sm:pr-8 xs:pr-4 pb-6 sm:pb-6 xs:pb-2">
                <div className="uppercase tracking-wide text-sm xs:text-xs brand-red font-semibold">
-                  <h3  className="formatted-h3">
+                  <h3  className="formatted-h3 xs:text-sm md:text-base lg:text-base">
                      <Link  href={`/events/${id}`}>
                         <a className='brand-red uppercase xs:text-sm '>{title}</a>
                      </Link>
