@@ -42,6 +42,13 @@ export default function Layout({ children, home, pageTitle, description, current
          <meta property="og:title" content={pageTitle || siteTitle} key="ogtitle" />
          <meta property="og:description" content={description} key="ogdesc" />
          <meta property="og:type" content="website" />
+
+         <link rel="preload" href="/images/thab1.png" as="image"/>
+         <link rel="preload" href="/images/thab2.png" as="image"/>
+         <link rel="preload" href="/images/thab3.png" as="image"/>
+         <link rel="preload" href="/images/background-cropped.jpg" as="image"/>
+         <link rel="preload" href="/images/th7.png" as="image"/>
+
       </Head>
 
        <Navbar>
