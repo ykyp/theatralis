@@ -25,29 +25,31 @@ export default function AboutUs() {
                   ️ <div className="th-icon-text font-bold">{t("aboutUsSubhd")}</div>
                </div>
                <div className="">
-                  <div className="flex space-x-8 aboutus-section">
+                  <div className="flex md:space-x-4 aboutus-section xs:mt-8 xs:pb-8 xs:flex-col-reverse ">
                   ️ <p className="m-auto">{t("aboutUsParagrah1")}</p>
 
-                     <img className="h-36  xs:h-32 h-full w-48 sm:w-48 xs:w-28"
-                          src="/images/aboutus3.png"
+                     <img className="h-full w-72 sm:w-64 xs:w-56 xs:ml-12"
+                          src="/images/thab1.png"
                           alt="About Us 1"/>
                   </div>
-                  <div className="flex space-x-8 mb-8 aboutus-section">
-                     <img className="h-36  xs:h-32 h-full w-48 sm:w-48 xs:w-28 mr-5"
-                          src="/images/aboutus2.png"
+                  <div className="flex md:space-x-4 mb-8 aboutus-section xs:flex-col xs:pb-8">
+                     <img className="h-full w-48 sm:w-48 xs:w-48 mr-5 xs:ml-12"
+                          src="/images/thab2.png"
                           alt="About Us 2"/>
-                  ️ <div className="m-auto">
+                  ️ <p className="m-auto">
                         {t("aboutUsParagrah2")}
                         {t("aboutUsParagrah3")}
-                    </div>
+                    </p>
                   </div>
-                  <div className="flex space-x-8 ">
+                  <div className="flex md:space-x-4 xs:flex-col-reverse ">
                      <div className="m-auto">
                         {t("aboutUsParagrah4")}
+                        <br/>
+                        <br/>
                         {t("aboutUsParagrah5")}
                      </div>
-                     <img className="h-36  xs:h-32 h-full w-48 sm:w-48 xs:w-28"
-                          src="/images/aboutus1.png"
+                     <img className="h-full w-48 sm:w-48 xs:w-48 xs:ml-12"
+                          src="/images/thab3.png"
                           alt="About Us 2"/>
                      ️
                   </div>
