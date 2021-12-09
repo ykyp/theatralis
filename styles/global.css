@@ -346,10 +346,6 @@ a.brand-red:hover {
   color: white !important;
 }
 
-.prose p {
-  text-align: justify;
-}
-
 .p-dropdown-items-wrapper {
   overflow: scroll !important;
 }
@@ -363,4 +359,25 @@ a.brand-red:hover {
   border-radius: 4px;
   background-color: rgba(92, 94, 98, 0.6);
   box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.prose hr {
+  margin-top: 2em !important;
+  margin-bottom: 2em !important;
+}
+
+.prose h4 {
+  margin-top: 0.5em !important;
+  margin-bottom: 1.5em !important;
+  position: relative;
+}
+
+.prose h4::after {
+  content: " ";
+  width: 60px;
+  position: absolute;
+  border-bottom: 2px solid #7c141f;
+  border-radius: 76%;
+  bottom: -5px;
+  left: 0px;
 }

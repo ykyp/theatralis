@@ -87,7 +87,8 @@ export default function Event({ eventData: eventData }) {
           <div className="hide-li">
             <TabView>
               <TabPanel header={t("details")}>
-                <div dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
+                <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify"
+                     dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
               </TabPanel>
               {/*<TabPanel header="Map">
                 <p>Map will go here...</p>

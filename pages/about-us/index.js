@@ -24,7 +24,7 @@ export default function AboutUs() {
                   <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
                   ️ <div className="th-icon-text font-bold">{t("aboutUsSubhd")}</div>
                </div>
-               <div className="">
+               <div className="md:text-justify lg:text-justify xl:text-justify xxl:text-justify">
                   <div className="flex md:space-x-4 aboutus-section xs:mt-8 xs:pb-8 xs:flex-col-reverse ">
                   ️ <p className="m-auto">{t("aboutUsParagrah1")}</p>
 
