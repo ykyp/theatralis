@@ -68,6 +68,12 @@ export function isInThisMonth(startDateString, endDateString) {
   return monthIsBetweenStartEnd(new Date(), startDate, endDate);
 }
 
+export function isInTheFuture(dateString) {
+  const asDate = new Date(dateString);
+  const today = new Date();
+  return asDate > today || isToday(asDate);
+}
+
 export function formatDate(dateString) {
   const date = Date.parse(dateString);
   return format(date, 'dd/MM/yyyy');

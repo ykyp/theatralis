@@ -62,7 +62,7 @@ export default function Layout({ children, home, pageTitle, description, current
           })}
           <li className={"ml-2"}>
              <Link href="/" locale="en">
-                <a>EN</a>
+                <a  className={lang === 'en' ? "active" : ""}>EN</a>
              </Link>
           </li>
           <li className="ml-2 brand-red">
@@ -70,7 +70,7 @@ export default function Layout({ children, home, pageTitle, description, current
           </li>
           <li className={"ml-2"}>
              <Link href="/"  locale="gr">
-                <a>GR</a>
+                <a  className={lang === 'gr' ? "active" : ""}>ΕΛ</a>
              </Link>
           </li>
        </Navbar>
