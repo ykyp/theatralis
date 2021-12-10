@@ -1,11 +1,9 @@
 import styled from 'styled-components'
-import Link from 'next/link'
-import { Card } from 'primereact/card';
 import useTranslation from 'next-translate/useTranslation';
-import { useState } from 'react';
 import React from 'react';
 import {formatDate} from "./date";
 import { useRouter } from 'next/router';
+import Link from 'next/link'
 
 const FiltersContainer = styled.section`
       display: flex;
@@ -31,7 +29,6 @@ export const ListingEvent = (props) => {
    const { t, lang } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image, category } = props.event;
    const router = useRouter();
-
    const translatedKeys = (keysAsString) => {
       const keys = keysAsString.split(",").map(c => c.trim());
       const tKeys = keys.map(city => {
@@ -51,7 +48,7 @@ export const ListingEvent = (props) => {
                   <img className="h-36 sm:h-36 xs:h-32 object-cover w-48 sm:w-48 xs:w-28"
                     src={event_image}
                     alt={title}/> :
-                  <img className=" sm:h-36 xs:h-32 h-full w-48 sm:w-48 xs:w-28"
+                  <img className=" sm:h-36 xs:h-32 xs:object-cover h-full w-48 sm:w-48 xs:w-28"
                        src="/images/th-200x150.png"
                        alt={title}/> }
 
@@ -73,12 +70,12 @@ export const ListingEvent = (props) => {
                   {category &&
                   <div className="mt-1 xs:text-sm text-sm sm:text-sm xs:mobile-card-text flex items-center">
                      <i className="pi pi-tag th-icon"></i>
-                     <div className="xs:th-icon-text">{translatedKeys(category)}</div>
+                     <div className="xs:line-clamp-1 xs:truncate xs:w-48">{translatedKeys(category)}</div>
                   </div>
                   }
                   <div className="mt-1 xs:text-sm text-sm sm:text-sm xs:mobile-card-text flex items-center">
                      <i className="pi pi-map-marker th-icon"></i>
-                     <div className="xs:th-icon-text">{translatedKeys(city)}</div>
+                     <div className="xs:line-clamp-1 xs:truncate xs:w-48">{translatedKeys(city)}</div>
                   </div></div>
             </div>
             {/*<p className="read-more">

@@ -194,14 +194,6 @@ a.brand-red:hover {
   color: #780811;
 }
 
-.th-icon-text {
-  display: -webkit-box;
-  max-width: 200px;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
 .p-dropdown-items-wrapper {
   max-height: 340px !important;
 }
