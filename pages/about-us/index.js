@@ -29,12 +29,12 @@ export default function AboutUs() {
                   ️ <p className="m-auto">{t("aboutUsParagrah1")}</p>
 
                      <img className="h-full w-72 sm:w-64 xs:w-56 xs:ml-12"
-                          src="/images/thab1.png"
+                          src="/images/about1.png"
                           alt="About Us 1"/>
                   </div>
                   <div className="flex md:space-x-4 mb-8 aboutus-section xs:flex-col xs:pb-8">
                      <img className="h-full w-48 sm:w-48 xs:w-48 mr-5 xs:ml-12"
-                          src="/images/thab2.png"
+                          src="/images/about2.png"
                           alt="About Us 2"/>
                   ️ <p className="m-auto">
                         {t("aboutUsParagrah2")}
@@ -49,7 +49,7 @@ export default function AboutUs() {
                         {t("aboutUsParagrah5")}
                      </div>
                      <img className="h-full w-48 sm:w-48 xs:w-48 xs:ml-12"
-                          src="/images/thab3.png"
+                          src="/images/about3.png"
                           alt="About Us 2"/>
                      ️
                   </div>
