@@ -42,6 +42,15 @@ export default function Layout({ children, home, pageTitle, description, current
          <meta property="og:title" content={pageTitle || siteTitle} key="ogtitle" />
          <meta property="og:description" content={description} key="ogdesc" />
          <meta property="og:type" content="website" />
+
+         <link rel="preload" href="/images/about1.png" as="image"/>
+         <link rel="preload" href="/images/about2.png" as="image"/>
+         <link rel="preload" href="/images/about3.png" as="image"/>
+         <link rel="preload" href="/images/background-cropped.jpg" as="image"/>
+         <link rel="preload" href="/images/th7.png" as="image"/>
+         <link rel="preload" href="/images/theatralis_greek_white.png" as="image"/>
+         <link rel="preload" href="/images/theatralis_english_white.png" as="image"/>
+
       </Head>
 
        <Navbar>
@@ -62,7 +71,7 @@ export default function Layout({ children, home, pageTitle, description, current
           })}
           <li className={"ml-2"}>
              <Link href="/" locale="en">
-                <a>EN</a>
+                <a  className={lang === 'en' ? "active" : ""}>EN</a>
              </Link>
           </li>
           <li className="ml-2 brand-red">
@@ -70,7 +79,7 @@ export default function Layout({ children, home, pageTitle, description, current
           </li>
           <li className={"ml-2"}>
              <Link href="/"  locale="gr">
-                <a>GR</a>
+                <a  className={lang === 'gr' ? "active" : ""}>ΕΛ</a>
              </Link>
           </li>
        </Navbar>

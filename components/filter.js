@@ -11,7 +11,7 @@ const FiltersContainer = styled.section`
    `;
 
 const WithMargin = styled.div`
-      margin-left: 22px; 
+      margin-left: 20px; 
    `;
 
 export const Filter = (props) => {

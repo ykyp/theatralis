@@ -1,8 +1,11 @@
 import { getSortedEventsData } from '../../lib/events'
-import { isInThisWeek, isInNextWeek, isInThisMonth } from '../../components/date'
+import { isInThisWeek, isInNextWeek, isInThisMonth, isInTheFuture } from '../../components/date'
 import { intersection } from 'lodash';
 
 const events = process.env.NODE_ENV === 'production' ? require('../../cache/data').events : getSortedEventsData();
+const currentlyActiveEvents = events.filter(event => {
+    return isInTheFuture(event.endDate);
+});
 
 const paginateResults = (results, query) => {
    const currPage = Number(query.page) || 0;
@@ -18,41 +21,41 @@ export default (req, res) => {
    let totalLength = 0;
    if (req.query.city === 'ALL' && req.query.period == 'ALL'
       && req.query.category == 'ALL') {
-      totalLength = events.length;
-      results =  paginateResults(events, req.query);
+      totalLength = currentlyActiveEvents.length;
+      results =  paginateResults(currentlyActiveEvents, req.query);
    } else {
       const matchingCities = req.query.city !== 'ALL' ?
-         events.filter(event => {
+         currentlyActiveEvents.filter(event => {
             const cityLowercase = event.city.toLowerCase();
             const formattedCity = cityLowercase === "paphos" ? "pafos" : cityLowercase;
             return formattedCity.includes(req.query.city.toLowerCase())
-         }) : events;
+         }) : currentlyActiveEvents;
 
       let matchingPeriods = [];
       switch (req.query.period) {
          case 'ALL':
-            matchingPeriods = events;
+            matchingPeriods = currentlyActiveEvents;
             break;
          case 'THIS_WEEK':
-            matchingPeriods = events.filter(event =>
+            matchingPeriods = currentlyActiveEvents.filter(event =>
                isInThisWeek(event.startDate, event.endDate));
             break;
          case 'NEXT_WEEK':
-            matchingPeriods = events.filter(event =>
+            matchingPeriods = currentlyActiveEvents.filter(event =>
                isInNextWeek(event.startDate, event.endDate));
             break;
          case 'THIS_MONTH':
-            matchingPeriods = events.filter(event =>
+            matchingPeriods = currentlyActiveEvents.filter(event =>
                isInThisMonth(event.startDate, event.endDate));
             break;
          default:
-            matchingPeriods = events;
+            matchingPeriods = currentlyActiveEvents;
       }
 
       const matchingAudience = req.query.category !== 'ALL' ?
-         events.filter(event => event.category ?
+         currentlyActiveEvents.filter(event => event.category ?
             event.category.toLowerCase().includes(req.query.category.toLowerCase()) : false
-         ) : events;
+         ) : currentlyActiveEvents;
 
       const intersectedResults = intersection(matchingCities, matchingPeriods, matchingAudience);
       totalLength = intersectedResults.length;

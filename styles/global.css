@@ -95,10 +95,10 @@ a:hover, a.active {
 
 .formatted-h3 {
   color: #111827;
-  font-size: 16px;
-  font-weight: bold;
+  /*font-size: 16px;*/
+  font-weight: 700;
   margin-bottom: 4px;
-  line-height: 1.6;
+  /*line-height: 1.6;*/
 }
 
 .brand-red a {
@@ -192,10 +192,6 @@ a.brand-red:hover {
 .th-icon {
   margin-right: 10px;
   color: #780811;
-}
-
-.th-icon-text {
-  display: inline;
 }
 
 .p-dropdown-items-wrapper {
@@ -339,15 +335,11 @@ a.brand-red:hover {
 }
 
 .aboutus-section {
-  border-bottom: 2px solid #7c141f;
+  border-bottom: 1px solid #7c141f;
 }
 
 .socials-container a:hover {
   color: white !important;
-}
-
-.prose p {
-  text-align: justify;
 }
 
 .p-dropdown-items-wrapper {
@@ -363,4 +355,29 @@ a.brand-red:hover {
   border-radius: 4px;
   background-color: rgba(92, 94, 98, 0.6);
   box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.prose hr {
+  margin-top: 2em !important;
+  margin-bottom: 2em !important;
+}
+
+.prose h4 {
+  margin-top: 0.5em !important;
+  margin-bottom: 1.5em !important;
+  position: relative;
+}
+
+.prose h4::after {
+  content: " ";
+  width: 60px;
+  position: absolute;
+  border-bottom: 2px solid #7c141f;
+  border-radius: 76%;
+  bottom: -5px;
+  left: 0px;
+}
+
+.th-card-container {
+  /*min-height: 128px;*/
 }

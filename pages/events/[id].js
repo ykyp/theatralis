@@ -35,9 +35,6 @@ export default function Event({ eventData: eventData }) {
 
       <header className="max-w-screen-xl text-center mx-auto object-center">
         <div className="hero-image-2 px-0 hero-image-small">
-
-          {/*  <h1 className="text-4xl text-white font-semibold">{name}</h1>
-         <div className="text-2xl text-white mt-1">{t('hero-subtitle')}</div>*/}
         </div>
       </header>
 
@@ -45,7 +42,7 @@ export default function Event({ eventData: eventData }) {
         <title>{eventData.title}</title>
       </Head>
       <div className="w-full flex justify-around">
-        <article className="prose max-w-sm lg:max-w-3xl md:max-w-3xl  sm:max-w-2xl xs:max-w-xl ">
+        <article className="prose max-w-sm lg:max-w-3xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l ">
           <div className="pt-4 pl-4 pr-4 pb-0">
             <div className={`event-title m-0 uppercase`}>{eventData.title} </div>
             <div className={utilStyles.lightText}></div>
@@ -87,7 +84,8 @@ export default function Event({ eventData: eventData }) {
           <div className="hide-li">
             <TabView>
               <TabPanel header={t("details")}>
-                <div dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
+                <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify"
+                     dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
               </TabPanel>
               {/*<TabPanel header="Map">
                 <p>Map will go here...</p>
