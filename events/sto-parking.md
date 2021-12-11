@@ -35,4 +35,4 @@ category: ''
 
 Τηλεφωνική προκράτηση θέσεων στο Ταμείο Θεάτρου ΘΟΚ: τηλ. 77772717 (΄Ωρες ταμέιου: Τρίτη - Κυριακή 10.00 - 13.30 & 16.00 - 18.00)
 
-Πολιτική εισιτηρίων:[ ](https://www.thoc.org.cy/news-item/politiki-eisitirion,2700,0,el)[https://www.thoc.org.cy/news-item/politiki-eisitirion,2700,0,el](https://www.thoc.org.cy/news-item/politiki-eisitirion,2700,0,el "https://www.thoc.org.cy/news-item/politiki-eisitirion,2700,0,el")
+Πολιτική εισιτηρίων:[__εδώ__](https://www.thoc.org.cy/news-item/politiki-eisitirion,2700,0,el "https://www.thoc.org.cy/news-item/politiki-eisitirion,2700,0,el") 
