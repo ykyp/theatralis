@@ -1,6 +1,6 @@
 ---
 audience: all
-title: Η ποντικοπαγίδα
+title: Η ποντικοπαγιδα
 startDate: 2021-12-21
 endDate: 2021-12-21
 city: " Limassol"
@@ -36,6 +36,6 @@ category: Comedy
 #### ΕΙΣΙΤΗΡΙΑ
 
 \-**_Τιμή:_** Εισιτήρια: €15 / 12  
-\-Από την ιστοσελίδα [__**__](https://rialto.interticket.com/ "https://rialto.interticket.com/")[**https://rialto.interticket.com/__**](https://rialto.interticket.com/__ "https://rialto.interticket.com/__")**  
+\-Από την ιστοσελίδα [__εδώ__](https://rialto.interticket.com/ "https://rialto.interticket.com/")  
 \-Ταμείο Θεάτρου - 77777745** Δευτέρα με Παρασκευή 10:00 - 15:00  
 ​Επίσης, τις ημέρες των παραστάσεων δύο ώρες πριν την έναρξη τους.
