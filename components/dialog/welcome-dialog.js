@@ -2,11 +2,13 @@ import React, {useEffect, useState} from 'react';
 import { Dialog } from 'primereact/dialog';
 import { Button } from 'primereact/button';
 import {ISSERVER, useStateFromStorage} from "../session-storage-state";
+import useTranslation from "next-translate/useTranslation";
 
 const WelcomeDialog = () => {
    const HAVE_SEEN_IT_KEY = 'th.welcomeMessageSeen';
    const [displayResponsive, setDisplayResponsive] = useState(false);
    const [haveSeenIt, setHaveSeenIt] = useStateFromStorage(false, HAVE_SEEN_IT_KEY);
+   const { t, lang } = useTranslation('common');
 
    useEffect(() => {
       setDisplayResponsive(true);
@@ -23,7 +25,7 @@ const WelcomeDialog = () => {
    const renderFooter = () => {
       return (
          <div>
-            <Button label="Ok" onClick={() => onHide()} autoFocus />
+            <Button label= {t("welcomeMessageButton")} onClick={() => onHide()} autoFocus />
          </div>
       );
    };
@@ -31,16 +33,14 @@ const WelcomeDialog = () => {
    return (
       <div className="dialog-demo">
          <div className="card">
-            <Dialog header="Welcome to Theatralis (beta)"
+            <Dialog header={t("welcomeMessageTitle")}
                     visible={displayResponsive && !haveSeenIt}
                     onHide={() => onHide()}
                     breakpoints={{'960px': '75vw'}}
                     style={{width: '50vw'}}
                     footer={renderFooter()}>
                <p>
-                  We are a new website with the aim of bringing all theatre events in Cyprus closer to the audience.
-                  We are in Beta mode which means we are testing the product and we need your collaboration either by providing
-                  us with invaluable feedback or if you a theatre representative to provide us with new theatre events.
+                  {t("welcomeMessage")}
                </p>
             </Dialog>
          </div>

@@ -106,7 +106,6 @@ export default function Home({ allEventsData }) {
    const translatedPeriod = t(""+selectedPeriod.name);
    const translatedAudience = t(""+selectedCategory.name);*/
 
-
    return (
     <Layout home>
       <Head>
