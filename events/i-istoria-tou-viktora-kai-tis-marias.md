@@ -3,7 +3,7 @@ title: Η ΙΣΤΟΡΙΑ ΤΟΥ ΒΙΚΤΩΡΑ ΚΑΙ ΤΗΣ ΜΑΡΙΑΣ
 startDate: 2021-12-19
 endDate: 2021-12-19
 city: Nicosia
-event_image: "/images/uploads/Η ιστορία του Βίκτωρα  και της Μαρίας.jfif"
+event_image: "/images/uploads/2.png"
 category: ''
 
 ---
