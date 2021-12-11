@@ -10,6 +10,8 @@ import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
+import {WelcomeDialog} from "../components/dialog/welcome-dialog";
+import {ISSERVER, useStateFromStorage} from "../components/session-storage-state";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
@@ -21,25 +23,9 @@ const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
 export default function Home({ allEventsData }) {
    const { t, lang } = useTranslation('common');
-   const ISSERVER = typeof window === "undefined";
-
    const [results, setResults] = useState([]);
 
-   const useStateFromStorage = (defaultValue, key) => {
-      return useState(() => {
-      try {
-         if(!ISSERVER) {
-            const item = sessionStorage.getItem(key);
-            return item ? JSON.parse(item) : defaultValue;
-         }
-         return defaultValue;
-      } catch (error) {
-         // If error also return initialValue
-         console.log(error);
-         return defaultValue;
-      }
-      });
-   };
+
    const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStateFromStorage({name: 'Anytime', code: 'ALL'}, SELECTED_PERIOD_KEY);
    const [selectedCategory, setSelectedCategory] = useStateFromStorage({name: 'AllCategories', code: 'ALL'}, SELECTED_CATEGORY_KEY);
@@ -120,7 +106,6 @@ export default function Home({ allEventsData }) {
    const translatedPeriod = t(""+selectedPeriod.name);
    const translatedAudience = t(""+selectedCategory.name);*/
 
-
    return (
     <Layout home>
       <Head>
@@ -176,6 +161,7 @@ export default function Home({ allEventsData }) {
                   rowsPerPageOptions={[10, 20, 30]}
                   onPageChange={onBasicPageChange}>
        </Paginator>
+       <WelcomeDialog/>
     </Layout>
   )
 }
