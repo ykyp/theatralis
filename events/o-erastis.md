@@ -3,7 +3,7 @@ title: 'Ο ΕΡΑΣΤΗΣ '
 startDate: 2021-12-07
 endDate: 2021-12-28
 city: Limassol
-event_image: ''
+event_image: "/images/uploads/2_dec_2_jpg.webp"
 category: ''
 
 ---
