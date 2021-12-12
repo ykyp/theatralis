@@ -4,7 +4,7 @@ startDate: 2021-12-19
 endDate: 2021-12-19
 city: Nicosia
 event_image: "/images/uploads/2.png"
-category: ''
+category: Children
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
