@@ -5,7 +5,7 @@ startDate: 2021-12-17
 endDate: 2021-12-21
 city: " Limassol"
 event_image: "/images/uploads/pontikopagida.jpeg"
-category: Comedy
+category: Mystery
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
