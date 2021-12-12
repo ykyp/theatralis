@@ -38,6 +38,7 @@ export default function Home({ allEventsData }) {
    const searchEndpoint = (city, period, category, page, rows) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}`;
 
    const handleCityChange = (e) => {
+      setLoading(true);
       if(!ISSERVER) {
          sessionStorage.setItem(SELECTED_CITY_KEY, JSON.stringify(e.value));
       }
@@ -45,6 +46,7 @@ export default function Home({ allEventsData }) {
    };
 
    const handlePeriodChange = (e) => {
+      setLoading(true);
       if(!ISSERVER) {
          sessionStorage.setItem(SELECTED_PERIOD_KEY, JSON.stringify(e.value));
       }
@@ -52,6 +54,7 @@ export default function Home({ allEventsData }) {
    };
 
    const handleCategoryChange = (e) => {
+      setLoading(true);
       if(!ISSERVER) {
          sessionStorage.setItem(SELECTED_CATEGORY_KEY, JSON.stringify(e.value));
       }
@@ -70,7 +73,6 @@ export default function Home({ allEventsData }) {
    };
 
    useEffect(() => {
-      setLoading(true);
       searchEvents();
    }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage]);
 
