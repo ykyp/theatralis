@@ -49,7 +49,7 @@ category: Drama, Comedy
 #### ΕΙΣΙΤΗΡΙΑ
 
 **_Τιμές εισιτηρίων:_** €15/€12 ((άνεργοι, συνταξιούχοι, πολύτεκνοι με την επίδειξη του αντίστοιχου αποδεικτικού εγγράφου και άτομα κάτω των 25 ετών με την επίδειξη πολιτικής ταυτότητας)  
-\- Ηλεκτρονικά στη σελίδα του [**εδώ**](https://www.thoc.org.cy/event/nta,4683,1304,el,shows "https://www.thoc.org.cy/event/nta,4683,1304,el,shows")  
+\- Ηλεκτρονικά στη σελίδα του [**ΘΟΚ**](https://www.thoc.org.cy/event/nta,4683,1304,el,shows "https://www.thoc.org.cy/event/nta,4683,1304,el,shows")  
 \- Ταμείο Θεάτρου ΘΟΚ, τηλ. 77772717 (Τρίτη-Κυριακή 10:00-13:30 & 16:00-18:00)
 
 Πολιτική εισιτηρίων: [**ΘΟΚ**](https://www.thoc.org.cy/news-item/politiki-eisitirion,2700,0,el "https://www.thoc.org.cy/news-item/politiki-eisitirion,2700,0,el")
