@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/cache.js; next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "cache-events": "node scripts/cache.js",
     "postinstall": "husky install; node scripts/cache.js",
@@ -18,6 +19,7 @@
     "gray-matter": "^4.0.2",
     "lodash": "^4.17.21",
     "next": "^10.0.0",
+    "next-sitemap": "^1.6.203",
     "next-translate": "^1.0.7",
     "npm-upgrade": "^3.0.0",
     "primeflex": "^2.0.0",
