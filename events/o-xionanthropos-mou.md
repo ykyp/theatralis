@@ -4,7 +4,7 @@ startDate: 2021-12-18
 endDate: 2021-12-19
 city: Limassol
 event_image: "/images/uploads/18_dec.webp"
-category: Children. Musical
+category: Children, Musical
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
