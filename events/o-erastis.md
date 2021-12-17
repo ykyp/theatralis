@@ -1,7 +1,7 @@
 ---
 title: Ο ΕΡΑΣΤΗΣ
 startDate: 2021-12-08
-endDate: 2021-12-19
+endDate: 2022-01-20
 city: Nicosia, Limassol
 event_image: "/images/uploads/o-erastis.jpg"
 category: Drama
