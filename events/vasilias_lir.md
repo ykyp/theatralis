@@ -67,6 +67,6 @@ category: Historical, Tragedy
 
 **_Τιμές εισιτηρίων_**: €15/ €12  
 \- Ταμείο Θεάτρου ΘΟΚ τηλ.77772717 (Τρίτη-Κυριακή 10:00-13:30 και 16:00-18:00)  
-\- Ηλεκτρονικά \[_ΕΔΩ_\]([https://www.thoc.org.cy/event/basilias-lir,4684,229,el,shows](https://www.thoc.org.cy/event/basilias-lir,4684,229,el,shows "https://www.thoc.org.cy/event/basilias-lir,4684,229,el,shows"))
+\- Ηλεκτρονικά απο την ιστοσελίδα του [ΘΟΚ](https://www.thoc.org.cy/event/basilias-lir,4684,229,el,shows "https://www.thoc.org.cy/event/basilias-lir,4684,229,el,shows")
 
 Είσοδος με προσκόμιση safepass.
