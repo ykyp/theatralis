@@ -33,7 +33,7 @@ export default function AboutUs() {
                           alt="About Us 1"/>
                   </div>
                   <div className="flex md:space-x-4 mb-8 aboutus-section xs:flex-col xs:pb-8">
-                     <img className="h-full w-48 sm:w-48 xs:w-48 mr-5 xs:ml-12"
+                     <img className="h-full w-48 sm:w-48 xs:w-48 mr-5 xs:ml-12 "
                           src="/images/about2.png"
                           alt="About Us 2"/>
                   ️ <p className="m-auto">
@@ -48,7 +48,7 @@ export default function AboutUs() {
                         <br/>
                         {t("aboutUsParagrah5")}
                      </div>
-                     <img className="h-full w-48 sm:w-48 xs:w-48 xs:ml-12"
+                     <img className="h-full w-48 sm:w-48 xs:w-48 xs:ml-12 ml-8"
                           src="/images/about3.png"
                           alt="About Us 2"/>
                      ️
