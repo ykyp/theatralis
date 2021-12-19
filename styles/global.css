@@ -338,10 +338,6 @@ a.brand-red:hover {
   border-bottom: 1px solid #7c141f;
 }
 
-.socials-container a:hover {
-  color: white !important;
-}
-
 .p-dropdown-items-wrapper {
   overflow: scroll !important;
 }
@@ -380,4 +376,12 @@ a.brand-red:hover {
 
 .th-card-container {
   /*min-height: 128px;*/
+}
+
+footer .pi-facebook {
+  background: #f9fafb;
+  color: #d1d5db;
+  border-radius: 50%;
+  font-size: 18px;
+  margin-left: 7px;
 }

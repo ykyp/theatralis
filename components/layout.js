@@ -57,27 +57,27 @@ export default function Layout({ children, home, pageTitle, description, current
           {navLinks.map((link, index) => {
              return (
                 <>
-                <li className="ml-2">
+                <li className="ml-2" key={link.path}>
                    <Link href={link.path} activeStyle={{'fontWeight': "bold"}}>
                       <a key={index}
                          className={router.pathname === link.path ? "active" : ""}>{t(link.key)}</a>
                    </Link>
                 </li>
-                <li className="ml-2 brand-red">
+                <li className="ml-2 brand-red"  key="divider-1">
                   |
                </li>
                 </>
              );
           })}
-          <li className={"ml-2"}>
+          <li className={"ml-2"} key="en">
              <Link href="/" locale="en">
                 <a  className={lang === 'en' ? "active" : ""}>EN</a>
              </Link>
           </li>
-          <li className="ml-2 brand-red">
+          <li className="ml-2 brand-red" key="divider-2">
              |
           </li>
-          <li className={"ml-2"}>
+          <li className={"ml-2"} key="gr">
              <Link href="/"  locale="gr">
                 <a  className={lang === 'gr' ? "active" : ""}>ΕΛ</a>
              </Link>
