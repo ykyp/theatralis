@@ -3,7 +3,7 @@ title: ΤΑ ΜΑΓΙΚΑ ΧΡΙΣΤΟΥΓΕΝΝΑ ΤΟΥ ΡΟΥΝΤΟΛΦ
 startDate: 2021-12-04
 endDate: 2021-12-29
 city: Nicosia
-event_image: "/images/uploads/2.jpg"
+event_image: "/images/uploads/rudolf.JPG"
 category: Children, Musical
 
 ---
