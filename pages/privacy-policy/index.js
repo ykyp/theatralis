@@ -205,13 +205,13 @@ export default function CookiePolicy() {
 
                                     <div css="line-height: 1.5;"><span css="font-size: 15px;"><a
                                        data-custom-class="link" href="#policyupdates"><span
-                                       css="color: rgb(89, 89, 89);">11. DO WE MAKE UPDATES TO THIS NOTICE?</span></a></span>
+                                       css="color: rgb(89, 89, 89);">10. DO WE MAKE UPDATES TO THIS NOTICE?</span></a></span>
                                     </div>
                                     <div css="line-height: 1.5;"><a data-custom-class="link" href="#contact"><span
-                                       css="color: rgb(89, 89, 89); font-size: 15px;">12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</span></a>
+                                       css="color: rgb(89, 89, 89); font-size: 15px;">11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</span></a>
                                     </div>
                                     <div css="line-height: 1.5;"><a data-custom-class="link" href="#request"><span
-                                       css="color: rgb(89, 89, 89);">13. HOW CAN YOU REVIEW, UPDATE OR DELETE THE DATA WE COLLECT FROM YOU?</span></a>
+                                       css="color: rgb(89, 89, 89);">12. HOW CAN YOU REVIEW, UPDATE OR DELETE THE DATA WE COLLECT FROM YOU?</span></a>
                                     </div>
                                     <div css="line-height: 1.5;"><br/></div>
                                     <div id="infocollect" css="line-height: 1.5;"><span
@@ -248,7 +248,7 @@ export default function CookiePolicy() {
                                        data-custom-class="body_text">We collect personal information that you voluntarily provide to us when you <span
                                        css="font-size: 15px;"><bdt
                                        className="block-component"></bdt></span></span><span
-                                       data-custom-class="body_text">express an interest in obtaining information about us or our products and Services, when you participate in activities on the <span
+                                       data-custom-class="body_text">express an interest in obtaining information about us or our Services, when you participate in activities on the <span
                                        css="font-size: 15px; color: rgb(89, 89, 89);"><span
                                        css="font-size: 15px; color: rgb(89, 89, 89);"><span
                                        css="font-size: 15px;"><span data-custom-class="body_text"><bdt
@@ -256,7 +256,6 @@ export default function CookiePolicy() {
                                        className="block-component"></bdt></span></span><span
                                        data-custom-class="body_text">&nbsp;or otherwise when you contact us.</span></span>
                                     </div>
-                                    <div css="line-height: 1.5;"><br/></div>
                                     <div css="line-height: 1.5;"><br/></div>
                                     <div css="line-height: 1.5;"><span
                                        css="font-size: 15px; color: rgb(89, 89, 89);"><span
@@ -1089,16 +1088,6 @@ export default function CookiePolicy() {
                                                                                        </div>
                                                                                        <div css="line-height: 1.5;">
                                                                                           <br/></div>
-                                                                                       <div css="line-height: 1.5;">
-                                                                                          <span
-                                                                                             css="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                                             css="font-size: 15px; color: rgb(89, 89, 89);"><span
-                                                                                             data-custom-class="body_text">When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.<span
-                                                                                             css="color: rgb(89, 89, 89);"><bdt
-                                                                                             className="block-component"></bdt></span></span></span></span>
-                                                                                       </div>
-                                                                                       <div css="line-height: 1.5;">
-                                                                                          <br/></div>
                                                                                        <div id="infosafe"
                                                                                             css="line-height: 1.5;">
                                                                                           <span
@@ -1310,7 +1299,7 @@ export default function CookiePolicy() {
                                                                                        css="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                                                        id="control"
                                                                                        css="color: rgb(0, 0, 0);"><strong><span
-                                                                                       data-custom-class="heading_1">11. DO WE MAKE UPDATES TO THIS NOTICE?</span></strong>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>
+                                                                                       data-custom-class="heading_1">10. DO WE MAKE UPDATES TO THIS NOTICE?</span></strong>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>
                                                                                     </div>
                                                                                     <div css="line-height: 1.5;"><br/>
                                                                                     </div>
@@ -1336,7 +1325,7 @@ export default function CookiePolicy() {
                                                                                        css="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                                                        id="control"
                                                                                        css="color: rgb(0, 0, 0);"><strong><span
-                                                                                       data-custom-class="heading_1">12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</span></strong>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>
+                                                                                       data-custom-class="heading_1">11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</span></strong>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>
                                                                                     </div>
                                                                                     <div css="line-height: 1.5;"><br/>
                                                                                     </div>
@@ -1363,7 +1352,7 @@ export default function CookiePolicy() {
                                                                                        css="font-size: 15px; color: rgb(89, 89, 89);"><span
                                                                                        id="control"
                                                                                        css="color: rgb(0, 0, 0);"><strong><span
-                                                                                       data-custom-class="heading_1">13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</span></strong>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>
+                                                                                       data-custom-class="heading_1">12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</span></strong>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>&nbsp;</span>
                                                                                     </div>
                                                                                     <div css="line-height: 1.5;"><br/>
                                                                                     </div>
