@@ -70,6 +70,7 @@ export default function CookiePolicy() {
                   <li>By visiting this link: <a href="https://www.theatralis.com.cy/contact-us">https://www.theatralis.com.cy/contact-us</a></li>
                </ul>
 
+               <BackToHome/>
             </article>
          </div>
       </Layout>

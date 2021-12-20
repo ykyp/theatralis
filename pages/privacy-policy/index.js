@@ -2,6 +2,7 @@ import React from "react";
 import Layout from '../../components/layout'
 import Head from 'next/head'
 import useTranslation from "next-translate/useTranslation";
+import {BackToHome} from "../../components/navigation/backToHome";
 
 export default function CookiePolicy() {
    /* GENERATED WITH https://app.termly.io/ */
@@ -18,7 +19,7 @@ export default function CookiePolicy() {
          </header>
 
          <div className="w-full flex justify-around">
-            <article className="prose p-5">
+            <article className="prose p-3">
                <div data-custom-class="body">
                   <div><strong><span css="font-size: 26px;"><span
                      data-custom-class="title">PRIVACY NOTICE</span></span></strong></div>
@@ -1365,7 +1366,7 @@ export default function CookiePolicy() {
                                                                                        data-custom-class="body_text"><span
                                                                                        css="font-size: 15px;"><a
                                                                                        data-custom-class="link"
-                                                                                       href="https://app.termly.io/notify/4f4e0c6c-97c9-4768-a2af-e4765ba795e3"
+                                                                                       href="https://www.theatralis.com.cy"
                                                                                        rel="noopener noreferrer"
                                                                                        target="_blank">here</a></span></span></span><bdt
                                                                                        className="block-component"><span
@@ -1395,6 +1396,9 @@ export default function CookiePolicy() {
                      </bdt>
                   </div>
                </div>
+
+               <BackToHome/>
+
             </article>
             {/*<article className="prose p-5">
                <div className="event-title pb-3">Privacy Policy for Theatralis</div>

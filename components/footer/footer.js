@@ -7,6 +7,11 @@ const Footer = () => (
 
       <div className="flex justify-center items-center p-6 border-b border-gray-300">
          <div className=" lg:block">
+            <Link href="/privacy-policy2" key="privacy-policy2">
+               <a >Privacy Policy2</a>
+            </Link>
+         </div>
+         <div className=" lg:block">
             <Link href="/privacy-policy" key="privacy-policy">
                <a >Privacy Policy</a>
             </Link>
