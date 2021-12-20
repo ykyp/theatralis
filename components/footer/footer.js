@@ -4,12 +4,16 @@ import Link from 'next/link'
 
 const Footer = () => (
    <footer className="mt-5 text-center lg:text-left bg-gray-100 text-gray-600 "> {/*bg-gray-100 text-gray-600*/}
-      <div className="text-center p-6 bg-gray-100 border-b border-gray-300"> {/*  bg-gray-200 */}
-         <span> {`© Copyright ${new Date().getFullYear()}`}:
-            <a className=" font-semibold" href="https://www.theatralis.com.cy"> Theatralis</a></span>
-         <span> - Made with <i className="pi th-icon pi-heart"></i></span>
-      </div>
-      <div className="flex justify-center items-center p-6 ">
+
+      <div className="flex justify-center items-center p-6 border-b border-gray-300">
+         <div className=" lg:block">
+            <Link href="/privacy-policy" key="privacy-policy">
+               <a >Privacy Policy</a>
+            </Link>
+         </div>
+         <div className="ml-2 mr-2 brand-red" key="divider-2">
+            |
+         </div>
          <div className=" lg:block">
             <Link href="/cookie-policy" key="cookie-policy">
                <a >Cookie Policy</a>
@@ -20,7 +24,7 @@ const Footer = () => (
          </div>
 
          <div className="mr-3 hidden lg:block">
-            <span>Get connected with us on social networks:</span>
+            {/*<span>Connect with us on social media:</span>*/}
          </div>
          <div className="flex justify-center">
             <a href="https://www.facebook.com/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%AC%CE%BB%CE%B9%CF%82Theatralis-104721578734645" target="_blank" className="mr-6 text-gray-600">
@@ -32,7 +36,7 @@ const Footer = () => (
                   </path>
                </svg>
             </a>
-           {/* <a href="#!" className="mr-6 text-gray-600">
+            {/*<a href="#!" className="mr-6 text-gray-600">
                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
                     className="svg-inline--fa fa-twitter w-4" role="img" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512">
@@ -41,7 +45,7 @@ const Footer = () => (
                   </path>
                </svg>
             </a>*/}
-            <a href="#!" className="mr-6 text-gray-600">
+            <a href="https://www.instagram.com/theatraliscy" target="_blank" className="mr-6 text-gray-600">
                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
                     className="svg-inline--fa fa-instagram w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512">
@@ -51,6 +55,12 @@ const Footer = () => (
                </svg>
             </a>
          </div>
+      </div>
+
+      <div className="text-center p-6 bg-gray-100 "> {/*  bg-gray-200 */}
+         <span> {`© Copyright ${new Date().getFullYear()}`}:
+            <a className=" font-semibold" href="https://www.theatralis.com.cy"> Theatralis</a></span>
+         <span> - Made with <i className="pi th-icon pi-heart"></i></span>
       </div>
 
    </footer>
