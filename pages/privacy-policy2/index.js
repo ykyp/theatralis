@@ -19,72 +19,108 @@ export default function PrivacyPolicy2() {
          </header>
 
          <div className="w-full flex justify-around">
-            <article className="prose p-3">
-               PRIVACY NOTICE
+            <article className="policies prose p-3">
+               <h2>PRIVACY NOTICE</h2>
 
-               Last updated December 20, 2021
+               <p ><strong>Last updated December 20, 2021</strong></p>
 
-               Thank you for choosing to be part of our community at Theatralis. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices with regard to your personal information, please contact us at info@theatralis.com.cy.
+               <p>Thank you for choosing to be part of our community at Theatralis. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices with regard to your personal information, please contact us at  <a href="mailto:info@theatralis.com.cy">info@theatralis.com.cy.</a></p>
 
-               This privacy notice describes how we might use your information if you:
-               Visit our website at http://www.theatralis.com.cy
-               Engage with us in other related ways ― including any partnership and marketing
-               In this privacy notice, if we refer to:
-               "Website," we are referring to any website of ours that references or links to this policy
-               "Services," we are referring to our Website, and other related services, marketing
-               The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.
+               <p>This privacy notice describes how we might use your information if you:</p>
+               <ul>
+                  <li>
+                     Visit our website at <a
+                     href="http://www.theatralis.com.cy" target="_blank">http://www.theatralis.com.cy</a>
+                  </li>
+                  <li>
+                     Engage with us in other related ways ― including any partnership and marketing
+                  </li>
+               </ul>
 
-               Please read this privacy notice carefully, as it will help you understand what we do with the information that we collect.
 
-               TABLE OF CONTENTS
+               <p>In this privacy notice, if we refer to:</p>
+               <ul>
+                  <li>
+                     <strong>"Website,"</strong> we are referring to any website of ours that references or links to this policy
+                  </li>
+                  <li>
+                     <strong>"Services,"</strong> we are referring to our Website, and other related services, marketing
+                  </li>
+               </ul>
 
-               1. WHAT INFORMATION DO WE COLLECT?
-               2. HOW DO WE USE YOUR INFORMATION?
-               3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
-               4. WHO WILL YOUR INFORMATION BE SHARED WITH?
-               5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
-               6. HOW LONG DO WE KEEP YOUR INFORMATION?
-               7. HOW DO WE KEEP YOUR INFORMATION SAFE?
-               8. WHAT ARE YOUR PRIVACY RIGHTS?
-               9. CONTROLS FOR DO-NOT-TRACK FEATURES
-               10. DO WE MAKE UPDATES TO THIS NOTICE?
-               11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
-               12. HOW CAN YOU REVIEW, UPDATE OR DELETE THE DATA WE COLLECT FROM YOU?
 
-               1. WHAT INFORMATION DO WE COLLECT?
+               <p>The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.</p>
 
-               Personal information you disclose to us
+               <p><strong>Please read this privacy notice carefully, as it will help you understand what we do with the information that we collect.</strong></p>
 
-               In Short:  We collect personal information that you provide to us.
+               <p><strong>TABLE OF CONTENTS</strong></p>
 
-               We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our Services, when you participate in activities on the Website or otherwise when you contact us.
+               <div className="table-of-contents">
+                  <a href="#infocollect">1. WHAT INFORMATION DO WE COLLECT?</a>
+                  <a href="#infouse">2. HOW DO WE USE YOUR INFORMATION?</a>
+                  <a href="#infoshare">3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?</a>
+                  <a href="#whoshare">4. WHO WILL YOUR INFORMATION BE SHARED WITH?</a>
+                  <a href="#cookies">5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</a>
+                  <a href="#inforetain">6. HOW LONG DO WE KEEP YOUR INFORMATION?</a>
+                  <a href="#infosafe">7. HOW DO WE KEEP YOUR INFORMATION SAFE?</a>
+                  <a href="#privacyrights">8. WHAT ARE YOUR PRIVACY RIGHTS?</a>
+                  <a href="#DNT">9. CONTROLS FOR DO-NOT-TRACK FEATURES</a>
+                  <a href="#policyupdates">10. DO WE MAKE UPDATES TO THIS NOTICE?</a>
+                  <a href="#contact">11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>
+                  <a href="#request">12. HOW CAN YOU REVIEW, UPDATE OR DELETE THE DATA WE COLLECT FROM YOU?</a>
+               </div>
 
-               All personal information that you provide to us must be true, complete and accurate, and you must notify us of any changes to such personal information.
+               <p id="infocollect"><strong>1. WHAT INFORMATION DO WE COLLECT?</strong></p>
 
-               Information automatically collected
+               <p>Personal information you disclose to us</p>
 
-               In Short:  Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Website.
+               <p className="italic"><strong>In Short:</strong>  We collect personal information that you provide to us.</p>
 
-               We automatically collect certain information when you visit, use or navigate the Website. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Website and other technical information. This information is primarily needed to maintain the security and operation of our Website, and for our internal analytics and reporting purposes.
+               <p> We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our Services, when you participate in activities on the Website or otherwise when you contact us.</p>
 
-               Like many businesses, we also collect information through cookies and similar technologies.
+               <p>All personal information that you provide to us must be true, complete and accurate, and you must notify us of any changes to such personal information.</p>
 
-               The information we collect includes:
-               Log and Usage Data. Log and usage data is service-related, diagnostic, usage and performance information our servers automatically collect when you access or use our Website and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type and settings and information about your activity in the Website (such as the date/time stamps associated with your usage, pages and files viewed, searches and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called 'crash dumps') and hardware settings).
-               Device Data. We collect device data such as information about your computer, phone, tablet or other device you use to access the Website. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model Internet service provider and/or mobile carrier, operating system and system configuration information.
-               Location Data. We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Website. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. Note however, if you choose to opt out, you may not be able to use certain aspects of the Services.
+               <p><strong>Information automatically collected</strong></p>
 
-               2. HOW DO WE USE YOUR INFORMATION?
+               <p className="italic"><strong>In Short: </strong> Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Website.</p>
 
-               In Short:  We process your information for purposes based on legitimate business interests, compliance with our legal obligations, and/or your consent.
+               <p>We automatically collect certain information when you visit, use or navigate the Website. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Website and other technical information. This information is primarily needed to maintain the security and operation of our Website, and for our internal analytics and reporting purposes.</p>
 
-               We use personal information collected via our Website for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.
+               <p>Like many businesses, we also collect information through cookies and similar technologies.</p>
 
-               We use the information we collect or receive:
+               <p>The information we collect includes:</p>
 
-               To respond to user inquiries/offer support to users. We may use your information to respond to your inquiries and solve any potential issues you might have with the use of our Services.
+               <ul>
+                  <li>
+                     <span className="italic">Log and Usage Data. </span>
+                     Log and usage data is service-related, diagnostic, usage and performance information our servers automatically collect when you access or use our Website and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type and settings and information about your activity in the Website (such as the date/time stamps associated with your usage, pages and files viewed, searches and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called 'crash dumps') and hardware settings).
+                  </li>
+                   <li>
+                      <span className="italic">Device Data.  </span>
+                      We collect device data such as information about your computer, phone, tablet or other device you use to access the Website. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model Internet service provider and/or mobile carrier, operating system and system configuration information.
+                   </li>
+                   <li>
+                      <span className="italic">Location Data. </span>
+                      We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Website. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. Note however, if you choose to opt out, you may not be able to use certain aspects of the Services.
+                   </li>
 
-               3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
+               </ul>
+
+               <p id="infouse"><strong>2. HOW DO WE USE YOUR INFORMATION?</strong></p>
+
+               <p className="italic"><strong>In Short: </strong> We process your information for purposes based on legitimate business interests, compliance with our legal obligations, and/or your consent.</p>
+
+               <p>We use personal information collected via our Website for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.</p>
+
+               <p>We use the information we collect or receive:</p>
+
+               <ul>
+                  <li>
+                     To respond to user inquiries/offer support to users. We may use your information to respond to your inquiries and solve any potential issues you might have with the use of our Services.
+                  </li>
+               </ul>
+
+               <p className="infoshare"><strong>3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?</strong></p>
 
                In Short:  We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.
 

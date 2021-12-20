@@ -385,3 +385,15 @@ footer .pi-facebook {
   font-size: 18px;
   margin-left: 7px;
 }
+
+.policies.prose p {
+  font-size: 15px;
+}
+
+.table-of-contents a {
+  display: block;
+}
+
+.table-of-contents a:hover {
+  cursor: pointer;
+}
