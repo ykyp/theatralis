@@ -30,7 +30,7 @@ img {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../public/images/background-cropped.jpg");
+  background-image: url("../public/images/xmas-background.png");
 
   /* Set a specific height */
   height: 50%;
