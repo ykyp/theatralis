@@ -31,8 +31,8 @@ export default function Event({ eventData: eventData }) {
   const period = `${formatDate(eventData.startDate)} - ${formatDate(eventData.endDate)}`;
   return (
     <Layout description={eventData.title}
-            fbSiteName={eventData.title}
-            fbTitle={period}
+            fbSiteName={period}
+            fbTitle={eventData.title}
             previewImage={eventData.event_image}
     >
 
