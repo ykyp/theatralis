@@ -30,6 +30,7 @@ export default function Event({ eventData: eventData }) {
 
   return (
     <Layout pageTitle={eventData.title}
+            siteName={eventData.title}
             previewImage={eventData.event_image}
     >
 
