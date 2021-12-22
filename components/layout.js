@@ -24,7 +24,6 @@ export default function Layout({ children, home, pageTitle, description, current
          <title>{pageTitle || siteTitle}</title>
          <meta name="description" content={description} />
 
-
          {/*<!-- Google / Search Engine Tags -->*/}
          <meta itemProp="name" content={pageTitle || siteTitle} />
          <meta itemProp="description" content={description || defaultDesc} />
