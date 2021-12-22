@@ -40,9 +40,9 @@ export default function Layout({ children, home, pageTitle, description, current
          <meta property="og:image" content={`${process.env.BASE_URL}${previewImage||defaultImage}`} key="ogimage" />
          <meta property="og:image:height" content="720"/>
          <meta property="og:image:width" content="1200"/>
-         <meta property="og:site_name" content={fbSiteName || siteName || siteTitle} key="ogsitename" />
+         <meta property="og:site_name" content={ siteName || siteTitle} key="ogsitename" />
          <meta property="og:title" content={fbTitle || pageTitle || siteTitle} key="ogtitle" />
-         <meta property="og:description" content={description || defaultDesc} key="ogdesc" />
+         <meta property="og:description" content={fbSiteName || description || defaultDesc} key="ogdesc" />
          <meta property="og:type" content="website" />
 
          <link rel="preload" href="/images/about1.png" as="image"/>
