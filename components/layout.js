@@ -11,7 +11,7 @@ import { navLinks } from "./nav-data";
 import { useRouter } from 'next/router';
 
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
-export const defaultDesc = 'Find all theatres in Cyprus';
+export const defaultDesc = 'Find all theatre events in Cyprus';
 export const defaultImage = '/images/defaultHomeImg.png';
 
 export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName }) {
@@ -40,7 +40,7 @@ export default function Layout({ children, home, pageTitle, description, current
          <meta property="og:image" content={`${process.env.BASE_URL}${previewImage||defaultImage}`} key="ogimage" />
          <meta property="og:site_name" content={siteName || siteTitle} key="ogsitename" />
          <meta property="og:title" content={pageTitle || siteTitle} key="ogtitle" />
-         <meta property="og:description" content={description} key="ogdesc" />
+         <meta property="og:description" content={description || defaultDesc} key="ogdesc" />
          <meta property="og:type" content="website" />
 
          <link rel="preload" href="/images/about1.png" as="image"/>

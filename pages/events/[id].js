@@ -29,7 +29,7 @@ export default function Event({ eventData: eventData }) {
   };
 
   return (
-    <Layout description={eventData.title}
+    <Layout pageTitle={eventData.title}
             previewImage={eventData.event_image}
     >
 
