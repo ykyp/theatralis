@@ -46,43 +46,61 @@ export default function Event({ eventData: eventData }) {
       </Head>
       <div className="w-full flex justify-around">
         <article className="prose max-w-sm lg:max-w-3xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l ">
-          <div className="pt-4 pl-4 pr-4 pb-0">
-            <div className={`event-title m-0 uppercase`}>{eventData.title} </div>
-            <div className={utilStyles.lightText}></div>
+          <div className="flex justify-between  xs:flex-col sm:flex-col">
+            <div className="pt-4 pl-4 pr-4 pb-0">
+              <div className={`event-title m-0 uppercase`}>{eventData.title} </div>
+              <div className={utilStyles.lightText}></div>
 
 
-                <div className="flex justify-between">
-            <div className="justify-start">
-              <div className="event-details flex items-center mt-2 mb-1">
-                <i className="pi pi-calendar th-icon"></i>
-                <div className="th-icon-text">{period}</div>
-              </div>
-              {eventData.category &&
-              <div className="event-details flex items-center mb-1">
-                <i className="pi pi-tag th-icon"></i>
-                <div className="th-icon-text"> {translatedKeys(eventData.category)}</div>
-              </div>
-             }
-              <div className="event-details flex items-center mb-2">
-                <i className="pi pi-map-marker th-icon "></i>
-                <div className="th-icon-text">{translatedKeys(eventData.city)}</div>
-              </div>
-
-              <div className="socials-container flex">
-                <a href={facebookShareLink}
-                   target="blank"
-                   rel="noopener noreferrer"
-                   alt="Share Page on Facebook"
-                   className="pi pi-facebook"
-                ></a>
-                <a href={twitterShareLink}
-                   target="blank"
-                   rel="noopener noreferrer"
-                   alt="Share Page on Twitter"
-                   className="pi pi-twitter"></a>
-              </div>
-            </div>
+                  <div className="flex justify-between">
+              <div className="justify-start">
+                <div className="event-details flex items-center mt-2 mb-1">
+                  <i className="pi pi-calendar th-icon"></i>
+                  <div className="th-icon-text">{period}</div>
                 </div>
+                {eventData.category &&
+                <div className="event-details flex items-center mb-1">
+                  <i className="pi pi-tag th-icon"></i>
+                  <div className="th-icon-text"> {translatedKeys(eventData.category)}</div>
+                </div>
+               }
+                <div className="event-details flex items-center mb-2">
+                  <i className="pi pi-map-marker th-icon "></i>
+                  <div className="th-icon-text">{translatedKeys(eventData.city)}</div>
+                </div>
+
+                <div className="socials-container flex">
+                  <a href={facebookShareLink}
+                     target="blank"
+                     rel="noopener noreferrer"
+                     alt="Share Page on Facebook"
+                     className="pi pi-facebook"
+                  ></a>
+                  <a href={twitterShareLink}
+                     target="blank"
+                     rel="noopener noreferrer"
+                     alt="Share Page on Twitter"
+                     className="pi pi-twitter"></a>
+                </div>
+              </div>
+                  </div>
+
+
+
+            </div>
+            <div className="">
+              <img className="ml-5
+              mr-10
+              max-h-48
+              max-w-xs
+               border-0
+               border-solid
+               rounded-sm
+               shadow-md
+               border-slate-200"
+                   src={eventData.event_image}
+                   alt={eventData.title}/>
+            </div>
           </div>
           <div className="hide-li">
             <TabView>
