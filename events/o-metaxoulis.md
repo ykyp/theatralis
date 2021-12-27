@@ -41,7 +41,7 @@ category: Children
 **_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")  
 **_Διάρκεια:_** 55’  
 **_Τιμή εισιτηρίων:_** €12  
-**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα του [Ριάλτο]() ή απο την ιστοσελίδα της [SoldOut]().
+**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα του [Ριάλτο](https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511 "https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511") ή απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home").
 
 **ΛΕΥΚΩΣΙΑ**
 
