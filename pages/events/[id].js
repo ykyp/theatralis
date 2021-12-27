@@ -8,6 +8,8 @@ import useTranslation from "next-translate/useTranslation";
 import {useEffect, useState} from 'react';
 import {BackToHome} from "../../components/navigation/backToHome";
 import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 export default function Event({ eventData: eventData }) {
   const { t } = useTranslation('common');
@@ -47,6 +49,8 @@ export default function Event({ eventData: eventData }) {
       <div className="w-full flex justify-around">
         <article className="prose max-w-sm lg:max-w-3xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l ">
           <div className="flex justify-between  xs:flex-col sm:flex-col">
+
+
             <div className="pt-4 pl-4 pr-4 pb-0">
               <div className={`event-title m-0 uppercase`}>{eventData.title} </div>
               <div className={utilStyles.lightText}></div>
@@ -89,17 +93,19 @@ export default function Event({ eventData: eventData }) {
 
             </div>
             <div className="">
-              <img className="ml-5
-              mr-10
-              max-h-48
-              max-w-xs
-               border-0
-               border-solid
-               rounded-sm
-               shadow-md
-               border-slate-200"
-                   src={eventData.event_image}
-                   alt={eventData.title}/>
+              <Zoom>
+                <img className="ml-5
+                                mr-10
+                                max-h-48
+                                max-w-xs
+                                 border-0
+                                 border-solid
+                                 rounded-sm
+                                 shadow-md
+                                 border-slate-200"
+                     src={eventData.event_image}
+                     alt={eventData.title}/>
+              </Zoom>
             </div>
           </div>
           <div className="hide-li">
