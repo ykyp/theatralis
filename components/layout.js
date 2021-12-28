@@ -22,7 +22,7 @@ export default function Layout({ children, home, pageTitle, description, current
       <Head>
         <link rel="icon" href="/favicon.ico" />
          <title>{pageTitle || siteTitle}</title>
-         <meta name="description" content={description} />
+         <meta name="description" content={description || defaultDesc} />
 
          {/*<!-- Google / Search Engine Tags -->*/}
          <meta itemProp="name" content={pageTitle || siteTitle} />
