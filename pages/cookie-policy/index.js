@@ -18,7 +18,7 @@ export default function CookiePolicy() {
          </header>
 
          <div className="w-full flex justify-around">
-            <article className="prose p-5">
+            <article className="prose p-5 xs: m-5">
                <div className="event-title pb-3">Cookie Policy for Theatralis</div>
 
                <p>This is the Cookie Policy for Theatralis, accessible from www.theatralis.com.cy</p>

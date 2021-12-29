@@ -19,7 +19,7 @@ export default function PrivacyPolicy2() {
          </header>
 
          <div className="w-full flex justify-around">
-            <article className="policies prose p-3">
+            <article className="policies prose p-3 xs:m-5">
                <h2>PRIVACY NOTICE</h2>
 
                <p ><strong>Last updated December 20, 2021</strong></p>
