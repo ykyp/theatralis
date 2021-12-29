@@ -94,15 +94,19 @@ export default function Event({ eventData: eventData }) {
             </div>
             <div className="">
               <Zoom>
-                <img className="ml-5
-                                mr-10
-                                max-h-48
-                                max-w-xs
-                                 border-0
-                                 border-solid
-                                 rounded-sm
-                                 shadow-md
-                                 border-slate-200"
+                <img className="lg:ml-5
+                                lg:mr-10
+                                lg:max-h-48
+                                lg:max-w-xs
+                                xl:ml-5
+                                xl:mr-10
+                                xl:max-h-48
+                                xl:max-w-xs
+                                2xl:ml-5
+                                2xl:mr-10
+                                2xl:max-h-48
+                                2xl:max-w-xs
+                                "
                      src={eventData.event_image}
                      alt={eventData.title}/>
               </Zoom>
