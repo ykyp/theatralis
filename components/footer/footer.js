@@ -7,11 +7,6 @@ const Footer = () => (
 
       <div className="flex justify-center items-center p-6 border-b border-gray-300">
          <div className=" lg:block">
-            <Link href="/privacy-policy2" key="privacy-policy2">
-               <a >Privacy Policy2</a>
-            </Link>
-         </div>
-         <div className=" lg:block">
             <Link href="/privacy-policy" key="privacy-policy">
                <a >Privacy Policy</a>
             </Link>
@@ -29,7 +24,7 @@ const Footer = () => (
          </div>
 
          <div className="mr-3 hidden lg:block">
-            {/*<span>Connect with us on social media:</span>*/}
+            {<span>Connect with us on social media:</span>}
          </div>
          <div className="flex justify-center">
             <a href="https://www.facebook.com/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%AC%CE%BB%CE%B9%CF%82Theatralis-104721578734645" target="_blank" className="mr-6 text-gray-600">
