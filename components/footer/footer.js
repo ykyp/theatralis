@@ -16,7 +16,7 @@ const Footer = () => {
                   <Link href="/">
                      <a className="flex items-center">
                         <img
-                           className="xs:w-24 sm:w-24"
+                           className=""
                            src={t('nav-image')}
                            height={"auto"}
                            width={150}
