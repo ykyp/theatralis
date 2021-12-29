@@ -1,42 +1,52 @@
 import React from 'react';
 import { FooterIconList } from "./footer-icon-list";
 import Link from 'next/link'
+import useTranslation from "next-translate/useTranslation";
 
-const Footer = () => (
-   <footer className="mt-5 text-center lg:text-left bg-gray-100 text-gray-600 "> {/*bg-gray-100 text-gray-600*/}
+const Footer = () => {
+   const {t, lang} = useTranslation('common');
+   return (
+      <footer className="mt-5 text-center lg:text-left "> {/*bg-gray-100 text-gray-600*/}
 
-      <div className="flex justify-center items-center p-6 border-b border-gray-300">
-         <div className=" lg:block">
-            <Link href="/privacy-policy" key="privacy-policy">
-               <a >Privacy Policy</a>
-            </Link>
-         </div>
-         <div className="ml-2 mr-2 brand-red" key="divider-2">
-            |
-         </div>
-         <div className=" lg:block">
-            <Link href="/cookie-policy" key="cookie-policy">
-               <a >Cookie Policy</a>
-            </Link>
-         </div>
-         <div className="ml-2 mr-2 brand-red" key="divider-2">
-            |
-         </div>
+         <hr/>
+         <div className="flex justify-between sm:flex-col xs:flex-col items-center p-6 border-b border-gray-300">
 
-         <div className="mr-3 hidden lg:block">
-            {<span>Connect with us on social media:</span>}
-         </div>
-         <div className="flex justify-center">
-            <a href="https://www.facebook.com/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%AC%CE%BB%CE%B9%CF%82Theatralis-104721578734645" target="_blank" className="mr-6 text-gray-600">
-               <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
-                    className="svg-inline--fa fa-facebook-f w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 320 512">
-                  <path fill="currentColor"
-                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
-                  </path>
-               </svg>
-            </a>
-            {/*<a href="#!" className="mr-6 text-gray-600">
+            <div className="flex  items-center">
+               <div className="font-bold text-2xl text-gray-800">
+                  <Link href="/">
+                     <a className="flex items-center">
+                        <img
+                           className="sm:w-20"
+                           src={t('nav-image')}
+                           height={"auto"}
+                           width={150}
+                           alt={'Theatralis'}
+                        />
+                     </a>
+                  </Link>
+               </div>
+
+               <div className="text-center md:ml-2 lg:ml-2 xl:ml-2 2xl:ml-2 xs:text-xs sm:text-sm"> {/*  bg-gray-200 */}
+                  <span> {`© ${new Date().getFullYear()}`}:
+               <a className=" font-semibold xs:hidden " href="https://www.theatralis.com.cy"> Theatralis</a></span>
+                  <span> - Made with <i className="pi th-icon pi-heart"></i></span>
+               </div>
+            </div>
+
+           {/* <div className="mr-3 hidden lg:block">
+               {<span>Connect with us on social media:</span>}
+            </div>*/}
+            <div className="flex justify-center xs:mt-3 sm:mt-3 ">
+               <a href="https://www.facebook.com/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%AC%CE%BB%CE%B9%CF%82Theatralis-104721578734645" target="_blank" className="mr-6 text-gray-600">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                       className="svg-inline--fa fa-facebook-f w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 320 512">
+                     <path fill="currentColor"
+                           d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                     </path>
+                  </svg>
+               </a>
+               {/*<a href="#!" className="mr-6 text-gray-600">
                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
                     className="svg-inline--fa fa-twitter w-4" role="img" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512">
@@ -45,25 +55,38 @@ const Footer = () => (
                   </path>
                </svg>
             </a>*/}
-            <a href="https://www.instagram.com/theatraliscy" target="_blank" className="mr-6 text-gray-600">
-               <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
-                    className="svg-inline--fa fa-instagram w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512">
-                  <path fill="currentColor"
-                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
-                  </path>
-               </svg>
-            </a>
+               <a href="https://www.instagram.com/theatraliscy" target="_blank" className="mr-6 text-gray-600">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+                       className="svg-inline--fa fa-instagram w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 448 512">
+                     <path fill="currentColor"
+                           d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                     </path>
+                  </svg>
+               </a>
+            </div>
+
+            <div className="flex  items-center xs:mt-3 sm:mt-3 xs:text-xs sm:text-sm">
+               <div className=" lg:block">
+                  <Link href="/privacy-policy" key="privacy-policy">
+                     <a >Privacy Policy</a>
+                  </Link>
+               </div>
+               <div className="ml-2 mr-2 brand-red" key="divider-2">
+                  |
+               </div>
+               <div className=" lg:block">
+                  <Link href="/cookie-policy" key="cookie-policy">
+                     <a >Cookie Policy</a>
+                  </Link>
+               </div>
+            </div>
+
+
          </div>
-      </div>
 
-      <div className="text-center p-6 bg-gray-100 "> {/*  bg-gray-200 */}
-         <span> {`© Copyright ${new Date().getFullYear()}`}:
-            <a className=" font-semibold" href="https://www.theatralis.com.cy"> Theatralis</a></span>
-         <span> - Made with <i className="pi th-icon pi-heart"></i></span>
-      </div>
-
-   </footer>
-);
+      </footer>
+   );
+};
 
 export { Footer };

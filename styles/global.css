@@ -411,3 +411,12 @@ footer .pi-facebook {
 .CookieConsent div:nth-of-type(2) {
   margin: auto !important;
 }
+
+footer hr {
+  border-top: 1px solid #ece6e6;
+  height: 1px;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  margin: 5px 0 10px 0;
+}
