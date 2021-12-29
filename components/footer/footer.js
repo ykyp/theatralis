@@ -36,7 +36,7 @@ const Footer = () => {
            {/* <div className="mr-3 hidden lg:block">
                {<span>Connect with us on social media:</span>}
             </div>*/}
-            <div className="flex justify-center xs:mt-3 sm:mt-3 ">
+            <div className="flex justify-center xs:mt-2 sm:mt-2 ">
                <a href="https://www.facebook.com/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%AC%CE%BB%CE%B9%CF%82Theatralis-104721578734645" target="_blank" className="mr-6 text-gray-600">
                   <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
                        className="svg-inline--fa fa-facebook-f w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
