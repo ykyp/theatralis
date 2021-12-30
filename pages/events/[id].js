@@ -43,6 +43,14 @@ export default function Event({ eventData: eventData }) {
         </div>
       </header>
 
+      {eventData.cover_image &&
+        <div className="">
+            <img className="cover-photo"
+                 src={eventData.cover_image}
+                 alt={eventData.title}/>
+        </div>
+      }
+
       <Head>
         <title>{eventData.title}</title>
       </Head>
@@ -92,9 +100,19 @@ export default function Event({ eventData: eventData }) {
 
 
             </div>
-            <div className="">
+            {eventData.event_image &&
+              <div className="">
               <Zoom>
-                <img className="lg:ml-5
+                <img className="
+                                xs:hidden
+                                sm:hidden
+                                sm:max-h-48
+                                sm:max-w-xs
+                                md:ml-5
+                                md:mr-10
+                                md:max-h-48
+                                md:max-w-xs
+                                lg:ml-5
                                 lg:mr-10
                                 lg:max-h-48
                                 lg:max-w-xs
@@ -111,6 +129,7 @@ export default function Event({ eventData: eventData }) {
                      alt={eventData.title}/>
               </Zoom>
             </div>
+            }
           </div>
           <div className="hide-li">
             <TabView>

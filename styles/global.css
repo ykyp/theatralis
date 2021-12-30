@@ -221,6 +221,7 @@ a.brand-red:hover {
 .event-title {
   font-size: 26px;
   font-weight: bold;
+  line-height: 1.2;
 }
 
 .event-details {
@@ -380,4 +381,11 @@ a.brand-red:hover {
 
 .th-card-container {
   /*min-height: 128px;*/
+}
+
+.cover-photo {
+  margin-top: 17px;
+  max-height: 270px;
+  width: 100%;
+  object-fit: cover;
 }

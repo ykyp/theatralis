@@ -18,6 +18,7 @@ function eventData() {
          city: matterResult.data.city,
          audience: matterResult.data.audience,
          event_image: matterResult.data.event_image,
+         cover_image: matterResult.data.cover_image,
          category: matterResult.data.category,
       }
    });
