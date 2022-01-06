@@ -1,7 +1,7 @@
 ---
 title: ΑΡΙΣΤΟΦΑΝΗΣ ΤΟΣΟΣ ΔΑ!
 startDate: 2022-01-08
-endDate: 2022-01-29
+endDate: 2022-01-30
 city: Nicosia
 event_image: "/images/uploads/Αριστοφανισ.jpg"
 category: Children, Musical
