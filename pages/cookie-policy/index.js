@@ -9,7 +9,7 @@ export default function CookiePolicy() {
    return (
       <Layout description="Cookie Policy">
          <Head>
-            <title>Cookie Policy</title>
+            <title>Theatralis - Cookie Policy</title>
          </Head>
 
          <header className="max-w-screen-xl text-center mx-auto object-center">
@@ -18,7 +18,7 @@ export default function CookiePolicy() {
          </header>
 
          <div className="w-full flex justify-around">
-            <article className="prose p-5 xs:m-5">
+            <article className="prose p-5 xs:m-5 prose max-w-sm lg:max-w-3xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l ">
                <div className="event-title pb-3">Cookie Policy for Theatralis</div>
 
                <p>This is the Cookie Policy for Theatralis, accessible from www.theatralis.com.cy</p>

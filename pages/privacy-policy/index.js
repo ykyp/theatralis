@@ -8,19 +8,19 @@ export default function PrivacyPolicy2() {
    /* GENERATED WITH https://app.termly.io/ */
    const {t} = useTranslation('common');
    return (
-      <Layout description="Privacy Policy">
+      <Layout description="Theatralis - Privacy Policy">
          <Head>
-            <title>Privacy Policy</title>
+            <title>Theatralis - Privacy Policy</title>
          </Head>
 
-         <header className="max-w-screen-xl text-center mx-auto object-center">
+         <header className="max-w-screen-xl text-center mx-auto object-center mb-3">
             <div className="hero-image-2 px-0 hero-image-small">
             </div>
          </header>
 
          <div className="w-full flex justify-around">
-            <article className="policies prose p-3 xs:m-5">
-               <h2>PRIVACY NOTICE</h2>
+            <article className="policies prose p-3 xs:m-5  md:text-justify lg:text-justify xl:text-justify xxl:text-justify prose max-w-sm lg:max-w-3xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l ">
+               <h2 >PRIVACY NOTICE</h2>
 
                <p ><strong>Last updated December 20, 2021</strong></p>
 
@@ -192,7 +192,7 @@ export default function PrivacyPolicy2() {
 
                If we are relying on your consent to process your personal information, you have the right to withdraw your consent at any time. Please note however that this will not affect the lawfulness of the processing before its withdrawal, nor will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
 
-               If you are a resident in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: <a href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm" target="_blank">https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm</a>.
+               If you are a resident in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details <a href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm" target="_blank">here</a>.
 
 
                <p><span className="underline"><strong>Cookies and similar technologies:</strong></span> Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Website.</p>

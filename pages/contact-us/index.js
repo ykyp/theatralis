@@ -81,7 +81,7 @@ export default function ContactUs() {
    return (
       <Layout>
          <Head>
-            <title>Contact Us</title>
+            <title>Theatralis - Contact Us</title>
          </Head>
 
          <header className="max-w-screen-xl text-center mx-auto object-center">
