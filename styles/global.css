@@ -386,7 +386,7 @@ footer .pi-facebook {
   margin-left: 7px;
 }
 
-.policies.prose p {
+.policies.prose p, .policies.prose ul li , .policies.prose a, .policies.prose p a {
   font-size: 15px;
 }
 
