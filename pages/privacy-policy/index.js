@@ -33,7 +33,7 @@ export default function PrivacyPolicy2() {
                      href="http://www.theatralis.com.cy" target="_blank">http://www.theatralis.com.cy</a>
                   </li>
                   <li>
-                     Engage with us in other related ways ― including any partnership and marketing
+                     Engage with us in other related ways ― including any partnership for promotions
                   </li>
                </ul>
 
@@ -44,7 +44,7 @@ export default function PrivacyPolicy2() {
                      <strong>"Website,"</strong> we are referring to any website of ours that references or links to this policy
                   </li>
                   <li>
-                     <strong>"Services,"</strong> we are referring to our Website, and other related services, marketing
+                     <strong>"Services,"</strong> we are referring to our Website, and other related services, promotions
                   </li>
                </ul>
 
