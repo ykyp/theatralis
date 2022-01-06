@@ -1,8 +1,8 @@
 ---
 title: Still! ενα αγαλμα που γυρισε τον κοσμο
 startDate: 2022-01-15
-endDate: 2022-01-16
-city: Nicosia
+endDate: 2022-01-23
+city: Nicosia, Limassol
 event_image: "/images/uploads/still.jpg"
 category: Children
 
@@ -38,12 +38,18 @@ category: Children
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
+**ΛΕΥΚΩΣΙΑ**
+
 **_Ημερομηνίες:_** Σάββατο 15 & Κυριακή 16 Ιανουαρίου 2022  
 **_Ώρα έναρξης:_** 17:00  
-**_Τοποθεσία:_** [Δημοτικό Θέατρο Λευκωσίας](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B5%CF%85%CE%BA%CF%89%CF%83%CE%AF%CE%B1%CF%82+(Nicosia+Municipal+Theatre)/@35.1726385,33.3531332,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17519633b289:0xf4e085228ec10fda!8m2!3d35.1726385!4d33.3553219 "https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B5%CF%85%CE%BA%CF%89%CF%83%CE%AF%CE%B1%CF%82+(Nicosia+Municipal+Theatre)/@35.1726385,33.3531332,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17519633b289:0xf4e085228ec10fda!8m2!3d35.1726385!4d33.3553219")
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Λευκωσίας](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B5%CF%85%CE%BA%CF%89%CF%83%CE%AF%CE%B1%CF%82+(Nicosia+Municipal+Theatre)/@35.1726385,33.3531332,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17519633b289:0xf4e085228ec10fda!8m2!3d35.1726385!4d33.3553219 "https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B5%CF%85%CE%BA%CF%89%CF%83%CE%AF%CE%B1%CF%82+(Nicosia+Municipal+Theatre)/@35.1726385,33.3531332,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17519633b289:0xf4e085228ec10fda!8m2!3d35.1726385!4d33.3553219")  
+**_Διάρκεια:_** 60 λεπτά  
+**_Εισιτήρια:_** Απο τα καταστήματα Stephanis παγκύπρια 
 
-***
+**ΛΕΜΕΣΟΣ**
 
-#### ΕΙΣΙΤΗΡΙΑ
-
-Αγορά εισιτηρίων απο τα καταστήματα Stephanis παγκύπρια
+**_Ημερομηνίες:_** Κυριακή 23 Ιανουαρίου 2022  
+**_Ώρα έναρξης:_** 11:00  
+**_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6797568,33.043364,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6797568,33.043364,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")  
+**_Διάρκεια:_** 60 λεπτά  
+**_Εισιτήρια:_** Απο την ιστοσελίδα του Θέατρο [Ριάλτο](https://rialto.interticket.com/program/still-ena-agalma-pou-gurise-to-kosmo-2514 "https://rialto.interticket.com/program/still-ena-agalma-pou-gurise-to-kosmo-2514")
