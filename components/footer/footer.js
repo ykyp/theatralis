@@ -6,29 +6,28 @@ import useTranslation from "next-translate/useTranslation";
 const Footer = () => {
    const {t, lang} = useTranslation('common');
    return (
-      <footer className="mt-5 text-center lg:text-left "> {/*bg-gray-100 text-gray-600*/}
+      <footer className="mt-5 text-center lg:text-left text-gray-500 text-sm "> {/*bg-gray-100 text-gray-600*/}
 
          <hr/>
-         <div className="flex justify-between sm:flex-col xs:flex-col items-center p-6 border-b border-gray-300">
-
-            <div className="flex  items-center">
+         <div className="xl:grid xl:grid-cols-3 xxl:grid xxl:grid-cols-3 lg:grid lg:grid-cols-3  md:flex md:flex-col sm:flex sm:flex-col xs:flex xs:flex-col  items-center p-6 border-b border-gray-300">
+            <div className="flex col-start-2  items-center ">
                <div className="font-bold text-2xl text-gray-800">
                   <Link href="/">
                      <a className="flex items-center">
                         <img
                            className=""
-                           src={t('nav-image')}
+                           src="/images/theatralis_icon_colour.png"
                            height={"auto"}
-                           width={150}
+                           width={24}
                            alt={'Theatralis'}
                         />
                      </a>
                   </Link>
                </div>
 
-               <div className="text-center md:ml-2 lg:ml-2 xl:ml-2 2xl:ml-2 xs:text-xs sm:text-sm"> {/*  bg-gray-200 */}
-                  <span> {`© ${new Date().getFullYear()}`}:
-               <a className=" font-semibold xs:hidden " href="https://www.theatralis.com.cy"> Theatralis</a></span>
+               <div className="text-center ml-2"> {/*  bg-gray-200 */}
+                  <span> {`© Copyright ${new Date().getFullYear()}`}:
+               <a className=" font-semibold " href="https://www.theatralis.com.cy"> Theatralis</a></span>
                   <span> - Made with <i className="pi th-icon pi-heart"></i></span>
                </div>
             </div>
@@ -36,8 +35,25 @@ const Footer = () => {
            {/* <div className="mr-3 hidden lg:block">
                {<span>Connect with us on social media:</span>}
             </div>*/}
-            <div className="flex justify-center xs:mt-2 sm:mt-2 ">
-               <a href="https://www.facebook.com/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%AC%CE%BB%CE%B9%CF%82Theatralis-104721578734645" target="_blank" className="mr-6 text-gray-600">
+
+            <div className=" col-start-3  flex  inline items-center xs:mt-3 sm:mt-3 md:mt-3 sm:text-sm">
+               <div className=" lg:block">
+                  <Link href="/privacy-policy" key="privacy-policy">
+                     <a >Privacy Policy</a>
+                  </Link>
+               </div>
+               <div className="ml-2 mr-2 brand-red" key="divider-2">
+                  |
+               </div>
+               <div className=" lg:block">
+                  <Link href="/cookie-policy" key="cookie-policy">
+                     <a >Cookie Policy</a>
+                  </Link>
+               </div>
+               <div className="ml-2 mr-2 brand-red" key="divider-2">
+                  |
+               </div>
+               <a href="https://www.facebook.com/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%AC%CE%BB%CE%B9%CF%82Theatralis-104721578734645" target="_blank" className="mr-2 text-gray-600">
                   <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
                        className="svg-inline--fa fa-facebook-f w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 320 512">
@@ -46,6 +62,9 @@ const Footer = () => {
                      </path>
                   </svg>
                </a>
+               <div className="ml-2 mr-2 brand-red" key="divider-2">
+                  |
+               </div>
                {/*<a href="#!" className="mr-6 text-gray-600">
                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
                     className="svg-inline--fa fa-twitter w-4" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -64,22 +83,6 @@ const Footer = () => {
                      </path>
                   </svg>
                </a>
-            </div>
-
-            <div className="flex  items-center xs:mt-3 sm:mt-3 xs:text-xs sm:text-sm">
-               <div className=" lg:block">
-                  <Link href="/privacy-policy" key="privacy-policy">
-                     <a >Privacy Policy</a>
-                  </Link>
-               </div>
-               <div className="ml-2 mr-2 brand-red" key="divider-2">
-                  |
-               </div>
-               <div className=" lg:block">
-                  <Link href="/cookie-policy" key="cookie-policy">
-                     <a >Cookie Policy</a>
-                  </Link>
-               </div>
             </div>
 
 
