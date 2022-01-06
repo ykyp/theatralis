@@ -1,5 +1,5 @@
 ---
-title: Κατ'εικόνα
+title: ΚΑΤ'ΕΙΚΟΝΑ
 startDate: 2022-01-15
 endDate: 2022-01-30
 city: NIcosia
