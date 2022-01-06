@@ -37,6 +37,7 @@ export const Filter = (props) => {
       { name: 'Comedy', code: 'Comedy' },
       { name: 'Standup', code: 'Standup' },
       { name: 'Historical', code: 'Historical' },
+      { name: 'Monologue', code: 'Monologue' },
       { name: 'Musical', code: 'Musical' },
       { name: 'Amateur', code: 'Amateur' },
       { name: 'Children', code: 'Children' },

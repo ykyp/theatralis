@@ -43,37 +43,53 @@ fields:
     required: false
   label: Category
   description: I katigoria/katigories tou ergou, comma separated<br><strong>Drama,
-    Comedy, Standup, Children, Historical, Musical, Amateur, Tragedy</strong>, <strong>Mystery,
+    Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>, <strong>Mystery,
     Satire, Opera</strong>
 pages:
+- events/5-lesbians-eating-a-quiche.md
 - events/Lithi.md
 - events/and-dna.md
+- events/aristofanis-tosos-da.md
 - events/asfiktiki-ipothesi-i- efiveia.md
 - events/da.md
+- events/ego-den.md
+- events/emigkredes-metanastes-se-xeni-xora.md
+- events/eshei-stand-up.md
 - events/event2.md
 - events/event4.md
 - events/gia-tis-maroullous-tamathkia.md
+- events/gizli-hazine.md
+- events/h-magissa-twn-xristougennwn.md
 - events/harold-maude.md
 - events/i-diki-mias-pornis.md
 - events/i-folia-tou-koukou.md
 - events/i-istoria-tou-viktora-kai-tis-marias.md
+- events/i-lampsi-mias-asimantis-niktas.md
 - events/i-pontikopagida.md
+- events/kat-eikona.md
 - events/kisses.md
 - events/mia-kanoniki-mera.md
 - events/o-a--vasilis-einai-sketi-lera.md
 - events/o-erastis.md
+- events/o-metaxoulis.md
 - events/o-senariografos.md
 - events/o-xionanthropos-mou.md
 - events/padia-enos.md
+- events/panikos_sta_paraskinia.md
 - events/pios-skotose-ton-vasilia.md
 - events/pistopoihtiko-gamou.md
 - events/raous.md
 - events/roua-mat.md
+- events/still-ena-agalma-poy-gyrise-ton-kosmo.md
 - events/sto-parking.md
+- events/ta-magika-xristougena-tou-rudolf.md
 - events/the-neon-tetra.md
+- events/to-kokkino-forema-tis-savel.md
 - events/to-thauma-tis-annis-salivan.md
+- events/treis-kai-i-kougkar.md
 - events/vasilias_lir.md
 - events/vasilis-tsitsanis.md
+- events/xristougenna-xristougenna.md
 - events/η-σκοτεινη-πετρα.md
 - events/οθέλλος.md
 - events/τερασ.md

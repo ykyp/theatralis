@@ -9,10 +9,10 @@ import { useRouter } from 'next/router';
 import CookieConsent from "react-cookie-consent";
 
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
-export const defaultDesc = 'Find all theatres in Cyprus';
+export const defaultDesc = 'Find all theatre events in Cyprus';
 export const defaultImage = '/images/defaultHomeImg.png';
 
-export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName }) {
+export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName, fbTitle, fbSiteName }) {
    const { t, lang } = useTranslation('common');
    const router = useRouter();
   return (
@@ -20,7 +20,7 @@ export default function Layout({ children, home, pageTitle, description, current
       <Head>
         <link rel="icon" href="/favicon.ico" />
          <title>{pageTitle || siteTitle}</title>
-         <meta name="description" content={description} />
+         <meta name="description" content={description || defaultDesc} />
 
          {/*<!-- Google / Search Engine Tags -->*/}
          <meta itemProp="name" content={pageTitle || siteTitle} />
@@ -36,18 +36,23 @@ export default function Layout({ children, home, pageTitle, description, current
          {/* Open Graph app id: 342107034384158*/}
          {/*<meta property="og:url" content={currentURL} key="ogurl" />*/}
          <meta property="og:image" content={`${process.env.BASE_URL}${previewImage||defaultImage}`} key="ogimage" />
-         <meta property="og:site_name" content={siteName || siteTitle} key="ogsitename" />
-         <meta property="og:title" content={pageTitle || siteTitle} key="ogtitle" />
-         <meta property="og:description" content={description} key="ogdesc" />
+         <meta property="og:image:height" content="720"/>
+         <meta property="og:image:width" content="1200"/>
+         <meta property="og:site_name" content={ siteName || siteTitle} key="ogsitename" />
+         <meta property="og:title" content={fbTitle || pageTitle || siteTitle} key="ogtitle" />
+         <meta property="og:description" content={fbSiteName || description || defaultDesc} key="ogdesc" />
          <meta property="og:type" content="website" />
 
+         <link rel="preload" href="/images/xmas-en-2.png" as="image"/>
+         <link rel="preload" href="/images/xmas-gr-2.png" as="image"/>
+         <link rel="preload" href="/images/xmas-background.png" as="image"/>
          <link rel="preload" href="/images/about1.png" as="image"/>
          <link rel="preload" href="/images/about2.png" as="image"/>
          <link rel="preload" href="/images/about3.png" as="image"/>
-         <link rel="preload" href="/images/background-cropped.jpg" as="image"/>
-         <link rel="preload" href="/images/th7.png" as="image"/>
+         {/*<link rel="preload" href="/images/background-cropped.jpg" as="image"/>
          <link rel="preload" href="/images/theatralis_greek_white.png" as="image"/>
          <link rel="preload" href="/images/theatralis_english_white.png" as="image"/>
+          <link rel="preload" href="/images/th7.png" as="image"/>*/}
 
       </Head>
 

@@ -79,7 +79,7 @@ export default function ContactUs() {
    };
 
    return (
-      <Layout>
+      <Layout description={'Contact Us'}>
          <Head>
             <title>Theatralis - Contact Us</title>
          </Head>

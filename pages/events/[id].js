@@ -28,8 +28,11 @@ export default function Event({ eventData: eventData }) {
     return tKeys.join(", ");
   };
 
+  const period = `${formatDate(eventData.startDate)} - ${formatDate(eventData.endDate)}`;
   return (
     <Layout description={eventData.title}
+            fbSiteName={period}
+            fbTitle={eventData.title}
             previewImage={eventData.event_image}
     >
 
@@ -52,7 +55,7 @@ export default function Event({ eventData: eventData }) {
             <div className="justify-start">
               <div className="event-details flex items-center mt-2 mb-1">
                 <i className="pi pi-calendar th-icon"></i>
-                <div className="th-icon-text">{formatDate(eventData.startDate)} - {formatDate(eventData.endDate)}</div>
+                <div className="th-icon-text">{period}</div>
               </div>
               {eventData.category &&
               <div className="event-details flex items-center mb-1">
