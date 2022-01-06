@@ -1,6 +1,6 @@
 ---
 title: ΠΑΝΙΚΟΣ ΣΤΑ ΠΑΡΑΣΚΗΝΙΑ
-startDate: 2021-12-23
+startDate: 2022-01-20
 endDate: 2022-02-27
 city: Nicosia
 event_image: "/images/uploads/poster.jpeg"
