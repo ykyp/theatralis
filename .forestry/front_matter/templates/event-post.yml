@@ -43,7 +43,7 @@ fields:
     required: false
   label: Category
   description: I katigoria/katigories tou ergou, comma separated<br><strong>Drama,
-    Comedy, Standup, Children, Historical, Musical, Amateur, Tragedy</strong>, <strong>Mystery,
+    Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>, <strong>Mystery,
     Satire, Opera</strong>
 pages:
 - events/5-lesbians-eating-a-quiche.md
