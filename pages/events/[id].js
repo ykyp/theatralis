@@ -10,11 +10,38 @@ import {BackToHome} from "../../components/navigation/backToHome";
 import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
+import { Galleria } from 'primereact/galleria'
 
 export default function Event({ eventData: eventData }) {
   const { t } = useTranslation('common');
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
+  const galleryImages = [eventData.gallery_1, eventData.gallery_2, eventData.gallery_3].filter(img => img !== null && typeof img !== "undefined");
+  console.log("gallery images ", galleryImages);
+
+  const responsiveOptions = [
+    {
+      breakpoint: '1024px',
+      numVisible: 5
+    },
+    {
+      breakpoint: '768px',
+      numVisible: 3
+    },
+    {
+      breakpoint: '560px',
+      numVisible: 3
+    }
+  ];
+
+  const itemTemplate = (item) => {
+    return <img src={item} alt={item} style={{ width: '100%', maxHeight: '500px', display: 'block', objectFit: 'contain' }} />;
+  };
+
+  const thumbnailTemplate = (item) => {
+    return <img src={item} alt={item} style={{ width: 'auto', maxHeight: '80px', display: 'block', marginRight: '40px' }} />;
+  };
+
   useEffect(() => {
     setFacebookShareLink("https://www.facebook.com/sharer.php?u="+encodeURIComponent(window.location.href));
     setTwitterShareLink("https://twitter.com/share?text=Check this theatre out&url="+ encodeURIComponent(window.location.href) +"&hashtags=theatralis");
@@ -44,7 +71,7 @@ export default function Event({ eventData: eventData }) {
       </header>
 
       {eventData.cover_image &&
-        <div className="">
+        <div className="m-auto">
             <img className="cover-photo"
                  src={eventData.cover_image}
                  alt={eventData.title}/>
@@ -55,6 +82,7 @@ export default function Event({ eventData: eventData }) {
         <title>{eventData.title}</title>
       </Head>
       <div className="w-full flex justify-around">
+
         <article className="prose max-w-sm lg:max-w-3xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l ">
           <div className="flex justify-between  xs:flex-col sm:flex-col">
 
@@ -100,20 +128,18 @@ export default function Event({ eventData: eventData }) {
 
 
             </div>
+            {/* we want to hide id if there's a cover photo and on small devices */}
             {eventData.event_image &&
-              <div className="">
+              <div className="xs:m-auto sm:m-auto md:m-auto">
               <Zoom>
-                <img className="
-                                xs:hidden
-                                sm:hidden
-                                sm:max-h-48
-                                sm:max-w-xs
+                <img className="xs:max-h-80
+                                sm:max-h-80
                                 md:ml-5
                                 md:mr-10
                                 md:max-h-48
                                 md:max-w-xs
                                 lg:ml-5
-                                lg:mr-10
+                                lg:mr-5
                                 lg:max-h-48
                                 lg:max-w-xs
                                 xl:ml-5
@@ -124,7 +150,7 @@ export default function Event({ eventData: eventData }) {
                                 2xl:mr-10
                                 2xl:max-h-48
                                 2xl:max-w-xs
-                                "
+                                event-main-photo"
                      src={eventData.event_image}
                      alt={eventData.title}/>
               </Zoom>
@@ -136,6 +162,26 @@ export default function Event({ eventData: eventData }) {
               <TabPanel header={t("details")}>
                 <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify"
                      dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
+
+                { galleryImages.length > 0 &&
+                <div>
+                <hr/>
+                  <h4 > Gallery </h4>
+                  <div className="flex">
+
+
+                  <Galleria value={galleryImages}
+                  responsiveOptions={responsiveOptions}
+                  numVisible={5}
+                  circular
+                  style={{maxWidth: '640px'}}
+                  showItemNavigators
+                  item={itemTemplate}
+                  thumbnail={thumbnailTemplate} />
+                  </div>
+                  </div>
+                }
+
               </TabPanel>
               {/*<TabPanel header="Map">
                 <p>Map will go here...</p>
@@ -146,6 +192,8 @@ export default function Event({ eventData: eventData }) {
           <BackToHome/>
 
         </article>
+
+
 
 
 

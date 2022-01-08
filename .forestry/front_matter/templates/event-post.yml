@@ -51,6 +51,24 @@ fields:
   description: I katigoria/katigories tou ergou, comma separated<br><strong>Drama,
     Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>,
     <strong>Mystery, Satire, Opera</strong>
+- name: gallery_1
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 1st image
+  description: First image of the gallery
+- name: gallery_2
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 2nd image
+  description: Second image of the gallery
+- name: gallery_3
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 3rd image
+  description: Third image of the gallery
 pages:
 - events/5-lesbians-eating-a-quiche.md
 - events/Lithi.md

@@ -19,6 +19,9 @@ function eventData() {
          audience: matterResult.data.audience,
          event_image: matterResult.data.event_image,
          cover_image: matterResult.data.cover_image,
+         gallery_1: matterResult.data.gallery_1,
+         gallery_2: matterResult.data.gallery_2,
+         gallery_3: matterResult.data.gallery_3,
          category: matterResult.data.category,
       }
    });

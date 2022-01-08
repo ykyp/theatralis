@@ -4,6 +4,9 @@ startDate: 2022-01-15
 endDate: 2022-01-30
 city: NIcosia
 event_image: "/images/uploads/img_20211229_211022.jpg"
+gallery_1: "/images/uploads/kat_eikonaA3POSTER_V2.jpeg"
+gallery_2: "/images/uploads/kateikona2.jpeg"
+gallery_3: "/images/uploads/kateikona3.jpeg"
 category: Monologue
 
 ---
