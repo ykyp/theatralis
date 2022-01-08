@@ -71,7 +71,7 @@ export default function Event({ eventData: eventData }) {
       </header>
 
       {eventData.cover_image &&
-        <div className="m-auto">
+        <div className="flex justify-center">
             <img className="cover-photo"
                  src={eventData.cover_image}
                  alt={eventData.title}/>
