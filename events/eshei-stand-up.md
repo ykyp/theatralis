@@ -4,6 +4,7 @@ startDate: 2021-12-29
 endDate: 2022-01-05
 city: Nicosia, Larnaca, Limassol, Pafos
 event_image: "/images/uploads/screen-shot-2021-12-23-at-13-36-19.png"
+cover_image: "/images/uploads/eshei_standup_cover.jpeg"
 category: Standup
 
 ---
