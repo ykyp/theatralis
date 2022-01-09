@@ -65,14 +65,14 @@ export default function Event({ eventData: eventData }) {
             previewImage={eventData.event_image}
     >
 
-      <header className="max-w-screen-xl text-center mx-auto object-center">
+      <header className="max-w-screen-xl text-center mx-auto object-center mb-2">
         <div className="hero-image-2 px-0 hero-image-small">
         </div>
       </header>
 
       {eventData.cover_image &&
         <div className="flex justify-center">
-            <img className="cover-photo"
+            <img className="cover-photo border-radius-4"
                  src={eventData.cover_image}
                  alt={eventData.title}/>
         </div>
@@ -166,7 +166,7 @@ export default function Event({ eventData: eventData }) {
                 { galleryImages.length > 0 &&
                 <div>
                 <hr/>
-                  <h4 > Gallery </h4>
+                  <h4> {t("gallery")} </h4>
                   <div className="flex">
 
 
