@@ -16,7 +16,13 @@ export default function Event({ eventData: eventData }) {
   const { t } = useTranslation('common');
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
-  const galleryImages = [eventData.gallery_1, eventData.gallery_2, eventData.gallery_3].filter(img => img !== null && typeof img !== "undefined");
+  const galleryImages = [
+     eventData.gallery_1,
+     eventData.gallery_2,
+     eventData.gallery_3
+  ].filter(img => img !== null && typeof img !== "undefined");
+
+  const allGalleryImages = eventData.cover_image ? [eventData.event_image, ...galleryImages] : galleryImages;
   console.log("gallery images ", galleryImages);
 
   const responsiveOptions = [
@@ -129,7 +135,7 @@ export default function Event({ eventData: eventData }) {
 
             </div>
             {/* we want to hide id if there's a cover photo and on small devices */}
-            {eventData.event_image &&
+            {eventData.event_image && !eventData.cover_image &&
               <div className="xs:m-auto sm:m-auto md:m-auto">
               <Zoom>
                 <img className="xs:max-h-80
@@ -163,14 +169,46 @@ export default function Event({ eventData: eventData }) {
                 <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify"
                      dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
 
-                { galleryImages.length > 0 &&
+                { allGalleryImages.length === 1 &&
+                <div>
+                  <hr/>
+                  <h4> {t("gallery")} </h4>
+                  <div className="flex">
+                    <Zoom>
+                      <img className="xs:max-h-80
+                                sm:max-h-80
+                                md:ml-5
+                                md:mr-10
+                                md:max-h-48
+                                md:max-w-xs
+                                lg:ml-5
+                                lg:mr-5
+                                lg:max-h-96
+                                lg:max-w-xs
+                                xl:ml-5
+                                xl:mr-10
+                                xl:max-h-96
+                                xl:max-w-xs
+                                2xl:ml-5
+                                2xl:mr-10
+                                2xl:max-h-96
+                                2xl:max-w-xs
+                                event-main-photo"
+                           src={eventData.event_image}
+                           alt={eventData.title}/>
+                    </Zoom>
+                  </div>
+                </div>
+                }
+
+                { allGalleryImages.length > 1 &&
                 <div>
                 <hr/>
                   <h4> {t("gallery")} </h4>
                   <div className="flex">
 
 
-                  <Galleria value={galleryImages}
+                  <Galleria value={allGalleryImages}
                   responsiveOptions={responsiveOptions}
                   numVisible={5}
                   circular
@@ -192,13 +230,7 @@ export default function Event({ eventData: eventData }) {
           <BackToHome/>
 
         </article>
-
-
-
-
-
       </div>
-
       <ScrollTopArrow/>
     </Layout>
   )
