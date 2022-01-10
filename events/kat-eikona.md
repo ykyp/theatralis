@@ -1,6 +1,6 @@
 ---
 title: ΚΑΤ'ΕΙΚΟΝΑ
-startDate: 2022-01-15
+startDate: 2022-01-22
 endDate: 2022-01-30
 city: NIcosia
 event_image: "/images/uploads/img_20211229_211022.jpg"
