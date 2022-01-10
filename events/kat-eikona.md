@@ -8,6 +8,7 @@ gallery_1: "/images/uploads/kat_eikonaA3POSTER_V2.jpeg"
 gallery_2: "/images/uploads/kateikona2.jpeg"
 gallery_3: "/images/uploads/kateikona3.jpeg"
 category: Monologue
+cover_image: ''
 
 ---
 **Θεατρική ομάδα «Σόλο για Τρεις»**
@@ -39,7 +40,7 @@ category: Monologue
 
 **_Ημερομηνίες και ώρες παραστάσεων:_**
 
-Σάββατο 15, 22 και 29 Ιανουαρίου 2022 στις 20.30
+Σάββατο 22 και 29 Ιανουαρίου 2022 στις 20.30
 
 Κυριακή 16, 23, 30 Ιανουαρίου 2022 στις 19.00
 
