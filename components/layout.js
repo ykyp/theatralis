@@ -103,7 +103,7 @@ export default function Layout({ children, home, pageTitle, description, current
        >{t("cookie-banner")}
        <a className="text-yellow-400 hover:text-yellow-500 underline underline-offset-8" href="/cookie-policy" target="_blank">cookies</a>
           {t("cookie-banner-2")}
-
+         {/* <a className="text-yellow-400 hover:text-yellow-500 underline underline-offset-8" href="/privacy-policy" target="_blank">{t("more")}</a>*/}
        </CookieConsent>
     </div>
   )
