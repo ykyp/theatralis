@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { Navbar } from "./navigation/navbar";
 import { Footer } from "./footer/footer";
@@ -9,6 +6,7 @@ import { Hero } from "./hero/hero";
 import useTranslation from 'next-translate/useTranslation'
 import { navLinks } from "./nav-data";
 import { useRouter } from 'next/router';
+import CookieConsent from "react-cookie-consent";
 
 export const siteTitle = 'Theatralis - Cyprus theatre listing';
 export const defaultDesc = 'Find all theatre events in Cyprus';
@@ -59,27 +57,27 @@ export default function Layout({ children, home, pageTitle, description, current
           {navLinks.map((link, index) => {
              return (
                 <>
-                <li className="ml-2">
+                <li className="ml-2" key={link.path}>
                    <Link href={link.path} activeStyle={{'fontWeight': "bold"}}>
                       <a key={index}
                          className={router.pathname === link.path ? "active" : ""}>{t(link.key)}</a>
                    </Link>
                 </li>
-                <li className="ml-2 brand-red">
+                <li className="ml-2 brand-red"  key="divider-1">
                   |
                </li>
                 </>
              );
           })}
-          <li className={"ml-2"}>
+          <li className={"ml-2"} key="en">
              <Link href="/" locale="en">
                 <a  className={lang === 'en' ? "active" : ""}>EN</a>
              </Link>
           </li>
-          <li className="ml-2 brand-red">
+          <li className="ml-2 brand-red" key="divider-2">
              |
           </li>
-          <li className={"ml-2"}>
+          <li className={"ml-2"} key="gr">
              <Link href="/"  locale="gr">
                 <a  className={lang === 'gr' ? "active" : ""}>ΕΛ</a>
              </Link>
@@ -91,6 +89,22 @@ export default function Layout({ children, home, pageTitle, description, current
       <main>{children}</main>
 
        <Footer />
+       <CookieConsent
+          style={{ background: "#1f2937", color: "white", fontSize: "14px" }}
+          buttonStyle={{
+             color: '#fff',
+             background: '#780811',
+             border: '0 none',
+             padding: '0.714rem 1rem',
+             fontSize: '1rem',
+             transition: 'background-color .2s,border-color .2s,color .2s,box-shadow .2s,background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1)',
+             borderRadius: '4px' }}
+          buttonText={t("cookie-banner-ok")}
+       >{t("cookie-banner")}
+       <a className="text-yellow-400 hover:text-yellow-500 underline underline-offset-8" href="/cookie-policy" target="_blank">cookies</a>
+          {t("cookie-banner-2")}
+         {/* <a className="text-yellow-400 hover:text-yellow-500 underline underline-offset-8" href="/privacy-policy" target="_blank">{t("more")}</a>*/}
+       </CookieConsent>
     </div>
   )
 }

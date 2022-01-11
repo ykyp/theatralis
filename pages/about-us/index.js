@@ -9,7 +9,7 @@ export default function AboutUs() {
    return (
       <Layout description="About Theatralis">
          <Head>
-            <title>About Us</title>
+            <title>Theatralis - About Us</title>
          </Head>
 
          <header className="max-w-screen-xl text-center mx-auto object-center">
