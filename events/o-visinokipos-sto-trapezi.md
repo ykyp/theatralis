@@ -42,7 +42,7 @@ gallery_3: ''
 
 **_Τοποθεσία:_** [Flea Theatre](https://www.google.com/maps/place/Flea+Theatre/@35.1839201,33.3946469,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17a904f9aabb:0x1710a1c59c41893f!8m2!3d35.1839201!4d33.3968356 "https://www.google.com/maps/place/Flea+Theatre/@35.1839201,33.3946469,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17a904f9aabb:0x1710a1c59c41893f!8m2!3d35.1839201!4d33.3968356")
 
-**_Διάρκεια:_** 105 λεπτά
+**_Διάρκεια:_** 1 ώρα και 45 λεπτά
 
 Κατάλληλο για άνω των 14 ετών
 
