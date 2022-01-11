@@ -20,7 +20,7 @@ export default function Event({ eventData: eventData }) {
      eventData.gallery_1,
      eventData.gallery_2,
      eventData.gallery_3
-  ].filter(img => img !== null && typeof img !== "undefined");
+  ].filter(img => img !== null && typeof img !== "undefined" && img !== "");
 
   const allGalleryImages = eventData.cover_image ? [eventData.event_image, ...galleryImages] : galleryImages;
   console.log("gallery images ", galleryImages);
