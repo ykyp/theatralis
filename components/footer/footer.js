@@ -26,8 +26,8 @@ const Footer = () => {
                </div>
 
                <div className="text-center ml-2"> {/*  bg-gray-200 */}
-                  <span> {`© Copyright ${new Date().getFullYear()}`}:
-               <a className=" font-semibold " href="https://www.theatralis.com.cy"> Theatralis</a></span>
+                  <span> {`© Copyright ${new Date().getFullYear()}`}
+               <a className=" font-semibold xs:hidden" href="https://www.theatralis.com.cy">: Theatralis</a></span>
                   <span> - Made with <i className="pi th-icon pi-heart"></i></span>
                </div>
             </div>
