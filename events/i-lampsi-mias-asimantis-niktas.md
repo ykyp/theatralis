@@ -3,8 +3,9 @@ title: Η ΛΑΜΨΗ ΜΙΑΣ ΑΣΗΜΑΝΤΗΣ ΝΥΚΤΑΣ
 startDate: 2022-01-07
 endDate: 2022-02-06
 city: Nicosia
-event_image: "/images/uploads/269935357_5064788070266355_5562812708931716301_n.jpeg"
-category: ''
+event_image: "/images/uploads/lampsiposter.jpeg"
+cover_image: "/images/uploads/269935357_5064788070266355_5562812708931716301_n.jpeg"
+category: Drama
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

@@ -19,7 +19,9 @@ export default function AboutUs() {
 
          <div className="w-full flex justify-around">
             <article className="prose p-5">
-               <div className="event-title pb-3 sharp-line">{t("aboutUsHd")}</div>
+               <div className="event-title pb-3 sharp-line">
+                  {t("aboutUsHd")}
+               </div>
                <div className="event-details flex items-center pt-5">
                   <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
                   ️ <div className="th-icon-text font-bold">{t("aboutUsSubhd")}</div>
