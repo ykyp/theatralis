@@ -5,7 +5,7 @@ endDate: 2022-01-26
 city: " Limassol"
 event_image: "/images/uploads/varka-sto-yialo-2.jpg"
 cover_image: ''
-category: ''
+category: 'Musical'
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
