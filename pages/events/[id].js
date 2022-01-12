@@ -194,7 +194,7 @@ export default function Event({ eventData: eventData }) {
                                 2xl:max-h-96
                                 2xl:max-w-xs
                                 event-main-photo"
-                           src={eventData.event_image}
+                           src={allGalleryImages[0]}
                            alt={eventData.title}/>
                     </Zoom>
                   </div>
