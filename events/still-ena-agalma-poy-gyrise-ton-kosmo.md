@@ -5,6 +5,10 @@ endDate: 2022-01-23
 city: Nicosia, Limassol
 event_image: "/images/uploads/still.jpg"
 category: Children
+cover_image: ''
+gallery_1: "/images/uploads/pediko.jpeg"
+gallery_2: ''
+gallery_3: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
