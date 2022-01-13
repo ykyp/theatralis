@@ -23,7 +23,6 @@ export default function Event({ eventData: eventData }) {
   ].filter(img => img !== null && typeof img !== "undefined" && img !== "");
 
   const allGalleryImages = eventData.cover_image ? [eventData.event_image, ...galleryImages] : galleryImages;
-  console.log("gallery images ", galleryImages);
 
   const responsiveOptions = [
     {
