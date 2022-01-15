@@ -227,16 +227,20 @@ export default function Event({ eventData: eventData }) {
                   </div>
                 }
 
+
+
+              </TabPanel>
+              <TabPanel header="Comments">
                 <div className="article-container">
-                   <hr/>
-                   <h4> Comments </h4>
+                  {/*<hr/>
+                  <h4> Comments </h4>*/}
+                  <p>Πηγατε? Μοιραστείτε μαζι μας πως σας φανηκε</p>
 
                   <Disqus.DiscussionEmbed
                      shortname={disqusShortname}
                      config={disqusConfig}
                   />
                 </div>
-
               </TabPanel>
               {/*<TabPanel header="Map">
                 <p>Map will go here...</p>

@@ -445,3 +445,7 @@ footer hr {
   left: 0;
   margin: 5px 0 10px 0;
 }
+
+.disqus_thread .thread__container footer {
+  display:none !important;
+}
