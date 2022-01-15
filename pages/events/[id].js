@@ -11,6 +11,7 @@ import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { Galleria } from 'primereact/galleria'
+import Disqus from "disqus-react"
 
 export default function Event({ eventData: eventData }) {
   const { t } = useTranslation('common');
@@ -23,6 +24,13 @@ export default function Event({ eventData: eventData }) {
   ].filter(img => img !== null && typeof img !== "undefined" && img !== "");
 
   const allGalleryImages = eventData.cover_image ? [eventData.event_image, ...galleryImages] : galleryImages;
+
+  const disqusShortname = "theatralis";
+  const disqusConfig = {
+    url: "https://www.theatralis.com.cy",
+    identifier: eventData.title,
+    title: eventData.title
+  };
 
   const responsiveOptions = [
     {
@@ -218,6 +226,16 @@ export default function Event({ eventData: eventData }) {
                   </div>
                   </div>
                 }
+
+                <div className="article-container">
+                   <hr/>
+                   <h4> Comments </h4>
+
+                  <Disqus.DiscussionEmbed
+                     shortname={disqusShortname}
+                     config={disqusConfig}
+                  />
+                </div>
 
               </TabPanel>
               {/*<TabPanel header="Map">
