@@ -6,6 +6,9 @@ city: Nicosia
 event_image: "/images/uploads/lampsiposter.jpeg"
 cover_image: "/images/uploads/269935357_5064788070266355_5562812708931716301_n.jpeg"
 category: Drama
+gallery_1: ''
+gallery_2: ''
+gallery_3: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -45,4 +48,4 @@ category: Drama
 #### ΕΙΣΙΤΗΡΙΑ
 
 **_Τιμή:_** 15 ευρώ (κανονικό), 12 ευρώ (συνταξιούχοι, φοιτητές)  
-**_Πληροφορίες / Κρατήσεις:_** 22 818999 & 99 621845
+**_-_** Απο την ιστοσελίδα του [Soldout tickets]()
