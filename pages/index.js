@@ -163,7 +163,7 @@ export default function Home({ allEventsData }) {
                   rowsPerPageOptions={[10, 20, 30]}
                   onPageChange={onBasicPageChange}>
        </Paginator>
-       <WelcomeDialog/>
+       {/*<WelcomeDialog/>*/}
     </Layout>
   )
 }
