@@ -23,15 +23,18 @@ export default class MyDocument extends Document {
                }}
             />
 
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-196728460-1"></script>
-            <script>
-               window.dataLayer = window.dataLayer || [];
+            <script async
+                    src="https://www.googletagmanager.com/gtag/js?id=UA-196728460-1"/>
+            <script dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
                function gtag(){dataLayer.push(arguments);}
                gtag('js', new Date());
 
                gtag('config', 'UA-196728460-1');
-            </script>
+          `,
+         }}
+            />
 
 
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
