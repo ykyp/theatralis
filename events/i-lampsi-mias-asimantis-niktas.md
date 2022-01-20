@@ -6,9 +6,9 @@ city: Nicosia
 event_image: "/images/uploads/lampsiposter.jpeg"
 cover_image: "/images/uploads/269935357_5064788070266355_5562812708931716301_n.jpeg"
 category: Drama
-gallery_1: ''
-gallery_2: ''
-gallery_3: ''
+gallery_1: "/images/uploads/img_7398.JPG"
+gallery_2: "/images/uploads/img_7370.JPG"
+gallery_3: "/images/uploads/img_7625.JPG"
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
