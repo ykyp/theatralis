@@ -1,7 +1,7 @@
 ---
 title: OUT OF NECESSITY
 startDate: 2022-02-07
-endDate: 2022-01-08
+endDate: 2022-02-08
 city: Limassol
 event_image: "/images/uploads/7_8_february_2.jpeg"
 cover_image: ''
