@@ -55,9 +55,10 @@ export default function Event({ eventData: eventData }) {
   useEffect(() => {
     setFacebookShareLink("https://www.facebook.com/sharer.php?u="+encodeURIComponent(window.location.href));
     setTwitterShareLink("https://twitter.com/share?text=Check this theatre out&url="+ encodeURIComponent(window.location.href) +"&hashtags=theatralis");
+    const urlParts = window.location.href.split("/");
     setDisqusConfig({
        url: window.location.href,
-       identifier: eventData.title,
+       identifier: urlParts[urlParts.length-1],
        title: eventData.title
     });
   }, []);
