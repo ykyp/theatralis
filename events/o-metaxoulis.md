@@ -1,10 +1,14 @@
 ---
 title: Ο ΜΕΤΑΞΟΥΛΗΣ
-startDate: 2022-01-09
+startDate: 2022-01-23
 endDate: 2022-02-12
 city: Nicosia, Larnaca, Limassol, Pafos
 event_image: "/images/uploads/metaksoulisstauros.jpg"
 category: Children
+cover_image: ''
+gallery_1: ''
+gallery_2: ''
+gallery_3: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -35,8 +39,8 @@ category: Children
 
 **_Ημερομηνίες και Ώρα έναρξης:_**
 
-Κυριακή 9 Ιανουαρίου 2022 στις 10:00πμ και 12:00μμ  
-Κυριακή 16 Ιανουαρίου 2022 στις 10:00πμ και 12:00μμ
+Κυριακή 20 Φεβρουαρίου 2022 στις 10:00πμ και 12:00μμ  
+Σάββατο 26 Φεβρουαρίου 2022 στις 10:00πμ και 12:00μμ
 
 **_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")  
 **_Διάρκεια:_** 55’  
