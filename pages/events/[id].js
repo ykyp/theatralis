@@ -59,9 +59,12 @@ export default function Event({ eventData: eventData }) {
        url: window.location.href,
        identifier: eventData.title,
        title: eventData.title
-    })
-    console.log(disqusConfig);
+    });
   }, []);
+
+  useEffect(() => {
+    console.log("disqusConfig", disqusConfig);
+  }, [disqusConfig]);
 
   const translatedKeys = (keysAsString) => {
     const keys = keysAsString.split(",").map(c => c.trim());
