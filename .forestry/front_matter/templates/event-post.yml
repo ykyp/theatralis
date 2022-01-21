@@ -70,6 +70,7 @@ fields:
   label: Gallery 3rd image
   description: Third image of the gallery
 pages:
+- events/1984.md
 - events/5-lesbians-eating-a-quiche.md
 - events/Lithi.md
 - events/and-dna.md
