@@ -3,7 +3,7 @@ title: ΕΓΩ, Η ΕΛΕΝΗ ΠΑΠΑΔΑΚΗ
 startDate: 2022-01-28
 endDate: 2022-02-27
 city: Nicosia
-event_image: "/images/uploads/cover.jpg"
+event_image: ''
 cover_image: "/images/uploads/Ελενη.jpg"
 category: Drama
 gallery_1: ''
