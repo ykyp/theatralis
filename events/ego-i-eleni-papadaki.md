@@ -4,7 +4,7 @@ startDate: 2022-01-28
 endDate: 2022-02-27
 city: Nicosia
 event_image: ''
-cover_image: "/images/uploads/cover.jpg"
+cover_image: "/images/uploads/Ελενη.jpg"
 category: Drama
 gallery_1: ''
 gallery_2: ''
