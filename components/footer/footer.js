@@ -42,7 +42,7 @@ const Footer = () => {
                      <a >Privacy Policy</a>
                   </Link>
                </div>
-               <div className="ml-2 mr-2 brand-red" key="divider-2">
+               <div className="ml-2 mr-2 brand-red" key="divider-6">
                   |
                </div>
                <div className=" lg:block">
@@ -50,7 +50,7 @@ const Footer = () => {
                      <a >Cookie Policy</a>
                   </Link>
                </div>
-               <div className="ml-2 mr-2 brand-red" key="divider-2">
+               <div className="ml-2 mr-2 brand-red" key="divider-7">
                   |
                </div>
                <a href="https://www.facebook.com/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%AC%CE%BB%CE%B9%CF%82Theatralis-104721578734645" target="_blank" className="mr-2 text-gray-600">

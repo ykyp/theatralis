@@ -12,11 +12,13 @@ import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { Galleria } from 'primereact/galleria'
 import Disqus from "disqus-react"
+import { CommentCount } from 'disqus-react';
 
 export default function Event({ eventData: eventData }) {
   const { t } = useTranslation('common');
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
+  const [disqusConfig, setDisqusConfig] = useState({});
   const galleryImages = [
      eventData.gallery_1,
      eventData.gallery_2,
@@ -26,11 +28,6 @@ export default function Event({ eventData: eventData }) {
   const allGalleryImages = eventData.cover_image ? [eventData.event_image, ...galleryImages] : galleryImages;
 
   const disqusShortname = "theatralis";
-  const disqusConfig = {
-    url: "https://www.theatralis.com.cy",
-    identifier: eventData.title,
-    title: eventData.title
-  };
 
   const responsiveOptions = [
     {
@@ -58,7 +55,12 @@ export default function Event({ eventData: eventData }) {
   useEffect(() => {
     setFacebookShareLink("https://www.facebook.com/sharer.php?u="+encodeURIComponent(window.location.href));
     setTwitterShareLink("https://twitter.com/share?text=Check this theatre out&url="+ encodeURIComponent(window.location.href) +"&hashtags=theatralis");
-  });
+    setDisqusConfig({
+       url: window.location.href,
+       identifier: eventData.title,
+       title: eventData.title
+    })
+  }, []);
 
   const translatedKeys = (keysAsString) => {
     const keys = keysAsString.split(",").map(c => c.trim());
@@ -135,6 +137,15 @@ export default function Event({ eventData: eventData }) {
                      alt="Share Page on Twitter"
                      className="pi pi-twitter"></a>
                 </div>
+                <CommentCount
+                   shortname={disqusShortname}
+                   config={
+                     disqusConfig
+                   }
+                >
+                  {/* Placeholder Text */}
+                  Comments
+                </CommentCount>
               </div>
                   </div>
 
