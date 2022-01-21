@@ -18,7 +18,7 @@ export default function Event({ eventData: eventData }) {
   const { t } = useTranslation('common');
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
-  const [disqusConfig, setDisqusConfig] = useState({});
+  const [disqusConfig, setDisqusConfig] = useState(null);
   const galleryImages = [
      eventData.gallery_1,
      eventData.gallery_2,
@@ -60,6 +60,7 @@ export default function Event({ eventData: eventData }) {
        identifier: eventData.title,
        title: eventData.title
     })
+    console.log(disqusConfig);
   }, []);
 
   const translatedKeys = (keysAsString) => {
@@ -137,15 +138,18 @@ export default function Event({ eventData: eventData }) {
                      alt="Share Page on Twitter"
                      className="pi pi-twitter"></a>
                 </div>
-                <CommentCount
-                   shortname={disqusShortname}
-                   config={
-                     disqusConfig
-                   }
-                >
-                  {/* Placeholder Text */}
-                  Comments
-                </CommentCount>
+                {
+                  disqusConfig && <CommentCount
+                     shortname={disqusShortname}
+                     config={
+                       disqusConfig
+                     }
+                  >
+                    {/* Placeholder Text */}
+                    Comments
+                  </CommentCount>
+                }
+
               </div>
                   </div>
 
@@ -247,10 +251,15 @@ export default function Event({ eventData: eventData }) {
                   <h4> Comments </h4>*/}
                   <p>Πηγατε? Μοιραστείτε μαζι μας πως σας φανηκε</p>
 
-                  <Disqus.DiscussionEmbed
-                     shortname={disqusShortname}
-                     config={disqusConfig}
-                  />
+                  {
+                    disqusConfig && <>
+                    <Disqus.DiscussionEmbed
+                       shortname={disqusShortname}
+                       config={disqusConfig}
+                    />
+                   {/* <div>{disqusConfig}</div>*/}
+                    </>
+                  }
                 </div>
               </TabPanel>
               {/*<TabPanel header="Map">
