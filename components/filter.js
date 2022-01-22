@@ -33,16 +33,17 @@ export const Filter = (props) => {
 
    const categories = [
       { name: 'AllCategories', code: 'ALL' },
+      { name: 'Biography', code: 'Biography' },
       { name: 'Drama', code: 'Drama' },
       { name: 'Comedy', code: 'Comedy' },
       { name: 'Standup', code: 'Standup' },
       { name: 'Historical', code: 'Historical' },
       { name: 'Monologue', code: 'Monologue' },
       { name: 'Musical', code: 'Musical' },
+      { name: 'Novel', code: 'Novel' },
       { name: 'Amateur', code: 'Amateur' },
       { name: 'Children', code: 'Children' },
       { name: 'Tragedy', code: 'Tragedy' },
-      { name: 'Mystery', code: 'Mystery' },
       { name: 'Satire', code: 'Satire' },
       { name: 'Opera', code: 'Opera' },
    ];
