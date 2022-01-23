@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
 import { Filter } from '../components/filter';
+import { Subscribe } from '../components/newsletter/subscribe';
 import { ListingEvent } from '../components/listing-event';
 import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
