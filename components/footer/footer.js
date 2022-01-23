@@ -8,6 +8,7 @@ const Footer = () => {
    return (
       <footer className="mt-5 text-center lg:text-left text-gray-500 text-sm "> {/*bg-gray-100 text-gray-600*/}
 
+         <hr/>
          <Subscribe/>
          <hr/>
          <div className="xl:grid xl:grid-cols-3 xxl:grid xxl:grid-cols-3 lg:grid lg:grid-cols-3  md:flex md:flex-col sm:flex sm:flex-col xs:flex xs:flex-col  items-center p-6 border-b border-gray-300">

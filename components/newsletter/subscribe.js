@@ -86,9 +86,9 @@ const Subscribe = () =>  {
                </p>
             </div>
          </Dialog>
-         <div className="px-4 pt-3 pb-4 border-b -mx-4 border-gray-400">
+         <div className="px-4 pt-6 pb-4  -mx-4 ">
             <div className="max-w-xl mx-auto">
-               <h2 className="text-xl text-left inline-block font-semibold text-gray-800">{t("newsletterTitle")}</h2>
+               <h2 className="text-xl text-left inline-block font-semibold text-gray-600">{t("newsletterTitle")}</h2>
                <p className="text-gray-700 text-xs pl-px">
                   {t("newsletterMain")}
                </p>
