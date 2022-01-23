@@ -86,26 +86,27 @@ const Subscribe = () =>  {
                </p>
             </div>
          </Dialog>
+         <div className="px-4 pt-3 pb-4 border-b -mx-4 border-gray-400">
+            <div className="max-w-xl mx-auto">
+               <h2 className="text-xl text-left inline-block font-semibold text-gray-800">{t("newsletterTitle")}</h2>
+               <p className="text-gray-700 text-xs pl-px">
+                  {t("newsletterMain")}
+               </p>
+               <form onSubmit={handleSubmit(onSubmit)}  className="mt-2">
+                  <div className="flex items-center">
 
-         <div className="flex justify-content-center">
-            <div className="card">
-               <h2 className="text-center brand-red">{t("newsletterTitle")}</h2>
-               <p>{t("newsletterMain")}</p>
-               <form onSubmit={handleSubmit(onSubmit)} className="p-fluid">
-                  <div className="field">
-                            <span className="p-float-label p-input-icon-right">
-                                <i className="pi pi-envelope" />
-                                <Controller name="email" control={control}
-                                            rules={{ required: 'Email is required.', pattern: { value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i, message: t("newsletterEmailError") }}}
-                                            render={({ field, fieldState }) => (
-                                               <InputText id={field.name} {...field} className={classNames({ 'p-invalid': fieldState.invalid })} />
-                                            )} />
-                                <label htmlFor="email" className={classNames({ 'p-error': !!errors.email })}>Email*</label>
-                            </span>
-                     {getFormErrorMessage('email')}
+                     <Controller name="email" control={control}
+                                 rules={{ required: t("newsletterEmailRequired"), pattern: { value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i, message: t("newsletterEmailError") }}}
+                                 render={({ field, fieldState }) => (
+                                    <InputText id={field.name} {...field} placeholder="Email" className={`${classNames({ 'p-invalid': fieldState.invalid })} w-full px-2 py-4 mr-2  bg-gray-100 shadow-inner rounded-md border border-gray-400 focus:outline-none`} />
+                                 )} />
+
+
+                     <Button type="submit" label={t("newsletterEmailSubmit")}
+                             className=" text-gray-200 px-5 py-2 rounded shadow "
+                             style={{marginLeft: "-7.8rem"}} />
                   </div>
-
-                  <Button type="submit" label="Submit" className="mt-2" />
+                  {getFormErrorMessage('email')}
                </form>
             </div>
          </div>
