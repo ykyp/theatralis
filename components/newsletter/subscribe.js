@@ -1,18 +1,50 @@
 import React, { useRef, useState } from 'react';
+import { useForm, Controller } from 'react-hook-form';
+import { InputText } from 'primereact/inputtext';
+import { Button } from 'primereact/button';
+import { Dialog } from 'primereact/dialog';
+import { classNames } from 'primereact/utils';
+import useTranslation from "next-translate/useTranslation";
 
 const Subscribe = () =>  {
    // 1. Create a reference to the input so we can fetch/clear it's value.
    const inputEl = useRef(null);
    // 2. Hold a message in state to handle the response from our API.
    const [message, setMessage] = useState('');
+   const [showMessage, setShowMessage] = useState(false);
+   const [formData, setFormData] = useState({});
+   const {t, lang} = useTranslation('common');
 
-   const subscribe = async (e) => {
-      e.preventDefault();
+   {/*<form onSubmit={subscribe}>
+         <label htmlFor="email-input">{'Email Address'}</label>
+         <input
+            id="email-input"
+            name="email"
+            placeholder="you@awesome.com"
+            ref={inputEl}
+            required
+            type="email"
+         />
+         <div>
+            {message
+               ? message
+               : `I'll only send emails when new content is posted. No spam.`}
+         </div>
+         <button type="submit">{'✨ Subscribe 💌'}</button>
+      </form>*/}
 
-      // 3. Send a request to our API with the user's email address.
+   const defaultValues = {
+      email: '',
+   };
+
+   const { control, formState: { errors }, handleSubmit, reset } = useForm({ defaultValues });
+
+   const onSubmit = async (data) => {
+      setFormData(data);
+
       const res = await fetch('/api/subscribe', {
          body: JSON.stringify({
-            email: inputEl.current.value
+            email: data.email
          }),
          headers: {
             'Content-Type': 'application/json'
@@ -29,29 +61,55 @@ const Subscribe = () =>  {
          return;
       }
 
-      // 5. Clear the input value and show a success message.
+      /*// 5. Clear the input value and show a success message.
       inputEl.current.value = '';
       setMessage('Success! 🎉 You are now subscribed to the newsletter.');
+      */
+      setShowMessage(true);
+
+      reset();
+   };
+
+   const dialogFooter = <div className="flex justify-content-center"><Button label="OK" className="p-button-text" autoFocus onClick={() => setShowMessage(false)} /></div>;
+   const getFormErrorMessage = (name) => {
+      return errors[name] && <small className="p-error">{errors[name].message}</small>
    };
 
    return (
-      <form onSubmit={subscribe}>
-         <label htmlFor="email-input">{'Email Address'}</label>
-         <input
-            id="email-input"
-            name="email"
-            placeholder="you@awesome.com"
-            ref={inputEl}
-            required
-            type="email"
-         />
-         <div>
-            {message
-               ? message
-               : `I'll only send emails when new content is posted. No spam.`}
+      <div className="form-demo">
+         <Dialog visible={showMessage} onHide={() => setShowMessage(false)} position="top" footer={dialogFooter} showHeader={false} breakpoints={{ '960px': '80vw' }} style={{ width: '30vw' }}>
+            <div className="flex justify-content-center flex-column pt-6 px-3">
+               <i className="pi pi-check-circle" style={{ fontSize: '5rem', color: 'var(--green-500)' }}></i>
+               <h5>{t("newsletterSuccessTitle")}</h5>
+               <p style={{ lineHeight: 1.5, textIndent: '1rem' }}>
+                  {t("newsletterSuccessBody")}
+               </p>
+            </div>
+         </Dialog>
+
+         <div className="flex justify-content-center">
+            <div className="card">
+               <h2 className="text-center brand-red">{t("newsletterTitle")}</h2>
+               <p>{t("newsletterMain")}</p>
+               <form onSubmit={handleSubmit(onSubmit)} className="p-fluid">
+                  <div className="field">
+                            <span className="p-float-label p-input-icon-right">
+                                <i className="pi pi-envelope" />
+                                <Controller name="email" control={control}
+                                            rules={{ required: 'Email is required.', pattern: { value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i, message: t("newsletterEmailError") }}}
+                                            render={({ field, fieldState }) => (
+                                               <InputText id={field.name} {...field} className={classNames({ 'p-invalid': fieldState.invalid })} />
+                                            )} />
+                                <label htmlFor="email" className={classNames({ 'p-error': !!errors.email })}>Email*</label>
+                            </span>
+                     {getFormErrorMessage('email')}
+                  </div>
+
+                  <Button type="submit" label="Submit" className="mt-2" />
+               </form>
+            </div>
          </div>
-         <button type="submit">{'✨ Subscribe 💌'}</button>
-      </form>
+      </div>
    );
 };
 

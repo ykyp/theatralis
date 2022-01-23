@@ -3,7 +3,6 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
 import { Filter } from '../components/filter';
-import { Subscribe } from '../components/newsletter/subscribe';
 import { ListingEvent } from '../components/listing-event';
 import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
@@ -11,7 +10,6 @@ import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
-import {WelcomeDialog} from "../components/dialog/welcome-dialog";
 import {ISSERVER, useStateFromStorage} from "../components/session-storage-state";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';

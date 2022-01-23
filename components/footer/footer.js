@@ -5,7 +5,6 @@ import useTranslation from "next-translate/useTranslation";
 import {Subscribe} from "../newsletter/subscribe";
 
 const Footer = () => {
-   const {t, lang} = useTranslation('common');
    return (
       <footer className="mt-5 text-center lg:text-left text-gray-500 text-sm "> {/*bg-gray-100 text-gray-600*/}
 
