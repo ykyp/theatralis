@@ -50,7 +50,7 @@ gallery_3: "/images/uploads/10.jpg"
 #### ΕΙΣΙΤΗΡΙΑ
 
 **_Τιμή εισιτηρίου:_** €15 κανονικό / €12 μειωμένο  
-\- Ηλεκτρονικά απο [tickethour](https://shop.tickethour.com/ticketmaster_se_3712.html?fbclid=IwAR1PejCDiOF451vAovRiX-BbBAmnsxjLWmrQS4oxwHD1FJ_RhLaaLwg_ZGE "https://shop.tickethour.com/ticketmaster_se_3712.html?fbclid=IwAR1PejCDiOF451vAovRiX-BbBAmnsxjLWmrQS4oxwHD1FJ_RhLaaLwg_ZGE")  
+\- Ηλεκτρονικά απο [tickethour](https://shop.tickethour.com/ticketmaster_se_3712.html "https://shop.tickethour.com/ticketmaster_se_3712.html")  
 \- Απο τα καταστήματα ACS
 
 **_Πληροφορίες:_** 99 395970 (Δευτέρα - Παρασκευή 12:00 - 20:00)
