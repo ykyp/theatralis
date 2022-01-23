@@ -48,8 +48,8 @@ fields:
   config:
     required: false
   label: Category
-  description: I katigoria/katigories tou ergou, comma separated<br><strong>Biography, Drama,
-    Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>,
+  description: I katigoria/katigories tou ergou, comma separated<br><strong>Biography,
+    Drama, Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>,
     <strong>Novel, Satire, Opera</strong>
 - name: gallery_1
   type: file
