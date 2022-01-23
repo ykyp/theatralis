@@ -5,7 +5,7 @@ endDate: 2022-02-27
 city: Nicosia
 event_image: "/images/uploads/cover.jpg"
 cover_image: "/images/uploads/Ελενη.jpg"
-category: Drama
+category: Biography
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
