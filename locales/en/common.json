@@ -85,6 +85,6 @@
   "newsletterEmailError": "Please input a valid email address.",
   "newsletterEmailRequired": "Email is required.",
   "newsletterEmailSubmit": "Submit",
-  "newsletterSuccessTitle": "Registration Successful! \uD83C\uDF89",
-  "newsletterSuccessBody": "You have been registered successfully to our newsletter!"
+  "newsletterSuccessTitle": "\uD83C\uDF89 ",
+  "newsletterSuccessBody": " You have been registered successfully to our newsletter!"
 }

@@ -85,6 +85,6 @@
   "newsletterEmailError": "Παρακαλώ εισάγετε ένα έγκυρο email.",
   "newsletterEmailSubmit": "Εγγραφή",
   "newsletterEmailRequired": "Παρακαλώ εισάγετε ένα email.",
-  "newsletterSuccessTitle": "Επιτυχής Εγγραφή! \uD83C\uDF89",
-  "newsletterSuccessBody": "Σας έχουμε εγγραψει στο newsletter μας επιτυχώς."
+  "newsletterSuccessTitle": "\uD83C\uDF89 ",
+  "newsletterSuccessBody": " Σας έχουμε εγγραψει στο newsletter μας."
 }

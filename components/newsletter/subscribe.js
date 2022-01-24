@@ -1,43 +1,29 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { useForm, Controller } from 'react-hook-form';
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
-import { Dialog } from 'primereact/dialog';
 import { classNames } from 'primereact/utils';
 import useTranslation from "next-translate/useTranslation";
+import { Messages } from 'primereact/messages';
 
 const Subscribe = () =>  {
-   // 1. Create a reference to the input so we can fetch/clear it's value.
-   const inputEl = useRef(null);
-   // 2. Hold a message in state to handle the response from our API.
+   const msgs1 = useRef(null);
    const [message, setMessage] = useState('');
    const [showMessage, setShowMessage] = useState(false);
    const [formData, setFormData] = useState({});
    const {t, lang} = useTranslation('common');
-
-   {/*<form onSubmit={subscribe}>
-         <label htmlFor="email-input">{'Email Address'}</label>
-         <input
-            id="email-input"
-            name="email"
-            placeholder="you@awesome.com"
-            ref={inputEl}
-            required
-            type="email"
-         />
-         <div>
-            {message
-               ? message
-               : `I'll only send emails when new content is posted. No spam.`}
-         </div>
-         <button type="submit">{'✨ Subscribe 💌'}</button>
-      </form>*/}
 
    const defaultValues = {
       email: '',
    };
 
    const { control, formState: { errors }, handleSubmit, reset } = useForm({ defaultValues });
+
+   useEffect(() => {
+      msgs1.current.show([
+         { severity: 'success', summary:  t("newsletterSuccessTitle"), detail:  t("newsletterSuccessBody"), sticky: true },
+      ]);
+   }, []);
 
    const onSubmit = async (data) => {
       setFormData(data);
@@ -60,11 +46,6 @@ const Subscribe = () =>  {
 
          return;
       }
-
-      /*// 5. Clear the input value and show a success message.
-      inputEl.current.value = '';
-      setMessage('Success! 🎉 You are now subscribed to the newsletter.');
-      */
       setShowMessage(true);
 
       reset();
@@ -77,21 +58,13 @@ const Subscribe = () =>  {
 
    return (
       <div className="form-demo">
-         <Dialog visible={showMessage} onHide={() => setShowMessage(false)} position="top" footer={dialogFooter} showHeader={false} breakpoints={{ '960px': '80vw' }} style={{ width: '30vw' }}>
-            <div className="flex justify-content-center flex-column pt-6 px-3">
-               <i className="pi pi-check-circle" style={{ fontSize: '5rem', color: 'var(--green-500)' }}></i>
-               <h5>{t("newsletterSuccessTitle")}</h5>
-               <p style={{ lineHeight: 1.5, textIndent: '1rem' }}>
-                  {t("newsletterSuccessBody")}
-               </p>
-            </div>
-         </Dialog>
          <div className="px-4 pt-6 pb-4  -mx-4 ">
             <div className="max-w-xl mx-auto">
                <h2 className="text-xl text-left inline-block font-semibold text-gray-600">{t("newsletterTitle")}</h2>
-               <p className="text-gray-700 text-xs pl-px">
+               <p className="text-gray-700 text-sm pl-px">
                   {t("newsletterMain")}
                </p>
+               <Messages ref={msgs1} className={`${showMessage ? "block text-sm" : "hidden text-sm"} text-sm`}/>
                <form onSubmit={handleSubmit(onSubmit)}  className="mt-2">
                   <div className="flex items-center">
 
