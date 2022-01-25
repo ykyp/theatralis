@@ -57,11 +57,11 @@ const Subscribe = () =>  {
    };
 
    return (
-      <div className="form-demo">
          <div className="px-4 pt-6 pb-4  -mx-4 ">
-            <div className="max-w-xl mx-auto">
-               <h2 className="text-xl text-left inline-block font-semibold text-gray-600">{t("newsletterTitle")}</h2>
-               <p className="text-gray-700 text-sm pl-px">
+            <div className="max-w-xl mx-auto xs:pl-2 xs:pr-2">
+               <h2 className="text-xl text-left inline-block font-semibold text-gray-600
+               xs:text-sm xs:mb-2">{t("newsletterTitle")}</h2>
+               <p className="text-gray-700 text-sm pl-px xs:text-xs ">
                   {t("newsletterMain")}
                </p>
                <Messages ref={msgs1} className={`${showMessage ? "block text-sm" : "hidden text-sm"} text-sm`}/>
@@ -82,7 +82,6 @@ const Subscribe = () =>  {
                   {getFormErrorMessage('email')}
                </form>
             </div>
-         </div>
       </div>
    );
 };
