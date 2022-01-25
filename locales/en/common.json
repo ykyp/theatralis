@@ -79,5 +79,12 @@
   "cookie-banner-ok": "OK",
   "connect-social": "Connect with us on social media:",
   "gallery": "GALLERY",
-  "more": "More"
+  "more": "More",
+  "newsletterTitle": "SUBSCRIBE TO OUR NEWSLETTER \uD83D\uDC8C",
+  "newsletterMain": "To receive weekly emails with the latest theatre events.",
+  "newsletterEmailError": "Please input a valid email address.",
+  "newsletterEmailRequired": "Email is required.",
+  "newsletterEmailSubmit": "Submit",
+  "newsletterSuccessTitle": "\uD83C\uDF89 ",
+  "newsletterSuccessBody": " You have been registered successfully to our newsletter!"
 }
