@@ -5,7 +5,7 @@ endDate: 2022-02-08
 city: Limassol
 event_image: "/images/uploads/7_8_february_2.jpeg"
 cover_image: ''
-category: Drama
+category: ''
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
