@@ -4,7 +4,7 @@ startDate: 2022-02-12
 endDate: 2022-03-13
 city: nicosia,larnaca
 event_image: "/images/uploads/Ο Αγγελος του Θανατου φωτο.jpeg"
-cover_image: "/images/uploads/Ο Αγγελος του Θανατου φωτο.jpeg"
+cover_image: ''
 category: Drama
 gallery_1: ''
 gallery_2: ''
