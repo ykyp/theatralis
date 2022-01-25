@@ -5,7 +5,7 @@ endDate: 2022-03-13
 city: nicosia,larnaca
 event_image: "/images/uploads/Ο Αγγελος του Θανατου φωτο.jpeg"
 cover_image: "/images/uploads/Ο Αγγελος του Θανατου φωτο.jpeg"
-category: ''
+category: Drama
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
