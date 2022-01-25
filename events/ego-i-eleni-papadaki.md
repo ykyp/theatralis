@@ -6,9 +6,9 @@ city: Nicosia
 event_image: "/images/uploads/cover.jpg"
 cover_image: "/images/uploads/Ελενη.jpg"
 category: Biography
-gallery_1: ''
-gallery_2: ''
-gallery_3: ''
+gallery_1: "/images/uploads/3.jpg"
+gallery_2: "/images/uploads/8.jpg"
+gallery_3: "/images/uploads/272623129_3426223824270889_767809261411202629_n.jpg"
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΟ ΕΡΓΟ
@@ -43,6 +43,8 @@ gallery_3: ''
 Συμμετέχουν επίσης: Χρύσα Συμεού, Χρυστάλλα Γεωργίου και Μιχάλης Ασκός
 
 Ευχαριστίες στον Κο. Βαρνάβα Κυριαζή για την οπτικογραφημένη συμμετοχή.
+
+![](/images/uploads/272663050_3426223714270900_2028067647784349600_n.jpg)
 
 ***
 
