@@ -7,7 +7,7 @@ event_image: "/images/uploads/cover.jpg"
 cover_image: "/images/uploads/Ελενη.jpg"
 category: Biography
 gallery_1: "/images/uploads/3.jpg"
-gallery_2: "/images/uploads/8.jpg"
+gallery_2: "/images/uploads/1.jpg"
 gallery_3: "/images/uploads/272623129_3426223824270889_767809261411202629_n.jpg"
 
 ---
@@ -21,7 +21,7 @@ gallery_3: "/images/uploads/272623129_3426223824270889_767809261411202629_n.jpg"
 
 Σκοπός, να ζωντανέψει στους θεατές εκείνη η ιδιαίτερη γυναίκα και χαρισματική καλλιτέχνις που κυριάρχησε στην ελληνική σκηνή τα δίσεκτα χρόνια του πολέμου και της κατοχής, μια πληθωρική και αντισυμβατική προσωπικότητα με τις αρετές και τα ελαττώματα της, που-γι’ αυτό δεν χωράει αμφιβολία-αξίζει να της αφιερωθεί ένα θεατρικό έργο!
 
-![](/images/uploads/1.jpg)
+![](/images/uploads/8.jpg)
 
 ***
 
