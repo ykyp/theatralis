@@ -63,10 +63,6 @@ gallery_3: "/images/uploads/dsc_0421.jpg"
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή εισιτηρίων:_** €15 / €12
-
-**Προπώληση εισιτηρίων**: [Soldout tickets](https://www.soldoutticketbox.com/el/home "https://www.soldoutticketbox.com/el/home") και σε όλα τα καταστήματα Στεφανής
-
 **_Πληροφορίες:_** 25 877827
 
 Η παράσταση είναι κατάλληλη για άνω των 16 ετών.
