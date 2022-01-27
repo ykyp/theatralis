@@ -65,4 +65,6 @@ gallery_3: "/images/uploads/dsc_0421.jpg"
 
 **_Πληροφορίες:_** 25 877827
 
+**_Προπώληση εισιτηρίων:_** [SoldOut tickets](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home") και σε όλα τα καταστήματα Στεφανής
+
 Η παράσταση είναι κατάλληλη για άνω των 16 ετών.
