@@ -2,13 +2,13 @@
 title: ΤΟ ΠΑΠΛΩΜΑ
 startDate: 2022-02-05
 endDate: 2022-02-13
-city: Nicosia,limassol
+city: Nicosia, Limassol
 event_image: "/images/uploads/topaploma5.jpeg"
 cover_image: ''
 category: monologue
 gallery_1: "/images/uploads/topaploma3.jpg"
 gallery_2: "/images/uploads/topaploma4.jpg"
-gallery_3: "/images/uploads/topaploma7.jpg"
+gallery_3: "/images/uploads/topaploma2.jpg"
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -37,7 +37,7 @@ gallery_3: "/images/uploads/topaploma7.jpg"
 
 **_Επί σκηνής:_** Βαρβάρα Χριστοφή
 
-![](/images/uploads/topaploma2.jpg)
+![](/images/uploads/topaploma7.jpg)
 
 ***
 
