@@ -4,11 +4,11 @@ startDate: 2022-02-05
 endDate: 2022-02-13
 city: Nicosia,limassol
 event_image: "/images/uploads/topaploma5.jpeg"
-cover_image: "/images/uploads/topaploma6.jpeg"
+cover_image: ''
 category: monologue
-gallery_1: ''
-gallery_2: ''
-gallery_3: ''
+gallery_1: "/images/uploads/topaploma3.jpg"
+gallery_2: "/images/uploads/topaploma4.jpg"
+gallery_3: "/images/uploads/topaploma7.jpg"
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -23,14 +23,21 @@ gallery_3: ''
 
 «Στρώννουμαι στη δουλειά. Κεντώ μέρα-νύχτα. Χορεύκει το σμιλί στα σιέρκα σου Μαρία!»
 
+![](/images/uploads/topaploma1.jpg)
+
 ***
 
 #### ΣΥΝΤΕΛΕΣΤΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
+**_Σκηνοθεσία:_** Μαρία Κυριάκου  
+**_Κείμενο:_** Βαρβάρα Χριστοφή  
 **_Μουσική:_** Δημήτρης Σπύρου  
 **_Κοστούμι:_** Aριάνα Μαρκουλίδου  
-**_Φωτισμοί:_** Βασίλης Πετεινάρης  
+**_Φωτισμοί:_** Βασίλης Πετεινάρης
+
 **_Επί σκηνής:_** Βαρβάρα Χριστοφή
+
+![](/images/uploads/topaploma2.jpg)
 
 ***
 
@@ -38,19 +45,19 @@ gallery_3: ''
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνίες και Ώρες  
-_**Σάββατο 5/2 στις 20:30  
+**_Ημερομηνίες και Ώρες:_**  
+Σάββατο 5/2 στις 20:30  
 Κυριακή 6/2 στις 18:00
 
-**_Τοποθεσία:_** Ξυδάδικο, Λεμεσός
+**_Τοποθεσία:_** [Ξυδάδικο, Λεμεσός](https://www.google.com/maps/place/Old+Vinegar+Factory+%7C+%CE%A0%CE%B1%CE%BB%CE%B9%CF%8C+%CE%9E%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%BF/@34.6732254,33.0413949,17z/data=!3m1!4b1!4m5!3m4!1s0x14e73302e71e32e5:0x8b9d9b1e08087b59!8m2!3d34.6732254!4d33.0435836 "https://www.google.com/maps/place/Old+Vinegar+Factory+%7C+%CE%A0%CE%B1%CE%BB%CE%B9%CF%8C+%CE%9E%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%BF/@34.6732254,33.0413949,17z/data=!3m1!4b1!4m5!3m4!1s0x14e73302e71e32e5:0x8b9d9b1e08087b59!8m2!3d34.6732254!4d33.0435836")
 
 **ΛΕΥΚΩΣΙΑ**
 
-**_Ημερομηνίες και Ώρες  
-_**Σάββατο 12/2 στις 20:30  
+**_Ημερομηνίες και Ώρες:_**  
+Σάββατο 12/2 στις 20:30  
 Κυριακή 13/2 στις 18:00
 
-**_Τοποθεσία:_**  Foundation  
+**_Τοποθεσία:_** [Artos Foundation, Λευκωσία](https://www.google.com/maps/place/ARTos+House/@35.1605399,33.3490828,17.26z/data=!4m5!3m4!1s0x14de19f8d10d524d:0x1135d5ca6ffc0c9a!8m2!3d35.160674!4d33.350936 "https://www.google.com/maps/place/ARTos+House/@35.1605399,33.3490828,17.26z/data=!4m5!3m4!1s0x14de19f8d10d524d:0x1135d5ca6ffc0c9a!8m2!3d35.160674!4d33.350936")  
 **_Διάρκεια:_** 50 Λεπτά
 
 ***
