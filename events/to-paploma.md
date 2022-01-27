@@ -4,7 +4,7 @@ startDate: 2022-02-05
 endDate: 2022-02-13
 city: Nicosia, Limassol
 event_image: "/images/uploads/topaploma5.jpeg"
-cover_image: "/images/uploads/topaploma6-1.jpg"
+cover_image: "/images/uploads/topaploma8.jpg"
 category: monologue
 gallery_1: "/images/uploads/topaploma3.jpg"
 gallery_2: "/images/uploads/topaploma4.jpg"
