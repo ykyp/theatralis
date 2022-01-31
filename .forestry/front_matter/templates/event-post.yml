@@ -48,9 +48,9 @@ fields:
   config:
     required: false
   label: Category
-  description: I katigoria/katigories tou ergou, comma separated<br><strong>Drama,
-    Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>,
-    <strong>Mystery, Satire, Opera</strong>
+  description: I katigoria/katigories tou ergou, comma separated<br><strong>Biography,
+    Drama, Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>,
+    <strong>Novel, Satire, Opera</strong>
 - name: gallery_1
   type: file
   config:
@@ -78,6 +78,7 @@ pages:
 - events/asfiktiki-ipothesi-i- efiveia.md
 - events/da.md
 - events/ego-den.md
+- events/ego-i-eleni-papadaki.md
 - events/emigkredes-metanastes-se-xeni-xora.md
 - events/eshei-stand-up.md
 - events/event2.md
@@ -100,10 +101,12 @@ pages:
 - events/o-senariografos.md
 - events/o-visinokipos-sto-trapezi.md
 - events/o-xionanthropos-mou.md
+- events/out-of-necessity.md
 - events/padia-enos.md
 - events/panikos_sta_paraskinia.md
 - events/pios-skotose-ton-vasilia.md
 - events/pistopoihtiko-gamou.md
+- events/proto-koudouni-prin-ti-mideia.md
 - events/raous.md
 - events/roua-mat.md
 - events/still-ena-agalma-poy-gyrise-ton-kosmo.md

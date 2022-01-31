@@ -10,7 +10,6 @@ import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
-import {WelcomeDialog} from "../components/dialog/welcome-dialog";
 import {ISSERVER, useStateFromStorage} from "../components/session-storage-state";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';

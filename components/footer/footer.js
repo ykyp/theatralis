@@ -2,12 +2,14 @@ import React from 'react';
 import { FooterIconList } from "./footer-icon-list";
 import Link from 'next/link'
 import useTranslation from "next-translate/useTranslation";
+import {Subscribe} from "../newsletter/subscribe";
 
 const Footer = () => {
-   const {t, lang} = useTranslation('common');
    return (
       <footer className="mt-5 text-center lg:text-left text-gray-500 text-sm "> {/*bg-gray-100 text-gray-600*/}
 
+         <hr/>
+         <Subscribe/>
          <hr/>
          <div className="xl:grid xl:grid-cols-3 xxl:grid xxl:grid-cols-3 lg:grid lg:grid-cols-3  md:flex md:flex-col sm:flex sm:flex-col xs:flex xs:flex-col  items-center p-6 border-b border-gray-300">
             <div className="flex col-start-2  items-center ">
