@@ -8,9 +8,10 @@ const Footer = () => {
    return (
       <footer className="mt-5 text-center lg:text-left text-gray-500 text-sm "> {/*bg-gray-100 text-gray-600*/}
 
-         <hr/>
+         {/*<hr/>*/}
+
          <Subscribe/>
-         <hr/>
+         {/*<hr/>*/}
          <div className="xl:grid xl:grid-cols-3 xxl:grid xxl:grid-cols-3 lg:grid lg:grid-cols-3  md:flex md:flex-col sm:flex sm:flex-col xs:flex xs:flex-col  items-center p-6 border-b border-gray-300">
             <div className="flex col-start-2  items-center ">
                <div className="font-bold text-2xl text-gray-800">

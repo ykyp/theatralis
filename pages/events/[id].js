@@ -13,6 +13,7 @@ import 'react-medium-image-zoom/dist/styles.css'
 import { Galleria } from 'primereact/galleria'
 import Disqus from "disqus-react"
 import { CommentCount } from 'disqus-react';
+import React from "react";
 
 export default function Event({ eventData: eventData }) {
   const { t } = useTranslation('common');
@@ -78,6 +79,25 @@ export default function Event({ eventData: eventData }) {
   };
 
   const period = `${formatDate(eventData.startDate)} - ${formatDate(eventData.endDate)}`;
+
+  const template = (options) => {
+    return (<><div className="flex align-items-center p-3"
+                   style={{ cursor: 'pointer' }}
+                   onClick={options.onClick}>
+
+         <CommentCount
+          shortname={disqusShortname}
+          config={
+            disqusConfig
+          }
+       >
+           Comments
+       </CommentCount>
+         </div>
+       </>
+    );
+
+  };
   return (
     <Layout description={eventData.title}
             fbSiteName={period}
@@ -142,18 +162,6 @@ export default function Event({ eventData: eventData }) {
                      alt="Share Page on Twitter"
                      className="pi pi-twitter"></a>
                 </div>
-                {
-                  disqusConfig && <CommentCount
-                     shortname={disqusShortname}
-                     config={
-                       disqusConfig
-                     }
-                  >
-                    {/* Placeholder Text */}
-                    Comments
-                  </CommentCount>
-                }
-
               </div>
                   </div>
 
@@ -249,23 +257,41 @@ export default function Event({ eventData: eventData }) {
 
 
               </TabPanel>
-              <TabPanel header="Comments">
+              { disqusConfig && <TabPanel header="Comments" headerTemplate={template}>
                 <div className="article-container">
                   {/*<hr/>
                   <h4> Comments </h4>*/}
-                  <p>Πηγατε? Μοιραστείτε μαζι μας πως σας φανηκε</p>
 
-                  {
-                    disqusConfig && <>
+
+
+
+                  <div className="event-details flex items-center pt-5 ">
+                    <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
+                    ️ <div className="th-icon-text font-bold"> {t("commentsTitle")}</div>
+                  </div>
+
+                  <div className="th-messagebox text-sm">
+                    <strong>{t('commentsPolicyTitle2')}</strong>
+                    <p>
+                      {t('commentsPolicyTitle1')}
+                      <a href={`/comment-policy`} target="_blank">{t('commentsPolicyTitle2')}</a>
+
+                    {t('commentsPolicyTitle3')}
+                    </p>
+                  </div>
+
+
+                  <>
                     <Disqus.DiscussionEmbed
                        shortname={disqusShortname}
                        config={disqusConfig}
                     />
                    {/* <div>{disqusConfig}</div>*/}
                     </>
-                  }
+
                 </div>
               </TabPanel>
+              }
               {/*<TabPanel header="Map">
                 <p>Map will go here...</p>
               </TabPanel>*/}
