@@ -117,9 +117,9 @@ export default function Event({ eventData: eventData }) {
       <Head>
         <title>{eventData.title}</title>
       </Head>
-      <div className="w-full flex justify-around">
+      <div className="w-full flex justify-around ">
 
-        <article className="prose max-w-sm lg:max-w-3xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l ">
+        <article className="event-article prose max-w-sm lg:max-w-3xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l ">
           <div className="flex justify-between  xs:flex-col sm:flex-col">
 
 
@@ -193,10 +193,10 @@ export default function Event({ eventData: eventData }) {
             </div>
             }
           </div>
-          <div className="hide-li">
+          <div className="hide-li m-0">
             <TabView>
               <TabPanel header={t("details")}>
-                <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify"
+                <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify mt-5"
                      dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
 
                 { allGalleryImages.length === 1 &&

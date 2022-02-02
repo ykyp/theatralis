@@ -86,7 +86,7 @@ export default function Layout({ children, home, pageTitle, description, current
 
        { home && <Hero/> }
 
-      <main>{children}</main>
+      <main className="bg-gray-100">{children}</main>
 
        <Footer />
        <CookieConsent
