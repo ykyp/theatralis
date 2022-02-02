@@ -23,6 +23,6 @@ gallery_3: ''
 
 **_Ώρα έναρξης:_** 21:00
 
-**_Τοποθεσία:_** Μουσική Σκήνή Red
+**_Τοποθεσία:_** [Μουσική Σκήνή Red](https://www.google.com/maps/place/%CE%9C%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%AE+%CF%83%CE%BA%CE%B7%CE%BD%CE%AE+RED/@35.16518,33.3166187,17z/data=!3m1!4b1!4m5!3m4!1s0x14de1744648a84a5:0x6010c3196d660a0c!8m2!3d35.16518!4d33.3188074 "https://www.google.com/maps/place/%CE%9C%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%AE+%CF%83%CE%BA%CE%B7%CE%BD%CE%AE+RED/@35.16518,33.3166187,17z/data=!3m1!4b1!4m5!3m4!1s0x14de1744648a84a5:0x6010c3196d660a0c!8m2!3d35.16518!4d33.3188074")
 
 Ελάχιστη κατανάλωση άνα άτομο 10 ευρώ
