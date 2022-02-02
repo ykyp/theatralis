@@ -56,7 +56,7 @@ const Subscribe = () =>  {
    };
 
    return (
-         <div className="px-4 pt-6 pb-4 ">
+         <div className="px-4 pt-6 pb-4 newsletter-bck">
             <div className="max-w-xl mx-auto xs:pl-2 xs:pr-2">
                <h2 className="text-xl text-left inline-block font-semibold text-gray-600
                xs:text-sm xs:mb-2">{t("newsletterTitle")}</h2>

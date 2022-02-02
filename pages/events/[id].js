@@ -11,11 +11,15 @@ import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { Galleria } from 'primereact/galleria'
+import Disqus from "disqus-react"
+import { CommentCount } from 'disqus-react';
+import React from "react";
 
 export default function Event({ eventData: eventData }) {
   const { t } = useTranslation('common');
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
+  const [disqusConfig, setDisqusConfig] = useState(null);
   const galleryImages = [
      eventData.gallery_1,
      eventData.gallery_2,
@@ -23,6 +27,8 @@ export default function Event({ eventData: eventData }) {
   ].filter(img => img !== null && typeof img !== "undefined" && img !== "");
 
   const allGalleryImages = eventData.cover_image ? [eventData.event_image, ...galleryImages] : galleryImages;
+
+  const disqusShortname = "theatralis";
 
   const responsiveOptions = [
     {
@@ -50,7 +56,13 @@ export default function Event({ eventData: eventData }) {
   useEffect(() => {
     setFacebookShareLink("https://www.facebook.com/sharer.php?u="+encodeURIComponent(window.location.href));
     setTwitterShareLink("https://twitter.com/share?text=Check this theatre out&url="+ encodeURIComponent(window.location.href) +"&hashtags=theatralis");
-  });
+    const urlParts = window.location.href.split("/");
+    setDisqusConfig({
+       url: window.location.href,
+       identifier: urlParts[urlParts.length-1],
+       title: eventData.title
+    });
+  }, []);
 
   const translatedKeys = (keysAsString) => {
     const keys = keysAsString.split(",").map(c => c.trim());
@@ -63,6 +75,25 @@ export default function Event({ eventData: eventData }) {
   };
 
   const period = `${formatDate(eventData.startDate)} - ${formatDate(eventData.endDate)}`;
+
+  const template = (options) => {
+    return (<><div className="flex align-items-center p-3"
+                   style={{ cursor: 'pointer' }}
+                   onClick={options.onClick}>
+
+         <CommentCount
+          shortname={disqusShortname}
+          config={
+            disqusConfig
+          }
+       >
+           Comments
+       </CommentCount>
+         </div>
+       </>
+    );
+
+  };
   return (
     <Layout description={eventData.title}
             fbSiteName={period}
@@ -219,7 +250,44 @@ export default function Event({ eventData: eventData }) {
                   </div>
                 }
 
+
+
               </TabPanel>
+              { disqusConfig && <TabPanel header="Comments" headerTemplate={template}>
+                <div className="article-container">
+                  {/*<hr/>
+                  <h4> Comments </h4>*/}
+
+
+
+
+                  <div className="event-details flex items-center mb-5 ">
+                    <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
+                    ️ <div className="th-icon-text font-bold"> {t("commentsTitle")}</div>
+                  </div>
+
+                  <div className="th-messagebox text-sm">
+                    <strong>{t('commentsPolicyTitle2')}</strong>
+                    <p>
+                      {t('commentsPolicyTitle1')}
+                      <a href={`/comment-policy`} target="_blank">{t('commentsPolicyTitle2')}</a>
+
+                    {t('commentsPolicyTitle3')}
+                    </p>
+                  </div>
+
+
+                  <>
+                    <Disqus.DiscussionEmbed
+                       shortname={disqusShortname}
+                       config={disqusConfig}
+                    />
+                   {/* <div>{disqusConfig}</div>*/}
+                    </>
+
+                </div>
+              </TabPanel>
+              }
               {/*<TabPanel header="Map">
                 <p>Map will go here...</p>
               </TabPanel>*/}
