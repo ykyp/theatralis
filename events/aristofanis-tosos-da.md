@@ -51,7 +51,7 @@ gallery_3: ''
 
 **_Ώρα έναρξης:_** Σάββατο στις 15:30, Κυριακή στις 10:30
 
-**_Τοποθεσία:_** Θέατρο ΘΟΚ
+**_Τοποθεσία:_** [Θέατρο ΘΟΚ - Κεντρική Σκηνή](https://www.google.com/maps/place/Cyprus+Theater+Organization+-+THOC/@35.1472269,33.3457239,14z/data=!4m9!1m2!2m1!1zzrjOv866!3m5!1s0x14de17569777d68d:0x33fb94a8e5a98a1f!8m2!3d35.1680605!4d33.3552834!15sCgbOuM6_zrqSAQ90aGVhdGVyX2NvbXBhbnk "https://www.google.com/maps/place/Cyprus+Theater+Organization+-+THOC/@35.1472269,33.3457239,14z/data=!4m9!1m2!2m1!1zzrjOv866!3m5!1s0x14de17569777d68d:0x33fb94a8e5a98a1f!8m2!3d35.1680605!4d33.3552834!15sCgbOuM6_zrqSAQ90aGVhdGVyX2NvbXBhbnk")
 
 **ΛΕΜΕΣΟΣ**
 
