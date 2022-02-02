@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Layout from './layout'
 import useTranslation from "next-translate/useTranslation";
-import Head from "../pages/theatro/nicosia";
+import Head from 'next/head'
 import {Filter} from "./filter";
 import * as ga from "../lib/ga";
 import utilStyles from "../styles/utils.module.css";

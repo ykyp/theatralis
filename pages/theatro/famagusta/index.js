@@ -1,10 +1,10 @@
 import React from "react";
 import {City} from "../../../components/city";
 
-export default function Nicosia() {
 
+export default function Famagusta() {
    return (
-      <City name="Nicosia" code="Nicosia"/>
+      <City name="Famagusta" code="Famagusta"/>
    )
 }
 
