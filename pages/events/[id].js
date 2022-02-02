@@ -64,10 +64,6 @@ export default function Event({ eventData: eventData }) {
     });
   }, []);
 
-  useEffect(() => {
-    console.log("disqusConfig", disqusConfig);
-  }, [disqusConfig]);
-
   const translatedKeys = (keysAsString) => {
     const keys = keysAsString.split(",").map(c => c.trim());
     const tKeys = keys.map(city => {
@@ -265,7 +261,7 @@ export default function Event({ eventData: eventData }) {
 
 
 
-                  <div className="event-details flex items-center pt-5 ">
+                  <div className="event-details flex items-center mb-5 ">
                     <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
                     ️ <div className="th-icon-text font-bold"> {t("commentsTitle")}</div>
                   </div>

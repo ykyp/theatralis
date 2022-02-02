@@ -9,7 +9,7 @@ export default function AboutUs() {
    return (
       <Layout description="Comment Policy - Theatralis">
          <Head>
-            <title>Theatralis - Comment Policy</title>
+            <title>{t("commentsPolicyTitle2")}</title>
          </Head>
 
          <header className="max-w-screen-xl text-center mx-auto object-center">
@@ -19,16 +19,13 @@ export default function AboutUs() {
 
          <div className="w-full flex justify-around">
             <article className="prose p-5">
-               <div className="event-title pb-3 sharp-line">
+               <div className="event-title pb-5 pt-3 sharp-line">
                   {t("commentsPolicyTitle2")}
                </div>
                <div className="mt-3 md:text-justify lg:text-justify xl:text-justify xxl:text-justify text-md">
                   <div className="flex md:space-x-4  xs:mt-8 xs:pb-8 xs:flex-col-reverse ">
                      ️ <p className="m-auto">{t("commentsPolicySmallFullBody")}</p>
-
-
                   </div>
-
                </div>
                <BackToHome/>
             </article>
