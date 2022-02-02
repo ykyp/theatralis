@@ -266,7 +266,7 @@ export default function Event({ eventData: eventData }) {
                     ️ <div className="th-icon-text font-bold"> {t("commentsTitle")}</div>
                   </div>
 
-                  {/*<div className="th-messagebox text-sm">
+                  <div className="th-messagebox text-sm">
                     <strong>{t('commentsPolicyTitle2')}</strong>
                     <p>
                       {t('commentsPolicyTitle1')}
@@ -274,7 +274,7 @@ export default function Event({ eventData: eventData }) {
 
                     {t('commentsPolicyTitle3')}
                     </p>
-                  </div>*/}
+                  </div>
 
 
                   <>
