@@ -8,12 +8,13 @@ import { navLinks } from "./nav-data";
 import { useRouter } from 'next/router';
 import CookieConsent from "react-cookie-consent";
 
-export const siteTitle = 'Theatralis - Cyprus theatre listing';
-export const defaultDesc = 'Find all theatre events in Cyprus';
-export const defaultImage = '/images/defaultHomeImg.png';
 
 export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName, fbTitle, fbSiteName }) {
    const { t, lang } = useTranslation('common');
+   const siteTitle = t('defaultSiteTitle');
+   const defaultDesc = t('defaultSiteDesc');
+   const defaultImage = '/images/defaultHomeImg.png';
+
    const router = useRouter();
   return (
     <div className={`antialiased w-full text-gray-700`}>

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
 import { Filter } from '../components/filter';
@@ -109,10 +109,6 @@ export default function Home({ allEventsData }) {
 
    return (
     <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-
        <div className="w-full bg-gray-100">
           <div className="max-w-screen-xl pb-6 mx-auto ">
              <div  className="pb-2 pt-2">

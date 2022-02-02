@@ -1,10 +1,14 @@
 ---
 title: ΑΡΙΣΤΟΦΑΝΗΣ ΤΟΣΟΣ ΔΑ!
 startDate: 2022-01-08
-endDate: 2022-01-30
-city: Nicosia
+endDate: 2022-02-27
+city: Nicosia, Limassol
 event_image: "/images/uploads/Αριστοφανισ.jpg"
 category: Children, Musical
+cover_image: ''
+gallery_1: ''
+gallery_2: ''
+gallery_3: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -39,11 +43,25 @@ category: Children, Musical
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Πρεμίερα:_** Σάββατο 8 Ιανουαρίου 2022  
-**_Παραστάσεις:_** Σάββατο και Κυριακή μέχρι 30 Ιανουαρίου 2022  
-**_Ώρα έναρξης:_** Σάββατο στις 15:30, Κυριακή στις 10:30  
-**_Διάρκεια:_** 80 λεπτά  
-**_Τοποθεσία:_** Θέατρο ΘΟΚ
+**ΛΕΥΚΩΣΙΑ**
+
+**_Πρεμίερα:_** Σάββατο 8 Ιανουαρίου 2022
+
+**_Παραστάσεις:_** Σάββατο και Κυριακή μέχρι 27 Φεβρουαρίου 2022 εκτός Σαββάτο 5 Φεβρουαρίου
+
+**_Ώρα έναρξης:_** Σάββατο στις 15:30, Κυριακή στις 10:30
+
+**_Τοποθεσία:_** [Θέατρο ΘΟΚ - Κεντρική Σκηνή](https://www.google.com/maps/place/Cyprus+Theater+Organization+-+THOC/@35.1472269,33.3457239,14z/data=!4m9!1m2!2m1!1zzrjOv866!3m5!1s0x14de17569777d68d:0x33fb94a8e5a98a1f!8m2!3d35.1680605!4d33.3552834!15sCgbOuM6_zrqSAQ90aGVhdGVyX2NvbXBhbnk "https://www.google.com/maps/place/Cyprus+Theater+Organization+-+THOC/@35.1472269,33.3457239,14z/data=!4m9!1m2!2m1!1zzrjOv866!3m5!1s0x14de17569777d68d:0x33fb94a8e5a98a1f!8m2!3d35.1680605!4d33.3552834!15sCgbOuM6_zrqSAQ90aGVhdGVyX2NvbXBhbnk")
+
+**ΛΕΜΕΣΟΣ**
+
+**_Παράστασεις:_** Σάββατο 5 Φεβρουαρίου 2022
+
+**_Ώρα έναρξης:_** 15:30
+
+**_Τοποθεσία:_** [Παττίχειο Δημοτικό Θέατρο Λεμεσού](https://www.google.com/maps/place/Patichion+Municipal+Theatre,+Agias+Zonis+2,+Limassol,+Cyprus/@34.6812655,33.0416434,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7330f8b4700ed:0xd66d4f231f490bbb!8m2!3d34.6813016!4d33.0438594 "https://www.google.com/maps/place/Patichion+Municipal+Theatre,+Agias+Zonis+2,+Limassol,+Cyprus/@34.6812655,33.0416434,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7330f8b4700ed:0xd66d4f231f490bbb!8m2!3d34.6813016!4d33.0438594")
+
+**_Διάρκεια:_** 80 λεπτά
 
 ***
 

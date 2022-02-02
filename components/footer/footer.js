@@ -8,9 +8,10 @@ const Footer = () => {
    return (
       <footer className="mt-5 text-center lg:text-left text-gray-500 text-sm "> {/*bg-gray-100 text-gray-600*/}
 
-         <hr/>
+         {/*<hr/>*/}
+
          <Subscribe/>
-         <hr/>
+         {/*<hr/>*/}
          <div className="xl:grid xl:grid-cols-3 xxl:grid xxl:grid-cols-3 lg:grid lg:grid-cols-3  md:flex md:flex-col sm:flex sm:flex-col xs:flex xs:flex-col  items-center p-6 border-b border-gray-300">
             <div className="flex col-start-2  items-center ">
                <div className="font-bold text-2xl text-gray-800">
@@ -44,7 +45,7 @@ const Footer = () => {
                      <a >Privacy Policy</a>
                   </Link>
                </div>
-               <div className="ml-2 mr-2 brand-red" key="divider-2">
+               <div className="ml-2 mr-2 brand-red" key="divider-6">
                   |
                </div>
                <div className=" lg:block">
@@ -52,7 +53,7 @@ const Footer = () => {
                      <a >Cookie Policy</a>
                   </Link>
                </div>
-               <div className="ml-2 mr-2 brand-red" key="divider-2">
+               <div className="ml-2 mr-2 brand-red" key="divider-7">
                   |
                </div>
                <a href="https://www.facebook.com/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%AC%CE%BB%CE%B9%CF%82Theatralis-104721578734645" target="_blank" className="mr-2 text-gray-600">
