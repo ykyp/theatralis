@@ -56,7 +56,7 @@ gallery_3: "/images/uploads/img_7625.JPG"
 #### ΕΙΣΙΤΗΡΙΑ
 
 **_Τιμή:_** €10  
-**_-_** Απο την ιστοσελίδα του [Soldout tickets]()
+**_-_** Απο την ιστοσελίδα του [Soldout tickets](https://www.soldoutticketbox.com/i-lampsi-mias-asimantis-nyxtas-dionysos/?lang=el "https://www.soldoutticketbox.com/i-lampsi-mias-asimantis-nyxtas-dionysos/?lang=el")
 
 **_Πληροφορίες:_** 22818999 & 99621845
 
