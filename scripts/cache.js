@@ -1,3 +1,5 @@
+import {finishesSoon} from "../components/date";
+
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
@@ -23,8 +25,11 @@ function eventData() {
          gallery_2: matterResult.data.gallery_2,
          gallery_3: matterResult.data.gallery_3,
          category: matterResult.data.category,
+         finishesSoon: finishesSoon(matterResult.data.endDate),
       }
    });
+
+   console.log(events);
    const sortedEvents = events.sort((a, b) => {
       return new Date(b.startDate) - new Date(a.startDate);
    });
