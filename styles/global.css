@@ -526,3 +526,8 @@ footer hr {
   border-top: 1px solid rgba(120,8,17,0.12);
   border-bottom: 1px solid rgba(120,8,17,0.12);
 }
+
+.small-link {
+  color: #232323;
+  /*text-decoration: underline;*/
+}
