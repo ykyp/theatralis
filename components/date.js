@@ -68,6 +68,17 @@ export function isInThisMonth(startDateString, endDateString) {
   return monthIsBetweenStartEnd(new Date(), startDate, endDate);
 }
 
+export function finishesSoon(dateString) {
+  const asDate = new Date(dateString);
+  const today = new Date();
+  const todayYear = today.getFullYear();
+  const asDateYear = asDate.getFullYear();
+
+  const weeksBetween = getISOWeek(asDate) - getISOWeek(today);
+
+  return todayYear === asDateYear && weeksBetween >= 0 && weeksBetween <= 2;
+}
+
 export function isInTheFuture(dateString) {
   const asDate = new Date(dateString);
   const today = new Date();
