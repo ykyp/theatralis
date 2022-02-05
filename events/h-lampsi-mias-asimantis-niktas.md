@@ -1,8 +1,8 @@
 ---
 title: Η ΛΑΜΨΗ ΜΙΑΣ ΑΣΗΜΑΝΤΗΣ ΝΥΚΤΑΣ
-startDate: 2022-01-07
-endDate: 2022-02-06
-city: Nicosia
+startDate: 2022-02-08
+endDate: 2022-02-10
+city: Famagusta
 event_image: "/images/uploads/lampsiposter.jpeg"
 cover_image: "/images/uploads/269935357_5064788070266355_5562812708931716301_n.jpeg"
 category: Drama
@@ -43,20 +43,20 @@ gallery_3: "/images/uploads/img_7625.JPG"
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Παραστάσεις:_** Τετάρτη,Παρασκευή, Σάββατο & Κυριακή μέχρι τις 9 Φεβρουαρίου 2022
+**_Παραστάσεις:_** 8, 9 και 10 Φεβρουαρίου 2022
 
-**_Ώρα:_** Τετάρτη, Παρασκευή και Σάββατο στις 20:30, Κυριακή στις 18:30
+**_Ώρα:_** 20:00
 
 **_Διάρκεια παράστασης:_** 110 λεπτά (χωρίς διάλειμμα)
 
-**_Τοποθεσία:_** [Θέατρο Διόνυσος](https://www.google.com/maps/place/%CE%B8%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%94%CE%B9%CE%BF%CE%BD%CF%85%CF%83%CE%BF%CF%82/@35.1686267,33.3556973,17z/data=!3m1!4b1!4m5!3m4!1s0x14de175732dbde29:0x4af3518ddb9b13c2!8m2!3d35.1686267!4d33.357886 "https://www.google.com/maps/place/%CE%B8%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%94%CE%B9%CE%BF%CE%BD%CF%85%CF%83%CE%BF%CF%82/@35.1686267,33.3556973,17z/data=!3m1!4b1!4m5!3m4!1s0x14de175732dbde29:0x4af3518ddb9b13c2!8m2!3d35.1686267!4d33.357886")
+**_Τοποθεσία:_** [Κέντρο ενηλίκων Δήμου Δερύνειας](https://www.google.com/maps/place/%CE%9A%CE%95%CE%9D%CE%A4%CE%A1%CE%9F+%CE%95%CE%9D%CE%97%CE%9B%CE%99%CE%9A%CE%A9%CE%9D+%CE%94%CE%97%CE%9C%CE%9F%CE%A5+%CE%94%CE%95%CE%A1%CE%A5%CE%9D%CE%95%CE%99%CE%91%CE%A3/@35.064986,33.9635575,17z/data=!3m1!4b1!4m5!3m4!1s0x14dfc938227bea23:0x707bdf580e7d2be8!8m2!3d35.0649284!4d33.9657584 "https://www.google.com/maps/place/%CE%9A%CE%95%CE%9D%CE%A4%CE%A1%CE%9F+%CE%95%CE%9D%CE%97%CE%9B%CE%99%CE%9A%CE%A9%CE%9D+%CE%94%CE%97%CE%9C%CE%9F%CE%A5+%CE%94%CE%95%CE%A1%CE%A5%CE%9D%CE%95%CE%99%CE%91%CE%A3/@35.064986,33.9635575,17z/data=!3m1!4b1!4m5!3m4!1s0x14dfc938227bea23:0x707bdf580e7d2be8!8m2!3d35.0649284!4d33.9657584")
 
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή:_** 15 ευρώ (κανονικό), 12 ευρώ (συνταξιούχοι, φοιτητές)  
-**_-_** Απο την ιστοσελίδα του [Soldout tickets]()
+**_Τιμή:_** €10  
+**_-_** Απο την ιστοσελίδα του [Soldout tickets](https://www.soldoutticketbox.com/i-lampsi-mias-asimantis-nyxtas-dionysos/?lang=el "https://www.soldoutticketbox.com/i-lampsi-mias-asimantis-nyxtas-dionysos/?lang=el")
 
 **_Πληροφορίες:_** 22818999 & 99621845
 
