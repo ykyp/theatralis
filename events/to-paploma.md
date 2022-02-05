@@ -46,8 +46,9 @@ gallery_3: "/images/uploads/topaploma2.jpg"
 **ΛΕΜΕΣΟΣ**
 
 **_Ημερομηνίες και Ώρες:_**  
-Σάββατο 5/2 στις 20:30  
-Κυριακή 6/2 στις 18:00
+Σάββατο 5/2 στις 20:30 (Εξαντλήθηκαν)  
+Κυριακή 6/2 στις 18:00 (Εξαντλήθηκαν)  
+Παρασκευή 11/2 στις 20:30
 
 **_Τοποθεσία:_** [Ξυδάδικο, Λεμεσός](https://www.google.com/maps/place/Old+Vinegar+Factory+%7C+%CE%A0%CE%B1%CE%BB%CE%B9%CF%8C+%CE%9E%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%BF/@34.6732254,33.0413949,17z/data=!3m1!4b1!4m5!3m4!1s0x14e73302e71e32e5:0x8b9d9b1e08087b59!8m2!3d34.6732254!4d33.0435836 "https://www.google.com/maps/place/Old+Vinegar+Factory+%7C+%CE%A0%CE%B1%CE%BB%CE%B9%CF%8C+%CE%9E%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%BF/@34.6732254,33.0413949,17z/data=!3m1!4b1!4m5!3m4!1s0x14e73302e71e32e5:0x8b9d9b1e08087b59!8m2!3d34.6732254!4d33.0435836")
 
