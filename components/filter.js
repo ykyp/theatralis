@@ -92,7 +92,7 @@ export const Filter = (props) => {
          'margin': 'auto',
          'display': 'flex',
          'justifyContent': 'space-between'}}>
-         {props.selectedCity && <div style={{width: `${props.filterWidth}%`}} className="xs:ml-2 sm:ml-4">
+         {props.selectedCity && <><div style={{width: `${props.filterWidth}%`}} className="xs:ml-2 sm:ml-4">
             <h3 className="formatted-h3">{t('city')}</h3>
             <Dropdown value={props.selectedCity}
                       style={{width: '100%', maxHeight: '350px'}}
@@ -106,8 +106,23 @@ export const Filter = (props) => {
                       itemTemplate={translatedOptionTemplate}
             />
          </div>
+            <div style={{width: `${props.filterWidth}%`}}>
+               <h3  className="formatted-h3" >{t('when')}</h3>
+               <Dropdown
+                  id="periodDropdown"
+                  value={props.selectedPeriod}
+                  style={{width: '100%'}}
+                  key="periodDropdown"
+                  options={periods}
+                  onChange={onPeriodChange}
+                  optionLabel="name"
+                  placeholder="Select when"
+                  valueTemplate={selectedTranslatedOptionTemplate}
+                  itemTemplate={translatedOptionTemplate} />
+            </div>
+         </>
          }
-            <WithMargin style={{width: `${props.filterWidth}%`}}>
+         {!props.selectedCity && <WithMargin style={{width: `${props.filterWidth}%`}}>
                <h3  className="formatted-h3" >{t('when')}</h3>
                <Dropdown
                          id="periodDropdown"
@@ -120,7 +135,7 @@ export const Filter = (props) => {
                          placeholder="Select when"
                          valueTemplate={selectedTranslatedOptionTemplate}
                          itemTemplate={translatedOptionTemplate} />
-            </WithMargin>
+            </WithMargin>}
          <WithMargin style={{width: `${props.filterWidth}%`}} className="xs:mr-2 sm:mr-4">
             <h3  className="formatted-h3">{t('category')}</h3>
 

@@ -470,10 +470,18 @@ footer hr {
 
 .th-hero h1 {
   /* Text styles */
-  font-size: 4em;
+  font-size: 3.3em;
   /* Margins */
-  margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.th-hero h2 {
+  /* Text styles */
+  font-size: 1.2em;
+  /* Margins */
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .th-hero .btn {
@@ -498,6 +506,10 @@ footer hr {
 
   /* Background styles */
   background-color: rgba(147, 112, 219, 0.8);
+}
+
+.th-hero-inner {
+  width: 100vw;
 }
 
 .filter-container {

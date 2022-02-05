@@ -88,8 +88,8 @@ export const City = (props) => {
 
          <section className="th-hero ">
             <div className="th-hero-inner">
-               <h1>Theatre - {props.name}</h1>
-               <h2>Vres oles tis Theatrikes Parastasis stin {props.name}</h2>
+               <h1>{t("cityTitle")} - {t(props.name)}</h1>
+               <h2>{t("citySubtitle")}  {t(props.name)}</h2>
                <div  className="pb-2 pt-2 filter-container">
                   <Filter filterWidth={40}
                           onPeriodChange={handlePeriodChange}
