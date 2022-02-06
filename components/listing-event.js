@@ -4,6 +4,7 @@ import {formatDate} from "./date";
 import { useRouter } from 'next/router';
 import Link from 'next/link'
 import { Tag } from 'primereact/tag';
+import ReactTooltip from 'react-tooltip';
 
 export const ListingEvent = (props) => {
    const { t, lang } = useTranslation('common');
@@ -87,7 +88,10 @@ export const ListingEvent = (props) => {
                               xl:mr-2
                               2xl:mt-2
                               2xl:mr-2">
-                  <Tag className="mr-2" value="< 1 εβδ." severity="warning" rounded></Tag>
+                  <div className="relative" data-tip={t("finishSoonTooltip")}>
+                     <Tag className="mr-2" value={t("finishSoonTag")} tooltip="Enter your username" placeholder="Right" severity="warning" rounded></Tag>
+                  </div>
+                  <ReactTooltip />
                </div>
             }
          </div>
