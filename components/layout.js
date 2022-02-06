@@ -51,6 +51,7 @@ export default function Layout({ children, home, pageTitle, description, current
          <link rel="preload" href="/images/about1.png" as="image"/>
          <link rel="preload" href="/images/about2.png" as="image"/>
          <link rel="preload" href="/images/about3.png" as="image"/>
+         <link rel="preload" href="/images/hero-1.jpg" as="image"/>
 
       </Head>
 

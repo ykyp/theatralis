@@ -7,17 +7,29 @@ import { Tag } from 'primereact/tag';
 import ReactTooltip from 'react-tooltip';
 
 export const ListingEvent = (props) => {
-   const { t, lang } = useTranslation('common');
+   const { t } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image, category, finishesSoon } = props.event;
+   const cities = city.split(",");
    const router = useRouter();
+
+   const translatedKey = (keyAsString) => {
+      const trimmed = keyAsString.trim();
+      const key = trimmed.charAt(0).toUpperCase() + trimmed.slice(1).toLowerCase();
+      return t(""+ key);
+   };
+
    const translatedKeys = (keysAsString) => {
-      const keys = keysAsString.split(",").map(c => c.trim());
-      const tKeys = keys.map(city => {
-         const key = city.charAt(0).toUpperCase() + city.slice(1).toLowerCase();
-         return t(""+ key);
+      const keys = keysAsString.split(",");
+      const tKeys = keys.map(k => {
+         return translatedKey(k);
       });
 
       return tKeys.join(", ");
+   };
+
+   const getCityLink = (city) => {
+      const c = city.trim().toLowerCase();
+      return c === "pafos" ? "theatro/paphos" : `theatro/${c}`;
    };
 
    return (
@@ -61,7 +73,12 @@ export const ListingEvent = (props) => {
                   <div className="mt-1 xs:text-sm text-sm sm:text-sm xs:mobile-card-text flex items-center">
                      <i className="pi pi-map-marker th-icon"></i>
                      <div className="xs:line-clamp-1 xs:truncate xs:w-48">
-                        {translatedKeys(city)}
+                        {
+                           cities.map((c, i) => <span key={i}>
+                           {i > 0 && ", "}
+                              <a href={getCityLink(c)} className="small-link" target="_blank">{translatedKey(c)}</a>
+                           </span>)
+                        }
                      </div>
                   </div></div>
 
