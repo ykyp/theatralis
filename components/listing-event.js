@@ -69,7 +69,22 @@ export const ListingEvent = (props) => {
                <a href={`/events/${id}`}>{t("readMore")}</a>
             </p>*/}
             { finishesSoon &&
-               <div className="absolute right-0 bottom-0 mb-1 ">
+               <div className="absolute
+                              right-0
+                              md:top-0
+                              lg:top-0
+                              xl:top-0
+                              2xl:top-0
+                              sm:bottom-0
+                              sm:mb-1
+                              md:mt-2
+                              md:mr-2
+                              lg:mt-2
+                              lg:mr-2
+                              xl:mt-2
+                              xl:mr-2
+                              2xl:mt-2
+                              2xl:mr-2">
                   <Tag className="mr-2" value="< 1 εβδ." severity="warning" rounded></Tag>
                </div>
             }
