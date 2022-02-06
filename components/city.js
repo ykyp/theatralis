@@ -137,7 +137,6 @@ export const City = (props) => {
                           rowsPerPageOptions={[10, 20, 30]}
                           onPageChange={onBasicPageChange}>
                </Paginator>
-               <BackToHome/>
             </div>
          </div>
       </Layout>
