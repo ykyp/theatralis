@@ -40,7 +40,6 @@ function eventData() {
       }
    });
 
-   console.log(events);
    const sortedEvents = events.sort((a, b) => {
       return new Date(b.endDate) - new Date(a.endDate);
    });
