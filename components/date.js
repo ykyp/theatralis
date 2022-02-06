@@ -76,7 +76,7 @@ export function finishesSoon(dateString) {
 
   const weeksBetween = getISOWeek(asDate) - getISOWeek(today);
 
-  return todayYear === asDateYear && weeksBetween >= 0 && weeksBetween <= 2;
+  return todayYear === asDateYear && weeksBetween >= 0 && weeksBetween <= 1;
 }
 
 export function isInTheFuture(dateString) {
