@@ -7,9 +7,8 @@ import { Tag } from 'primereact/tag';
 import ReactTooltip from 'react-tooltip';
 
 export const ListingEvent = (props) => {
-   const { t, lang } = useTranslation('common');
+   const { t } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image, category, finishesSoon } = props.event;
-   const { id, startDate, endDate, title, city, event_image, category } = props.event;
    const cities = city.split(",");
    const router = useRouter();
 
