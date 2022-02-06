@@ -42,7 +42,7 @@ function eventData() {
 
    console.log(events);
    const sortedEvents = events.sort((a, b) => {
-      return new Date(b.startDate) - new Date(a.startDate);
+      return new Date(b.endDate) - new Date(a.endDate);
    });
    return `export const events = ${JSON.stringify(sortedEvents)}`
 }
