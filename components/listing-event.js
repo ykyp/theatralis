@@ -3,10 +3,11 @@ import React from 'react';
 import {formatDate} from "./date";
 import { useRouter } from 'next/router';
 import Link from 'next/link'
+import { Tag } from 'primereact/tag';
 
 export const ListingEvent = (props) => {
    const { t, lang } = useTranslation('common');
-   const { id, startDate, endDate, title, city, event_image, category } = props.event;
+   const { id, startDate, endDate, title, city, event_image, category, finishesSoon } = props.event;
    const router = useRouter();
    const translatedKeys = (keysAsString) => {
       const keys = keysAsString.split(",").map(c => c.trim());
@@ -21,7 +22,7 @@ export const ListingEvent = (props) => {
    return (
       <>
       <div className="th-card-container md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red m-4 sm:m-4 xs:m-2">
-         <div className="flex">
+         <div className="flex relative">
             <div className="flex-shrink-0" style={{cursor: 'pointer'}} onClick={() => router.push(`/events/${id}`)}>
                { event_image ?
                   <img className="h-36 sm:h-36 xs:h-32 object-cover w-48 sm:w-48 xs:w-28"
@@ -62,10 +63,33 @@ export const ListingEvent = (props) => {
                         {translatedKeys(city)}
                      </div>
                   </div></div>
+
             </div>
             {/*<p className="read-more">
                <a href={`/events/${id}`}>{t("readMore")}</a>
             </p>*/}
+            { finishesSoon &&
+               <div className="absolute
+                              right-0
+                              md:top-0
+                              lg:top-0
+                              xl:top-0
+                              2xl:top-0
+                              xs:bottom-0
+                              xs:mb-1
+                              sm:bottom-0
+                              sm:mb-1
+                              md:mt-2
+                              md:mr-2
+                              lg:mt-2
+                              lg:mr-2
+                              xl:mt-2
+                              xl:mr-2
+                              2xl:mt-2
+                              2xl:mr-2">
+                  <Tag className="mr-2" value="< 1 εβδ." severity="warning" rounded></Tag>
+               </div>
+            }
          </div>
 
       </div>
