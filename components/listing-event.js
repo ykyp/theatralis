@@ -75,6 +75,8 @@ export const ListingEvent = (props) => {
                               lg:top-0
                               xl:top-0
                               2xl:top-0
+                              xs:bottom-0
+                              xs:mb-1
                               sm:bottom-0
                               sm:mb-1
                               md:mt-2
