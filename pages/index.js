@@ -132,8 +132,8 @@ export default function Home({ allEventsData }) {
                  {" " + translatedPeriod.toLowerCase()} {t('for-m')} {translatedAudience.toLowerCase()}*/}</h3>
                { results.length === 0 && <div>{t("noEventsFound")}</div> }
               <div className={utilStyles.list}>
-                {results.map((event) => (
-                   <ListingEvent event={event} key={event.title} />
+                {results.map((event, i) => (
+                   <ListingEvent event={event} key={i} />
                 ))}
               </div>
          </section>
