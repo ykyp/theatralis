@@ -69,6 +69,10 @@ fields:
     maxSize: 64
   label: Gallery 3rd image
   description: Third image of the gallery
+- name: extended
+  type: boolean
+  label: Paratasi/Extended
+  description: Enable this if the event got extended
 pages:
 - events/1984.md
 - events/5-lesbians-eating-a-quiche.md
