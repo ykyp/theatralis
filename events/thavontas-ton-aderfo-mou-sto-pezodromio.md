@@ -3,7 +3,7 @@ title: ΘΑΒΟΝΤΑΣ ΤΟΝ ΑΔΕΛΦΟ ΜΟΥ ΣΤΟ ΠΕΖΟΔΡΟΜΙΟ
 startDate: 2022-02-04
 endDate: 2022-02-27
 city: Nicosia
-event_image: ''
+event_image: "/images/uploads/thavontas-ton-aderfo-m.jpg"
 cover_image: ''
 category: Drama
 gallery_1: ''
