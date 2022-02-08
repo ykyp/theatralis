@@ -8,7 +8,7 @@ import ReactTooltip from 'react-tooltip';
 
 export const ListingEvent = (props) => {
    const { t } = useTranslation('common');
-   const { id, startDate, endDate, title, city, event_image, category, finishesSoon } = props.event;
+   const { id, startDate, endDate, title, city, event_image, category, finishesSoon, extended } = props.event;
    const cities = city.split(",");
    const router = useRouter();
 
@@ -106,10 +106,35 @@ export const ListingEvent = (props) => {
                               2xl:mt-2
                               2xl:mr-2">
                   <div className="relative" data-tip={t("finishSoonTooltip")}>
-                     <Tag className="mr-2" value={t("finishSoonTag")} tooltip="Enter your username" placeholder="Right" severity="warning" rounded></Tag>
+                     <Tag className="mr-2" value={t("finishSoonTag")}  placeholder="Right" severity="warning" rounded></Tag>
                   </div>
                   <ReactTooltip />
                </div>
+            }
+            { extended &&
+            <div className="absolute
+                              right-0
+                              md:top-0
+                              lg:top-0
+                              xl:top-0
+                              2xl:top-0
+                              xs:bottom-0
+                              xs:mb-1
+                              sm:bottom-0
+                              sm:mb-1
+                              md:mt-2
+                              md:mr-2
+                              lg:mt-2
+                              lg:mr-2
+                              xl:mt-2
+                              xl:mr-2
+                              2xl:mt-2
+                              2xl:mr-2">
+               <div className="relative" data-tip={t("extendedTooltip")}>
+                  <Tag className="mr-2" value={t("extendedTag")} icon="pi pi-star" placeholder="Right" severity="success" rounded></Tag>
+               </div>
+               <ReactTooltip />
+            </div>
             }
          </div>
 

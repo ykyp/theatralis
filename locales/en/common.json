@@ -98,5 +98,7 @@
   "cityTitle": "Theatre",
   "citySubtitle": "Find all theatre events in",
   "finishSoonTooltip": "Finishes in less than 1 week.",
-  "finishSoonTag": "< 1 week"
+  "finishSoonTag": "< 1 week",
+  "extendedTooltip": "This event got extended",
+  "extendedTag": "Extended"
 }
