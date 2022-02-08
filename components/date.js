@@ -74,9 +74,11 @@ export function finishesSoon(dateString) {
   const todayYear = today.getFullYear();
   const asDateYear = asDate.getFullYear();
 
-  const weeksBetween = getISOWeek(asDate) - getISOWeek(today);
+  const oneWeekAhead = new Date();
+  oneWeekAhead.setDate(today.getDate() + 7);
 
-  return todayYear === asDateYear && weeksBetween >= 0 && weeksBetween <= 1;
+
+  return todayYear === asDateYear && oneWeekAhead >= asDate;
 }
 
 export function isInTheFuture(dateString) {
