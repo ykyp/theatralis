@@ -106,7 +106,7 @@ export const ListingEvent = (props) => {
                               2xl:mt-2
                               2xl:mr-2">
                   <div className="relative" data-tip={t("finishSoonTooltip")}>
-                     <Tag className="mr-2" value={t("finishSoonTag")}  placeholder="Right" severity="warning" rounded></Tag>
+                     <Tag className="mr-2" value={t("finishSoonTag")} icon="pi pi-clock"  placeholder="Right" severity="warning" rounded></Tag>
                   </div>
                   <ReactTooltip />
                </div>
