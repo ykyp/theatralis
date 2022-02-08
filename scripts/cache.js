@@ -37,6 +37,7 @@ function eventData() {
          gallery_3: matterResult.data.gallery_3,
          category: matterResult.data.category,
          finishesSoon: finishesSoon(matterResult.data.endDate),
+         extended: matterResult.data.extended
       }
    });
 

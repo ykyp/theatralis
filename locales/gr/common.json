@@ -97,5 +97,7 @@
   "cityTitle": "Θέατρο",
   "citySubtitle": "Βρες όλες τις θεατρικές εκδηλώσεις στην",
   "finishSoonTooltip": "Οι παραστάσεις τελιώνουν σε λιγότερο απο μία εβδομάδα.",
-  "finishSoonTag": "< 1 εβδ."
+  "finishSoonTag": "< 1 εβδ.",
+  "extendedTooltip": "Η παράσταση πήρε παράταση",
+  "extendedTag": "Παράταση"
 }
