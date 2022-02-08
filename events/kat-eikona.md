@@ -9,6 +9,7 @@ gallery_2: "/images/uploads/kateikona2.jpeg"
 gallery_3: "/images/uploads/kateikona3.jpeg"
 category: Monologue
 cover_image: ''
+extended: true
 
 ---
 **Θεατρική ομάδα «Σόλο για Τρεις»**
