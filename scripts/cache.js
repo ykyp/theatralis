@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
-const dateutils = require( "date-fns");
 
 
 function finishesSoon(dateString) {
@@ -10,9 +9,10 @@ function finishesSoon(dateString) {
    const todayYear = today.getFullYear();
    const asDateYear = asDate.getFullYear();
 
-   const weeksBetween = dateutils.getISOWeek(asDate) - dateutils.getISOWeek(today);
+   const oneWeekAhead = new Date();
+   oneWeekAhead.setDate(today.getDate() + 7);
 
-   return todayYear === asDateYear && weeksBetween >= 0 && weeksBetween <= 2;
+   return todayYear === asDateYear && oneWeekAhead >= asDate;
 }
 
 function eventData() {
