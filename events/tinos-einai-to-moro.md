@@ -5,7 +5,7 @@ endDate: 2022-02-19
 city: Famagusta
 event_image: "/images/uploads/a4-posters-02.jpeg"
 cover_image: ''
-category: ''
+category: comedy
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
