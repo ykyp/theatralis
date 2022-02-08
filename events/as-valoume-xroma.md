@@ -5,7 +5,7 @@ endDate: 2022-02-20
 city: Famagusta
 event_image: "/images/uploads/a4-posters-03.jpeg"
 cover_image: ''
-category: ''
+category: children
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
