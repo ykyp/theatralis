@@ -1,7 +1,7 @@
 ---
 title: ΤΟ ΔΙΠΛΟ ΠΑΙΧΝΙΔΙ
-startDate: 2022-02-09
-endDate: 2022-02-09
+startDate: 2022-02-08
+endDate: 2022-02-08
 city: Famagusta
 event_image: "/images/uploads/a4-posters-01.jpeg"
 cover_image: ''
