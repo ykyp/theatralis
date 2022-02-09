@@ -4,9 +4,9 @@ startDate: 2022-02-18
 endDate: 2022-02-20
 city: Nicosia, Larnaca, Limassol
 event_image: "/images/uploads/dimopoulos-2020-2-photo-by-nickos-myrtou.jpg"
-cover_image: "/images/uploads/kafrokrema-dimopoulos-press-release-high-res-photo-3.jpg"
+cover_image: ''
 category: Standup
-gallery_1: "/images/uploads/dimitris-dimopoulos-photo-1-by-gerasimos-domenikos.JPG"
+gallery_1: "/images/uploads/kafrokrema-dimopoulos-press-release-high-res-photo-3.jpg"
 gallery_2: "/images/uploads/dimopoulos-2020-3-photo-by-nickos-myrtou.jpg"
 gallery_3: "/images/uploads/dimopoulos-2020-5-photo-by-nickos-myrtou.jpg"
 extended: false
