@@ -40,19 +40,19 @@ extended: false
 
 **_Ημερομηνία και Ώρα έναρξης:_** Παρασκευή 18 Φεβρουαρίου 2022 – 21:00
 
-**_Τοποθεσία:_** Savino Live
+**_Τοποθεσία:_** [Savino Live](https://www.google.com/maps/place/Savino/@34.9119911,33.6351938,17z/data=!3m1!4b1!4m5!3m4!1s0x14e082a2e1780a4d:0x5be3b56fe0c640af!8m2!3d34.9119911!4d33.6373825 "Savino Live")
 
 ΛΕΥΚΩΣΙΑ
 
 **_Ημερομηνία και Ώρα έναρξης:_** Σάββατο 19 Φεβρουαρίου 2022 – 19:00
 
-**_Τοποθεσία:_** Θέατρο Δέντρο
+**_Τοποθεσία:_** [Θέατρο Δέντρο](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%94%CE%AD%CE%BD%CF%84%CF%81%CE%BF/@35.1778415,33.3892814,17z/data=!3m1!4b1!4m5!3m4!1s0x14de170b08c2c23f:0x17cd0ebf63c7196d!8m2!3d35.1778415!4d33.3914701 "Θέατρο Δέντρο")
 
 ΛΕΜΕΣΟΣ
 
 **_Ημερομηνία και Ώρα έναρξης_**: Κυριακή 20 Φεβρουαρίου 2022 – 19:00
 
-**_Τοποθεσία:_** Ravens Music Hall
+**_Τοποθεσία:_** [Ravens Music Hall](https://www.google.com/maps/place/Ravens+Music+Hall/@34.6749096,33.0411508,17z/data=!3m1!4b1!4m5!3m4!1s0x14e733031361b6b7:0x4e9b0f40be781e08!8m2!3d34.6749096!4d33.0433395 "Ravens Music Hall")
 
 **_Διάρκεια παράστασης:_** 90’
 
@@ -62,7 +62,7 @@ extended: false
 
 **_Τιμή:_** €12 (Προπώληση), €15 (Είσοδος)
 
-\- Ηλεκτρονικά απο TicketHour  
+\- Ηλεκτρονικά απο [Tickethour](https://shop.tickethour.com/ticketmaster_se_3708.html?tkhrq=7978fc2c-d86a-403b-8ab2-8ded29058a5a&tkhrp=8a990c79-9792-48af-a9ab-4c9ea29e606a&tkhrts=1644412843&tkhrc=tickethour&tkhre=shopcy&tkhrrt=Safetynet&tkhrh=3acb69ef8dba11af98df39211877e33c "Tickethour")  
 \- Απο όλα τα καταστήματα ACS Courier
 
 **_Πληροφορίες:_** 99 865603
