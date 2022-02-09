@@ -6,9 +6,10 @@ city: Nicosia
 event_image: "/images/uploads/thavontas-ton-aderfo-m.jpg"
 cover_image: ''
 category: Drama
-gallery_1: ''
-gallery_2: ''
-gallery_3: ''
+gallery_1: "/images/uploads/7i3a4876.jpg"
+gallery_2: "/images/uploads/7i3a5160.jpg"
+gallery_3: "/images/uploads/7i3a5256.jpg"
+extended: false
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΟ ΕΡΓΟ
@@ -42,6 +43,8 @@ gallery_3: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
+ΛΕΥΚΩΣΙΑ
+
 **_Πρεμιέρα:_** Παρασκευή 4 Φεβρουαρίου 2022 στις 20:30
 
 **_Τακτικές παραστάσεις:_** Τετάρτη, Παρασκευή, Σάββατο και Κυριακή μέχρι τις 27 Φεβρουαρίου 2022
@@ -49,6 +52,12 @@ gallery_3: ''
 **_Ώρα έναρξης:_** 20:30 εκτός Κυριακής που ξεκινάει στις 18:00
 
 **_Τοποθεσία:_** [Αποθήκες ΘΟΚ](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%91%CF%80%CE%BF%CE%B8%CE%AE%CE%BA%CE%B5%CF%82+%CE%98%CE%9F%CE%9A/@35.1263705,33.3689318,17z/data=!3m1!4b1!4m5!3m4!1s0x14de19a27615e4f3:0xc1322f05215a0553!8m2!3d35.126417!4d33.3711337 "https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%91%CF%80%CE%BF%CE%B8%CE%AE%CE%BA%CE%B5%CF%82+%CE%98%CE%9F%CE%9A/@35.1263705,33.3689318,17z/data=!3m1!4b1!4m5!3m4!1s0x14de19a27615e4f3:0xc1322f05215a0553!8m2!3d35.126417!4d33.3711337")
+
+ΛΕΜΕΣΟΣ
+
+**_Ημερομηνία και Ώρα έναρξης:_** Τετάρτη 16 Φεβρουαρίου στις 20:30
+
+**_Τοποθεσία:_** [Θέατρο ΡΙΑΛΤΟ](https://www.google.com/maps/place/Rialto+Theatre/@34.6797568,33.043364,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "Θέατρο ΡΙΑΛΤΟ")
 
 Συστήνεται για άτομα άνω των 14 ετών
 
@@ -60,4 +69,6 @@ gallery_3: ''
 * Μειωμένο €6
 * Συνδρομητής €0
 
-Αγορά εισιτηρίων απο την ιστοσελίδα του [ΘΟΚ](https://www.thoc.org.cy/event/thabontas-ton-adelfo-moy-sto-pezodromio,4766,1333,el,shows "https://www.thoc.org.cy/event/thabontas-ton-adelfo-moy-sto-pezodromio,4766,1333,el,shows")
+Για Λευκωσία: Απο την ιστοσελίδα του [ΘΟΚ](https://www.thoc.org.cy/event/thabontas-ton-adelfo-moy-sto-pezodromio,4766,1333,el,shows "ΘΟΚ - εισιτήρια")
+
+Για Λεμεσό: Απο την ιστοσελίδα του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/thavontaston-adjerpho-mou-sto-pezodjromio-2543 "Ριαλτο - εισιτήρια") 
