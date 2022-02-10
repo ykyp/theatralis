@@ -3,7 +3,7 @@ title: ΕΜΙΓΚΡΕΔΕΣ
 startDate: 2022-03-09
 endDate: 2022-03-09
 city: Famagusta
-event_image: ''
+event_image: "/images/uploads/a4-posters-06.jpeg"
 cover_image: ''
 category: ''
 gallery_1: ''
