@@ -5,7 +5,7 @@ endDate: 2022-03-02
 city: Famagusta
 event_image: "/images/uploads/a4-posters-05.jpeg"
 cover_image: ''
-category: ''
+category: comedy, amateur
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
@@ -40,6 +40,6 @@ extended: false
 
 **_Ώρα έναρξης_**_:_ 8:00 μ.μ
 
-**_Τοποθεσία_**_:_ Δημοτικό Θέατρο Αγίας Νάπας
+**_Τοποθεσία_**_:_ [Δημοτικό Θέατρο Αγίας Νάπας](https://www.google.com/maps/place/%CE%91%CE%B3%CE%AF%CE%B1%CF%82+%CE%9C%CE%B1%CF%8D%CF%81%CE%B7%CF%82+25,+Ayia+Napa,+Cyprus/@34.9895094,33.9926984,17.26z/data=!4m13!1m7!3m6!1s0x14dfc56c8c870c1b:0xe35e9b5cd233014f!2zzpHOs86vzrHPgiDOnM6xz43Pgc63z4IgMjUsIEF5aWEgTmFwYSwgQ3lwcnVz!3b1!8m2!3d34.9896415!4d33.994681!3m4!1s0x14dfc56c8c870c1b:0xe35e9b5cd233014f!8m2!3d34.9896415!4d33.994681 "Δημοτικό Θέατρο Αγ. Νάπας")
 
 **ΕΙΣΟΔΟΣ ΕΛΕΥΘΕΡΗ**
