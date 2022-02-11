@@ -4,7 +4,7 @@ startDate: 2022-02-18
 endDate: 2022-03-27
 city: Nicosia
 event_image: "/images/uploads/pq3a8211.jpg"
-cover_image: "/images/uploads/pq3a8142.jpg"
+cover_image: "/images/uploads/pq3a8142-1.jpg"
 category: Drama, Comedy
 gallery_1: "/images/uploads/pq3a8370.jpg"
 gallery_2: "/images/uploads/pq3a8081.jpg"
