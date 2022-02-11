@@ -5,7 +5,7 @@ endDate: 2022-03-02
 city: Famagusta
 event_image: "/images/uploads/asta-na-pane.jpg"
 cover_image: ''
-category: comedy, amateur
+category: amateur, comedy
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
