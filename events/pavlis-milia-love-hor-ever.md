@@ -5,7 +5,7 @@ endDate: 2022-03-18
 city: Famagusta
 event_image: "/images/uploads/paulis-milia.jpg"
 cover_image: ''
-category: comedy
+category: amateur, comedy
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
