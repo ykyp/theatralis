@@ -3,7 +3,7 @@ title: ΑΣΤΑ ΝΑ ΠΑΝΕ
 startDate: 2022-03-02
 endDate: 2022-03-02
 city: Famagusta
-event_image: "/images/uploads/a4-posters-05.jpeg"
+event_image: "/images/uploads/asta-na-pane.jpg"
 cover_image: ''
 category: comedy, amateur
 gallery_1: ''
