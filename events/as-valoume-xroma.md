@@ -3,7 +3,7 @@ title: ΑΣ ΒΑΛΟΥΜΕ ΧΡΩΜΑ
 startDate: 2022-02-20
 endDate: 2022-02-20
 city: Famagusta
-event_image: "/images/uploads/a4-posters-03.jpeg"
+event_image: "/images/uploads/as-valoume-xrwma.jpg"
 cover_image: ''
 category: children
 gallery_1: ''
