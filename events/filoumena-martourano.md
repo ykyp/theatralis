@@ -4,10 +4,10 @@ startDate: 2022-02-18
 endDate: 2022-03-27
 city: Nicosia
 event_image: "/images/uploads/pq3a8211.jpg"
-cover_image: "/images/uploads/pq3a8081.jpg"
+cover_image: "/images/uploads/pq3a8142.jpg"
 category: Drama, Comedy
 gallery_1: "/images/uploads/pq3a8370.jpg"
-gallery_2: "/images/uploads/pq3a8142.jpg"
+gallery_2: "/images/uploads/pq3a8081.jpg"
 gallery_3: "/images/uploads/pq3a8175.jpg"
 extended: false
 
@@ -61,10 +61,12 @@ extended: false
 
 **Τιμές εισιτηρίων:**
 
-* €12
-* €6 (άνεργοι, συνταξιούχοι, πολύτεκνοι με την επίδειξη του αντίστοιχου αποδεικτικού εγγράφου και άτομα κάτω των 25 ετών με την επίδειξη πολιτικής ταυτότητας)
+\- €12
+
+\- €6 (άνεργοι, συνταξιούχοι, πολύτεκνοι με την επίδειξη του αντίστοιχου αποδεικτικού εγγράφου και άτομα κάτω των 25 ετών με την επίδειξη πολιτικής ταυτότητας)
 
 **Προπώληση / Κρατήσεις:**
 
-* Ηλεκτρονικά απο την ιστοσελίδα του [ΘΟΚ ](https://www.thoc.org.cy/event/filoymena-martoyrano,4685,229,el,shows "ΘΟΚ")
-* Ταμείο Θεάτρου ΘΟΚ, τηλ. 77772717 (Τρίτη-Κυριακή 10:00-13:30 & 16:00-18:00)
+\- Ηλεκτρονικά απο την ιστοσελίδα του [ΘΟΚ ](https://www.thoc.org.cy/event/filoymena-martoyrano,4685,229,el,shows "ΘΟΚ")
+
+\- Ταμείο Θεάτρου ΘΟΚ, τηλ. 77772717 (Τρίτη-Κυριακή 10:00-13:30 & 16:00-18:00)
