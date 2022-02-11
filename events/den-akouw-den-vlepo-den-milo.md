@@ -5,7 +5,7 @@ endDate: 2022-03-21
 city: Famagusta
 event_image: "/images/uploads/den-akouw-den-vlepw-den-milw.jpg"
 cover_image: ''
-category: Comedy
+category: Amateur, Comedy
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
