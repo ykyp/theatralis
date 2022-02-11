@@ -5,7 +5,7 @@ endDate: 2022-02-19
 city: Famagusta
 event_image: "/images/uploads/tinos-einai-to-mwro.jpg"
 cover_image: ''
-category: comedy, amateur
+category: amateur, comedy
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
