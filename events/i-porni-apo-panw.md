@@ -1,7 +1,7 @@
 ---
 title: Η ΠΟΡΝΗ ΑΠΟ ΠΑΝΩ
 startDate: 2022-03-18
-endDate: 2022-02-19
+endDate: 2022-03-19
 city: Nicosia, Limassol
 event_image: "/images/uploads/1d8a3079.png"
 cover_image: ''
