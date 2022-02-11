@@ -3,9 +3,9 @@ title: Α-ΠΕΠΑ-ΜΠΛΟΜ
 startDate: 2022-04-08
 endDate: 2022-04-08
 city: Famagusta
-event_image: "/images/uploads/a4-posters-13.jpeg"
+event_image: "/images/uploads/a-mpe-mpa-mplom.jpg"
 cover_image: ''
-category: comedy
+category: amateur, comedy
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
