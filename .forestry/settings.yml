@@ -9,6 +9,11 @@ sections:
   label: Events
   create: all
   match: "*"
+- type: directory
+  path: archive
+  label: Archive
+  create: all
+  match: "*"
 upload_dir: public/images/uploads
 public_path: "/images/uploads"
 front_matter_path: "../uploads"
