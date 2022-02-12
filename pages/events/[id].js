@@ -258,9 +258,6 @@ export default function Event({ eventData: eventData }) {
                   {/*<hr/>
                   <h4> Comments </h4>*/}
 
-
-
-
                   <div className="event-details flex items-center mb-5 ">
                     <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
                     ️ <div className="th-icon-text font-bold"> {t("commentsTitle")}</div>

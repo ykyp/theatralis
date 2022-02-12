@@ -18,12 +18,9 @@ const SELECTED_FIRST_PAGE = 'th.firstPage';
 const SELECTED_CURRENT_PAGE = 'th.currentPage';
 const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
-
 export default function Home({ allEventsData }) {
    const { t, lang } = useTranslation('common');
    const [results, setResults] = useState([]);
-
-
    const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStateFromStorage({name: 'Anytime', code: 'ALL'}, SELECTED_PERIOD_KEY);
    const [selectedCategory, setSelectedCategory] = useStateFromStorage({name: 'AllCategories', code: 'ALL'}, SELECTED_CATEGORY_KEY);
@@ -60,6 +57,7 @@ export default function Home({ allEventsData }) {
    };
 
    const onBasicPageChange = (event) => {
+      setLoading(true);
       setCurrentPage(event.page); 
       setPageFirst(event.first);
       setRowsPerPage(event.rows);
@@ -148,7 +146,6 @@ export default function Home({ allEventsData }) {
                 animationDuration="1s"/>
           </section>
           }
-
 
           </div>
           </div>
