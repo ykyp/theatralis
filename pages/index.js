@@ -10,6 +10,7 @@ import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
 import {ISSERVER, useStateFromStorage} from "../components/session-storage-state";
+import { Card } from 'primereact/card';
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
@@ -31,6 +32,12 @@ export default function Home({ allEventsData }) {
    const [isLoading, setLoading] = useState(true);
 
    const searchEndpoint = (city, period, category, page, rows) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}`;
+
+   const clearAll = () => {
+      setSelectedCity({name: 'AllCities', code: 'ALL'});
+      setSelectedPeriod({name: 'Anytime', code: 'ALL'});
+      setSelectedCategory({name: 'AllCategories', code: 'ALL'});
+   };
 
    const handleCityChange = (e) => {
       setLoading(true);
@@ -125,32 +132,38 @@ export default function Home({ allEventsData }) {
        { !isLoading &&
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
             style={{maxWidth: '787px'}}>
-              <div className={`text-md text-slate-400`} style={{marginTop: '0.6em'}}>
+             {/*<Card className="pt-2 pb-5 pl-5 pr-5">*/}
+              <div className={`xs:text-xs sm:text-xs text-md text-gray-500 ml-2`} style={{marginTop: '0.6em'}}>
                  {t('found')} <span className="text-black">{currentTotalCount} </span>
-                 {t('events-for')} {' '}
-               {selectedCity && <div className="result-filter-container">
-               {t('for-m')} {(translatedCity)}
-                  {selectedCity.code !== 'ALL' && <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCity({name: 'AllCities', code: 'ALL'})}></button> }
-               </div>
+                 {t('events-for')}
+
+               {selectedCity && <span className="result-filter-container">
+                  {'\u00A0'}{t('for-m')} {'\u00A0'}
+                  <span className="text-black">{(translatedCity)}</span>
+                  {selectedCity.code !== 'ALL' &&
+                  <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCity({name: 'AllCities', code: 'ALL'})}></button> }
+               </span>
                }
-                ,
-                 <div className="result-filter-container">
-                    {" " + translatedPeriod.toLowerCase()}
-                    {selectedPeriod.code !== 'ALL' && <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedPeriod({name: 'Anytime', code: 'ALL'})}></button> }
-                 </div> {' '}
-                 <div className="result-filter-container">
-                    {t('for-m')} {translatedAudience.toLowerCase()}
-                    {selectedCategory.code !== 'ALL' && <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCategory({name: 'AllCategories', code: 'ALL'})}></button> }
-                 </div>
+                ,{'\u00A0'}
+                 <span className="result-filter-container">
+                    <span className="text-black"> {" " + translatedPeriod.toLowerCase()} </span>
+                    {selectedPeriod.code !== 'ALL' &&
+                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedPeriod({name: 'Anytime', code: 'ALL'})}></button> }
+                 </span>,{'\u00A0'}
+                 <span className="result-filter-container">
+                    <span className="text-black">{translatedAudience.toLowerCase()}</span>
+                    {selectedCategory.code !== 'ALL' &&
+                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCategory({name: 'AllCategories', code: 'ALL'})}></button> }
+                 </span>
                  {(selectedCategory.code !== 'ALL' || selectedCity.code !== 'ALL' || selectedPeriod.code !== 'ALL') &&
-                 <div className="result-filter-container">
-                    {t('clearAllFilters')}
-                    <button aria-label="Clear filter" className="clear-button clearallfilters" onClick={() => {
-                       setSelectedCategory({name: 'AllCategories', code: 'ALL'})}}></button>
-                 </div>}
+                 <span className="result-filter-container">
+                    {'\u00A0'}{t('clearAllFilters')}
+                    <button aria-label="Clear filter" className="clear-button clearallfilters" onClick={clearAll}></button>
+                 </span>}
 
               </div>
-               { results.length === 0 && <div>{t("noEventsFound")}</div> }
+            {/* </Card>*/}
+              {/* { results.length === 0 && <div>{t("noEventsFound")}</div> }*/}
               <div className={utilStyles.list}>
                 {results.map((event, i) => (
                    <ListingEvent event={event} key={i} />
