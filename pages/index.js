@@ -100,9 +100,9 @@ export default function Home({ allEventsData }) {
       })
    };
 
-   /*const translatedCity = t(""+selectedCity.name);
+   const translatedCity = t(""+selectedCity.name);
    const translatedPeriod = t(""+selectedPeriod.name);
-   const translatedAudience = t(""+selectedCategory.name);*/
+   const translatedAudience = t(""+selectedCategory.name);
 
    return (
     <Layout home>
@@ -125,9 +125,31 @@ export default function Home({ allEventsData }) {
        { !isLoading &&
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
             style={{maxWidth: '787px'}}>
-              <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
-               {/*  {t('events-for')} {selectedCity && `${t('for-m')} ${(translatedCity)}`},
-                 {" " + translatedPeriod.toLowerCase()} {t('for-m')} {translatedAudience.toLowerCase()}*/}</h3>
+              <div className={`text-md text-slate-400`} style={{marginTop: '0.6em'}}>
+                 {t('found')} <span className="text-black">{currentTotalCount} </span>
+                 {t('events-for')} {' '}
+               {selectedCity && <div className="result-filter-container">
+               {t('for-m')} {(translatedCity)}
+                  {selectedCity.code !== 'ALL' && <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCity({name: 'AllCities', code: 'ALL'})}></button> }
+               </div>
+               }
+                ,
+                 <div className="result-filter-container">
+                    {" " + translatedPeriod.toLowerCase()}
+                    {selectedPeriod.code !== 'ALL' && <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedPeriod({name: 'Anytime', code: 'ALL'})}></button> }
+                 </div> {' '}
+                 <div className="result-filter-container">
+                    {t('for-m')} {translatedAudience.toLowerCase()}
+                    {selectedCategory.code !== 'ALL' && <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCategory({name: 'AllCategories', code: 'ALL'})}></button> }
+                 </div>
+                 {(selectedCategory.code !== 'ALL' || selectedCity.code !== 'ALL' || selectedPeriod.code !== 'ALL') &&
+                 <div className="result-filter-container">
+                    {t('clearAllFilters')}
+                    <button aria-label="Clear filter" className="clear-button clearallfilters" onClick={() => {
+                       setSelectedCategory({name: 'AllCategories', code: 'ALL'})}}></button>
+                 </div>}
+
+              </div>
                { results.length === 0 && <div>{t("noEventsFound")}</div> }
               <div className={utilStyles.list}>
                 {results.map((event, i) => (
