@@ -133,7 +133,7 @@ export default function Home({ allEventsData }) {
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
             style={{maxWidth: '787px'}}>
              {/*<Card className="pt-2 pb-5 pl-5 pr-5">*/}
-              <div className={`xs:text-xs sm:text-xs text-md text-gray-500 ml-2`} style={{marginTop: '0.6em'}}>
+              <div className={`xs:text-xs sm:text-xs text-md text-gray-500 xs:ml-2 sm:ml-2`} style={{marginTop: '0.6em'}}>
                  {t('found')} <span className="text-black">{currentTotalCount} </span>
                  {t('events-for')}
 
@@ -146,12 +146,12 @@ export default function Home({ allEventsData }) {
                }
                 ,{'\u00A0'}
                  <span className="result-filter-container">
-                    <span className="text-black"> {" " + translatedPeriod.toLowerCase()} </span>
+                    <span className="text-black"> {" " + translatedPeriod} </span>
                     {selectedPeriod.code !== 'ALL' &&
                     <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedPeriod({name: 'Anytime', code: 'ALL'})}></button> }
                  </span>,{'\u00A0'}
                  <span className="result-filter-container">
-                    <span className="text-black">{translatedAudience.toLowerCase()}</span>
+                    <span className="text-black">{translatedAudience}.</span>
                     {selectedCategory.code !== 'ALL' &&
                     <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCategory({name: 'AllCategories', code: 'ALL'})}></button> }
                  </span>
