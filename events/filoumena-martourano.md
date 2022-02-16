@@ -10,6 +10,13 @@ gallery_1: "/images/uploads/pq3a8370.jpg"
 gallery_2: "/images/uploads/pq3a8081.jpg"
 gallery_3: "/images/uploads/pq3a8175.jpg"
 extended: false
+critic_p: "<p>Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing
+  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  commodo <em>consequat</em>. Duis aute irure dolor in reprehenderit in voluptate
+  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+critic_link: www.theatralis.com.cy
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
