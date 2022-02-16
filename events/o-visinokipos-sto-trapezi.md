@@ -9,7 +9,7 @@ category: Drama, Comedy
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
-extended: false
+extended: true
 
 ---
 **_ΑΝΑΚΟΙΝΩΣΗ:_**
