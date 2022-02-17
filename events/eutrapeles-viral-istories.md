@@ -1,5 +1,5 @@
 ---
-title: ΕΥΤΡΑΠΕΛΕΣ VIRAL ΙΣΤΟΡΙΕΣ
+title: ΕΥΤΡΑΠΕΛΕΣ ΙΣΤΟΡΙΕΣ
 startDate: 2022-03-05
 endDate: 2022-02-13
 city: Pafos, Nicosia
