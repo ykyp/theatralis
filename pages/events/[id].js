@@ -257,7 +257,7 @@ export default function Event({ eventData: eventData }) {
                 <div className="article-container">
                   {/*<hr/>
                   <h4> Comments </h4>*/}
-                  {/*<div className="event-details flex items-center mb-5 ">
+                  <div className="event-details flex items-center mb-5 ">
                     <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
                     ️ <div className="th-icon-text font-bold"> {t("criticPhilenews")}</div>
                   </div>
@@ -272,7 +272,7 @@ export default function Event({ eventData: eventData }) {
 
                   <div className=" justify-center text-center mb-10">
                     <a href={eventData.critic_link} target="_blank">{t("readMoreCritic")}</a>
-                  </div>*/}
+                  </div>
 
 
                   <div className="event-details flex items-center mb-5 ">
