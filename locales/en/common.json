@@ -102,5 +102,7 @@
   "finishSoonTooltip": "Finishes in less than 1 week.",
   "finishSoonTag": "< 1 week",
   "extendedTooltip": "This event got extended",
-  "extendedTag": "Extended"
+  "extendedTag": "Extended",
+  "readMoreCritic": "Read the full critic in Phileleftheros site",
+  "criticPhilenews": "Critic from Phileleftheros"
 }

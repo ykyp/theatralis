@@ -101,5 +101,7 @@
   "finishSoonTooltip": "Οι παραστάσεις τελειώνουν σε λιγότερο απο μια εβδομάδα.",
   "finishSoonTag": "< 1 εβδ.",
   "extendedTooltip": "Η παράσταση πήρε παράταση",
-  "extendedTag": "Παράταση"
+  "extendedTag": "Παράταση",
+  "readMoreCritic": "Διάβασε όλη την κριτική στο site του Φιλελεύθερου",
+  "criticPhilenews": "Κριτική από τον Φιλελεύθερο"
 }
