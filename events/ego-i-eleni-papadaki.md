@@ -53,30 +53,31 @@ extended: false
 
 **_Τακτικές Παραστάσεις:_** Κάθε Παρασκευή, Σάββατο και Κυριακή
 
+**Επιπλέον τρεις παραστάσεις την Τετάρτη 23 Φεβρουαρίου, 2 και 9 Μαρτίου στις 20:00**
+
 **_Ώρα έναρξης:_** Παρασκευή και Σάββατο στις 20:00 / Κυριακή στις 19:00
 
-**Επιπλέον τρεις παραστάσεις τις  
-Τετάρτες 23 Φεβρουαρίου, 2 και 9 Μαρτίου στις 20:00**
-
-**ΠΑΡΑΚΑΛΟΥΝΤΑΙ ΟΙ ΘΕΑΤΕΣ ΝΑ ΠΡΟΣΕΡΧΟΝΤΑΙ ΣΤΟ ΘΕΑΤΡΟ _ΜΙΣΗ ΩΡΑ_ ΠΡΙΝ ΤΗΝ ΕΝΑΡΞΗ ΤΟΥ ΕΡΓΟΥ**
+**ΠΑΡΑΚΑΛΟΥΝΤΑΙ ΟΙ ΘΕΑΤΕΣ ΝΑ ΠΡΟΣΕΡΧΟΝΤΑΙ ΣΤΟ ΘΕΑΤΡΟ _ΜΙΣΗ ΩΡΑ_ ΠΡΙΝ ΤΗΝ ΕΝΑΡΞΗ ΤΟΥ ΕΡΓΟΥ!**
 
 **_Τοποθεσία:_** [Θέατρο Ανεμώνα](https://www.google.com/maps/place/%CE%98%CE%95%CE%91%CE%A4%CE%A1%CE%9F+%CE%91%CE%9D%CE%95%CE%9C%CE%A9%CE%9D%CE%91/@35.1186169,33.3784454,17z/data=!3m1!4b1!4m5!3m4!1s0x14de19d165417881:0x5482cd1472102e74!8m2!3d35.1186169!4d33.3806341 "https://www.google.com/maps/place/%CE%98%CE%95%CE%91%CE%A4%CE%A1%CE%9F+%CE%91%CE%9D%CE%95%CE%9C%CE%A9%CE%9D%CE%91/@35.1186169,33.3784454,17z/data=!3m1!4b1!4m5!3m4!1s0x14de19d165417881:0x5482cd1472102e74!8m2!3d35.1186169!4d33.3806341")
+
+***
 
 **ΠΕΡΙΟΔΕΙΕΣ**
 
 **ΛΑΡΝΑΚΑ**
 
-**_Ημερομηνία και Ώρα_** : Πέμπτη  3/3 στις 20:00  
-**_Τοποθεσία:_** [Θέατρο Σκάλα]( "https://www.google.com/maps/place/Theater+Skala+Larnaka/@34.9191103,33.6301992,17z/data=!3m1!4b1!4m5!3m4!1s0x14e082a6e362e26b:0x800ef26e458168d!8m2!3d34.9191059!4d33.6323879")
+**_Ημερομηνία και Ώρα_**: Πέμπτη 3/3 στις 20:00  
+**_Τοποθεσία:_** [Θέατρο Σκάλα](https://www.google.com/maps/place/Theater+Skala+Larnaka/@34.9191059,33.6301992,17z/data=!3m1!4b1!4m5!3m4!1s0x14e082a6e362e26b:0x800ef26e458168d!8m2!3d34.9191059!4d33.6323879 "Θεατρο Σκάλα")
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνία και Ώρα_** : Πέμπτη 10/3 στις 20:00  
+**_Ημερομηνία και Ώρα_**: Πέμπτη 10/3 στις 20:00  
 **_Τοποθεσία:_** [Παττίχειο Θέατρο](https://www.google.com/maps/place/%CE%A0%CE%B1%CF%84%CF%84%CE%B9%CF%87%CE%B5%CE%AF%CE%BF+%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF/@34.6808975,33.0414947,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7330e3a40b37f:0xa33ce6e4d7f4bc8!8m2!3d34.6808931!4d33.0436834)
 
 **ΠΑΦΟΣ**
 
-**_Ημερομηνία και Ώρα_** : Τρίτη 15/3 στις 20:00  
+**_Ημερομηνία και Ώρα_**: Τρίτη 15/3 στις 20:00  
 **_Τοποθεσία:_** [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781642,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146)
 
 \***Η προσέλευση για τις παραστάσεις εκτός έδρας αρχίζει στις 19:15**
@@ -95,20 +96,22 @@ extended: false
 
 \- Τηλέφωνο Κρατήσεων: **70007721**
 
-Facebook page: [Θεατρο Ανεμωνα - Theatro Anemwna](https://www.facebook.com/TheatroAnemwna "https://www.facebook.com/TheatroAnemwna")
+***
 
-Instagram: [theatroanemona](https://www.instagram.com/theatroanemona/ "https://www.instagram.com/theatroanemona/")
-
-**ΕΙΣΙΤΗΡΙΑ-ΠΕΡΙΟΔΕΙΕΣ**
+**ΕΙΣΙΤΗΡΙΑ - ΠΕΡΙΟΔΕΙΕΣ**
 
 €15 -Ενήλικες
 
 €12- Μαθητές-Παιδιά
 
-Διατίθενται online από [SoldOut Tickets](https://www.soldoutticketbox.com/) και καταστηματα Stephanis.
+\- Διατίθενται online από [SoldOut Tickets](https://www.soldoutticketbox.com/) και καταστηματα Stephanis.
 
-Πληροφορίες **70007721**
+\- Πληροφορίες **70007721**
 
 Στις παραστάσεις θα τηρούνται αυστηρά όλα τα ενδεικνυόμενα μέτρα αντιμετώπισης του κορωνοιού.
 
 Η είσοδος θα επιτρέπεται μόνο με την επίδειξη safepass.
+
+Facebook page: [Θεατρο Ανεμωνα - Theatro Anemwna](https://www.facebook.com/TheatroAnemwna "https://www.facebook.com/TheatroAnemwna")
+
+Instagram: [theatroanemona](https://www.instagram.com/theatroanemona/ "https://www.instagram.com/theatroanemona/")
