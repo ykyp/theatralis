@@ -6,9 +6,9 @@ city: Nicosia
 event_image: "/images/uploads/thavontas-ton-aderfo-m.jpg"
 cover_image: ''
 category: Drama
-gallery_1: "/images/uploads/7i3a4876.jpg"
+gallery_1: "/images/uploads/7i3a6039.jpg"
 gallery_2: "/images/uploads/7i3a5160.jpg"
-gallery_3: "/images/uploads/7i3a5256.jpg"
+gallery_3: "/images/uploads/7i3a6066.jpg"
 extended: false
 
 ---
@@ -43,21 +43,31 @@ extended: false
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-ΛΕΥΚΩΣΙΑ
+**ΛΕΥΚΩΣΙΑ**
 
 **_Πρεμιέρα:_** Παρασκευή 4 Φεβρουαρίου 2022 στις 20:30
 
-**_Τακτικές παραστάσεις:_** Τετάρτη, Παρασκευή, Σάββατο και Κυριακή μέχρι τις 27 Φεβρουαρίου 2022
+**_Τακτικές παραστάσεις:_** Τετάρτη (εκτός 16 & 23 Φεβρουαρίου), Παρασκευή, Σάββατο και Κυριακή
 
 **_Ώρα έναρξης:_** 20:30 εκτός Κυριακής που ξεκινάει στις 18:00
 
 **_Τοποθεσία:_** [Αποθήκες ΘΟΚ](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%91%CF%80%CE%BF%CE%B8%CE%AE%CE%BA%CE%B5%CF%82+%CE%98%CE%9F%CE%9A/@35.1263705,33.3689318,17z/data=!3m1!4b1!4m5!3m4!1s0x14de19a27615e4f3:0xc1322f05215a0553!8m2!3d35.126417!4d33.3711337 "https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%91%CF%80%CE%BF%CE%B8%CE%AE%CE%BA%CE%B5%CF%82+%CE%98%CE%9F%CE%9A/@35.1263705,33.3689318,17z/data=!3m1!4b1!4m5!3m4!1s0x14de19a27615e4f3:0xc1322f05215a0553!8m2!3d35.126417!4d33.3711337")
 
-ΛΕΜΕΣΟΣ
+***
+
+**ΛΕΜΕΣΟΣ**
 
 **_Ημερομηνία και Ώρα έναρξης:_** Τετάρτη 16 Φεβρουαρίου στις 20:30
 
 **_Τοποθεσία:_** [Θέατρο ΡΙΑΛΤΟ](https://www.google.com/maps/place/Rialto+Theatre/@34.6797568,33.043364,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "Θέατρο ΡΙΑΛΤΟ")
+
+***
+
+**ΛΑΡΝΑΚΑ**
+
+**_Ημερομηνία και Ώρα έναρξης:_** Τετάρτη 23 Φεβρουαρίου στις 20:30
+
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Λάρνακας Γ. Λυκούργος](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160535,33.6242074,17z/data=!3m1!4b1!4m5!3m4!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961 "Δημοτικό Θέατρο Λάρνακας")
 
 Συστήνεται για άτομα άνω των 14 ετών
 
@@ -69,6 +79,6 @@ extended: false
 * Μειωμένο €6
 * Συνδρομητής €0
 
-Για Λευκωσία: Απο την ιστοσελίδα του [ΘΟΚ](https://www.thoc.org.cy/event/thabontas-ton-adelfo-moy-sto-pezodromio,4766,1333,el,shows "ΘΟΚ - εισιτήρια")
+Για Λευκωσία και Λάρνακα: Απο την ιστοσελίδα του [ΘΟΚ](https://www.thoc.org.cy/event/thabontas-ton-adelfo-moy-sto-pezodromio,4766,1333,el,shows "ΘΟΚ - εισιτήρια")
 
-Για Λεμεσό: Απο την ιστοσελίδα του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/thavontaston-adjerpho-mou-sto-pezodjromio-2543 "Ριαλτο - εισιτήρια") 
+Για Λεμεσό: Απο την ιστοσελίδα του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/thavontaston-adjerpho-mou-sto-pezodjromio-2543 "Ριαλτο - εισιτήρια")
