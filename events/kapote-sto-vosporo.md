@@ -1,8 +1,8 @@
 ---
 title: ΚΑΠΟΤΕ ΣΤΟ ΒΟΣΠΟΡΟ
 startDate: 2022-03-30
-endDate: 2022-03-31
-city: Limassol
+endDate: 2022-04-02
+city: Limassol, Nicosia
 event_image: "/images/uploads/kapote-sto-vosporo.jpg"
 cover_image: ''
 category: " Drama, Musical"
@@ -10,6 +10,8 @@ gallery_1: ''
 gallery_2: ''
 gallery_3: ''
 extended: false
+critic_p: ''
+critic_link: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -50,7 +52,9 @@ extended: false
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Ημερομηνίες παραστάσεων:_** 30 & 31 Μαρτίου 2021
+**ΛΕΜΕΣΟΣ**
+
+**_Ημερομηνίες παραστάσεων:_** 30 & 31 Μαρτίου 2022
 
 **_Ώρα έναρξης:_** 20:30
 
@@ -58,7 +62,26 @@ extended: false
 
 ***
 
+**ΛΕΥΚΩΣΙΑ**
+
+**_Ημερομηνίες παραστάσεων:_** 1 & 2 Απριλίου 2022
+
+**_Ώρα έναρξης:_** Διπλές παραστάσεις στις 17:00 και 20:30
+
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Στροβόλου](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A3%CF%84%CF%81%CE%BF%CE%B2%CF%8C%CE%BB%CE%BF%CF%85/@35.143943,33.3410393,17z/data=!3m1!4b1!4m5!3m4!1s0x14de1a215477c475:0xca7690acc6cdd49c!8m2!3d35.143943!4d33.343228 "Δημοτικό Θέατρο Στροβόλου")
+
+***
+
 #### ΕΙΣΙΤΗΡΙΑ
 
+**ΛΕΜΕΣΟΣ**
+
 **_Τιμή:_** €30 / €25 / €20  
+\- Απο την ιστοσελίδα του [Tickethour](https://shop.tickethour.com/ticketmaster_se_3734.html "Tickethour")
+
+***
+
+**ΛΕΥΚΩΣΙΑ**
+
+Τιμή: €20  
 \- Απο την ιστοσελίδα του [Tickethour](https://shop.tickethour.com/ticketmaster_se_3734.html "Tickethour")
