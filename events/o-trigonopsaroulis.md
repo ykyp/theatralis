@@ -1,7 +1,7 @@
 ---
 title: Ο ΤΡΙΓΩΝΟΨΑΡΟΥΛΗΣ
 startDate: 2022-03-12
-endDate: 2022-02-13
+endDate: 2022-03-13
 city: Nicosia, Limassol
 event_image: "/images/uploads/18-sep21_155-trigonopsaroulis.jpg"
 cover_image: ''
@@ -12,6 +12,7 @@ gallery_3: ''
 extended: false
 critic_p: ''
 critic_link: ''
+critic_title: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
