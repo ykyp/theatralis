@@ -11,7 +11,7 @@ const FiltersContainer = styled.section`
    `;
 
 const WithMargin = styled.div`
-      margin-left: 25px; 
+      margin-left: 20px; 
    `;
 
 export const Filter = (props) => {
@@ -33,15 +33,17 @@ export const Filter = (props) => {
 
    const categories = [
       { name: 'AllCategories', code: 'ALL' },
+      { name: 'Biography', code: 'Biography' },
       { name: 'Drama', code: 'Drama' },
       { name: 'Comedy', code: 'Comedy' },
       { name: 'Standup', code: 'Standup' },
       { name: 'Historical', code: 'Historical' },
+      { name: 'Monologue', code: 'Monologue' },
       { name: 'Musical', code: 'Musical' },
+      { name: 'Novel', code: 'Novel' },
       { name: 'Amateur', code: 'Amateur' },
       { name: 'Children', code: 'Children' },
       { name: 'Tragedy', code: 'Tragedy' },
-      { name: 'Mystery', code: 'Mystery' },
       { name: 'Satire', code: 'Satire' },
       { name: 'Opera', code: 'Opera' },
    ];
@@ -86,25 +88,41 @@ export const Filter = (props) => {
 
    return (
       <FiltersContainer
-      style={{maxWidth: '874px',
+      style={{maxWidth: '787px',
          'margin': 'auto',
          'display': 'flex',
          'justifyContent': 'space-between'}}>
-            <div style={{width: '28%'}}>
-               <h3 className="formatted-h3">{t('city')}</h3>
-               <Dropdown value={props.selectedCity}
-                         style={{width: '100%', maxHeight: '310px'}}
-                         key="cityDropdown"
-                         options={cities}
-                         onChange={onCityChange}
-                         optionLabel="name"
-                         placeholder="Select where"
-                         scrollHeight="300px"
-                         valueTemplate={selectedTranslatedOptionTemplate}
-                         itemTemplate={translatedOptionTemplate}
-               />
+         {props.selectedCity && <div style={{width: `${props.filterWidth}%`}} className="xs:ml-2 sm:ml-4">
+            <h3 className="formatted-h3">{t('city')}</h3>
+            <Dropdown value={props.selectedCity}
+                      style={{width: '100%', maxHeight: '350px'}}
+                      key="cityDropdown"
+                      options={cities}
+                      onChange={onCityChange}
+                      optionLabel="name"
+                      placeholder="Select where"
+                      scrollHeight="350px"
+                      valueTemplate={selectedTranslatedOptionTemplate}
+                      itemTemplate={translatedOptionTemplate}
+            />
+         </div>
+         }
+         {!props.selectedCity &&  <div style={{width: `${props.filterWidth}%`}}>
+               <h3  className="formatted-h3" >{t('when')}</h3>
+               <Dropdown
+                  id="periodDropdown"
+                  value={props.selectedPeriod}
+                  style={{width: '100%'}}
+                  key="periodDropdown"
+                  options={periods}
+                  onChange={onPeriodChange}
+                  optionLabel="name"
+                  placeholder="Select when"
+                  valueTemplate={selectedTranslatedOptionTemplate}
+                  itemTemplate={translatedOptionTemplate} />
             </div>
-            <WithMargin style={{width: '28%'}}>
+         }
+         {props.selectedCity && <WithMargin style={{width: `${props.filterWidth}%`}}>
                <h3  className="formatted-h3" >{t('when')}</h3>
                <Dropdown
                          id="periodDropdown"
@@ -117,14 +135,15 @@ export const Filter = (props) => {
                          placeholder="Select when"
                          valueTemplate={selectedTranslatedOptionTemplate}
                          itemTemplate={translatedOptionTemplate} />
-            </WithMargin>
-         <WithMargin style={{width: '28%'}}>
+            </WithMargin>}
+         <WithMargin style={{width: `${props.filterWidth}%`}} className="xs:mr-2 sm:mr-4">
             <h3  className="formatted-h3">{t('category')}</h3>
 
             <Dropdown
                id="categoryDropdown"
                value={props.selectedCategory}
                style={{width: '100%', maxHeight: '410px'}}
+               className="show-scroll"
                key="categoryDropdown"
                options={categories}
                onChange={onCategoryChange}

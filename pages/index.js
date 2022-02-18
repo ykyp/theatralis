@@ -1,9 +1,6 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
-import Link from 'next/link'
-import FormattedDate from '../components/date'
 import { Filter } from '../components/filter';
 import { ListingEvent } from '../components/listing-event';
 import { useState, useEffect } from 'react';
@@ -11,6 +8,9 @@ import { Paginator } from 'primereact/paginator';
 import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
+import { ProgressSpinner } from 'primereact/progressspinner';
+import {ISSERVER, useStateFromStorage} from "../components/session-storage-state";
+import { Card } from 'primereact/card';
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
@@ -19,24 +19,9 @@ const SELECTED_FIRST_PAGE = 'th.firstPage';
 const SELECTED_CURRENT_PAGE = 'th.currentPage';
 const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
-
 export default function Home({ allEventsData }) {
    const { t, lang } = useTranslation('common');
-
    const [results, setResults] = useState([]);
-
-   const useStateFromStorage = (defaultValue, key) => {
-      return useState(() => {
-      try {
-         const item = sessionStorage.getItem(key);
-         return item ? JSON.parse(item) : defaultValue;
-      } catch (error) {
-         // If error also return initialValue
-         console.log(error);
-         return defaultValue;
-      }
-      });
-   };
    const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStateFromStorage({name: 'Anytime', code: 'ALL'}, SELECTED_PERIOD_KEY);
    const [selectedCategory, setSelectedCategory] = useStateFromStorage({name: 'AllCategories', code: 'ALL'}, SELECTED_CATEGORY_KEY);
@@ -44,31 +29,50 @@ export default function Home({ allEventsData }) {
    const [currentPage, setCurrentPage] = useStateFromStorage(0, SELECTED_CURRENT_PAGE);
    const [rowsPerPage, setRowsPerPage] = useStateFromStorage(10, SELECTED_ITEMS_PER_PAGE);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
+   const [isLoading, setLoading] = useState(true);
 
    const searchEndpoint = (city, period, category, page, rows) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}`;
 
+   const clearAll = () => {
+      setSelectedCity({name: 'AllCities', code: 'ALL'});
+      setSelectedPeriod({name: 'Anytime', code: 'ALL'});
+      setSelectedCategory({name: 'AllCategories', code: 'ALL'});
+   };
+
    const handleCityChange = (e) => {
-      sessionStorage.setItem(SELECTED_CITY_KEY, JSON.stringify(e.value));
+      setLoading(true);
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_CITY_KEY, JSON.stringify(e.value));
+      }
       setSelectedCity(e.value);
    };
 
    const handlePeriodChange = (e) => {
-      sessionStorage.setItem(SELECTED_PERIOD_KEY, JSON.stringify(e.value));
+      setLoading(true);
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_PERIOD_KEY, JSON.stringify(e.value));
+      }
       setSelectedPeriod(e.value);
    };
 
    const handleCategoryChange = (e) => {
-      sessionStorage.setItem(SELECTED_CATEGORY_KEY, JSON.stringify(e.value));
+      setLoading(true);
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_CATEGORY_KEY, JSON.stringify(e.value));
+      }
       setSelectedCategory(e.value);
    };
 
    const onBasicPageChange = (event) => {
+      setLoading(true);
       setCurrentPage(event.page); 
       setPageFirst(event.first);
       setRowsPerPage(event.rows);
-      sessionStorage.setItem(SELECTED_FIRST_PAGE, event.first);
-      sessionStorage.setItem(SELECTED_CURRENT_PAGE, event.page);
-      sessionStorage.setItem(SELECTED_ITEMS_PER_PAGE, event.rows);
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_FIRST_PAGE, event.first);
+         sessionStorage.setItem(SELECTED_CURRENT_PAGE, event.page);
+         sessionStorage.setItem(SELECTED_ITEMS_PER_PAGE, event.rows);
+      }
    };
 
    useEffect(() => {
@@ -77,9 +81,9 @@ export default function Home({ allEventsData }) {
 
    const searchEvents = () => {
       const query = {
-         city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity.name,
+         city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity?.name,
          period: selectedPeriod.code,
-         category:  selectedCategory.code === 'ALL'? 'ALL' : selectedCategory.name,
+         category:  selectedCategory.code === 'ALL'? 'ALL' : selectedCategory?.name,
          page: currentPage,
          rows: rowsPerPage,
       };
@@ -92,6 +96,7 @@ export default function Home({ allEventsData }) {
          .then(res => {
             setResults(() => res.results);
             setCurrentTotalCount(() => res.totalLength);
+            setLoading(false);
          });
 
       ga.event({
@@ -106,17 +111,13 @@ export default function Home({ allEventsData }) {
    const translatedPeriod = t(""+selectedPeriod.name);
    const translatedAudience = t(""+selectedCategory.name);
 
-
    return (
     <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-
        <div className="w-full bg-gray-100">
           <div className="max-w-screen-xl pb-6 mx-auto ">
-             <div  className="pb-3">
-                <Filter onCityChange={handleCityChange}
+             <div  className="pb-2 pt-2">
+                <Filter filterWidth={28}
+                        onCityChange={handleCityChange}
                         selectedCity={selectedCity}
                         onPeriodChange={handlePeriodChange}
                         selectedPeriod={selectedPeriod}
@@ -128,19 +129,58 @@ export default function Home({ allEventsData }) {
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
        <Search />*/}
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
-               style={{maxWidth: '874px'}}>
-        <h3 className={`${utilStyles.headingLg} formatted-h3`} style={{marginTop: '0.6em'}}>
-         {/*  {t('events-for')} {selectedCity && `${t('for-m')} ${(translatedCity)}`},
-           {" " + translatedPeriod.toLowerCase()} {t('for-m')} {translatedAudience.toLowerCase()}*/}</h3>
-         { results.length === 0 && <div>{t("noEventsFound")}</div> }
-        <div className={utilStyles.list}>
-          {results.map((event) => (
-             <ListingEvent event={event} key={event.title} />
-          ))}
-        </div>
-      </section>
+       { !isLoading &&
+          <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
+            style={{maxWidth: '787px'}}>
+             {/*<Card className="pt-2 pb-5 pl-5 pr-5">*/}
+              <div className={`xs:text-xs sm:text-xs text-md text-gray-500 xs:ml-2 sm:ml-2`} style={{marginTop: '0.6em'}}>
+                 {t('found')} <span className="text-black">{currentTotalCount} </span>
+                 {t('events-for')}
 
+               {selectedCity && <span className="result-filter-container">
+                  {'\u00A0'}{t('for-m')} {'\u00A0'}
+                  <span className="text-black">{(translatedCity)}</span>
+                  {selectedCity.code !== 'ALL' &&
+                  <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCity({name: 'AllCities', code: 'ALL'})}></button> }
+               </span>
+               }
+                ,{'\u00A0'}
+                 <span className="result-filter-container">
+                    <span className="text-black"> {" " + translatedPeriod} </span>
+                    {selectedPeriod.code !== 'ALL' &&
+                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedPeriod({name: 'Anytime', code: 'ALL'})}></button> }
+                 </span>,{'\u00A0'}
+                 <span className="result-filter-container">
+                    <span className="text-black">{translatedAudience}.</span>
+                    {selectedCategory.code !== 'ALL' &&
+                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCategory({name: 'AllCategories', code: 'ALL'})}></button> }
+                 </span>
+                 {(selectedCategory.code !== 'ALL' || selectedCity.code !== 'ALL' || selectedPeriod.code !== 'ALL') &&
+                 <span className="result-filter-container">
+                    {'\u00A0'}{t('clearAllFilters')}
+                    <button aria-label="Clear filter" className="clear-button clearallfilters" onClick={clearAll}></button>
+                 </span>}
+
+              </div>
+            {/* </Card>*/}
+              {/* { results.length === 0 && <div>{t("noEventsFound")}</div> }*/}
+              <div className={utilStyles.list}>
+                {results.map((event, i) => (
+                   <ListingEvent event={event} key={i} />
+                ))}
+              </div>
+         </section>
+       }
+
+          { isLoading  &&
+          <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto flex `}
+                                   style={{maxWidth: '787px'}}>
+             <ProgressSpinner
+                style={{width: '50px', height: '50px'}}
+                strokeWidth="4"
+                animationDuration="1s"/>
+          </section>
+          }
 
           </div>
           </div>
@@ -150,7 +190,7 @@ export default function Home({ allEventsData }) {
                   rowsPerPageOptions={[10, 20, 30]}
                   onPageChange={onBasicPageChange}>
        </Paginator>
-
+       {/*<WelcomeDialog/>*/}
     </Layout>
   )
 }

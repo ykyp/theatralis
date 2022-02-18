@@ -14,5 +14,8 @@ module.exports = nextTranslate({
             { source: "/en/:path*", destination: "/:path*" },
          ],
       }
-   }
+   },
+   i18n: {
+      localeDetection: false,
+   },
 });

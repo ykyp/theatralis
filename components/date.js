@@ -1,4 +1,4 @@
-import { parseISO, format, getISOWeek } from 'date-fns';
+import { format, getISOWeek } from 'date-fns';
 
 
 //TODO: Optimize
@@ -13,20 +13,43 @@ const isBetween = (date, min, max) => isToday(min) || isToday(max)||
    (date.getTime() >= min.getTime() &&
    date.getTime() <= max.getTime());
 
+const weekIsBetweenStartEnd = (today, weekToCompare, startDate, endDate) => {
+  const todayYear = today.getFullYear();
+  const startDateYear = startDate.getFullYear();
+  const endDateYear = endDate.getFullYear();
+
+  const startDateComplies = weekToCompare >= getISOWeek(startDate) || startDateYear < todayYear;
+  const endDateComplies = weekToCompare <= getISOWeek(endDate) || endDateYear > todayYear;
+  const inFuture = todayYear < startDateYear && todayYear < endDateYear;
+  return startDateComplies && endDateComplies && !inFuture;
+};
+
+const monthIsBetweenStartEnd = (day, startDate, endDate) => {
+  const monthToCompare = day.getMonth();
+  const todayYear = day.getFullYear();
+  const startDateYear = startDate.getFullYear();
+  const endDateYear = endDate.getFullYear();
+
+  const startDateComplies = monthToCompare >= startDate.getMonth() || startDateYear < todayYear;
+  const endDateComplies = monthToCompare <= endDate.getMonth() || endDateYear > todayYear;
+  const inFuture = todayYear < startDateYear && todayYear < endDateYear;
+  return startDateComplies && endDateComplies && !inFuture;
+};
+
 const isInWeek = (startDateString, endDateString, addWeeks) => {
-  const startDate = parseISO(startDateString);
-  const endDate = parseISO(endDateString);
+  const startDate = new Date(startDateString);
+  const endDate = new Date(endDateString);
   const today = new Date();
   const todayWeek = getISOWeek(today);
+
   const weekToCompare =  addWeeks ? todayWeek + addWeeks : todayWeek;
-  const fullDayIsBetweenStartEnd = isBetween(today, startDate, endDate);
-  const weekIsBetweenStartEnd = weekToCompare >= getISOWeek(startDate) &&
-     weekToCompare <= getISOWeek(endDate);
-  return fullDayIsBetweenStartEnd && weekIsBetweenStartEnd;
+
+  const isBetweenStartEnd = weekIsBetweenStartEnd(today, weekToCompare, startDate, endDate);
+  return isBetweenStartEnd;
 };
 
 export default function FormattedDate({ dateString }) {
-  const date = parseISO(dateString);
+  const date = new Date(dateString);
   return <time dateTime={dateString}>{format(date, 'LLLL d, yyyy')}</time>
 }
 
@@ -39,9 +62,29 @@ export function isInNextWeek(startDateString, endDateString) {
 }
 
 export function isInThisMonth(startDateString, endDateString) {
-  const startDate = parseISO(startDateString);
-  const endDate = parseISO(endDateString);
-  return isBetween(new Date(), startDate, endDate);
+  const startDate = new Date(startDateString);
+  const endDate = new Date(endDateString);
+
+  return monthIsBetweenStartEnd(new Date(), startDate, endDate);
+}
+
+export function finishesSoon(dateString) {
+  const asDate = new Date(dateString);
+  const today = new Date();
+  const todayYear = today.getFullYear();
+  const asDateYear = asDate.getFullYear();
+
+  const oneWeekAhead = new Date();
+  oneWeekAhead.setDate(today.getDate() + 7);
+
+
+  return todayYear === asDateYear && oneWeekAhead >= asDate;
+}
+
+export function isInTheFuture(dateString) {
+  const asDate = new Date(dateString);
+  const today = new Date();
+  return asDate > today || isToday(asDate);
 }
 
 export function formatDate(dateString) {

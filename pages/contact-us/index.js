@@ -7,16 +7,28 @@ import { Button } from 'primereact/button';
 import { useState } from 'react';
 import useTranslation from "next-translate/useTranslation";
 import { Toast } from 'primereact/toast';
+import {Dropdown} from "primereact/dropdown";
+import {BackToHome} from "../../components/navigation/backToHome";
 
 export default function ContactUs() {
+   const reasons = [
+      { name: 'InfoForTheatre', code: 'InfoForTheatre' },
+      { name: 'NewTheatre', code: 'NewTheatre' },
+      { name: 'Suggestions', code: 'Suggestions' },
+      { name: 'Other', code: 'Other' }
+   ];
+
    const toast = useRef(null);
-   const [subject, setSubject] = useState('');
    const [message, setMessage] = useState('');
+   const [reason, setReason] = useState('');
    const { t, lang } = useTranslation('common');
+
+
+
    const handleSubmit = e => {
       e.preventDefault();
       const data = {
-         subject,
+         reason: t(""+reason.name),
          message,
       };
       fetch('/api/contact', {
@@ -25,7 +37,7 @@ export default function ContactUs() {
       }).then(() => {
          e.target[0].value = '';
          e.target[1].value = '';
-         setSubject("");
+         setReason("");
          setMessage("");
          showSuccess();
       });
@@ -38,39 +50,95 @@ export default function ContactUs() {
          detail: t("contactUsSubmit")});
    };
 
+   const selectedTranslatedOptionTemplate = (option, props) => {
+      if (option) {
+         return (
+            <div className="country-item country-item-value">
+               <div>{t(""+option.name)}</div>
+            </div>
+         );
+      }
+
+      return (
+         <span>
+            {props.placeholder}
+        </span>
+      );
+   };
+
+   const translatedOptionTemplate = (option) => {
+      return (
+         <div className="country-item">
+            <div>{t(""+option.name)}</div>
+         </div>
+      );
+   };
+
+   const onReasonChange = (e) => {
+      setReason(e.value);
+   };
+
    return (
-      <Layout>
+      <Layout description={'Contact Us'}>
          <Head>
-            <title>Contact Us</title>
+            <title>Theatralis - Contact Us</title>
          </Head>
+
+         <header className="max-w-screen-xl text-center mx-auto object-center">
+            <div className="hero-image-2 px-0 hero-image-small">
+            </div>
+         </header>
 
          <Toast ref={toast} />
 
          <div className="w-full flex justify-around">
-
-            <article className="prose prose-purple p-5">
-               <h1>{t("contactUsHd")}</h1>
-               <h3> ✍️ {t("contactUsSubhd")}</h3>
+            <article className="prose p-5">
+               <div className="event-title pb-3 sharp-line">{t("contactUsHd")}</div>
+               <div className="event-details flex items-center pt-5">
+                    <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
+                  ️ <div className="th-icon-text font-bold">{t("contactUsSubhd")}</div>
+               </div>
+               <div className="event-details flex items-center pt-3 pb-3">
+                  ️ <div className="th-icon-text">
+                  {t("contactUsSubhd2")}
+                  <a href="mailto:info@theatralis.com.cy">info@theatralis.com.cy</a>
+                  {t("contactUsSubhd3")}
+               </div>
+               </div>
                <form onSubmit={handleSubmit}>
                <div className="p-fluid">
 
                   <div className="p-field">
-                     <label htmlFor="firstname1">{t("subject")}</label>
-                     <InputText id="firstname1" type="text"
-                                onChange={(e) => setSubject(e.target.value)}/>
+                     <label htmlFor="reason">{t("subject")} <span className='brand-red'>*</span></label>
+                     <Dropdown value={reason}
+                               style={{width: '100%', maxHeight: '310px'}}
+                               key="reason"
+                               options={reasons}
+                               onChange={onReasonChange}
+                               optionLabel="name"
+                               placeholder={t("selectReason")}
+                               scrollHeight="300px"
+                               valueTemplate={selectedTranslatedOptionTemplate}
+                               itemTemplate={translatedOptionTemplate}
+                     />
                   </div>
                   <div className="p-field">
-                     <label htmlFor="message">{t("message")}</label>
+                     <label htmlFor="message">{t("message")} <span className='brand-red'>*</span> </label>
                      <InputTextarea id="address"
                                     type="text"
+                                    value={message}
                                     rows="4"
+                                    required
                                     onChange={(e) => setMessage(event.target.value)}
                      />
                   </div>
                </div>
-                  <Button type="submit" disabled={!message || !subject} label={t("submit")}/>
+                  <Button type="submit"
+                          disabled={!reason || !message}
+                          label={t("submit")}/>
                </form>
 
+               <BackToHome/>
             </article>
          </div>
       </Layout>

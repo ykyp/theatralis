@@ -37,33 +37,74 @@ fields:
     maxSize: 64
   label: Event Image
   description: This will be shown in the homepage list
+- name: cover_image
+  type: file
+  config:
+    maxSize: 64
+  label: Cover Image
+  description: This will be shown in the event details as a cover photo
 - name: category
   type: text
   config:
     required: false
   label: Category
-  description: I katigoria/katigories tou ergou, comma separated<br><strong>Drama,
-    Comedy, Standup, Children, Historical, Musical, Amateur, Tragedy</strong>, <strong>Mystery,
-    Satire, Opera</strong>
+  description: I katigoria/katigories tou ergou, comma separated<br><strong>Biography,
+    Drama, Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>,
+    <strong>Novel, Satire, Opera</strong>
+- name: gallery_1
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 1st image
+  description: First image of the gallery
+- name: gallery_2
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 2nd image
+  description: Second image of the gallery
+- name: gallery_3
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 3rd image
+  description: Third image of the gallery
+- name: extended
+  type: boolean
+  label: Paratasi/Extended
+  description: Enable this if the event got extended
+- name: critic_link
+  type: text
+  config:
+    required: false
+  label: Phileleftheros link
+  description: Το λινκ στην κριτικη του Φιλελευθερου
+- name: critic_title
+  type: text
+  config:
+    required: false
+  label: Phileleftheros title
+- name: critic_p
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Phileleftheros Paragraph
+  description: Μια παράγραφος με την κριτικη του Φιλελεύθερου
 pages:
-- events/1964.md
-- events/2022-1.md
-- events/2022.md
-- events/event4.md
-- events/female-ink.md
-- events/gia-tis-maroullous-tamathkia.md
-- events/kisses.md
-- events/oi-vatrahoi.md
-- events/oidipous-tiranos.md
-- events/padia-enos.md
-- events/pasha.md
-- events/raous.md
-- events/to-thauma-tis-annis-salivan.md
-- events/βασιλιάς-ληρ.md
-- events/η-ποντικοπαγίδα.md
-- events/η-σκοτεινη-πετρα.md
-- events/η-φωλιά-του-κούκου.md
-- events/ο-μάγος-του-οζ.md
-- events/οθέλλος.md
-- events/ποιός-σκότωσε-το-βασιλιά.md
-- events/τερασ.md
+- events/a-pepa-mplom.md
+- events/asta-na-pane.md
+- events/den-akouw-den-vlepo-den-milo.md
+- events/elmer-o-pardalos-elefantas.md
+- events/emigkredes.md
+- events/eutrapeles-viral-istories.md
+- events/filoumena-martourano.md
+- events/i-methodos-tou-dr-palomero.md
+- events/i-porni-apo-panw.md
+- events/kapote-sto-vosporo.md
+- events/o-trigonopsaroulis.md
+- events/pavlis-milia-love-hor-ever.md
+- events/the-corporation.md

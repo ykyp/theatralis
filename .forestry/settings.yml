@@ -1,12 +1,17 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: directory
   path: events
   label: Events
+  create: all
+  match: "*"
+- type: directory
+  path: archive
+  label: Archive
   create: all
   match: "*"
 upload_dir: public/images/uploads

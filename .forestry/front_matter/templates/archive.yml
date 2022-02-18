@@ -1,0 +1,96 @@
+---
+label: Archive
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: "<strong>The title of the theatre event</strong>"
+  config:
+    required: true
+- type: datetime
+  name: startDate
+  label: Start Date
+  config:
+    date_format: YYYY-MM-DD
+    export_format: YYYY-MM-DD
+    required: true
+  description: "<strong>When the theatre events starts</strong>"
+- type: datetime
+  name: endDate
+  label: End Date
+  config:
+    date_format: YYYY-MM-DD
+    export_format: YYYY-MM-DD
+    required: true
+  description: "<strong>When the theatre event ends</strong>"
+- type: text
+  name: city
+  label: 'City '
+  description: "<strong>Add all cities with a comma<br>eg: Nicosia, Limassol, Larnaca,
+    Pafos, Famagusta</strong>"
+  config:
+    required: true
+- name: event_image
+  type: file
+  config:
+    maxSize: 64
+  label: Event Image
+  description: This will be shown in the homepage list
+- name: cover_image
+  type: file
+  config:
+    maxSize: 64
+  label: Cover Image
+  description: This will be shown in the event details as a cover photo
+- name: category
+  type: text
+  config:
+    required: false
+  label: Category
+  description: I katigoria/katigories tou ergou, comma separated<br><strong>Biography,
+    Drama, Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>,
+    <strong>Novel, Satire, Opera</strong>
+- name: gallery_1
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 1st image
+  description: First image of the gallery
+- name: gallery_2
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 2nd image
+  description: Second image of the gallery
+- name: gallery_3
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 3rd image
+  description: Third image of the gallery
+- name: extended
+  type: boolean
+  label: Paratasi/Extended
+  description: Enable this if the event got extended
+pages:
+- events/1984.md
+- events/all-the-wrong-men.md
+- events/aristofanis-tosos-da.md
+- events/as-valoume-xroma.md
+- events/ego-i-eleni-papadaki.md
+- events/kafrokrema.md
+- events/kat-eikona.md
+- events/mia-terastia-ekrixi.md
+- events/o-aggelos-tou-thanatou.md
+- events/o-filargiros.md
+- events/o-metaxoulis.md
+- events/o-visinokipos-sto-trapezi.md
+- events/panikos_sta_paraskinia.md
+- events/perimenontas-ton-gkonto.md
+- events/stand-up-comedy-night-red.md
+- events/thavontas-ton-aderfo-mou-sto-pezodromio.md
+- events/tinos-einai-to-moro.md
+- events/to-kokkino-forema-tis-savel.md
+- events/to-paploma.md
+- events/to-taxidi-tis-paplomatous.md
