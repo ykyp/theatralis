@@ -73,6 +73,17 @@ fields:
   type: boolean
   label: Paratasi/Extended
   description: Enable this if the event got extended
+- name: critic_link
+  type: text
+  config:
+    required: false
+  label: Phileleftheros link
+  description: Το λινκ στην κριτικη του Φιλελευθερου
+- name: critic_title
+  type: text
+  config:
+    required: false
+  label: Phileleftheros title
 - name: critic_p
   type: textarea
   default: ''
@@ -83,12 +94,6 @@ fields:
       format: html-blocks
   label: Phileleftheros Paragraph
   description: Μια παράγραφος με την κριτικη του Φιλελεύθερου
-- name: critic_link
-  type: text
-  config:
-    required: false
-  label: Phileleftheros link
-  description: Το λινκ στην κριτικη του Φιλελευθερου
 pages:
 - events/a-pepa-mplom.md
 - events/asta-na-pane.md
