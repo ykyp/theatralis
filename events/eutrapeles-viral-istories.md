@@ -1,7 +1,7 @@
 ---
 title: ΕΥΤΡΑΠΕΛΕΣ VIRAL ΙΣΤΟΡΙΕΣ
 startDate: 2022-03-05
-endDate: 2022-02-13
+endDate: 2022-03-12
 city: Pafos, Nicosia
 event_image: "/images/uploads/newinsta001.jpg"
 cover_image: "/images/uploads/viral-stories.jpg"
@@ -12,6 +12,7 @@ gallery_3: ''
 extended: false
 critic_p: ''
 critic_link: ''
+critic_title: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
