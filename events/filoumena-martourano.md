@@ -10,13 +10,14 @@ gallery_1: "/images/uploads/pq3a8370.jpg"
 gallery_2: "/images/uploads/pq3a8081.jpg"
 gallery_3: "/images/uploads/pq3a8175.jpg"
 extended: false
-critic_p: "<p>Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing
-  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  commodo <em>consequat</em>. Duis aute irure dolor in reprehenderit in voluptate
-  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+critic_p: "<p>Παρόλο που η ποιητική συλλογή «Ταγκό 29» είναι το πρώτο ποιητικό βιβλίο
+  το οποίο έγραψε ο Μάριος Βούργος, η δουλειά του ουδόλως συγκεντρώνει τα χαρακτηριστικά
+  μιας πρωτόλειας εργασίας. Αντιθέτως, η ποίηση που γράφει είναι μεστή σε μηνύματα
+  και νοήματα, στρωτή σε τεχνοτροπικά και υφολογικά ζητήματα, αλλά και αρμονική σε
+  ό,τι αφορά τις αισθητικές παραμέτρους. Το γεγονός ενδεχομένως να έχει να κάμει και
+  με τις άλλες καλλιτεχνικές αναζητήσεις του Μ.Β., συναφείς με τα λογοτεχνικά πράγματα.</p>"
 critic_link: https://www.philenews.com/politismos/kritikes/article/1400757/metaxy-parontos-parelthontos-kai-mellontos
+critic_title: Μεταξύ παρόντος, παρελθόντος και μέλλοντος
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
