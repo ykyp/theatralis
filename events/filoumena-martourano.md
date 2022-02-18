@@ -16,7 +16,7 @@ critic_p: "<p>Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscin
   commodo <em>consequat</em>. Duis aute irure dolor in reprehenderit in voluptate
   velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-critic_link: www.theatralis.com.cy
+critic_link: https://www.philenews.com/politismos/kritikes/article/1400757/metaxy-parontos-parelthontos-kai-mellontos
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
