@@ -5,13 +5,14 @@ endDate: 2022-04-02
 city: Limassol, Nicosia
 event_image: "/images/uploads/kapote-sto-vosporo.jpg"
 cover_image: ''
-category: Historical, Drama, Mucical
+category: Historical, Drama, Musical
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
 extended: false
 critic_p: ''
 critic_link: ''
+critic_title: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
