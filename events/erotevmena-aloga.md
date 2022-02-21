@@ -3,7 +3,7 @@ title: 'ΕΡΩΤΕΥΜΕΝΑ ΑΛΟΓΑ '
 startDate: 2022-02-26
 endDate: 2022-02-26
 city: Limassol
-event_image: ''
+event_image: "/images/uploads/horse-in.jpeg"
 cover_image: ''
 category: ''
 gallery_1: ''
