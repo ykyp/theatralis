@@ -1,7 +1,7 @@
 ---
 title: Ο ΦΙΛΑΡΓΥΡΟΣ
 startDate: 2022-02-26
-endDate: 2022-03-16
+endDate: 2022-03-20
 city: Nicosia,limassol
 event_image: "/images/uploads/a3-digital-01.jpg"
 cover_image: ''
@@ -60,7 +60,7 @@ extended: false
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-ΛΕΥΚΩΣΙΑ
+**ΛΕΥΚΩΣΙΑ**
 
 **_Πρεμιέρα_:** Σάββατο 26 Φεβρουαρίου 2022 στις 20:00
 
@@ -68,11 +68,13 @@ extended: false
 
 Επιπλέον παραστάσεις την Παρασκευή 11 και 18 Μαρτίου στις 20:00
 
+**_Ώρα Έναρξης:_** Σάββατο στις 20:00 / Κυριακή στις 18:30
+
 **_Τοποθεσία_:** [Κεντρική Σκηνή Σατιρικού Θεάτρου](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1630974,33.3843854,17z/data=!3m1!4b1!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709 "https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1630974,33.3843854,17z/data=!3m1!4b1!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709")
 
 ***
 
-ΛΕΜΕΣΟΣ
+**ΛΕΜΕΣΟΣ**
 
 **_Ημερομηνία_:** Τετάρτη 16 Μαρτίου
 
