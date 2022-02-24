@@ -1,14 +1,15 @@
 ---
 title: Ο ΜΕΤΑΞΟΥΛΗΣ
-startDate: 2022-01-23
-endDate: 2022-02-12
-city: Nicosia, Larnaca, Limassol, Pafos
+startDate: 2022-02-26
+endDate: 2022-04-03
+city: Nicosia, Larnaca, Limassol, Pafos, Famagusta
 event_image: "/images/uploads/metaksoulisstauros.jpg"
 category: Children
 cover_image: ''
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
+extended: false
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -37,48 +38,64 @@ gallery_3: ''
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνίες και Ώρα έναρξης:_**
+**_Ημερομηνία:_** Σάββατο, 26 Φεβρουαρίου
 
-Κυριακή 20 Φεβρουαρίου 2022 στις 10:00πμ και 12:00μμ  
-Σάββατο 26 Φεβρουαρίου 2022 στις 10:00πμ και 12:00μμ
+**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
 
-**_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")  
-**_Διάρκεια:_** 55’  
-**_Τιμή εισιτηρίων:_** €12  
-**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα του [Ριάλτο](https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511 "https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511") ή απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home").
+**_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")
+
+***
 
 **ΛΕΥΚΩΣΙΑ**
 
-**_Ημερομηνίες και Ώρα έναρξης:_**
+**_Ημερομηνία:_** Κυριακή 13 Μαρτίου
 
-Κυριακή 23 Ιανουαρίου 2022 στις 10:00πμ και 12:00μμ  
-Κυριακή 30 Ιανουαρίου 2022 στις 10:00 πμ
+**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
 
-**_Τοποθεσία:_** [Θέατρο Παλλάς](https://www.google.com/maps/place/Pallas+Theater/@35.1732295,33.3551574,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17502ddb6def:0xf9034fe4278c3e69!8m2!3d35.1732295!4d33.3573461 "https://www.google.com/maps/place/Pallas+Theater/@35.1732295,33.3551574,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17502ddb6def:0xf9034fe4278c3e69!8m2!3d35.1732295!4d33.3573461")  
-**_Διάρκεια:_** 55’  
-**_Τιμή εισιτηρίων:_** €12  
-**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home").
+**_Τοποθεσία:_** [Σατιρικό Θέατρο](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1623159,33.3830195,16.22z/data=!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709 "Σατιρικό Θέατρο")
+
+***
 
 **ΛΑΡΝΑΚΑ**
 
-**_Ημερομηνίες και Ώρα έναρξης:_**
+**_Ημερομηνία:_** Κυριακή 20 Μαρτίου
 
-Κυριακή 6 Φεβρουαρίου 2022 στις 11:00πμ
+**_Ώρα έναρξης:_** 11:00πμ
 
-**_Τοποθεσία:_** [Δημοτικό Θέατρο Λάρνακας](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160535,33.6242074,17z/data=!3m1!4b1!4m5!3m4!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961 "https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160535,33.6242074,17z/data=!3m1!4b1!4m5!3m4!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961")  
-**_Διάρκεια:_** 55’  
-**_Τιμή εισιτηρίων:_** €12  
-**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home").
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Λάρνακας](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160535,33.6242074,17z/data=!3m1!4b1!4m5!3m4!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961 "https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160535,33.6242074,17z/data=!3m1!4b1!4m5!3m4!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961")
+
+***
 
 **ΠΑΦΟΣ**
 
-**_Ημερομηνίες και Ώρα έναρξης:_**
+**_Ημερομηνία:_** Κυριακή 27 Μαρτίου
 
-Σάββατο 12 Φεβρουαρίου 2022 στις 11:00πμ
+**_Ώρα έναρξης:_** 11:00πμ
 
-**_Τοποθεσία:_** [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146 "https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146")  
-**_Διάρκεια:_** 55’  
-**_Τιμή εισιτηρίων:_** €12  
-**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home").
+**_Τοποθεσία:_** [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146 "https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146")
+
+***
+
+**ΑΜΜΟΧΩΣΤΟΣ**
+
+**_Ημερομηνία:_** Κυριακή 3 Απριλίου
+
+**_Ώρα έναρξης:_** 11:00πμ
+
+**_Τοποθεσία:_** [Ξένιον - Παραλίμνι](https://www.google.com/maps/place/Xenion+Education/@35.0414727,33.9763257,17z/data=!3m1!4b1!4m5!3m4!1s0x14dfc5f918b580f5:0x93bc1c31a08bad60!8m2!3d35.0414684!4d33.9783632 "Ξένιον")
+
+**_Διάρκεια:_** 55’
 
 Κατάλληλο για παιδία ηλικίας 2 χρονών και άνω
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ  
+
+**_Τιμή:_** €12
+
+**_Αγορά εισιτηρίων:_** 
+
+Για Λεμεσό: Απο την ιστοσελίδα του [Ριάλτο](https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511 "https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511") 
+
+Για τις υπόλοιπες πόλεις απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home")
