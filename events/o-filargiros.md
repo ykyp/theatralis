@@ -62,21 +62,21 @@ extended: false
 
 ΛΕΥΚΩΣΙΑ
 
-**Πρεμιέρα:** Σάββατο 26 Φεβρουαρίου 2022 στις 20:00
+**_Πρεμιέρα_:** Σάββατο 26 Φεβρουαρίου 2022 στις 20:00
 
-**Τακτικές Παραστάσεις:** Κάθε Σάββατο και Κυριακή
+**_Τακτικές Παραστάσεις:_** Κάθε Σάββατο και Κυριακή
 
 Επιπλέον παραστάσεις την Παρασκευή 11 και 18 Μαρτίου στις 20:00
 
-**Τοποθεσία:** [Κεντρική Σκηνή Σατιρικού Θεάτρου](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1630974,33.3843854,17z/data=!3m1!4b1!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709 "https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1630974,33.3843854,17z/data=!3m1!4b1!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709")
+**_Τοποθεσία_:** [Κεντρική Σκηνή Σατιρικού Θεάτρου](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1630974,33.3843854,17z/data=!3m1!4b1!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709 "https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1630974,33.3843854,17z/data=!3m1!4b1!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709")
 
 ***
 
 ΛΕΜΕΣΟΣ
 
-**Παράσταση:** 16 Μαρτίου
+**_Ημερομηνία Παράστασης_:** 16 Μαρτίου
 
-**Ώρα Έναρξης:** 8.30μ.μ
+**_Ώρα Έναρξης_:** 8.30μ.μ
 
 **_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6797568,33.043364,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6797568,33.043364,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")
 
