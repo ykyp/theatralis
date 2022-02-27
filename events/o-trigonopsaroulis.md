@@ -62,6 +62,6 @@ critic_title: ''
 
 **_Γενική είσοδος:_** €8
 
-**_Προπώληση εισιτηρίων:_** Tickethour και σε όλα τα καταστήματα ACS
+**_Προπώληση εισιτηρίων:_** [Tickethour ](https://shop.tickethour.com/ticketmaster_se_3732.html "Tickethour")και σε όλα τα καταστήματα ACS
 
 **_Πληροφορίες:_** 96 297278
