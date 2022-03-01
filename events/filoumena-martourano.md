@@ -2,7 +2,7 @@
 title: ΦΙΛΟΥΜΕΝΑ ΜΑΡΤΟΥΡΑΝΟ
 startDate: 2022-02-18
 endDate: 2022-04-17
-city: Nicosia
+city: nicosia, limassol, paphos, larnaca,famagusta
 event_image: "/images/uploads/pq3a8211.jpg"
 cover_image: "/images/uploads/pq3a8142-1.jpg"
 category: Drama, Comedy
