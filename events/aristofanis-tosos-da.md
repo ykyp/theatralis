@@ -1,7 +1,7 @@
 ---
 title: ΑΡΙΣΤΟΦΑΝΗΣ ΤΟΣΟΣ ΔΑ!
 startDate: 2022-01-08
-endDate: 2022-03-13
+endDate: 2022-03-20
 city: Nicosia, Limassol
 event_image: "/images/uploads/Αριστοφανισ.jpg"
 category: Children, Musical
