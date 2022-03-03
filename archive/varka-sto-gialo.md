@@ -1,7 +1,7 @@
 ---
 title: ΒΑΡΚΑ ΣΤΟ ΓΙΑΛΟ
-startDate: 2022-01-26
-endDate: 2022-01-26
+startDate: 2022-03-20T00:00:00+02:00
+endDate: 2022-03-20T00:00:00+02:00
 city: " Limassol"
 event_image: "/images/uploads/varka-sto-yialo-2.jpg"
 cover_image: ''
