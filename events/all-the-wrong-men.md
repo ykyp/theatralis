@@ -9,7 +9,7 @@ category: Monologue
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
-extended: false
+extended: true
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΟ ΕΡΓΟ
