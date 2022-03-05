@@ -97,7 +97,7 @@ export default function Event({ eventData: eventData }) {
   return (
     <Layout description={eventData.title}
             fbSiteName={period}
-            fbTitle={eventData.title}
+            fbTitle={eventData.title.toUpperCase()}
             previewImage={eventData.event_image}
     >
 
@@ -115,7 +115,7 @@ export default function Event({ eventData: eventData }) {
       }
 
       <Head>
-        <title>{eventData.title}</title>
+        <title>{eventData.title.toUpperCase()}</title>
       </Head>
       <div className="w-full flex justify-around">
 
