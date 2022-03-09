@@ -4,7 +4,7 @@ startDate: 2022-03-12
 endDate: 2022-04-30
 city: Nicosia
 event_image: "/images/uploads/ΑΦΙΣΑ.jpg"
-cover_image: "/images/uploads/nixtes.jpg"
+cover_image: "/images/uploads/nixtes-2.jpg"
 category: Standup
 gallery_1: "/images/uploads/pq3a1049.JPG"
 gallery_2: ''
