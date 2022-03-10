@@ -1,5 +1,5 @@
 ---
-title: ΓΙΑ ΓΥΝΑΙΚΑ ΚΑΛΗ ΕΙΝΑΙ
+title: ΗΡΑ ΚΑΤΣΟΥΔΑ / ΓΙΑ ΓΥΝΑΙΚΑ ΚΑΛΗ ΕΙΝΑΙ
 startDate: 2022-03-18
 endDate: 2022-03-21
 city: Pafos, Larnaca, Nicosia, Limassol
