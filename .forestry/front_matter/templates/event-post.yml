@@ -95,6 +95,7 @@ fields:
   label: Phileleftheros Paragraph
   description: Μια παράγραφος με την κριτικη του Φιλελεύθερου
 pages:
+- events/Aristotelis-Rigas.md
 - events/a-pepa-mplom.md
 - events/apopse-trome-stis-iokastis.md
 - events/asta-na-pane.md
@@ -118,6 +119,5 @@ pages:
 - events/nixtes-kwmwdias.md
 - events/o-trigonopsaroulis.md
 - events/pavlis-milia-love-hor-ever.md
-- events/stand-up-comedy.md
 - events/ta-koritsia-tis-limnis.md
 - events/the-corporation.md
