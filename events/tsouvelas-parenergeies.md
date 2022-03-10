@@ -1,5 +1,5 @@
 ---
-title: Αλεξανδρος Τσουβελας / "Παρενεργειες"
+title: Αλεξανδρος Τσουβελας / Παρενεργειες
 startDate: 2022-05-27
 endDate: 2022-05-29
 city: Larnaca, Nicosia, Limassol
