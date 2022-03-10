@@ -69,7 +69,7 @@ critic_p: ''
 
 \- ACS Couriers παγκύπρια
 
-\- Απο την ιστοσελίδα [Tickethour](https://shop.tickethour.com/ticketmaster_se_3714.html "Tickethour")
+\- Απο την ιστοσελίδα [Tickethour](https://shop.tickethour.com/ticketmaster_se_3685.html "Tickethour")
 
 **_Χορηγοί / Υποστηρικτές:_**
 
