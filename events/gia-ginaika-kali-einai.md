@@ -99,4 +99,4 @@ To «Για Γυναίκα, καλή είναι», η δεύτερη σόλο π
 
 \- Semeli Hotel
 
-\- Geekcultura
+\- [Geekcultura](https://geekcultura.com/ "Geek cultura")
