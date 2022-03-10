@@ -33,7 +33,7 @@ critic_p: ''
 
 Ώρα έναρξης: 20:00
 
-Τοποθεσία: Κινηματοθέατρο Καλλιθέα
+Τοποθεσία: [Κινηματοθέατρο Καλλιθέα](https://www.google.com/maps/place/%CE%9A%CE%B9%CE%BD%CE%B7%CE%BC%CE%B1%CF%84%CE%BF%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A3%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC+%CE%9A%CE%B1%CE%BB%CE%BB%CE%B9%CE%B8%CE%AD%CE%B1/@34.9497118,33.5860391,17z/data=!3m1!4b1!4m5!3m4!1s0x14de27914806f40b:0xd0638548524b2a24!8m2!3d34.9497118!4d33.5882278 "Καλλιθέα")
 
 ***
 
@@ -43,7 +43,7 @@ critic_p: ''
 
 Ώρα έναρξης: 20:00
 
-Τοποθεσία: Κινηματοθέατρο Παλλάς
+Τοποθεσία: [Κινηματοθέατρο Παλλάς](https://www.google.com/maps/place/Pallas+Theater/@35.1732295,33.3551574,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17502ddb6def:0xf9034fe4278c3e69!8m2!3d35.1732295!4d33.3573461 "Παλλάς")
 
 ***
 
@@ -53,7 +53,7 @@ critic_p: ''
 
 Ώρα έναρξης: 19:00
 
-Τοποθεσία: Ravens Music Hall
+Τοποθεσία: [Ravens Music Hall](https://www.google.com/maps/place/Ravens+Music+Hall/@34.6749096,33.0411508,17z/data=!3m1!4b1!4m5!3m4!1s0x14e733031361b6b7:0x4e9b0f40be781e08!8m2!3d34.6749096!4d33.0433395 "Ravens music hall")
 
 ***
 
@@ -69,7 +69,7 @@ critic_p: ''
 
 \- ACS Couriers παγκύπρια
 
-\- Απο την ιστοσελίδα Tickethour
+\- Απο την ιστοσελίδα [Tickethour](https://shop.tickethour.com/ticketmaster_se_3714.html "Tickethour")
 
 **_Χορηγοί / Υποστηρικτές:_**
 
