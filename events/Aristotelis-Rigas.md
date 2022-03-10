@@ -1,5 +1,5 @@
 ---
-title: Αριστοτελης Ρηγας / Stand up comedy & Μουσική Κωμωδία
+title: Αριστοτελης Ρηγας / Stand up comedy & Μουσικη Κωμωδια
 startDate: 2022-04-08
 endDate: 2022-04-10
 city: Larnaca, Nicosia, Limassol
