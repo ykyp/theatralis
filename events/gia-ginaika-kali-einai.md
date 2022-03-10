@@ -91,7 +91,7 @@ To «Για Γυναίκα, καλή είναι», η δεύτερη σόλο π
 
 \- ACS Couriers παγκύπρια
 
-\- Απο την ιστοσελίδα Tickethour
+\- Απο την ιστοσελίδα [Tickethour](https://shop.tickethour.com/ticketmaster_se_3714.html "Tickethour")
 
 **_Χορηγοί / Υποστηρικτές:_**
 
