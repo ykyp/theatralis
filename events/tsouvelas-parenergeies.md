@@ -62,3 +62,23 @@ critic_p: ''
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
+
+**_Τιμές εισιτηρίων:_**
+
+\- €15 προπώληση
+
+\- €18 στην είσοδο
+
+**_Προπώληση εισιτηρίων:_**
+
+\- ACS Couriers παγκύπρια
+
+\- Απο την ιστοσελίδα [Tickethour](https://shop.tickethour.com/ticketmaster_se_3689.html "Tickethour")
+
+**_Χορηγοί / Υποστηρικτές:_**
+
+\- Πολίτης 107.6
+
+\- Semeli Hotel
+
+\- [Geekcultura](https://geekcultura.com/ "Geek cultura")
