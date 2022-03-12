@@ -3,14 +3,14 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
 import { Filter } from '../components/filter';
 import { ListingEvent } from '../components/listing-event';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Paginator } from 'primereact/paginator';
 import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
 import {ISSERVER, useStateFromStorage} from "../components/session-storage-state";
-import { Card } from 'primereact/card';
+import { Messages } from 'primereact/messages';
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
@@ -20,6 +20,7 @@ const SELECTED_CURRENT_PAGE = 'th.currentPage';
 const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
 export default function Home({ allEventsData }) {
+   const covidMessage = useRef(null);
    const { t, lang } = useTranslation('common');
    const [results, setResults] = useState([]);
    const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
@@ -79,6 +80,12 @@ export default function Home({ allEventsData }) {
       searchEvents();
    }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage]);
 
+   useEffect(() => {
+         covidMessage.current.show([
+            { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
+         ]);
+   }, []);
+
    const searchEvents = () => {
       const query = {
          city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity?.name,
@@ -111,6 +118,7 @@ export default function Home({ allEventsData }) {
    const translatedPeriod = t(""+selectedPeriod.name);
    const translatedAudience = t(""+selectedCategory.name);
 
+
    return (
     <Layout home>
        <div className="w-full bg-gray-100">
@@ -129,10 +137,13 @@ export default function Home({ allEventsData }) {
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
        <Search />*/}
 
-       { !isLoading &&
+       <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto " ref={covidMessage}></Messages>
+
+             { !isLoading &&
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
             style={{maxWidth: '787px'}}>
              {/*<Card className="pt-2 pb-5 pl-5 pr-5">*/}
+
               <div className={`xs:text-xs sm:text-xs text-md text-gray-500 xs:ml-2 sm:ml-2`} style={{marginTop: '0.6em'}}>
                  {t('found')} <span className="text-black">{currentTotalCount} </span>
                  {t('events-for')}
