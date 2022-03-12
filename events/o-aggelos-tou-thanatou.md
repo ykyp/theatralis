@@ -68,6 +68,6 @@ extended: false
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Προπώληση εισιτηρίων:_** [Tickethour]() / ACS Courier
+**_Προπώληση εισιτηρίων:_** [Tickethour](https://shop.tickethour.com/ticketmaster_se_3719.html "Tickethour") / ACS Courier
 
 **_Πληροφορίες στα τηλέφωνα:_** 24 652800 και 99 490102
