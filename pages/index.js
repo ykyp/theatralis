@@ -137,7 +137,7 @@ export default function Home({ allEventsData }) {
        {/*<h2 className={utilStyles.headingLg}>Search</h2>
        <Search />*/}
 
-       <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto " ref={covidMessage}></Messages>
+       <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>
 
              { !isLoading &&
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}

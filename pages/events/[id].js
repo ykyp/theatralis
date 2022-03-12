@@ -166,7 +166,7 @@ export default function Event({ eventData: eventData }) {
               </div>
                   </div>
 
-              <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto " ref={covidMessage}></Messages>
+              <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>
 
 
 
