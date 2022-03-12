@@ -6,7 +6,7 @@ const name = 'Theatralis';
 
 const Hero = ({onSearchChange}) => {
    const {t, lang} = useTranslation('common');
-   const [value1, setValue1] = useState(null);
+   const [value, setValue] = useState(null);
    const [showSearch, setShowSearch] = useState(false);
    const inputEl = useRef(null);
 
@@ -21,11 +21,10 @@ const Hero = ({onSearchChange}) => {
    }, [showSearch]);
 
    useEffect(() => {
-      if (value1 !== null) {
-         console.log("value changed for ", value1);
-         onSearchChange(value1);
+      if (value !== null) {
+         onSearchChange(value);
       }
-   }, [value1]);
+   }, [value]);
 
 return (
    <header className="max-w-screen-l text-center mx-auto object-center">
@@ -54,8 +53,8 @@ return (
             <i className="pi pi-search"/>
             <InputText className=" w-full"
                        ref={inputEl}
-                       value={value1}
-                       onChange={(e) => setValue1(e.target.value)}
+                       value={value}
+                       onChange={(e) => setValue(e.target.value)}
                        placeholder="Search"/>
          </span>
       </div>
