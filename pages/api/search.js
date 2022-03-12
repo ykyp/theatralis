@@ -8,13 +8,10 @@ const currentlyActiveEvents = events.filter(event => {
 });
 
 const paginateResults = (results, query) => {
-   console.log("query.page", query.page);
    const currPage = Number(query.page) || 0;
    const numberPerPage = Number(query.rows) || 10;
    const trimStart = (currPage)*numberPerPage;
    const trimEnd = trimStart + numberPerPage;
-   console.log("trimStart", trimStart);
-   console.log("trimEnd", trimEnd);
    const paginatedResults = results.slice(trimStart, trimEnd);
    return paginatedResults;
 };
@@ -22,20 +19,17 @@ const paginateResults = (results, query) => {
 export default (req, res) => {
    let results = [];
    let totalLength = 0;
-   console.log("req.query.q",req.query.q);
    if (req.query.q !== "null") {
       const matchedNames = currentlyActiveEvents.filter(event => {
          return event.title.toLowerCase().indexOf(req.query.q.toLowerCase()) !== -1
       });
-      console.log("matchedNames", matchedNames.length);
+      totalLength = matchedNames.length;
       results = paginateResults(matchedNames, req.query);
    } else if (req.query.city === 'ALL' && req.query.period == 'ALL'
       && req.query.category == 'ALL') {
-      console.log("2");
       totalLength = currentlyActiveEvents.length;
       results =  paginateResults(currentlyActiveEvents, req.query);
    } else {
-      console.log("3");
       const matchingCities = req.query.city !== 'ALL' ?
          currentlyActiveEvents.filter(event => {
             const cityLowercase = event.city.toLowerCase();
@@ -73,7 +67,6 @@ export default (req, res) => {
       totalLength = intersectedResults.length;
       results = paginateResults(intersectedResults, req.query);
    }
-   console.log("Results", results.length);
   res.statusCode = 200;
   res.setHeader('Content-Type', 'application/json');
   res.end(JSON.stringify({ results, totalLength }))
