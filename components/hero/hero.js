@@ -1,12 +1,26 @@
 import React from 'react';
 import useTranslation from "next-translate/useTranslation";
+import { InputText } from 'primereact/inputtext';
+import {useState, useRef, useEffect} from "react";
 const name = 'Theatralis';
 
 const Hero = () => {
    const {t, lang} = useTranslation('common');
+   const [value1, setValue1] = useState('');
+   const [showSearch, setShowSearch] = useState(false);
+   const inputEl = useRef(null);
+
+   const toggleSearch = () => {
+     setShowSearch(!showSearch);
+   };
+
+   useEffect(() => {
+      if (showSearch) {
+         inputEl.current.focus();
+      }
+   }, [showSearch]);
 
 return (
-
    <header className="max-w-screen-l text-center mx-auto object-center">
       <div className="hero-image px-0">
          <img
@@ -21,8 +35,24 @@ return (
          <div className="text-2xl text-white mt-1">{t('hero-subtitle')}</div>*/}
       </div>
       <div className="hero-subtitle">
-         <div className="text-l text-white mt-1">{t('hero-subtitle')}</div>
+         <div className="text-l text-white mt-1">{t('hero-subtitle')}
+         <div className={`inline cursor-pointer `} onClick={() => toggleSearch()}>
+            <i className={`pi pi-search pl-4 pt-1 hover:search-active ${showSearch ? 'search-active' : 'text-white'}`}
+               style={{fontSize: '18px'}}></i>
+         </div>
+         </div>
       </div>
+      {showSearch && <div>
+         <span className="p-input-icon-left w-full">
+            <i className="pi pi-search"/>
+            <InputText className=" w-full"
+                       ref={inputEl}
+                       value={value1}
+                       onChange={(e) => setValue1(e.target.value)}
+                       placeholder="Search"/>
+         </span>
+      </div>
+      }
    </header>
 )};
 

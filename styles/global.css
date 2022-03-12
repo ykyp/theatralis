@@ -573,3 +573,9 @@ footer hr {
   align-items: center;
   flex-shrink: 0;
 }
+
+.search-active, .pi-search:hover  {
+  color: #fcbc18;
+}
+
+
