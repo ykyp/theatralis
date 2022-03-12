@@ -4,9 +4,9 @@ import { InputText } from 'primereact/inputtext';
 import {useState, useRef, useEffect} from "react";
 const name = 'Theatralis';
 
-const Hero = () => {
+const Hero = ({onSearchChange}) => {
    const {t, lang} = useTranslation('common');
-   const [value1, setValue1] = useState('');
+   const [value1, setValue1] = useState(null);
    const [showSearch, setShowSearch] = useState(false);
    const inputEl = useRef(null);
 
@@ -19,6 +19,13 @@ const Hero = () => {
          inputEl.current.focus();
       }
    }, [showSearch]);
+
+   useEffect(() => {
+      if (value1 !== null) {
+         console.log("value changed for ", value1);
+         onSearchChange(value1);
+      }
+   }, [value1]);
 
 return (
    <header className="max-w-screen-l text-center mx-auto object-center">

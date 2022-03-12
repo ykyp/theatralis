@@ -23,16 +23,17 @@ export default function Home({ allEventsData }) {
    const covidMessage = useRef(null);
    const { t, lang } = useTranslation('common');
    const [results, setResults] = useState([]);
+   const [searchBy, setSearchBy] = useState('');
    const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStateFromStorage({name: 'Anytime', code: 'ALL'}, SELECTED_PERIOD_KEY);
    const [selectedCategory, setSelectedCategory] = useStateFromStorage({name: 'AllCategories', code: 'ALL'}, SELECTED_CATEGORY_KEY);
    const [pageFirst, setPageFirst] = useStateFromStorage(0, SELECTED_FIRST_PAGE);
-   const [currentPage, setCurrentPage] = useStateFromStorage(0, SELECTED_CURRENT_PAGE);
+   const [currentPage, setCurrentPage] = useState(0);
    const [rowsPerPage, setRowsPerPage] = useStateFromStorage(10, SELECTED_ITEMS_PER_PAGE);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
    const [isLoading, setLoading] = useState(true);
 
-   const searchEndpoint = (city, period, category, page, rows) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}`;
+   const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q}`;
 
    const clearAll = () => {
       setSelectedCity({name: 'AllCities', code: 'ALL'});
@@ -76,9 +77,16 @@ export default function Home({ allEventsData }) {
       }
    };
 
+   const handleSearchChange = (e) => {
+      console.log(">>> handleSearchChange ", e);
+      setLoading(true);
+      setSearchBy(e);
+   };
+
    useEffect(() => {
+      console.log("use effect search -- currentPage", currentPage);
       searchEvents();
-   }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage]);
+   }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage, searchBy]);
 
    useEffect(() => {
          covidMessage.current.show([
@@ -87,18 +95,21 @@ export default function Home({ allEventsData }) {
    }, []);
 
    const searchEvents = () => {
+      console.log("1 currentPage", currentPage);
       const query = {
          city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity?.name,
          period: selectedPeriod.code,
          category:  selectedCategory.code === 'ALL'? 'ALL' : selectedCategory?.name,
          page: currentPage,
          rows: rowsPerPage,
+         q: searchBy
       };
       fetch(searchEndpoint(query.city,
          query.period,
          query.category,
          query.page,
-         query.rows))
+         query.rows,
+         query.q))
          .then(res => res.json())
          .then(res => {
             setResults(() => res.results);
@@ -120,7 +131,7 @@ export default function Home({ allEventsData }) {
 
 
    return (
-    <Layout home>
+    <Layout home onSearchChange={handleSearchChange}>
        <div className="w-full bg-gray-100">
           <div className="max-w-screen-xl pb-6 mx-auto ">
              <div  className="pb-2 pt-2">
