@@ -3,11 +3,11 @@ title: Αριστοτελης Ρηγας / Stand up comedy & Μουσικη Κω
 startDate: 2022-04-08
 endDate: 2022-04-10
 city: Larnaca, Nicosia, Limassol
-event_image: ''
+event_image: "/images/uploads/rigas1.jpg"
 cover_image: ''
 category: Standup
-gallery_1: ''
-gallery_2: ''
+gallery_1: "/images/uploads/aristotelis_rigas_1.jpg"
+gallery_2: "/images/uploads/rigas2.jpg"
 gallery_3: ''
 extended: false
 critic_link: ''
