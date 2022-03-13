@@ -166,11 +166,12 @@ export default function Event({ eventData: eventData }) {
               </div>
                   </div>
 
-              <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>
 
 
 
             </div>
+
+
             {/* we want to hide id if there's a cover photo and on small devices */}
             {eventData.event_image && !eventData.cover_image &&
               <div className="xs:m-auto sm:m-auto md:m-auto">
@@ -199,7 +200,11 @@ export default function Event({ eventData: eventData }) {
               </Zoom>
             </div>
             }
-          </div>
+
+             </div>
+          <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>
+
+
           <div className="hide-li">
             <TabView>
               <TabPanel header={t("details")}>
