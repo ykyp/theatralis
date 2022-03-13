@@ -6,7 +6,7 @@ city: Pafos, Larnaca, Nicosia, Limassol
 event_image: "/images/uploads/photo3-1-copy.jpg"
 cover_image: ''
 category: Standup
-gallery_1: ''
+gallery_1: "/images/uploads/0-copy.jpg"
 gallery_2: ''
 gallery_3: ''
 extended: false
