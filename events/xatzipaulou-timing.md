@@ -3,12 +3,12 @@ title: Γιώργος Χατζηπαύλου / Ταιμινγκ
 startDate: 2022-05-08
 endDate: 2022-05-08
 city: Limassol
-event_image: ''
+event_image: "/images/uploads/xt010108-copy.jpg"
 cover_image: ''
 category: Standup
-gallery_1: ''
-gallery_2: ''
-gallery_3: ''
+gallery_1: "/images/uploads/story-design.jpg"
+gallery_2: "/images/uploads/george-hadjipavlou-5.jpg"
+gallery_3: "/images/uploads/copy.jpg"
 extended: false
 critic_link: ''
 critic_title: ''
