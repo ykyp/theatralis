@@ -4,9 +4,8 @@ import { InputText } from 'primereact/inputtext';
 import {useState, useRef, useEffect} from "react";
 const name = 'Theatralis';
 
-const Hero = ({onSearchChange}) => {
+const Hero = ({onSearchChange, searchBy}) => {
    const {t, lang} = useTranslation('common');
-   const [value, setValue] = useState(null);
    const [showSearch, setShowSearch] = useState(false);
    const inputEl = useRef(null);
 
@@ -19,12 +18,6 @@ const Hero = ({onSearchChange}) => {
          inputEl.current.focus();
       }
    }, [showSearch]);
-
-   useEffect(() => {
-      if (value !== null) {
-         onSearchChange(value);
-      }
-   }, [value]);
 
 return (
    <header className="max-w-screen-l text-center mx-auto object-center">
@@ -49,15 +42,18 @@ return (
          </div>
       </div>
       {showSearch && <div>
-         <span className="p-input-icon-left w-full">
+         <div className="flex items-center">
+
+            <span className="p-input-icon-left w-full">
             <i className="pi pi-search"/>
 
             <InputText className=" w-full"
                        ref={inputEl}
-                       value={value}
-                       onChange={(e) => setValue(e.target.value)}
+                       value={searchBy}
+                       onChange={(e) => onSearchChange(e.target.value)}
                        placeholder={t('search')}/>
          </span>
+         </div>
       </div>
       }
    </header>
