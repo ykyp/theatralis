@@ -42,8 +42,8 @@ return (
       </div>
       <div className="hero-subtitle">
          <div className="text-l text-white mt-1">{t('hero-subtitle')}
-         <div className={`inline cursor-pointer `} onClick={() => toggleSearch()}>
-            <i className={`pi pi-search pl-4 pt-1 hover:search-active ${showSearch ? 'search-active' : 'text-white'}`}
+         <div className={`inline cursor-pointer search-btn ml-3`} onClick={() => toggleSearch()}>
+            <i className={`pi pi-search hover:search-active ${showSearch ?? 'search-active'}`}
                style={{fontSize: '18px'}}></i>
          </div>
          </div>
@@ -51,11 +51,12 @@ return (
       {showSearch && <div>
          <span className="p-input-icon-left w-full">
             <i className="pi pi-search"/>
+
             <InputText className=" w-full"
                        ref={inputEl}
                        value={value}
                        onChange={(e) => setValue(e.target.value)}
-                       placeholder="Search"/>
+                       placeholder={t('search')}/>
          </span>
       </div>
       }

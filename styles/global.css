@@ -574,8 +574,20 @@ footer hr {
   flex-shrink: 0;
 }
 
-.search-active, .pi-search:hover  {
-  color: #fcbc18;
+.search-btn i {
+  color: black;
+  padding: 3px 0;
+}
+.search-active, .pi-search:hover, .search-btn:hover  {
+  opacity: 0.8;
+
 }
 
+.search-btn {
+  background-color: #fcbc18;
+  padding: 5px 8px 5px 8px;
+  border: 1px solid  #fcbc18;
+  border-radius: 7px;
+  background-clip: padding-box;
+}
 
