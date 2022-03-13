@@ -3,10 +3,10 @@ title: Αλεξανδρος Τσουβελας / Παρενεργειες
 startDate: 2022-05-27
 endDate: 2022-05-29
 city: Larnaca, Nicosia, Limassol
-event_image: ''
+event_image: "/images/uploads/τσουβελας.jpg"
 cover_image: ''
 category: Standup
-gallery_1: ''
+gallery_1: "/images/uploads/2.jpg"
 gallery_2: ''
 gallery_3: ''
 extended: false
