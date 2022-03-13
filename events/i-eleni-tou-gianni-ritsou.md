@@ -10,9 +10,14 @@ gallery_1: "/images/uploads/_eleni_ritsos_marios_ioannou_achim_wieland_srslyyour
 gallery_2: "/images/uploads/eleni_ritsos_marios_ioannou_achim_wieland_srslyyours_photo_img_20220210_225540.jpeg"
 gallery_3: ''
 extended: false
-critic_link: ''
-critic_title: ''
-critic_p: ''
+critic_link: https://www.philenews.com/politismos/kritikes/article/1421529/i-ypertrofia-toy-ametablitoy
+critic_title: Η υπερτροφία του αμετάβλητου
+critic_p: "<p>Η προηγούμενη φορά που είδα επί σκηνής την «Ελένη» του Γιάννη Ρίτσου
+  ήταν τον Μάιο του 2019, όταν ο Βασίλης Παπαβασιλείου μετακλήθηκε να παρουσιάσει
+  στην Κεντρική Σκηνή του ΘΟΚ τη δική του εκδοχή, η οποία εστιάζει στην ταυτοτική
+  γλώσσα και το παιχνίδι της. Ανυπομονούσα ήδη από τότε να δω μια διαφορετική εκδοχή,
+  ήμουν περίεργος τι θα μου «έλεγε» αυτό το τόσο ανοιχτό σε αναγνώσεις, αλληγορικό
+  κείμενο.</p>"
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
