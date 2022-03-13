@@ -3,7 +3,7 @@ title: ΗΡΑ ΚΑΤΣΟΥΔΑ / ΓΙΑ ΓΥΝΑΙΚΑ ΚΑΛΗ ΕΙΝΑΙ
 startDate: 2022-03-18
 endDate: 2022-03-21
 city: Pafos, Larnaca, Nicosia, Limassol
-event_image: ''
+event_image: "/images/uploads/photo3-1-copy.jpg"
 cover_image: ''
 category: Standup
 gallery_1: ''
