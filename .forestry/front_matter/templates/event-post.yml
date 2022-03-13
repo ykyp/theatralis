@@ -95,7 +95,6 @@ fields:
   label: Phileleftheros Paragraph
   description: Μια παράγραφος με την κριτικη του Φιλελεύθερου
 pages:
-- events/..md
 - events/Aristotelis-Rigas.md
 - events/Xatzipaulou-comedy-club.md
 - events/a-pepa-mplom.md
@@ -123,5 +122,6 @@ pages:
 - events/pavlis-milia-love-hor-ever.md
 - events/ta-koritsia-tis-limnis.md
 - events/the-corporation.md
+- events/tsitax-i-erimia-tou-termatofilaka.md
 - events/tsouvelas-parenergeies.md
 - events/xatzipaulou-timing.md
