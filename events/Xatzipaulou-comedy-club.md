@@ -3,7 +3,7 @@ title: Γιωργος Χατζηπαυλου / COMEDY CLUB για παιδια
 startDate: 2022-05-07
 endDate: 2022-05-08
 city: Nicosia, Limassol
-event_image: ''
+event_image: "/images/uploads/tickethour-copy.jpg"
 cover_image: ''
 category: Standup
 gallery_1: ''
