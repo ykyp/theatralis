@@ -63,6 +63,8 @@ O Γιώργος Χατζηπαύλου, ένας από τους κορυφαί
 
 **_Προπώληση εισιτηρίων:_**
 
+\- Απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3705.html?tkhrq=39c0393a-8394-41d5-9491-80829095f344&tkhrp=099917f9-9696-4f19-8948-5d94d490bdac&tkhrts=1647179426&tkhrc=tickethour&tkhre=shopcy&tkhrrt=Safetynet&tkhrh=8f17c219c51a2992bbfdb89dbcc5fe95 "Tickethour")
+
 **_Χορηγοί / Υποστηρικτές:_**
 
 \- Πολίτης 107.6 και εφημερίδα Πολίτης
