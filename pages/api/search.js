@@ -22,13 +22,11 @@ const matchedSearchAllOtherResults = (query, allOtherResults) => {
       matchedNames = currentlyActiveEvents.filter(event => {
          return event.title.toUpperCase().indexOf(query.q.toUpperCase()) !== -1
       });
-   }
-   if (matchedNames.length > 0) {
       const intersectedResults = intersection(allOtherResults, matchedNames);
       return {
-         totalLength : intersectedResults.length,
+         totalLength: intersectedResults.length,
          results: paginateResults(intersectedResults, query)
-      };
+      }
    } else {
       return {
          totalLength : allOtherResults.length,
