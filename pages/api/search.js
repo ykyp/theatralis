@@ -19,7 +19,7 @@ const paginateResults = (results, query) => {
 export default (req, res) => {
    let results = [];
    let totalLength = 0;
-   if (req.query.q !== "null") {
+   if (req.query.q !== "null" && req.query.q !== "") {
       const matchedNames = currentlyActiveEvents.filter(event => {
          return event.title.toUpperCase().indexOf(req.query.q.toUpperCase()) !== -1
       });
@@ -30,6 +30,7 @@ export default (req, res) => {
       totalLength = currentlyActiveEvents.length;
       results =  paginateResults(currentlyActiveEvents, req.query);
    } else {
+      console.log("use search filters ");
       const matchingCities = req.query.city !== 'ALL' ?
          currentlyActiveEvents.filter(event => {
             const cityLowercase = event.city.toLowerCase();
@@ -65,6 +66,7 @@ export default (req, res) => {
 
       const intersectedResults = intersection(matchingCities, matchingPeriods, matchingAudience);
       totalLength = intersectedResults.length;
+      console.log("filters total length ", totalLength);
       results = paginateResults(intersectedResults, req.query);
    }
   res.statusCode = 200;

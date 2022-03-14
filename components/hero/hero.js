@@ -2,6 +2,7 @@ import React from 'react';
 import useTranslation from "next-translate/useTranslation";
 import { InputText } from 'primereact/inputtext';
 import {useState, useRef, useEffect} from "react";
+import { debounce } from 'lodash';
 const name = 'Theatralis';
 
 const Hero = ({onSearchChange, searchBy}) => {
@@ -11,6 +12,10 @@ const Hero = ({onSearchChange, searchBy}) => {
 
    const toggleSearch = () => {
      setShowSearch(!showSearch);
+   };
+
+   const handleSearchChange = (e) => {
+      onSearchChange(e.target.value);
    };
 
    useEffect(() => {
@@ -50,7 +55,7 @@ return (
             <InputText className=" w-full"
                        ref={inputEl}
                        value={searchBy}
-                       onChange={(e) => onSearchChange(e.target.value)}
+                       onChange={handleSearchChange}
                        placeholder={t('search')}/>
 
                { searchBy &&

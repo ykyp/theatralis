@@ -39,8 +39,35 @@ export default function Home({ allEventsData }) {
       setSelectedCity({name: 'AllCities', code: 'ALL'});
       setSelectedPeriod({name: 'Anytime', code: 'ALL'});
       setSelectedCategory({name: 'AllCategories', code: 'ALL'});
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_CITY_KEY, '');
+         sessionStorage.setItem(SELECTED_PERIOD_KEY, '');
+         sessionStorage.setItem(SELECTED_CATEGORY_KEY, '');
+      }
       setSearchBy('');
    };
+
+   const clearCity = () => {
+      setSelectedCity({name: 'AllCities', code: 'ALL'});
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_CITY_KEY, '');
+      }
+   };
+
+   const clearPeriod = () => {
+      setSelectedPeriod({name: 'Anytime', code: 'ALL'});
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_PERIOD_KEY, '');
+      }
+   };
+
+   const clearCategory = () => {
+      setSelectedCategory({name: 'AllCategories', code: 'ALL'});
+      if(!ISSERVER) {
+         sessionStorage.setItem(SELECTED_CATEGORY_KEY, '');
+      }
+   };
+
 
    const handleCityChange = (e) => {
       setLoading(true);
@@ -154,7 +181,7 @@ export default function Home({ allEventsData }) {
                  {t('found')} <span className="text-black">{currentTotalCount} </span>
                  {t('events-for')}
                  {searchBy && <span className="result-filter-container ">
-                  {'\u00A0'}
+                  {'\u00A0'} {t("withTitle")} {'\u00A0'}
                     <span className=" text-2xl brand-red bg-white">"{(searchBy)}"</span>
 
                     <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSearchBy('')}></button>
@@ -166,19 +193,19 @@ export default function Home({ allEventsData }) {
                   {'\u00A0'}{t('at')} {'\u00A0'}
                   <span className="text-black">{(translatedCity)}</span>
                   {selectedCity.code !== 'ALL' &&
-                  <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCity({name: 'AllCities', code: 'ALL'})}></button> }
+                  <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearCity()}></button> }
                </span>
                }
                 ,{'\u00A0'}
                  <span className="result-filter-container">
                     <span className="text-black"> {" " + translatedPeriod} </span>
                     {selectedPeriod.code !== 'ALL' &&
-                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedPeriod({name: 'Anytime', code: 'ALL'})}></button> }
+                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearPeriod()}></button> }
                  </span>,{'\u00A0'}
                  <span className="result-filter-container">
                     <span className="text-black">{translatedAudience}.</span>
                     {selectedCategory.code !== 'ALL' &&
-                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSelectedCategory({name: 'AllCategories', code: 'ALL'})}></button> }
+                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearCategory()}></button> }
                  </span>
                  {(selectedCategory.code !== 'ALL' || selectedCity.code !== 'ALL' || selectedPeriod.code !== 'ALL') &&
                  <span className="result-filter-container">
