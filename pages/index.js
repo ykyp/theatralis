@@ -153,9 +153,9 @@ export default function Home({ allEventsData }) {
               <div className={`xs:text-xs sm:text-xs text-md text-gray-500 xs:ml-2 sm:ml-2`} style={{marginTop: '0.6em'}}>
                  {t('found')} <span className="text-black">{currentTotalCount} </span>
                  {t('events-for')}
-                 {searchBy && <span className="result-filter-container">
+                 {searchBy && <span className="result-filter-container ">
                   {'\u00A0'}
-                    <span className="text-black">"{(searchBy)}"</span>
+                    <span className=" text-2xl brand-red bg-white">"{(searchBy)}"</span>
 
                     <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSearchBy('')}></button>
                </span>

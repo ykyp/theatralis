@@ -21,7 +21,7 @@ export default (req, res) => {
    let totalLength = 0;
    if (req.query.q !== "null") {
       const matchedNames = currentlyActiveEvents.filter(event => {
-         return event.title.toLowerCase().indexOf(req.query.q.toLowerCase()) !== -1
+         return event.title.toUpperCase().indexOf(req.query.q.toUpperCase()) !== -1
       });
       totalLength = matchedNames.length;
       results = paginateResults(matchedNames, req.query);

@@ -42,7 +42,7 @@ return (
          </div>
       </div>
       {showSearch && <div>
-         <div className="flex items-center">
+         <div className="flex items-center relative">
 
             <span className="p-input-icon-left w-full">
             <i className="pi pi-search"/>
@@ -52,6 +52,12 @@ return (
                        value={searchBy}
                        onChange={(e) => onSearchChange(e.target.value)}
                        placeholder={t('search')}/>
+
+               { searchBy &&
+               <div className="absolute right-4 top-4 search-close-btn" onClick={() => onSearchChange("")}>
+                  <i className="pi pi-times"/>
+               </div>
+               }
          </span>
          </div>
       </div>
