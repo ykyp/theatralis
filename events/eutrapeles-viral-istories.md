@@ -1,10 +1,10 @@
 ---
 title: ΕΥΤΡΑΠΕΛΕΣ VIRAL ΙΣΤΟΡΙΕΣ
-startDate: 2022-03-05
-endDate: 2022-03-12
-city: Pafos, Nicosia
-event_image: "/images/uploads/newinsta001.jpg"
-cover_image: "/images/uploads/viral-stories.jpg"
+startDate: 2022-03-25
+endDate: 2022-04-10
+city: Limassol, Nicosia
+event_image: "/images/uploads/Βαιραλ ιστοριες.png"
+cover_image: ''
 category: Comedy
 gallery_1: ''
 gallery_2: ''
@@ -43,19 +43,19 @@ critic_title: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**ΠΑΦΟΣ**
+**ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνία και Ώρα έναρξης:_** Σάββατο 5 Μαρτίου στις 20:00
+**_Ημερομηνίες και Ώρα έναρξης:_** Παρασκευή 25 Μαρτίου στις 20:00 / Κυριακή 27 Μαρτίου στις 18:00
 
-**_Τοποθεσία:_** [Μαρκίδειο Δημοτικό Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146 "Μαρκίδειο Δημοτικό Θέατρο")
+**_Τοποθεσία:_** [Πολυχώρος Συνεργείο](https://www.google.com/maps/place/Sinergio+theatre/@34.6742459,33.004537,13z/data=!4m9!1m2!2m1!1zz4DOv867z4XPh8-Jz4HOv8-CIM-Dz4XOvc61z4HOs861zrnOvyDOu861zrzOtc-Dzr_Pgg!3m5!1s0x14e7335ac2b9ad4b:0x79bb0624dd712b3b!8m2!3d34.674298!4d33.0395704!15sCjTPgM6_zrvPhc-Hz4nPgc6_z4Igz4PPhc69zrXPgc6zzrXOuc6_IM67zrXOvM61z4POv8-CkgEXcGVyZm9ybWluZ19hcnRzX3RoZWF0ZXI "Συνεργείο")
 
 ***
 
 **ΛΕΥΚΩΣΙΑ**
 
-**_Ημερομηνίες και Ώρα έναρξης:_** Σάββατο 12 Μαρτίου στις 20:00 και Κυριακή 13 Μαρτίου στις 18:00
+**_Ημερομηνίες και Ώρα έναρξης:_** Σάββατο 9 Απριλίου στις 20:00 και Κυριακή 10 Απριλίου στις 18:00
 
-**_Τοποθεσία:_** [Θέατρο Μασκαρίνι](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9C%CE%B1%CF%83%CE%BA%CE%B1%CF%81%CE%AF%CE%BD%CE%B9/@35.1187628,33.3764588,17z/data=!3m1!4b1!4m5!3m4!1s0x14de190879b8036b:0xa61c1fbebbf53da8!8m2!3d35.1187628!4d33.3786475 "Θέατρο Μασκαρίνι")
+**_Τοποθεσία:_** [Θέατρο Flea](https://www.google.com/maps/place/Flea+Theatre/@35.1839201,33.3946469,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17a904f9aabb:0x1710a1c59c41893f!8m2!3d35.1839201!4d33.3968356 "Flea Theatre")
 
 **_Διάρκεια παράστασης:_** 50 λεπτά
 
