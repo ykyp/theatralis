@@ -67,4 +67,4 @@ critic_title: ''
 
 Γενική Είσοδος €10
 
-Προπώληση εισιτηρίων από την [Soldout ](https://www.soldoutticketbox.com/eytrapeles-viral-istories/?lang=el "SoldOut")και σε όλα τα καταστήματα Stephanis Electronics
+Προπώληση εισιτηρίων από την [Soldout ](https://www.soldoutticketbox.com/eytrapeles-viral-istories-2022/?lang=el "SoldOut")και σε όλα τα καταστήματα Stephanis Electronics
