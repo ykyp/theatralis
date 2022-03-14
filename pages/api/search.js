@@ -30,7 +30,6 @@ export default (req, res) => {
       totalLength = currentlyActiveEvents.length;
       results =  paginateResults(currentlyActiveEvents, req.query);
    } else {
-      console.log("use search filters ");
       const matchingCities = req.query.city !== 'ALL' ?
          currentlyActiveEvents.filter(event => {
             const cityLowercase = event.city.toLowerCase();
@@ -66,7 +65,6 @@ export default (req, res) => {
 
       const intersectedResults = intersection(matchingCities, matchingPeriods, matchingAudience);
       totalLength = intersectedResults.length;
-      console.log("filters total length ", totalLength);
       results = paginateResults(intersectedResults, req.query);
    }
   res.statusCode = 200;

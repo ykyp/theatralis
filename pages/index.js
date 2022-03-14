@@ -108,6 +108,15 @@ export default function Home({ allEventsData }) {
    const handleSearchChange = (e) => {
       setLoading(true);
       setSearchBy(e);
+      if (selectedCategory.code !== 'ALL') {
+         clearCategory();
+      }
+      if (selectedPeriod.code !== 'ALL') {
+         clearPeriod();
+      }
+      if (selectedCity.code !== 'ALL') {
+         clearCity();
+      }
    };
 
    useEffect(() => {
