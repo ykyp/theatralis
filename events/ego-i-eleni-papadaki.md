@@ -7,8 +7,8 @@ event_image: "/images/uploads/cover.jpg"
 cover_image: "/images/uploads/Ελενη.jpg"
 category: Biography
 gallery_1: "/images/uploads/3.jpg"
-gallery_2: ''
-gallery_3: "/images/uploads/272623129_3426223824270889_767809261411202629_n.jpg"
+gallery_2: "/images/uploads/272623129_3426223824270889_767809261411202629_n.jpg"
+gallery_3: ''
 extended: false
 
 ---
