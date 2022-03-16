@@ -1,7 +1,7 @@
 ---
 title: Ο ΦΙΛΑΡΓΥΡΟΣ
 startDate: 2022-02-26
-endDate: 2022-03-20
+endDate: 2022-03-27
 city: Nicosia,limassol
 event_image: "/images/uploads/a3-digital-01.jpg"
 cover_image: ''
