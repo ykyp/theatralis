@@ -9,7 +9,7 @@ import { useRouter } from 'next/router';
 import CookieConsent from "react-cookie-consent";
 
 
-export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName, fbTitle, fbSiteName }) {
+export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName, fbTitle, fbSiteName, onSearchChange, searchBy }) {
    const { t, lang } = useTranslation('common');
    const siteTitle = t('defaultSiteTitle');
    const defaultDesc = t('defaultSiteDesc');
@@ -86,7 +86,7 @@ export default function Layout({ children, home, pageTitle, description, current
           </li>
        </Navbar>
 
-       { home && <Hero/> }
+       { home && <Hero onSearchChange={onSearchChange} searchBy={searchBy}/> }
 
       <main>{children}</main>
 

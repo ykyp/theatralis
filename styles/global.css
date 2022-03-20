@@ -573,3 +573,27 @@ footer hr {
   align-items: center;
   flex-shrink: 0;
 }
+
+.search-btn i {
+  color: black;
+  padding: 3px 0;
+}
+.search-active, .search-active i,
+.pi-search:hover, .search-btn:hover  {
+  opacity: 0.8;
+}
+
+
+.search-btn {
+  background-color: #fcbc18;
+  padding: 6px 8px 5px 8px;
+  border: 1px solid  #fcbc18;
+  border-radius: 7px;
+  background-clip: padding-box;
+}
+
+.search-close-btn {
+  opacity: 0.8;
+  cursor: pointer;
+}
+

@@ -16,13 +16,33 @@ const paginateResults = (results, query) => {
    return paginatedResults;
 };
 
+const matchedSearchAllOtherResults = (query, allOtherResults) => {
+   let matchedNames = [];
+   if (query.q !== "null" && query.q !== "") {
+      matchedNames = currentlyActiveEvents.filter(event => {
+         return event.title.toUpperCase().indexOf(query.q.toUpperCase()) !== -1
+      });
+      const intersectedResults = intersection(allOtherResults, matchedNames);
+      return {
+         totalLength: intersectedResults.length,
+         results: paginateResults(intersectedResults, query)
+      }
+   } else {
+      return {
+         totalLength : allOtherResults.length,
+         results: paginateResults(allOtherResults, query)
+      };
+   }
+};
+
 export default (req, res) => {
-   let results = [];
-   let totalLength = 0;
+   let results;
+   let totalLength;
+   let filteredResults = {};
+
    if (req.query.city === 'ALL' && req.query.period == 'ALL'
       && req.query.category == 'ALL') {
-      totalLength = currentlyActiveEvents.length;
-      results =  paginateResults(currentlyActiveEvents, req.query);
+      filteredResults = matchedSearchAllOtherResults(req.query, currentlyActiveEvents);
    } else {
       const matchingCities = req.query.city !== 'ALL' ?
          currentlyActiveEvents.filter(event => {
@@ -57,10 +77,12 @@ export default (req, res) => {
             event.category.toLowerCase().includes(req.query.category.toLowerCase()) : false
          ) : currentlyActiveEvents;
 
-      const intersectedResults = intersection(matchingCities, matchingPeriods, matchingAudience);
-      totalLength = intersectedResults.length;
-      results = paginateResults(intersectedResults, req.query);
+      const intersectedFilters = intersection(matchingCities, matchingPeriods, matchingAudience);
+      filteredResults = matchedSearchAllOtherResults(req.query, intersectedFilters);
    }
+
+   totalLength = filteredResults.totalLength;
+   results = filteredResults.results;
   res.statusCode = 200;
   res.setHeader('Content-Type', 'application/json');
   res.end(JSON.stringify({ results, totalLength }))
