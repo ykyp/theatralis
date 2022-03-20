@@ -5,7 +5,7 @@ endDate: 2022-06-03
 city: nicosia, limassol, paphos, larnaca
 event_image: "/images/uploads/machinal-7n4b9477.jpg"
 cover_image: "/images/uploads/machinal-7n4b9517.jpg"
-category: ''
+category: Drama
 gallery_1: "/images/uploads/machinal-7n4b9578.jpg"
 gallery_2: ''
 gallery_3: ''
