@@ -69,4 +69,4 @@ critic_p: ''
 
 **_Πληροφορίες στα τηλέφωνα:_** 24652800 και 99490102
 
-**_Προπώληση εισιτηρίων:_** Απο την ιστοσελίδα της [Tickethour ](https://shop.tickethour.com/seatingPlan.html?idProduct=4876# "Tickethour")και τα καταστήματα ACS Courier
+**_Προπώληση εισιτηρίων:_** Απο την ιστοσελίδα της [Tickethour ](https://shop.tickethour.com/ticketmaster_se_3757.html "Tickethour")και τα καταστήματα ACS Courier
