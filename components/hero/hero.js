@@ -2,27 +2,41 @@ import React from 'react';
 import useTranslation from "next-translate/useTranslation";
 import { InputText } from 'primereact/inputtext';
 import {useState, useRef, useEffect} from "react";
-import { debounce } from 'lodash';
+import useDebouncedEffect  from 'use-debounced-effect';
 const name = 'Theatralis';
 
 const Hero = ({onSearchChange, searchBy}) => {
    const {t, lang} = useTranslation('common');
    const [showSearch, setShowSearch] = useState(false);
    const inputEl = useRef(null);
+   const [term, setTerm] = useState(searchBy);
 
    const toggleSearch = () => {
      setShowSearch(!showSearch);
    };
 
    const handleSearchChange = (e) => {
-      onSearchChange(e.target.value);
+      setTerm(e.target.value);
    };
+
+   const clearSearch = () => {
+      onSearchChange("");
+      setTerm("");
+   };
+
+   useDebouncedEffect(()=>{
+      onSearchChange(term);
+   }, 500 ,[term]);
 
    useEffect(() => {
       if (showSearch) {
          inputEl.current.focus();
       }
    }, [showSearch]);
+
+   useEffect(() => {
+      setTerm(searchBy);
+   }, [searchBy]);
 
 return (
    <header className="max-w-screen-l text-center mx-auto object-center">
@@ -54,12 +68,12 @@ return (
 
             <InputText className=" w-full"
                        ref={inputEl}
-                       value={searchBy}
+                       value={term}
                        onChange={handleSearchChange}
                        placeholder={t('search')}/>
 
                { searchBy &&
-               <div className="absolute right-4 top-4 search-close-btn" onClick={() => onSearchChange("")}>
+               <div className="absolute right-4 top-4 search-close-btn" onClick={() => clearSearch()}>
                   <i className="pi pi-times"/>
                </div>
                }

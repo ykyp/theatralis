@@ -106,7 +106,6 @@ export default function Home({ allEventsData }) {
    };
 
    const handleSearchChange = (e) => {
-      setLoading(true);
       setSearchBy(e);
    };
 
@@ -121,6 +120,7 @@ export default function Home({ allEventsData }) {
    }, []);
 
    const searchEvents = () => {
+      setLoading(true);
       const query = {
          city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity?.name,
          period: selectedPeriod.code,
