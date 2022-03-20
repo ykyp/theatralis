@@ -62,3 +62,11 @@ critic_p: ''
 **_Τοποθεσία:_** [Θέατρο Δέντρο](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%94%CE%AD%CE%BD%CF%84%CF%81%CE%BF/@35.1778415,33.3892814,17z/data=!3m1!4b1!4m5!3m4!1s0x14de170b08c2c23f:0x17cd0ebf63c7196d!8m2!3d35.1778415!4d33.3914701 "Θέατρο Δέντρο")
 
 ***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+**_Τιμές εισιτηριων:_** €12 / €7
+
+**_Πληροφορίες στα τηλέφωνα:_** 24652800 και 99490102
+
+**_Προπώληση εισιτηρίων:_** Απο την ιστοσελίδα της [Tickethour ](https://shop.tickethour.com/seatingPlan.html?idProduct=4876# "Tickethour")και τα καταστήματα ACS Courier
