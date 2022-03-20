@@ -1,5 +1,5 @@
 ---
-title: ΚΑΠΟΤΕ ΣΤΟ ΒΟΣΠΟΡΟ-ΑΚΥΡΩΣΗ
+title: ΚΑΠΟΤΕ ΣΤΟ ΒΟΣΠΟΡΟ - ΑΚΥΡΩΘΗΚΕ
 startDate: 2022-03-30
 endDate: 2022-04-02
 city: Limassol, Nicosia
