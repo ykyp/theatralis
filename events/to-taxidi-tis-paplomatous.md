@@ -1,7 +1,7 @@
 ---
 title: ΤΟ ΤΑΞΙΔΙ ΤΗΣ ΠΑΠΛΩΜΑΤΟΥΣ
 startDate: 2022-01-16
-endDate: 2022-03-27
+endDate: 2022-04-17
 city: Nicosia,Famagusta
 event_image: "/images/uploads/3-to-taxidi-tis-paplomatous-jan1.jpg"
 cover_image: ''
@@ -40,7 +40,7 @@ extended: false
 
 ΛΕΥΚΩΣΙΑ
 
-**_Παραστάσεις:_** Κάθε Κυριακή πρωί στις 10:30
+**_Παραστάσεις:_** Κάθε Κυριακή πρωί στις 10:30 (Η παράσταση στις 27/3 αναβλήθηκε) 
 
 **_Τοποθεσία:_** [Θέατρο Μασκαρίνι]()
 
