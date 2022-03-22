@@ -1,7 +1,7 @@
 ---
 title: 'All the wrong men '
 startDate: 2022-02-22
-endDate: 2022-03-22
+endDate: 2022-03-31
 city: Nicosia,limassol
 event_image: "/images/uploads/dsc07517.jpg"
 cover_image: "/images/uploads/dsc07590.jpg"
