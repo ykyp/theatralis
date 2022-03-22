@@ -45,4 +45,5 @@ fields:
   label: Facebook Page
   description: Theatre's facebook page
 pages:
+- theatres/satiriko.md.md
 - theatres/theatro-ena.md
