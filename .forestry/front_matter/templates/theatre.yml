@@ -1,4 +1,40 @@
 ---
 label: Theatre
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+  description: Name of the theatre
+- name: address
+  type: text
+  config:
+    required: true
+  label: Address
+  description: Address of the theatre
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+  description: Theatre logo
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
+  description: Theatre's website
+- name: instagram_page
+  type: text
+  config:
+    required: false
+  label: Instagram page
+  description: Theatre's instagram page
+- name: facebook_page
+  type: text
+  config:
+    required: false
+  label: Facebook Page
+  description: Theatre's facebook page
