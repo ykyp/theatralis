@@ -2,6 +2,12 @@
 label: Theatre
 hide_body: true
 fields:
+- name: id
+  type: text
+  config:
+    required: true
+  label: Id
+  description: Identifier of the theatre in english, such as `satiriko`
 - name: name
   type: text
   config:
