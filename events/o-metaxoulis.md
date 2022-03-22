@@ -1,7 +1,7 @@
 ---
 title: Ο ΜΕΤΑΞΟΥΛΗΣ
 startDate: 2022-02-26
-endDate: 2022-04-03
+endDate: 2022-05-22
 city: Nicosia, Larnaca, Limassol, Pafos, Famagusta
 event_image: "/images/uploads/metaksoulisstauros.jpg"
 category: Children
