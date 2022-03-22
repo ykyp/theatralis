@@ -44,3 +44,5 @@ fields:
     required: false
   label: Facebook Page
   description: Theatre's facebook page
+pages:
+- theatres/theatro-ena.md
