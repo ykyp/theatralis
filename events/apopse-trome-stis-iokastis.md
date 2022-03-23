@@ -1,6 +1,6 @@
 ---
 title: ΑΠΟΨΕ ΤΡΩΜΕ ΣΤΗΣ ΙΟΚΑΣΤΗΣ
-startDate: 2022-03-23
+startDate: 2022-03-25
 endDate: 2022-04-28
 city: Nicosia, limassol
 event_image: "/images/uploads/9622.JPG"
