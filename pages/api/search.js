@@ -1,6 +1,7 @@
 import { getSortedEventsData } from '../../lib/events'
 import { isInThisWeek, isInNextWeek, isInThisMonth, isInTheFuture } from '../../components/date'
 import { intersection } from 'lodash';
+import greekUtils from'greek-utils';
 
 const events = process.env.NODE_ENV === 'production' ? require('../../cache/data').events : getSortedEventsData();
 const currentlyActiveEvents = events.filter(event => {
@@ -20,7 +21,8 @@ const matchedSearchAllOtherResults = (query, allOtherResults) => {
    let matchedNames = [];
    if (query.q !== "null" && query.q !== "") {
       matchedNames = currentlyActiveEvents.filter(event => {
-         return event.title.toUpperCase().indexOf(query.q.toUpperCase()) !== -1
+         return greekUtils.sanitizeDiacritics(event.title.toLowerCase())
+            .indexOf(greekUtils.sanitizeDiacritics(query.q.toLowerCase())) !== -1
       });
       const intersectedResults = intersection(allOtherResults, matchedNames);
       return {
