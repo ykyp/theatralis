@@ -6,9 +6,9 @@ city: Nicosia
 event_image: "/images/uploads/palmolero.jpg"
 cover_image: ''
 category: Comedy
-gallery_1: ''
-gallery_2: ''
-gallery_3: ''
+gallery_1: "/images/uploads/dr-palomero-1.jpg"
+gallery_2: "/images/uploads/dr-palomero-2.jpg"
+gallery_3: "/images/uploads/dr-palomero-3.jpg"
 extended: false
 critic_link: ''
 critic_title: ''
