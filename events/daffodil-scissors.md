@@ -5,7 +5,7 @@ endDate: 2022-05-22
 city: Larnaca
 event_image: "/images/uploads/daffodil.jpg"
 cover_image: ''
-category: Children
+category: Amateur, Children
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
