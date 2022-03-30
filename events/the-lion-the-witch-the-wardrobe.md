@@ -17,7 +17,7 @@ critic_p: ''
 ---
 #### A FEW WORDS ABOUT THE PLAY
 
-The Lion The Witch & The Wardrobe is a theatrical play by C.S.Lewis and directed by Catherine Beger.
+Little Muse Theatre presents "The Lion The Witch & The Wardrobe", a theatrical play by C.S.Lewis, directed by Catherine Beger.
 
 During the World War II bombings of London, four children are sent to a country house where they will be safe. One day Lucy finds a wardrobe that transports her to a magical world called Narnia. After coming back, she soon returns to Narnia with her brothers, Peter and Edmund and her sister, Susan. There they join the magical lion, Aslan, in the fight against the evil White Witch.
 
