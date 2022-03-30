@@ -1,5 +1,5 @@
 ---
-title: The lion, the witch & the wardrobe
+title: The lion, the witch & the wardrobe (in English)
 startDate: 2022-05-21
 endDate: 2022-05-21
 city: Larnaca

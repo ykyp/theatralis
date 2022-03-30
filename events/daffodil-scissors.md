@@ -1,5 +1,5 @@
 ---
-title: Daffodil Scissors
+title: Daffodil Scissors (in english)
 startDate: 2022-05-22
 endDate: 2022-05-22
 city: Larnaca
