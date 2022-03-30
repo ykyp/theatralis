@@ -5,7 +5,7 @@ endDate: 2022-05-14
 city: Larnaca
 event_image: "/images/uploads/fear.jpg"
 cover_image: ''
-category: Comedy
+category: Amateur, Comedy
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
