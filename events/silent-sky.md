@@ -3,12 +3,12 @@ title: SILENT SKY
 startDate: 2022-04-08
 endDate: 2022-05-08
 city: Nicosia
-event_image: "/images/uploads/silent-sky-_-_.jpg"
-cover_image: "/images/uploads/ss1.jpg"
+event_image: "/images/uploads/ss1.jpg"
+cover_image: ''
 category: Drama
 gallery_1: "/images/uploads/ss4.jpg"
 gallery_2: "/images/uploads/ss5.jpg"
-gallery_3: "/images/uploads/ss6.jpg"
+gallery_3: "/images/uploads/ss2.jpg"
 extended: false
 critic_link: ''
 critic_title: ''
