@@ -17,7 +17,7 @@ critic_p: ''
 ---
 #### A FEW WORDS ABOUT THE PLAY
 
-Fear is a theatrical play by Judith Johnson and directed by Catherine Beger.
+Little Muse Youth Theatre presents Fear, a theatrical play by Judith Johnson, directed by Catherine Beger.
 
 Kal tells the story of a local house, said to be haunted by the ghost of a man who once lived there with his ageing mother and pet monkey. Kal challenges his friends to sneak into the haunted house where they find something terrifying in the upstairs bedroom...deliciously funny and scary!
 
