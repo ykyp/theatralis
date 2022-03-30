@@ -19,6 +19,54 @@ critic_p: ''
 
 Every brilliant thing is a theatrical play by Duncan Macmillan & Johnny Donahoe and directed by Catherine Beger.
 
+You're seven years old. Mum's in hospital. Dad says, "She's done something stupid". You start a list of everything that is brilliant about the world. Everything worth living for.
+
+**Quotes from the audience:**
+
+> "An amazing one-woman play and the story and the performer kept us
+>
+> enthralled. Everyone came out with smiles & we left our own brilliant things
+>
+> on post-its." (Helen Morgan, Paphos)
+
+> "Totally gripped, the audience were taken on an exhilarating roller coaster
+>
+> ride of emotions, from laughter to heartfelt sadness." (Stephanie Crossley,
+>
+> Larnaka)
+
+> "Thank you for taking all of us on this profound journey. Much needed in this
+>
+> day and age of massive division. It was wonderful to laugh, cry and be part of
+>
+> this story." (Greta Martin, Larnaka)
+
+> You immersed us for the entire time with brilliant things we so need to
+>
+> hear."(Sophia Morphis, Larnaka)
+
+> "A beautiful mix of humor, touching moments, sweet or not so sweet truths,
+>
+> music and so many reminders of all the little joyous moments that make life
+>
+> brilliant!""(Anna Andreou, Larnaka)
+
+> "Funny, full of energy and incredibly moving. If you can get hold of a ticket,
+>
+> this comes highly recommended."
+>
+> (Eve Makis, Larnaka)
+
+> "Heart wrenching, hilarious and one of the funniest plays you will see about
+>
+> depression"
+>
+> Lyn Gardener, The Guardian
+
+> A one-woman show that interacts with the audience, suitable for adults and
+>
+> teens 12+
+
 ***
 
 #### INFORMATION
