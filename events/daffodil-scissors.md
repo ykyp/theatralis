@@ -17,7 +17,7 @@ critic_p: ''
 ---
 #### A FEW WORDS ABOUT THE PLAY
 
-The Daffodil Scissors is a theatrical play by Phillip Ridely and directed by Catherine Beger.
+Little Muse Theatre presents "The Daffodil Scissors", a theatrical play by Phillip Ridely, directed by Catherine Beger.
 
 Daffodil lives alone with Mum. Mum makes extraordinary hats. The extraordinary hats go on Daffodil’s head. Wearing Dad’s hats makes everyone at school laugh at Daffodil. How is Daffodil ever going to make friends? Perhaps the mysterious Bag Lady has the answer.
 
