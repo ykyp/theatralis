@@ -17,7 +17,7 @@ critic_p: ''
 ---
 #### A FEW WORDS ABOUT THE PLAY
 
-Every brilliant thing is a theatrical play by Duncan Macmillan & Johnny Donahoe and directed by Catherine Beger.
+"Every brilliant thing" is a theatrical play by Duncan Macmillan & Johnny Donahoe directed and performed by Catherine Beger.
 
 You're seven years old. Mum's in hospital. Dad says, "She's done something stupid". You start a list of everything that is brilliant about the world. Everything worth living for.
 
