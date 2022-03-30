@@ -1,5 +1,5 @@
 ---
-title: Every Brilliant Thing
+title: Every Brilliant Thing (in english)
 startDate: 2022-04-29
 endDate: 2022-04-30
 city: Larnaca
@@ -23,9 +23,7 @@ You're seven years old. Mum's in hospital. Dad says, "She's done something stupi
 
 **Quotes from the audience:**
 
-> "An amazing one-woman play and the story and the performer kept us
->
-> enthralled. Everyone came out with smiles & we left our own brilliant things
+> "An amazing one-woman play and the story and the performer kept us enthralled. Everyone came out with smiles & we left our own brilliant things
 >
 > on post-its." (Helen Morgan, Paphos)
 
