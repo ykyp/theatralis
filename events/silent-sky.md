@@ -54,6 +54,8 @@ critic_p: ''
 
 **_Τοποθεσία:_** [Wherehaus 612](https://www.google.com/maps/place/WhereHaus+612/@35.177606,33.3873653,17z/data=!3m1!4b1!4m5!3m4!1s0x14de170bc4982f01:0x9c24df07f8f1017d!8m2!3d35.177606!4d33.389554 "Wherehaus 612")
 
+**_Διάρκεια:_** 1 ώρα και 50 λεπτά
+
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
