@@ -67,4 +67,6 @@ critic_title: ''
 
 Γενική Είσοδος €10
 
+Τηλέφωνο κρατήσεων: 99551712 (16:00-17:00)
+
 Προπώληση εισιτηρίων από την [Soldout ](https://www.soldoutticketbox.com/eytrapeles-viral-istories-2022/?lang=el "SoldOut")και σε όλα τα καταστήματα Stephanis Electronics
