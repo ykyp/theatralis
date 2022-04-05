@@ -27,13 +27,13 @@ critic_p: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**ΛΑΡΝΑΚΑ**
+**ΠΑΦΟΣ**
 
 Ημερομηνία: 8 Απριλίου 2022
 
 Ώρα έναρξης: 20:00
 
-Τοποθεσία: [Κινηματοθέατρο Καλλιθέα](https://www.google.com/maps/place/%CE%9A%CE%B9%CE%BD%CE%B7%CE%BC%CE%B1%CF%84%CE%BF%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A3%CE%B9%CE%BD%CE%B5%CE%BC%CE%AC+%CE%9A%CE%B1%CE%BB%CE%BB%CE%B9%CE%B8%CE%AD%CE%B1/@34.9497118,33.5860391,17z/data=!3m1!4b1!4m5!3m4!1s0x14de27914806f40b:0xd0638548524b2a24!8m2!3d34.9497118!4d33.5882278 "Καλλιθέα")
+Τοποθεσία: [Let them eat cake](https://www.google.com/maps/place/Let+Them+Eat+Cake/@34.7734574,32.4190903,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f3759cb63d:0x30cbb92fe2494b1b!8m2!3d34.773454!4d32.421269 "Let them eat cake")
 
 ***
 
@@ -54,6 +54,16 @@ critic_p: ''
 Ώρα έναρξης: 19:00
 
 Τοποθεσία: [Ravens Music Hall](https://www.google.com/maps/place/Ravens+Music+Hall/@34.6749096,33.0411508,17z/data=!3m1!4b1!4m5!3m4!1s0x14e733031361b6b7:0x4e9b0f40be781e08!8m2!3d34.6749096!4d33.0433395 "Ravens music hall")
+
+***
+
+**ΛΑΡΝΑΚΑ**
+
+Ημερομηνία: 11 Απριλίου 2022
+
+Ώρα έναρξης: 20:00
+
+Τοποθεσία: [Savino Live](https://www.google.com/maps/place/Savino/@34.9119911,33.6351938,17z/data=!3m1!4b1!4m5!3m4!1s0x14e082a2e1780a4d:0x5be3b56fe0c640af!8m2!3d34.9119911!4d33.6373825 "Savino Live")
 
 ***
 
