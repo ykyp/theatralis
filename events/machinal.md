@@ -6,9 +6,9 @@ city: nicosia, limassol, paphos, larnaca
 event_image: "/images/uploads/machinal-7n4b9477.jpg"
 cover_image: "/images/uploads/machinal-7n4b9517.jpg"
 category: Drama
-gallery_1: "/images/uploads/machinal-7n4b9578.jpg"
-gallery_2: ''
-gallery_3: ''
+gallery_1: "/images/uploads/machinal.jpg"
+gallery_2: "/images/uploads/machinal-7n4b2602.jpg"
+gallery_3: "/images/uploads/machinal-7n4b2661.jpg"
 extended: false
 critic_link: ''
 critic_title: ''
