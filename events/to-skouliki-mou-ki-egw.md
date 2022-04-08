@@ -5,7 +5,7 @@ endDate: 2022-05-15
 city: Nicosia
 event_image: "/images/uploads/img_9210.JPG"
 cover_image: ''
-category: Musical, Children
+category: Children, Musical
 gallery_1: "/images/uploads/489180ca-a1c6-4d5f-b5e3-284694c7f879.jpeg"
 gallery_2: "/images/uploads/img_9262.JPG"
 gallery_3: "/images/uploads/img_9258-1.JPG"
