@@ -1,8 +1,8 @@
 ---
 title: Αριστοτελης Ρηγας / Stand up comedy & Μουσικη Κωμωδια
-startDate: 2022-04-08
-endDate: 2022-04-10
-city: Larnaca, Nicosia, Limassol
+startDate: 2022-06-03
+endDate: 2022-06-06
+city: Larnaca, Nicosia, Limassol, Pafos
 event_image: "/images/uploads/rigas1.jpg"
 cover_image: ''
 category: Standup
@@ -29,41 +29,41 @@ critic_p: ''
 
 **ΠΑΦΟΣ**
 
-Ημερομηνία: 8 Απριλίου 2022
+Ημερομηνία: TBA
 
-Ώρα έναρξης: 20:00
+Ώρα έναρξης: TBA
 
-Τοποθεσία: [Let them eat cake](https://www.google.com/maps/place/Let+Them+Eat+Cake/@34.7734574,32.4190903,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f3759cb63d:0x30cbb92fe2494b1b!8m2!3d34.773454!4d32.421269 "Let them eat cake")
+Τοποθεσία: TBA
 
 ***
 
 **ΛΕΥΚΩΣΙΑ**
 
-Ημερομηνία: 9 Απριλίου 2022
+Ημερομηνία: TBA
 
-Ώρα έναρξης: 20:00
+Ώρα έναρξης: TBA
 
-Τοποθεσία: [Κινηματοθέατρο Παλλάς](https://www.google.com/maps/place/Pallas+Theater/@35.1732295,33.3551574,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17502ddb6def:0xf9034fe4278c3e69!8m2!3d35.1732295!4d33.3573461 "Παλλάς")
+Τοποθεσία: TBA
 
 ***
 
 **ΛΕΜΕΣΟΣ**
 
-Ημερομηνία: 10 Απριλίου 2022
+Ημερομηνία: TBA
 
-Ώρα έναρξης: 19:00
+Ώρα έναρξης: TBA
 
-Τοποθεσία: [Ravens Music Hall](https://www.google.com/maps/place/Ravens+Music+Hall/@34.6749096,33.0411508,17z/data=!3m1!4b1!4m5!3m4!1s0x14e733031361b6b7:0x4e9b0f40be781e08!8m2!3d34.6749096!4d33.0433395 "Ravens music hall")
+Τοποθεσία: TBA
 
 ***
 
 **ΛΑΡΝΑΚΑ**
 
-Ημερομηνία: 11 Απριλίου 2022
+Ημερομηνία: TBA
 
-Ώρα έναρξης: 20:00
+Ώρα έναρξης: TBA
 
-Τοποθεσία: [Savino Live](https://www.google.com/maps/place/Savino/@34.9119911,33.6351938,17z/data=!3m1!4b1!4m5!3m4!1s0x14e082a2e1780a4d:0x5be3b56fe0c640af!8m2!3d34.9119911!4d33.6373825 "Savino Live")
+Τοποθεσία: TBA
 
 ***
 
@@ -80,11 +80,3 @@ critic_p: ''
 \- ACS Couriers παγκύπρια
 
 \- Απο την ιστοσελίδα [Tickethour](https://shop.tickethour.com/ticketmaster_se_3685.html "Tickethour")
-
-**_Χορηγοί / Υποστηρικτές:_**
-
-\- Πολίτης 107.6
-
-\- Semeli Hotel
-
-\- [Geekcultura](https://geekcultura.com/ "Geek cultura")
