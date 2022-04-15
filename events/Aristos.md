@@ -60,7 +60,7 @@ critic_p: ''
 
 **_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** [Θέατρο ΘΟΚ](https://www.google.com/maps/place/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%9F%CF%81%CE%B3%CE%B1%CE%BD%CE%B9%CF%83%CE%BC%CF%8C%CF%82+%CE%9A%CF%8D%CF%80%CF%81%CE%BF%CF%85,+%CE%98%CE%9F%CE%9A/@35.1681606,33.3378205,14z/data=!4m9!1m2!2m1!1zzrjOtc6xz4TPgc6_IM64zr_Oug!3m5!1s0x14de1756be6f54f3:0xd51f772260b940ce!8m2!3d35.1681619!4d33.3552882!15sChPOuM61zrHPhM-Bzr8gzrjOv866kgEXcGVyZm9ybWluZ19hcnRzX3RoZWF0ZXI "ΘΟΚ")
+**_Τοποθεσία:_** [Κεντρική Σκηνή ΘΟΚ](https://www.google.com/maps/place/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%9F%CF%81%CE%B3%CE%B1%CE%BD%CE%B9%CF%83%CE%BC%CF%8C%CF%82+%CE%9A%CF%8D%CF%80%CF%81%CE%BF%CF%85,+%CE%98%CE%9F%CE%9A/@35.1681606,33.3378205,14z/data=!4m9!1m2!2m1!1zzrjOtc6xz4TPgc6_IM64zr_Oug!3m5!1s0x14de1756be6f54f3:0xd51f772260b940ce!8m2!3d35.1681619!4d33.3552882!15sChPOuM61zrHPhM-Bzr8gzrjOv866kgEXcGVyZm9ybWluZ19hcnRzX3RoZWF0ZXI "ΘΟΚ")
 
 ***
 
