@@ -1,7 +1,7 @@
 ---
 title: Ο ΜΕΤΑΞΟΥΛΗΣ
-startDate: 2022-04-10
-endDate: 2022-05-28
+startDate: 2022-05-07
+endDate: 2022-05-29
 city: Nicosia, Larnaca, Limassol, Pafos
 event_image: "/images/uploads/metaksoulisstauros.jpg"
 category: Children
@@ -36,16 +36,6 @@ extended: false
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**ΛΕΥΚΩΣΙΑ**
-
-**_Ημερομηνία:_** Κυριακή 10 Απριλίου
-
-**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
-
-**_Τοποθεσία:_** [Σατιρικό Θέατρο](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1623159,33.3830195,16.22z/data=!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709 "Σατιρικό Θέατρο")
-
-***
-
 **ΛΑΡΝΑΚΑ**
 
 **_Ημερομηνία:_** Σάββατο 7 Μαίου
@@ -73,6 +63,16 @@ extended: false
 **_Ώρα έναρξης:_** 11:00πμ
 
 **_Τοποθεσία:_** [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146 "https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146")
+
+***
+
+**ΛΕΥΚΩΣΙΑ**
+
+**_Ημερομηνία:_** Κυριακή 29 Μαίου
+
+**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
+
+**_Τοποθεσία:_** [Σατιρικό Θέατρο](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1623159,33.3830195,16.22z/data=!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709 "Σατιρικό Θέατρο")
 
 Κατάλληλο για παιδία ηλικίας 2 χρονών και άνω
 
