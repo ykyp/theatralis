@@ -95,6 +95,7 @@ fields:
   label: Phileleftheros Paragraph
   description: Μια παράγραφος με την κριτικη του Φιλελεύθερου
 pages:
+- events/Aristos.md
 - events/Aristotelis-Rigas.md
 - events/Xatzipaulou-comedy-club.md
 - events/a-pepa-mplom.md
