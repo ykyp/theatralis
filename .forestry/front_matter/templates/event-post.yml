@@ -95,13 +95,17 @@ fields:
   label: Phileleftheros Paragraph
   description: Μια παράγραφος με την κριτικη του Φιλελεύθερου
 pages:
+- events/Aristos.md
 - events/Aristotelis-Rigas.md
 - events/Xatzipaulou-comedy-club.md
 - events/a-pepa-mplom.md
+- events/akrotites.md
 - events/anthismenes-manolies.md
+- events/antigoni-en-krypti.md
 - events/apopse-trome-stis-iokastis.md
 - events/asta-na-pane.md
 - events/cyprus-avenue.md
+- events/daffodil-scissors.md
 - events/den-akouw-den-vlepo-den-milo.md
 - events/doctor-tsexof.md
 - events/elmer-o-pardalos-elefantas.md
@@ -110,6 +114,7 @@ pages:
 - events/erotevmena-aloga.md
 - events/eutrapeles-viral-istories.md
 - events/euxi-sto-feggari.md
+- events/every-brilliant-thing.md
 - events/exthroi-ex-aimatos.md
 - events/fear-in-english.md
 - events/filoumena-martourano.md
@@ -125,12 +130,19 @@ pages:
 - events/mary-poppins.md
 - events/motortown.md
 - events/na-to-fws.md
+- events/nat-in-da-house.md
 - events/nixtes-kwmwdias.md
 - events/o-megalos-peripatos-tou-petrou.md
 - events/o-trigonopsaroulis.md
 - events/pavlis-milia-love-hor-ever.md
+- events/silent-sky.md
 - events/ta-koritsia-tis-limnis.md
+- events/ta-mystika-imerologia-mias-mi-kapnistrias.md
+- events/tears-of-silence-in-english.md
 - events/the-corporation.md
+- events/the-lion-the-witch-the-wardrobe.md
+- events/thelw-na-sou-krataw-to-xeri.md
+- events/to-skouliki-mou-ki-egw.md
 - events/tsitax-i-erimia-tou-termatofilaka.md
 - events/tsouvelas-parenergeies.md
 - events/xatzipaulou-timing.md

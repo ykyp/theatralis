@@ -1,8 +1,8 @@
 ---
 title: Ο ΜΕΤΑΞΟΥΛΗΣ
-startDate: 2022-02-26
-endDate: 2022-05-22
-city: Nicosia, Larnaca, Limassol, Pafos, Famagusta
+startDate: 2022-05-07
+endDate: 2022-05-29
+city: Nicosia, Larnaca, Limassol, Pafos
 event_image: "/images/uploads/metaksoulisstauros.jpg"
 category: Children
 cover_image: ''
@@ -36,29 +36,9 @@ extended: false
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**ΛΕΜΕΣΟΣ**
-
-**_Ημερομηνία:_** Σάββατο, 26 Φεβρουαρίου
-
-**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
-
-**_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")
-
-***
-
-**ΛΕΥΚΩΣΙΑ**
-
-**_Ημερομηνία:_** Κυριακή 13 Μαρτίου
-
-**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
-
-**_Τοποθεσία:_** [Σατιρικό Θέατρο](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1623159,33.3830195,16.22z/data=!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709 "Σατιρικό Θέατρο")
-
-***
-
 **ΛΑΡΝΑΚΑ**
 
-**_Ημερομηνία:_** Κυριακή 20 Μαρτίου
+**_Ημερομηνία:_** Σάββατο 7 Μαίου
 
 **_Ώρα έναρξης:_** 11:00πμ
 
@@ -66,9 +46,19 @@ extended: false
 
 ***
 
+**ΛΕΜΕΣΟΣ**
+
+**_Ημερομηνία:_** Κυριακή 22 Μαίου
+
+**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
+
+**_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")
+
+***
+
 **ΠΑΦΟΣ**
 
-**_Ημερομηνία:_** Κυριακή 27 Μαρτίου
+**_Ημερομηνία:_** Σάββατο 28 Μαίου
 
 **_Ώρα έναρξης:_** 11:00πμ
 
@@ -76,26 +66,24 @@ extended: false
 
 ***
 
-**ΑΜΜΟΧΩΣΤΟΣ**
+**ΛΕΥΚΩΣΙΑ**
 
-**_Ημερομηνία:_** Κυριακή 3 Απριλίου
+**_Ημερομηνία:_** Κυριακή 29 Μαίου
 
-**_Ώρα έναρξης:_** 11:00πμ
+**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
 
-**_Τοποθεσία:_** [Ξένιον - Παραλίμνι](https://www.google.com/maps/place/Xenion+Education/@35.0414727,33.9763257,17z/data=!3m1!4b1!4m5!3m4!1s0x14dfc5f918b580f5:0x93bc1c31a08bad60!8m2!3d35.0414684!4d33.9783632 "Ξένιον")
-
-**_Διάρκεια:_** 55’
+**_Τοποθεσία:_** [Σατιρικό Θέατρο](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1623159,33.3830195,16.22z/data=!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709 "Σατιρικό Θέατρο")
 
 Κατάλληλο για παιδία ηλικίας 2 χρονών και άνω
 
 ***
 
-#### ΕΙΣΙΤΗΡΙΑ  
+#### ΕΙΣΙΤΗΡΙΑ
 
 **_Τιμή:_** €12
 
-**_Αγορά εισιτηρίων:_** 
+**_Αγορά εισιτηρίων:_**
 
-Για Λεμεσό: Απο την ιστοσελίδα του [Ριάλτο](https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511 "https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511") 
+Για Λεμεσό: Απο την ιστοσελίδα του [Ριάλτο](https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511 "https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511")
 
 Για τις υπόλοιπες πόλεις απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home")

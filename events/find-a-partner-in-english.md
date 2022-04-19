@@ -17,7 +17,7 @@ critic_p: ''
 ---
 #### A FEW WORDS ABOUT THE PLAY
 
-Find a partner is a theatrical play by Miriam Battye and directed by Catherine Beger.
+Little Muse Theatre presents "Find a partner", a theatrical play by Miriam Battye, directed by Catherine Beger.
 
 A cast of 18 teenagers tell the story of Find a Partner! It is about the sometimes, catastrophic methods we use to find that elusive thing, love. This is 'Love Island' scrutinised through a ‘Black Mirror’ style lens as a group of young people compete to publicly couple up and fall in love forever, or die.... quite literally. A black comedy that asks the questions, what does it really mean to love someone?
 

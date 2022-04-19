@@ -6,9 +6,9 @@ city: nicosia, limassol, paphos, larnaca
 event_image: "/images/uploads/machinal-7n4b9477.jpg"
 cover_image: "/images/uploads/machinal-7n4b9517.jpg"
 category: Drama
-gallery_1: "/images/uploads/machinal-7n4b9578.jpg"
-gallery_2: ''
-gallery_3: ''
+gallery_1: "/images/uploads/machinal.jpg"
+gallery_2: "/images/uploads/machinal-7n4b2602.jpg"
+gallery_3: "/images/uploads/machinal-7n4b2661.jpg"
 extended: false
 critic_link: ''
 critic_title: ''
@@ -51,15 +51,17 @@ critic_p: ''
 
 **ΛΕΥΚΩΣΙΑ**
 
-**_Παραστάσεις:_** 
+**_Παραστάσεις:_**
 
-Από 8 Απριλίου 2022 και κάθε Τετάρτη, Παρασκευή και Σάββατο μέχρι 21 Μαΐου
+Από 8 Απριλίου 2022 και κάθε Τετάρτη, Παρασκευή, Σάββατο μέχρι 21 Μαΐου
 
 Επιπλέον παραστάσεις την Κυριακή 10 και 17 Απριλίου 2022
 
 **_Ώρα έναρξης:_** Τετάρτη, Παρασκευή και Σάββατο στις 20:30 / Κυριακή στις 18:00
 
 **_Τοποθεσία:_** [Θέατρο ΘΟΚ, Νέα Σκηνή](https://www.google.gr/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B5%CF%85%CE%BA%CF%89%CF%83%CE%AF%CE%B1%CF%82/@35.1726385,33.3531332,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17519633b289:0xf4e085228ec10fda!8m2!3d35.1726385!4d33.3553219?hl=el)
+
+Η παραστάση στις 6 Μαΐου θα είναι υπερτιτλισμένη στα Ελληνικά και στις 13 Μαΐου στα Αγγλικά και Τουρκικά.
 
 ***
 
@@ -90,6 +92,8 @@ critic_p: ''
 **_Ώρα έναρξης:_** 20:30
 
 **_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.gr/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A1%CE%B9%CE%AC%CE%BB%CF%84%CE%BF/@34.6795049,33.0434696,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6795049!4d33.0456583?hl=el)
+
+Η παραστάση θα είναι υπερτιτλισμένη στα Αγγλικά και Τουρκικά.
 
 ***
 
