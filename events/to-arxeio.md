@@ -62,4 +62,22 @@ critic_p: ''
 
 **_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** Δημοτικό Θέατρο Γ. Λυκούργος
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Γ. Λυκούργος](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9079974,33.6075712,13.86z/data=!4m9!1m2!2m1!1zzrTOt868zr_PhM65zrrOvyDOuM61zrHPhM-Bzr8gzrPOuc-Oz4HOs86_z4IgzrvPhc66zr_Phc-BzrPOv8-C!3m5!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961!15sCj_OtM63zrzOv8-EzrnOus6_IM64zrXOsc-Ez4HOvyDOs865z47Pgc6zzr_PgiDOu8-FzrrOv8-Fz4HOs86_z4JaQSI_zrTOt868zr_PhM65zrrOvyDOuM61zrHPhM-Bzr8gzrPOuc-Oz4HOs86_z4MgzrvPhc66zr_Phc-BzrPOv8-DkgEXcGVyZm9ybWluZ19hcnRzX3RoZWF0ZXKaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUTJlRFZQVUdKQkVBRQ "Δημοτικό Θέατρο Γ. Λυκουργος")
+
+***
+
+**ΛΕΜΕΣΟΣ**
+
+**_Παράσταση:_** Τετάρτη 1 Ιουνίου 2022
+
+**_Ώρα έναρξης:_** 20:30
+
+**_Τοποθεσία:_** [Παττίχειο Δημοτικό Θέατρο](https://www.google.com/maps/place/%CE%A0%CE%B1%CF%84%CF%84%CE%AF%CF%87%CE%B5%CE%B9%CE%BF+%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF/@34.6808931,33.0414947,17z/data=!3m1!4b1!4m5!3m4!1s0x14e7330e3a40b37f:0xa33ce6e4d7f4bc8!8m2!3d34.6808931!4d33.0436834 "Παττίχειο Λεμεσός")
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+**_Τιμή:_** €15 / €12
+
+**_Προπώληση / Κρατήσεις:_** Απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3804.html "Tickethour"), απο τα καταστήματα ACS courier και στο τηλέφωνο 77777040
