@@ -57,9 +57,9 @@ critic_p: ''
 
 **_Ημερομηνίες:_**  7, 8 ,9, 10, 14, 15, 16 & 17 Μαΐου (Σάββατο, Κυριακή, Δευτέρα και Τρίτη)
 
-**_Ώρα έναρξης: ΤΒΑ_**
+**_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** Θέατρο Χώρα, Κοραή 1 (Πλατεία Αρχιεπισκοπής)
+**_Τοποθεσία:_** [Θέατρο Χώρα, Κοραή 1](https://www.google.com/maps/place/%CE%A0%CE%BB.+%CE%91%CF%81%CF%87%CE%B9%CE%B5%CF%80%CE%B9%CF%83%CE%BA%CF%8C%CF%80%CE%BF%CF%85+%CE%9A%CF%85%CF%80%CF%81%CE%B9%CE%B1%CE%BD%CE%BF%CF%8D,+Nicosia,+Cyprus/@35.1722404,33.368447,19.44z/data=!4m5!3m4!1s0x14de1743aa15a2b9:0x750e78158a9ae2c6!8m2!3d35.172558!4d33.3683474 "Θέατρο Χώρα") (Πλατεία Αρχιεπισκοπής)
 
 ***
 
@@ -69,7 +69,7 @@ critic_p: ''
 
 **_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** Αττικόν
+**_Τοποθεσία:_** [Αττικόν](https://www.google.com/maps/place/Attikon+multicultural+space/@34.7765945,32.420205,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f4e02d643b:0x4a7ebdc27b1f7cd!8m2!3d34.7765929!4d32.422395 "Αττικόν")
 
 ***
 
@@ -79,7 +79,7 @@ critic_p: ''
 
 **_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** Πολυχώρος Συνεργείο
+**_Τοποθεσία:_** [Πολυχώρος Συνεργείο](https://www.google.com/maps/place/Sinergio+theatre/@34.6740287,33.03823,16.51z/data=!4m9!1m2!2m1!1zz4DOv867z4XPh8-Jz4HOv8-CIM-Dz4XOvc61z4HOs861zrnOvw!3m5!1s0x14e7335ac2b9ad4b:0x79bb0624dd712b3b!8m2!3d34.6742419!4d33.0395769!15sCiXPgM6_zrvPhc-Hz4nPgc6_z4Igz4PPhc69zrXPgc6zzrXOuc6_kgEXcGVyZm9ybWluZ19hcnRzX3RoZWF0ZXI "Πολυχώρος Συνεργείο")
 
 ***
 
