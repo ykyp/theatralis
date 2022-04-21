@@ -54,3 +54,5 @@ critic_p: ''
 **_Τιμή:_** €15 / €12 (φοιτητες - σπουδαστές, ΑΜΕΑ, άνεργοι και συνταξιδιώτες με την προσκόμιση έγκυρου αποδεικτικού εγγράφου)
 
 **_Προπώληση / Κρατήσεις:_** Απο την ιστοσελίδα της [Tickethour ](https://shop.tickethour.com/ticketmaster_se_3810.html?fbclid=IwAR0OGi9uZzhV4Sp37epqTtdfhHMi6WlulrE__VaugtJ9NPgO9vv_JJQh1oM&tkhrq=d0b97565-05e7-4757-a32c-a102e5046b9b&tkhrp=0d29f2c9-9c91-42a1-99bf-b49fd59b048c&tkhrts=1650573035&tkhrc=tickethour&tkhre=shopcy&tkhrrt=Safetynet&tkhrh=cc07e4408c75ba813aa67fd7077a648e "Tickethour")και σε όλα τα καταστήματα ACS courier
+
+**_Πληροφορίες:_** Στο τηλέφωνο 99 395970 (12:00 π.μ. - 20:00 μ.μ. Δευτέρα - Παρασκευή) ή μέσω προσωπικού μηνύματος της σελίδας του θεάτρου.
