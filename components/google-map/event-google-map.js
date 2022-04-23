@@ -24,7 +24,7 @@ const EventMap = ({theatreData}) => {
       const marker = new google.maps.Marker({
          position: {lat: lat, lng: long},
          title:theatreData.name,
-         icon:`//${process.env.BASE_URL}/images/theatralis_pin.png`});
+         icon:`${process.env.BASE_URL}/images/theatralis_pin.png`});
 
       setOverlays(
          [
