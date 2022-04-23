@@ -13,7 +13,6 @@ import 'react-medium-image-zoom/dist/styles.css'
 import { Galleria } from 'primereact/galleria'
 import Disqus from "disqus-react"
 import { CommentCount } from 'disqus-react';
-import React from "react";
 import {Messages} from "primereact/messages";
 import EventMap from './event-google-map';
 
