@@ -14,8 +14,11 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/larnaca-municipal-theatre.md
 - theatres/thoc.md
+- theatres/larnaca-municipal-theatre.md
+- theatres/dimotiko-theatro-sotiras.md
+- theatres/rialto.md
+- theatres/markidio-theatro.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
