@@ -13,6 +13,8 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
+theatres:
+- theatres/larnaca-municipal-theatre.md
 
 ---
 #### A FEW WORDS ABOUT THE PLAY
