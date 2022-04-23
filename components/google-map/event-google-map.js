@@ -1,23 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { GMap } from 'primereact/gmap';
-import { loadGoogleMaps, removeGoogleMaps } from './google-maps';
 
 const EventMap = ({theatreData}) => {
    const latlong = theatreData.latlong.split(",");
    const lat = Number(latlong[0]);
    const long = Number(latlong[1]);
-   const [googleMapsReady, setGoogleMapsReady] = useState(false);
    const [overlays, setOverlays] = useState(null);
-
-   useEffect(() => {
-      loadGoogleMaps(() => {
-         setGoogleMapsReady(true);
-      });
-
-      return () => {
-         removeGoogleMaps();
-      };
-   },[]);
 
    const contentString =
       '<div id="content">' +
@@ -76,16 +64,12 @@ const EventMap = ({theatreData}) => {
 
    return (
       <div>
-         {
-            googleMapsReady && (
-               <div className="card">
-                  <GMap overlays={overlays}
-                        options={options}
-                        style={{width: '100%', minWidth:'500px', minHeight: '320px'}}
-                        onMapReady={onMapReady} />
-               </div>
-            )
-         }
+         <div className="card">
+            <GMap overlays={overlays}
+                  options={options}
+                  style={{width: '100%', minWidth:'500px', minHeight: '320px'}}
+                  onMapReady={onMapReady} />
+         </div>
       </div>
    );
 };

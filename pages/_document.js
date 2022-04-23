@@ -36,6 +36,8 @@ export default class MyDocument extends Document {
          }}
             />
 
+            <script async defer
+            src="https://maps.google.com/maps/api/js?key=AIzaSyDJFw0VYvFk9VqhQjDfNqmITaKYXga3SyI"/>
 
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>

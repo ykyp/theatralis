@@ -1,4 +1,5 @@
 export const loadGoogleMaps = (callback) => {
+
    const existingScript = document.getElementById('googleMaps');
 
    if (!existingScript) {
@@ -14,7 +15,9 @@ export const loadGoogleMaps = (callback) => {
       };
    }
 
-   if (existingScript && callback) callback();
+   if (existingScript && callback) {
+      callback()
+   };
 };
 
 export const removeGoogleMaps = () => {
