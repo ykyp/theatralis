@@ -6,5 +6,6 @@ logo: "/images/uploads/theatroena.jpeg"
 website: https://www.theatroena.com.cy/
 instagram_page: https://www.instagram.com/theatroena/
 facebook_page: https://www.facebook.com/theatroena/
+city: Nicosia
 
 ---

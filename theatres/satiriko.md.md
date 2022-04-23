@@ -7,5 +7,6 @@ website: ''
 instagram_page: https://www.instagram.com/satiriko.theatro/
 facebook_page: https://www.facebook.com/satiriko.theatro/
 title: satiriko.md
+city: Nicosia
 
 ---
