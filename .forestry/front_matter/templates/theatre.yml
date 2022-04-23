@@ -75,6 +75,7 @@ fields:
   label: Facebook Page
   description: Theatre's facebook page
 pages:
+- theatres/rialto.md
 - theatres/satiriko.md.md
 - theatres/theatro-ena.md
 - theatres/thoc-apothikes.md
