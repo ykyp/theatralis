@@ -22,7 +22,7 @@ const EventMap = ({theatreData}) => {
       `<p><b>${theatreData.name}</b>,  ` +
       `${theatreData.id}` +
       "</p>" +
-      '<p>Get directions , <a target="_blank" href="https://www.google.com/maps?saddr=My+Location&daddr=35.1680902,33.3531578">' +
+      `<p>Get directions , <a target="_blank" href=${theatreData.address}>` +
       "here</a> " +
       "</p>" +
       "</div>" +

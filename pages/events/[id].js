@@ -322,11 +322,11 @@ export default function Event({ eventData: eventData }) {
                 </div>
               </TabPanel>
               }
-              <TabPanel header="Map">
+              { eventData.theatresData && <TabPanel header="Map">
                 {eventData.theatresData.map((t, i) =>
                    <EventMap theatreData={t} key={i}/>
                    )}
-              </TabPanel>
+              </TabPanel> }
             </TabView>
           </div>
 
