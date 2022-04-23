@@ -1,3 +1,4 @@
+import React, {useEffect, useRef, useState}  from 'react';
 import Layout from '../../components/layout'
 import { getAllEventIds, getEventData } from '../../lib/events'
 import Head from 'next/head'
@@ -5,7 +6,6 @@ import {formatDate} from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { TabView, TabPanel } from 'primereact/tabview';
 import useTranslation from "next-translate/useTranslation";
-import {useEffect, useRef, useState} from 'react';
 import {BackToHome} from "../../components/navigation/backToHome";
 import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
 import Zoom from 'react-medium-image-zoom'
@@ -13,8 +13,8 @@ import 'react-medium-image-zoom/dist/styles.css'
 import { Galleria } from 'primereact/galleria'
 import Disqus from "disqus-react"
 import { CommentCount } from 'disqus-react';
-import React from "react";
 import {Messages} from "primereact/messages";
+import {TheatreInfo} from "../../components/theatre/theatre-info";
 
 export default function Event({ eventData: eventData }) {
   const covidMessage = useRef(null);
@@ -261,9 +261,6 @@ export default function Event({ eventData: eventData }) {
                   </div>
                   </div>
                 }
-
-
-
               </TabPanel>
               { disqusConfig && <TabPanel header="Comments" headerTemplate={template}>
                 <div className="article-container">
@@ -325,9 +322,11 @@ export default function Event({ eventData: eventData }) {
                 </div>
               </TabPanel>
               }
-              {/*<TabPanel header="Map">
-                <p>Map will go here...</p>
-              </TabPanel>*/}
+              { eventData.theatresData && <TabPanel header={t("venue")}>
+                {eventData.theatresData.map((t, i) =>
+                   <TheatreInfo theatreData={t} key={i}/>
+                   )}
+              </TabPanel> }
             </TabView>
           </div>
 
