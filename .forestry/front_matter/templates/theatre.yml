@@ -31,12 +31,25 @@ fields:
       file: 
       path: 
   label: City
+- name: google_maps_link
+  type: text
+  config:
+    required: false
+  label: Google Maps Link
 - name: address
   type: text
   config:
     required: true
   label: Address
   description: Address of the theatre
+- name: latlong
+  type: text
+  config:
+    required: true
+  label: Lat/Long
+  description: On your computer, open Google Maps. Right-click the place or area on
+    the map. This will open a pop-up window. <strong>You can find your latitude and
+    longitude in decimal format at the top</strong>.
 - name: logo
   type: file
   config:
