@@ -13,6 +13,11 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
+theatres:
+- theatres/leventios-pinakothiki.md
+- theatres/markidio-theatro.md
+- theatres/larnaca-municipal-theatre.md
+- theatres/patticheio-theatro.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
