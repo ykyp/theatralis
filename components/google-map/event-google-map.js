@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import { GMap } from 'primereact/gmap';
 import { loadGoogleMaps, removeGoogleMaps } from './google-maps';
 
-export default function EventMap () {
+const EventMap = () => {
    const [googleMapsReady, setGoogleMapsReady] = useState(false);
    const [overlays, setOverlays] = useState(null);
 
@@ -87,3 +87,5 @@ export default function EventMap () {
       </div>
    );
 };
+
+export { EventMap };
