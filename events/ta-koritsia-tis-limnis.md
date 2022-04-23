@@ -13,6 +13,9 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
+theatres:
+- theatres/theatro-maskarini.md
+- theatres/rialto.md
 
 ---
 Ο Μιχάλης Παπαδόπουλος «επιστρέφει» για άλλη μια φορά στο θεατρικό σανίδι του θεάτρου Αντίλογος με το επίκαιρο έργο του «Τα κορίτσια της λίμνης» σε σκηνοθεσία Νεοκλή Νεοκλέους.
