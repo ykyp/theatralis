@@ -67,7 +67,7 @@ const EventMap = ({theatreData}) => {
          <div className="card">
             <GMap overlays={overlays}
                   options={options}
-                  style={{width: '100%', minWidth:'500px', minHeight: '320px'}}
+                  style={{width: '100%', minWidth:'100%', minHeight: '320px'}}
                   onMapReady={onMapReady} />
          </div>
       </div>
