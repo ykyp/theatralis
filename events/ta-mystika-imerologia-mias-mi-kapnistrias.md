@@ -13,6 +13,8 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
+theatres:
+- theatres/aigia-sholi-tehnon.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
