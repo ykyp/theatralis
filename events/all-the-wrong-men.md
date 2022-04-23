@@ -1,14 +1,15 @@
 ---
 title: 'All the wrong men '
 startDate: 2022-02-22
-endDate: 2022-03-01
-city: Nicosia
+endDate: 2022-03-31
+city: Nicosia,limassol
 event_image: "/images/uploads/dsc07517.jpg"
 cover_image: "/images/uploads/dsc07590.jpg"
 category: Monologue
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
+extended: true
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΟ ΕΡΓΟ
@@ -35,11 +36,23 @@ gallery_3: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Παραστάσεις:_** 22, 23 Φεβρουαρίου και 1 Μαρτίου 2022
+**ΛΕΥΚΩΣΙΑ**
+
+**_Παραστάσεις:_** 22, 23 Φεβρουαρίου / 1, 15 Μαρτίου & 31 Μαρτίου
 
 **_Ώρα έναρξης:_** 20:30
 
 **_Τοποθεσία:_** [Θέατρο Ένα](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%88%CE%BD%CE%B1/@35.1748349,33.3689687,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17d610346927:0x63d4f1251d13c850!8m2!3d35.1748349!4d33.3711574 "https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%88%CE%BD%CE%B1/@35.1748349,33.3689687,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17d610346927:0x63d4f1251d13c850!8m2!3d35.1748349!4d33.3711574")
+
+***
+
+**ΛΕΜΕΣΟΣ**
+
+**_Παράσταση:_** 22 Μαρτίου 2022
+
+**_Ώρα έναρξης:_** 20:30
+
+**_Τοποθεσία:_**  [Παλιό Ξυδάδικο Γενεθλίου Μιτέλλα 34](https://www.google.com/maps/place/Old+Vinegar+Factory+%7C+%CE%A0%CE%B1%CE%BB%CE%B9%CF%8C+%CE%9E%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%BF/@34.6733314,33.0432193,20.01z/data=!4m5!3m4!1s0x14e73302e71e32e5:0x8b9d9b1e08087b59!8m2!3d34.6732254!4d33.0435836)
 
 Κατάλληλη για άνω των 16 ετών
 

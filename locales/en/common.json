@@ -9,7 +9,7 @@
   "found": "Found",
   "clearAllFilters": "Clear all filters",
   "defaultSiteTitle": "Theatralis - Cyprus Theatre Guide",
-  "defaultSiteDesc": "Ο πιο πλήρης οδυγός Θεάτρου στην Κύπρο.",
+  "defaultSiteDesc": "Ο πιο πλήρης οδηγός Θεάτρου στην Κύπρο.",
   "about-us": "About Us",
   "contact-us": "Contact Us",
   "hero-subtitle": "Find all theatre events in Cyprus",
@@ -91,7 +91,7 @@
   "newsletterEmailSubmit": "Submit",
   "newsletterSuccessTitle": "\uD83C\uDF89 ",
   "newsletterSuccessBody": " You have been registered successfully to our newsletter!",
-  "commentsTitle": "Share your impressions",
+  "commentsTitle": "AUDIENCE COMMENTS ABOUT THE PERFORMANCE",
   "commentsPolicyTitle1": "The owners of the website www.theatralis.com.cy reserve the right to remove reader comments. Please read the ",
   "commentsPolicyTitle2": "Comment Policy of Theatralis",
   "commentsPolicyTitle3": " before commenting.",
@@ -104,5 +104,9 @@
   "extendedTooltip": "This event got extended",
   "extendedTag": "Extended",
   "readMoreCritic": "Read the full critic in Phileleftheros site",
-  "criticPhilenews": "Critic from Phileleftheros"
+  "criticPhilenews": "PRESS REVIEWS FOR THE PERFORMANCE",
+  "covidNote": "Due to coronavirus, many performances are canceled or postponed, so before leaving, it is recommended that you contact the theater of your choice.",
+  "search": "Search",
+  "at": "at",
+  "withTitle": "with title"
 }

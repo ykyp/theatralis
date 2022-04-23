@@ -5,6 +5,7 @@ import {formatDate} from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { TabView, TabPanel } from 'primereact/tabview';
 import useTranslation from "next-translate/useTranslation";
+import React, {useEffect, useRef, useState} from 'react';
 import {BackToHome} from "../../components/navigation/backToHome";
 import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
 import Zoom from 'react-medium-image-zoom'
@@ -12,10 +13,12 @@ import 'react-medium-image-zoom/dist/styles.css'
 import { Galleria } from 'primereact/galleria'
 import Disqus from "disqus-react"
 import { CommentCount } from 'disqus-react';
-import React, { useEffect, useState } from 'react';
+import React from "react";
+import {Messages} from "primereact/messages";
 import EventMap from './event-google-map';
 
 export default function Event({ eventData: eventData }) {
+  const covidMessage = useRef(null);
   const { t } = useTranslation('common');
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
@@ -62,6 +65,9 @@ export default function Event({ eventData: eventData }) {
        identifier: urlParts[urlParts.length-1],
        title: eventData.title
     });
+    covidMessage.current.show([
+      { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
+    ]);
   }, []);
 
   const translatedKeys = (keysAsString) => {
@@ -97,7 +103,7 @@ export default function Event({ eventData: eventData }) {
   return (
     <Layout description={eventData.title}
             fbSiteName={period}
-            fbTitle={eventData.title}
+            fbTitle={eventData.title.toUpperCase()}
             previewImage={eventData.event_image}
     >
 
@@ -115,7 +121,7 @@ export default function Event({ eventData: eventData }) {
       }
 
       <Head>
-        <title>{eventData.title}</title>
+        <title>{eventData.title.toUpperCase()}</title>
       </Head>
       <div className="w-full flex justify-around">
 
@@ -163,7 +169,10 @@ export default function Event({ eventData: eventData }) {
 
 
 
+
             </div>
+
+
             {/* we want to hide id if there's a cover photo and on small devices */}
             {eventData.event_image && !eventData.cover_image &&
               <div className="xs:m-auto sm:m-auto md:m-auto">
@@ -192,7 +201,11 @@ export default function Event({ eventData: eventData }) {
               </Zoom>
             </div>
             }
-          </div>
+
+             </div>
+          <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>
+
+
           <div className="hide-li">
             <TabView>
               <TabPanel header={t("details")}>

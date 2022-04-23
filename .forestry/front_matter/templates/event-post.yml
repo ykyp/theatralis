@@ -94,17 +94,73 @@ fields:
       format: html-blocks
   label: Phileleftheros Paragraph
   description: Μια παράγραφος με την κριτικη του Φιλελεύθερου
+- name: theatres
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: theatres
+  label: Theatres
+  description: Theatres locations
 pages:
+- events/Aristos.md
+- events/Aristotelis-Rigas.md
+- events/Xatzipaulou-comedy-club.md
 - events/a-pepa-mplom.md
+- events/akrotites.md
+- events/anthismenes-manolies.md
+- events/antigoni-en-krypti.md
+- events/apopse-trome-stis-iokastis.md
 - events/asta-na-pane.md
+- events/cyprus-avenue.md
+- events/daffodil-scissors.md
 - events/den-akouw-den-vlepo-den-milo.md
+- events/dimiourgontas-mia-parastasi.md
+- events/doctor-tsexof.md
 - events/elmer-o-pardalos-elefantas.md
 - events/emigkredes.md
+- events/ena-portreto-gia-tin-mona-liza.md
+- events/erotevmena-aloga.md
 - events/eutrapeles-viral-istories.md
+- events/euxi-sto-feggari.md
+- events/every-brilliant-thing.md
+- events/exthroi-ex-aimatos.md
+- events/fear-in-english.md
 - events/filoumena-martourano.md
+- events/find-a-partner-in-english.md
+- events/gia-ginaika-kali-einai.md
+- events/h-parelasi.md
+- events/i-eleni-tou-gianni-ritsou.md
 - events/i-methodos-tou-dr-palomero.md
 - events/i-porni-apo-panw.md
-- events/kapote-sto-vosporo.md
+- events/kapote-sto-vosporo-akirosi.md
+- events/leutero-zeugari.md
+- events/machinal.md
+- events/maria-kallas-prin-to-telos.md
+- events/mary-poppins.md
+- events/motortown.md
+- events/na-to-fws.md
+- events/nat-in-da-house.md
+- events/nixtes-kwmwdias.md
+- events/o-megalos-peripatos-tou-petrou.md
+- events/o-skapoulos.md
 - events/o-trigonopsaroulis.md
+- events/oxygono.md
 - events/pavlis-milia-love-hor-ever.md
+- events/silent-sky.md
+- events/ta-koritsia-tis-limnis.md
+- events/ta-mystika-imerologia-mias-mi-kapnistrias.md
+- events/tears-of-silence-in-english.md
 - events/the-corporation.md
+- events/the-lion-the-witch-the-wardrobe.md
+- events/thelw-na-sou-krataw-to-xeri.md
+- events/to-arxeio.md
+- events/to-psema.md
+- events/to-skouliki-mou-ki-egw.md
+- events/to-taxidi-sto-mpaountifoul.md
+- events/tsitax-i-erimia-tou-termatofilaka.md
+- events/tsouvelas-parenergeies.md
+- events/xatzipaulou-timing.md

@@ -1,7 +1,7 @@
 ---
 title: Ο ΜΕΤΑΞΟΥΛΗΣ
-startDate: 2022-01-23
-endDate: 2022-02-12
+startDate: 2022-05-07
+endDate: 2022-05-29
 city: Nicosia, Larnaca, Limassol, Pafos
 event_image: "/images/uploads/metaksoulisstauros.jpg"
 category: Children
@@ -9,6 +9,7 @@ cover_image: ''
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
+extended: false
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -35,50 +36,54 @@ gallery_3: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**ΛΕΜΕΣΟΣ**
-
-**_Ημερομηνίες και Ώρα έναρξης:_**
-
-Κυριακή 20 Φεβρουαρίου 2022 στις 10:00πμ και 12:00μμ  
-Σάββατο 26 Φεβρουαρίου 2022 στις 10:00πμ και 12:00μμ
-
-**_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")  
-**_Διάρκεια:_** 55’  
-**_Τιμή εισιτηρίων:_** €12  
-**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα του [Ριάλτο](https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511 "https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511") ή απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home").
-
-**ΛΕΥΚΩΣΙΑ**
-
-**_Ημερομηνίες και Ώρα έναρξης:_**
-
-Κυριακή 23 Ιανουαρίου 2022 στις 10:00πμ και 12:00μμ  
-Κυριακή 30 Ιανουαρίου 2022 στις 10:00 πμ
-
-**_Τοποθεσία:_** [Θέατρο Παλλάς](https://www.google.com/maps/place/Pallas+Theater/@35.1732295,33.3551574,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17502ddb6def:0xf9034fe4278c3e69!8m2!3d35.1732295!4d33.3573461 "https://www.google.com/maps/place/Pallas+Theater/@35.1732295,33.3551574,17z/data=!3m1!4b1!4m5!3m4!1s0x14de17502ddb6def:0xf9034fe4278c3e69!8m2!3d35.1732295!4d33.3573461")  
-**_Διάρκεια:_** 55’  
-**_Τιμή εισιτηρίων:_** €12  
-**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home").
-
 **ΛΑΡΝΑΚΑ**
 
-**_Ημερομηνίες και Ώρα έναρξης:_**
+**_Ημερομηνία:_** Σάββατο 7 Μαίου
 
-Κυριακή 6 Φεβρουαρίου 2022 στις 11:00πμ
+**_Ώρα έναρξης:_** 11:00πμ
 
-**_Τοποθεσία:_** [Δημοτικό Θέατρο Λάρνακας](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160535,33.6242074,17z/data=!3m1!4b1!4m5!3m4!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961 "https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160535,33.6242074,17z/data=!3m1!4b1!4m5!3m4!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961")  
-**_Διάρκεια:_** 55’  
-**_Τιμή εισιτηρίων:_** €12  
-**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home").
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Λάρνακας](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160535,33.6242074,17z/data=!3m1!4b1!4m5!3m4!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961 "https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%BF+%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160535,33.6242074,17z/data=!3m1!4b1!4m5!3m4!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961")
+
+***
+
+**ΛΕΜΕΣΟΣ**
+
+**_Ημερομηνία:_** Κυριακή 22 Μαίου
+
+**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
+
+**_Τοποθεσία:_** [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527 "https://www.google.com/maps/place/Rialto+Theatre/@34.6798494,33.0444744,18z/data=!4m5!3m4!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.6797568!4d33.0455527")
+
+***
 
 **ΠΑΦΟΣ**
 
-**_Ημερομηνίες και Ώρα έναρξης:_**
+**_Ημερομηνία:_** Σάββατο 28 Μαίου
 
-Σάββατο 12 Φεβρουαρίου 2022 στις 11:00πμ
+**_Ώρα έναρξης:_** 11:00πμ
 
-**_Τοποθεσία:_** [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146 "https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146")  
-**_Διάρκεια:_** 55’  
-**_Τιμή εισιτηρίων:_** €12  
-**_Αγορά εισιτηρίων:_** Απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home").
+**_Τοποθεσία:_** [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146 "https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146")
+
+***
+
+**ΛΕΥΚΩΣΙΑ**
+
+**_Ημερομηνία:_** Κυριακή 29 Μαίου
+
+**_Ώρα έναρξης:_** 2 παραστάσεις στις 10:00πμ και 12:00μμ
+
+**_Τοποθεσία:_** [Σατιρικό Θέατρο](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF,+Morphou,+Nicosia,+Cyprus/@35.1623159,33.3830195,16.22z/data=!4m5!3m4!1s0x14de177a38c768cb:0x621da5c5d96b3ed4!8m2!3d35.1630734!4d33.3865709 "Σατιρικό Θέατρο")
 
 Κατάλληλο για παιδία ηλικίας 2 χρονών και άνω
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+**_Τιμή:_** €12
+
+**_Αγορά εισιτηρίων:_**
+
+Για Λεμεσό: Απο την ιστοσελίδα του [Ριάλτο](https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511 "https://rialto.interticket.com/program/metaksoulisstauros-mikhalakakos-giannis-politis-2511")
+
+Για τις υπόλοιπες πόλεις απο την ιστοσελίδα της [SoldOut](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home")

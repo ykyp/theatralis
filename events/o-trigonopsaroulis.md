@@ -1,7 +1,7 @@
 ---
 title: Ο ΤΡΙΓΩΝΟΨΑΡΟΥΛΗΣ
 startDate: 2022-03-12
-endDate: 2022-02-13
+endDate: 2022-03-13
 city: Nicosia, Limassol
 event_image: "/images/uploads/18-sep21_155-trigonopsaroulis.jpg"
 cover_image: ''
@@ -12,6 +12,7 @@ gallery_3: ''
 extended: false
 critic_p: ''
 critic_link: ''
+critic_title: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -53,12 +54,14 @@ critic_link: ''
 
 **_Τοποθεσία:_** [Τεχνοχώρος της ΕΘΑΛ](https://www.google.com/maps/place/ETHAL/@34.6683736,33.0234836,17z/data=!3m1!4b1!4m5!3m4!1s0x14e73250f693fa5d:0xc7a10b3d8618708b!8m2!3d34.6683736!4d33.0256723 "ΕΘΑΛ")
 
+Κατάλληλο για παιδιά από 4 -9 χρονων
+
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
 **_Γενική είσοδος:_** €8
 
-**_Προπώληση εισιτηρίων:_** Tickethour και σε όλα τα καταστήματα ACS
+**_Προπώληση εισιτηρίων:_** [Tickethour ](https://shop.tickethour.com/ticketmaster_se_3732.html "Tickethour")και σε όλα τα καταστήματα ACS
 
 **_Πληροφορίες:_** 96 297278

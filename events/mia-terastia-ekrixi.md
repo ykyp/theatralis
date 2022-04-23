@@ -9,6 +9,7 @@ category: Comedy
 gallery_1: "/images/uploads/dsc_0202.jpg"
 gallery_2: "/images/uploads/dsc_0367.jpg"
 gallery_3: "/images/uploads/dsc_0421.jpg"
+extended: false
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΟ ΕΡΓΟ
@@ -51,6 +52,8 @@ gallery_3: "/images/uploads/dsc_0421.jpg"
 
 **_Τοποθεσία:_** [Θέατρο ΕΘΑΛ](https://www.google.com/maps/place/ETHAL/@34.6683736,33.0234836,17z/data=!3m1!4b1!4m5!3m4!1s0x14e73250f693fa5d:0xc7a10b3d8618708b!8m2!3d34.6683736!4d33.0256723 "https://www.google.com/maps/place/ETHAL/@34.6683736,33.0234836,17z/data=!3m1!4b1!4m5!3m4!1s0x14e73250f693fa5d:0xc7a10b3d8618708b!8m2!3d34.6683736!4d33.0256723")
 
+***
+
 **ΛΕΥΚΩΣΙΑ**
 
 **_Παραστάσεις:_** 2, 3, 4 και 5 Μαρτίου 2022
@@ -61,6 +64,8 @@ gallery_3: "/images/uploads/dsc_0421.jpg"
 
 **_Διάρκεια:_** 1 ώρα και 15 λεπτά
 
+Η παράσταση είναι κατάλληλη για άνω των 16 ετών.
+
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
@@ -68,5 +73,3 @@ gallery_3: "/images/uploads/dsc_0421.jpg"
 **_Πληροφορίες:_** 25 877827
 
 **_Προπώληση εισιτηρίων:_** [SoldOut tickets](https://www.soldoutticketbox.com/en/home "https://www.soldoutticketbox.com/en/home") και σε όλα τα καταστήματα Στεφανής
-
-Η παράσταση είναι κατάλληλη για άνω των 16 ετών.
