@@ -13,6 +13,9 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
+theatres:
+- theatres/pallas.md
+- theatres/theatro_ypsona.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
