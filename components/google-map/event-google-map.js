@@ -3,6 +3,9 @@ import { GMap } from 'primereact/gmap';
 import { loadGoogleMaps, removeGoogleMaps } from './google-maps';
 
 const EventMap = ({theatreData}) => {
+   const latlong = theatreData.latlong.split(",");
+   const lat = Number(latlong[0]);
+   const long = Number(latlong[1]);
    const [googleMapsReady, setGoogleMapsReady] = useState(false);
    const [overlays, setOverlays] = useState(null);
 
@@ -19,10 +22,9 @@ const EventMap = ({theatreData}) => {
    const contentString =
       '<div id="content">' +
       '<div id="bodyContent">' +
-      `<p><b>${theatreData.name}</b>,  ` +
-      `${theatreData.id}` +
+      `<p><b>${theatreData.name}</b>` +
       "</p>" +
-      `<p>Get directions , <a target="_blank" href=${theatreData.address}>` +
+      `<p>Get directions , <a target="_blank" href=${theatreData.google_maps_link}>` +
       "here</a> " +
       "</p>" +
       "</div>" +
@@ -32,8 +34,8 @@ const EventMap = ({theatreData}) => {
    const onMapReady = (event) => {
 
       const marker = new google.maps.Marker({
-         position: {lat: 35.1680605, lng: 33.3552834},
-         title:"Thoc",
+         position: {lat: lat, lng: long},
+         title:theatreData.name,
          icon:`//${process.env.BASE_URL}/images/theatralis_pin.png`});
 
       setOverlays(
@@ -65,7 +67,7 @@ const EventMap = ({theatreData}) => {
    };
 
    const options = {
-      center: {lat: 35.1680605, lng: 33.3552834},
+      center: {lat: lat, lng: long},
       zoom: 14,
       zoomControl: true,
       mapId: 'bc03a351bf3a9067',
