@@ -14,7 +14,7 @@ import { Galleria } from 'primereact/galleria'
 import Disqus from "disqus-react"
 import { CommentCount } from 'disqus-react';
 import {Messages} from "primereact/messages";
-import {EventMap} from "../../components/google-map/event-google-map";
+import {TheatreInfo} from "../../components/theatre/theatre-info";
 
 export default function Event({ eventData: eventData }) {
   const covidMessage = useRef(null);
@@ -324,7 +324,7 @@ export default function Event({ eventData: eventData }) {
               }
               { eventData.theatresData && <TabPanel header="Map">
                 {eventData.theatresData.map((t, i) =>
-                   <EventMap theatreData={t} key={i}/>
+                   <TheatreInfo theatreData={t} key={i}/>
                    )}
               </TabPanel> }
             </TabView>

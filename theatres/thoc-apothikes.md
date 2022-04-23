@@ -6,5 +6,5 @@ logo: "/images/uploads/logo_el.png"
 website: https://www.thoc.org.cy/about/theatro-apothikes-thok,el-about-02-02,el
 instagram_page: https://www.instagram.com/th.o.c/
 facebook_page: https://www.facebook.com/ThocOfficial/
-
+city: Nicosia
 ---
