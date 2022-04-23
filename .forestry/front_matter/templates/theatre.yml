@@ -14,6 +14,23 @@ fields:
     required: true
   label: Name
   description: Name of the theatre
+- name: city
+  type: select
+  default: []
+  config:
+    required: true
+    options:
+    - Nicosia
+    - Limassol
+    - Paphos
+    - Larnaca
+    - Famagusta
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: City
 - name: address
   type: text
   config:
