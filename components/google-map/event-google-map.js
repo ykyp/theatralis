@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { GMap } from 'primereact/gmap';
 import { loadGoogleMaps, removeGoogleMaps } from './google-maps';
 
-const EventMap = () => {
+const EventMap = ({theatreData}) => {
    const [googleMapsReady, setGoogleMapsReady] = useState(false);
    const [overlays, setOverlays] = useState(null);
 
@@ -19,8 +19,8 @@ const EventMap = () => {
    const contentString =
       '<div id="content">' +
       '<div id="bodyContent">' +
-      "<p><b>Thoc</b>,  " +
-      "Grigori Afxentiou 9 1096, Nicosia" +
+      `<p><b>${theatreData.name}</b>,  ` +
+      `${theatreData.id}` +
       "</p>" +
       '<p>Get directions , <a target="_blank" href="https://www.google.com/maps?saddr=My+Location&daddr=35.1680902,33.3531578">' +
       "here</a> " +

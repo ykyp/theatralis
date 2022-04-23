@@ -1,5 +1,4 @@
-import React from 'react';
-import {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef, useState}  from 'react';
 import Layout from '../../components/layout'
 import { getAllEventIds, getEventData } from '../../lib/events'
 import Head from 'next/head'
@@ -15,6 +14,7 @@ import { Galleria } from 'primereact/galleria'
 import Disqus from "disqus-react"
 import { CommentCount } from 'disqus-react';
 import {Messages} from "primereact/messages";
+import {EventMap} from "../../components/google-map/event-google-map";
 
 export default function Event({ eventData: eventData }) {
   const covidMessage = useRef(null);
@@ -261,13 +261,6 @@ export default function Event({ eventData: eventData }) {
                   </div>
                   </div>
                 }
-
-
-
-                 <TabPanel header="Map">
-                    Address: Grigori Afxentiou 9 1096, Nicosia
-
-                 </TabPanel>
               </TabPanel>
               { disqusConfig && <TabPanel header="Comments" headerTemplate={template}>
                 <div className="article-container">
@@ -329,9 +322,11 @@ export default function Event({ eventData: eventData }) {
                 </div>
               </TabPanel>
               }
-              {/*<TabPanel header="Map">
-                <p>Map will go here...</p>
-              </TabPanel>*/}
+              <TabPanel header="Map">
+                {eventData.theatresData.map((t, i) =>
+                   <EventMap theatreData={t} key={i}/>
+                   )}
+              </TabPanel>
             </TabView>
           </div>
 
