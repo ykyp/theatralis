@@ -13,7 +13,10 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
-theatres: []
+theatres:
+- theatres/markidio-theatro.md
+- theatres/patticheio-theatro.md
+- theatres/dimotiko-theatro-leukosias.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
