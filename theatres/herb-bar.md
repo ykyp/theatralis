@@ -6,8 +6,8 @@ google_maps_link: https://www.google.com/maps/place/HERB+BAR/@35.1742161,33.3610
 address: Ασκληπιού 36, Λευκωσία, 1011
 latlong: 35.174395845826254, 33.36317116659235
 logo: ''
-website: https://www.facebook.com/Herb-Bar-103347358473158/
+website: ''
 instagram_page: ''
-facebook_page: https://www.facebook.com/Herb-Bar-103347358473158/
+facebook_page: ''
 
 ---
