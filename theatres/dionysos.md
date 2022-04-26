@@ -7,7 +7,7 @@ address: Διαγόρου 29, Λευκωσία
 latlong: 35.16879770290933, 33.35790745551271
 logo: ''
 website: http://www.theatrodionysos.com/
-instagram_page: ''
-facebook_page: ''
+instagram_page: https://www.instagram.com/theatrodionysos/?hl=en
+facebook_page: https://www.facebook.com/TheatroDionysosCyprus
 
 ---
