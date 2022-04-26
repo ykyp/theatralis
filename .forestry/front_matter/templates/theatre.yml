@@ -75,6 +75,7 @@ fields:
   label: Facebook Page
   description: Theatre's facebook page
 pages:
+- theatres/Flea-theatre.md
 - theatres/aigia-sholi-tehnon.md
 - theatres/amphitheatro_lakatamias.md
 - theatres/attikon-paphos.md
