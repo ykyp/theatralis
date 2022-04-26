@@ -8,6 +8,6 @@ latlong: 35.17206638666238, 33.36932613878208
 logo: ''
 website: ''
 instagram_page: ''
-facebook_page: ''
+facebook_page: https://www.facebook.com/theatroxwra
 
 ---
