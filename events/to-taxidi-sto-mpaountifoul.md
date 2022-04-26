@@ -85,4 +85,4 @@ theatres:
 
 **_Τιμή:_** €15 / €12
 
-**_Προπώληση / Κρατήσεις:_** Απο την ιστοσελίδα της [Soldout ](https://www.soldoutticketbox.com/to-taxidi-sto-mpaoyntifoyl-satiriko-2022/?lang=el "Soldout")και στα τηλέφωνα 2312940 & 22421609
+**_Προπώληση / Κρατήσεις:_** Απο την ιστοσελίδα της [Soldout ](https://www.soldoutticketbox.com/to-taxidi-sto-mpaoyntifoyl-satiriko-2022/?lang=el "Soldout")και στα τηλέφωνα 22312940 & 22421609
