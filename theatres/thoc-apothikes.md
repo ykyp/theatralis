@@ -1,7 +1,7 @@
 ---
 id: thoc_apothikes
 name: Θέατρο Αποθήκες ΘΟΚ
-address: Kampou 29, Strovolos
+address: Κάμπου 29, Στρόβολος
 logo: "/images/uploads/logo_el.png"
 website: https://www.thoc.org.cy/about/theatro-apothikes-thok,el-about-02-02,el
 instagram_page: https://www.instagram.com/th.o.c/
