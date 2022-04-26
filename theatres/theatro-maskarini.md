@@ -7,7 +7,7 @@ address: Αθαλάσσης 4, Λατσιά, Λευκωσία
 latlong: 35.11889002894306, 33.378685048691196
 logo: "/images/uploads/theatro-maskarini.jpg"
 website: https://www.maskarini.info/
-instagram_page: ''
-facebook_page: ''
+instagram_page: https://www.instagram.com/theatro.maskarini/?hl=en
+facebook_page: https://www.facebook.com/maskarini
 
 ---
