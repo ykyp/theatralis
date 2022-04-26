@@ -1,7 +1,7 @@
 ---
 id: satiriko
 name: Σατιρικό Θέατρο
-address: Morphou, Nicosia, Cyprus
+address: Μόρφου, Λευκωσία, Κύπρος
 logo: "/images/uploads/satiriko.jpeg"
 website: ''
 instagram_page: https://www.instagram.com/satiriko.theatro/
