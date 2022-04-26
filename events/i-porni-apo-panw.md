@@ -1,7 +1,7 @@
 ---
 title: Η ΠΟΡΝΗ ΑΠΟ ΠΑΝΩ
 startDate: 2022-05-20
-endDate: 2022-03-23
+endDate: 2022-05-23
 city: Larnaca, Nicosia, Limassol, Pafos
 event_image: "/images/uploads/1d8a3079.png"
 cover_image: ''
