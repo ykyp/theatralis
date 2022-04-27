@@ -14,7 +14,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/pallas.md
+- theatres/kinimatotheatro-pallas.md
 - theatres/theatro_ypsona.md
 
 ---
