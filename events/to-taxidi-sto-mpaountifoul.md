@@ -79,7 +79,7 @@ theatres:
 
 **_Τοποθεσία:_** Δημοτικό Θέατρο Στροβόλου
 
-**_Είσοδος:_** €5 απο την ιστοσελίδα της [**TICKETHOUR**](https://shop.tickethour.com/ticketmaster_se_3799.html "Tickethour")
+**_Είσιτήρια:_** €5 απο την ιστοσελίδα της [**TICKETHOUR**](https://shop.tickethour.com/ticketmaster_se_3799.html "Tickethour")
 
 ***
 
