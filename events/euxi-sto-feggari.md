@@ -14,6 +14,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/texnoxwros-ethal.md
 - theatres/markidio-theatro.md
 - theatres/theatro_dentro.md
 
