@@ -14,6 +14,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
 - theatres/markidio-theatro.md
 - theatres/patticheio-theatro.md
 - theatres/dimotiko-theatro-leukosias.md
