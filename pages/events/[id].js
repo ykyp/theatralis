@@ -76,7 +76,7 @@ export default function Event({ eventData: eventData }) {
           setActiveIndex(2);
          const tabsElement = document.getElementById('tabs');
          tabsElement.scrollIntoView();
-       }, 10);
+       }, 200);
     }
   }, []);
 
