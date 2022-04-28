@@ -6,14 +6,15 @@ city: Nicosia, Limassol
 event_image: "/images/uploads/pq3a2002.JPG"
 cover_image: "/images/uploads/pq3a2199-2.JPG"
 category: Drama
-gallery_1: "/images/uploads/pq3a2027.JPG"
-gallery_2: ''
-gallery_3: ''
+gallery_1: "/images/uploads/_1.jpg"
+gallery_2: "/images/uploads/_2.jpg"
+gallery_3: "/images/uploads/_3.jpg"
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/dimotiko-theatro-strovolou.md
 - theatres/satiriko.md.md
 - theatres/rialto.md
 
