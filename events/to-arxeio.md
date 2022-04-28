@@ -14,10 +14,10 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/patticheio-dimotiko-theatro-lemesos.md
 - theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
 - theatres/leventios-pinakothiki.md
 - theatres/markidio-theatro.md
-- theatres/patticheio-theatro.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
