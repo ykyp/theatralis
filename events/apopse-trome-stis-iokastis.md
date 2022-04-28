@@ -14,7 +14,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/dionysos.md
+- theatres/theatro-dionysos.md
 - theatres/rialto.md
 
 ---
