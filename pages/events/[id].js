@@ -70,7 +70,10 @@ export default function Event({ eventData: eventData }) {
     ]);
 
     if (window.location.hash === '#map') {
-      setActiveIndex(2);
+       //wait for google maps to be loaded
+       setTimeout(() => {
+          setActiveIndex(2);
+       }, 200);
     }
   }, []);
 
