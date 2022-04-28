@@ -23,6 +23,7 @@ export default function Event({ eventData: eventData }) {
   const [twitterShareLink, setTwitterShareLink] = useState("");
   const [disqusConfig, setDisqusConfig] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
+
   const galleryImages = [
      eventData.gallery_1,
      eventData.gallery_2,
@@ -73,7 +74,9 @@ export default function Event({ eventData: eventData }) {
        //wait for google maps to be loaded
        setTimeout(() => {
           setActiveIndex(2);
-       }, 200);
+         const tabsElement = document.getElementById('tabs');
+         tabsElement.scrollIntoView();
+       }, 10);
     }
   }, []);
 
@@ -212,7 +215,7 @@ export default function Event({ eventData: eventData }) {
 
 
           <div className="hide-li">
-            <TabView activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)}>
+            <TabView id="tabs" activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)}>
               <TabPanel header={t("details")}>
                 <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify xs:text-sm sm:text-sm "
                      dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
