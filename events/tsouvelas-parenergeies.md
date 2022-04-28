@@ -6,7 +6,7 @@ city: Larnaca, Nicosia, Limassol
 event_image: "/images/uploads/τσουβελας.jpg"
 cover_image: ''
 category: Standup
-gallery_1: "/images/uploads/2.jpg"
+gallery_1: ''
 gallery_2: ''
 gallery_3: ''
 extended: false
