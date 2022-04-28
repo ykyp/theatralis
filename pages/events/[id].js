@@ -22,6 +22,7 @@ export default function Event({ eventData: eventData }) {
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
   const [disqusConfig, setDisqusConfig] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
   const galleryImages = [
      eventData.gallery_1,
      eventData.gallery_2,
@@ -67,6 +68,10 @@ export default function Event({ eventData: eventData }) {
     covidMessage.current.show([
       { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
     ]);
+
+    if (window.location.hash === '#map') {
+      setActiveIndex(2);
+    }
   }, []);
 
   const translatedKeys = (keysAsString) => {
@@ -161,14 +166,12 @@ export default function Event({ eventData: eventData }) {
                      target="blank"
                      rel="noopener noreferrer"
                      alt="Share Page on Twitter"
-                     className="pi pi-twitter"></a>
+                     className="pi pi-twitter">
+                  </a>
+
                 </div>
               </div>
-                  </div>
-
-
-
-
+            </div>
             </div>
 
 
@@ -206,11 +209,10 @@ export default function Event({ eventData: eventData }) {
 
 
           <div className="hide-li">
-            <TabView>
+            <TabView activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)}>
               <TabPanel header={t("details")}>
                 <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify xs:text-sm sm:text-sm "
                      dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
-
                 { allGalleryImages.length === 1 &&
                 <div>
                   <hr/>
