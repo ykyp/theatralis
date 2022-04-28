@@ -1,5 +1,5 @@
 ---
-id: theatro_ena
+id: theatro_ena_nicosia
 name: 'Θεατρο Ένα '
 address: Αθηνάς 4, Λευκωσία
 logo: "/images/uploads/theatroena.jpeg"
