@@ -14,8 +14,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
 - theatres/thoc.md
-- theatres/larnaca-municipal-theatre.md
 - theatres/dimotiko-theatro-sotiras.md
 - theatres/rialto.md
 - theatres/markidio-theatro.md
