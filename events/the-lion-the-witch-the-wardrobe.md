@@ -14,7 +14,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/larnaca-municipal-theatre.md
+- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
 
 ---
 #### A FEW WORDS ABOUT THE PLAY
