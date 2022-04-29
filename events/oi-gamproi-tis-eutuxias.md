@@ -1,7 +1,7 @@
 ---
 title: ΟΙ ΓΑΜΠΡΟΙ ΤΗΣ ΕΥΤΥΧΙΑΣ
-startDate: 2022-05-26
-endDate: 2022-05-26
+startDate: 2022-04-21
+endDate: 2022-04-21
 city: Nicosia
 event_image: "/images/uploads/oi-gamproi.jpg"
 cover_image: ''

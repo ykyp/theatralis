@@ -1,7 +1,7 @@
 ---
 title: Ο ΜΕΓΑΛΟΣ ΠΕΡΙΠΑΤΟΣ ΤΟΥ ΠΕΤΡΟΥ
-startDate: 2022-06-02
-endDate: 2022-06-02
+startDate: 2022-04-20
+endDate: 2022-04-20
 city: Nicosia
 event_image: "/images/uploads/petros.jpg"
 cover_image: ''
