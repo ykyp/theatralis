@@ -106,6 +106,7 @@ fields:
   label: Theatres
   description: Theatres locations
 pages:
+- events/6ο-festival-dimou-strovolou.md
 - events/Aristos.md
 - events/Aristotelis-Rigas.md
 - events/Xatzipaulou-comedy-club.md
