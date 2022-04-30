@@ -225,18 +225,18 @@ export default function Event({ eventData: eventData }) {
                 <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify xs:text-sm sm:text-sm "
                      dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
 
-                     <hr/>
-                {eventData.theatresData &&
-                <>
-                    <h4>{t("venue")}:</h4>
-                    {eventData.theatresData.map((theatre, i) =>
-                      <>
-                        {t(`${theatre.city}`)}:
-                        <a href className={"cursor-pointer"} onClick={()=> setActiveIndex(1)}>  {theatre.name}</a>
-                      </>
-                      )}
-                </>
-                }
+                     {/*<hr/>*/}
+                {/*{eventData.theatresData &&*/}
+                {/*<>*/}
+                    {/*<h4>{t("venue")}:</h4>*/}
+                    {/*{eventData.theatresData.map((theatre, i) =>*/}
+                      {/*<>*/}
+                        {/*{t(`${theatre.city}`)}:*/}
+                        {/*<a href className={"cursor-pointer"} onClick={()=> setActiveIndex(1)}>  {theatre.name}</a>*/}
+                      {/*</>*/}
+                      {/*)}*/}
+                {/*</>*/}
+                {/*}*/}
 
                 { allGalleryImages.length === 1 &&
                 <div>
