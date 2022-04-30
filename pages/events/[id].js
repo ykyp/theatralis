@@ -226,13 +226,17 @@ export default function Event({ eventData: eventData }) {
                      dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
 
                      <hr/>
-                <h4>{t("venue")}:</h4>
-                {eventData.theatresData.map((theatre, i) =>
-                  <>
-                    {t(`${theatre.city}`)}:
-                    <a href className={"cursor-pointer"} onClick={()=> setActiveIndex(1)}>  {theatre.name}</a>
-                  </>
-                )}
+                {eventData.theatresData &&
+                <>
+                    <h4>{t("venue")}:</h4>
+                    {eventData.theatresData.map((theatre, i) =>
+                      <>
+                        {t(`${theatre.city}`)}:
+                        <a href className={"cursor-pointer"} onClick={()=> setActiveIndex(1)}>  {theatre.name}</a>
+                      </>
+                      )}
+                </>
+                }
 
                 { allGalleryImages.length === 1 &&
                 <div>
@@ -292,7 +296,7 @@ export default function Event({ eventData: eventData }) {
                 }
               </TabPanel>
 
-              { eventData.theatresData &&  eventData.theatresData.length > 0 && <TabPanel header={t("venue")}>
+              { eventData.theatresData && <TabPanel header={t("venue")}>
                 {eventData.theatresData.map((t, i) =>
                    <TheatreInfo theatreData={t} key={i}/>
                    )}
