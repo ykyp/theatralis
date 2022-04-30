@@ -6,7 +6,7 @@ const TheatreInfo = ({theatreData}) => {
    const { t } = useTranslation('common');
    return (
       <div>
-         <h4> {theatreData.city}</h4>
+         <h4>  {t(`${theatreData.city}`)}:</h4>
          <p><strong>{t("venue")}:</strong> {theatreData.name}</p>
          <p><strong>{t("address")}:</strong> {theatreData.address}</p>
          <EventMap theatreData={theatreData} key={theatreData.name}/>

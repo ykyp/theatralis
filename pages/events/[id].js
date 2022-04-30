@@ -11,10 +11,10 @@ import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { Galleria } from 'primereact/galleria'
-import Disqus from "disqus-react"
 import { CommentCount } from 'disqus-react';
 import {Messages} from "primereact/messages";
 import {TheatreInfo} from "../../components/theatre/theatre-info";
+import {Reviews} from "../../components/reviews/reviews";
 
 export default function Event({ eventData: eventData }) {
   const covidMessage = useRef(null);
@@ -92,24 +92,12 @@ export default function Event({ eventData: eventData }) {
 
   const period = `${formatDate(eventData.startDate)} - ${formatDate(eventData.endDate)}`;
 
-  const template = (options) => {
-    return (<><div className="flex align-items-center p-3"
-                   style={{ cursor: 'pointer' }}
-                   onClick={options.onClick}>
-
-         <CommentCount
-          shortname={disqusShortname}
-          config={
-            disqusConfig
-          }
-       >
-           Comments
-       </CommentCount>
-         </div>
-       </>
-    );
-
+  const goToFirstTabIfNeeded = () => {
+    if (activeIndex !== 0) {
+      setActiveIndex(0);
+    }
   };
+
   return (
     <Layout description={eventData.title}
             fbSiteName={period}
@@ -161,6 +149,22 @@ export default function Event({ eventData: eventData }) {
                   <div className="th-icon-text">{translatedKeys(eventData.city)}</div>
                 </div>
 
+                <div className="event-details flex items-center mb-2">
+                  <i className="pi pi-comments th-icon "></i>
+                  <div className="th-icon-text">
+                    <a href={"#comments"} className={"font-normal"} onClick={() => goToFirstTabIfNeeded()}>{ disqusConfig &&<CommentCount
+                     shortname={disqusShortname}
+                     config={
+                       disqusConfig
+                     }
+                  >
+                      { t("commentsAndReactions") }
+                  </CommentCount>}
+                  </a></div>
+                </div>
+
+
+
                 <div className="socials-container flex">
                   <a href={facebookShareLink}
                      target="blank"
@@ -178,6 +182,7 @@ export default function Event({ eventData: eventData }) {
                 </div>
               </div>
             </div>
+
             </div>
 
 
@@ -219,6 +224,16 @@ export default function Event({ eventData: eventData }) {
               <TabPanel header={t("details")}>
                 <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify xs:text-sm sm:text-sm "
                      dangerouslySetInnerHTML={{ __html: eventData.contentHtml }} />
+
+                     <hr/>
+                <h4>{t("venue")}:</h4>
+                {eventData.theatresData.map((theatre, i) =>
+                  <>
+                    {t(`${theatre.city}`)}:
+                    <a href className={"cursor-pointer"} onClick={()=> setActiveIndex(1)}>  {theatre.name}</a>
+                  </>
+                )}
+
                 { allGalleryImages.length === 1 &&
                 <div>
                   <hr/>
@@ -269,67 +284,14 @@ export default function Event({ eventData: eventData }) {
                   </div>
                   </div>
                 }
+
+                <hr/>
+                <h4> {t("commentsAndReactions")} </h4>
+                { disqusConfig &&
+                  <Reviews eventData={eventData} disqusConfig={disqusConfig} disqusShortname={disqusShortname}/>
+                }
               </TabPanel>
-              { disqusConfig && <TabPanel header="Comments" headerTemplate={template}>
-                <div className="article-container">
-                  {/*<hr/>
-                  <h4> Comments </h4>*/}
 
-                  { eventData.critic_p && <><div className="event-details flex items-center mb-5 ">
-                    <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
-                    ️ <div className="th-icon-text font-bold"> {t("criticPhilenews")}</div>
-                  </div>
-
-                  <a href={eventData.critic_link} target="_blank">
-                    <img src="/images/phile_logo.png" className="text-center m-auto pb-5" alt="Phileleftheros logo"
-                       style={{ width: '150px', maxHeight: '500px', display: 'block', objectFit: 'contain' }}/>
-                  </a>
-
-                  <div className=" justify-center text-center">
-                    <strong className="justify-center text-center">
-
-                        { eventData.critic_title }
-                    </strong>
-                  </div>
-
-
-
-                  <div className="event-body md:text-justify lg:text-justify xl:text-justify xxl:text-justify xs:text-sm sm:text-sm "
-                       dangerouslySetInnerHTML={{ __html: eventData.critic_p }} />
-
-                  <div className=" justify-center text-center mb-10">
-                    <a href={eventData.critic_link} target="_blank">{t("readMoreCritic")}</a>
-                  </div>
-                  </>}
-
-
-                  <div className="event-details flex items-center mb-5 ">
-                    <i className="pi pi-arrow-circle-right mr-2 th-24"></i>
-                    ️ <div className="th-icon-text font-bold"> {t("commentsTitle")}</div>
-                  </div>
-
-                  <div className="th-messagebox text-sm">
-                    <strong>{t('commentsPolicyTitle2')}</strong>
-                    <p>
-                      {t('commentsPolicyTitle1')}
-                      <a href={`/comment-policy`} target="_blank">{t('commentsPolicyTitle2')}</a>
-
-                    {t('commentsPolicyTitle3')}
-                    </p>
-                  </div>
-
-
-                  <>
-                    <Disqus.DiscussionEmbed
-                       shortname={disqusShortname}
-                       config={disqusConfig}
-                    />
-                   {/* <div>{disqusConfig}</div>*/}
-                    </>
-
-                </div>
-              </TabPanel>
-              }
               { eventData.theatresData && <TabPanel header={t("venue")}>
                 {eventData.theatresData.map((t, i) =>
                    <TheatreInfo theatreData={t} key={i}/>

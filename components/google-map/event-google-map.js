@@ -12,8 +12,8 @@ const EventMap = ({theatreData}) => {
       '<div id="bodyContent">' +
       `<p><b>${theatreData.name}</b>` +
       "</p>" +
-      `<p>Get directions , <a target="_blank" href=${theatreData.google_maps_link}>` +
-      "here</a> " +
+      `<p> <a target="_blank" href=${theatreData.google_maps_link}>` +
+      "View on Google Maps</a> " +
       "</p>" +
       "</div>" +
       "</div>";
