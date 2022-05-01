@@ -2,7 +2,7 @@
 title: Ο ΣΚΑΠΟΥΛΟΣ
 startDate: 2022-04-29
 endDate: 2022-06-17
-city: Nicosia
+city: Nicosia, Pafos, Larnaca, LImassol
 event_image: "/images/uploads/1-1.jpg"
 cover_image: "/images/uploads/poster.jpg"
 category: Comedy, Satire
