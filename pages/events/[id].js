@@ -73,7 +73,7 @@ export default function Event({ eventData: eventData }) {
     if (window.location.hash === '#map') {
        //wait for google maps to be loaded
        setTimeout(() => {
-          setActiveIndex(2);
+          setActiveIndex(1);
          const tabsElement = document.getElementById('tabs');
          tabsElement.scrollIntoView();
        }, 200);
