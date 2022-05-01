@@ -7,8 +7,8 @@ const TheatreInfo = ({theatreData}) => {
    return (
       <div>
          <h4>  {t(`${theatreData.city}`)}:</h4>
-         <p><strong>{t("venue")}:</strong> {theatreData.name}</p>
-         <p><strong>{t("address")}:</strong> {theatreData.address}</p>
+         <p className={"xs:text-sm sm:text-sm"}><strong>{t("venue")}:</strong> {theatreData.name}</p>
+         <p className={"xs:text-sm sm:text-sm"}><strong>{t("address")}:</strong> {theatreData.address}</p>
          <EventMap theatreData={theatreData} key={theatreData.name}/>
       </div>
    );
