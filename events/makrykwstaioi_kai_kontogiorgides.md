@@ -14,7 +14,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/kipotheatro-lemessou.md
+- theatres/dimotiko-kipotheatro-lemessou.md
 - theatres/patticheio-dimotiko-amfitheatro-larnacas.md
 - theatres/amfitheatro-sxolis-tyflwn.md
 
