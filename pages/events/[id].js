@@ -276,7 +276,6 @@ export default function Event({ eventData: eventData }) {
                 <div>
                 <hr/>
                   <h4> {t("gallery")} </h4>
-                  <div className="flex">
 
 
                   <Galleria value={allGalleryImages}
@@ -287,7 +286,6 @@ export default function Event({ eventData: eventData }) {
                   showItemNavigators
                   item={itemTemplate}
                   thumbnail={thumbnailTemplate} />
-                  </div>
                   </div>
                 }
 
