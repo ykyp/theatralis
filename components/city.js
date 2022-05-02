@@ -25,7 +25,7 @@ export const City = (props) => {
    const [currentTotalCount, setCurrentTotalCount] = useState(0);
    const [isLoading, setLoading] = useState(true);
 
-   const searchEndpoint = (city, period, category, page, rows) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}`;
+   const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q || ''}`;
 
    const handlePeriodChange = (e) => {
       setLoading(true);
