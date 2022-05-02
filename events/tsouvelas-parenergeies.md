@@ -14,9 +14,9 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/dimotiko-kipotheatro-lemessou.md
 - theatres/patticheio-dimotiko-amfitheatro-larnacas.md
 - theatres/amphitheatro_lakatamias.md
-- theatres/kipotheatro-lemessou.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
