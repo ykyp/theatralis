@@ -8,6 +8,6 @@ latlong: 34.778344838684674, 32.423222668792505
 logo: ''
 website: ''
 instagram_page: ''
-facebook_page: ''
+facebook_page: https://www.facebook.com/pages/%CE%9C%CE%91%CE%A1%CE%9A%CE%99%CE%94%CE%95%CE%99%CE%9F-%CE%98%CE%95%CE%91%CE%A4%CE%A1%CE%9F-%CE%A0%CE%91%CE%A6%CE%9F%CE%A5/216890975053258
 
 ---
