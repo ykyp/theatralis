@@ -16,7 +16,7 @@ critic_p: ''
 theatres:
 - theatres/polyxwros-sinergeio.md
 - theatres/theatro-chora.md
-- theatres/attikon-paphos.md
+- theatres/attikon.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
