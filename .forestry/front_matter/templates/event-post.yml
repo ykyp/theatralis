@@ -43,6 +43,10 @@ fields:
     maxSize: 64
   label: Cover Image
   description: This will be shown in the event details as a cover photo
+- name: gallery_images
+  type: image_gallery
+  config: {}
+  label: Gallery Images
 - name: category
   type: text
   config:
@@ -51,24 +55,6 @@ fields:
   description: I katigoria/katigories tou ergou, comma separated<br><strong>Biography,
     Drama, Comedy, Standup, Children, Historical, Monologue, Musical, Amateur, Tragedy</strong>,
     <strong>Novel, Satire, Opera</strong>
-- name: gallery_1
-  type: file
-  config:
-    maxSize: 64
-  label: Gallery 1st image
-  description: First image of the gallery
-- name: gallery_2
-  type: file
-  config:
-    maxSize: 64
-  label: Gallery 2nd image
-  description: Second image of the gallery
-- name: gallery_3
-  type: file
-  config:
-    maxSize: 64
-  label: Gallery 3rd image
-  description: Third image of the gallery
 - name: extended
   type: boolean
   label: Paratasi/Extended
@@ -105,10 +91,24 @@ fields:
       section: theatres
   label: Theatres
   description: Theatres locations
-- name: gallery_images
-  type: image_gallery
-  config: {}
-  label: Gallery Images
+- name: gallery_1
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 1st image (Stop using this)
+  description: Stop using this field -- Use Gallery Images instead
+- name: gallery_2
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 2nd image (Stop using this)
+  description: Stop using this field -- Use Gallery Images instead
+- name: gallery_3
+  type: file
+  config:
+    maxSize: 64
+  label: Gallery 3rd image (Stop using this)
+  description: Stop using this field -- Use Gallery Images instead
 pages:
 - events/Aristos.md
 - events/Aristotelis-Rigas.md
