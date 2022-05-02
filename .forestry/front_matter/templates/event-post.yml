@@ -105,6 +105,10 @@ fields:
       section: theatres
   label: Theatres
   description: Theatres locations
+- name: gallery_images
+  type: image_gallery
+  config: {}
+  label: Gallery Images
 pages:
 - events/Aristos.md
 - events/Aristotelis-Rigas.md
