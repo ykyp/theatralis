@@ -6,7 +6,7 @@ city: Nicosia, Pafos, Limassol
 event_image: "/images/uploads/1.jpg"
 cover_image: ''
 category: Drama
-gallery_1: "/images/uploads/2.jpg"
+gallery_1: ''
 gallery_2: "/images/uploads/3.jpg"
 gallery_3: ''
 extended: false
@@ -14,9 +14,9 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/polyxwros-sinergeio.md
 - theatres/theatro-chora.md
 - theatres/attikon-paphos.md
-- theatres/sinergio-theatre.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
