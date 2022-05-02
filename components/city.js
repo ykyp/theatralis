@@ -86,7 +86,9 @@ export const City = (props) => {
             </div>
          </header>
 
-         <section className="th-hero ">
+         <section className="th-hero " style={{
+            backgroundImage: `../public/images/${props.heroImage || 'hero-1.jpg'}`
+         }}>
             <div className="th-hero-inner">
                <h1>{t("cityTitle")} - {t(props.name)}</h1>
                <h2>{t("citySubtitle")}  {t(props.name)}</h2>
