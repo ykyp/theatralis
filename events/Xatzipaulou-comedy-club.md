@@ -14,8 +14,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/dimotiko_theatro_ypsona.md
 - theatres/kinimatotheatro-pallas.md
-- theatres/theatro_ypsona.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
