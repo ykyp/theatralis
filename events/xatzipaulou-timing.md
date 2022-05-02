@@ -14,7 +14,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro_ypsona.md
+- theatres/dimotiko_theatro_ypsona.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
