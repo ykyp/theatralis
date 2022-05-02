@@ -18,6 +18,27 @@ theatres:
 - theatres/texnoxwros-ethal.md
 - theatres/markidio-theatro.md
 - theatres/theatro-anemona.md
+gallery_images:
+- "/images/uploads/21.jpg"
+- "/images/uploads/20.jpg"
+- "/images/uploads/18.jpg"
+- "/images/uploads/17.jpg"
+- "/images/uploads/16.jpg"
+- "/images/uploads/15.jpg"
+- "/images/uploads/14.jpg"
+- "/images/uploads/13.jpg"
+- "/images/uploads/12.jpg"
+- "/images/uploads/11.jpg"
+- "/images/uploads/10-1.jpg"
+- "/images/uploads/9.jpg"
+- "/images/uploads/8-1.jpg"
+- "/images/uploads/7-1.jpg"
+- "/images/uploads/6.jpg"
+- "/images/uploads/5-1.jpg"
+- "/images/uploads/4-1.jpg"
+- "/images/uploads/3-1.jpg"
+- "/images/uploads/2-2.jpg"
+- "/images/uploads/1-2.jpg"
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
