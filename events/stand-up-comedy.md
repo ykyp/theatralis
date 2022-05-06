@@ -1,0 +1,32 @@
+---
+title: STAND-UP COMEDY - ΖΑΧΑΡΙΑΣ ΖΑΝΝΕΤΟΥ
+startDate: 2022-05-15
+endDate: 2022-05-15
+city: Limassol
+event_image: "/images/uploads/zaxarias-zannetou_lemesos.jpg"
+cover_image: ''
+gallery_images: []
+category: Standup
+extended: false
+critic_link: ''
+critic_title: ''
+critic_p: ''
+theatres: []
+gallery_1: ''
+gallery_2: ''
+gallery_3: ''
+
+---
+Ο Ζαχαρίας Ζαννέτου μετά την επιτυχημένη του παρουσία στο TikTok (αλλά και σε όλα τα ύπολοιπα social media) είναι έτοιμος να μας παρουσιάσει την πρώτη του σόλο stand-up comedy.
+
+***
+
+#### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
+
+**_Ημερομηνία:_** Κυριακή 15 Μαίου
+
+**_Ώρα έναρξης:_** 19:30
+
+**_Τοποθεσία:_** [Balcon8 Resto-Bar](https://www.google.com/maps/place/Balcon8+Resto-Bar/@34.6740652,33.0433903,16.04z/data=!4m5!3m4!1s0x0:0x73f92e36109e32a4!8m2!3d34.6753081!4d33.0448858 "Balcon8")
+
+**_Είσοδος:_** €7
