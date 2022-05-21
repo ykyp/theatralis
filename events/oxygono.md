@@ -1,7 +1,7 @@
 ---
 title: ΟΞΥΓΟΝΟ
 startDate: 2022-05-03
-endDate: 2022-05-22
+endDate: 2022-05-23
 city: Nicosia, Pafos, Limassol
 event_image: "/images/uploads/1.jpg"
 cover_image: ''
@@ -9,7 +9,7 @@ category: Drama
 gallery_1: ''
 gallery_2: "/images/uploads/3.jpg"
 gallery_3: ''
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''
@@ -17,6 +17,7 @@ theatres:
 - theatres/polyxwros-sinergeio.md
 - theatres/theatro-chora.md
 - theatres/attikon.md
+gallery_images: []
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -60,6 +61,8 @@ theatres:
 **_Πρεμιέρα_**: Τρίτη 3 Μαΐου
 
 **_Ημερομηνίες:_**  7, 8 ,9, 10, 14, 15, 16 & 17 Μαΐου (Σάββατο, Κυριακή, Δευτέρα και Τρίτη)
+
+**_Επιπρόσθετες παραστάσεις:_**  Δευτέρα 23 Μαΐου 
 
 **_Ώρα έναρξης:_** 20:30
 
