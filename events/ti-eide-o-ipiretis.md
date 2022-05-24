@@ -1,7 +1,7 @@
 ---
 title: ΤΙ ΕΙΔΕ Ο ΥΠΗΡΕΤΗΣ
 startDate: 2022-05-04
-endDate: 2022-06-12
+endDate: 2022-05-29
 city: Nicosia
 event_image: "/images/uploads/ti-eide-o-ipiretis_2.jpg"
 cover_image: ''
@@ -15,6 +15,7 @@ critic_title: ''
 critic_p: ''
 theatres:
 - theatres/theatro-ena-nicosia.md
+gallery_images: []
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
