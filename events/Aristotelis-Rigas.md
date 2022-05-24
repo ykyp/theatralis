@@ -13,6 +13,8 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
+gallery_images: []
+theatres: []
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -29,7 +31,7 @@ critic_p: ''
 
 **ΛΑΡΝΑΚΑ**
 
-Ημερομηνία: TBA
+Ημερομηνία: 3 Ιουνίου 2022
 
 Ώρα έναρξης: TBA
 
