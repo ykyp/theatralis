@@ -1,5 +1,5 @@
 ---
-title: Περιπατητική Παράσταση / Walking Performance
+title: Περιπατητικη Παρασταση / Walking Performance
 startDate: 2022-05-29
 endDate: 2022-05-29
 city: Limassol
