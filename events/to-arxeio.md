@@ -1,8 +1,8 @@
 ---
 title: ΤΟ ΑΡΧΕΙΟ
 startDate: 2022-05-19
-endDate: 2022-05-29
-city: Nicosia, Pafos, Larnaca, Limassol
+endDate: 2022-06-05
+city: Nicosia, Larnaca, Limassol
 event_image: "/images/uploads/to-arxeio.jpg"
 cover_image: ''
 category: Drama
@@ -52,16 +52,6 @@ gallery_images:
 **_Ώρα έναρξης:_** 20:30 / Κυριακή στις 19:30
 
 **_Τοποθεσία:_** [Λεβέντειος Πινακοθήκη](https://www.google.com/maps/place/A.+G.+Leventis+Gallery/@35.169375,33.3561196,17z/data=!3m1!4b1!4m5!3m4!1s0x14de1750c7736f87:0x20e4977b50ce11ac!8m2!3d35.1693305!4d33.3585694 "Λεβέντειος πινακοθήκη")
-
-***
-
-**ΠΑΦΟΣ (Η ΠΑΡΑΣΤΑΣΗ ΑΚΥΡΩΝΕΤΑΙ)**
-
-**_Παράσταση:_** Δευτέρα 30 Μαΐου 2022
-
-**_Ώρα έναρξης:_** 20:30
-
-**_Τοποθεσία:_** [Μαρκίδειο Δημοτικό Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4210447,17z/data=!3m1!4b1!4m5!3m4!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781101!4d32.4232146 "Μαρκίδειο Δημοτικό Θέατρο")
 
 ***
 
