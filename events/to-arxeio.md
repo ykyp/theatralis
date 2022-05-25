@@ -18,6 +18,10 @@ theatres:
 - theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
 - theatres/leventios-pinakothiki.md
 - theatres/markidio-theatro.md
+gallery_images:
+- "/images/uploads/to-arxeio_3.jpg"
+- "/images/uploads/to-arxeio_2.jpg"
+- "/images/uploads/to-arxeio_1.jpg"
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -43,7 +47,7 @@ theatres:
 
 **ΛΕΥΚΩΣΙΑ**
 
-**_Παραστάσεις:_** Πέμπτη - Κυριακή 19, 20, 21, 22 και 26, 27, 28, 29 Μαΐου 2022
+**_Παραστάσεις:_** Πέμπτη - Κυριακή 19, 20, 21, 22 και 26, 27, 28, 29 Μαΐου 2022. Επιπρόσθετες παραστάσεις την Πέμπτη 2 και Κυριακή 5 Ιουνίου.
 
 **_Ώρα έναρξης:_** 20:30 / Κυριακή στις 19:30
 
