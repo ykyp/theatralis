@@ -18,6 +18,16 @@ theatres:
 - theatres/dimotiko-kipotheatro-lemessou.md
 - theatres/patticheio-dimotiko-amfitheatro-larnacas.md
 - theatres/amfitheatro-sxolis-tyflwn.md
+gallery_images:
+- "/images/uploads/7n4b5182.jpg"
+- "/images/uploads/7n4b5144.jpg"
+- "/images/uploads/7n4b5107.jpg"
+- "/images/uploads/7n4b5064.jpg"
+- "/images/uploads/7n4b4967.jpg"
+- "/images/uploads/7n4b4893.jpg"
+- "/images/uploads/7n4b4821.jpg"
+- "/images/uploads/7n4b4804.jpg"
+- "/images/uploads/7n4b4705.jpg"
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
