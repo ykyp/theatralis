@@ -72,7 +72,7 @@ H μουσική της παράστασης, από τα γνωστά σε όλ
 
 **_Τοποθεσία:_** [Παττίχειο Δημοτικό Αμφιθέατρο](?#map)
 
-**_Τιμή εισιτηρίων:_** €25 απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3831.html)
+**_Τιμή εισιτηρίων:_** €25 απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3831.html) και σε όλα τα καταστήματα ACS Couriers
 
 ***
 
@@ -84,7 +84,7 @@ H μουσική της παράστασης, από τα γνωστά σε όλ
 
 **_Τοποθεσία:_** [Δημοτικό Κηποθέατρο](?#map)
 
-**_Τιμή εισιτηρίων:_** €40 / €35 / €30 / €25 απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3831.html)
+**_Τιμή εισιτηρίων:_** €40 / €35 / €30 / €25 απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3831.html) και σε όλα τα καταστήματα ACS Couriers
 
 ***
 
@@ -96,7 +96,7 @@ H μουσική της παράστασης, από τα γνωστά σε όλ
 
 **_Τοποθεσία:_** [Αμφιθέατρο Σχολής Τυφλών](?#map)
 
-**_Τιμή εισιτηρίων:_** €40 / €35 / €30 απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3831.html)
+**_Τιμή εισιτηρίων:_** €40 / €35 / €30 απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3831.html) και σε όλα τα καταστήματα ACS Couriers
 
 ***
 
