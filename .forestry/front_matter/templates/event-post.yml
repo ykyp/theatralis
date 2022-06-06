@@ -110,6 +110,7 @@ fields:
   label: Gallery 3rd image (Stop using this)
   description: Stop using this field -- Use Gallery Images instead
 pages:
+- events/25.md
 - events/Aristos.md
 - events/Aristotelis-Rigas.md
 - events/Xatzipaulou-comedy-club.md
