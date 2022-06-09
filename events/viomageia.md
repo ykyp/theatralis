@@ -1,14 +1,14 @@
 ---
 title: ΒΙΟΜΑΓΕΙΑ
-startDate: 2022-05-26
-endDate: 2022-06-08
+startDate: 2022-06-14
+endDate: 2022-06-14
 city: Nicosia
 event_image: "/images/uploads/viomageia_1.jpg"
 cover_image: "/images/uploads/viomageia_3.jpeg"
 gallery_images:
 - "/images/uploads/viomageioa_2.jpg"
 category: Comedy
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''
@@ -58,7 +58,7 @@ gallery_3: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Ημερομηνίες:_** 26, 28 και 29 Μαΐου 2022 / 2, 3, 5, 6, 8 Ιουνίου 2022
+**_Ημερομηνίες:_** Τρίτη 14 Ιουνίου 2022
 
 **_Ώρα έναρξης:_** 20:30
 
