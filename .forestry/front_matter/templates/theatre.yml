@@ -75,6 +75,7 @@ fields:
   label: Facebook Page
   description: Theatre's facebook page
 pages:
+- events/kinimatotheatro-kwnstantia.md
 - theatres/Flea-theatre.md
 - theatres/aigia-sholi-tehnon.md
 - theatres/amfitheatro-idaliou.md
