@@ -5,7 +5,10 @@ endDate: 2022-08-16
 city: Nicosia, LImassol, Larnaca, Pafos, Famagusta
 event_image: "/images/uploads/mail.jpg"
 cover_image: "/images/uploads/ΩΣΠΟΛΛΑΤΕ ΟΜΑΔΙΚΗ.JPG"
-gallery_images: []
+gallery_images:
+- "/images/uploads/ospolate_4.JPG"
+- "/images/uploads/ospolate_3.JPG"
+- "/images/uploads/3.JPG"
 category: Comedy
 extended: false
 critic_link: ''
