@@ -2,7 +2,7 @@
 title: ΜΗΔΕΙΑ | ΜΠΟΣΤ
 startDate: 2022-06-22
 endDate: 2022-07-14
-city: Nicosia
+city: Nicosia, Limassol, Pafos
 event_image: "/images/uploads/general-post-02.jpg"
 cover_image: ''
 gallery_images:
