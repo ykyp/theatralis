@@ -1,5 +1,5 @@
 ---
-title: ΩΣΠΟΛΛΑΤΕ ΑΡΚΟΝΤΗΝΑΜΕΝ
+title: ΩΣΠΟΛΛΑΤΕ ΑΡΚΟΝΤΗΝΑΜΕΝ (ΚΑΛΟΚΑΙΡΙΝΗ ΠΕΡΙΟΔΕΙΑ)
 startDate: 2022-07-14
 endDate: 2022-08-16
 city: Nicosia, LImassol, Larnaca, Pafos, Famagusta
