@@ -1,7 +1,7 @@
 ---
 title: ΣΥΜΠΕΘΕΡΟΙ ΑΠ' ΤΑ ΤΙΡΑΝΑ
 startDate: 2022-09-27
-endDate: 2022-08-29
+endDate: 2022-09-29
 city: Nicosia,limassol,Larnaca
 event_image: "/images/uploads/simpetheri_1200x1200.jpeg"
 cover_image: ''
