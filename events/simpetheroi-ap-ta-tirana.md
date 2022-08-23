@@ -6,7 +6,7 @@ city: Nicosia,limassol,Larnaca
 event_image: "/images/uploads/simpetheri_1200x1200.jpeg"
 cover_image: ''
 gallery_images: []
-category: ''
+category: comedy
 extended: false
 critic_link: ''
 critic_title: ''
