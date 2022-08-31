@@ -110,7 +110,6 @@ fields:
   label: Gallery 3rd image (Stop using this)
   description: Stop using this field -- Use Gallery Images instead
 pages:
-- events/16-20-22.md
 - events/Aristos.md
 - events/Aristotelis-Rigas.md
 - events/Elektra.25.md
@@ -136,6 +135,7 @@ pages:
 - events/faysta.md
 - events/fear-in-english.md
 - events/festival-dimou-strovolou.md
+- events/festival-lympiwn.md
 - events/h-megali-plektani.md
 - events/h-parelasi.md
 - events/i-kokkinoskoufitsa.md
