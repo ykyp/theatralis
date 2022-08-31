@@ -77,7 +77,9 @@ gallery_3: ''
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Απο την ιστοσελίδα της [Soldout](https://www.soldoutticketbox.com/around-the-world-in-eighty-days-by-jules-verne-sep-2022/?lang=el "Soldout")
+**_Τιμές:_** €17 / €12 (κωφά και βαρήκοα άτομα με αποδεικτικό στην είσοδο για την παράσταση στις 11/09/22 στη Λεμεσό στις 11:00)
+
+**_Προπώληση:_** Απο την ιστοσελίδα της [Soldout](https://www.soldoutticketbox.com/around-the-world-in-eighty-days-by-jules-verne-sep-2022/?lang=el "Soldout")
 
 **Διερμηνέας νοηματικής γλώσσας:**
 
