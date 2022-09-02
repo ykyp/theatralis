@@ -4,7 +4,7 @@ startDate: 2022-09-20
 endDate: 2022-09-28
 city: nicosia, limassol, paphos, larnaca
 event_image: "/images/uploads/_-1.jpg"
-cover_image: ''
+cover_image: "/images/uploads/_-3.jpg"
 gallery_images: []
 category: ''
 extended: false
