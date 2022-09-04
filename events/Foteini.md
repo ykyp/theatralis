@@ -5,7 +5,11 @@ endDate: 2022-09-26
 city: Nicosia
 event_image: "/images/uploads/5poster_.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/fotrini_4.JPG"
+- "/images/uploads/foteini_3.JPG"
+- "/images/uploads/foteini_2.JPG"
+- "/images/uploads/foteini_1.JPG"
 category: Drama
 extended: false
 critic_link: ''
