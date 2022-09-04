@@ -55,6 +55,6 @@ gallery_3: ''
 
 **_Τιμή:_** €6
 
-**_Προπώληση εισιτηρίων:_** Απο την ιστοσελίδα της Tickethour και όλα τα καταστήματα ACS Courier
+**_Προπώληση εισιτηρίων:_** Απο την ιστοσελίδα της [Tickethour ](https://shop.tickethour.com/ticketmaster_se_3950.html "Tickethour")και όλα τα καταστήματα ACS Courier
 
 **_Πληροφορίες:_** Τηλεφωνικά στο 22411733
