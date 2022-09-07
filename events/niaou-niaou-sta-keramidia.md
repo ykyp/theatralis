@@ -12,6 +12,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/theatro_melina_merkouri.md
 - theatres/patticheio-dimotiko-theatro-lemesos.md
 - theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
 - theatres/markidio-theatro.md
@@ -60,7 +61,7 @@ gallery_3: ''
 Σάββατο 1, 8, 15, 22 Οκτωβρίου στις 3.00 μ.μ  
 Κυριακή 9, 16, 30 Οκτωβρίου στις 10.30 π.μ
 
-**_Τοποθεσία:_** Θέατρο Μελίνα Μερκούρη
+**_Τοποθεσία:_** [Θέατρο Μελίνα Μερκούρη](?#map)
 
 ***
 
