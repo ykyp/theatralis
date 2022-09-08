@@ -3,9 +3,11 @@ title: rou to let
 startDate: 2022-11-06
 endDate: 2022-11-07
 city: Limassol, Nicosia
-event_image: ''
+event_image: "/images/uploads/ΡΟΥΣΣΟΣ-ΡΟΥΠΟΣ.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/ΡΟΥΣΣΟΣ.jpg"
+- "/images/uploads/ΠΑΡΙΣ ΡΟΥΠΟΣ.jpg"
 category: Standup
 extended: false
 critic_link: ''
