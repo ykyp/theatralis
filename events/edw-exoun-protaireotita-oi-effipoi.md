@@ -3,9 +3,12 @@ title: ΕΔΩ ΕΧΟΥΝ ΠΡΟΤΕΡΑΙΟΤΗΤΑ ΟΙ ΕΦΙΠΠΟΙ
 startDate: 2022-10-14
 endDate: 2022-10-15
 city: Nicosia, Limassol
-event_image: ''
+event_image: "/images/uploads/7-3.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/9-1.jpg"
+- "/images/uploads/6-3.jpg"
+- "/images/uploads/1-5.jpg"
 category: Standup
 extended: false
 critic_link: ''
