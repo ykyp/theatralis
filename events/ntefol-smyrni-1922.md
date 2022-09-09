@@ -1,5 +1,5 @@
 ---
-title: ΝΤΕΦΟΛ – Σμύρνη 1922
+title: ΝΤΕΦΟΛ – Σμυρνη 1922
 startDate: 2022-09-09
 endDate: 2022-11-30
 city: Nicosia, Limassol
