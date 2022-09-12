@@ -15,6 +15,7 @@ import { CommentCount } from 'disqus-react';
 import {Messages} from "primereact/messages";
 import {TheatreInfo} from "../../components/theatre/theatre-info";
 import {Reviews} from "../../components/reviews/reviews";
+import {SuggestedEvents} from "../../components/suggested-events/suggested-events";
 
 export default function Event({ eventData: eventData }) {
   const covidMessage = useRef(null);
@@ -304,10 +305,17 @@ export default function Event({ eventData: eventData }) {
             </TabView>
           </div>
 
-          <BackToHome/>
 
+
+          <BackToHome/>
+          <h4 className="h4-prose"> Suggested Events</h4>
         </article>
+
       </div>
+
+      <SuggestedEvents city={eventData.city} id={eventData.id}/>
+
+
       <ScrollTopArrow/>
     </Layout>
   )

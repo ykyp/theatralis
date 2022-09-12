@@ -349,13 +349,13 @@ a.brand-red:hover {
   margin-bottom: 2em !important;
 }
 
-.prose h4 {
+.prose h4, .h4-prose {
   margin-top: 0.5em !important;
   margin-bottom: 1.5em !important;
   position: relative;
 }
 
-.prose h4::after {
+.prose h4::after, .h4-prose::after {
   content: " ";
   width: 60px;
   position: absolute;
