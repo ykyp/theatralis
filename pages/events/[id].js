@@ -308,7 +308,7 @@ export default function Event({ eventData: eventData }) {
 
 
           <BackToHome/>
-          <h4 className="h4-prose"> Suggested Events</h4>
+          {/*<h4 className="h4-prose uppercase"> More events in {eventData.city}</h4>*/}
         </article>
 
       </div>

@@ -23,15 +23,15 @@ function eventData() {
       const fullPath = path.join(eventsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
       const matterResult = matter(fileContents);
-      if (matterResult.data.theatres && matterResult.data.theatres.length > 0) {
-         const theatres = matterResult.data.theatres.map(theatre => {
-            const theatrePath = path.join(`${theatre}`);
-            const theatrePathContents = fs.readFileSync(theatrePath, 'utf8');
-            const theatrePathMatterResult = matter(theatrePathContents);
-            return {...theatrePathMatterResult.data};
-         });
-         matterResult.data.theatresData = theatres;
-      }
+      // if (matterResult.data.theatres && matterResult.data.theatres.length > 0) {
+      //    const theatres = matterResult.data.theatres.map(theatre => {
+      //       const theatrePath = path.join(`${theatre}`);
+      //       const theatrePathContents = fs.readFileSync(theatrePath, 'utf8');
+      //       const theatrePathMatterResult = matter(theatrePathContents);
+      //       return {...theatrePathMatterResult.data};
+      //    });
+      //    matterResult.data.theatresData = theatres;
+      // }
       return {
          id,
          title: matterResult.data.title,
