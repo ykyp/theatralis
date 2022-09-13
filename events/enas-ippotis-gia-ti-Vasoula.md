@@ -11,7 +11,8 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
-theatres: []
+theatres:
+- theatres/theatrikos-polyxwros-estia.md
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
@@ -27,7 +28,7 @@ gallery_3: ''
 
 **_Ώρα έναρξης:_** Σάββατο στις 20:30 / Κυριακή στις 19:30
 
-**_Τοποθεσία:_** Θεατρικός Πολυχώρος Εστία
+**_Τοποθεσία:_** [Θεατρικός Πολυχώρος Εστία](?#map)
 
 ***
 
