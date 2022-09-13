@@ -9,7 +9,7 @@ category: Comedy
 gallery_1: "/images/uploads/ΜΑΚΡΥΚΩΣΤΑΙΟΙ & ΚΟΝΤΟΓΙΩΡΓΗΔΕΣ.jpeg"
 gallery_2: "/images/uploads/_3.jpeg"
 gallery_3: "/images/uploads/_4.jpeg"
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''
