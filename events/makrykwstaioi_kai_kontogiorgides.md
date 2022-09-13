@@ -2,7 +2,7 @@
 title: Μακρυκωσταιοι και Κοντογιωργηδες
 startDate: 2022-09-16
 endDate: 2022-09-17
-city: Nicosia
+city: NIcosia, Pafos, Larnaca
 event_image: "/images/uploads/Μακρυκωσταίοι και Κοντογιώργηδες-Ξανά στη σκηνή.jpg"
 cover_image: ''
 category: Comedy
@@ -14,10 +14,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/amfitheatro-sxolis-tyflwn.md
-- theatres/dimotiko-amfitheatro-deryneias.md
-- theatres/dimotiko-kipotheatro-lemessou.md
-- theatres/patticheio-dimotiko-amfitheatro-larnacas.md
+- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
+- theatres/markidio-theatro.md
 - theatres/amfitheatro-sxolis-tyflwn.md
 gallery_images:
 - "/images/uploads/7n4b5182.jpg"
@@ -65,6 +63,26 @@ gallery_images:
 **_Ώρα έναρξης:_** 20:30
 
 **_Τοποθεσία:_** [Αμφιθέατρο Μακαρίου Γ΄ (Σχολή Τυφλών)](?#map)
+
+***
+
+**ΠΑΦΟΣ**
+
+**_Ημερομηνίες:_** Τετάρτη 28 Σεπτεμβρίου 2022
+
+**_Ώρα έναρξης:_** 20:30
+
+**_Τοποθεσία:_** [Μαρκίδειο Δημοτικό Θέατρο](?#map)
+
+***
+
+**ΛΑΡΝΑΚΑ**
+
+**_Ημερομηνίες:_** Παρασκευή 7 Οκτωβρίου 2022
+
+**_Ώρα έναρξης:_** 20:30
+
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Γεώργιος Λυκούργος](?#map)
 
 ***
 
