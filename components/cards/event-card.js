@@ -42,7 +42,7 @@ const EventCard = (props) => {
             <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                <h3 className="xs:text-sm md:text-base lg:text-base">
                   <a className="no-underline hover:underline text-black  xs:text-sm"
-                     href={`/events/${id}`} target="_blank">
+                     href={`/events/${id}`}>
                      {title}
                   </a>
                </h3>
