@@ -6,12 +6,16 @@ city: nicosia, limassol, paphos, larnaca
 event_image: "/images/uploads/_-1.jpg"
 cover_image: "/images/uploads/_-3.jpg"
 gallery_images: []
-category: ''
+category: Drama, Comedy
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
-theatres: []
+theatres:
+- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
+- theatres/markidio-theatro.md
+- theatres/dimotiko-theatro-leukosias.md
+- theatres/rialto.md
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
@@ -62,7 +66,7 @@ gallery_3: ''
 
 **_Ημερομηνία:_** 20 Σεπτεμβρίου 2022
 
-**_Τοποθεσία:_** Θέατρο Ριάλτο
+**_Τοποθεσία:_** [Θέατρο Ριάλτο](?#map)
 
 **_Ώρα έναρξης:_** 20:30
 
@@ -88,7 +92,7 @@ gallery_3: ''
 
 ***
 
-**ΛΕΜΕΣΟΣ**
+**ΛΑΡΝΑΚΑ**
 
 **_Ημερομηνία:_** 28 Σεπτεμβρίου 2022
 
@@ -96,9 +100,9 @@ gallery_3: ''
 
 **_Ώρα έναρξης:_** 20:30
 
-**Διάρκεια / Duration: 80**΄
+**Διάρκεια / Duration:** 80΄
 
-**Ηλικία / Age 13+**
+**Ηλικία / Age:** 13+
 
 ***
 
