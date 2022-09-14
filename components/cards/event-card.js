@@ -32,8 +32,9 @@ const EventCard = (props) => {
    };
 
    return (
-      <div className="my-1 px-1 w-full md:w-1/2 sm:w-1/2 xs:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-         <article className="overflow-hidden rounded-lg shadow-lg relative">
+      //className="my-1 px-1 w-full md:w-1/2 sm:w-1/2 xs:w-1/2 lg:my-4 lg:px-4 lg:w-1/3"
+      <div className="my-1 px-1 flex">
+         <article className="overflow-hidden rounded-lg shadow-lg relative w-96">
             <a href={`/events/${id}`} target="_blank">
                <img alt={title} className="h-72 object-cover w-96 "
                     src={event_image}/>
