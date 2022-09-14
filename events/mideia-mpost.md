@@ -1,7 +1,7 @@
 ---
 title: ΜΗΔΕΙΑ | ΜΠΟΣΤ - φεστιβαλ δημου λατσιων
-startDate: 2022-09-15
-endDate: 2022-09-15
+startDate: 2022-10-17
+endDate: 2022-10-17
 city: Nicosia
 event_image: "/images/uploads/general-post-02.jpg"
 cover_image: ''

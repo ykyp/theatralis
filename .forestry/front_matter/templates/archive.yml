@@ -73,5 +73,3 @@ fields:
   type: boolean
   label: Paratasi/Extended
   description: Enable this if the event got extended
-pages:
-- events/o-metaxoulis.md
