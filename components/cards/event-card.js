@@ -11,10 +11,10 @@ const EventCard = (props) => {
    const { id, startDate, endDate, title, city, event_image, category, theatresData, finishesSoon, extended } = props.event;
    const cities = city.split(",");
    const { t } = useTranslation('common');
-   const getCityLink = (city) => {
-      const c = city.trim().toLowerCase();
-      return c === "pafos" ? "theatro/paphos" : `theatro/${c}`;
-   };
+   // const getCityLink = (city) => {
+   //    const c = city.trim().toLowerCase();
+   //    return c === "pafos" ? "theatro/paphos" : `theatro/${c}`;
+   // };
    const translatedKey = (keyAsString) => {
       const trimmed = keyAsString.trim();
       const key = trimmed.charAt(0).toUpperCase() + trimmed.slice(1).toLowerCase();
@@ -76,7 +76,7 @@ const EventCard = (props) => {
                      {
                         cities.map((c, i) => <span key={i}>
                            {i > 0 && ", "}
-                           <a href={getCityLink(c)} className="small-link" target="_blank">{translatedKey(c)}</a>
+                           {translatedKey(c)}
                            </span>)
                      }
                   </div>
