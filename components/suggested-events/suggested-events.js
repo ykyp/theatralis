@@ -42,7 +42,7 @@ const SuggestedEvents = (props) => {
 
    return (
       <div className="container my-12 mx-auto px-4 md:px-12 max-w-2xl lg:max-w-6xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l bg-gray-100">
-         <h2 className="h4-prose text-black text-xl uppercase text-left pt-6"> {t('more-events-in')} {t(selectedCity.name)}</h2>
+         <h2 lang='el' className="h4-prose text-black text-xl uppercase text-left pt-6"> {t('more-events-in')} {t(selectedCity.name)}</h2>
 
          <div className=" mb-4 text-center lg:text-left text-gray-500 text-sm "> {/*bg-gray-100 text-gray-600*/}
          <Carousel responsive={responsive}>
