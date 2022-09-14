@@ -40,12 +40,12 @@ const EventCard = (props) => {
             </a>
 
             <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-               <h1 className="text-lg">
-                  <a className="no-underline hover:underline text-black"
+               <h3 className="xs:text-sm md:text-base lg:text-base">
+                  <a className="no-underline hover:underline text-black  xs:text-sm"
                      href={`/events/${id}`} target="_blank">
                      {title}
                   </a>
-               </h1>
+               </h3>
                {/*<p className="text-grey-darker text-sm">*/}
                   {/*{formatDate(startDate)} - {formatDate(endDate)}*/}
                {/*</p>*/}
