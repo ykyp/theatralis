@@ -19,7 +19,7 @@ import {SuggestedEvents} from "../../components/suggested-events/suggested-event
 import {BackToHome} from "../../components/navigation/backToHome";
 
 export default function Event({ eventData: eventData }) {
-  const covidMessage = useRef(null);
+  // const covidMessage = useRef(null);
   const { t } = useTranslation('common');
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
@@ -70,9 +70,9 @@ export default function Event({ eventData: eventData }) {
        identifier: urlParts[urlParts.length-1],
        title: eventData.title
     });
-    covidMessage.current.show([
-      { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
-    ]);
+    // covidMessage.current.show([
+    //   { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
+    // ]);
 
     if (window.location.hash === '#map') {
        //wait for google maps to be loaded
@@ -220,7 +220,7 @@ export default function Event({ eventData: eventData }) {
             }
 
              </div>
-          <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>
+          {/*<Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>*/}
 
 
           <div className="hide-li">

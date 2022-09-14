@@ -20,7 +20,7 @@ const SELECTED_CURRENT_PAGE = 'th.currentPage';
 const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
 export default function Home({ allEventsData }) {
-   const covidMessage = useRef(null);
+   // const covidMessage = useRef(null);
    const { t, lang } = useTranslation('common');
    const [results, setResults] = useState([]);
    const [searchBy, setSearchBy] = useState('');
@@ -113,11 +113,11 @@ export default function Home({ allEventsData }) {
       searchEvents();
    }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage, searchBy]);
 
-   useEffect(() => {
-         covidMessage.current.show([
-            { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
-         ]);
-   }, []);
+   // useEffect(() => {
+   //       covidMessage.current.show([
+   //          { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
+   //       ]);
+   // }, []);
 
    const searchEvents = () => {
       setLoading(true);
@@ -170,7 +170,7 @@ export default function Home({ allEventsData }) {
                 />
              </div>
 
-       <Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>
+       {/*<Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>*/}
 
              { !isLoading &&
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
