@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import useTranslation from "next-translate/useTranslation";
-import { useRouter } from 'next/router';
 import {EventCard} from "../cards/event-card";
 import {useStateFromStorage} from "../session-storage-state";
 import Carousel from 'react-multi-carousel';
@@ -11,7 +10,6 @@ const SuggestedEvents = (props) => {
    const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
    const searchEndpoint = () => `/api/search?city=${selectedCity.code}&period=ALL&category=ALL&page=&rows=20&q=`;
    const [results, setResults] = useState([]);
-   const router = useRouter();
    const { t } = useTranslation('common');
 
    const responsive = {
@@ -30,7 +28,7 @@ const SuggestedEvents = (props) => {
       },
       mobile: {
          breakpoint: { max: 464, min: 0 },
-         items: 1
+         items: 2
       }
    };
 
@@ -51,20 +49,8 @@ const SuggestedEvents = (props) => {
             {results.map((event, i) => (
                <EventCard event={event}/>
             ))}
-            {/*<div>Item 1</div>*/}
-            {/*<div>Item 2</div>*/}
-            {/*<div>Item 3</div>*/}
-            {/*<div>Item 4</div>*/}
          </Carousel>
          </div>
-      {/*<div className="container my-12 mx-auto px-4 md:px-12 max-w-2xl lg:max-w-6xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l bg-gray-100">*/}
-            {/*<h2 className="h4-prose text-black text-xl uppercase text-left pt-6"> {t('more-events-in')} {t(selectedCity.name)}</h2>*/}
-            {/*<div className="flex flex-wrap -mx-1 lg:-mx-4">*/}
-               {/*{results.map((event, i) => (*/}
-                  {/*<EventCard event={event}/>*/}
-               {/*))}*/}
-            {/*</div>*/}
-         {/*</div>*/}
       </div>
    );
 };
