@@ -6,7 +6,7 @@ import {formatDate} from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { TabView, TabPanel } from 'primereact/tabview';
 import useTranslation from "next-translate/useTranslation";
-import {BackToHome} from "../../components/navigation/backToHome";
+
 import ScrollTopArrow from "../../components/scroll-top-arrow/scroll-top-arrow";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -16,6 +16,7 @@ import {Messages} from "primereact/messages";
 import {TheatreInfo} from "../../components/theatre/theatre-info";
 import {Reviews} from "../../components/reviews/reviews";
 import {SuggestedEvents} from "../../components/suggested-events/suggested-events";
+import {BackToHome} from "../../components/navigation/backToHome";
 
 export default function Event({ eventData: eventData }) {
   const covidMessage = useRef(null);
@@ -307,7 +308,7 @@ export default function Event({ eventData: eventData }) {
 
 
 
-          <BackToHome/>
+
           {/*<h4 className="h4-prose uppercase"> More events in {eventData.city}</h4>*/}
         </article>
 
@@ -315,6 +316,9 @@ export default function Event({ eventData: eventData }) {
 
       <SuggestedEvents city={eventData.city} id={eventData.id}/>
 
+      <div className="container my-12 mx-auto px-4 md:px-12 max-w-2xl lg:max-w-6xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l ">
+        <BackToHome/>
+      </div>
 
       <ScrollTopArrow/>
     </Layout>

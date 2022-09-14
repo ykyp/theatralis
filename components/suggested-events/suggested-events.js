@@ -28,7 +28,7 @@ const SuggestedEvents = (props) => {
       },
       mobile: {
          breakpoint: { max: 464, min: 0 },
-         items: 2
+         items: 1
       }
    };
 
@@ -50,6 +50,7 @@ const SuggestedEvents = (props) => {
                <EventCard event={event}/>
             ))}
          </Carousel>
+
          </div>
       </div>
    );
