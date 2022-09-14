@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/cache.js; next build",
+    "archive-events": "./scripts/archive-old-events.sh",
     "postbuild": "next-sitemap",
     "start": "next start",
     "cache-events": "node scripts/cache.js",
