@@ -48,7 +48,7 @@ function eventData() {
          category: matterResult.data.category,
          finishesSoon: finishesSoon(matterResult.data.endDate),
          extended: matterResult.data.extended,
-         theatresData: matterResult.data.theatresData
+         // theatresData: matterResult.data.theatresData
       }
    });
 
