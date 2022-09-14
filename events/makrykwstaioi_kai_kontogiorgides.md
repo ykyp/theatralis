@@ -1,7 +1,7 @@
 ---
 title: Μακρυκωσταιοι και Κοντογιωργηδες
 startDate: 2022-09-16
-endDate: 2022-09-17
+endDate: 2022-10-07
 city: NIcosia, Pafos, Larnaca
 event_image: "/images/uploads/Μακρυκωσταίοι και Κοντογιώργηδες-Ξανά στη σκηνή.jpg"
 cover_image: ''
