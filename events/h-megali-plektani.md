@@ -3,12 +3,12 @@ title: Η ΜΕΓΑΛΗ ΠΛΕΚΤΑΝΗ
 startDate: 2022-09-27
 endDate: 2022-09-30
 city: Larnaca, Limassol, Nicosia, Pafos
-event_image: "/images/uploads/_2.jpg"
+event_image: "/images/uploads/h-megali-plektani_4.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/_4.jpg"
-- "/images/uploads/_3.jpg"
-- "/images/uploads/_1.jpg"
+- "/images/uploads/h-megali-plektani_3.jpg"
+- "/images/uploads/h-megali-plektani_2.jpg"
+- "/images/uploads/h-megali-plektani_1.jpg"
 category: Comedy
 extended: false
 critic_link: ''
