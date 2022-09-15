@@ -3,8 +3,8 @@ title: Παγκυπριο Φεστιβαλ Ερασιτεχνικου Θεατρ
 startDate: 2022-10-02
 endDate: 2022-11-10
 city: Nicosia
-event_image: ''
-cover_image: ''
+event_image: "/images/uploads/image001.jpg"
+cover_image: "/images/uploads/image001.jpg"
 gallery_images: []
 category: ''
 extended: false
