@@ -36,6 +36,7 @@ export const ListingEvent = (props) => {
       return c === "pafos" ? "theatro/paphos" : `theatro/${c}`;
    };
 
+   // LIKE MANIPULATION FUNCTIONALITIES SHOULD BE HANDLED FROM PARENT COMPONENT
    const addToLikes = () => {
       const item = localStorage.getItem(LIKES_LS);
       const items = item !== null ? JSON.parse(item) : [];
@@ -51,8 +52,15 @@ export const ListingEvent = (props) => {
       return likes && likes.find(l => l === id);
    };
 
+   // LIKE MANIPULATION FUNCTIONALITIES SHOULD BE HANDLED FROM PARENT COMPONENT
    const removeFromLikes = () => {
-
+      console.log(id);
+      console.log("before", likes);
+      const newLikes = likes.filter(l=> l !== id);
+      console.log("newLikes", newLikes);
+      setLikes(newLikes);
+      localStorage.setItem(LIKES_LS, JSON.stringify(newLikes));
+      window.dispatchEvent(new Event("storage"));
    };
 
    return (
@@ -110,7 +118,7 @@ export const ListingEvent = (props) => {
                <a href={`/events/${id}`}>{t("readMore")}</a>
             </p>*/}
 
-            {!isLiked() && <div className="absolute
+            {!isLiked() && <div style={{cursor: 'pointer'}} className="absolute
                               right-0
                               bottom-0
                               m-4
@@ -131,7 +139,7 @@ export const ListingEvent = (props) => {
 
             </div>}
 
-            {isLiked() && <div className="absolute
+            {isLiked() && <div style={{cursor: 'pointer'}} className="absolute
                               right-0
                               bottom-0
                               m-4

@@ -18,14 +18,12 @@ const LikesDropdown = () => {
          console.log("event received");
          // if (likes.length !== likedEvents.length) {
          if(!ISSERVER) {
-            const existingLikes = localStorage.getItem('th.likes');
-            console.log(existingLikes);
-            const existingLikesArray = existingLikes ? JSON.parse(existingLikes) : [];
-            console.log(existingLikesArray);
-            setLikes(existingLikesArray);
+            const likesFromLSasString = localStorage.getItem('th.likes');
+            const likesFromLS = likesFromLSasString ? JSON.parse(likesFromLSasString) : [];
+            setLikes(likesFromLS);
             setLikedEvents([]);
-            existingLikesArray.forEach(event => {
-               if (!likedEvents.find(e=> event.id === e.id)){
+            likesFromLS.forEach(event => {
+               if (typeof likedEvents.find(e=> event === e.id) === "undefined"){
                   populateEventData(event);
                }
             })
@@ -53,9 +51,7 @@ const LikesDropdown = () => {
       fetch(findByEndpoint(eventId))
          .then(res => res.json())
          .then(res => {
-            const newLikes = likedEvents;
-            newLikes.push(res);
-            setLikedEvents(newLikes);
+            setLikedEvents(likedEvents => [...likedEvents, res]);
          });
    };
 
