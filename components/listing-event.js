@@ -104,8 +104,14 @@ export const ListingEvent = (props) => {
                               2xl:mt-2
                               2xl:mr-2"
             onClick={() => props.onLikeAdd(id)}>
+               <div className="relative" data-tip="Add to your agenda">
+                  {/*<i className="pi pi-heart"/>*/}
+                  <img className=" sm:h-4 xs:h-4 xs:object-cover h-full w-4 sm:w-4 xs:w-4 mr-3"
+                       src="/images/add-agenda.png"
+                       alt="Add to your agenda"/>
+               </div>
+               <ReactTooltip />
 
-               <i className="pi pi-heart"/>
 
             </div>}
 
@@ -125,8 +131,14 @@ export const ListingEvent = (props) => {
                               2xl:mt-2
                               2xl:mr-2"
                                 onClick={() => props.onLikeRemove(id)}>
-
-               <i className="pi pi-times"/>
+               <div className="relative" data-tip="Added to your agenda">
+                  {/*<i className="pi pi-heart"/>*/}
+                  <img className=" sm:h-4 xs:h-4 xs:object-cover h-full w-4 sm:w-4 xs:w-4 mr-3"
+                       src="/images/remove-agenda.png"
+                       alt="Added to your agenda"/>
+               </div>
+               <ReactTooltip />
+               {/*<i className="pi pi-heart-fill"/>*/}
 
             </div>}
 

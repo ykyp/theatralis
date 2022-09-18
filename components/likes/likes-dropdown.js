@@ -7,6 +7,20 @@ const LikesDropdown = () => {
    const [likes, setLikes] = useStateFromLocalStorage([], 'th.likes');
    const findByEndpoint = (id) => `/api/findBy?id=${id}`;
 
+   const onStorageChange = () => {
+      if(!ISSERVER) {
+         const likesFromLSasString = localStorage.getItem('th.likes');
+         const likesFromLS = likesFromLSasString ? JSON.parse(likesFromLSasString) : [];
+         setLikes(likesFromLS);
+         setLikedEvents([]);
+         likesFromLS.forEach(event => {
+            if (typeof likedEvents.find(e=> event === e.id) === "undefined"){
+               populateEventData(event);
+            }
+         })
+      }
+   };
+
    useEffect(() => {
       if (likes.length !== likedEvents.length) {
          likes.forEach(event => {
@@ -14,38 +28,12 @@ const LikesDropdown = () => {
          })
       }
 
-      window.addEventListener("storage", () => {
-         console.log("event received");
-         // if (likes.length !== likedEvents.length) {
-         if(!ISSERVER) {
-            const likesFromLSasString = localStorage.getItem('th.likes');
-            const likesFromLS = likesFromLSasString ? JSON.parse(likesFromLSasString) : [];
-            setLikes(likesFromLS);
-            setLikedEvents([]);
-            likesFromLS.forEach(event => {
-               if (typeof likedEvents.find(e=> event === e.id) === "undefined"){
-                  populateEventData(event);
-               }
-            })
-         }
-
-         // }
-      });
+      window.addEventListener("storage", onStorageChange);
 
       return () => {
-         // window.removeEventListener("storage");
+         window.removeEventListener("storage", onStorageChange);
       };
    }, []);
-
-   // useEffect(() => {
-   //
-   //    if (likes.length !== likedEvents.length) {
-   //       likes.forEach(event => {
-   //          populateEventData(event);
-   //       })
-   //    }
-   // }, [likes]);
-
 
    const populateEventData = (eventId) => {
       fetch(findByEndpoint(eventId))
@@ -58,8 +46,13 @@ const LikesDropdown = () => {
    return (
       <div className="flex justify-center ">
       <div className="relative ">
-      <button onClick={() => setDropdownOpen(!dropdownOpen)} className="relative z-10 block rounded-md bg-white p-2 focus:outline-none">
-         My Agenda ({likes.length})  <i className="pi pi-heart"/>
+      <button onClick={() => setDropdownOpen(!dropdownOpen)}
+              className="relative z-10 block rounded-md bg-white p-2 focus:outline-none flex">
+
+         <img className=" mt-2 sm:h-3 xs:h-3 xs:object-cover h-full w-3 sm:w-3 xs:w-3 mr-3"
+              src="/images/remove-agenda.png"
+              alt="Added to your agenda"/>  ({likes.length}) My Agenda
+         {/*<i className="pi pi-heart"/>*/}
       </button>
 
          {dropdownOpen && <div onClick={() => setDropdownOpen(false)} className="fixed inset-0 h-full w-full z-10">
