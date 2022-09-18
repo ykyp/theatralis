@@ -607,3 +607,9 @@ footer hr {
 .p-tabview .p-tabview-nav li .p-tabview-nav-link {
   padding: 18px 1.5rem !important;
 }
+
+.my-agenda-nav {
+  margin-top: 5px;
+  margin-right: 8px;
+  height: 17px;
+}

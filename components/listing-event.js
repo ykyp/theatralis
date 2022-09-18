@@ -108,7 +108,7 @@ export const ListingEvent = (props) => {
                   {/*<i className="pi pi-heart"/>*/}
                   <img className=" sm:h-4 xs:h-4 xs:object-cover h-full w-4 sm:w-4 xs:w-4 mr-3"
                        src="/images/add-agenda.png"
-                       alt="Add to your agenda"/>
+                       alt={t("add-agenda")}/>
                </div>
                <ReactTooltip />
 

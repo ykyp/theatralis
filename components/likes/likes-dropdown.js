@@ -1,11 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import {ISSERVER, useStateFromLocalStorage} from "../session-storage-state";
+import useTranslation from 'next-translate/useTranslation';
 
 const LikesDropdown = () => {
    const [dropdownOpen, setDropdownOpen] = useState(false);
    const [likedEvents, setLikedEvents] = useState([]);
    const [likes, setLikes] = useStateFromLocalStorage([], 'th.likes');
    const findByEndpoint = (id) => `/api/findBy?id=${id}`;
+   const { t } = useTranslation('common');
 
    const onStorageChange = () => {
       if(!ISSERVER) {
@@ -49,9 +51,9 @@ const LikesDropdown = () => {
       <button onClick={() => setDropdownOpen(!dropdownOpen)}
               className="relative z-10 block rounded-md bg-white p-2 focus:outline-none flex">
 
-         <img className=" mt-2 sm:h-3 xs:h-3 xs:object-cover h-full w-3 sm:w-3 xs:w-3 mr-3"
+         <img className="  xs:object-cover my-agenda-nav"
               src="/images/remove-agenda.png"
-              alt="Added to your agenda"/>  ({likes.length}) My Agenda
+              alt="Added to your agenda"/>  ({likes.length}) {t("my-agenda")}
          {/*<i className="pi pi-heart"/>*/}
       </button>
 

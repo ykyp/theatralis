@@ -59,6 +59,12 @@ export default function Layout({ children, home, pageTitle, description, current
       </Head>
 
        <Navbar>
+          <li className="ml-2" key="likes">
+             <LikesDropdown/>
+          </li>
+          <li className="ml-2 brand-red"  key="divider-1">
+             |
+          </li>
           {navLinks.map((link, index) => {
              return (
                 <>
@@ -74,12 +80,7 @@ export default function Layout({ children, home, pageTitle, description, current
                 </>
              );
           })}
-          <li className="ml-2" key="likes">
-             <LikesDropdown/>
-          </li>
-          <li className="ml-2 brand-red"  key="divider-1">
-             |
-          </li>
+
           <li className={"ml-2"} key="en">
              <Link href="/" locale="en">
                 <a  className={lang === 'en' ? "active" : ""}>EN</a>

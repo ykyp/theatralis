@@ -112,5 +112,7 @@
   "venue": "Venue",
   "address": "Αddress",
   "commentsAndReactions": "Comments & Reactions",
-  "more-events-in": "More events in "
+  "more-events-in": "More events in ",
+  "my-agenda": "My agenda",
+  "add-to-agenda": "Add to your agenda"
 }
