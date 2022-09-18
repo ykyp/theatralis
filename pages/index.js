@@ -3,14 +3,13 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
 import { Filter } from '../components/filter';
 import { ListingEvent } from '../components/listing-event';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
 import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
-import {ISSERVER, useStateFromStorage} from "../components/session-storage-state";
-import { Messages } from 'primereact/messages';
+import {ISSERVER, useStateFromLocalStorage, useStateFromStorage} from "../components/session-storage-state";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
@@ -18,6 +17,7 @@ const SELECTED_PERIOD_KEY = 'th.selectedPeriod';
 const SELECTED_FIRST_PAGE = 'th.firstPage';
 const SELECTED_CURRENT_PAGE = 'th.currentPage';
 const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
+const LIKES_LS = 'th.likes';
 
 export default function Home({ allEventsData }) {
    // const covidMessage = useRef(null);
@@ -32,6 +32,7 @@ export default function Home({ allEventsData }) {
    const [rowsPerPage, setRowsPerPage] = useStateFromStorage(10, SELECTED_ITEMS_PER_PAGE);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
    const [isLoading, setLoading] = useState(true);
+   const [likes, setLikes] = useStateFromLocalStorage([], 'th.likes');
 
    const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q}`;
 
@@ -103,6 +104,28 @@ export default function Home({ allEventsData }) {
          sessionStorage.setItem(SELECTED_CURRENT_PAGE, event.page);
          sessionStorage.setItem(SELECTED_ITEMS_PER_PAGE, event.rows);
       }
+   };
+
+   const addToLikes = (id) => {
+      const item = localStorage.getItem(LIKES_LS);
+      const items = item !== null ? JSON.parse(item) : [];
+      if (!items.find(i => i === id)) {
+         items.push(id);
+         setLikes(items);
+         localStorage.setItem(LIKES_LS, JSON.stringify(items));
+         window.dispatchEvent(new Event("storage"));
+      }
+   };
+
+   const removeFromLikes = (id) => {
+      const newLikes = likes.filter(l=> l !== id);
+      setLikes(newLikes);
+      localStorage.setItem(LIKES_LS, JSON.stringify(newLikes));
+      window.dispatchEvent(new Event("storage"));
+   };
+
+   const isLiked = (id) => {
+      return likes && likes.find(l => l === id);
    };
 
    const handleSearchChange = (e) => {
@@ -218,7 +241,12 @@ export default function Home({ allEventsData }) {
               {/* { results.length === 0 && <div>{t("noEventsFound")}</div> }*/}
               <div className={utilStyles.list}>
                 {results.map((event, i) => (
-                   <ListingEvent event={event} key={i} />
+                   <ListingEvent event={event}
+                                 key={i}
+                                 onLikeAdd={addToLikes}
+                                 onLikeRemove={removeFromLikes}
+                                 isLiked={isLiked}
+                   />
                 ))}
               </div>
          </section>

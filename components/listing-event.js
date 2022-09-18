@@ -4,17 +4,14 @@ import { useRouter } from 'next/router';
 import Link from 'next/link'
 import { Tag } from 'primereact/tag';
 import ReactTooltip from 'react-tooltip';
-import React, {useState} from "react";
-import {useStateFromLocalStorage} from "./session-storage-state";
+import React from "react";
 
-const LIKES_LS = 'th.likes';
 
 export const ListingEvent = (props) => {
    const { t } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image, category, finishesSoon, extended } = props.event;
    const cities = city.split(",");
    const router = useRouter();
-   const [likes, setLikes] = useStateFromLocalStorage([], 'th.likes');
 
    const translatedKey = (keyAsString) => {
       const trimmed = keyAsString.trim();
@@ -34,33 +31,6 @@ export const ListingEvent = (props) => {
    const getCityLink = (city) => {
       const c = city.trim().toLowerCase();
       return c === "pafos" ? "theatro/paphos" : `theatro/${c}`;
-   };
-
-   // LIKE MANIPULATION FUNCTIONALITIES SHOULD BE HANDLED FROM PARENT COMPONENT
-   const addToLikes = () => {
-      const item = localStorage.getItem(LIKES_LS);
-      const items = item !== null ? JSON.parse(item) : [];
-      if (!items.find(i => i === id)) {
-         items.push(id);
-         setLikes(items);
-         localStorage.setItem(LIKES_LS, JSON.stringify(items));
-         window.dispatchEvent(new Event("storage"));
-      }
-   };
-
-   const isLiked = () => {
-      return likes && likes.find(l => l === id);
-   };
-
-   // LIKE MANIPULATION FUNCTIONALITIES SHOULD BE HANDLED FROM PARENT COMPONENT
-   const removeFromLikes = () => {
-      console.log(id);
-      console.log("before", likes);
-      const newLikes = likes.filter(l=> l !== id);
-      console.log("newLikes", newLikes);
-      setLikes(newLikes);
-      localStorage.setItem(LIKES_LS, JSON.stringify(newLikes));
-      window.dispatchEvent(new Event("storage"));
    };
 
    return (
@@ -118,7 +88,7 @@ export const ListingEvent = (props) => {
                <a href={`/events/${id}`}>{t("readMore")}</a>
             </p>*/}
 
-            {!isLiked() && <div style={{cursor: 'pointer'}} className="absolute
+            {!props.isLiked(id) && <div style={{cursor: 'pointer'}} className="absolute
                               right-0
                               bottom-0
                               m-4
@@ -133,13 +103,13 @@ export const ListingEvent = (props) => {
                               xl:mr-2
                               2xl:mt-2
                               2xl:mr-2"
-            onClick={() => addToLikes()}>
+            onClick={() => props.onLikeAdd(id)}>
 
                <i className="pi pi-heart"/>
 
             </div>}
 
-            {isLiked() && <div style={{cursor: 'pointer'}} className="absolute
+            {props.isLiked(id) && <div style={{cursor: 'pointer'}} className="absolute
                               right-0
                               bottom-0
                               m-4
@@ -154,7 +124,7 @@ export const ListingEvent = (props) => {
                               xl:mr-2
                               2xl:mt-2
                               2xl:mr-2"
-                                onClick={() => removeFromLikes()}>
+                                onClick={() => props.onLikeRemove(id)}>
 
                <i className="pi pi-times"/>
 
