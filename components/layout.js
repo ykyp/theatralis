@@ -7,6 +7,8 @@ import useTranslation from 'next-translate/useTranslation'
 import { navLinks } from "./nav-data";
 import { useRouter } from 'next/router';
 import CookieConsent from "react-cookie-consent";
+import React from "react";
+import {LikesDropdown} from "./likes/likes-dropdown";
 
 
 export default function Layout({ children, home, pageTitle, description, currentURL, previewImage, siteName, fbTitle, fbSiteName, onSearchChange, searchBy }) {
@@ -16,6 +18,7 @@ export default function Layout({ children, home, pageTitle, description, current
    const defaultImage = '/images/defaultHomeImg.png';
 
    const router = useRouter();
+
   return (
     <div className={`antialiased w-full text-gray-700`}>
       <Head>
@@ -71,6 +74,12 @@ export default function Layout({ children, home, pageTitle, description, current
                 </>
              );
           })}
+          <li className="ml-2" key="likes">
+             <LikesDropdown/>
+          </li>
+          <li className="ml-2 brand-red"  key="divider-1">
+             |
+          </li>
           <li className={"ml-2"} key="en">
              <Link href="/" locale="en">
                 <a  className={lang === 'en' ? "active" : ""}>EN</a>

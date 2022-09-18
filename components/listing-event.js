@@ -6,6 +6,8 @@ import Link from 'next/link'
 import { Tag } from 'primereact/tag';
 import ReactTooltip from 'react-tooltip';
 
+const LIKES_LS = 'th.likes';
+
 export const ListingEvent = (props) => {
    const { t } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image, category, finishesSoon, extended } = props.event;
@@ -30,6 +32,13 @@ export const ListingEvent = (props) => {
    const getCityLink = (city) => {
       const c = city.trim().toLowerCase();
       return c === "pafos" ? "theatro/paphos" : `theatro/${c}`;
+   };
+
+   const addToLikes = () => {
+      const item = localStorage.getItem(LIKES_LS);
+      const items = item !== null ? JSON.parse(item) : [];
+      items.push(id);
+      localStorage.setItem(LIKES_LS, JSON.stringify(items));
    };
 
    return (
@@ -86,6 +95,27 @@ export const ListingEvent = (props) => {
             {/*<p className="read-more">
                <a href={`/events/${id}`}>{t("readMore")}</a>
             </p>*/}
+
+            <div className="absolute
+                              right-0
+                              bottom-0
+                              m-4
+                              mr-8
+                              xs:mb-1
+                              sm:mb-1
+                              md:mt-2
+                              md:mr-2
+                              lg:mt-2
+                              lg:mr-2
+                              xl:mt-2
+                              xl:mr-2
+                              2xl:mt-2
+                              2xl:mr-2"
+            onClick={() => addToLikes()}>
+
+               <i className="pi pi-heart"/>
+
+            </div>
             { finishesSoon &&
                <div className="absolute
                               right-0
