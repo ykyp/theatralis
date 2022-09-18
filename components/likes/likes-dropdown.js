@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {useStateFromLocalStorage} from "../session-storage-state";
+import {ISSERVER, useStateFromLocalStorage} from "../session-storage-state";
 
 const LikesDropdown = () => {
    const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -13,7 +13,41 @@ const LikesDropdown = () => {
             populateEventData(event);
          })
       }
-   }, [likes]);
+
+      window.addEventListener("storage", () => {
+         console.log("event received");
+         // if (likes.length !== likedEvents.length) {
+         if(!ISSERVER) {
+            const existingLikes = localStorage.getItem('th.likes');
+            console.log(existingLikes);
+            const existingLikesArray = existingLikes ? JSON.parse(existingLikes) : [];
+            console.log(existingLikesArray);
+            setLikes(existingLikesArray);
+            setLikedEvents([]);
+            existingLikesArray.forEach(event => {
+               if (!likedEvents.find(e=> event.id === e.id)){
+                  populateEventData(event);
+               }
+            })
+         }
+
+         // }
+      });
+
+      return () => {
+         // window.removeEventListener("storage");
+      };
+   }, []);
+
+   // useEffect(() => {
+   //
+   //    if (likes.length !== likedEvents.length) {
+   //       likes.forEach(event => {
+   //          populateEventData(event);
+   //       })
+   //    }
+   // }, [likes]);
+
 
    const populateEventData = (eventId) => {
       fetch(findByEndpoint(eventId))
@@ -29,12 +63,12 @@ const LikesDropdown = () => {
       <div className="flex justify-center ">
       <div className="relative ">
       <button onClick={() => setDropdownOpen(!dropdownOpen)} className="relative z-10 block rounded-md bg-white p-2 focus:outline-none">
-         {likes.length} Likes <i className="pi pi-heart"/>
+         My Agenda ({likes.length})  <i className="pi pi-heart"/>
       </button>
 
-         {/*{dropdownOpen && <div onClick={() => setDropdownOpen(false)} className="fixed inset-0 h-full w-full z-10">*/}
+         {dropdownOpen && <div onClick={() => setDropdownOpen(false)} className="fixed inset-0 h-full w-full z-10">
 
-         {/*</div>}*/}
+         </div>}
 
          {dropdownOpen &&
          <div className="absolute right-0 mt-2 bg-white rounded-md shadow-lg overflow-hidden z-20" style={{width: '20rem'}}>

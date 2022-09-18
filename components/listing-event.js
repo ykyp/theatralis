@@ -1,10 +1,11 @@
 import useTranslation from 'next-translate/useTranslation';
-import React from 'react';
 import {formatDate} from "./date";
 import { useRouter } from 'next/router';
 import Link from 'next/link'
 import { Tag } from 'primereact/tag';
 import ReactTooltip from 'react-tooltip';
+import React, {useState} from "react";
+import {useStateFromLocalStorage} from "./session-storage-state";
 
 const LIKES_LS = 'th.likes';
 
@@ -13,6 +14,7 @@ export const ListingEvent = (props) => {
    const { id, startDate, endDate, title, city, event_image, category, finishesSoon, extended } = props.event;
    const cities = city.split(",");
    const router = useRouter();
+   const [likes, setLikes] = useStateFromLocalStorage([], 'th.likes');
 
    const translatedKey = (keyAsString) => {
       const trimmed = keyAsString.trim();
@@ -37,8 +39,20 @@ export const ListingEvent = (props) => {
    const addToLikes = () => {
       const item = localStorage.getItem(LIKES_LS);
       const items = item !== null ? JSON.parse(item) : [];
-      items.push(id);
-      localStorage.setItem(LIKES_LS, JSON.stringify(items));
+      if (!items.find(i => i === id)) {
+         items.push(id);
+         setLikes(items);
+         localStorage.setItem(LIKES_LS, JSON.stringify(items));
+         window.dispatchEvent(new Event("storage"));
+      }
+   };
+
+   const isLiked = () => {
+      return likes && likes.find(l => l === id);
+   };
+
+   const removeFromLikes = () => {
+
    };
 
    return (
@@ -96,7 +110,7 @@ export const ListingEvent = (props) => {
                <a href={`/events/${id}`}>{t("readMore")}</a>
             </p>*/}
 
-            <div className="absolute
+            {!isLiked() && <div className="absolute
                               right-0
                               bottom-0
                               m-4
@@ -115,7 +129,29 @@ export const ListingEvent = (props) => {
 
                <i className="pi pi-heart"/>
 
-            </div>
+            </div>}
+
+            {isLiked() && <div className="absolute
+                              right-0
+                              bottom-0
+                              m-4
+                              mr-8
+                              xs:mb-1
+                              sm:mb-1
+                              md:mt-2
+                              md:mr-2
+                              lg:mt-2
+                              lg:mr-2
+                              xl:mt-2
+                              xl:mr-2
+                              2xl:mt-2
+                              2xl:mr-2"
+                                onClick={() => removeFromLikes()}>
+
+               <i className="pi pi-times"/>
+
+            </div>}
+
             { finishesSoon &&
                <div className="absolute
                               right-0
