@@ -114,5 +114,6 @@
   "commentsAndReactions": "Comments & Reactions",
   "more-events-in": "More events in ",
   "my-agenda": "My agenda",
-  "add-to-agenda": "Add to your agenda"
+  "add-to-agenda": "Add to your agenda",
+  "no-agenda-yet": "Your agenda is empty. Click on the mask to an event to your agenda."
 }

@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {ISSERVER, useStateFromLocalStorage} from "../session-storage-state";
 import useTranslation from 'next-translate/useTranslation';
+import {formatDate} from "../date";
 
 const LikesDropdown = () => {
    const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -64,12 +65,23 @@ const LikesDropdown = () => {
          {dropdownOpen &&
          <div className="absolute right-0 xs:left-0 xs:mt-1 mt-2 bg-white rounded-md shadow-lg overflow-hidden z-20" style={{width: '20rem'}}>
             <div className="py-2">
-               {likedEvents.map((event, index) => {
+               {!likedEvents || likedEvents.length === 0 &&
+                  <p className="text-gray-600 text-sm mx-2 flex items-center px-4 py-3 hover:bg-gray-100 -mx-2">
+                     <span className="font-bold" href="#">{t("no-agenda-yet")}</span>
+                  </p>
+               }
+
+               {likedEvents && likedEvents.length !== 0 && likedEvents.map((event, index) => {
                   return (
                      <a href={`/events/${event.id}`} className="flex items-center px-4 py-3 border-b hover:bg-gray-100 -mx-2" key={index}>
                         <img className="h-8 w-8 rounded-full object-cover mx-1" src={event.event_image} alt="avatar"/>
                         <p className="text-gray-600 text-sm mx-2">
-                           <span className="font-bold" href="#">{event.title}</span>
+                           <span className="font-bold" href="#">
+                              {event.title}
+                           </span>
+                           <div className="th-icon-text text-xs">
+                              {formatDate(event.startDate)} - {formatDate(event.endDate)}
+                           </div>
                         </p>
                      </a>
                   );
