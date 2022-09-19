@@ -96,12 +96,12 @@ export const ListingEvent = (props) => {
                               xs:mt-2
                               xs:mr-2"
             onClick={() => props.onLikeAdd(id)}>
-               <div className="relative" data-tip={t("add-agenda")}>
+               <div className="relative" data-tip={t("add-to-agenda")}>
                   {/*<i className="pi pi-heart"/>*/}
                   <img className="h-7 xs:h-6 like-btn"
                        style={{'--fa-animation-duration': '0.5s'}}
                        src="/images/add-agenda.png"
-                       alt={t("add-agenda")}/>
+                       alt={t("add-to-agenda")}/>
                </div>
                <ReactTooltip />
 
