@@ -59,7 +59,7 @@ export default function Layout({ children, home, pageTitle, description, current
       </Head>
 
        <Navbar>
-          <li className="ml-2" key="likes">
+          <li className="ml-2 relative" key="likes">
              <LikesDropdown/>
           </li>
           <li className="ml-2 brand-red"  key="divider-1">

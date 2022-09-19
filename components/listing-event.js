@@ -47,7 +47,7 @@ export const ListingEvent = (props) => {
                        alt={title}/> }
 
             </div>
-            <div className="pt-3 sm:pt-3 xs:pt-1 pl-8 sm:pl-8 xs:pl-2 pr-8 sm:pr-8 xs:pr-4 pb-6 sm:pb-6 xs:pb-2">
+            <div className="pt-3 sm:pt-3 xs:pt-1 pl-8 sm:pl-8 xs:pl-2 pr-8 sm:pr-8 xs:pr-5 pb-6 sm:pb-6 xs:pb-2">
                <div className="uppercase tracking-wide text-sm xs:text-xs brand-red font-semibold">
                   <h3  className="formatted-h3 xs:text-sm md:text-base lg:text-base">
                      <Link  href={`/events/${id}`}>
@@ -90,23 +90,16 @@ export const ListingEvent = (props) => {
 
             {!props.isLiked(id) && <div style={{cursor: 'pointer'}} className="absolute
                               right-0
-                              bottom-0
-                              m-4
-                              mr-8
-                              xs:mb-1
-                              sm:mb-1
-                              md:mt-2
-                              md:mr-2
-                              lg:mt-2
-                              lg:mr-2
-                              xl:mt-2
-                              xl:mr-2
-                              2xl:mt-2
-                              2xl:mr-2"
+                              top-0
+                              mt-4
+                              mr-4
+                              xs:mt-2
+                              xs:mr-2"
             onClick={() => props.onLikeAdd(id)}>
-               <div className="relative" data-tip="Add to your agenda">
+               <div className="relative" data-tip={t("add-agenda")}>
                   {/*<i className="pi pi-heart"/>*/}
-                  <img className=" sm:h-4 xs:h-4 xs:object-cover h-full w-4 sm:w-4 xs:w-4 mr-3"
+                  <img className="h-7 xs:h-6 like-btn"
+                       style={{'--fa-animation-duration': '0.5s'}}
                        src="/images/add-agenda.png"
                        alt={t("add-agenda")}/>
                </div>
@@ -117,41 +110,29 @@ export const ListingEvent = (props) => {
 
             {props.isLiked(id) && <div style={{cursor: 'pointer'}} className="absolute
                               right-0
-                              bottom-0
-                              m-4
-                              mr-8
-                              xs:mb-1
-                              sm:mb-1
-                              md:mt-2
-                              md:mr-2
-                              lg:mt-2
-                              lg:mr-2
-                              xl:mt-2
-                              xl:mr-2
-                              2xl:mt-2
-                              2xl:mr-2"
+                              top-0
+                              mt-4
+                              mr-4
+                              xs:mt-2
+                              xs:mr-2
+                              "
                                 onClick={() => props.onLikeRemove(id)}>
-               <div className="relative" data-tip="Added to your agenda">
+               <div className="relative">
                   {/*<i className="pi pi-heart"/>*/}
-                  <img className=" sm:h-4 xs:h-4 xs:object-cover h-full w-4 sm:w-4 xs:w-4 mr-3"
+                  <img className="h-7 xs:h-6"
                        src="/images/remove-agenda.png"
                        alt="Added to your agenda"/>
                </div>
-               <ReactTooltip />
+               {/*<ReactTooltip />*/}
                {/*<i className="pi pi-heart-fill"/>*/}
 
             </div>}
 
             { finishesSoon &&
                <div className="absolute
-                              right-0
-                              md:top-0
-                              lg:top-0
-                              xl:top-0
-                              2xl:top-0
-                              xs:bottom-0
+                              left-0
+                              top-0
                               xs:mb-1
-                              sm:bottom-0
                               sm:mb-1
                               md:mt-2
                               md:mr-2
@@ -169,14 +150,9 @@ export const ListingEvent = (props) => {
             }
             { extended &&
             <div className="absolute
-                              right-0
-                              md:top-0
-                              lg:top-0
-                              xl:top-0
-                              2xl:top-0
-                              xs:bottom-0
+                              left-0
+                              top-0
                               xs:mb-1
-                              sm:bottom-0
                               sm:mb-1
                               md:mt-2
                               md:mr-2

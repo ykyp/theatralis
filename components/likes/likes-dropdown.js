@@ -62,7 +62,7 @@ const LikesDropdown = () => {
          </div>}
 
          {dropdownOpen &&
-         <div className="absolute right-0 mt-2 bg-white rounded-md shadow-lg overflow-hidden z-20" style={{width: '20rem'}}>
+         <div className="absolute right-0 xs:left-0 xs:mt-1 mt-2 bg-white rounded-md shadow-lg overflow-hidden z-20" style={{width: '20rem'}}>
             <div className="py-2">
                {likedEvents.map((event, index) => {
                   return (
