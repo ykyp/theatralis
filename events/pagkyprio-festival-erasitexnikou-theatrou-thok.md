@@ -6,7 +6,7 @@ city: Nicosia
 event_image: "/images/uploads/image001.jpg"
 cover_image: "/images/uploads/image001.jpg"
 gallery_images: []
-category: ''
+category: Amateur
 extended: false
 critic_link: ''
 critic_title: ''
