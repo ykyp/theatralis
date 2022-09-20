@@ -72,4 +72,4 @@ gallery_3: ''
 
 **_Τιμές:_** €15 / €12
 
-**_Προπώληση:_** Απο την ιστοσελίδα της Tickethour
+**_Προπώληση:_** Απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/search.html?category=Theater "Tickethour")
