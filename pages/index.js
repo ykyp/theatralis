@@ -114,6 +114,12 @@ export default function Home({ allEventsData }) {
          setLikes(items);
          localStorage.setItem(LIKES_LS, JSON.stringify(items));
          window.dispatchEvent(new Event("storage"));
+         ga.event({
+            action: "agenda-add",
+            params : {
+               event: id
+            }
+         })
       }
    };
 
