@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Tag } from 'primereact/tag';
 import ReactTooltip from 'react-tooltip';
 import React from "react";
+import {useStateFromLocalStorage} from "./session-storage-state";
 
 
 export const ListingEvent = (props) => {

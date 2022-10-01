@@ -17,6 +17,10 @@ import {TheatreInfo} from "../../components/theatre/theatre-info";
 import {Reviews} from "../../components/reviews/reviews";
 import {SuggestedEvents} from "../../components/suggested-events/suggested-events";
 import {BackToHome} from "../../components/navigation/backToHome";
+import * as ga from "../../lib/ga";
+import {useStateFromLocalStorage} from "../../components/session-storage-state";
+
+const LIKES_LS = 'th.likes';
 
 export default function Event({ eventData: eventData }) {
   // const covidMessage = useRef(null);
@@ -25,6 +29,7 @@ export default function Event({ eventData: eventData }) {
   const [twitterShareLink, setTwitterShareLink] = useState("");
   const [disqusConfig, setDisqusConfig] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [likes, setLikes] = useStateFromLocalStorage([], 'th.likes');
 
   const galleryMultiImages = eventData.gallery_images || [];
   const galleryImages = [
@@ -102,6 +107,41 @@ export default function Event({ eventData: eventData }) {
     }
   };
 
+  const addToLikes = (id) => {
+    console.log("add to likes");
+    const item = localStorage.getItem(LIKES_LS);
+    const items = item !== null ? JSON.parse(item) : [];
+    if (!items.find(i => i === id)) {
+      items.push(id);
+      setLikes(items);
+      localStorage.setItem(LIKES_LS, JSON.stringify(items));
+      window.dispatchEvent(new Event("storage"));
+      ga.event({
+        action: "agenda-add",
+        params : {
+          event: id
+        }
+      })
+    }
+  };
+
+  const removeFromLikes = (id) => {
+    const newLikes = likes.filter(l=> l !== id);
+    setLikes(newLikes);
+    localStorage.setItem(LIKES_LS, JSON.stringify(newLikes));
+    window.dispatchEvent(new Event("storage"));
+    ga.event({
+      action: "agenda-remove",
+      params : {
+        event: id
+      }
+    })
+  };
+
+  const isLiked = (id) => {
+    return likes && likes.find(l => l === id);
+  };
+
   return (
     <Layout description={eventData.title}
             fbSiteName={period}
@@ -169,6 +209,7 @@ export default function Event({ eventData: eventData }) {
 
 
 
+
                 <div className="socials-container flex">
                   <a href={facebookShareLink}
                      target="blank"
@@ -218,6 +259,15 @@ export default function Event({ eventData: eventData }) {
               </Zoom>
             </div>
             }
+
+            <div className="event-details mb-2 ml-2">
+              <a className={"flex"} onClick={() => addToLikes(eventData.id)}>
+                <img className="h-7 xs:h-6"
+                     src="/images/remove-agenda.png"
+                     alt="Added to your agenda"/>
+                <div className="th-icon-text mt-7 ml-3">{t("add-to-agenda")}</div>
+              </a>
+            </div>
 
              </div>
           {/*<Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>*/}
@@ -290,7 +340,6 @@ export default function Event({ eventData: eventData }) {
                   thumbnail={thumbnailTemplate} />
                   </div>
                 }
-
                 <hr/>
                 <h4> {t("commentsAndReactions")} </h4>
                 { disqusConfig &&
@@ -305,10 +354,6 @@ export default function Event({ eventData: eventData }) {
               </TabPanel> }
             </TabView>
           </div>
-
-
-
-
           {/*<h4 className="h4-prose uppercase"> More events in {eventData.city}</h4>*/}
         </article>
 

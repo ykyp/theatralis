@@ -128,6 +128,12 @@ export default function Home({ allEventsData }) {
       setLikes(newLikes);
       localStorage.setItem(LIKES_LS, JSON.stringify(newLikes));
       window.dispatchEvent(new Event("storage"));
+      ga.event({
+         action: "agenda-remove",
+         params : {
+            event: id
+         }
+      })
    };
 
    const isLiked = (id) => {
