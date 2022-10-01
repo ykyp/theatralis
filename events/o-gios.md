@@ -5,7 +5,10 @@ endDate: 2022-12-31
 city: Nicosia, Larnaca, Pafos, Limassol
 event_image: "/images/uploads/o-gios_the-poster.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/o-gios_3.jpg"
+- "/images/uploads/o-gios_2.jpg"
+- "/images/uploads/o-gios_1.jpg"
 category: Drama
 extended: false
 critic_link: ''
