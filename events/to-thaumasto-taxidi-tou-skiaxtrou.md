@@ -12,6 +12,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/stegi_grammatwn_kai_texnwn_pafos.md
+- theatres/artos_house.md
 - theatres/palio-xidadiko.md
 - theatres/kinimatotheatro-kallithea.md
 gallery_1: ''
@@ -50,7 +52,7 @@ gallery_3: ''
 
 **_Ώρα έναρξης:_** 16:00
 
-**_Τοποθεσία:_** Στέγη Γραμμάτων και Τεχνών
+**_Τοποθεσία:_** [Στέγη Γραμμάτων και Τεχνών](?#map)
 
 ***
 
@@ -70,7 +72,7 @@ gallery_3: ''
 
 **_Ώρα έναρξης:_** Σάββατο στι; 16:00 / Κυριακή στις 11:00
 
-**_Τοποθεσία:_** ARTos HOUSE
+**_Τοποθεσία:_** [ARTos HOUSE](?#map)
 
 ***
 
