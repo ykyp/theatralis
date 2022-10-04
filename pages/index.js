@@ -17,10 +17,8 @@ const SELECTED_PERIOD_KEY = 'th.selectedPeriod';
 const SELECTED_FIRST_PAGE = 'th.firstPage';
 const SELECTED_CURRENT_PAGE = 'th.currentPage';
 const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
-const LIKES_LS = 'th.likes';
 
 export default function Home({ allEventsData }) {
-   // const covidMessage = useRef(null);
    const { t, lang } = useTranslation('common');
    const [results, setResults] = useState([]);
    const [searchBy, setSearchBy] = useState('');
@@ -32,7 +30,6 @@ export default function Home({ allEventsData }) {
    const [rowsPerPage, setRowsPerPage] = useStateFromStorage(10, SELECTED_ITEMS_PER_PAGE);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
    const [isLoading, setLoading] = useState(true);
-   const [likes, setLikes] = useStateFromLocalStorage([], 'th.likes');
 
    const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q}`;
 
@@ -106,40 +103,6 @@ export default function Home({ allEventsData }) {
       }
    };
 
-   const addToLikes = (id) => {
-      const item = localStorage.getItem(LIKES_LS);
-      const items = item !== null ? JSON.parse(item) : [];
-      if (!items.find(i => i === id)) {
-         items.push(id);
-         setLikes(items);
-         localStorage.setItem(LIKES_LS, JSON.stringify(items));
-         window.dispatchEvent(new Event("storage"));
-         ga.event({
-            action: "agenda-add",
-            params : {
-               event: id
-            }
-         })
-      }
-   };
-
-   const removeFromLikes = (id) => {
-      const newLikes = likes.filter(l=> l !== id);
-      setLikes(newLikes);
-      localStorage.setItem(LIKES_LS, JSON.stringify(newLikes));
-      window.dispatchEvent(new Event("storage"));
-      ga.event({
-         action: "agenda-remove",
-         params : {
-            event: id
-         }
-      })
-   };
-
-   const isLiked = (id) => {
-      return likes && likes.find(l => l === id);
-   };
-
    const handleSearchChange = (e) => {
       setSearchBy(e);
    };
@@ -147,12 +110,6 @@ export default function Home({ allEventsData }) {
    useEffect(() => {
       searchEvents();
    }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage, searchBy]);
-
-   // useEffect(() => {
-   //       covidMessage.current.show([
-   //          { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
-   //       ]);
-   // }, []);
 
    const searchEvents = () => {
       setLoading(true);
@@ -189,7 +146,6 @@ export default function Home({ allEventsData }) {
    const translatedPeriod = t(""+selectedPeriod.name);
    const translatedAudience = t(""+selectedCategory.name);
 
-
    return (
     <Layout home onSearchChange={handleSearchChange} searchBy={searchBy}>
        <div className="w-full bg-gray-100">
@@ -204,8 +160,6 @@ export default function Home({ allEventsData }) {
                         selectedCategory={selectedCategory}
                 />
              </div>
-
-       {/*<Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>*/}
 
              { !isLoading &&
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
@@ -251,13 +205,10 @@ export default function Home({ allEventsData }) {
               </div>
             {/* </Card>*/}
               {/* { results.length === 0 && <div>{t("noEventsFound")}</div> }*/}
-              <div className={utilStyles.list}>
+              <div >
                 {results.map((event, i) => (
                    <ListingEvent event={event}
                                  key={i}
-                                 onLikeAdd={addToLikes}
-                                 onLikeRemove={removeFromLikes}
-                                 isLiked={isLiked}
                    />
                 ))}
               </div>

@@ -19,18 +19,15 @@ import {SuggestedEvents} from "../../components/suggested-events/suggested-event
 import {BackToHome} from "../../components/navigation/backToHome";
 import * as ga from "../../lib/ga";
 import {useStateFromLocalStorage} from "../../components/session-storage-state";
-
-const LIKES_LS = 'th.likes';
+import {addToLikes, isLiked, removeFromLikes} from "../../utils/agenda-utils";
 
 export default function Event({ eventData: eventData }) {
-  // const covidMessage = useRef(null);
   const { t } = useTranslation('common');
   const [facebookShareLink, setFacebookShareLink] = useState("");
   const [twitterShareLink, setTwitterShareLink] = useState("");
   const [disqusConfig, setDisqusConfig] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [likes, setLikes] = useStateFromLocalStorage([], 'th.likes');
-
+  const [likeState, setLikeState] = useState(isLiked(eventData.id));
   const galleryMultiImages = eventData.gallery_images || [];
   const galleryImages = [
      eventData.gallery_1,
@@ -75,9 +72,6 @@ export default function Event({ eventData: eventData }) {
        identifier: urlParts[urlParts.length-1],
        title: eventData.title
     });
-    // covidMessage.current.show([
-    //   { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
-    // ]);
 
     if (window.location.hash === '#map') {
        //wait for google maps to be loaded
@@ -107,39 +101,13 @@ export default function Event({ eventData: eventData }) {
     }
   };
 
-  const addToLikes = (id) => {
-    console.log("add to likes");
-    const item = localStorage.getItem(LIKES_LS);
-    const items = item !== null ? JSON.parse(item) : [];
-    if (!items.find(i => i === id)) {
-      items.push(id);
-      setLikes(items);
-      localStorage.setItem(LIKES_LS, JSON.stringify(items));
-      window.dispatchEvent(new Event("storage"));
-      ga.event({
-        action: "agenda-add",
-        params : {
-          event: id
-        }
-      })
-    }
+  const handleAddLike = () => {
+    addToLikes(eventData.id);
+    setLikeState(true);
   };
-
-  const removeFromLikes = (id) => {
-    const newLikes = likes.filter(l=> l !== id);
-    setLikes(newLikes);
-    localStorage.setItem(LIKES_LS, JSON.stringify(newLikes));
-    window.dispatchEvent(new Event("storage"));
-    ga.event({
-      action: "agenda-remove",
-      params : {
-        event: id
-      }
-    })
-  };
-
-  const isLiked = (id) => {
-    return likes && likes.find(l => l === id);
+  const handleRemoveLike = () => {
+    removeFromLikes(eventData.id);
+    setLikeState(false);
   };
 
   return (
@@ -193,7 +161,7 @@ export default function Event({ eventData: eventData }) {
                   <div className="th-icon-text">{translatedKeys(eventData.city)}</div>
                 </div>
 
-                <div className="event-details flex items-center mb-2">
+                <div className="event-details flex items-center">
                   <i className="pi pi-comments th-icon "></i>
                   <div className="th-icon-text">
                     <a href={"#comments"} className={"font-normal"} onClick={() => goToFirstTabIfNeeded()}>{ disqusConfig &&<CommentCount
@@ -207,10 +175,19 @@ export default function Event({ eventData: eventData }) {
                   </a></div>
                 </div>
 
-
-
+                <div className="event-details flex items-center mt-2 mb-4">
+                  <img className="h-5 no-margins xs:h-5 mr-3"
+                       src="/images/remove-agenda.png"
+                       alt="Added to your agenda"/>
+                  {/*<i className="pi pi-comments th-icon "></i>*/}
+                  <div className="th-icon-text ml-2">
+                    <a className={"font-normal cursor-pointer"} onClick={() => likeState ? handleRemoveLike() : handleAddLike()}>
+                      {likeState ? t("added-to-agenda") : t("add-to-agenda")}
+                    </a></div>
+                </div>
 
                 <div className="socials-container flex">
+                  {/*<span className={"mt-1"}>{t("share-it")}</span>*/}
                   <a href={facebookShareLink}
                      target="blank"
                      rel="noopener noreferrer"
@@ -260,18 +237,10 @@ export default function Event({ eventData: eventData }) {
             </div>
             }
 
-            <div className="event-details mb-2 ml-2">
-              <a className={"flex"} onClick={() => addToLikes(eventData.id)}>
-                <img className="h-7 xs:h-6"
-                     src="/images/remove-agenda.png"
-                     alt="Added to your agenda"/>
-                <div className="th-icon-text mt-7 ml-3">{t("add-to-agenda")}</div>
-              </a>
-            </div>
+
 
              </div>
           {/*<Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>*/}
-
 
           <div className="hide-li">
             <TabView id="tabs" activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)}>

@@ -4,13 +4,14 @@ import { useRouter } from 'next/router';
 import Link from 'next/link'
 import { Tag } from 'primereact/tag';
 import ReactTooltip from 'react-tooltip';
-import React from "react";
-import {useStateFromLocalStorage} from "./session-storage-state";
+import React, {useState} from "react";
+import {addToLikes, isLiked, removeFromLikes} from "../utils/agenda-utils";
 
 
 export const ListingEvent = (props) => {
    const { t } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image, category, finishesSoon, extended } = props.event;
+   const [likeState, setLikeState] = useState(isLiked(id));
    const cities = city.split(",");
    const router = useRouter();
 
@@ -32,6 +33,15 @@ export const ListingEvent = (props) => {
    const getCityLink = (city) => {
       const c = city.trim().toLowerCase();
       return c === "pafos" ? "theatro/paphos" : `theatro/${c}`;
+   };
+
+   const handleAddLike = () => {
+      addToLikes(id);
+      setLikeState(true);
+   };
+   const handleRemoveLike = () => {
+      removeFromLikes(id);
+      setLikeState(false);
    };
 
    return (
@@ -89,14 +99,14 @@ export const ListingEvent = (props) => {
                <a href={`/events/${id}`}>{t("readMore")}</a>
             </p>*/}
 
-            {!props.isLiked(id) && <div style={{cursor: 'pointer'}} className="absolute
+            {!likeState && <div style={{cursor: 'pointer'}} className="absolute
                               right-0
                               top-0
                               mt-4
                               mr-4
                               xs:mt-2
                               xs:mr-2"
-            onClick={() => props.onLikeAdd(id)}>
+            onClick={() => handleAddLike()}>
                <div className="relative" data-tip={t("add-to-agenda")}>
                   {/*<i className="pi pi-heart"/>*/}
                   <img className="h-7 xs:h-6 like-btn"
@@ -105,11 +115,9 @@ export const ListingEvent = (props) => {
                        alt={t("add-to-agenda")}/>
                </div>
                <ReactTooltip />
-
-
             </div>}
 
-            {props.isLiked(id) && <div style={{cursor: 'pointer'}} className="absolute
+            {likeState && <div style={{cursor: 'pointer'}} className="absolute
                               right-0
                               top-0
                               mt-4
@@ -117,7 +125,7 @@ export const ListingEvent = (props) => {
                               xs:mt-2
                               xs:mr-2
                               "
-                                onClick={() => props.onLikeRemove(id)}>
+                                onClick={() => handleRemoveLike()}>
                <div className="relative">
                   {/*<i className="pi pi-heart"/>*/}
                   <img className="h-7 xs:h-6"

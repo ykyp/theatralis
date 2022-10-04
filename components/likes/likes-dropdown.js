@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {ISSERVER, useStateFromLocalStorage} from "../session-storage-state";
 import useTranslation from 'next-translate/useTranslation';
 import {formatDate} from "../date";
+import {removeFromLikes} from "../../utils/agenda-utils";
 
 const LikesDropdown = () => {
    const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -43,6 +44,8 @@ const LikesDropdown = () => {
          .then(res => res.json())
          .then(res => {
             setLikedEvents(likedEvents => [...likedEvents, res]);
+         }).catch((error) => {
+            console.log('error occurred fetching liked event', error);
          });
    };
 
@@ -52,9 +55,9 @@ const LikesDropdown = () => {
       <button onClick={() => setDropdownOpen(!dropdownOpen)}
               className="relative z-10 block rounded-md bg-white p-2 focus:outline-none flex">
 
-         <img className="  xs:object-cover my-agenda-nav"
+         <img className="xs:object-cover my-agenda-nav"
               src="/images/remove-agenda.png"
-              alt="Added to your agenda"/>  ({likes.length}) {t("my-agenda")}
+              alt="Added to your agenda"/>  ({likedEvents.length}) {t("my-agenda")}
          {/*<i className="pi pi-heart"/>*/}
       </button>
 
@@ -67,13 +70,14 @@ const LikesDropdown = () => {
             <div className="py-2">
                {!likedEvents || likedEvents.length === 0 &&
                   <p className="text-gray-600 text-sm mx-2 flex items-center px-4 py-3 hover:bg-gray-100 -mx-2">
-                     <span className="font-bold" href="#">{t("no-agenda-yet")}</span>
+                     <span className="p-4" href="#">{t("no-agenda-yet")}</span>
                   </p>
                }
 
                {likedEvents && likedEvents.length !== 0 && likedEvents.map((event, index) => {
                   return (
-                     <a href={`/events/${event.id}`} className="flex items-center px-4 py-3 border-b hover:bg-gray-100 -mx-2" key={index}>
+                     <>
+                     <a href={`/events/${event.id}`} className="flex items-center justify-between px-4 py-3 border-b hover:bg-gray-100 -mx-2" key={index}>
                         <img className="h-8 w-8 rounded-full object-cover mx-1" src={event.event_image} alt="avatar"/>
                         <p className="text-gray-600 text-sm mx-2">
                            <span className="font-bold" href="#">
@@ -83,7 +87,10 @@ const LikesDropdown = () => {
                               {formatDate(event.startDate)} - {formatDate(event.endDate)}
                            </div>
                         </p>
+
+                        <i onClick={(e) => {e.stopPropagation();e.preventDefault();removeFromLikes(event.id)}} className="pi pi-times-circle th-icon no-decoration-important float-right"></i>
                      </a>
+                     </>
                   );
                })}
                {/*<a href="#" className="flex items-center px-4 py-3 border-b hover:bg-gray-100 -mx-2">*/}
@@ -98,8 +105,10 @@ const LikesDropdown = () => {
                         {/*<span className="font-bold" href="#">Slick Net</span> start following you . 45m*/}
                      {/*</p>*/}
                {/*</a>*/}
+
             </div>
-             {/*<a href="#" className="block bg-gray-800 text-white text-center font-bold py-2">See all notifications</a>*/}
+            {/*{likedEvents && likedEvents.length > 0 && <a href="/my-agenda" className="block bg-gray-500 text-white text-center font-bold py-2">View My Agenda</a>}*/}
+
          </div>
          }
 

@@ -115,5 +115,9 @@
   "more-events-in": "More events in ",
   "my-agenda": "My agenda",
   "add-to-agenda": "Add to your agenda",
-  "no-agenda-yet": "Your agenda is empty. Click on the mask to an event to your agenda."
+  "no-agenda-yet": "Your agenda is empty. Click on the mask to an event to your agenda.",
+  "added-to-agenda": "Added to my agenda",
+  "share-it": "Share it!",
+  "email": "Email",
+  "email-desc": "Εάν θέλεται να σας απαντήσουμε παρακαλώ προσθέστε το email σας."
 }

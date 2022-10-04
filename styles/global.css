@@ -614,6 +614,14 @@ footer hr {
   height: 17px;
 }
 
+.no-margins {
+  margin: 0 !important;
+}
+
+.no-decoration-important, .no-decoration-important:hover {
+  text-decoration: none !important;
+}
+
 /*.like-btn {*/
   /*transition: 0.3s;*/
 /*}*/

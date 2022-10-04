@@ -21,6 +21,7 @@ export default function ContactUs() {
    const toast = useRef(null);
    const [message, setMessage] = useState('');
    const [reason, setReason] = useState('');
+   const [email, setEmail] = useState('');
    const { t, lang } = useTranslation('common');
 
 
@@ -30,6 +31,7 @@ export default function ContactUs() {
       const data = {
          reason: t(""+reason.name),
          message,
+         email
       };
       fetch('/api/contact', {
          method: 'post',
@@ -37,8 +39,10 @@ export default function ContactUs() {
       }).then(() => {
          e.target[0].value = '';
          e.target[1].value = '';
+         e.target[2].value = '';
          setReason("");
          setMessage("");
+         setEmail("");
          showSuccess();
       });
    };
@@ -130,6 +134,15 @@ export default function ContactUs() {
                                     rows="4"
                                     required
                                     onChange={(e) => setMessage(event.target.value)}
+                     />
+                  </div>
+                  <div className="p-field mb-2">
+                     <label htmlFor="email">{t("email")}  </label>
+                     <span className={""}>{t("email-desc")}</span>
+                     <InputText id="email"
+                                    type="text"
+                                    value={email}
+                                    onChange={(e) => setEmail(event.target.value)}
                      />
                   </div>
                </div>
