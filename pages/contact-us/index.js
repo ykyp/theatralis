@@ -138,7 +138,6 @@ export default function ContactUs() {
                   </div>
                   <div className="p-field mb-2">
                      <label htmlFor="email">{t("email")}  </label>
-                     <span className={""}>{t("email-desc")}</span>
                      <InputText id="email"
                                     type="text"
                                     value={email}
