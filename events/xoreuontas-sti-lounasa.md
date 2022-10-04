@@ -6,8 +6,13 @@ city: Nicosia
 event_image: "/images/uploads/_1.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/_2.jpg"
-- "/images/uploads/_3.jpg"
+- "/images/uploads/xoreuontas-sti-lounasa_7.jpg"
+- "/images/uploads/xoreuontas-sti-lounasa_6.jpg"
+- "/images/uploads/xoreuontas-sti-lounasa_5.jpg"
+- "/images/uploads/xoreuontas-sti-lounasa_4.jpg"
+- "/images/uploads/xoreuontas-sti-lounasa_3.jpg"
+- "/images/uploads/xoreuontas-sti-lounasa_2.jpg"
+- "/images/uploads/xoreuontas-sti-lounasa_1.jpg"
 category: Drama
 extended: false
 critic_link: ''
