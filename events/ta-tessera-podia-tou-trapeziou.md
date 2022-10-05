@@ -3,9 +3,10 @@ title: ΤΑ ΤΕΣΣΕΡΑ ΠΟΔΙΑ ΤΟΥ ΤΡΑΠΕΖΙΟΥ
 startDate: 2022-10-13
 endDate: 2022-10-30
 city: Nicosia, Limassol
-event_image: "/images/uploads/kambanellis1.jpg"
+event_image: "/images/uploads/ta-tessera-podia-tou-trapeziou_1.JPG"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/ta-tessera-podia-tou-trapeziou_2.JPG"
 category: Comedy
 extended: false
 critic_link: ''
@@ -70,11 +71,13 @@ gallery_3: ''
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνίες:_** 18, 21, 22, 23, 25, 28, 29 & 30 Οκτωβρίου 2022 
+**_Ημερομηνίες:_** 21, 22, 23, 25, 28, 29 & 30 Οκτωβρίου 2022
 
 **_Ώρα έναρξης:_** 20:30 | Κυριακή στις 18:30
 
 **_Τοποθεσία:_** [Τεχνοχώρος ΕΘΑΛ](?#map)
+
+**_Διάρκεια:_** 115 λεπτά
 
 ***
 
@@ -82,6 +85,6 @@ gallery_3: ''
 
 **_Τιμές:_** €15 / €12
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας Soldout  και σε όλα τα καταστήματα Στεφανής
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout  ](https://www.soldoutticketbox.com/ta-tessera-podia-tou-trapeziou-ethal-oct-2022/?lang=el)και σε όλα τα καταστήματα Στεφανής
 
 **_Πληροφορίες:_** Στο τηλέφωνο 25877827
