@@ -607,3 +607,51 @@ footer hr {
 .p-tabview .p-tabview-nav li .p-tabview-nav-link {
   padding: 18px 1.5rem !important;
 }
+
+.my-agenda-nav {
+  margin-top: 5px;
+  margin-right: 8px;
+  height: 17px;
+}
+
+.no-margins {
+  margin: 0 !important;
+}
+
+.no-decoration-important, .no-decoration-important:hover {
+  text-decoration: none !important;
+}
+
+/*.like-btn {*/
+  /*transition: 0.3s;*/
+/*}*/
+
+/*.like-btn:hover {*/
+  /*background-color: #7c141f;*/
+  /*color: white;*/
+/*}*/
+
+.transitionDiv {
+  margin: 0 auto;
+}
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0.5;
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}

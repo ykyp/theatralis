@@ -3,14 +3,13 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
 import { Filter } from '../components/filter';
 import { ListingEvent } from '../components/listing-event';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
 import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
-import {ISSERVER, useStateFromStorage} from "../components/session-storage-state";
-import { Messages } from 'primereact/messages';
+import {ISSERVER, useStateFromLocalStorage, useStateFromStorage} from "../components/session-storage-state";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
@@ -20,7 +19,6 @@ const SELECTED_CURRENT_PAGE = 'th.currentPage';
 const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
 export default function Home({ allEventsData }) {
-   // const covidMessage = useRef(null);
    const { t, lang } = useTranslation('common');
    const [results, setResults] = useState([]);
    const [searchBy, setSearchBy] = useState('');
@@ -113,12 +111,6 @@ export default function Home({ allEventsData }) {
       searchEvents();
    }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage, searchBy]);
 
-   // useEffect(() => {
-   //       covidMessage.current.show([
-   //          { severity: 'warn', summary: '', detail: t("covidNote"), sticky: true },
-   //       ]);
-   // }, []);
-
    const searchEvents = () => {
       setLoading(true);
       const query = {
@@ -154,7 +146,6 @@ export default function Home({ allEventsData }) {
    const translatedPeriod = t(""+selectedPeriod.name);
    const translatedAudience = t(""+selectedCategory.name);
 
-
    return (
     <Layout home onSearchChange={handleSearchChange} searchBy={searchBy}>
        <div className="w-full bg-gray-100">
@@ -169,8 +160,6 @@ export default function Home({ allEventsData }) {
                         selectedCategory={selectedCategory}
                 />
              </div>
-
-       {/*<Messages style={{maxWidth: '787px'}} className="max-w-screen-xl mx-auto xs:text-xs sm:text-xs" ref={covidMessage}></Messages>*/}
 
              { !isLoading &&
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} m-auto `}
@@ -216,9 +205,11 @@ export default function Home({ allEventsData }) {
               </div>
             {/* </Card>*/}
               {/* { results.length === 0 && <div>{t("noEventsFound")}</div> }*/}
-              <div className={utilStyles.list}>
+              <div >
                 {results.map((event, i) => (
-                   <ListingEvent event={event} key={i} />
+                   <ListingEvent event={event}
+                                 key={i}
+                   />
                 ))}
               </div>
          </section>

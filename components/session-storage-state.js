@@ -17,3 +17,19 @@ export const useStateFromStorage = (defaultValue, key) => {
       }
    });
 };
+
+export const useStateFromLocalStorage = (defaultValue, key) => {
+   return useState(() => {
+      try {
+         if(!ISSERVER) {
+            const item = localStorage.getItem(key);
+            return item ? JSON.parse(item) : defaultValue;
+         }
+         return defaultValue;
+      } catch (error) {
+         // If error also return initialValue
+         console.log(error);
+         return defaultValue;
+      }
+   });
+};

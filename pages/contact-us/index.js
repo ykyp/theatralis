@@ -21,6 +21,8 @@ export default function ContactUs() {
    const toast = useRef(null);
    const [message, setMessage] = useState('');
    const [reason, setReason] = useState('');
+   const [email, setEmail] = useState('');
+   const [errors, setErrors] = useState({});
    const { t, lang } = useTranslation('common');
 
 
@@ -30,6 +32,7 @@ export default function ContactUs() {
       const data = {
          reason: t(""+reason.name),
          message,
+         email
       };
       fetch('/api/contact', {
          method: 'post',
@@ -37,8 +40,10 @@ export default function ContactUs() {
       }).then(() => {
          e.target[0].value = '';
          e.target[1].value = '';
+         e.target[2].value = '';
          setReason("");
          setMessage("");
+         setEmail("");
          showSuccess();
       });
    };
@@ -77,6 +82,18 @@ export default function ContactUs() {
    const onReasonChange = (e) => {
       setReason(e.value);
    };
+
+   const onEmailChange = (e) => {
+      const value = e.target.value;
+      if (!value) {
+         setErrors({...errors, email : 'newsletterEmailRequired'});
+      } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
+         setErrors({...errors, email : 'newsletterEmailError'});
+      } else {
+         setErrors({...errors, email : undefined});
+      }
+      setEmail(value);
+   }
 
    return (
       <Layout description={'Contact Us'}>
@@ -132,9 +149,20 @@ export default function ContactUs() {
                                     onChange={(e) => setMessage(event.target.value)}
                      />
                   </div>
+                  <div className="p-field mb-2">
+                     <label htmlFor="email">{t("email")}  <span className='brand-red'>*</span></label>
+                     <InputText id="email"
+                                    type="text"
+                                    value={email}
+                                    onChange={(e) => onEmailChange(e)}
+                     />
+                     {errors.email &&  (
+                         <span className='brand-red'>{t(errors.email)}</span>
+                     )}
+                  </div>
                </div>
                   <Button type="submit"
-                          disabled={!reason || !message}
+                          disabled={!reason || !message || errors.email}
                           label={t("submit")}/>
                </form>
 

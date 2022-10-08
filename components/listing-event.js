@@ -1,14 +1,17 @@
 import useTranslation from 'next-translate/useTranslation';
-import React from 'react';
 import {formatDate} from "./date";
 import { useRouter } from 'next/router';
 import Link from 'next/link'
 import { Tag } from 'primereact/tag';
 import ReactTooltip from 'react-tooltip';
+import React, {useState} from "react";
+import {addToLikes, isLiked, removeFromLikes} from "../utils/agenda-utils";
+
 
 export const ListingEvent = (props) => {
    const { t } = useTranslation('common');
    const { id, startDate, endDate, title, city, event_image, category, finishesSoon, extended } = props.event;
+   const [likeState, setLikeState] = useState(isLiked(id));
    const cities = city.split(",");
    const router = useRouter();
 
@@ -32,6 +35,21 @@ export const ListingEvent = (props) => {
       return c === "pafos" ? "theatro/paphos" : `theatro/${c}`;
    };
 
+   const handleAddLike = () => {
+      addToLikes(id);
+      setLikeState(true);
+   };
+   const handleRemoveLike = () => {
+      removeFromLikes(id);
+      setLikeState(false);
+   };
+
+   const mountedStyle = { animation: "inAnimation 250ms ease-in" };
+   const unmountedStyle = {
+      animation: "outAnimation 270ms ease-out",
+      animationFillMode: "forwards"
+   };
+
    return (
       <>
       <div className="th-card-container md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red m-4 sm:m-4 xs:m-2">
@@ -46,7 +64,7 @@ export const ListingEvent = (props) => {
                        alt={title}/> }
 
             </div>
-            <div className="pt-3 sm:pt-3 xs:pt-1 pl-8 sm:pl-8 xs:pl-2 pr-8 sm:pr-8 xs:pr-4 pb-6 sm:pb-6 xs:pb-2">
+            <div className="pt-3 sm:pt-3 xs:pt-1 pl-8 sm:pl-8 xs:pl-2 pr-8 sm:pr-8 xs:pr-5 pb-6 sm:pb-6 xs:pb-2">
                <div className="uppercase tracking-wide text-sm xs:text-xs brand-red font-semibold">
                   <h3  className="formatted-h3 xs:text-sm md:text-base lg:text-base">
                      <Link  href={`/events/${id}`}>
@@ -86,16 +104,30 @@ export const ListingEvent = (props) => {
             {/*<p className="read-more">
                <a href={`/events/${id}`}>{t("readMore")}</a>
             </p>*/}
+
+            <div style={{cursor: 'pointer'}} className="absolute
+                              right-0
+                              top-0
+                              mt-4
+                              mr-4
+                              xs:mt-2
+                              xs:mr-2 glow-on-hover"
+            onClick={() => !likeState? handleAddLike(): handleRemoveLike()}>
+               <div className="relative" data-tip={!likeState? t("add-to-agenda"): ""}>
+                  {/*<i className="pi pi-heart"/>*/}
+                  <img className="h-7 xs:h-6 like-btn image-transition transitionDiv"
+                       style={!likeState ? mountedStyle : unmountedStyle}
+                       src={!likeState? "/images/add-agenda.png": "/images/mask-added.png"}
+                       alt={t("add-to-agenda")}/>
+               </div>
+               <ReactTooltip />
+            </div>
+
             { finishesSoon &&
                <div className="absolute
-                              right-0
-                              md:top-0
-                              lg:top-0
-                              xl:top-0
-                              2xl:top-0
-                              xs:bottom-0
+                              left-0
+                              top-0
                               xs:mb-1
-                              sm:bottom-0
                               sm:mb-1
                               md:mt-2
                               md:mr-2
@@ -113,14 +145,9 @@ export const ListingEvent = (props) => {
             }
             { extended &&
             <div className="absolute
-                              right-0
-                              md:top-0
-                              lg:top-0
-                              xl:top-0
-                              2xl:top-0
-                              xs:bottom-0
+                              left-0
+                              top-0
                               xs:mb-1
-                              sm:bottom-0
                               sm:mb-1
                               md:mt-2
                               md:mr-2
