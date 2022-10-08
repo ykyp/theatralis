@@ -23,6 +23,13 @@ theatres:
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
+nicosia_dates:
+- nicosia_date: 2022-10-08
+- nicosia_date: 2022-10-08
+- nicosia_date: 2022-10-08
+- nicosia_date: 2022-10-08
+- nicosia_date: 2022-10-08
+- nicosia_date: 2022-10-19
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
