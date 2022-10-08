@@ -48,6 +48,11 @@ function eventData() {
          category: matterResult.data.category,
          finishesSoon: finishesSoon(matterResult.data.endDate),
          extended: matterResult.data.extended,
+         nicosia_dates: matterResult.data.nicosia_dates,
+         limassol_dates: matterResult.data.nicosia_dates,
+         larnaca_dates: matterResult.data.nicosia_dates,
+         famagusta_dates: matterResult.data.nicosia_dates,
+         paphos_dates: matterResult.data.nicosia_dates,
          // theatresData: matterResult.data.theatresData
       }
    });
