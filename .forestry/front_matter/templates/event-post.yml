@@ -91,24 +91,6 @@ fields:
       section: theatres
   label: Theatres
   description: Theatres locations
-- name: gallery_1
-  type: file
-  config:
-    maxSize: 64
-  label: Gallery 1st image (Stop using this)
-  description: Stop using this field -- Use Gallery Images instead
-- name: gallery_2
-  type: file
-  config:
-    maxSize: 64
-  label: Gallery 2nd image (Stop using this)
-  description: Stop using this field -- Use Gallery Images instead
-- name: gallery_3
-  type: file
-  config:
-    maxSize: 64
-  label: Gallery 3rd image (Stop using this)
-  description: Stop using this field -- Use Gallery Images instead
 pages:
 - events/5-lesbians-eating-a-quiche.md
 - events/Foteini.md
