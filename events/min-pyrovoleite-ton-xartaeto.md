@@ -62,11 +62,15 @@ paphos_dates: ''
 
 **_Τοποθεσία:_** [Θέατρο ΜΑΣΚΑΡΙΝΙ](?#map)
 
+**_Διάρκεια:_** 75 λεπτά
+
+**_Καταλληλότητα:_** Ανω των 10 ετών
+
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμές:_** €15 / €12
+**_Τιμές:_** €13 / €10
 
 **_Προπώληση εισιτηρίων:_** Απο την ιστοσελίδα της[ SoldOut Tickets](https://www.soldoutticketbox.com/dont-let-them-shoot-the-kite-theatro-antilogos-2022/?lang=en) και όλα τα καταστήματα Stephanis - Electronics
 
