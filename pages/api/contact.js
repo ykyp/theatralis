@@ -8,7 +8,7 @@ export default async (req, res) => {
    const message = `
     Reason: ${body.reason}\r\n
     Message: ${body.message}\r\n
-    Reason: ${body.email}
+    Email: ${body.email}
   `;
 
    const data = {
