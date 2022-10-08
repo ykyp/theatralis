@@ -22,6 +22,7 @@ export default function ContactUs() {
    const [message, setMessage] = useState('');
    const [reason, setReason] = useState('');
    const [email, setEmail] = useState('');
+   const [errors, setErrors] = useState({});
    const { t, lang } = useTranslation('common');
 
 
@@ -82,6 +83,18 @@ export default function ContactUs() {
       setReason(e.value);
    };
 
+   const onEmailChange = (e) => {
+      const value = e.target.value;
+      if (!value) {
+         setErrors({...errors, email : 'newsletterEmailRequired'});
+      } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
+         setErrors({...errors, email : 'newsletterEmailError'});
+      } else {
+         setErrors({...errors, email : undefined});
+      }
+      setEmail(value);
+   }
+
    return (
       <Layout description={'Contact Us'}>
          <Head>
@@ -137,16 +150,19 @@ export default function ContactUs() {
                      />
                   </div>
                   <div className="p-field mb-2">
-                     <label htmlFor="email">{t("email")}  </label>
+                     <label htmlFor="email">{t("email")}  <span className='brand-red'>*</span></label>
                      <InputText id="email"
                                     type="text"
                                     value={email}
-                                    onChange={(e) => setEmail(event.target.value)}
+                                    onChange={(e) => onEmailChange(e)}
                      />
+                     {errors.email &&  (
+                         <span className='brand-red'>{t(errors.email)}</span>
+                     )}
                   </div>
                </div>
                   <Button type="submit"
-                          disabled={!reason || !message}
+                          disabled={!reason || !message || errors.email}
                           label={t("submit")}/>
                </form>
 

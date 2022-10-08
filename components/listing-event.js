@@ -44,6 +44,12 @@ export const ListingEvent = (props) => {
       setLikeState(false);
    };
 
+   const mountedStyle = { animation: "inAnimation 250ms ease-in" };
+   const unmountedStyle = {
+      animation: "outAnimation 270ms ease-out",
+      animationFillMode: "forwards"
+   };
+
    return (
       <>
       <div className="th-card-container md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto bg-white rounded-md shadow-md overflow-hidden border-bottom-red m-4 sm:m-4 xs:m-2">
@@ -99,43 +105,23 @@ export const ListingEvent = (props) => {
                <a href={`/events/${id}`}>{t("readMore")}</a>
             </p>*/}
 
-            {!likeState && <div style={{cursor: 'pointer'}} className="absolute
+            <div style={{cursor: 'pointer'}} className="absolute
                               right-0
                               top-0
                               mt-4
                               mr-4
                               xs:mt-2
-                              xs:mr-2"
-            onClick={() => handleAddLike()}>
-               <div className="relative" data-tip={t("add-to-agenda")}>
+                              xs:mr-2 glow-on-hover"
+            onClick={() => !likeState? handleAddLike(): handleRemoveLike()}>
+               <div className="relative" data-tip={!likeState? t("add-to-agenda"): ""}>
                   {/*<i className="pi pi-heart"/>*/}
-                  <img className="h-7 xs:h-6 like-btn"
-                       style={{'--fa-animation-duration': '0.5s'}}
-                       src="/images/add-agenda.png"
+                  <img className="h-7 xs:h-6 like-btn image-transition transitionDiv"
+                       style={!likeState ? mountedStyle : unmountedStyle}
+                       src={!likeState? "/images/add-agenda.png": "/images/mask-added.png"}
                        alt={t("add-to-agenda")}/>
                </div>
                <ReactTooltip />
-            </div>}
-
-            {likeState && <div style={{cursor: 'pointer'}} className="absolute
-                              right-0
-                              top-0
-                              mt-4
-                              mr-4
-                              xs:mt-2
-                              xs:mr-2
-                              "
-                                onClick={() => handleRemoveLike()}>
-               <div className="relative">
-                  {/*<i className="pi pi-heart"/>*/}
-                  <img className="h-7 xs:h-6"
-                       src="/images/remove-agenda.png"
-                       alt="Added to your agenda"/>
-               </div>
-               {/*<ReactTooltip />*/}
-               {/*<i className="pi pi-heart-fill"/>*/}
-
-            </div>}
+            </div>
 
             { finishesSoon &&
                <div className="absolute

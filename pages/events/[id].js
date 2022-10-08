@@ -177,7 +177,7 @@ export default function Event({ eventData: eventData }) {
 
                 <div className="event-details flex items-center mt-2 mb-4">
                   <img className="h-5 no-margins xs:h-5 mr-3"
-                       src="/images/remove-agenda.png"
+                       src="/images/mask-added.png"
                        alt="Added to your agenda"/>
                   {/*<i className="pi pi-comments th-icon "></i>*/}
                   <div className="th-icon-text ml-2">
