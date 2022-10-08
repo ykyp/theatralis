@@ -11,7 +11,8 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
-theatres: []
+theatres:
+- theatres/dimotiko-theatro-strovolou.md
 nicosia_dates: ''
 limassol_dates: ''
 larnaca_dates: ''
@@ -49,3 +50,17 @@ paphos_dates: ''
 ***
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
+
+**_Ημερομηνίες:_** Σάββατο 29 & Κυριακή 30 Οκτωβρίου 2022
+
+**_Ώρα έναρξης:_** Σάββατο στις 17:00 και 20:30 | Κυριακή στις 19:00
+
+**_Τοποθεσία:_** [Δημοτικό θέατρο Στροβόλου](?#map)
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+**_Τιμή:_** €20
+
+**_Προπώληση εισιτηρίων:_** Απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_4004.html)
