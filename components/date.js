@@ -24,6 +24,14 @@ const weekIsBetweenStartEnd = (today, weekToCompare, startDate, endDate) => {
   return startDateComplies && endDateComplies && !inFuture;
 };
 
+const weekIsSameAs = (today, weekToCompare, dateToCheck) => {
+  const todayYear = today.getFullYear();
+  const dateToCheckYear = dateToCheck.getFullYear();
+  const dateComplies = weekToCompare === getISOWeek(dateToCheck) ;
+  const inFuture = todayYear < dateToCheckYear;
+  return dateComplies && !inFuture;
+};
+
 const monthIsBetweenStartEnd = (day, startDate, endDate) => {
   const monthToCompare = day.getMonth();
   const todayYear = day.getFullYear();
@@ -34,6 +42,25 @@ const monthIsBetweenStartEnd = (day, startDate, endDate) => {
   const endDateComplies = monthToCompare <= endDate.getMonth() || endDateYear > todayYear;
   const inFuture = todayYear < startDateYear && todayYear < endDateYear;
   return startDateComplies && endDateComplies && !inFuture;
+};
+
+
+const monthIsSameAs = (day, dateString) => {
+  const monthToCompare = day.getMonth();
+  const todayYear = day.getFullYear();
+  const dateToCheckYear = dateString.getFullYear();
+
+  const startDateComplies = monthToCompare >= dateString.getMonth() || dateToCheckYear < todayYear;
+  const inFuture = todayYear < dateToCheckYear;
+  return startDateComplies && !inFuture;
+};
+
+const dateIsInWeek = (dateString, addWeeks) => {
+  const dateToCheck = new Date(dateString.trim());
+  const today = new Date();
+  const todayWeek = getISOWeek(today);
+  const weekToCompare =  addWeeks ? todayWeek + addWeeks : todayWeek;
+  return weekIsSameAs(today, weekToCompare, dateToCheck);
 };
 
 const isInWeek = (startDateString, endDateString, addWeeks) => {
@@ -66,6 +93,21 @@ export function isInThisMonth(startDateString, endDateString) {
   const endDate = new Date(endDateString);
 
   return monthIsBetweenStartEnd(new Date(), startDate, endDate);
+}
+
+export function dateFallsInThisWeek(dateString) {
+  const isIt = dateIsInWeek(dateString);
+  return isIt;
+}
+
+export function dateFallsInNextWeek(dateString) {
+  return dateIsInWeek(dateString, 1);
+}
+
+export function dateFallsThisMonth(dateString) {
+  const dateToCheck = new Date(dateString);
+
+  return monthIsSameAs(new Date(), dateToCheck);
 }
 
 export function finishesSoon(dateString) {

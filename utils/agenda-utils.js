@@ -58,7 +58,6 @@ export const isLiked = (id) => {
         if(!ISSERVER) {
             const item = localStorage.getItem(LIKES_LS);
             const existingLikes = item !== null ? JSON.parse(item) : [];
-            console.log("is liked ", id, !!(existingLikes && existingLikes.find(l => l === id)))
             return !!(existingLikes && existingLikes.find(l => l === id));
         }
         return false;
