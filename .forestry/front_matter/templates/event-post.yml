@@ -91,6 +91,24 @@ fields:
       section: theatres
   label: Theatres
   description: Theatres locations
+- name: nicosia_dates
+  type: field_group_list
+  fields:
+  - name: nicosia_date
+    type: datetime
+    label: nicosia date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: "[TEST] Nicosia dates"
+  description: A list of dates in Nicosia
 pages:
 - events/5-lesbians-eating-a-quiche.md
 - events/Foteini.md
