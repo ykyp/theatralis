@@ -97,7 +97,7 @@ fields:
   - name: nicosia_date
     type: datetime
     label: nicosia date
-    description: ''
+    description: Nicosia date
     config:
       required: false
       date_format: YYYY-MM-DD
