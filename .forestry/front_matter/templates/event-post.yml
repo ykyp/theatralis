@@ -100,8 +100,52 @@ fields:
     schema:
       format: markdown
   label: Nicosia Dates
-  description: Input dates on this format YYYY-MM-DD separated by comma. Example:<br>2022-10-08,
-    2022-10-09
+  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
+- name: limassol_dates
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Limassol Dates
+  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
+- name: larnaca_dates
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Larnaca Dates
+  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
+- name: famagusta_dates
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Famagusta Dates
+  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
+- name: paphos_dates
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Paphos Dates
+  description: Input dates on this format <strong>YYYY-MM-DD </strong>separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
 pages:
 - events/5-lesbians-eating-a-quiche.md
 - events/Foteini.md
