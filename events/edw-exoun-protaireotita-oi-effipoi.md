@@ -20,6 +20,11 @@ theatres:
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
+nicosia_dates: '2022-10-14'
+limassol_dates: '2022-10-15'
+larnaca_dates: ''
+famagusta_dates: ''
+paphos_dates: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
