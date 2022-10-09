@@ -3,7 +3,6 @@ import {ISSERVER} from "../components/session-storage-state";
 const LIKES_LS = 'th.likes';
 
 export const addToLikes = (id) => {
-    console.log("add to likes");
     try {
         if(!ISSERVER) {
             const item = localStorage.getItem(LIKES_LS);

@@ -25,9 +25,12 @@ const weekIsBetweenStartEnd = (today, weekToCompare, startDate, endDate) => {
 };
 
 const weekIsSameAs = (today, weekToCompare, dateToCheck) => {
+  console.log("event date ", dateToCheck);
   const todayYear = today.getFullYear();
   const dateToCheckYear = dateToCheck.getFullYear();
+  console.log("event week ", getISOWeek(dateToCheck));
   const dateComplies = weekToCompare === getISOWeek(dateToCheck) ;
+  console.log("dateComplies", dateComplies);
   const inFuture = todayYear < dateToCheckYear;
   return dateComplies && !inFuture;
 };
@@ -59,7 +62,9 @@ const dateIsInWeek = (dateString, addWeeks) => {
   const dateToCheck = new Date(dateString.trim());
   const today = new Date();
   const todayWeek = getISOWeek(today);
+  console.log("today's week ", todayWeek);
   const weekToCompare =  addWeeks ? todayWeek + addWeeks : todayWeek;
+  console.log("week to compare", weekToCompare);
   return weekIsSameAs(today, weekToCompare, dateToCheck);
 };
 
@@ -101,6 +106,7 @@ export function dateFallsInThisWeek(dateString) {
 }
 
 export function dateFallsInNextWeek(dateString) {
+  console.log("dateFallsInNextWeek", dateString);
   return dateIsInWeek(dateString, 1);
 }
 
