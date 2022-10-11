@@ -28,7 +28,8 @@ critic_title: ''
 critic_p: ''
 theatres:
 - theatres/theatro_dentro.md
-nicosia_dates: ''
+nicosia_dates: 2022-10-09, 2022-10-16, 2022-10-23, 2022-10-30, 2022-11-06, 2022-11-13,
+  2022-11-20, 2022-11-27, 2022-12-04, 2022-12-11
 limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
