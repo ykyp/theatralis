@@ -16,6 +16,11 @@ theatres:
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
+nicosia_dates: 2022-11-25, 2022-11-26, 2022-11-27, 2022-12-02, 2022-12-03, 2022-12-04
+limassol_dates: ''
+larnaca_dates: ''
+famagusta_dates: ''
+paphos_dates: ''
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
