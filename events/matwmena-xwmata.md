@@ -13,7 +13,7 @@ critic_title: ''
 critic_p: ''
 theatres:
 - theatres/dimotiko-theatro-strovolou.md
-nicosia_dates: ''
+nicosia_dates: 2022-10-29, 2022-10-30
 limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
