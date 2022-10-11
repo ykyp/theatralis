@@ -3,7 +3,6 @@ import {ISSERVER} from "../components/session-storage-state";
 const LIKES_LS = 'th.likes';
 
 export const addToLikes = (id) => {
-    console.log("add to likes");
     try {
         if(!ISSERVER) {
             const item = localStorage.getItem(LIKES_LS);
@@ -58,7 +57,6 @@ export const isLiked = (id) => {
         if(!ISSERVER) {
             const item = localStorage.getItem(LIKES_LS);
             const existingLikes = item !== null ? JSON.parse(item) : [];
-            console.log("is liked ", id, !!(existingLikes && existingLikes.find(l => l === id)))
             return !!(existingLikes && existingLikes.find(l => l === id));
         }
         return false;
