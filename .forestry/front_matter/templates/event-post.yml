@@ -24,6 +24,61 @@ fields:
     export_format: YYYY-MM-DD
     required: true
   description: "<strong>When the theatre event ends</strong>"
+- name: nicosia_dates
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Nicosia Dates
+  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
+- name: limassol_dates
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Limassol Dates
+  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
+- name: larnaca_dates
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Larnaca Dates
+  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
+- name: famagusta_dates
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Famagusta Dates
+  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
+- name: paphos_dates
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Paphos Dates
+  description: Input dates on this format <strong>YYYY-MM-DD </strong>separated by
+    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
 - type: text
   name: city
   label: 'City '
@@ -91,61 +146,6 @@ fields:
       section: theatres
   label: Theatres
   description: Theatres locations
-- name: nicosia_dates
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Nicosia Dates
-  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
-    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
-- name: limassol_dates
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Limassol Dates
-  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
-    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
-- name: larnaca_dates
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Larnaca Dates
-  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
-    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
-- name: famagusta_dates
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Famagusta Dates
-  description: Input dates on this format <strong>YYYY-MM-DD</strong> separated by
-    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
-- name: paphos_dates
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Paphos Dates
-  description: Input dates on this format <strong>YYYY-MM-DD </strong>separated by
-    comma. Example:<br><strong><em>2022-10-08, 2022-10-09</em></strong>
 pages:
 - events/5-lesbians-eating-a-quiche.md
 - events/Foteini.md
@@ -161,13 +161,16 @@ pages:
 - events/epeigon-email-apo-ton-kyrio-tsexof.md
 - events/gynaikes-tou-lorka.md
 - events/h-megali-plektani.md
+- events/h-panayia-twn-parisiwn.md
 - events/istoria-enos-aixmalotou.md
 - events/logistikos-elegxos.md
 - events/lysistrati.md
 - events/makrykwstaioi_kai_kontogiorgides.md
+- events/matwmena-xwmata.md
 - events/me-ti-siopi.md
 - events/meta-ti-vroxi.md
 - events/mideia-mpost.md
+- events/min-pyrovoleite-ton-xartaeto.md
 - events/niaou-niaou-sta-keramidia.md
 - events/ntefol-smyrni-1922.md
 - events/o-gios.md
@@ -189,6 +192,7 @@ pages:
 - events/ta-tertipia-tis-karkias-festival-dimou-aglantzias.md
 - events/ta-tessera-podia-tou-trapeziou.md
 - events/tetradymoi.md
+- events/thiseas-kai-ariadni.md
 - events/tipota-diko-mou.md
 - events/to-minore-diethnes-festival-kipria.md
 - events/to-thaumasto-taxidi-tou-skiaxtrou.md

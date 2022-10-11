@@ -16,6 +16,11 @@ theatres:
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
+nicosia_dates: 2022-10-15, 2022-10-16
+limassol_dates: ''
+larnaca_dates: ''
+famagusta_dates: ''
+paphos_dates: ''
 
 ---
 Η ομάδα Teharin Entertainment and Productions διοργανώνει το OFFSTAGE Festival στις 15 και 16 Οκτωβρίου στο Θέατρο Flea στη Λευκωσία. Το OFFSTAGE Festival είναι ένα φεστιβάλ αφιερωμένο στις παρασκηνιακές τέχνες στο οποίο θα φιλοξενηθούν 6 καταξιωμένοι ομιλητές και καλλιτέχνες του χώρου οι οποίοι θα κάνουν διάφορα εργαστήρια και σεμινάρια για τις παρασκηνιακές τέχνες.
