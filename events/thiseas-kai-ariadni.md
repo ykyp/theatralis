@@ -3,7 +3,7 @@ title: θησεας και αριαδνη
 startDate: 2022-10-22
 endDate: 2022-10-30
 city: Nicosia, Limassol
-event_image: "/images/uploads/thiseas-kai-ariadni_1.jpg"
+event_image: "/images/uploads/thiseas-ariadni.jpg"
 cover_image: ''
 gallery_images:
 - "/images/uploads/thiseas-kai-ariadni_10.jpg"
@@ -23,8 +23,8 @@ critic_p: ''
 theatres:
 - theatres/patticheio-dimotiko-theatro-lemesos.md
 - theatres/dimotiko-theatro-leukosias.md
-nicosia_dates: ''
-limassol_dates: ''
+nicosia_dates: 2022-10-22, 2022-10-23
+limassol_dates: 2022-10-29, 2022-10-30
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
