@@ -13,7 +13,8 @@ critic_title: ''
 critic_p: ''
 theatres:
 - theatres/theatro-maskarini.md
-nicosia_dates: ''
+nicosia_dates: 2022-10-12, 2022-10-15, 2022-10-16, 2022-10-22, 2022-10-23, 2022-10-29,
+  2022-10-30, 202-11-05, 2022-11-06, 2022-11-12, 2022-11-13
 limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
