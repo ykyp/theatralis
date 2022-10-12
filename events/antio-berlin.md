@@ -3,9 +3,11 @@ title: αντιο berlin
 startDate: 2022-10-21
 endDate: 2022-12-04
 city: Nicosia
-event_image: ''
+event_image: "/images/uploads/antio-berlin_2.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/antio-berlin_3.jpg"
+- "/images/uploads/antio-berlin.jpg"
 category: Musical
 extended: false
 critic_link: ''
