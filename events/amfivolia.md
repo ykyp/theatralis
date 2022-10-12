@@ -2,16 +2,24 @@
 title: ΑΜΦΙΒΟΛΙΑ
 startDate: 2022-11-04
 endDate: 2022-12-31
-city: Nicosia
-event_image: "/images/uploads/85.JPG"
+city: Nicosia, Pafos, Larnaca, Limassol
+event_image: "/images/uploads/amfivolia_4.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/amfivolia_6.JPG"
+- "/images/uploads/amfivolia_5.jpg"
+- "/images/uploads/amfivolia_3.jpg"
+- "/images/uploads/amfivolia_2.jpg"
+- "/images/uploads/amfivolia_1.JPG"
 category: Drama
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/rialto.md
+- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
+- theatres/markidio-theatro.md
 - theatres/thoc.md
 gallery_1: ''
 gallery_2: ''
@@ -72,7 +80,7 @@ paphos_dates: ''
 
 **_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** Μαρκίδειο Θέατρο
+**_Τοποθεσία:_** [Μαρκίδειο Θέατρο](?#map)
 
 ***
 
@@ -82,7 +90,7 @@ paphos_dates: ''
 
 **_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** Δημοτικό Θέατρο «Γεώργιος Λυκούργος»
+**_Τοποθεσία:_** [Δημοτικό Θέατρο «Γεώργιος Λυκούργος»](?#map)
 
 ***
 
@@ -94,7 +102,7 @@ paphos_dates: ''
 
 **_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** Θέατρο Ριάλτο
+**_Τοποθεσία:_** [Θέατρο Ριάλτο](?#map)
 
 ***
 
@@ -102,4 +110,8 @@ paphos_dates: ''
 
 **_Τιμές:_** €12 / €6 (άνεργοι, συνταξιούχοι, πολύτεκνοι με την επίδειξη του αντίστοιχου αποδεικτικού εγγράφου και άτομα κάτω των 25 ετών με την επίδειξη πολιτικής ταυτότητας)
 
-**_Προπώληση / Κρατήσεις:_** Απο την ιστοσελίδα του [ΘΟΚ ](https://www.thoc.org.cy/ "ΘΟΚ")και τηλεφωνικα στο 77772717
+**_Προπώληση / Κρατήσεις:_** 
+
+Για Λευκωσία - Απο την ιστοσελίδα του [ΘΟΚ ](https://www.thoc.org.cy/ "ΘΟΚ")και τηλεφωνικα στο 77772717
+
+Για Λεμεσό - Απο την ιστοσελίδα του [ΡΙΑΛΤΟ ](https://www.rialto.com.cy/)και τηλεφωνικά στο 77777745
