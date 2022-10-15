@@ -11,7 +11,7 @@ city: Nicosia
 event_image: "/images/uploads/myriam.jpeg"
 cover_image: ''
 gallery_images: []
-category: Drama
+category: ''
 extended: false
 critic_link: ''
 critic_title: ''
