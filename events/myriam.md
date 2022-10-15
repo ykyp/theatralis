@@ -11,7 +11,7 @@ city: Nicosia
 event_image: "/images/uploads/myriam.jpeg"
 cover_image: ''
 gallery_images: []
-category: Amateur, Drama
+category: Drama
 extended: false
 critic_link: ''
 critic_title: ''
