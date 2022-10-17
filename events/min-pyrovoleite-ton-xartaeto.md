@@ -2,7 +2,7 @@
 title: Μην πυροβολειτε τον χαρταετο
 startDate: 2022-10-12
 endDate: 2022-11-13
-city: Nicosia
+city: Nicosia, Larnaca
 event_image: "/images/uploads/min-pyrovoleite_4.JPG"
 cover_image: ''
 gallery_images: []
@@ -12,11 +12,12 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/theatro-skala.md
 - theatres/theatro-maskarini.md
 nicosia_dates: 2022-10-12, 2022-10-15, 2022-10-16, 2022-10-22, 2022-10-23, 2022-10-29,
   2022-10-30, 202-11-05, 2022-11-06, 2022-11-12, 2022-11-13
 limassol_dates: ''
-larnaca_dates: ''
+larnaca_dates: '2022-10-19'
 famagusta_dates: ''
 paphos_dates: ''
 
@@ -62,6 +63,16 @@ paphos_dates: ''
 **_Ώρα έναρξης:_** Σάββατο στις 20:00 | Κυριακή στις 19:00
 
 **_Τοποθεσία:_** [Θέατρο ΜΑΣΚΑΡΙΝΙ](?#map)
+
+***
+
+**ΛΑΡΝΑΚΑ**
+
+**_Ημερομηνία:_** Τετάρτη 19 Οκτωβρίου 2022
+
+**_Ώρα έναρξης:_** 20:30
+
+**_Τοποθεσία:_** [Θέατρο Σκάλα](?#map)
 
 **_Διάρκεια:_** 75 λεπτά
 
