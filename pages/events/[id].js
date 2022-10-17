@@ -177,11 +177,11 @@ export default function Event({ eventData: eventData }) {
 
                 <div className="event-details flex items-center mt-2 mb-4">
                   <img className="h-5 no-margins xs:h-5 mr-3"
-                       src={!likeState? "/images/add-agenda.png": "/images/mask-added.png"}
+                       src={!likeState? "/images/remove-agenda.png": "/images/mask-added.png"}
                        alt="Added to your agenda"/>
                   {/*<i className="pi pi-comments th-icon "></i>*/}
                   <div className="th-icon-text ml-2">
-                    <a className={"font-normal cursor-pointer"} onClick={() => likeState ? handleRemoveLike() : handleAddLike()}>
+                    <a className={"font-normal cursor-pointer brand-red"} onClick={() => likeState ? handleRemoveLike() : handleAddLike()}>
                       {likeState ? t("added-to-agenda") : t("add-to-agenda")}
                     </a></div>
                 </div>
