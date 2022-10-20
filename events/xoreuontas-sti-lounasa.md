@@ -1,7 +1,7 @@
 ---
 title: ΧΟΡΕΥΟΝΤΑΣ ΣΤΗ ΛΟΥΝΑΣΑ
 startDate: 2022-09-30
-endDate: 2022-10-19
+endDate: 2022-10-20
 city: Nicosia
 event_image: "/images/uploads/_1.jpg"
 cover_image: ''
