@@ -11,7 +11,13 @@ paphos_dates: ''
 city: Nicosia
 event_image: "/images/uploads/a3-dig.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/to-magemeno-dentro_6.jpg"
+- "/images/uploads/to-magemeno-dentro_5.jpg"
+- "/images/uploads/to-magemeno-dentro_4.jpg"
+- "/images/uploads/to-magemeno-dentro_3.jpg"
+- "/images/uploads/to-magemeno-dentro_2.jpg"
+- "/images/uploads/to-magemeno-dentro_1.jpg"
 category: Children
 extended: false
 critic_link: ''
