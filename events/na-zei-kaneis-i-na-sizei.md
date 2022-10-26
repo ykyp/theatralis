@@ -9,9 +9,12 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Limassol
-event_image: ''
+event_image: "/images/uploads/na-zei-kaneis-i-na-syzei.jpeg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/na-zei-kaneis-i-na-syzei_3.jpeg"
+- "/images/uploads/na-zei-kaneis-i-na-syzei_2.jpeg"
+- "/images/uploads/na-zei-kaneis-i-na-syzei_1.jpeg"
 category: Comedy
 extended: false
 critic_link: ''
@@ -44,7 +47,7 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Πρεμίερα:_** Τρίτη 1 Νοεμβρίου 
+**_Πρεμίερα:_** Τρίτη 1 Νοεμβρίου
 
 **_Παραστάσεις:_** 2, 4, 6, 8, 9, 10, 11 & 13 Νοεμβρίου 2022
 
@@ -58,6 +61,6 @@ theatres:
 
 **_Τιμή:_** €15 / €12
 
-**_Προπώληση:_** Απο την ιστοσελίδα της Tickethour και στα καταστήματα ACS courier.
+**_Προπώληση:_** Απο την ιστοσελίδα της [Tickethour ](https://shop.tickethour.com/ticketmaster_se_4014.html)και στα καταστήματα ACS courier.
 
 **_Πληροφορίες:_** Στο τηλέφωνο 99395970 (12:00 π.μ. - 20:00 μ.μ. Δευτέρα - Παρασκευή) ή μέσω προσωπικού μηνύματος στη σελίδα μας.
