@@ -6,11 +6,15 @@ city: Nicosia, Pafos, Larnaca, Limassol
 event_image: "/images/uploads/amfivolia_4.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/amfivolia_6.JPG"
-- "/images/uploads/amfivolia_5.jpg"
-- "/images/uploads/amfivolia_3.jpg"
-- "/images/uploads/amfivolia_2.jpg"
-- "/images/uploads/amfivolia_1.JPG"
+- "/images/uploads/amfivolia_15.JPG"
+- "/images/uploads/amfivolia_14.JPG"
+- "/images/uploads/amfivolia_13.JPG"
+- "/images/uploads/amfivolia_12.JPG"
+- "/images/uploads/amfivolia_11.JPG"
+- "/images/uploads/amfivolia_10.JPG"
+- "/images/uploads/amfivolia_9.JPG"
+- "/images/uploads/amfivolia_8.JPG"
+- "/images/uploads/amfivolia_7.JPG"
 category: Drama
 extended: false
 critic_link: ''
