@@ -6,9 +6,21 @@ city: Nicosia, Larnaca, Pafos, Limassol
 event_image: "/images/uploads/o-gios_the-poster.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/o-gios_3.jpg"
-- "/images/uploads/o-gios_2.jpg"
-- "/images/uploads/o-gios_1.jpg"
+- "/images/uploads/o-gios_18.jpg"
+- "/images/uploads/o-gios_17.jpg"
+- "/images/uploads/o-gios_16.jpg"
+- "/images/uploads/o-gios_15.jpg"
+- "/images/uploads/o-gios_14.jpg"
+- "/images/uploads/o-gios_13.jpg"
+- "/images/uploads/o-gios_12.jpg"
+- "/images/uploads/o-gios_11.jpg"
+- "/images/uploads/o-gios_10.jpg"
+- "/images/uploads/o-gios_9.jpg"
+- "/images/uploads/o-gios_8.jpg"
+- "/images/uploads/o-gios_7.jpg"
+- "/images/uploads/o-gios_6.jpg"
+- "/images/uploads/o-gios_5.jpg"
+- "/images/uploads/o-gios_4.jpg"
 category: Drama
 extended: false
 critic_link: ''
