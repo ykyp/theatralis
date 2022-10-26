@@ -64,4 +64,4 @@ paphos_dates: ''
 
 **_Τιμή:_** €12 (προπώληση) / €15 (στην είσοδο)
 
-**_Προπώληση:_** Απο την ιστοσελίδα της [Motion Comedy](https://www.motioncomedy.com/paris-roupos-giannis-roussos "Motion Comedy")
+**_Προπώληση:_** Απο την ιστοσελίδα της [Tickethour ](https://shop.tickethour.com/ticketmaster_se_4018.html)και τα καταστήματα ACS courier παγκύπρια
