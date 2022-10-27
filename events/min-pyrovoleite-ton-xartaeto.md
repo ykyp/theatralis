@@ -2,7 +2,7 @@
 title: Μην πυροβολειτε τον χαρταετο
 startDate: 2022-10-12
 endDate: 2022-11-13
-city: Nicosia, Pafos, Limassol
+city: Nicosia, Pafos, Limassol, Famagusta
 event_image: "/images/uploads/min-pyrovoleite_4.JPG"
 cover_image: ''
 gallery_images: []
@@ -18,7 +18,7 @@ nicosia_dates: 2022-10-12, 2022-10-15, 2022-10-16, 2022-10-22, 2022-10-23, 2022-
   2022-10-30, 202-11-05, 2022-11-06, 2022-11-12, 2022-11-13, 2022-11-23
 limassol_dates: '2022-11-09'
 larnaca_dates: ''
-famagusta_dates: ''
+famagusta_dates: '2022-11-24'
 paphos_dates: '2022-11-03'
 
 ---
@@ -87,6 +87,16 @@ paphos_dates: '2022-11-03'
 **_Ώρα έναρξης:_** 20:30
 
 **_Τοποθεσία:_** Λανίτειο Γυμνάσιο
+
+***
+
+**ΑΜΜΟΧΩΣΤΟΣ**
+
+**_Ημερομηνία:_** Πέμπτη 24 Νοεμβρίου 2022
+
+**_Ώρα έναρξης:_** 20:00
+
+**_Τοποθεσία:_** Δημοτικό Θέατρο Αγίας Νάπας
 
 **_Διάρκεια:_** 75 λεπτά
 
