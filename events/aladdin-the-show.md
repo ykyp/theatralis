@@ -9,8 +9,9 @@ famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Limassol
 event_image: "/images/uploads/a4-aladdin-the-show.jpg"
-cover_image: "/images/uploads/aladin_7.jpg"
+cover_image: ''
 gallery_images:
+- "/images/uploads/aladin_7.jpg"
 - "/images/uploads/aladin_6.jpg"
 - "/images/uploads/aladin_5.jpg"
 - "/images/uploads/aladin_4.jpg"
@@ -87,4 +88,4 @@ H Kolossaion Productions μετά τις μεγάλες επιτυχίες «Μ�
 
 **_Τιμή:_** €15 (Ζώνη Α) | €12 (Ζώνη Β)
 
-**_Προπώληση:_** Απο την ιστοσελίδα της [Soldout](https://www.soldoutticketbox.com/aladdin-the-show-nov-2022/)
+**_Προπώληση:_** Απο την ιστοσελίδα της [Soldout](https://www.soldoutticketbox.com/aladdin-the-show-nov-2022/) και σε όλα τα καταστήματα Stephanis παγκύπρια
