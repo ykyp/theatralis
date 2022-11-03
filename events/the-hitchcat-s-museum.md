@@ -9,8 +9,8 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia
-event_image: ''
-cover_image: ''
+event_image: "/images/uploads/hitchcat-s-museum_1.jpg"
+cover_image: "/images/uploads/hitchcat-s-museum_2.jpg"
 gallery_images: []
 category: Children
 extended: false
@@ -58,6 +58,10 @@ O κορυφαίος συγγραφέας και εκπρόσωπος της φ�
 **_Ώρα έναρξης:_** 17:00
 
 **_Τοποθεσία:_** [Υπόγειο Σατιρικού Θεάτρου](?#map)
+
+**_Διάρκεια:_** 65 λεπτά
+
+**_Ηλικίες:_** Κατάλληλο για άνω των 5 ετών
 
 ***
 
