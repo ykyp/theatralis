@@ -9,9 +9,11 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Limassol
-event_image: ''
+event_image: "/images/uploads/oi-ntantades.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/oi-ntantades_2.jpg"
+- "/images/uploads/oi-ntantades_1.jpg"
 category: Drama, Comedy
 extended: false
 critic_link: ''
