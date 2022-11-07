@@ -56,4 +56,4 @@ theatres:
 
 **_Τιμή:_** €15 (στην είσοδο) | €12 (προπώληση)
 
-**_Προπώληση:_** Απο την ιστοσελίδα της Tickethour και στα ACS Courier παγκύπρια
+**_Προπώληση:_** Απο την ιστοσελίδα της [Tickethour ](https://shop.tickethour.com/ticketmaster_se_4041.html)και στα ACS Courier παγκύπρια
