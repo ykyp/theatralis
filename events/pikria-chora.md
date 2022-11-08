@@ -1,7 +1,7 @@
 ---
 title: ΠΙΚΡΙΑ ΧΩΡΑ
-startDate: 2022-10-07
-endDate: 2022-10-30
+startDate: 2022-11-13
+endDate: 2022-11-13
 city: Nicosia
 event_image: "/images/uploads/pikria-chora.jpg"
 cover_image: "/images/uploads/pikria-chora_2.JPG"
@@ -19,8 +19,7 @@ theatres:
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
-nicosia_dates: 2022-10-07, 2022-10-08, 2022-10-09, 2022-10-14, 2022-10-15, 2022-10-16,
-  2022-10-21, 2022-10-22, 2022-10-23, 2022-10-28, 2022-10-29, 2022-10-30
+nicosia_dates: '2022-11-13'
 limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
@@ -57,9 +56,7 @@ paphos_dates: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Πρεμιέρα:_** Παρασκευή 7 Οκτωβρίου 2022 στις 20:00
-
-**_Τακτικές παραστάσεις:_** Κάθε Παρασκευή, Σάββατο και Κυριακή μέχρι τις 30 Οκτωβρίου
+**_Ημερομηνία:_** Κυριακή 13 Νοεμβρίου 2022
 
 **_Ώρα έναρξης:_** 20:00
 
