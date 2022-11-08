@@ -8,7 +8,7 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Limassol
-event_image: ''
+event_image: "/images/uploads/fountoulis-spiliopoulos.jpg"
 cover_image: "/images/uploads/double-impact.jpg"
 gallery_images: []
 category: Standup
