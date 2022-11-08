@@ -1,7 +1,7 @@
 ---
 title: απο που ηρθα μαμα
 startDate: 2022-10-08
-endDate: 2022-11-11
+endDate: 2022-11-06
 city: Larnaca, Nicosia
 event_image: "/images/uploads/apo-pou-irtha-mama.jpg"
 cover_image: ''
