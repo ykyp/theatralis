@@ -10,7 +10,7 @@ famagusta_dates: ''
 paphos_dates: '2022-12-10'
 city: Nicosia, Pafos, Limassol
 event_image: "/images/uploads/scrooge-a3-1.jpg"
-cover_image: ''
+cover_image: "/images/uploads/skroutz.jpg"
 gallery_images: []
 category: Children
 extended: false
@@ -54,7 +54,7 @@ theatres:
 
 Δευτέρα 26 Δεκεμβρίου στις 18:00
 
-**_Τοποθεσία:_** Θέατρο Μασκαρίνι
+**_Τοποθεσία:_** [Θέατρο Μασκαρίνι](?#map)
 
 ***
 
@@ -84,4 +84,4 @@ theatres:
 
 **_Τιμή:_** €15 (κανονικό) | €10 (μειωμένο - για άτομα κάτω των 12 ετών)
 
-**_Τηλέφωνο κρατήσεων | Πληροφορίες:_** Στο τηλέφωνο 94 409100
+**_Τηλέφωνο κρατήσεων | Πληροφορίες:_** Στο τηλέφωνο 94409100
