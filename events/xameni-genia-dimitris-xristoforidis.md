@@ -17,6 +17,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/cine-studio.md
 - theatres/ravens-music-hall.md
 
 ---
@@ -52,7 +53,7 @@ theatres:
 
 **_Ώρα έναρξης:_** 21:00
 
-**_Τοποθεσία:_** Cine Studio
+**_Τοποθεσία:_** [Cine Studio](?#map)
 
 ***
 
