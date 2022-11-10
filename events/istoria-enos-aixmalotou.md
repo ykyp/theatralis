@@ -1,7 +1,7 @@
 ---
 title: ιστορια ενος αιχμαλωτου
 startDate: 2022-10-19
-endDate: 2022-11-13
+endDate: 2022-11-14
 city: Nicosia
 event_image: "/images/uploads/istoria-enos-aixmalwtou_1.jpg"
 cover_image: ''
