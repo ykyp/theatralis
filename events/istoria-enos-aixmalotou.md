@@ -3,9 +3,11 @@ title: ιστορια ενος αιχμαλωτου
 startDate: 2022-10-19
 endDate: 2022-11-13
 city: Nicosia
-event_image: ''
+event_image: "/images/uploads/istoria-enos-aixmalwtou_1.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/istoria-enos-aixmalwtou_3.jpg"
+- "/images/uploads/istoria-enos-aixmalwtou_2.jpg"
 category: Drama, Novel
 extended: false
 critic_link: ''
@@ -52,7 +54,7 @@ paphos_dates: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Ημερομηνίες:_** Πρεμιέρα 19 Οκτωβρίου και τακτικές παραστάσεις κάθε Δευτέρα, Τετάρτη & Κυριακή (εκτός Κυριακής 23 Οκτωβρίου)
+**_Ημερομηνίες:_** Πρεμιέρα 19 Οκτωβρίου και τακτικές παραστάσεις κάθε Δευτέρα, Τετάρτη & Κυριακή (εκτός Κυριακής 23 Οκτωβρίου) μέχρι 14 Νοεμβρίου
 
 **_Ώρα έναρξης:_** 20:30 | Κυριακή στις 19:00
 
