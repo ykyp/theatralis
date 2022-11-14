@@ -1,17 +1,22 @@
 ---
 title: ΜΕΤΑ ΤΗ ΒΡΟΧΗ
 startDate: 2022-10-14
-endDate: 2022-11-30
-city: Nicosia
-event_image: "/images/uploads/meta-ti-vroxi.JPG"
+endDate: 2022-11-20
+city: Nicosia, Limassol
+event_image: "/images/uploads/meta-ti-vroxi_3.JPG"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/meta-ti-vroxi_5.JPG"
+- "/images/uploads/meta-ti-vroxi_4.JPG"
+- "/images/uploads/meta-ti-vroxi_2.JPG"
+- "/images/uploads/meta-ti-vroxi_1.JPG"
 category: Comedy
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/rialto.md
 - theatres/theatro-dionysos.md
 gallery_1: ''
 gallery_2: ''
@@ -19,9 +24,8 @@ gallery_3: ''
 nicosia_dates: 2022-10-14, 2022-10-15, 2022-10-16, 2022-10-19, 2022-10-21, 2022-10-22,
   2022-10-23, 2022-10-26, 2022-10-28, 2022-10-29, 2022-10-30, 2022-11-02, 2022-11-04,
   2022-11-05, 2022-11-06, 2022-11-09, 2022-11-11, 2022-11-12, 2022-11-13, 2022-11-16,
-  2022-11-18, 2022-11-19, 2022-11-20, 2022-11-23, 2022-11-25, 2022-11-26, 2022-11-27,
-  2022-11-30
-limassol_dates: ''
+  2022-11-18, 2022-11-19, 2022-11-20
+limassol_dates: 2022-12-01, 2022-12-02
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
@@ -54,13 +58,25 @@ paphos_dates: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
+**ΛΕΥΚΩΣΙΑ**
+
 **_Πρεμιέρα:_** Παρασκευή 14 Οκτωβρίου 2022 | Θέατρο Διόνυσος | 20.30
 
-**_Τακτικές παραστάσεις:_** Κάθε Τετάρτη, Παρασκευή, Σάββατο & Κυριακή μέχρι τέλος Νοεμβρίου
+**_Τακτικές παραστάσεις:_** Κάθε Τετάρτη, Παρασκευή, Σάββατο & Κυριακή μέχρι 20 Νοεμβρίου
 
 **_Ώρα έναρξης:_** 20:30 | Κυριακή στις 18:30
 
 **_Τοποθεσία:_** [Θέατρο Διόνυσος](?#map)
+
+***
+
+**ΛΕΜΕΣΟΣ**
+
+**_Ημερομηνίες:_** Πέμπτη 1 Δεκεμβρίου | Παρασκευή 2 Δεκεμβρίου
+
+**_Ώρα έναρξης:_** 20:30 
+
+**_Τοποθεσία:_** [Θέατρο ΡΙΑΛΤΟ](?#map)
 
 ***
 
