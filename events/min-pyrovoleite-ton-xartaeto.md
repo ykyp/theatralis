@@ -1,7 +1,7 @@
 ---
 title: Μην πυροβολειτε τον χαρταετο
 startDate: 2022-10-12
-endDate: 2022-11-13
+endDate: 2022-11-24
 city: Nicosia, Pafos, Limassol, Famagusta
 event_image: "/images/uploads/min-pyrovoleite_4.JPG"
 cover_image: ''
