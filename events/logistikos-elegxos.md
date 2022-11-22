@@ -3,9 +3,10 @@ title: ΛΟΓΙΣΤΙΚΟΣ ΕΛΕΓΧΟΣ
 startDate: 2022-12-03
 endDate: 2022-12-20
 city: Nicosia
-event_image: ''
+event_image: "/images/uploads/logistikos-elegxos_2.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/logistikos-elegxos_1.jpg"
 category: Drama, Comedy
 extended: false
 critic_link: ''
