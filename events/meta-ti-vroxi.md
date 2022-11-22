@@ -1,7 +1,7 @@
 ---
 title: ΜΕΤΑ ΤΗ ΒΡΟΧΗ
 startDate: 2022-10-14
-endDate: 2022-11-20
+endDate: 2022-12-02
 city: Nicosia, Limassol
 event_image: "/images/uploads/meta-ti-vroxi_3.JPG"
 cover_image: ''
