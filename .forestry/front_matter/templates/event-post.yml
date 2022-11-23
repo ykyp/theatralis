@@ -148,7 +148,6 @@ fields:
   description: Theatres locations
 pages:
 - events/1984.md
-- events/4-4.md
 - events/5-lesbians-eating-a-quiche.md
 - events/Foteini.md
 - events/ILEKTRA.md
@@ -179,6 +178,7 @@ pages:
 - events/istoria-enos-aixmalotou.md
 - events/istories-apo-ti-spilia.md
 - events/koutaki-xwtikaki.md
+- events/kwdikos-kompania.md
 - events/lisasmeni-gata.md
 - events/logistikos-elegxos.md
 - events/lysistrati.md
