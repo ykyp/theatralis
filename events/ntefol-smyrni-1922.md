@@ -1,8 +1,8 @@
 ---
 title: ΝΤΕΦΟΛ – Σμυρνη 1922
-startDate: 2022-09-09
-endDate: 2022-10-31
-city: Nicosia, Limassol
+startDate: 2022-12-13
+endDate: 2022-12-13
+city: Pafos
 event_image: "/images/uploads/ntefol_1.jpg"
 cover_image: ''
 gallery_images:
@@ -14,18 +14,15 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro-ena-limassol_theatro_versus.md
-- theatres/amfitheatro-idaliou.md
-- theatres/theatro-ena-nicosia.md
+- theatres/markidio-theatro.md
 gallery_1: ''
 gallery_2: ''
 gallery_3: ''
-nicosia_dates: 2022-09-09, 2022-09-10, 2022-09-11, 2022-09-16, 2022-09-18, 2022-09-25,
-  2022-10-07, 2022,10-12, 2022-10-13, 2022-10-19, 2022-10-20, 2022-10-26, 2022-10-27
-limassol_dates: '2022-09-23'
+nicosia_dates: ''
+limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
-paphos_dates: ''
+paphos_dates: '2022-12-13'
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -50,21 +47,9 @@ paphos_dates: ''
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**ΛΕΥΚΩΣΙΑ**
+**_Ημερομηνία | Τοποθεσία | Ώρα έναρξης:_**
 
-**_Ημερομηνίες / Τοποθεσία / Ώρα έναρξης:_**
-
-9, 10, 11 Σεπτεμβρίου / Αρχοντικό Αξιοθέα / 20:30
-
-16, 18, 25 Σεπτεμβρίου / [Θέατρο Ένα Λευκωσία](?#map) / 20:30
-
-7 Οκτωβρίου / [Αμφιθέατρο Ιδαλίου](?#map) / 20:30
-
-Απο τον Οκτώβριο κάθε Τετάρτη και Πέμπτη / [Θέατρο Ένα Λευκωσία](?#map) / 20:30
-
-**ΛΕΜΕΣΟΣ**
-
-23 Σεπτεμβρίου / [Θέατρο Ένα Λεμεσός](?#map) / 20:30 (είσοδος ελεύθερη)
+Τριτη 13 Δεκεμβίου | [Μαρκίδειο Θέατρο](?#map) | 20:00
 
 ***
 
@@ -72,4 +57,4 @@ paphos_dates: ''
 
 **_Τιμές:_** €15 / €10
 
-**_Κρατήσεις / Πληροφορίες:_** Στο τηλέφωνο 22348203
+**_Κρατήσεις | Πληροφορίες:_** Στο τηλέφωνο 22348203
