@@ -11,7 +11,9 @@ paphos_dates: ''
 city: Nicosia
 event_image: "/images/uploads/o-erastis.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/o-erastis_2.jpg"
+- "/images/uploads/o-erastis_1.jpg"
 category: Drama
 extended: false
 critic_link: ''
