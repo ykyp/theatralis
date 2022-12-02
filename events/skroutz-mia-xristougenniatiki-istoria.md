@@ -11,7 +11,12 @@ paphos_dates: '2022-12-10'
 city: Nicosia, Pafos, Limassol
 event_image: "/images/uploads/scrooge-a3-1.jpg"
 cover_image: "/images/uploads/skroutz.jpg"
-gallery_images: []
+gallery_images:
+- "/images/uploads/xristougenniatiki-istoria_5.jpg"
+- "/images/uploads/xristougenniatiki-istoria_4.JPG"
+- "/images/uploads/xristougenniatiki-istoria_3.JPG"
+- "/images/uploads/xristougenniatiki-istoria_2.JPG"
+- "/images/uploads/xristougenniatiki-istoria_1.JPG"
 category: Children
 extended: false
 critic_link: ''
