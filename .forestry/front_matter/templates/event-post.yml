@@ -147,7 +147,6 @@ fields:
   label: Theatres
   description: Theatres locations
 pages:
-- events/....md
 - events/1984.md
 - events/5-lesbians-eating-a-quiche.md
 - events/Foteini.md
@@ -176,6 +175,7 @@ pages:
 - events/h-megali-plektani.md
 - events/h-panayia-twn-parisiwn.md
 - events/i-kitrini-tapetsaria.md
+- events/i-mana-autounou.md
 - events/irous-kai-leandrou-erwtes.md
 - events/istoria-enos-aixmalotou.md
 - events/istories-apo-ti-spilia.md
