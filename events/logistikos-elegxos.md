@@ -6,6 +6,7 @@ city: Nicosia
 event_image: "/images/uploads/logistikos-elegxos_2.jpg"
 cover_image: ''
 gallery_images:
+- "/images/uploads/logistikos-elegxos_3.jpg"
 - "/images/uploads/logistikos-elegxos_1.jpg"
 category: Drama, Comedy
 extended: false
