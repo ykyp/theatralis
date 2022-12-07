@@ -20,7 +20,7 @@ theatres:
 - theatres/theatraki-toy-RIK.md
 
 ---
-#### ΛΙΓΕΣ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
+#### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
 
 Ένα σύγχρονο θεατρικό έργο για τη νόσο του Αλτσχάιμερ.
 
@@ -68,4 +68,4 @@ theatres:
 
 **_Κρατήσεις | Πληροφορίες_**: Στο τηλέφωνο 99929374
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας Soldout και στα kαταστήματα [Stephanis](https://www.soldoutticketbox.com/prin-erthei-o-germanos-2022/?lang=en)
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/prin-erthei-o-germanos-2022/?lang=en)και στα kαταστήματα Stephanis
