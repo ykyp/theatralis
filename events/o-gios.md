@@ -1,7 +1,7 @@
 ---
 title: ο γιος
 startDate: 2022-10-14
-endDate: 2022-12-31
+endDate: 2022-12-12
 city: Nicosia, Larnaca, Pafos, Limassol
 event_image: "/images/uploads/o-gios_the-poster.jpg"
 cover_image: ''
