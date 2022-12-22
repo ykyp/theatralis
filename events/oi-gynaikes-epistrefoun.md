@@ -71,6 +71,8 @@ paphos_dates: ''
 
 **_Τοποθεσία:_** [Θέατρο Μελίνα Μερκούρη](?#map)
 
+***
+
 **ΛΕΜΕΣΟΣ**
 
 **_Ημερομηνίες:_** Κυριακή 29 Ιανουαρίου | Δευτέρα 30 Ιανουαρίου
@@ -79,12 +81,14 @@ paphos_dates: ''
 
 **_Τοποθεσία:_** [Θέατρο ΡΙΑΛΤΟ](?#map)
 
+**_Διάρκεια:_** 100 λεπτά
+
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
 **_Τιμές:_** €15 / €13
 
-**_Προπώληση:_** Απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3987.html "Tickethour") (ΓΙΑ ΛΕΥΚΩΣΙΑ), απο την ιστοσελίδα του [ΡΙΑΛΤΟ ](https://rialto.interticket.com/program/oi-gunaikes-epistrephoun-2700)(ΓΙΑ ΛΕΜΕΣΟ) και απο όλα τα καταστήματα ACS courier.
+**_Προπώληση:_** Απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_3987.html "Tickethour") (ΓΙΑ ΛΕΥΚΩΣΙΑ), απο την ιστοσελίδα του [ΡΙΑΛΤΟ ](https://rialto.interticket.com/program/oi-gunaikes-epistrephoun-2700)(ΓΙΑ ΛΕΜΕΣΟ) και σε όλα τα καταστήματα ACS courier.
 
 **_Κρατήσεις:_** Στο τηλέφωνο 77777745 (ΓΙΑ ΛΕΜΕΣΟ)
