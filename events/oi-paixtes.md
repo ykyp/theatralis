@@ -6,10 +6,10 @@ nicosia_dates: 2023-01-07, 2023-01-08, 2023-01-13, 2023-01-14, 2023-01-15, 2023-
   2023-01-21, 2023-01-22, 2023-01-27, 2023-01-28, 2023-01-29, 2023-01-03, 2023-01-04,
   2023-01-05, 2023-01-10, 2023-01-11, 2023-01-12, 2023-01-17, 2023-01-18, 2023-01-19,
   2023-01-24, 2023-01-25, 2023-01-26
-limassol_dates: ''
-larnaca_dates: ''
+limassol_dates: '2023-02-15'
+larnaca_dates: 2023--02-01
 famagusta_dates: ''
-paphos_dates: ''
+paphos_dates: '2023-02-08'
 city: Nicosia
 event_image: "/images/uploads/paixtes.jpeg"
 cover_image: ''
