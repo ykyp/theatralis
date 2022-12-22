@@ -93,8 +93,8 @@ theatres:
 
 **_Τιμή:_** €15 | €12
 
-**_Προπώληση:_** 
+**_Προπώληση:_**
 
 ΛΕΥΚΩΣΙΑ - Απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_4072.html)
 
-ΛΕΜΕΣΟΣ - Απο την ιστοσελίδα του ΡΙΑΛΤΟ
+ΛΕΜΕΣΟΣ - Απο την ιστοσελίδα του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/logia-sto-stoma-kieran-hurley-2693)
