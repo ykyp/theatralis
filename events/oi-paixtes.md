@@ -10,7 +10,7 @@ limassol_dates: '2023-02-15'
 larnaca_dates: 2023--02-01
 famagusta_dates: ''
 paphos_dates: '2023-02-08'
-city: Nicosia
+city: Nicosia, Limassol, Larnaca, Pafos
 event_image: "/images/uploads/paixtes.jpeg"
 cover_image: ''
 gallery_images:
