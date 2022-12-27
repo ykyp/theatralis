@@ -4,21 +4,23 @@ startDate: 2022-12-16
 endDate: 2023-01-08
 nicosia_dates: 2022-12-16, 2022-12-17, 2022-12-18, 2022-12-21, 2022-12-22, 2022-12-23,
   2022-12-29, 2022-12-30, 2023-01-06, 2023-01-08
-limassol_dates: '2023-01-08'
+limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: Nicosia, Limassol
+city: Nicosia
 event_image: "/images/uploads/to-party-me-ta-agoria.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/to-party-me-ta-agoria_3.jpg"
+- "/images/uploads/to-party-me-ta-agoria_2.jpg"
+- "/images/uploads/to-party-me-ta-agoria_1.jpg"
 category: Drama
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/texnoxwros-ethal.md
 - theatres/theatro_dentro.md
 
 ---
@@ -54,18 +56,6 @@ H Alpha Square ανεβάζει σε πανελλήνια πρώτη ένα έρ
 Η παράσταση στις 6 Ιανουαρίου θα δοθεί στις 18:30
 
 **_Τοποθεσία:_** [Θέατρο Δέντρο](?#map)
-
-***
-
-**ΛΕΜΕΣΟΣ**
-
-**_Ημερομηνία:_** Κυριακή 8 Ιανουαρίου 2023
-
-**_Ώρα έναρξης:_** 20:30
-
-**_Τοποθεσία:_** [Τεχνοχώρος ΕΘΑΛ](?#map)
-
-**_Ηλικίες:_** 15 ετών και άνω
 
 ***
 
