@@ -12,9 +12,9 @@ city: Nicosia
 event_image: "/images/uploads/to-party-me-ta-agoria.jpg"
 cover_image: ''
 gallery_images:
+- "/images/uploads/to-party-me-ta-agoria_1.jpg"
 - "/images/uploads/to-party-me-ta-agoria_3.jpg"
 - "/images/uploads/to-party-me-ta-agoria_2.jpg"
-- "/images/uploads/to-party-me-ta-agoria_1.jpg"
 category: Drama
 extended: false
 critic_link: ''
