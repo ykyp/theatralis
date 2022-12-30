@@ -9,7 +9,7 @@ famagusta_dates: ''
 paphos_dates: ''
 city: Limassol
 event_image: "/images/uploads/the-seagull-production-photography-6.jpg"
-cover_image: "/images/uploads/the-seagull-production-photography-1.jpg"
+cover_image: "/images/uploads/the-seagull-1.jpg"
 gallery_images:
 - "/images/uploads/the-seagull-production-photography-7.jpg"
 - "/images/uploads/the-seagull-production-photography-4.jpg"
