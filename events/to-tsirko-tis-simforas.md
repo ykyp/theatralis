@@ -8,7 +8,7 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia
-event_image: ''
+event_image: "/images/uploads/to-tsirko-tis-simforas.jpg"
 cover_image: ''
 gallery_images: []
 category: Children
