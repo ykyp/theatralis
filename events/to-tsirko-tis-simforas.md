@@ -2,12 +2,12 @@
 title: το τσιρκο της συμφορας
 startDate: 2023-01-15
 endDate: 2023-01-15
-nicosia_dates: '2023-01-15'
-limassol_dates: ''
+nicosia_dates: ''
+limassol_dates: '2023-01-15'
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: Nicosia
+city: Limassol
 event_image: "/images/uploads/to-tsirko-tis-simforas.jpg"
 cover_image: ''
 gallery_images: []
