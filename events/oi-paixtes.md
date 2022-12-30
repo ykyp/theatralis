@@ -14,7 +14,12 @@ city: Nicosia, Limassol, Larnaca, Pafos
 event_image: "/images/uploads/paixtes.jpeg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/paixtes_2.jpeg"
+- "/images/uploads/oi-paixtes_6.jpg"
+- "/images/uploads/oi-paixtes_5.jpg"
+- "/images/uploads/oi-paixtes_4.jpg"
+- "/images/uploads/oi-paixtes_3.jpg"
+- "/images/uploads/oi-paixtes_2.jpg"
+- "/images/uploads/oi-paixtes_1.jpg"
 category: Comedy
 extended: false
 critic_link: ''
