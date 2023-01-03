@@ -8,9 +8,14 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia
-event_image: ''
+event_image: "/images/uploads/lisasmeni-gata_3.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/lisasmeni-gata_6.jpg"
+- "/images/uploads/lisasmeni-gata_5.jpg"
+- "/images/uploads/lisasmeni-gata_4.jpg"
+- "/images/uploads/lisasmeni-gata_2.jpg"
+- "/images/uploads/lisasmeni-gata_1.jpg"
 category: Drama
 extended: false
 critic_link: ''
@@ -56,4 +61,22 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Πρεμιέρα:_** Παρασκευή 13 Ιαναουαρίου 2023
+**_Πρεμιέρα:_** Κυριακή 15 Ιαναουαρίου 2023
+
+**_Τακτικές παραστάσεις:_** Κάθε Παρασκευή, Σάββατο και Κυριακή μέχρι τις 28 Φεβρουαρίου 2023
+
+**_Ώρα έναρξης:_** Παρασκευή στις 20:00 | Σάββατο στις 19:00 | Κυριακή στις 18:00
+
+**_Τοποθεσία:_** [Θέατρο ΘΟΚ, Κεντρική Σκηνή](?#map)
+
+**ΥΠΕΡΤΙΤΛΙΣΜΕΝΕΣ ΠΑΡΑΣΤΑΣΕΙΣ: Παρασκευή 3 Φεβρουαρίου 2023 (αγγλικά και τουρκικά) & Παρασκευή 10 Φεβρουαρίου 2023 (ελληνικά)**
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+**_Τιμή:_** €12 | €6 (άνεργοι, συνταξιούχοι, πολύτεκνοι με την επίδειξη του αντίστοιχου αποδεικτικού εγγράφου και άτομα κάτω των 25 ετών με την επίδειξη πολιτικής ταυτότητας)
+
+**_Προπώληση:_** Μέσω της ιστοσελίδας του [ΘΟΚ](https://tickets.thoc.org.cy/event/thoc-lyssasmeni-gata/?lang=el)
+
+**_Πληροφορίες:_** Στο τηλέφωνο 77772717 (Τρίτη-Κυριακή 10:00-13:30 & 16:00-18:00)
