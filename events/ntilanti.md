@@ -4,10 +4,10 @@ startDate: 2023-01-20
 endDate: 2023-01-20
 nicosia_dates: ''
 limassol_dates: ''
-larnaca_dates: ''
+larnaca_dates: '2023-01-14'
 famagusta_dates: ''
 paphos_dates: '2023-01-20'
-city: Pafos
+city: Pafos, Larnaca
 event_image: "/images/uploads/ntilanti.jpg"
 cover_image: ''
 gallery_images: []
@@ -45,9 +45,21 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Ημερομηνία:_** Παρασκευή 20 Ιανουαρίου 2023
+**ΛΑΡΝΑΚΑ**
+
+**_Ημερομηνία:_** Σάββατο 14 Ιανουαρίου 2023
 
 **_Ώρα έναρξης:_** 20:30
+
+**_Τοποθεσία:_** THEATRICAL HALL AUCY
+
+***
+
+**ΠΑΦΟΣ**
+
+**_Ημερομηνία:_** Παρασκευή 20 Ιανουαρίου 2023
+
+**_Ώρα έναρξης:_** 20:00
 
 **_Τοποθεσία:_** [Μαρκίδειο Θέατρο](?#map)
 
