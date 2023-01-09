@@ -19,7 +19,7 @@ gallery_images:
 - "/images/uploads/to-magemeno-dentro_2.jpg"
 - "/images/uploads/to-magemeno-dentro_1.jpg"
 category: Children
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''

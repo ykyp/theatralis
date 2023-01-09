@@ -18,7 +18,7 @@ gallery_images:
 - "/images/uploads/i-kitrini-tapetsaria_2.jpg"
 - "/images/uploads/i-kitrini-tapetsaria_1.jpg"
 category: Drama, Novel
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''

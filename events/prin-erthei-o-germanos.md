@@ -13,7 +13,7 @@ event_image: "/images/uploads/prin-erthei-o-germanos.jpg"
 cover_image: ''
 gallery_images: []
 category: Drama
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''
