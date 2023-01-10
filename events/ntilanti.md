@@ -1,6 +1,6 @@
 ---
 title: ντιλαντι
-startDate: 2023-01-20
+startDate: 2023-01-14
 endDate: 2023-01-20
 nicosia_dates: ''
 limassol_dates: ''
