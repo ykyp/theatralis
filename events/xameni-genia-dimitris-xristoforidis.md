@@ -10,7 +10,11 @@ paphos_dates: ''
 city: Nicosia, Limassol
 event_image: "/images/uploads/dimitris-xristofidis.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/dimitris-xristoforidis_4.jpg"
+- "/images/uploads/dimitris-xristoforidis_3.jpg"
+- "/images/uploads/dimitris-xristoforidis_2.jpg"
+- "/images/uploads/dimitris-xristoforidis_1.jpg"
 category: Standup
 extended: false
 critic_link: ''
@@ -59,6 +63,6 @@ theatres:
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή:_** €12 (στην είσοδο) | €15 (προπώληση)
+**_Τιμή:_** €15 (στην είσοδο) | €12 (προπώληση)
 
 **_Προπώληση:_** Απο την ιστοσελίδα της [Tickethour ](https://shop.tickethour.com/ticketmaster_se_4030.html?tkhrq=5df0555b-d4f5-4a0e-a4bf-8c0e88810ddb&tkhrp=eee99fa9-9193-4d1b-b92e-b494819eaa39&tkhrts=1667302333&tkhrc=tickethour&tkhre=shopcy&tkhrrt=Safetynet&tkhrh=1a59efb67c65c0353a03d52cc2c2f2a4)και σε όλα τα ACS παγκύπρια
