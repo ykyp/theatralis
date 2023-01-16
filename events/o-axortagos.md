@@ -11,7 +11,12 @@ paphos_dates: ''
 city: Nicosia, Limassol
 event_image: "/images/uploads/o-axortagos.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/axortagos_5.jpg"
+- "/images/uploads/axortagos_4.jpg"
+- "/images/uploads/axortagos_3.jpg"
+- "/images/uploads/axortagos_2.jpg"
+- "/images/uploads/axortagos_1.jpg"
 category: Comedy
 extended: false
 critic_link: ''
