@@ -13,7 +13,7 @@ event_image: "/images/uploads/koini-isyxia.jpg"
 cover_image: "/images/uploads/koini-isyxia.jpg"
 gallery_images: []
 category: Musical
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''
