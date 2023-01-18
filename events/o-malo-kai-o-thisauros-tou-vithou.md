@@ -96,4 +96,4 @@ theatres:
 
 **_Τιμή:_** €12
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας της Soldout
+**_Προπώληση:_** Μέσω της ιστοσελίδας της [Soldout ](https://www.soldoutticketbox.com/o-malo-kai-o-thysavros-tou-vythou/?lang=el)και σε όλα τα καταστήματα Stephanis
