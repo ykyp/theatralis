@@ -10,14 +10,16 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia
-event_image: "/images/uploads/lisasmeni-gata_3.jpg"
+event_image: "/images/uploads/lisasmeni-gata_1.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/lisasmeni-gata_6.jpg"
-- "/images/uploads/lisasmeni-gata_5.jpg"
-- "/images/uploads/lisasmeni-gata_4.jpg"
-- "/images/uploads/lisasmeni-gata_2.jpg"
-- "/images/uploads/lisasmeni-gata_1.jpg"
+- "/images/uploads/lissasmeni-gata_7.jpg"
+- "/images/uploads/lissasmeni-gata_6.jpg"
+- "/images/uploads/lissasmeni-gata_5.jpg"
+- "/images/uploads/lissasmeni-gata_4.jpg"
+- "/images/uploads/lissasmeni-gata_3.jpg"
+- "/images/uploads/lissasmeni-gata_2.jpg"
+- "/images/uploads/lissasmeni-gata_1.jpg"
 category: Drama
 extended: false
 critic_link: ''
