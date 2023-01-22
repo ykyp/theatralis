@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://theatralis.com.cy
+
+# Sitemaps
+Sitemap: https://theatralis.com.cy/sitemap.xml
