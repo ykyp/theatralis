@@ -1,19 +1,26 @@
 ---
 title: ο παπαφιγκος
-startDate: 2023-01-20
+startDate: 2023-01-27
 endDate: 2023-03-01
-nicosia_dates: 2023-01-20, 2023-01-21, 2023-01-22, 2023-01-25, 2023-01-27, 2023-01-28,
-  2021-01-29, 2023-02-01, 2023-02-03, 2023-02-04, 2023-02-05, 2023-02-08, 2023-02-10,
-  2023-02-11, 2023-02-12, 2023-02-15, 2023-02-17, 2023-02-18, 2023-02-19, 2023-02-22,
-  2023-02-24, 2023-02-25, 2023-02-26, 2023-03-01
+nicosia_dates: 2023-01-27, 2023-01-28, 2021-01-29, 2023-02-01, 2023-02-03, 2023-02-04,
+  2023-02-05, 2023-02-08, 2023-02-10, 2023-02-11, 2023-02-12, 2023-02-15, 2023-02-17,
+  2023-02-18, 2023-02-19, 2023-02-22, 2023-02-24, 2023-02-25, 2023-02-26, 2023-03-01
 limassol_dates: '2023-02-09'
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Limassol
-event_image: ''
+event_image: "/images/uploads/o-papafigkos_4.JPG"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/o-papafigkos_9.JPG"
+- "/images/uploads/o-papafigkos_8.JPG"
+- "/images/uploads/o-papafigkos_7.JPG"
+- "/images/uploads/o-papafigkos_6.JPG"
+- "/images/uploads/o-papafigkos_5.JPG"
+- "/images/uploads/o-papafigkos_3.JPG"
+- "/images/uploads/o-papafigkos_2.JPG"
+- "/images/uploads/o-papafigkos_1.JPG"
 category: Comedy
 extended: false
 critic_link: ''
@@ -73,4 +80,4 @@ theatres:
 
 **_Κρατήσεις | Πληροφορίες:_** Στα τηλέφωνα 22818999 & 99621845
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας Soldout
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/o-papafigkos-dionysos-2023/?lang=en) και σε όλα τα καταστήματα Stephanis
