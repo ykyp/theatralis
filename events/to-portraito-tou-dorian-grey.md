@@ -28,7 +28,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro-skala.md
+- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
 - theatres/rialto.md
 - theatres/markidio-theatro.md
 - theatres/theatro-anemona.md
@@ -103,7 +103,7 @@ theatres:
 
 **_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** [Θέατρο Σκάλα](?#map)
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Γ. Λυκούργος](?#map)
 
 ***
 
