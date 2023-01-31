@@ -1,13 +1,14 @@
 ---
 title: ο σπανος τζαι οι σαραντα δρατζιοι
 startDate: 2022-12-24
-endDate: 2023-01-28
-nicosia_dates: 2022-12-24, 2023-01-07, 2023-01-14, 2023-01-21, 2023-01-28
+endDate: 2023-03-26
+nicosia_dates: 2022-12-24, 2023-01-07, 2023-01-14, 2023-01-21, 2023-01-28, 2023-02-04,
+  2023-02-11, 2023-02-18
 limassol_dates: '2023-01-22'
 larnaca_dates: ''
 famagusta_dates: ''
-paphos_dates: ''
-city: Nicosia, Limassol
+paphos_dates: '2023-03-26'
+city: Nicosia, Limassol, Pafos
 event_image: "/images/uploads/spanos.jpg"
 cover_image: ''
 gallery_images:
@@ -21,6 +22,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/markidio-theatro.md
 - theatres/rialto.md
 - theatres/theatro-maskarini.md
 
@@ -66,6 +68,12 @@ theatres:
 
 Σάββατο 28 Ιανουαρίου 2023 στις 16:00 το απόγευμα
 
+Σάββατο 4 Φεβρουαρίου 2023 στις 16:00 το απόγευμα
+
+Σάββατο 11 Φεβρουαρίου 2023 στις 16:00 το απόγευμα
+
+Σάββατο 18 Φεβρουαρίου 2023 στις 16:00 το απόγευμα
+
 **_Τοποθεσία:_** [Θέατρο Μασκαρίνι](?#map)
 
 ***
@@ -78,6 +86,16 @@ theatres:
 
 **_Τοποθεσία:_** Θέατρο [ΡΙΑΛΤΟ](?#map)
 
+***
+
+**ΠΑΦΟΣ**
+
+**_Ημερομηνία:_** Κυριακή 26 Μαρτίου 2023
+
+**_Ώρα έναρξης:_** 11:00 το πρωί
+
+**_Τοποθεσία:_** [Μαρκίδειο Θέατρο](?#map)
+
 **_Διάρκεια:_** 75 λεπτά
 
 ***
@@ -88,4 +106,4 @@ theatres:
 
 **_Πληροφορίες | Κρατήσεις:_** Στο τηλέφωνο 99251331
 
-**_Προπώληση:_** Απο την ιστοσελίδα της [Soldout ](https://www.soldoutticketbox.com/o-spanos-tziai-oi-saranta-dratzioi-theatro-antilogos-jan-2023/?lang=en)και σε όλα τα καταστήματα Stephanis (ΓΙΑ ΛΕΥΚΩΣΙΑ) και απο την ιστοσελίδα του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/o-spanos-tzai-oi-saranta-djratzioi-2697) (ΓΙΑ ΛΕΜΕΣΟ)
+**_Προπώληση:_** Απο την ιστοσελίδα της [Soldout ](https://www.soldoutticketbox.com/o-spanos-tziai-oi-saranta-dratzioi-theatro-antilogos-jan-2023/?lang=en)και σε όλα τα καταστήματα Stephanis (ΓΙΑ ΛΕΥΚΩΣΙΑ ΚΑΙ ΠΑΦΟ) και απο την ιστοσελίδα του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/o-spanos-tzai-oi-saranta-djratzioi-2697) (ΓΙΑ ΛΕΜΕΣΟ)
