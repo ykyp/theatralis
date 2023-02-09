@@ -8,7 +8,7 @@ larnaca_dates: '2023-03-19'
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Larnaca, Limassol
-event_image: ''
+event_image: "/images/uploads/ira-katsouda_3.jpg"
 cover_image: ''
 gallery_images: []
 category: Standup

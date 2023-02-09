@@ -8,7 +8,7 @@ larnaca_dates: '2023-02-20'
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Larnaca, Limassol
-event_image: ''
+event_image: "/images/uploads/xrysa-katsarini_3.jpg"
 cover_image: ''
 gallery_images: []
 category: Standup
