@@ -147,6 +147,7 @@ fields:
   label: Theatres
   description: Theatres locations
 pages:
+- events/bachelor-i-epomeni-mera.md
 - events/girls-like-that.md
 - events/i-fonissa.md
 - events/i-kitrini-tapetsaria.md
