@@ -8,9 +8,9 @@ nicosia_dates: 2023-01-07, 2023-01-08, 2023-01-13, 2023-01-14, 2023-01-15, 2023-
   2023-01-24, 2023-01-25, 2023-01-26
 limassol_dates: '2023-02-15'
 larnaca_dates: 2023--02-01
-famagusta_dates: ''
+famagusta_dates: '2023-02-22'
 paphos_dates: '2023-02-08'
-city: Nicosia, Limassol, Larnaca, Pafos
+city: Nicosia, Limassol, Larnaca, Pafos, Famagusta
 event_image: "/images/uploads/paixtes.jpeg"
 cover_image: ''
 gallery_images:
@@ -26,6 +26,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/dimarxeio-agias-napas.md
 - theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
 - theatres/rialto.md
 - theatres/markidio-theatro.md
@@ -105,8 +106,20 @@ theatres:
 
 ***
 
+**ΑΜΜΟΧΩΣΤΟΣ**
+
+**_Ημερομηνία:_** Τετάρτη 22 Φεβρουαρίου 2023
+
+**_Ώρα έναρξης:_** 20:00
+
+**_Τοποθεσία:_** [Δημαρχείο Αγίας Νάπας](?#map)
+
+**Η παράσταση διοργανώνεται στα πλάισια του Τριμήνου Θεατρικών Παραστάσεων Δήμου Αγίας Νάπας και η είσοδος είναι ΔΩΡΕΑΝ**
+
+***
+
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή:_** €12 / €6 (άνεργοι, συνταξιούχοι, πολύτεκνοι με την επίδειξη του αντίστοιχου αποδεικτικού εγγράφου και άτομα κάτω των 25 ετών με την επίδειξη πολιτικής ταυτότητα
+**_Τιμή:_** €12 | €6 (άνεργοι, συνταξιούχοι, πολύτεκνοι με την επίδειξη του αντίστοιχου αποδεικτικού εγγράφου και άτομα κάτω των 25 ετών με την επίδειξη πολιτικής ταυτότητα
 
 **_Προπώληση:_** Μέσω της ιστοσελίδας του [ΘΟΚ](https://tickets.thoc.org.cy/) (ΓΙΑ ΛΕΥΚΩΣΙΑ) και μέσω της ιστοσελίδας του [ΡΙΑΛΤΟ ](https://rialto.interticket.com/program/oi-paikhtesnea-skini-thok-2710)(ΓΙΑ ΛΕΜΕΣΟ)
