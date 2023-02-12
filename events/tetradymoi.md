@@ -2,7 +2,7 @@
 title: ΤΕΤΡΑΔΥΜΟΙ
 startDate: 2023-01-22
 endDate: 2023-02-12
-city: Nicosia, Limassol
+city: Nicosia, Limassol, Famagusta
 event_image: "/images/uploads/tetradymoi.jpg"
 cover_image: "/images/uploads/tetradymoi.jpg"
 gallery_images:
@@ -23,7 +23,7 @@ gallery_3: ''
 nicosia_dates: 2023-01-22, 2023-01-29, 2023-02-05, 2023-02-12
 limassol_dates: '2023-02-04'
 larnaca_dates: ''
-famagusta_dates: ''
+famagusta_dates: '2023-03-05'
 paphos_dates: ''
 
 ---
@@ -72,6 +72,18 @@ paphos_dates: ''
 **_Ώρα έναρξης:_** 16:30
 
 **_Τοποθεσία:_** [Θέατρο Πάνω Πολεμιδιών](?#map)
+
+***
+
+**ΑΜΜΟΧΩΣΤΟΣ**
+
+**_Ημερομηνία:_** Κυριακή 5 Μαρτίου 2023
+
+**_Ώρα έναρξης:_** 16:00
+
+**_Τοποθεσία:_** [Δημαρχείο Αγίας Νάπας](?#map)
+
+**Η ΠΑΡΑΣΤΑΣΗ ΔΙΟΡΓΑΝΩΝΕΤΑΙ ΣΤΑ ΠΛΑΙΣΙΑ ΤΟΥ ΤΡΙΜΗΝΟΥ ΘΕΑΤΡΙΚΩΝ ΠΑΡΑΣΤΑΣΕΩΝ ΔΗΜΟΥ ΑΓΙΟΥ ΝΑΠΑΣ ΚΑΙ Η ΕΙΣΟΔΟΣ ΕΙΝΑΙ ΔΩΡΕΑΝ!**
 
 ***
 

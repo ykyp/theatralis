@@ -7,9 +7,9 @@ nicosia_dates: 2023-01-27, 2023-01-28, 2021-01-29, 2023-02-01, 2023-02-03, 2023-
   2023-02-18, 2023-02-19, 2023-02-22, 2023-02-24, 2023-02-25, 2023-02-26, 2023-03-01
 limassol_dates: '2023-02-09'
 larnaca_dates: ''
-famagusta_dates: ''
+famagusta_dates: '2023-03-03'
 paphos_dates: ''
-city: Nicosia, Limassol
+city: Nicosia, Limassol, Famagusta
 event_image: "/images/uploads/o-papafigkos_4.JPG"
 cover_image: ''
 gallery_images:
@@ -27,6 +27,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/dimarxeio-agias-napas.md
 - theatres/rialto.md
 - theatres/theatro-dionysos.md
 
@@ -70,7 +71,19 @@ theatres:
 
 **_Τοποθεσία:_** [Θέατρο ΡΙΑΛΤΟ](?#map)
 
+***
+
+**ΑΜΜΟΧΩΣΤΟΣ**
+
+**_Ημερομηνία:_** Παρασκευή 3 Μαρτίου 2023
+
+**_Ώρα εναρξης:_** 20:00
+
+**_Τοποθεσία:_** [Δημαρχείο Αγίας Νάπας](?#map)
+
 **_Διάρκεια Παράστασης:_** 90 λεπτά
+
+**Η ΠΑΡΑΣΤΑΣΗ ΔΙΟΡΓΑΝΩΝΕΤΑΙ ΣΤΑ ΠΛΑΙΣΙΑ ΤΟΥ ΤΡΙΜΗΝΟΥ ΘΕΑΤΡΙΚΩΝ ΠΑΡΑΣΤΑΣΕΩΝ ΔΗΜΟΥ ΑΓΙΟΥ ΝΑΠΑΣ ΚΑΙ Η ΕΙΣΟΔΟΣ ΕΙΝΑΙ ΔΩΡΕΑΝ!**
 
 ***
 
