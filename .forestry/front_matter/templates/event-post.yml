@@ -147,6 +147,7 @@ fields:
   label: Theatres
   description: Theatres locations
 pages:
+- events/apo-ton-pithiko-ston-anthrwpo.md
 - events/bachelor-i-epomeni-mera.md
 - events/girls-like-that.md
 - events/i-fonissa.md
@@ -183,4 +184,3 @@ pages:
 - events/treis-aderfes.md
 - events/xameni-genia-dimitris-xristoforidis.md
 - events/xenodoxeio-dyo-kosmwn.md
-- events/απο-τον-πιθηκο-στον-ανθρωπο.md
