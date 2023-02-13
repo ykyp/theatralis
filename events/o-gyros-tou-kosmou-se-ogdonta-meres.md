@@ -1,8 +1,8 @@
 ---
 title: ο γυρος του κοσμου σε ογδοντα μερες
 startDate: 2022-11-20
-endDate: 2023-01-29
-city: Nicosia, Limassol
+endDate: 2023-03-05
+city: Nicosia, Limassol, Famagusta
 event_image: "/images/uploads/o-gyros-tou-kosmou-se-80-meres_1.jpg"
 cover_image: "/images/uploads/o-gyros-tou-kosmou-se-80-meres-1.jpg"
 gallery_images: []
@@ -12,6 +12,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/dimarxeio-agias-napas.md
 - theatres/patticheio-dimotiko-theatro-lemesos.md
 - theatres/thoc.md
 gallery_1: ''
@@ -22,7 +23,7 @@ nicosia_dates: 2022-11-20, 2022-11-27, 2022-12-04, 2022-12-11, 2022-12-18, 2023-
   2023-03-05
 limassol_dates: '2023-02-04'
 larnaca_dates: ''
-famagusta_dates: ''
+famagusta_dates: '2023-02-17'
 paphos_dates: ''
 
 ---
@@ -82,6 +83,18 @@ paphos_dates: ''
 **_Ώρα έναρξης:_** 17:00
 
 **_Τοποθεσία:_** [Παττίχειο Δημοτικό Θέατρο](?#map)
+
+***
+
+**ΑΜΜΟΧΩΣΤΟΣ**
+
+**_Ημερομηνία:_** Παρασκευή 17 Φεβρουαρίου 2023
+
+**_Ώρα έναρξης:_** 18:00
+
+**_Τοποθεσία:_** [Δημαρχείο Αγίας Νάπας](?#map)
+
+**Η ΠΑΡΑΣΤΑΣΗ ΔΙΟΡΓΑΝΩΝΕΤΑΙ ΣΤΑ ΠΛΑΙΣΙΑ ΤΟΥ ΤΡΙΜΗΝΟΥ ΘΕΑΤΡΙΚΩΝ ΠΑΡΑΣΤΑΣΕΩΝ ΔΗΜΟΥ ΑΓΙΟΥ ΝΑΠΑΣ ΚΑΙ Η ΕΙΣΟΔΟΣ ΕΙΝΑΙ ΔΩΡΕΑΝ!**
 
 ***
 
