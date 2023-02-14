@@ -147,6 +147,7 @@ fields:
   label: Theatres
   description: Theatres locations
 pages:
+- events/apo-to-miden.md
 - events/apo-ton-pithiko-ston-anthrwpo.md
 - events/bachelor-i-epomeni-mera.md
 - events/fwnazei-o-kleftis.md
