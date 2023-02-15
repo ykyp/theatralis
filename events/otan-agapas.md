@@ -8,7 +8,7 @@ larnaca_dates: ''
 famagusta_dates: '2023-02-18'
 paphos_dates: ''
 city: Famagusta
-event_image: ''
+event_image: "/images/uploads/otan-agapas.jpg"
 cover_image: ''
 gallery_images: []
 category: Children
@@ -55,4 +55,6 @@ theatres:
 
 **_Τοποθεσία:_** [Δημαρχείο Αγίας Νάπας](?#map)
 
-**Η ΠΑΡΑΣΤΑΣΗ ΔΙΟΡΓΑΝΩΝΕΤΑΙ ΣΤΑ ΠΛΑΙΣΙΑ ΤΟΥ ΤΡΙΜΗΝΟΥ ΘΕΑΤΡΙΚΩΝ ΠΑΡΑΣΤΑΣΕΩΝ ΔΗΜΟΥ ΑΓΙΟΥ ΝΑΠΑΣ ΚΑΙ Η ΕΙΣΟΔΟΣ ΕΙΝΑΙ ΔΩΡΕΑΝ!**
+**Τιμή:** €5 ευρώ (τα καθαρά έσοδα θα δοθούν σε άπορες οικογένειες)
+
+**_Προπώληση εισιτηρίων:_** Στα καταστήματα «Je T’ aime» και «Superaction». Εισιτήρια θα πωλούνται επίσης, στην είσοδο του Θεάτρου.
