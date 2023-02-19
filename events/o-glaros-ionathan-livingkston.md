@@ -9,9 +9,13 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: nicosia
-event_image: "/images/uploads/o-glaros.jpg"
+event_image: "/images/uploads/o-glaros-ionathan-_6.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/o-glaros-ionathan-_5.jpg"
+- "/images/uploads/o-glaros-ionathan-_4.jpg"
+- "/images/uploads/o-glaros-ionathan-_3.jpg"
+- "/images/uploads/o-glaros-ionathan-_2.jpg"
 category: novel
 extended: false
 critic_link: ''
