@@ -13,7 +13,9 @@ city: Nicosia
 event_image: "/images/uploads/bachelor.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/bachelor_1.jpg"
+- "/images/uploads/bachelor-i-epomeni-mera_3.jpg"
+- "/images/uploads/bachelor-i-epomeni-mera_2.jpg"
+- "/images/uploads/bachelor-i-epomeni-mera_1.jpg"
 category: Comedy
 extended: false
 critic_link: ''
