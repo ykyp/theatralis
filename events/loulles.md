@@ -1,5 +1,5 @@
 ---
-title: λουλες
+title: λουλλες
 startDate: 2023-04-01
 endDate: 2023-04-06
 nicosia_dates: '2023-04-06'
