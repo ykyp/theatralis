@@ -8,7 +8,7 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Limassol
-event_image: "/images/uploads/giagia-s-agapw.jpg"
+event_image: "/images/uploads/giagia.jpg"
 cover_image: ''
 gallery_images: []
 category: musical, children

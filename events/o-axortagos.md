@@ -90,4 +90,4 @@ theatres:
 
 **_Κρατήσεις | Πληροφορίες:_** Στα τηλέφωνα 2312940 & 22421609
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/o-axortagos-satiriko-2023/?lang=en)και σε όλα τα καταστήματα Stephanis
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/o-axortagos-satiriko-2023/?lang=en)και σε όλα τα καταστήματα Stephanis (ΓΙΑ ΛΕΥΚΩΣΙΑ) | Μέσω της ιστοσελίδας του [ΡΙΑΛΤΟ ](https://rialto.interticket.com/program/o-akhortagossatiriko-theatro-2714)(ΓΙΑ ΛΕΜΕΣΟ)
