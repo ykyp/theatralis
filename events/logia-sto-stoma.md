@@ -1,13 +1,13 @@
 ---
 title: λογια στο στομα
-startDate: 2023-01-04
-endDate: 2023-01-22
-nicosia_dates: 2023-01-13, 2023-01-15, 2023-01-20, 2023-01-22
-limassol_dates: 2023-01-04, 2023-01-05
+startDate: 2023-03-28
+endDate: 2023-03-29
+nicosia_dates: ''
+limassol_dates: 2023-03-28, 2023-03-29
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: Nicosia, Limassol
+city: Limassol
 event_image: "/images/uploads/logia-sto-stoma.jpg"
 cover_image: ''
 gallery_images:
@@ -20,7 +20,6 @@ critic_title: ''
 critic_p: ''
 theatres:
 - theatres/rialto.md
-- theatres/satiriko.md.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -69,21 +68,13 @@ theatres:
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνίες:_** Τετάρτη 4 Ιανουαρίου 2023 | Πέμπτη 5 Ιανουαρίου 2023
+**_Ημερομηνίες:_** Τρίτη 28 Μαρτίου 2023 | Τετάρτη 29 Μαρτίου 2023
 
 **_Ώρα έναρξης:_** 20:30
 
 **_Τοποθεσία:_** [Θέατρο Ριάλτο](?#map)
 
-***
-
-**ΛΕΥΚΩΣΙΑ**
-
-**_Ημερομηνίες:_** Παρασκευή 13 Ιανουαρίου 2023 | Κυριακή 15 Ιανουαρίου 2023 | Παρασκευή 20 Ιανουαρίου 2023 | Κυριακή 22 Ιανουαρίου 2023
-
-**_Ώρα έναρξης:_** 20:30
-
-**_Τοποθεσία:_** [Σατιρικό Θέατρο, Πάνω Σκηνή ](?#map)
+**_Διάρκεια:_** 90 λεπτά
 
 **Η παράσταση είναι κατάλληλη για θεατές άνω των 15 ετών.**
 
@@ -93,8 +84,4 @@ theatres:
 
 **_Τιμή:_** €15 | €12
 
-**_Προπώληση:_**
-
-ΛΕΥΚΩΣΙΑ - Απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/ticketmaster_se_4072.html)
-
-ΛΕΜΕΣΟΣ - Απο την ιστοσελίδα του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/logia-sto-stoma-kieran-hurley-2693)
+**_Προπώληση:_** Απο την ιστοσελίδα του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/logia-sto-stoma-kieran-hurley-2693)
