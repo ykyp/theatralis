@@ -120,7 +120,7 @@ theatres:
 
 * **Λευκωσία:** Στο τηλέφωνο 70007721
 * **Πάφος:** Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/the-picture-of-dorian-grey-anemona-2023/?lang=en)
-* **Λεμεσός:** Μέσω της ιστοσελίδας του ΡΙΑΛΤΟ
+* **Λεμεσός:** Μέσω της ιστοσελίδας του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/to-portreto-tou-ntorian-gkreu-2716)
 * **Λάρνακα:** Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/the-picture-of-dorian-grey-anemona-2023/?lang=en)
 
 **_Πληροφορίες:_** Στο τηλέφωνο 70007721
