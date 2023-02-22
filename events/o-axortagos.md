@@ -10,7 +10,7 @@ famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Limassol
 event_image: "/images/uploads/o-axortagos.jpg"
-cover_image: ''
+cover_image: "/images/uploads/o-axortagos_2.jpg"
 gallery_images:
 - "/images/uploads/axortagos_5.jpg"
 - "/images/uploads/axortagos_4.jpg"
