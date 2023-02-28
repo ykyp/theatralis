@@ -148,6 +148,7 @@ fields:
   description: Theatres locations
 pages:
 - events/10-xronia-sofia.md
+- events/10_xronia-koukloistories.md
 - events/1958.md
 - events/1964.md
 - events/aias.md
