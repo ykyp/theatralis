@@ -88,4 +88,6 @@ theatres:
 
 **_Τιμή:_** €15 | €12
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/anthismenes-manoliessatiriko-theatro-2719)
+**_Κρατήσεις:_** Στα τηλέφωνα 2312940 και 22421609
+
+**_Προπώληση:_** Μέσω της ιστοσελίδας της [Soldout ](https://www.soldoutticketbox.com/steel-magnolias-satiriko-2023/?lang=en)(**ΛΕΥΚΩΣΙΑ**) και μέσω της ιστοσελίδας του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/anthismenes-manoliessatiriko-theatro-2719) (**ΛΕΜΕΣΟ**)
