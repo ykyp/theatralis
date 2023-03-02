@@ -1,0 +1,11 @@
+fragment EventsParts on Events {
+  body
+}
+
+fragment TheatresParts on Theatres {
+  body
+}
+
+fragment ArchiveParts on Archive {
+  body
+}
