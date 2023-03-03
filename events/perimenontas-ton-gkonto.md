@@ -1,6 +1,6 @@
 ---
 title: ΠΕΡΙΜΕΝΟΝΤΑΣ ΤΟΝ ΓΚΟΝΤΟ
-startDate: 2023-03-04T00:00:00+02:00
+startDate: 2023-03-11T00:00:00+02:00
 endDate: 2023-03-12T00:00:00+02:00
 city: NIcosia
 event_image: "/images/uploads/screenshot-2022-02-07-at-10-32-49-pm.png"
