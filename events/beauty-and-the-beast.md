@@ -9,7 +9,7 @@ famagusta_dates: ''
 paphos_dates: ''
 city: nicosia
 event_image: "/images/uploads/beauty-and-the-beast_1.jpg"
-cover_image: "/images/uploads/beauty-and-the-beast_4.JPG"
+cover_image: "/images/uploads/beauty-and-the-beast.JPG"
 gallery_images:
 - "/images/uploads/beauty-and-the-beast_3.JPG"
 - "/images/uploads/beauty-and-the-beast_2.JPG"
