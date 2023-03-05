@@ -148,13 +148,17 @@ fields:
   description: Theatres locations
 pages:
 - events/10-xronia-sofia.md
+- events/10_xronia-koukloistories.md
 - events/1958.md
 - events/1964.md
 - events/aias.md
+- events/anthismenes_manolies.md
 - events/apo-to-miden.md
 - events/apo-ton-pithiko-ston-anthrwpo.md
 - events/bachelor-i-epomeni-mera.md
+- events/beauty-and-the-beast.md
 - events/fwnazei-o-kleftis.md
+- events/giagia-s-agapo.md
 - events/girls-like-that.md
 - events/h-papoutsosytzia.md
 - events/i-fonissa.md
@@ -167,6 +171,7 @@ pages:
 - events/kwdikos-kompania.md
 - events/lisasmeni-gata.md
 - events/logia-sto-stoma.md
+- events/loulles.md
 - events/mama.md
 - events/minimal-ira-katsouda.md
 - events/much-ado-about-nothing-national-theatre-live.md
@@ -190,6 +195,7 @@ pages:
 - events/to-ergo-pou-paei-lathos.md
 - events/to-magemeno-dentro.md
 - events/to-portraito-tou-dorian-grey.md
+- events/to-sose.md
 - events/touch-ed.md
 - events/treis-aderfes.md
 - events/xameni-genia-dimitris-xristoforidis.md

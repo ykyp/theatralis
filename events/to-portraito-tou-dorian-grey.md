@@ -2,9 +2,9 @@
 title: ΤΟ ΠΟΡΤΡΑΙΤΟ ΤΟΥ ΝΤΟΡΙΑΝ ΓΚΡΕΗ
 startDate: 2023-01-20
 endDate: 2023-03-11
-nicosia_dates: '2023-01-20, 2023-01-21, 2023-01-22, 2023-01-27, 2023-01-28, 2023-01-29,
+nicosia_dates: 2023-01-20, 2023-01-21, 2023-01-22, 2023-01-27, 2023-01-28, 2023-01-29,
   2023-02-03, 2023-02-04, 2023-02-05, 2023-02-10, 2023-02-11, 2023-02-12, 2023-02-17,
-  2023-02-18, 2023-02-19, 2023-02-24, 2023-02-25, 2023-02-26 '
+  2023-02-18, 2023-02-19, 2023-02-24, 2023-02-25, 2023-02-26, 2023-03-04, 2023-03-05
 limassol_dates: '2023-03-07'
 larnaca_dates: '2023-03-11'
 famagusta_dates: ''
@@ -23,7 +23,7 @@ gallery_images:
 - "/images/uploads/o-portreto-tou-ntorian-grey_5.jpg"
 - "/images/uploads/o-portreto-tou-ntorian-grey_2.jpg"
 category: Drama
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''
@@ -69,7 +69,7 @@ theatres:
 
 **ΛΕΥΚΩΣΙΑ**
 
-**_Παραστάσεις:_** Κάθε Παρασκευή, Σάββατο και Κυριακή
+**_Παραστάσεις:_** Κάθε Παρασκευή, Σάββατο και Κυριακή (εκτός Παρασκευή 3 Μαρτίου 2023)
 
 **_Ώρα έναρξης:_** 20:30 | Κυριακή στις 19:00
 
@@ -120,7 +120,7 @@ theatres:
 
 * **Λευκωσία:** Στο τηλέφωνο 70007721
 * **Πάφος:** Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/the-picture-of-dorian-grey-anemona-2023/?lang=en)
-* **Λεμεσός:** Μέσω της ιστοσελίδας του ΡΙΑΛΤΟ
+* **Λεμεσός:** Μέσω της ιστοσελίδας του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/to-portreto-tou-ntorian-gkreu-2716)
 * **Λάρνακα:** Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/the-picture-of-dorian-grey-anemona-2023/?lang=en)
 
 **_Πληροφορίες:_** Στο τηλέφωνο 70007721
