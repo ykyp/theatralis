@@ -91,4 +91,4 @@ theatres:
 
 **_Κρατήσεις | Πληροφορίες:_** Στο τηλέφωνο 99251331
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/red-peter-antilogos-2023/?lang=en)και σε όλα τα καταστήματα Stephanis
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/red-peter-antilogos-2023/?lang=en)(**ΛΕΥΚΩΣΙΑ**), μέσω της ιστοσελίδας του [Ριάλτο ](https://rialto.interticket.com/program/red-peter-apo-ton-pithiko-ston-anthropo-2737)(**ΛΕΜΕΣΟ**) και σε όλα τα καταστήματα Stephanis
