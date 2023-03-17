@@ -12,6 +12,8 @@ city: nicosia
 event_image: "/images/uploads/o-glaros-ionathan-_6.jpg"
 cover_image: ''
 gallery_images:
+- "/images/uploads/o-glaros_3.jpg"
+- "/images/uploads/o-glaros_2.jpg"
 - "/images/uploads/o-glaros-ionathan-_5.jpg"
 - "/images/uploads/o-glaros-ionathan-_4.jpg"
 - "/images/uploads/o-glaros-ionathan-_3.jpg"
@@ -48,7 +50,7 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Πρεμιέρα:_** Κυριακή 26 Φεβρουαρίου στις 19:00
+**_Πρεμιέρα:_** Κυριακή 26 Φεβρουαρίου στις 17:00 (ΔΩΡΕΑΝ λόγω της παγκόσμιας ημέρας θεάτρου - απαραίτητη η τηλεφωνική κράτηση στο 77772717)
 
 **_Τακτικές παραστάσεις:_** Κάθε Κυριακή στις 17:00 και 19:00
 
