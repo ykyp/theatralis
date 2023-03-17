@@ -11,7 +11,10 @@ paphos_dates: ''
 city: Nicosia, Limassol
 event_image: "/images/uploads/fwties.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/fwties_4.jpg"
+- "/images/uploads/fwties_3.jpg"
+- "/images/uploads/fwties_2.jpg"
 category: monologue
 extended: false
 critic_link: ''
