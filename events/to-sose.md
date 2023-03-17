@@ -4,14 +4,16 @@ startDate: 2023-03-22
 endDate: 2023-04-09
 nicosia_dates: 2023-03-22, 2023-03-24, 2023-03-25, 2023-03-26, 2023-03-29, 2023-03-31,
   2023-04-01, 2023-04-02, 2023-04-05, 2023-04-07, 2023-04-08, 2023-04-09
-limassol_dates: ''
+limassol_dates: 2023-04-19, 2023-04-20
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: nicosia
-event_image: ''
+city: Nicosia, Limassol
+event_image: "/images/uploads/to-sose.JPG"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/to-sose_3.JPG"
+- "/images/uploads/to-sose_2.JPG"
 category: Comedy
 extended: false
 critic_link: ''
@@ -80,4 +82,4 @@ theatres:
 
 **_Κρατήσεις | Πληροφορίες:_** Στα τηλέφωνα 22818999 & 99621845
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας Soldout και σε όλα τα καταστήματα Stephanis
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/to-sose-theatro-dionysos-2023/?lang=en)και σε όλα τα καταστήματα Stephanis
