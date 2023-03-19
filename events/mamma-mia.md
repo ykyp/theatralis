@@ -36,7 +36,7 @@ theatres:
 
 **_Ώρα έναρξης:_** Διπλή παράσταση στις 11:00 & 16:00
 
-**_Τοποθεσία:_** Δημοτικό Θέατρο Λευκωσίας
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Λευκωσίας](?#map)
 
 ***
 
@@ -44,4 +44,4 @@ theatres:
 
 **_Τιμή:_** €20 (πλατεία) | €17 (εξώστης)
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/mamma-mia-future-academy-apr-2023/?lang=el)και σε όλα τα καταστήματα Stephanis
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/mamma-mia-future-academy-apr-2023/?lang=el)
