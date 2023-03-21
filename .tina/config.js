@@ -93,14 +93,14 @@ export default defineConfig({
             label: "Cover Image",
             description: "This will be shown in the event details as a cover photo"
           },
-          {
-            type: "image",
-            name: "gallery_images",
-            label: "Gallery Image",
-            ui: {
-              component: "list"
-            }
-          },
+          // {
+          //   type: "image",
+          //   name: "gallery_images",
+          //   label: "Gallery Image",
+          //   ui: {
+          //     component: "list"
+          //   }
+          // },
           {
             type: "string",
             name: "category",
@@ -119,9 +119,30 @@ export default defineConfig({
             type: 'reference',
             collections: ['theatres'],
             description: "Theatres locations",
+            // ui: {
+            //   component: "list"
+            // }
           },
           {
-            label: "Image Gallery",
+            type: "object",
+            name: "additionalImgs",
+            list: true,
+            fields: [
+              {
+                type: "image",
+                name: "imgSrc",
+              },
+            ],
+            ui: {
+              itemProps: (item) => {
+                return {
+                  label: item?.imgSrc,
+                  style: { background: `left / contain no-repeat url(${item?.imgSrc})`} };
+              },
+            },
+          },
+          {
+            label: "Image Gallery!!!",
             name: "gallery",
             type: "object",
             list: true,
@@ -136,13 +157,13 @@ export default defineConfig({
                 name: "title",
                 type: "string",
               },
-              { label: "Image", name: "image", type: "image" },
-              {
-                label: "Size",
-                name: "size",
-                type: "string",
-                options: ["sm", "med", "lg", "xl"],
-              },
+              // { label: "Image", name: "image", type: "image" },
+              // {
+              //   label: "Size",
+              //   name: "size",
+              //   type: "string",
+              //   options: ["sm", "med", "lg", "xl"],
+              // },
             ],
           },
           {
@@ -154,6 +175,7 @@ export default defineConfig({
           },
         ],
       },
+
       {
         label: "Theatres",
         name: "theatres",
