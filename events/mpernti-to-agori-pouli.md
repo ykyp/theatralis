@@ -90,8 +90,8 @@ theatres:
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή:_** €15 | €12
-
-**_Προπώληση:_** Μέσω της ιστοσελίδας [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4164)και στο ταμείο του θεάτρου τις μέρες των παραστάσεων
+**_Τιμή:_** €12 | €7
 
 **_Κρατήσεις:_** Στα τηλέφωνα 24652800 και 99490102
+
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4164)και στο ταμείο του θεάτρου τις μέρες των παραστάσεων
