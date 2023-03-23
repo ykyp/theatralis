@@ -12,6 +12,10 @@ city: Nicosia, Famagusta
 event_image: "/images/uploads/to-gato-mou-ton-len-swtiri_1.jpg"
 cover_image: ''
 gallery_images:
+- "/images/uploads/to-gato-mou-ton-len-swtiri_7.JPG"
+- "/images/uploads/to-gato-mou-ton-len-swtiri_5.JPG"
+- "/images/uploads/to-gato-mou-ton-len-swtiri_4.JPG"
+- "/images/uploads/to-gato-mou-ton-len-swtiri_3.JPG"
 - "/images/uploads/to-gato-mou-ton-len-swtiri_2.jpg"
 category: drama
 extended: false
