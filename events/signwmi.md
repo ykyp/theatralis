@@ -8,9 +8,10 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Limassol
-event_image: "/images/uploads/sigwmi.jpg"
+event_image: "/images/uploads/signwmi_2.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/signwmi_3.JPG"
 category: drama
 extended: false
 critic_link: ''
@@ -78,12 +79,14 @@ theatres:
 
 **_Τοποθεσία:_** [Θέατρο Δέντρο](?#map)
 
+**_Διάρκεια:_** 1 ώρα και 30 λεπτά
+
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή:_** €15 | €12
+**_Τιμή:_** €15 | €10
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας Soldout και σε όλα τα καταστήματα Stephanis
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/signomi-ethal-2023/?lang=en)και σε όλα τα καταστήματα Stephanis
 
 **_Πληροφορίες:_** Στο τηλέφωνο 25877827
