@@ -78,4 +78,4 @@ theatres:
 
 **_Τιμή:_** €10
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας της [Soldout ](https://www.soldoutticketbox.com/to-agori-me-ti-valitsa-apr-2023/?lang=en)και σε όλα τα καταστήματα Stephanis
+**_Προπώληση:_** Μέσω της ιστοσελίδας της [Soldout](https://www.soldoutticketbox.com/to-agori-me-ti-valitsa-apr-2023/?lang=en)
