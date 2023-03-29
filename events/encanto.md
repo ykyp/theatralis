@@ -1,8 +1,8 @@
 ---
 title: Στον Μαγικo κoσμο του Encanto
-startDate: 2023-04-10
-endDate: 2023-04-10
-nicosia_dates: '2023-04-10'
+startDate: 2023-03-28
+endDate: 2023-03-28
+nicosia_dates: '2023-03-28'
 limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
