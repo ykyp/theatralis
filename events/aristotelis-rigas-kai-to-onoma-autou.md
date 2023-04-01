@@ -11,9 +11,9 @@ city: Nicosia, Larnaca, limassol
 event_image: "/images/uploads/rigas1.jpg"
 cover_image: ''
 gallery_images: 
-- /images/uploads/red-peter_3.jpg
-- /images/uploads/red-peter_2.jpg
-- /images/uploads/red-peter_1.jpg
+- imgSrc: /images/uploads/red-peter_3.jpg
+- imgSrc: /images/uploads/red-peter_2.jpg
+- imgSrc: /images/uploads/red-peter_1.jpg
 category: standup
 extended: false
 critic_link: ''
