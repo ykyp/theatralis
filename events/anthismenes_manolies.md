@@ -13,19 +13,18 @@ city: 'Nicosia, Limassol'
 event_image: /images/uploads/anthismenes-manolies-satiriko.jpg
 cover_image: ''
 gallery_images:
-- imgSrc: /images/uploads/anthismenes-manolies_4.jpg
-- imgSrc: /images/uploads/anthismenes-manolies_3.jpg
-- imgSrc: /images/uploads/anthismenes-manolies_2.jpg
-- imgSrc: /images/uploads/anthismenes-manolies_1.jpg
+  - imgSrc: /images/uploads/anthismenes-manolies_4.jpg
+  - imgSrc: /images/uploads/anthismenes-manolies_3.jpg
+  - imgSrc: /images/uploads/anthismenes-manolies_2.jpg
+  - imgSrc: /images/uploads/anthismenes-manolies_1.jpg
 category: 'drama, comedy'
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- name: theatres/satiriko.md.md
-- name: theatres/rialto.md
-
+  - name: theatres/satiriko.md.md
+  - name: theatres/rialto.md
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -66,7 +65,7 @@ theatres:
 
 ***Πρεμιέρα:*** Παρασκευή 10 Μαρτίου στις 20:30
 
-***Παραστάσεις:*** Κάθε Τετάρτη, Σάββατο και Κυριακή μέχρι τις 2 Απριλίου
+***Παραστάσεις:*** Κάθε Τετάρτη, Σάββατο και Κυριακή μέχρι τις 2 Απριλίου.
 
 ***Ώρα έναρξης:*** 20:30 | Κυριακή στις 18:30
 
