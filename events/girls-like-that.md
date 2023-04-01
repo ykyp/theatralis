@@ -1,9 +1,8 @@
 ---
 title: girls like that
-startDate: 2023-02-04
-endDate: 2023-02-19
-nicosia_dates: 2023-02-04, 2023-02-05, 2023-02-06, 2023-02-11, 2023-02-12, 2023-02-18,
-  2023-02-19
+startDate: 2023-03-25
+endDate: 2023-03-27
+nicosia_dates: 2023-03-25, 2023-03-26, 2023-03-27
 limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
@@ -21,12 +20,12 @@ gallery_images:
 - "/images/uploads/girls-like-that_2.jpg"
 - "/images/uploads/girls-like-that_1.jpg"
 category: Drama
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/satiriko.md.md
+- theatres/egkwmio-politistiko-kentro.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -61,11 +60,11 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Ημερομηνίες:_** Σάββατο 4 Φεβρουαρίου 2023 | Κυριακή 5 Φεβρουαρίου 2023 | Δευτέρα 6 Φεβρουαρίου 2023 | Σάββατο 11 Φεβρουαρίου 2023 | Κυριακή 12 Φεβρουαρίου 2023 | Σάββατο 18 Φεβρουαρίου 2023 | Κυριακή 19 Φεβρουαρίου 2023
+**_Ημερομηνίες:_** Σάββατο 25 Μαρτίου 2023 | Κυριακή 26 Μαρτίου 2023 | Δευτέρα 27 Μαρτίου 2023
 
 **_Ώρα έναρξης:_** 20:30 | Κυριακή στις 19:00
 
-**_Τοποθεσία:_** [Σατιρικό Θέατρο | Πάνω Σκηνή](?#map)
+**_Τοποθεσία:_** [Εγκώμιο Πολιτιστικό Κέντρο](?#map)
 
 **_Διάρκεια:_** 90 λεπτά
 
@@ -77,4 +76,4 @@ theatres:
 
 **_Τιμή:_** €15 | €12 (μαθητές, φοιτητές, συνταξιούχοι)
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/girls-like-that-feb-2023/?lang=el)και στα καταστήματα Stephanis
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/girls-like-that-feb-2023/?lang=en)και στα καταστήματα Stephanis
