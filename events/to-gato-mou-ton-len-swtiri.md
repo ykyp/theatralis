@@ -12,19 +12,19 @@ city: Nicosia, Famagusta
 event_image: "/images/uploads/to-gato-mou-ton-len-swtiri_1.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/to-gato-mou-ton-len-swtiri_7.JPG"
-- "/images/uploads/to-gato-mou-ton-len-swtiri_5.JPG"
-- "/images/uploads/to-gato-mou-ton-len-swtiri_4.JPG"
-- "/images/uploads/to-gato-mou-ton-len-swtiri_3.JPG"
-- "/images/uploads/to-gato-mou-ton-len-swtiri_2.jpg"
+-  imgSrc: /images/uploads/to-gato-mou-ton-len-swtiri_7.JPG
+-  imgSrc: /images/uploads/to-gato-mou-ton-len-swtiri_5.JPG
+-  imgSrc: /images/uploads/to-gato-mou-ton-len-swtiri_4.JPG
+-  imgSrc: /images/uploads/to-gato-mou-ton-len-swtiri_3.JPG
+-  imgSrc: /images/uploads/to-gato-mou-ton-len-swtiri_2.jpg
 category: drama
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/kentro-enilikwn-dimou-deryneias.md
-- theatres/Flea-theatre.md
+- name: theatres/kentro-enilikwn-dimou-deryneias.md
+- name: theatres/Flea-theatre.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

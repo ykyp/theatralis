@@ -63,7 +63,7 @@ const t = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main", n = a
           {
             type: "string",
             name: "larnaca_dates",
-            label: "Larnacs Dates",
+            label: "Larnaca Dates",
             description: "Input dates on this format YYYY-MM-DD separated by comma. Example:2022-10-08, 2022-10-09"
           },
           {
@@ -103,15 +103,29 @@ const t = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main", n = a
             description: "Enable this if the event got extended"
           },
           {
-            label: "Theatres",
+            label: "Add Theatre",
             name: "theatres",
-            type: "reference",
-            collections: ["theatres"],
-            description: "Theatres locations"
+            type: "object",
+            list: !0,
+            ui: {
+              itemProps: (e) => ({
+                label: e == null ? void 0 : e.name,
+                style: {}
+              })
+            },
+            fields: [
+              {
+                label: "Select Theatre",
+                name: "name",
+                type: "reference",
+                collections: ["theatres"],
+                description: "Theatres locations"
+              }
+            ]
           },
           {
             type: "object",
-            name: "additionalImgs",
+            name: "gallery_images",
             list: !0,
             fields: [
               {
@@ -125,22 +139,6 @@ const t = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main", n = a
                 style: { background: `left / contain no-repeat url(${e == null ? void 0 : e.imgSrc})` }
               })
             }
-          },
-          {
-            label: "Image Gallery!!!",
-            name: "gallery",
-            type: "object",
-            list: !0,
-            ui: {
-              itemProps: (e) => ({ label: e == null ? void 0 : e.title })
-            },
-            fields: [
-              {
-                label: "Title",
-                name: "title",
-                type: "string"
-              }
-            ]
           },
           {
             type: "rich-text",

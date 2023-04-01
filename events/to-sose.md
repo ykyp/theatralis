@@ -12,16 +12,16 @@ city: Nicosia, Limassol
 event_image: "/images/uploads/to-sose.JPG"
 cover_image: ''
 gallery_images:
-- "/images/uploads/to-sose_3.JPG"
-- "/images/uploads/to-sose_2.JPG"
+-  imgSrc: /images/uploads/to-sose_3.JPG
+-  imgSrc: /images/uploads/to-sose_2.JPG
 category: Comedy
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/patticheio-dimotiko-theatro-lemesos.md
-- theatres/theatro-dionysos.md
+- name: theatres/patticheio-dimotiko-theatro-lemesos.md
+- name: theatres/theatro-dionysos.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

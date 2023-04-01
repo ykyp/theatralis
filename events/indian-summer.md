@@ -18,8 +18,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/let-them-eat-cake.md
-- theatres/theatro-ena-limassol_theatro_versus.md
+- name: theatres/let-them-eat-cake.md
+- name: theatres/theatro-ena-limassol_theatro_versus.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

@@ -21,28 +21,27 @@ export const EventsPartsFragmentDoc = gql`
   category
   extended
   theatres {
-    ... on Theatres {
-      name
-      city
-      google_maps_link
-      address
-      latlong
-      logo
-      website
-      instagram_page
-      facebook_page
-    }
-    ... on Document {
-      id
+    __typename
+    name {
+      ... on Theatres {
+        name
+        city
+        google_maps_link
+        address
+        latlong
+        logo
+        website
+        instagram_page
+        facebook_page
+      }
+      ... on Document {
+        id
+      }
     }
   }
-  additionalImgs {
+  gallery_images {
     __typename
     imgSrc
-  }
-  gallery {
-    __typename
-    title
   }
   body
 }

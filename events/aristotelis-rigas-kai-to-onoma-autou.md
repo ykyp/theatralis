@@ -10,17 +10,19 @@ paphos_dates: ''
 city: Nicosia, Larnaca, limassol
 event_image: "/images/uploads/rigas1.jpg"
 cover_image: ''
-gallery_images:
-- "/images/uploads/aristotelis_rigas_1.jpg"
-- "/images/uploads/rigas2.jpg"
+gallery_images: 
+- /images/uploads/red-peter_3.jpg
+- /images/uploads/red-peter_2.jpg
+- /images/uploads/red-peter_1.jpg
 category: standup
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/ravens-music-hall.md
-- theatres/cine-studio.md
+- name: theatres/rialto.md
+- name: theatres/satiriko.md.md
+- name: theatres/dimarxeio-agias-napas.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

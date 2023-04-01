@@ -12,17 +12,17 @@ city: Nicosia, Limassol
 event_image: "/images/uploads/fwties.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/fwties_4.jpg"
-- "/images/uploads/fwties_3.jpg"
-- "/images/uploads/fwties_2.jpg"
+- imgSrc: /images/uploads/fwties_4.jpg
+- imgSrc: /images/uploads/fwties_3.jpg
+- imgSrc: /images/uploads/fwties_2.jpg
 category: monologue
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/texnoxwros-ethal.md
-- theatres/theatro-anemona.md
+- name: theatres/texnoxwros-ethal.md
+- name: theatres/theatro-anemona.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

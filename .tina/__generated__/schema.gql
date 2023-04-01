@@ -87,14 +87,14 @@ type Collection {
 
 union DocumentNode = Events | Theatres | Archive
 
-union EventsTheatres = Theatres
+union EventsTheatresName = Theatres
 
-type EventsAdditionalImgs {
-  imgSrc: String
+type EventsTheatres {
+  name: EventsTheatresName
 }
 
-type EventsGallery {
-  title: String
+type EventsGallery_images {
+  imgSrc: String
 }
 
 type Events implements Node & Document {
@@ -111,9 +111,8 @@ type Events implements Node & Document {
   cover_image: String
   category: String
   extended: Boolean
-  theatres: EventsTheatres
-  additionalImgs: [EventsAdditionalImgs]
-  gallery: [EventsGallery]
+  theatres: [EventsTheatres]
+  gallery_images: [EventsGallery_images]
   body: JSON
   id: ID!
   _sys: SystemInfo!
@@ -147,16 +146,16 @@ input BooleanFilter {
   exists: Boolean
 }
 
-input EventsTheatresFilter {
+input EventsTheatresNameFilter {
   theatres: TheatresFilter
 }
 
-input EventsAdditionalImgsFilter {
-  imgSrc: ImageFilter
+input EventsTheatresFilter {
+  name: EventsTheatresNameFilter
 }
 
-input EventsGalleryFilter {
-  title: StringFilter
+input EventsGallery_imagesFilter {
+  imgSrc: ImageFilter
 }
 
 input RichTextFilter {
@@ -180,8 +179,7 @@ input EventsFilter {
   category: StringFilter
   extended: BooleanFilter
   theatres: EventsTheatresFilter
-  additionalImgs: EventsAdditionalImgsFilter
-  gallery: EventsGalleryFilter
+  gallery_images: EventsGallery_imagesFilter
   body: RichTextFilter
 }
 
@@ -282,12 +280,12 @@ input DocumentMutation {
   archive: ArchiveMutation
 }
 
-input EventsAdditionalImgsMutation {
-  imgSrc: String
+input EventsTheatresMutation {
+  name: String
 }
 
-input EventsGalleryMutation {
-  title: String
+input EventsGallery_imagesMutation {
+  imgSrc: String
 }
 
 input EventsMutation {
@@ -304,9 +302,8 @@ input EventsMutation {
   cover_image: String
   category: String
   extended: Boolean
-  theatres: String
-  additionalImgs: [EventsAdditionalImgsMutation]
-  gallery: [EventsGalleryMutation]
+  theatres: [EventsTheatresMutation]
+  gallery_images: [EventsGallery_imagesMutation]
   body: JSON
 }
 

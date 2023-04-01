@@ -11,20 +11,20 @@ city: Nicosia, Limassol
 event_image: "/images/uploads/to-agori-me-ti-valitsa_1.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/to-agori-me-ti-valitsa_7.jpg"
-- "/images/uploads/to-agori-me-ti-valitsa_6.jpg"
-- "/images/uploads/to-agori-me-ti-valitsa_5.jpg"
-- "/images/uploads/to-agori-me-ti-valitsa_4.jpg"
-- "/images/uploads/to-agori-me-ti-valitsa_3.jpg"
-- "/images/uploads/to-agori-me-ti-valitsa_2.jpg"
+-  imgSrc: /images/uploads/to-agori-me-ti-valitsa_7.jpg
+-  imgSrc: /images/uploads/to-agori-me-ti-valitsa_6.jpg
+-  imgSrc: /images/uploads/to-agori-me-ti-valitsa_5.jpg
+-  imgSrc: /images/uploads/to-agori-me-ti-valitsa_4.jpg
+-  imgSrc: /images/uploads/to-agori-me-ti-valitsa_3.jpg
+-  imgSrc: /images/uploads/to-agori-me-ti-valitsa_2.jpg
 category: Children
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/polyxwros-sinergeio.md
-- theatres/theatro_dentro.md
+- name: theatres/polyxwros-sinergeio.md
+- name: theatres/theatro_dentro.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

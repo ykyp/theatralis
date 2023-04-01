@@ -18,9 +18,9 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/attikon.md
-- theatres/palio-xidadiko.md
-- theatres/theatro_dentro.md
+- name: theatres/attikon.md
+- name: theatres/palio-xidadiko.md
+- name: theatres/theatro_dentro.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

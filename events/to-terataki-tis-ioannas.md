@@ -17,7 +17,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro_melina_merkouri.md
+- name: theatres/theatro_melina_merkouri.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

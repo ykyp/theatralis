@@ -12,15 +12,15 @@ city: nicosia
 event_image: "/images/uploads/o-gamos_1.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/o-gamos_3.jpg"
-- "/images/uploads/o-gamos_2.jpg"
+-  imgSrc: /images/uploads/o-gamos_3.jpg
+-  imgSrc: /images/uploads/o-gamos_2.jpg
 category: drama, novel
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/wherehaus.md
+- name: theatres/wherehaus.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

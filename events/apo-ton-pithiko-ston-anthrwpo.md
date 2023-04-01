@@ -11,19 +11,14 @@ paphos_dates: ''
 city: Famagusta, nicosia, limassol
 event_image: "/images/uploads/red-peter_4.jpg"
 cover_image: ''
-gallery_images:
-- "/images/uploads/red-peter_3.jpg"
-- "/images/uploads/red-peter_2.jpg"
-- "/images/uploads/red-peter_1.jpg"
+gallery_images: []
 category: satire
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/rialto.md
-- theatres/satiriko.md.md
-- theatres/dimarxeio-agias-napas.md
+- name: theatres/kapou-allou.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

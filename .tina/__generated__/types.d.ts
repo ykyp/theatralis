@@ -191,16 +191,16 @@ export type CollectionDocumentsArgs = {
 
 export type DocumentNode = Events | Theatres | Archive;
 
-export type EventsTheatres = Theatres;
+export type EventsTheatresName = Theatres;
 
-export type EventsAdditionalImgs = {
-  __typename?: 'EventsAdditionalImgs';
-  imgSrc?: Maybe<Scalars['String']>;
+export type EventsTheatres = {
+  __typename?: 'EventsTheatres';
+  name?: Maybe<EventsTheatresName>;
 };
 
-export type EventsGallery = {
-  __typename?: 'EventsGallery';
-  title?: Maybe<Scalars['String']>;
+export type EventsGallery_Images = {
+  __typename?: 'EventsGallery_images';
+  imgSrc?: Maybe<Scalars['String']>;
 };
 
 export type Events = Node & Document & {
@@ -218,9 +218,8 @@ export type Events = Node & Document & {
   cover_image?: Maybe<Scalars['String']>;
   category?: Maybe<Scalars['String']>;
   extended?: Maybe<Scalars['Boolean']>;
-  theatres?: Maybe<EventsTheatres>;
-  additionalImgs?: Maybe<Array<Maybe<EventsAdditionalImgs>>>;
-  gallery?: Maybe<Array<Maybe<EventsGallery>>>;
+  theatres?: Maybe<Array<Maybe<EventsTheatres>>>;
+  gallery_images?: Maybe<Array<Maybe<EventsGallery_Images>>>;
   body?: Maybe<Scalars['JSON']>;
   id: Scalars['ID'];
   _sys: SystemInfo;
@@ -254,16 +253,16 @@ export type BooleanFilter = {
   exists?: InputMaybe<Scalars['Boolean']>;
 };
 
-export type EventsTheatresFilter = {
+export type EventsTheatresNameFilter = {
   theatres?: InputMaybe<TheatresFilter>;
 };
 
-export type EventsAdditionalImgsFilter = {
-  imgSrc?: InputMaybe<ImageFilter>;
+export type EventsTheatresFilter = {
+  name?: InputMaybe<EventsTheatresNameFilter>;
 };
 
-export type EventsGalleryFilter = {
-  title?: InputMaybe<StringFilter>;
+export type EventsGallery_ImagesFilter = {
+  imgSrc?: InputMaybe<ImageFilter>;
 };
 
 export type RichTextFilter = {
@@ -287,8 +286,7 @@ export type EventsFilter = {
   category?: InputMaybe<StringFilter>;
   extended?: InputMaybe<BooleanFilter>;
   theatres?: InputMaybe<EventsTheatresFilter>;
-  additionalImgs?: InputMaybe<EventsAdditionalImgsFilter>;
-  gallery?: InputMaybe<EventsGalleryFilter>;
+  gallery_images?: InputMaybe<EventsGallery_ImagesFilter>;
   body?: InputMaybe<RichTextFilter>;
 };
 
@@ -461,12 +459,12 @@ export type DocumentMutation = {
   archive?: InputMaybe<ArchiveMutation>;
 };
 
-export type EventsAdditionalImgsMutation = {
-  imgSrc?: InputMaybe<Scalars['String']>;
+export type EventsTheatresMutation = {
+  name?: InputMaybe<Scalars['String']>;
 };
 
-export type EventsGalleryMutation = {
-  title?: InputMaybe<Scalars['String']>;
+export type EventsGallery_ImagesMutation = {
+  imgSrc?: InputMaybe<Scalars['String']>;
 };
 
 export type EventsMutation = {
@@ -483,9 +481,8 @@ export type EventsMutation = {
   cover_image?: InputMaybe<Scalars['String']>;
   category?: InputMaybe<Scalars['String']>;
   extended?: InputMaybe<Scalars['Boolean']>;
-  theatres?: InputMaybe<Scalars['String']>;
-  additionalImgs?: InputMaybe<Array<InputMaybe<EventsAdditionalImgsMutation>>>;
-  gallery?: InputMaybe<Array<InputMaybe<EventsGalleryMutation>>>;
+  theatres?: InputMaybe<Array<InputMaybe<EventsTheatresMutation>>>;
+  gallery_images?: InputMaybe<Array<InputMaybe<EventsGallery_ImagesMutation>>>;
   body?: InputMaybe<Scalars['JSON']>;
 };
 
@@ -505,7 +502,7 @@ export type ArchiveMutation = {
   body?: InputMaybe<Scalars['JSON']>;
 };
 
-export type EventsPartsFragment = { __typename?: 'Events', title?: string | null, city?: string | null, startDate?: string | null, endDate?: string | null, nicosia_dates?: string | null, limassol_dates?: string | null, larnaca_dates?: string | null, famagusta_dates?: string | null, paphos_dates?: string | null, event_image?: string | null, cover_image?: string | null, category?: string | null, extended?: boolean | null, body?: any | null, theatres?: { __typename?: 'Theatres', name?: string | null, city?: string | null, google_maps_link?: string | null, address?: string | null, latlong?: string | null, logo?: string | null, website?: string | null, instagram_page?: string | null, facebook_page?: string | null, id: string } | null, additionalImgs?: Array<{ __typename: 'EventsAdditionalImgs', imgSrc?: string | null } | null> | null, gallery?: Array<{ __typename: 'EventsGallery', title?: string | null } | null> | null };
+export type EventsPartsFragment = { __typename?: 'Events', title?: string | null, city?: string | null, startDate?: string | null, endDate?: string | null, nicosia_dates?: string | null, limassol_dates?: string | null, larnaca_dates?: string | null, famagusta_dates?: string | null, paphos_dates?: string | null, event_image?: string | null, cover_image?: string | null, category?: string | null, extended?: boolean | null, body?: any | null, theatres?: Array<{ __typename: 'EventsTheatres', name?: { __typename?: 'Theatres', name?: string | null, city?: string | null, google_maps_link?: string | null, address?: string | null, latlong?: string | null, logo?: string | null, website?: string | null, instagram_page?: string | null, facebook_page?: string | null, id: string } | null } | null> | null, gallery_images?: Array<{ __typename: 'EventsGallery_images', imgSrc?: string | null } | null> | null };
 
 export type TheatresPartsFragment = { __typename?: 'Theatres', name?: string | null, city?: string | null, google_maps_link?: string | null, address?: string | null, latlong?: string | null, logo?: string | null, website?: string | null, instagram_page?: string | null, facebook_page?: string | null };
 
@@ -516,7 +513,7 @@ export type EventsQueryVariables = Exact<{
 }>;
 
 
-export type EventsQuery = { __typename?: 'Query', events: { __typename?: 'Events', id: string, title?: string | null, city?: string | null, startDate?: string | null, endDate?: string | null, nicosia_dates?: string | null, limassol_dates?: string | null, larnaca_dates?: string | null, famagusta_dates?: string | null, paphos_dates?: string | null, event_image?: string | null, cover_image?: string | null, category?: string | null, extended?: boolean | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, theatres?: { __typename?: 'Theatres', name?: string | null, city?: string | null, google_maps_link?: string | null, address?: string | null, latlong?: string | null, logo?: string | null, website?: string | null, instagram_page?: string | null, facebook_page?: string | null, id: string } | null, additionalImgs?: Array<{ __typename: 'EventsAdditionalImgs', imgSrc?: string | null } | null> | null, gallery?: Array<{ __typename: 'EventsGallery', title?: string | null } | null> | null } };
+export type EventsQuery = { __typename?: 'Query', events: { __typename?: 'Events', id: string, title?: string | null, city?: string | null, startDate?: string | null, endDate?: string | null, nicosia_dates?: string | null, limassol_dates?: string | null, larnaca_dates?: string | null, famagusta_dates?: string | null, paphos_dates?: string | null, event_image?: string | null, cover_image?: string | null, category?: string | null, extended?: boolean | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, theatres?: Array<{ __typename: 'EventsTheatres', name?: { __typename?: 'Theatres', name?: string | null, city?: string | null, google_maps_link?: string | null, address?: string | null, latlong?: string | null, logo?: string | null, website?: string | null, instagram_page?: string | null, facebook_page?: string | null, id: string } | null } | null> | null, gallery_images?: Array<{ __typename: 'EventsGallery_images', imgSrc?: string | null } | null> | null } };
 
 export type EventsConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']>;
@@ -528,7 +525,7 @@ export type EventsConnectionQueryVariables = Exact<{
 }>;
 
 
-export type EventsConnectionQuery = { __typename?: 'Query', eventsConnection: { __typename?: 'EventsConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'EventsConnectionEdges', cursor: string, node?: { __typename?: 'Events', id: string, title?: string | null, city?: string | null, startDate?: string | null, endDate?: string | null, nicosia_dates?: string | null, limassol_dates?: string | null, larnaca_dates?: string | null, famagusta_dates?: string | null, paphos_dates?: string | null, event_image?: string | null, cover_image?: string | null, category?: string | null, extended?: boolean | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, theatres?: { __typename?: 'Theatres', name?: string | null, city?: string | null, google_maps_link?: string | null, address?: string | null, latlong?: string | null, logo?: string | null, website?: string | null, instagram_page?: string | null, facebook_page?: string | null, id: string } | null, additionalImgs?: Array<{ __typename: 'EventsAdditionalImgs', imgSrc?: string | null } | null> | null, gallery?: Array<{ __typename: 'EventsGallery', title?: string | null } | null> | null } | null } | null> | null } };
+export type EventsConnectionQuery = { __typename?: 'Query', eventsConnection: { __typename?: 'EventsConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'EventsConnectionEdges', cursor: string, node?: { __typename?: 'Events', id: string, title?: string | null, city?: string | null, startDate?: string | null, endDate?: string | null, nicosia_dates?: string | null, limassol_dates?: string | null, larnaca_dates?: string | null, famagusta_dates?: string | null, paphos_dates?: string | null, event_image?: string | null, cover_image?: string | null, category?: string | null, extended?: boolean | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, theatres?: Array<{ __typename: 'EventsTheatres', name?: { __typename?: 'Theatres', name?: string | null, city?: string | null, google_maps_link?: string | null, address?: string | null, latlong?: string | null, logo?: string | null, website?: string | null, instagram_page?: string | null, facebook_page?: string | null, id: string } | null } | null> | null, gallery_images?: Array<{ __typename: 'EventsGallery_images', imgSrc?: string | null } | null> | null } | null } | null> | null } };
 
 export type TheatresQueryVariables = Exact<{
   relativePath: Scalars['String'];
@@ -584,28 +581,27 @@ export const EventsPartsFragmentDoc = gql`
   category
   extended
   theatres {
-    ... on Theatres {
-      name
-      city
-      google_maps_link
-      address
-      latlong
-      logo
-      website
-      instagram_page
-      facebook_page
-    }
-    ... on Document {
-      id
+    __typename
+    name {
+      ... on Theatres {
+        name
+        city
+        google_maps_link
+        address
+        latlong
+        logo
+        website
+        instagram_page
+        facebook_page
+      }
+      ... on Document {
+        id
+      }
     }
   }
-  additionalImgs {
+  gallery_images {
     __typename
     imgSrc
-  }
-  gallery {
-    __typename
-    title
   }
   body
 }

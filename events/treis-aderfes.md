@@ -13,18 +13,18 @@ city: Nicosia
 event_image: "/images/uploads/treis-aderfes.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/treis-aderfes_3.jpg"
-- "/images/uploads/treis-aderfes_2.jpg"
+-  imgSrc: /images/uploads/treis-aderfes_3.jpg
+-  imgSrc: /images/uploads/treis-aderfes_2.jpg
 category: Drama
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
-- theatres/markidio-theatro.md
-- theatres/rialto.md
-- theatres/thoc.md
+- name: theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
+- name: theatres/markidio-theatro.md
+- name: theatres/rialto.md
+- name: theatres/thoc.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

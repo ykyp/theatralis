@@ -66,7 +66,7 @@ export default defineConfig({
           {
             type: "string",
             name: "larnaca_dates",
-            label: "Larnacs Dates",
+            label: "Larnaca Dates",
             description: "Input dates on this format YYYY-MM-DD separated by comma. Example:2022-10-08, 2022-10-09",
           },
           {
@@ -114,18 +114,30 @@ export default defineConfig({
             description: "Enable this if the event got extended"
           },
           {
-            label: 'Theatres',
-            name: 'theatres',
-            type: 'reference',
-            collections: ['theatres'],
-            description: "Theatres locations",
-            // ui: {
-            //   component: "list"
-            // }
+            label: "Add Theatre",
+            name: "theatres",
+            type: "object",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return {
+                  label: item?.name,
+                  style: { } };
+              },
+            },
+            fields: [
+              {
+                label: "Select Theatre",
+                name: "name",
+                type: "reference",
+                collections: ["theatres"],
+                description: "Theatres locations"
+              }
+            ]
           },
           {
             type: "object",
-            name: "additionalImgs",
+            name: "gallery_images",
             list: true,
             fields: [
               {
@@ -140,31 +152,6 @@ export default defineConfig({
                   style: { background: `left / contain no-repeat url(${item?.imgSrc})`} };
               },
             },
-          },
-          {
-            label: "Image Gallery!!!",
-            name: "gallery",
-            type: "object",
-            list: true,
-            ui: {
-              itemProps: (item) => {
-                return {label: item?.title};
-              },
-            },
-            fields: [
-              {
-                label: "Title",
-                name: "title",
-                type: "string",
-              },
-              // { label: "Image", name: "image", type: "image" },
-              // {
-              //   label: "Size",
-              //   name: "size",
-              //   type: "string",
-              //   options: ["sm", "med", "lg", "xl"],
-              // },
-            ],
           },
           {
             type: "rich-text",

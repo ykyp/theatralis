@@ -17,7 +17,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/rialto.md
+- name: theatres/rialto.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

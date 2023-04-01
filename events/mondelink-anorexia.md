@@ -17,8 +17,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro-ena-limassol_theatro_versus.md
-- theatres/theatro-maskarini.md
+- name: theatres/theatro-ena-limassol_theatro_versus.md
+- name: theatres/theatro-maskarini.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

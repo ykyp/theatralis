@@ -14,16 +14,16 @@ city: Nicosia
 event_image: "/images/uploads/bachelor.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/bachelor-i-epomeni-mera_3.jpg"
-- "/images/uploads/bachelor-i-epomeni-mera_2.jpg"
-- "/images/uploads/bachelor-i-epomeni-mera_1.jpg"
+- imgSrc: /images/uploads/bachelor-i-epomeni-mera_3.jpg
+- imgSrc: /images/uploads/bachelor-i-epomeni-mera_2.jpg
+- imgSrc: /images/uploads/bachelor-i-epomeni-mera_1.jpg
 category: Comedy
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro-ena-nicosia.md
+- name: theatres/theatro-ena-nicosia.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
