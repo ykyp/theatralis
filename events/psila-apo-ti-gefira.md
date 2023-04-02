@@ -17,6 +17,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+- theatres/amphitheatro_lakatamias.md
 - theatres/patticheio-dimotiko-theatro-lemesos.md
 
 ---
