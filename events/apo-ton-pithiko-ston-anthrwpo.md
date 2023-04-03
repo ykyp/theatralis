@@ -12,9 +12,12 @@ city: Famagusta, nicosia, limassol
 event_image: "/images/uploads/red-peter_4.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/red-peter_3.jpg"
-- "/images/uploads/red-peter_2.jpg"
-- "/images/uploads/red-peter_1.jpg"
+- "/images/uploads/red-peter_6.JPG"
+- "/images/uploads/red-peter_5.JPG"
+- "/images/uploads/red-peter_4.JPG"
+- "/images/uploads/red-peter_3.JPG"
+- "/images/uploads/red-peter_2.JPG"
+- "/images/uploads/red-peter_1.JPG"
 category: satire
 extended: false
 critic_link: ''
