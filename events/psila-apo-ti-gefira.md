@@ -1,13 +1,13 @@
 ---
 title: ψηλα απο τη γεφυρα
-startDate: 2023-05-25
+startDate: 2023-05-23
 endDate: 2023-05-26
-nicosia_dates: ''
+nicosia_dates: 2023-05-23, 2023-05-24
 limassol_dates: 2023-05-25, 2023-05-26
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: Limassol
+city: Nicosia, Limassol
 event_image: "/images/uploads/psila-apo-ti-gefyra.jpg"
 cover_image: ''
 gallery_images: []
@@ -17,7 +17,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/amphitheatro_lakatamias.md
+- theatres/dimotiko-theatro-strovolou.md
 - theatres/patticheio-dimotiko-theatro-lemesos.md
 
 ---
@@ -43,9 +43,19 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
+**ΛΕΥΚΩΣΙΑ**
+
+**_Ημερομηνίες:_** Τρίτη 23 Μαΐου 2023 & Τετάρτη 24 Μαΐου 2023
+
+**_΄Ωρα έναρξης:_** 20:30
+
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Στροβόλου](?#map)
+
+***
+
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνίες:_** Πέμπτη 25 Μαίου 2023 & Παρασκευή 26 Μαίου 2023
+**_Ημερομηνίες:_** Πέμπτη 25 Μαΐου 2023 & Παρασκευή 26 Μαΐου 2023
 
 **_΄Ωρα έναρξης:_** 20:30
 
@@ -55,6 +65,9 @@ theatres:
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή:_** €30 | €28 | €25
+**_Τιμή:_** 
+
+* **Λεμεσός:** €30 (πλατεία) | €28 (πλατεία) | €25 (εξώστης)
+* **Λευκωσία:** €25 (πλατεία) | €20 (εξώστης)
 
 **_Προπώληση:_** Μέσω της ιστοσελίδας [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4176)και σε όλα τα καταστήματα ACS courier
