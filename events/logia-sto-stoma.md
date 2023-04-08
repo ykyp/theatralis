@@ -1,13 +1,13 @@
 ---
 title: λογια στο στομα
-startDate: 2023-03-28
-endDate: 2023-03-29
-nicosia_dates: ''
-limassol_dates: 2023-03-28, 2023-03-29
+startDate: 2023-04-22
+endDate: 2023-04-30
+nicosia_dates: 2023-04-22, 2023-04-23, 2023-04-28, 2023-04-30
+limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: Limassol
+city: nicosia
 event_image: "/images/uploads/logia-sto-stoma.jpg"
 cover_image: ''
 gallery_images:
@@ -19,7 +19,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/rialto.md
+- theatres/satiriko.md.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -66,13 +66,11 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**ΛΕΜΕΣΟΣ**
-
-**_Ημερομηνίες:_** Τρίτη 28 Μαρτίου 2023 | Τετάρτη 29 Μαρτίου 2023
+**_Ημερομηνίες:_** Σάββατο 22 Απριλίου 2023 | Κυριακή 23 Απριλίου 2023 | Παρασκευή 28 Απριλίου 2023 | Κυριακη 30 Απριλίου 2023
 
 **_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** [Θέατρο Ριάλτο](?#map)
+**_Τοποθεσία:_** [Σατιρικό Θέατρο](?#map)
 
 **_Διάρκεια:_** 90 λεπτά
 
@@ -84,4 +82,4 @@ theatres:
 
 **_Τιμή:_** €15 | €12
 
-**_Προπώληση:_** Απο την ιστοσελίδα του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/logia-sto-stoma-kieran-hurley-2693)
+**_Προπώληση:_** Απο την ιστοσελίδα της [Tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4182) και σε όλα τα καταστήματα ACS courier
