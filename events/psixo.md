@@ -13,7 +13,7 @@ city: nicosia
 event_image: "/images/uploads/psixo.png"
 cover_image: ''
 gallery_images: []
-category: ''
+category: drama
 extended: false
 critic_link: ''
 critic_title: ''
