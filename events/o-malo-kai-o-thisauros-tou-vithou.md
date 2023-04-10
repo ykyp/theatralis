@@ -2,9 +2,9 @@
 title: ο μαλο και ο θησαυρος του βυθου
 startDate: 2023-03-12
 endDate: 2023-05-14
-nicosia_dates: '2023-03-19'
+nicosia_dates: 2023-03-19, 2023-04-09
 limassol_dates: '2023-04-02'
-larnaca_dates: '2023-03-12'
+larnaca_dates: '2023-05-21'
 famagusta_dates: ''
 paphos_dates: '2023-05-14'
 city: Nicosia, Limassol, Larnaca, Pafos
@@ -17,10 +17,10 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/markidio-theatro.md
-- theatres/patticheio-dimotiko-theatro-lemesos.md
-- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
-- theatres/dimotiko-theatro-leukosias.md
+- name: theatres/markidio-theatro.md
+- name: theatres/patticheio-dimotiko-theatro-lemesos.md
+- name: theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
+- name: theatres/dimotiko-theatro-leukosias.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -52,21 +52,11 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**ΛΑΡΝΑΚΑ**
-
-**_Ημερομηνία:_** Κυριακή 12 Μαρτίου 2023
-
-**_Ώρα έναρξης:_** 12:00
-
-**_Τοποθεσία:_** [Δημοτικό Θέατρο Λάρνακας - Γ. Λυκούργος](?#map)
-
-***
-
 **ΛΕΥΚΩΣΙΑ**
 
-**_Ημερομηνία:_** Κυριακή 19 Μαρτίου 2023
+**_Ημερομηνία:_** Κυριακή 19 Μαρτίου 2023 | Κυριακή 9 Απριλίου 2023
 
-**_Ώρα έναρξης:_** Διπλή παράσταση στις 12:00 & 15:00
+**_Ώρα έναρξης:_** Διπλή παράσταση στις 12:00 & 15:00 (19/03) | 12:00 (09/04)
 
 **_Τοποθεσία:_** [Δημοτικό Θέατρο Λατσιών](?#map)
 
@@ -76,7 +66,7 @@ theatres:
 
 **_Ημερομηνία:_** Κυριακή 2 Απριλίου 2023
 
-**_Ώρα έναρξης:_** 12:00
+**_Ώρα έναρξης:_** Διπλή παράσταση στις 12:00 & 15:00
 
 **_Τοποθεσία:_** [Παττίχειο Θέατρο Λεμεσού](?#map)
 
@@ -89,6 +79,16 @@ theatres:
 **_Ώρα έναρξης:_** 11:00
 
 **_Τοποθεσία:_** [Μαρκίδειο Θέατρο Πάφου](?#map)
+
+***
+
+**ΛΑΡΝΑΚΑ**
+
+**_Ημερομηνία:_** Κυριακή 21 Μαίου 2023
+
+**_Ώρα έναρξης:_** 11:00
+
+**_Τοποθεσία:_** [Δημοτικό Θέατρο Λάρνακας - Γ. Λυκούργος](?#map)
 
 ***
 

@@ -1,9 +1,9 @@
 ---
 title: Ο Γλαρος Ιωναθαν Λιβινγκστον
 startDate: 2023-02-26
-endDate: 2023-04-30
+endDate: 2023-04-09
 nicosia_dates: 2023-02-26, 2023-03-05, 2023-03-12, 2023-03-19, 2023-03-26, 2023-04-02,
-  2023-04-09, 2023-04-16, 2023-04-23, 2023-04-30
+  2023-04-09, 2023-04-16, 2023-04-23, 2023-04-30, 2023-04-02, 2023-04-08, 2023-04-09
 limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
@@ -12,17 +12,19 @@ city: nicosia
 event_image: "/images/uploads/o-glaros-ionathan-_6.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/o-glaros-ionathan-_5.jpg"
-- "/images/uploads/o-glaros-ionathan-_4.jpg"
-- "/images/uploads/o-glaros-ionathan-_3.jpg"
-- "/images/uploads/o-glaros-ionathan-_2.jpg"
+-  imgSrc: /images/uploads/o-glaros_3.jpg
+-  imgSrc: /images/uploads/o-glaros_2.jpg
+-  imgSrc: /images/uploads/o-glaros-ionathan-_5.jpg
+-  imgSrc: /images/uploads/o-glaros-ionathan-_4.jpg
+-  imgSrc: /images/uploads/o-glaros-ionathan-_3.jpg
+-  imgSrc: /images/uploads/o-glaros-ionathan-_2.jpg
 category: novel
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/thoc-apothikes.md
+- name: theatres/thoc-apothikes.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -48,15 +50,15 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Πρεμιέρα:_** Κυριακή 26 Φεβρουαρίου στις 19:00
+**_Πρεμιέρα:_** Κυριακή 26 Φεβρουαρίου στις 17:00 (ΔΩΡΕΑΝ λόγω της παγκόσμιας ημέρας θεάτρου - απαραίτητη η τηλεφωνική κράτηση στο 77772717)
 
 **_Τακτικές παραστάσεις:_** Κάθε Κυριακή στις 17:00 και 19:00
 
+Επιπρόσθεση παράσταση το Σάββατο 8 Απριλίου στις 19:00
+
 **_Τοποθεσία:_** [Θέατρο Αποθήκες ΘΟΚ](?#map)
 
-**Υπερτιτλισμένες παραστάσεις:**
-
-Κυριακή 26 Μαρτίου 2023 στις 19:00 (ελληνικά)
+**Υπερτιτλισμένη παράσταση:**
 
 Κυριακή 2 Απριλίου 2023 στις 19:00 (αγγλικά και τουρκικά)
 

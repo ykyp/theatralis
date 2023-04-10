@@ -1,10 +1,11 @@
 ---
 title: bachelor, η επομενη μερα
 startDate: 2023-02-17
-endDate: 2023-03-31
+endDate: 2023-04-02
 nicosia_dates: 2023-02-17, 2023-02-18, 2023-02-19, 2023-02-24, 2023-02-25, 2023-02-26,
   2023-03-03, 2023-03-04, 2023-03-05, 2023-03-10, 2023-03-11, 2023-03-12, 2023-03-17,
-  2023-03-18, 2023-03-19, 2023-03-24, 2023-03-25, 2023-03-26, 2023-03-31
+  2023-03-18, 2023-03-19, 2023-03-24, 2023-03-25, 2023-03-26, 2023-03-31, 2023-04-01,
+  2023-04-02
 limassol_dates: ''
 larnaca_dates: ''
 famagusta_dates: ''
@@ -13,14 +14,16 @@ city: Nicosia
 event_image: "/images/uploads/bachelor.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/bachelor_1.jpg"
+- imgSrc: /images/uploads/bachelor-i-epomeni-mera_3.jpg
+- imgSrc: /images/uploads/bachelor-i-epomeni-mera_2.jpg
+- imgSrc: /images/uploads/bachelor-i-epomeni-mera_1.jpg
 category: Comedy
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro-ena-nicosia.md
+- name: theatres/theatro-ena-nicosia.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -46,7 +49,7 @@ theatres:
 
 **_Πρεμιέρα:_** Παρασκευή 17 Φεβρουαρίου στις 20:30
 
-**_Τακτικές παραστάσεις:_** Κάθε Παρασκευή, Σάββατο και Κυριακή
+**_Τακτικές παραστάσεις:_** Κάθε Παρασκευή, Σάββατο και Κυριακή μέχρι 2 Απριλίου
 
 **_Ώρα έναρξης:_** 20:30 | Κυριακή στις 19:00
 
