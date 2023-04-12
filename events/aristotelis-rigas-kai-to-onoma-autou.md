@@ -12,7 +12,7 @@ event_image: /images/uploads/rigas1.jpg
 cover_image: ''
 gallery_images:
   - imgSrc: ''
-  - imgSrc: /images/uploads/red-peter_2.jpg
+  - imgSrc: ''
   - imgSrc: /images/uploads/red-peter_1.jpg
 category: standup
 extended: false
