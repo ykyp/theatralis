@@ -13,7 +13,7 @@ cover_image: ''
 gallery_images:
   - imgSrc: ''
   - imgSrc: ''
-  - imgSrc: /images/uploads/red-peter_1.jpg
+  - imgSrc: ''
 category: standup
 extended: false
 critic_link: ''
