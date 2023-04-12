@@ -48,4 +48,4 @@ gallery_images:
 
 Τιμή: €15 | €12
 
-Προπώληση: Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/to-plyntirio-tis-elise-wilk-2023/?lang=en ""), στο περίπτερο Τασία καθώς και στην είσοδο την ημέρα της παράστασης.
+Προπώληση: Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/to-plyntirio-tis-elise-wilk-2023/?lang=en), στο περίπτερο Τασία καθώς και στην είσοδο την ημέρα της παράστασης.
