@@ -19,6 +19,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+  - name: theatres/rialto.md
   - name: theatres/satiriko.md.md
 ---
 
