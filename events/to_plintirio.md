@@ -42,6 +42,8 @@ gallery_images:
 
 Τοποθεσία: Theatrical Hall AUCY
 
+Διάρκεια: 80 λεπτά
+
 #### ΕΙΣΙΤΗΡΙΑ
 
 Τιμή: €15 | €12
