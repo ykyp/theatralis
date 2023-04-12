@@ -12,7 +12,10 @@ paphos_dates: ''
 city: 'Famagusta, nicosia, limassol'
 event_image: /images/uploads/red-peter_4.jpg
 cover_image: ''
-gallery_images: []
+gallery_images:
+  - imgSrc: >-
+      https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Red
+      Peter_1.JPG
 category: satire
 extended: false
 critic_link: ''
