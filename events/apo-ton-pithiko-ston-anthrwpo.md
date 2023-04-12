@@ -15,6 +15,9 @@ cover_image: ''
 gallery_images:
   - imgSrc: >-
       https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Red
+      Peter_3.JPG
+  - imgSrc: >-
+      https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Red
       Peter_2.JPG
   - imgSrc: >-
       https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Red
