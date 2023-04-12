@@ -19,7 +19,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-  - name: theatres/theatro-maskarini.md
+  - name: theatres/satiriko.md.md
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
