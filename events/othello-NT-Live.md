@@ -8,7 +8,7 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Limassol
-event_image: ''
+event_image: "/images/uploads/othello-ntl.jpg"
 cover_image: ''
 gallery_images: []
 category: tragedy

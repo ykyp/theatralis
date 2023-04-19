@@ -8,7 +8,7 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Limassol
-event_image: ''
+event_image: "/images/uploads/o-asxhmos-marina.jpg"
 cover_image: ''
 gallery_images: []
 category: Comedy
