@@ -8,9 +8,11 @@ larnaca_dates: 2023-04-22, 2023-04-23, 2023-04-29, 2023-04-30, 2023-05-06, 2023-
 famagusta_dates: ''
 paphos_dates: ''
 city: larnaca
-event_image: "/images/uploads/to-plintirio_2.jpg"
+event_image: "/images/uploads/to-plintirio_1.jpg"
 cover_image: ''
-gallery_images: []
+gallery_images:
+- "/images/uploads/to-plintirio_2.jpg"
+- "/images/uploads/to-plinitrio_3.jpg"
 category: Comedy
 extended: false
 critic_link: ''
