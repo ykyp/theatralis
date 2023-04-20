@@ -1,7 +1,7 @@
 ---
 title: φοινιξ - οι αλλοι εισαι εσυ
 startDate: 2023-05-13
-endDate: 2023-04-25
+endDate: 2023-05-25
 nicosia_dates: '2023-05-13'
 limassol_dates: 2023-05-24, 2023-05-25
 larnaca_dates: ''
