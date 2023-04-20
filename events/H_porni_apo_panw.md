@@ -8,7 +8,7 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: Nicosia, Limassol
-event_image: ''
+event_image: "/images/uploads/i-porni-apo-panw.jpg"
 cover_image: ''
 gallery_images: []
 category: monologue
