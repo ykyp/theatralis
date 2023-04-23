@@ -2,8 +2,8 @@
 title: σωτηρια με λενε
 startDate: 2023-05-10
 endDate: 2023-05-12
-nicosia_dates: '2023-04-12'
-limassol_dates: '2023-04-10'
+nicosia_dates: '2023-05-12'
+limassol_dates: 2023-05-10, 2023-05-11
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
@@ -44,7 +44,7 @@ theatres:
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνία:_** Τετάρτη 10 Μαΐου 2023
+**_Ημερομηνία:_** Τετάρτη 10 Μαΐου 2023 | Πέμπτη 11 Μαΐου 2023
 
 **_'Ωρα έναρξης:_** 20:30
 
