@@ -1,20 +1,23 @@
 ---
 title: red peter - απο τον πιθηκο στον ανθρωπο
 startDate: 2023-03-29
-endDate: 2023-05-07
-nicosia_dates: 2023-04-01, 2023-04-02, 2023-04-08, 2023-04-09, 2023-04-15, 2023-04-16,
-  2023-04-22, 2023-04-23, 2023-04-29, 2023-04-30
-limassol_dates: '2023-04-11'
+endDate: 2023-06-01
+nicosia_dates: 2023-04-01, 2023-04-02, 2023-04-08, 2023-04-09, 2023-04-22, 2023-04-23,
+  2023-04-29, 2023-04-30
+limassol_dates: '2023-06-01'
 larnaca_dates: ''
-famagusta_dates: '2023-03-29'
+famagusta_dates: ''
 paphos_dates: ''
-city: Famagusta, nicosia, limassol
+city: nicosia, limassol
 event_image: "/images/uploads/red-peter_4.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/red-peter_3.jpg"
-- "/images/uploads/red-peter_2.jpg"
-- "/images/uploads/red-peter_1.jpg"
+- "/images/uploads/red-peter_6.JPG"
+- "/images/uploads/red-peter_5.JPG"
+- "/images/uploads/red-peter_4.JPG"
+- "/images/uploads/red-peter_3.JPG"
+- "/images/uploads/red-peter_2.JPG"
+- "/images/uploads/red-peter_1.JPG"
 category: satire
 extended: false
 critic_link: ''
@@ -23,7 +26,6 @@ critic_p: ''
 theatres:
 - theatres/rialto.md
 - theatres/satiriko.md.md
-- theatres/dimarxeio-agias-napas.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -55,18 +57,6 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**ΑΜΜΟΧΩΣΤΟΣ**
-
-**_Ημερομηνία:_** Τετάρτη 29 Μαρτίου 2023
-
-**_Ώρα έναρξης:_** 20:00
-
-**_Τοποθεσία:_** [Δημαρχείο Αγίας Νάπας](?#map)
-
-**Η ΠΑΡΑΣΤΑΣΗ ΔΙΟΡΓΑΝΩΝΕΤΑΙ ΣΤΑ ΠΛΑΙΣΙΑ ΤΟΥ ΤΡΙΜΗΝΟΥ ΘΕΑΤΡΙΚΩΝ ΠΑΡΑΣΤΑΣΕΩΝ ΔΗΜΟΥ ΑΓΙΟΥ ΝΑΠΑΣ ΚΑΙ Η ΕΙΣΟΔΟΣ ΕΙΝΑΙ ΔΩΡΕΑΝ!**
-
-***
-
 **ΛΕΥΚΩΣΙΑ**
 
 **_Ημερομηνίες:_** Σάββατο 1 Απριλίου 2023 | Κυριακή 2 Απριλίου 2023 | Σάββατο 8 Απριλίου 2023 | Κυριακή 9 Απριλίου 2023 | Σάββατο 15 Απριλίου 2023 | Κυριακή 16 Απριλίου 2023 | Σάββατο 22 Απριλίου 2023 | Κυριακή 23 Απριλίου 2023 | Σάββατο 29 Απριλίου 2023 | Κυριακή 30 Απριλίου 2023
@@ -75,15 +65,19 @@ theatres:
 
 **_Τοποθεσία:_** [Σατιρικό Θέατρο Κάτω Σκηνή (Υπόγειο) ](?#map)
 
+**Όλες οι παραστάσεις παρουσιάζονται με υπέρτιτλους σε ελληνικά και τούρκικα**
+
 ***
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνία:_** Τρίτη 11 Απριλίου 2023
+**_Ημερομηνία:_** Πέμπτη 1 Ιουνίου 2023
 
 **_Ώρα έναρξης:_** 20:30
 
 **_Τοποθεσία:_** [Θέατρο Ριάλτο](?#map)
+
+**Η παράσταση παρουσιάζεται με υπέρτιτλους σε ελληνικά και τούρκικα**
 
 ***
 
@@ -93,4 +87,4 @@ theatres:
 
 **_Κρατήσεις | Πληροφορίες:_** Στο τηλέφωνο 99251331
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/red-peter-antilogos-2023/?lang=en)(**ΛΕΥΚΩΣΙΑ**), μέσω της ιστοσελίδας του [Ριάλτο ](https://rialto.interticket.com/program/red-peter-apo-ton-pithiko-ston-anthropo-2737)(**ΛΕΜΕΣΟ**) και σε όλα τα καταστήματα Stephanis
+**_Προπώληση:_** Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/red-peter-antilogos-2023/?lang=en)(**ΛΕΥΚΩΣΙΑ**), μέσω της ιστοσελίδας του Ριάλτο (**ΛΕΜΕΣΟ**) και σε όλα τα καταστήματα Stephanis
