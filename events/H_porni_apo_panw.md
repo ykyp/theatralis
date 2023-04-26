@@ -14,7 +14,10 @@ event_image: >-
 cover_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/I porni apo
   panw_3.jpg
-gallery_images: []
+gallery_images:
+  - imgSrc: >-
+      https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/I porni apo
+      panw_1.jpg
 category: monologue
 extended: false
 critic_link: ''
