@@ -11,6 +11,6 @@ event_image: >-
 category: children
 theatres:
   - name: theatres/dimotiko-theatro-strovolou.md
-  - {}
+  - name: theatres/dimotiko_theatro_ypsona.md
 ---
 
