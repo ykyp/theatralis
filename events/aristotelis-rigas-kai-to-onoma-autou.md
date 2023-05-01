@@ -20,9 +20,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-  - name: theatres/theatro_dentro.md
+  - name: theatres/cine-studio.md
   - name: theatres/ravens-music-hall.md
-  - {}
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -41,9 +40,9 @@ theatres:
 
 **ΛΕΥΚΩΣΙΑ**
 
-***Ημερομηνία:*** Σάββατο 22 Απριλίου 2023
+***Ημερομηνία:*** Σάββατο 10 Ιουνίου 2023
 
-***Ώρα έναρξης:*** 20:00
+***Ώρα έναρξης:*** 20:30
 
 ***Τοποθεσία:*** [Cine Studio](?#map "")
 
