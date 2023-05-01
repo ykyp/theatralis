@@ -64,4 +64,4 @@ theatres:
 
 Τιμή: €18 | €15 | €12
 
-Προπώληση: Μέσω της ιστοσελόδας  [Soldout](https://www.soldoutticketbox.com/o-pseftis-voskos-may-2023/?lang=en)
+Προπώληση: Μέσω της ιστοσελίδας  [Soldout](https://www.soldoutticketbox.com/o-pseftis-voskos-may-2023/?lang=en)
