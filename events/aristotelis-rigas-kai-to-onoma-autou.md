@@ -1,10 +1,10 @@
 ---
 title: αριστοτελης ρηγας - και το ονομα αυτου
-startDate: '2023-04-22T00:00:00.000Z'
-endDate: '2023-04-24T00:00:00.000Z'
-nicosia_dates: '2023-04-22'
-limassol_dates: '2023-04-24'
-larnaca_dates: '2023-04-23'
+startDate: '2023-06-09T21:00:00.000Z'
+endDate: '2023-06-11T21:00:00.000Z'
+nicosia_dates: '2023-06-10'
+limassol_dates: '2023-06-12'
+larnaca_dates: '2023-06-11'
 famagusta_dates: ''
 paphos_dates: ''
 city: 'Nicosia, Larnaca, limassol'
@@ -20,9 +20,9 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-  - name: theatres/rialto.md
-  - name: theatres/satiriko.md.md
-  - name: theatres/dimarxeio-agias-napas.md
+  - name: theatres/theatro_dentro.md
+  - {}
+  - {}
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
