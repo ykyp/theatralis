@@ -21,7 +21,7 @@ critic_title: ''
 critic_p: ''
 theatres:
   - name: theatres/theatro_dentro.md
-  - {}
+  - name: theatres/ravens-music-hall.md
   - {}
 ---
 
