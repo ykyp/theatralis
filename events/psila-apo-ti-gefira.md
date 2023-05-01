@@ -70,7 +70,3 @@ theatres:
 **ΛΕΥΚΩΣΙΑ**: €25 | €20
 
 ***Προπώληση:*** Μέσω της ιστοσελίδας Tickethour ([ΛΕΜΕΣΟΣ ](https://shop.tickethour.com/showEventInformation.html?idEvent=4176)| [ΛΕΥΚΩΣΙΑ](https://shop.tickethour.com/showEventInformation.html?idEvent=4189)) και σε όλα τα καταστήματα ACS courier.
-
-ΓΙΑ ΛΕΜΕΣΟ ΠΑΤΗΣΤΕ [ΕΔΩ](https://shop.tickethour.com/showEventInformation.html?idEvent=4176)
-
-ΓΙΑ ΛΕΥΚΩΣΙΑ ΠΑΤΗΣΤΕ [ΕΔΩ](https://shop.tickethour.com/showEventInformation.html?idEvent=4189)
