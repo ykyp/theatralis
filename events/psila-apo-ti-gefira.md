@@ -71,6 +71,6 @@ theatres:
 
 ***Προπώληση:*** Μέσω της ιστοσελίδας Tickethour και σε όλα τα καταστήματα ACS courier.
 
-ΓΙΑ ΛΕΜΕΣΟ ΠΑΤΗΣΤΕ ΕΔΩ
+ΓΙΑ ΛΕΜΕΣΟ ΠΑΤΗΣΤΕ [ΕΔΩ](https://shop.tickethour.com/showEventInformation.html?idEvent=4176)
 
 ΓΙΑ ΛΕΥΚΩΣΙΑ ΠΑΤΗΣΤΕ [ΕΔΩ](https://shop.tickethour.com/showEventInformation.html?idEvent=4189)
