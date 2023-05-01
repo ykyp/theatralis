@@ -17,7 +17,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-  - {}
+  - name: theatres/wherehaus.md
   - {}
 ---
 
