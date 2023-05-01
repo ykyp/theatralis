@@ -12,7 +12,7 @@ event_image: /images/uploads/foinix.jpg
 cover_image: ''
 gallery_images:
   - imgSrc: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Finix_1.jpg'
-  - {}
+  - imgSrc: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Finix_2.jpg'
   - {}
 category: drama
 extended: false
