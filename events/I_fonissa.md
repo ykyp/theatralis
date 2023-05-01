@@ -6,6 +6,6 @@ endDate: '2023-05-15T21:00:00.000Z'
 nicosia_dates: '2023-05-16'
 category: drama
 theatres:
-  - {}
+  - name: theatres/dimotiko-theatro-strovolou.md
 ---
 
