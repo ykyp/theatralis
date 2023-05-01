@@ -18,7 +18,7 @@ critic_title: ''
 critic_p: ''
 theatres:
   - name: theatres/wherehaus.md
-  - {}
+  - name: theatres/rialto.md
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
