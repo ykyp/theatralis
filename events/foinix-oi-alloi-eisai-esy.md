@@ -10,7 +10,10 @@ paphos_dates: ''
 city: 'Nicosia, Limassol'
 event_image: /images/uploads/foinix.jpg
 cover_image: ''
-gallery_images: []
+gallery_images:
+  - imgSrc: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Finix_1.jpg'
+  - {}
+  - {}
 category: drama
 extended: false
 critic_link: ''
@@ -79,4 +82,4 @@ Trailer: Αντώνης Πουλιάσης
 
 ***Τιμή:*** €15 | €12 (φοιτητές, στρατιώτες, άνεργοι, συνταξιούχοι, πολύτεκνοι, ηθοποιοί)
 
-***Κρατήσεις***: Στο τηλέφωνο 96147809 (ΛΕΥΚΩΣΙΑ) και απο την ιστοσελίδα του [ΡΙΑΛΤΟ ](https://rialto.interticket.com/program/phoiniksoi-alloi-eisai-esuflashart-2792)(ΛΕΜΕΣΟΣ)
+***Κρατήσεις***: Στο τηλέφωνο 96147809 (ΛΕΥΚΩΣΙΑ) και απο την ιστοσελίδα του [ΡΙΑΛΤΟ ](https://rialto.interticket.com/program/phoiniksoi-alloi-eisai-esuflashart-2792 "")(ΛΕΜΕΣΟΣ)
