@@ -37,5 +37,11 @@ theatres:
 
 Τοπόθεσια: [Δημοτικό Θέατρο Στροβόλου](?#map)
 
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: €5
+
+Προπώληση: Μέσω της ιστοσελίδας [Tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4210)
+
 
 
