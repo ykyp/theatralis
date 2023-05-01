@@ -1,14 +1,14 @@
 ---
 title: ψηλα απο τη γεφυρα
-startDate: 2023-05-25
-endDate: 2023-05-26
-nicosia_dates: ''
-limassol_dates: 2023-05-25, 2023-05-26
+startDate: '2023-05-22T21:00:00.000Z'
+endDate: '2023-05-26T00:00:00.000Z'
+nicosia_dates: '2023-05-23, 2023-05-24'
+limassol_dates: '2023-05-25, 2023-05-26'
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: Limassol
-event_image: "/images/uploads/psila-apo-ti-gefyra.jpg"
+city: 'Limassol, Nicosia'
+event_image: /images/uploads/psila-apo-ti-gefyra.jpg
 cover_image: ''
 gallery_images: []
 category: drama
@@ -17,9 +17,10 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- name: theatres/patticheio-dimotiko-theatro-lemesos.md
-
+  - name: theatres/dimotiko-theatro-strovolou.md
+  - name: theatres/patticheio-dimotiko-theatro-lemesos.md
 ---
+
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
 
 Η φετινή – και σαρωτική, με τόσα sold outs – θεατρική χρονιά, παρουσιάζει το σπουδαίο έργο του Άρθουρ Μίλερ «Κάτω από τη Γέφυρα», σε σκηνοθεσία Γιώργου Νανούρη. Η πιο πολυσυζητημένη παράσταση της σεζόν. Η πλοκή εξελίσσεται σε έναν πρωταγωνιστή ο οποίος παλεύει συνεχώς με το «μέσα του».
@@ -44,16 +45,16 @@ theatres:
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνίες:_** Πέμπτη 25 Μαίου 2023 & Παρασκευή 26 Μαίου 2023
+***Ημερομηνίες:*** Πέμπτη 25 Μαίου 2023 & Παρασκευή 26 Μαίου 2023
 
-**_΄Ωρα έναρξης:_** 20:30
+***΄Ωρα έναρξης:*** 20:30
 
-**_Τοποθεσία:_** [Παττίχειο Δημοτικό Θέατρο](?#map)
+***Τοποθεσία:*** [Παττίχειο Δημοτικό Θέατρο](?#map "")
 
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή:_** €30 | €28 | €25
+***Τιμή:*** €30 | €28 | €25
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4176)και σε όλα τα καταστήματα ACS courier
+***Προπώληση:*** Μέσω της ιστοσελίδας [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4176 "")και σε όλα τα καταστήματα ACS courier
