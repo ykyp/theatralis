@@ -13,7 +13,7 @@ event_image: >-
 category: children
 theatres:
   - name: theatres/theatro_melina_merkouri.md
-  - {}
+  - name: theatres/patticheio-dimotiko-theatro-lemesos.md
   - {}
   - {}
 ---
