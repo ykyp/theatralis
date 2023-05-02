@@ -7,6 +7,7 @@ nicosia_dates: '2023-05-18, 2023-05-22, 2023-05-25, 2023-05-27, 2023-05-28'
 category: Comedy
 theatres:
   - name: theatres/amphitheatro_cyta.md
+event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/800X538LOUKOU.jpeg'
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
