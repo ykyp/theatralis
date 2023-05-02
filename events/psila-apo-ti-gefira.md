@@ -1,14 +1,14 @@
 ---
 title: ψηλα απο τη γεφυρα
-startDate: 2023-05-23
-endDate: 2023-05-26
-nicosia_dates: 2023-05-23, 2023-05-24
-limassol_dates: 2023-05-25, 2023-05-26
+startDate: '2023-05-22T21:00:00.000Z'
+endDate: '2023-05-26T00:00:00.000Z'
+nicosia_dates: '2023-05-23, 2023-05-24'
+limassol_dates: '2023-05-25, 2023-05-26'
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: Nicosia, Limassol
-event_image: "/images/uploads/psila-apo-ti-gefyra.jpg"
+city: 'Limassol, Nicosia'
+event_image: /images/uploads/psila-apo-ti-gefyra.jpg
 cover_image: ''
 gallery_images: []
 category: drama
@@ -17,10 +17,10 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/dimotiko-theatro-strovolou.md
-- theatres/patticheio-dimotiko-theatro-lemesos.md
-
+  - name: theatres/dimotiko-theatro-strovolou.md
+  - name: theatres/patticheio-dimotiko-theatro-lemesos.md
 ---
+
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
 
 Η φετινή – και σαρωτική, με τόσα sold outs – θεατρική χρονιά, παρουσιάζει το σπουδαίο έργο του Άρθουρ Μίλερ «Κάτω από τη Γέφυρα», σε σκηνοθεσία Γιώργου Νανούρη. Η πιο πολυσυζητημένη παράσταση της σεζόν. Η πλοκή εξελίσσεται σε έναν πρωταγωνιστή ο οποίος παλεύει συνεχώς με το «μέσα του».
@@ -45,29 +45,28 @@ theatres:
 
 **ΛΕΥΚΩΣΙΑ**
 
-**_Ημερομηνίες:_** Τρίτη 23 Μαΐου 2023 & Τετάρτη 24 Μαΐου 2023
+***Ημερομηνίες:*** Τρίτη 23 Μαίου 2023 & Τετάρτη 24 Μαίου 2023 (Στα πλάισια του 7ου Φεστιβάλ Θεάτρου του Δήμου Στροβόλου)
 
-**_΄Ωρα έναρξης:_** 20:30
+***΄Ωρα έναρξης:*** 20:30
 
-**_Τοποθεσία:_** [Δημοτικό Θέατρο Στροβόλου](?#map)
-
-***
+***Τοποθεσία:*** [Δημοτικό Θέατρο Στροβόλου](?#map)
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνίες:_** Πέμπτη 25 Μαΐου 2023 & Παρασκευή 26 Μαΐου 2023
+***Ημερομηνίες:*** Πέμπτη 25 Μαίου 2023 & Παρασκευή 26 Μαίου 2023
 
-**_΄Ωρα έναρξης:_** 20:30
+***΄Ωρα έναρξης:*** 20:30
 
-**_Τοποθεσία:_** [Παττίχειο Δημοτικό Θέατρο](?#map)
+***Τοποθεσία:*** [Παττίχειο Δημοτικό Θέατρο](?#map "")
 
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή:_** 
+***Τιμή:*** 
 
-* **Λεμεσός:** €30 (πλατεία) | €28 (πλατεία) | €25 (εξώστης)
-* **Λευκωσία:** €25 (πλατεία) | €20 (εξώστης)
+**ΛΕΜΕΣΟΣ**: €30 | €28 | €25
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4176)και σε όλα τα καταστήματα ACS courier
+**ΛΕΥΚΩΣΙΑ**: €25 | €20
+
+***Προπώληση:*** Μέσω της ιστοσελίδας Tickethour ([ΛΕΜΕΣΟΣ ](https://shop.tickethour.com/showEventInformation.html?idEvent=4176)| [ΛΕΥΚΩΣΙΑ](https://shop.tickethour.com/showEventInformation.html?idEvent=4189)) και σε όλα τα καταστήματα ACS courier.

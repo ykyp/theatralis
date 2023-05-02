@@ -12,17 +12,17 @@ city: nicosia, larnaca
 event_image: "/images/uploads/mpernti-to-agori-pouli_1.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/mpernti-to-agori-pouli_4.jpg"
-- "/images/uploads/mpernti-to-agori-pouli_3.jpg"
-- "/images/uploads/mpernti-to-agori-pouli_2.jpg"
+-  imgSrc: /images/uploads/mpernti-to-agori-pouli_4.jpg
+-  imgSrc: /images/uploads/mpernti-to-agori-pouli_3.jpg
+-  imgSrc: /images/uploads/mpernti-to-agori-pouli_2.jpg
 category: drama, novel
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro_melina_merkouri.md
-- theatres/theatro-skala.md
+- name: theatres/theatro_melina_merkouri.md
+- name: theatres/theatro-skala.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

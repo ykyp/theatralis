@@ -29,12 +29,8 @@ export default function Event({ eventData: eventData }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [likeState, setLikeState] = useState(isLiked(eventData.id));
   const galleryMultiImages = eventData.gallery_images || [];
-  const galleryImages = [
-     eventData.gallery_1,
-     eventData.gallery_2,
-     eventData.gallery_3,
-     ...galleryMultiImages
-  ].filter(img => img !== null && typeof img !== "undefined" && img !== "");
+  const galleryImages = galleryMultiImages.map(i=>i.imgSrc)
+  .filter(img => img !== null && typeof img !== "undefined" && img !== "");
 
   const allGalleryImages = eventData.cover_image ? [eventData.event_image, ...galleryImages] : galleryImages;
 

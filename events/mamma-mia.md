@@ -17,7 +17,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/dimotiko-theatro-leukosias.md
+- name: theatres/dimotiko-theatro-leukosias.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

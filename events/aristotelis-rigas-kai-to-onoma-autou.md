@@ -1,28 +1,29 @@
 ---
 title: αριστοτελης ρηγας - και το ονομα αυτου
-startDate: 2023-04-22
-endDate: 2023-04-24
-nicosia_dates: '2023-04-22'
-limassol_dates: '2023-04-24'
-larnaca_dates: '2023-04-23'
+startDate: '2023-06-09T21:00:00.000Z'
+endDate: '2023-06-11T21:00:00.000Z'
+nicosia_dates: '2023-06-10'
+limassol_dates: '2023-06-12'
+larnaca_dates: '2023-06-11'
 famagusta_dates: ''
 paphos_dates: ''
-city: Nicosia, Larnaca, limassol
-event_image: "/images/uploads/rigas1.jpg"
+city: 'Nicosia, Larnaca, limassol'
+event_image: /images/uploads/rigas1.jpg
 cover_image: ''
 gallery_images:
-- "/images/uploads/aristotelis_rigas_1.jpg"
-- "/images/uploads/rigas2.jpg"
+  - imgSrc: ''
+  - imgSrc: ''
+  - imgSrc: ''
 category: standup
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/ravens-music-hall.md
-- theatres/cine-studio.md
-
+  - name: theatres/cine-studio.md
+  - name: theatres/ravens-music-hall.md
 ---
+
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
 
 Ο Αριστοτέλης Ρήγας, stand up comedian και μουσικός, δημιουργός της επιτυχημένης σειράς στο ΥouΤube και Podcast «Είμαι υπέρ», επιστρέφει στη σκηνή με την 3η σόλο παράστασή του μετά τις διαδοχικές sold out εμφανίσεις του στην Αθήνα και την επαρχία!
@@ -39,36 +40,36 @@ theatres:
 
 **ΛΕΥΚΩΣΙΑ**
 
-**_Ημερομηνία:_** Σάββατο 22 Απριλίου 2023
+***Ημερομηνία:*** Σάββατο 10 Ιουνίου 2023
 
-**_Ώρα έναρξης:_** 20:00
+***Ώρα έναρξης:*** 20:30
 
-**_Τοποθεσία:_** [Cine Studio](?#map)
+***Τοποθεσία:*** [Cine Studio](?#map "")
 
 ***
 
 **ΛΑΡΝΑΚΑ**
 
-**_Ημερομηνία:_** Κυριακή 23 Απριλίου 2023
+***Ημερομηνία:*** Κυριακή 11 Ιουνίου 2023
 
-**_Ώρα έναρξης:_** 20:00
+***Ώρα έναρξης:*** 20:30
 
-**_Τοποθεσία:_** [Avalon](?#map)
+***Τοποθεσία:*** Savino Live
 
 ***
 
 **ΛΕΜΕΣΟΣ**
 
-**_Ημερομηνία:_** Δευτέρα 24 Απριλίου 2023
+***Ημερομηνία:*** Δευτέρα 12 Ιουνίου 2023
 
-**_Ώρα έναρξης:_** 20:00
+***Ώρα έναρξης:*** 20:00
 
-**_Τοποθεσία:_** [Ravens Music Hall](?#map)
+***Τοποθεσία:*** [Ravens Music Hall](?#map "")
 
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**_Τιμή:_** €15 (στην είσοδο) | €12 (προπώληση)
+***Τιμή:*** €15 (στην είσοδο) | €12 (προπώληση)
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας [Motion comedy](https://www.motioncomedy.com/aristotelis-rigas)
+***Προπώληση:*** Μέσω της ιστοσελίδας [Motion comedy](https://www.motioncomedy.com/aristotelis-rigas "")

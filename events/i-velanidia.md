@@ -1,13 +1,13 @@
 ---
 title: η βελανιδια
-startDate: 2023-04-09
-endDate: 2023-04-09
-nicosia_dates: '2023-04-09'
-limassol_dates: ''
+startDate: 2023-04-06
+endDate: 2023-04-07
+nicosia_dates: ''
+limassol_dates: 2023-04-06, 2023-04-07
 larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: nicosia
+city: Limassol
 event_image: "/images/uploads/i-velandia.jpg"
 cover_image: ''
 gallery_images: []
@@ -17,7 +17,7 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro_dentro.md
+- name: theatres/rialto.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -39,17 +39,17 @@ theatres:
 **_Μουσική:_** Κώστας Μπουντούρης  
 **_Φωτισμοί:_** Σεμίνα Παπαλεξανδροπούλου
 
-**_Παίζουν:_** Μαρίνα Αργυρίδου και οι καλεσμένοι Βασίλης Χαραλάμπους (18:00) και Στέλλα Φυρογένη (21:00)
+**_Παίζουν:_** Μαρίνα Αργυρίδου και οι καλεσμένοι Ανδρέας Κουτσόφτας (06/04) και Λία Χαράκη (07/04)
 
 ***
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Ημερομηνίες:_** Κυριακή 9 Απριλίου 2023
+**_Ημερομηνίες:_** Πέμπτη 6 Απριλίου 2023 & Παρασκευή 7 Απριλίου 2023
 
-**_Ώρα έναρξης:_** 18:00 & 21:00
+**_Ώρα έναρξης:_** 20:30
 
-**_Τοποθεσία:_** [Θέατρο Δέντρο](?#map)
+**_Τοποθεσία:_** Θέατρο [ΡΙΑΛΤΟ](?#map)
 
 **_Διάρκεια:_** 75 λεπτά
 
@@ -59,4 +59,4 @@ theatres:
 
 **_Τιμή:_** €15 | €12
 
-**_Προπώληση:_** Μέσω της ιστοσελίδας της [Soldout](https://www.soldoutticketbox.com/an-oak-tree-apr-2023/?lang=el) και σε ολα τα καταστήματα Stephanis
+**_Προπώληση:_** Μέσω της ιστοσελίδας του [ΡΙΑΛΤΟ](https://rialto.interticket.com/program/i-velanidjia-tim-crouch-2733)

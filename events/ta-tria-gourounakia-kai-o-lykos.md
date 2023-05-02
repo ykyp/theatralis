@@ -17,10 +17,10 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/markidio-theatro.md
-- theatres/patticheio-dimotiko-theatro-lemesos.md
-- theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
-- theatres/theatro_melina_merkouri.md
+- name: theatres/markidio-theatro.md
+- name: theatres/patticheio-dimotiko-theatro-lemesos.md
+- name: theatres/dimotiko-theatro-larnakas-G.Lykourgos.md
+- name: theatres/theatro_melina_merkouri.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

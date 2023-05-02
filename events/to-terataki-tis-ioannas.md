@@ -1,13 +1,13 @@
 ---
 title: το τερατακι της ιωαννας
-startDate: 2023-05-21
-endDate: 2023-05-21
-nicosia_dates: ''
+startDate: 2023-03-19
+endDate: 2023-04-02
+nicosia_dates: 2023-03-19, 2023-03-25, 2023-03-26, 2023-04-01, 2023-04-02
 limassol_dates: ''
-larnaca_dates: '2023-05-21'
+larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
-city: larnaca
+city: nicosia
 event_image: "/images/uploads/to-terataki-tis-ioannas.jpeg"
 cover_image: ''
 gallery_images: []
@@ -16,7 +16,8 @@ extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
-theatres: []
+theatres:
+- name: theatres/theatro_melina_merkouri.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -53,11 +54,19 @@ theatres: []
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-**_Ημερομηνία:_** Κυριακή 21 Μαίου 2023
+**_Μέρες παραστάσεων και Ώρα έναρξης:_**
 
-**_Ώρα έναρξης:_** 11:30
+Κυριακή 19 Μαρτίου στις 11:30 και 15:30
 
-**_Τοποθεσία:_** Θέατρο Λυκείου Αραδίππου "Π. Γεωργιάδης"
+Σάββατο 25 Μαρτίου στις 15:30
+
+Κυριακή 26 Μαρτίου στις 11:30 και 15:30
+
+Σάββατο 1 Απριλίου στις 15:30
+
+Κυριακή 2 Απριλίου στις 11:30 και 15:30
+
+**_Τοποθεσία:_** [Θέατρο Μελίνα Μερκούρη](?#map)
 
 **_Διάρκεια:_** 60 λεπτά
 

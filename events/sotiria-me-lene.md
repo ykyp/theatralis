@@ -17,8 +17,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/dimotiko-theatro-leukosias.md
-- theatres/patticheio-dimotiko-theatro-lemesos.md
+- name: theatres/dimotiko-theatro-leukosias.md
+- name: theatres/patticheio-dimotiko-theatro-lemesos.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ

@@ -11,15 +11,15 @@ city: Nicosia, Limassol
 event_image: "/images/uploads/signwmi_2.jpg"
 cover_image: ''
 gallery_images:
-- "/images/uploads/signwmi_3.JPG"
+-  imgSrc: /images/uploads/signwmi_3.JPG"
 category: drama
 extended: false
 critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-- theatres/theatro_dentro.md
-- theatres/texnoxwros-ethal.md
+- name: theatres/theatro_dentro.md
+- name: theatres/texnoxwros-ethal.md
 
 ---
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
