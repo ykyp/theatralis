@@ -11,7 +11,7 @@ limassol_dates: '2023-05-05'
 larnaca_dates: '2023-05-03'
 famagusta_dates: ''
 paphos_dates: '2023-04-26'
-city: Nicosia
+city: 'Nicosia, LImassol, Larnaca, Pafos'
 event_image: /images/uploads/treis-aderfes.jpg
 cover_image: ''
 gallery_images:
