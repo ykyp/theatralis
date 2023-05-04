@@ -7,5 +7,7 @@ nicosia_dates: '2023-05-18, 2023-05-19, 2023-05-20, 2023-05-21'
 event_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Kliseis se anamoni
   (1).jpg
+theatres:
+  - name: theatres/theatro_dentro.md
 ---
 
