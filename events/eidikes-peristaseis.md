@@ -102,4 +102,4 @@ theatres:
 
 ***Κρατήσεις:*** Στο τηλέφωνο 70007721
 
-Προπώληση εισιτηρίων: Μέσω της ιστοσελίδας Soldout, σε όλα τα καταστήματα Stephanis παγκύπρια, στο Timeout Kiosk ( Πάφος) και στο ταμείο του θεάτρου
+***Προπώληση εισιτηρίων***: Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/special-occasiona-bernand-slade-anemona-theatre-2023/?lang=el), σε όλα τα καταστήματα Stephanis παγκύπρια, στο Timeout Kiosk ( Πάφος) και στο ταμείο του θεάτρου
