@@ -21,7 +21,7 @@ critic_title: ''
 critic_p: ''
 theatres:
   - name: theatres/theatro-anemona.md
-  - {}
+  - name: theatres/markidio-theatro.md
   - {}
 ---
 
