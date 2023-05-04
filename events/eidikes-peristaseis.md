@@ -22,7 +22,7 @@ critic_p: ''
 theatres:
   - name: theatres/theatro-anemona.md
   - name: theatres/markidio-theatro.md
-  - {}
+  - name: theatres/texnoxwros-ethal.md
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
