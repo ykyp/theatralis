@@ -62,6 +62,6 @@ event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/800X53
 
 ***Τιμή***: €10,00
 
-***Προπώληση***: Στην ιστοσελίδα της [Tickehour](https://shop.tickethour.com/showEventInformation.html?idEvent=4206\&fbclid=IwAR3rRFGZI9h7yMfsY9cXUt6AmVNIz0x6A85-lE7_5V8t88aPFMOrhzi7isc "Tickethour") και σε όλα τα καταστήματα ACS Courier
+***Προπώληση***: Στην ιστοσελίδα της [Tickehour](https://shop.tickethour.com/showEventInformation.html?idEvent=4206 "Tickethour") και σε όλα τα καταστήματα ACS Courier
 
 Τα καθαρά έσοδα θα διατεθούν για φιλανθρωπικό σκοπό.
