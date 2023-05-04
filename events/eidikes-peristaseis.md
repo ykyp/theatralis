@@ -14,7 +14,12 @@ paphos_dates: '2023-05-23'
 city: 'Nicosia, Pafos, Limassol'
 event_image: /images/uploads/eidikes-peristaseis.jpg
 cover_image: ''
-gallery_images: []
+gallery_images:
+  - imgSrc: >-
+      https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Eidikes
+      peristaseis_2.jpg
+  - {}
+  - {}
 category: Comedy
 extended: false
 critic_link: ''
