@@ -11,9 +11,11 @@ larnaca_dates: ''
 famagusta_dates: ''
 paphos_dates: ''
 city: nicosia
-event_image: /images/uploads/psixo.png
+event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Psixw_4.jpg'
 cover_image: ''
-gallery_images: []
+gallery_images:
+  - imgSrc: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Psixw_2.jpg'
+  - {}
 category: drama
 extended: false
 critic_link: ''
