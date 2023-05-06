@@ -11,6 +11,11 @@ event_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Oi petaloudes
   einai eleutheres.jpg
 category: Comedy
+theatres:
+  - name: theatres/patticheio-dimotiko-theatro-lemesos.md
+  - {}
+  - {}
+  - {}
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
