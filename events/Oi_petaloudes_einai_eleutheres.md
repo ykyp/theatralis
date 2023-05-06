@@ -91,6 +91,6 @@ category: Comedy
 
 ***Τιμή***: €30 | €25 | €20
 
-***Προπώληση***: Μέσω της ιστοσελίδας Tickethour [και σε όλα τα καταστήματα ACS courier ](<> "")
+***Προπώληση***: Μέσω της ιστοσελίδας [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4219)και σε όλα τα καταστήματα ACS courier 
 
 Σε κάθε θεατή θα δίνεται στην είσοδο του θεάτρου, δωροεπιταγή αξίας €20 για αγορές από τα καταστήματα Electroline.
