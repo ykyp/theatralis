@@ -14,7 +14,7 @@ category: Comedy
 theatres:
   - name: theatres/patticheio-dimotiko-theatro-lemesos.md
   - name: theatres/dimotiko-theatro-leukosias.md
-  - {}
+  - name: theatres/markidio-theatro.md
   - {}
 ---
 
