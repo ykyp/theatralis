@@ -53,6 +53,6 @@ theatres:
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-***Τιμή:*** €15 | €12
+***Τιμή:*** €12
 
-***Κρατήσεις:*** Στο τηλέφωνο 96529346 (σε ώρες γραφείου ή με SMS) ή στο [Google forms ](https://docs.google.com/forms/d/e/1FAIpQLScbWD1sNhaGnSzfFMUIJoNSdnGfKWg5D0IGgNiXVVwA4PaRZQ/viewform)
+***Κρατήσεις:*** Στο τηλέφωνο 96529346 (σε ώρες γραφείου ή με SMS) ή στο [Google forms ](https://docs.google.com/forms/d/e/1FAIpQLScbWD1sNhaGnSzfFMUIJoNSdnGfKWg5D0IGgNiXVVwA4PaRZQ/viewform "")
