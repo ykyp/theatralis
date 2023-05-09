@@ -72,4 +72,4 @@ gallery_images:
 
 ***Κρατήσεις***: Στο τηλέφωνο 99251331
 
-***Προπώληση***: Μέσω της ιστοσελίδας Soldout και σε όλα τα καταστήματα Stephanis
+***Προπώληση***: Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/the-clouds-by-aristophanes-theatro-antilogos-2023/?lang=el)και σε όλα τα καταστήματα Stephanis
