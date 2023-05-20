@@ -10,6 +10,7 @@ import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
 import {ISSERVER, useStateFromLocalStorage, useStateFromStorage} from "../components/session-storage-state";
+import { useRouter } from "next/router";
 
 const SELECTED_CITY_KEY = 'th.selectedCity';
 const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
@@ -19,19 +20,29 @@ const SELECTED_CURRENT_PAGE = 'th.currentPage';
 const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
 export default function Home({ allEventsData }) {
-   const { t, lang } = useTranslation('common');
+   const {t, lang} = useTranslation('common');
    const [results, setResults] = useState([]);
    const [searchBy, setSearchBy] = useState('');
    const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
    const [selectedPeriod, setSelectedPeriod] = useStateFromStorage({name: 'Anytime', code: 'ALL'}, SELECTED_PERIOD_KEY);
-   const [selectedCategory, setSelectedCategory] = useStateFromStorage({name: 'AllCategories', code: 'ALL'}, SELECTED_CATEGORY_KEY);
+   const [selectedCategory, setSelectedCategory] = useStateFromStorage({
+      name: 'AllCategories',
+      code: 'ALL'
+   }, SELECTED_CATEGORY_KEY);
    const [pageFirst, setPageFirst] = useStateFromStorage(0, SELECTED_FIRST_PAGE);
    const [currentPage, setCurrentPage] = useState(0);
    const [rowsPerPage, setRowsPerPage] = useStateFromStorage(10, SELECTED_ITEMS_PER_PAGE);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
    const [isLoading, setLoading] = useState(true);
+   const router = useRouter();
 
    const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q}`;
+
+   if (router.query.source && router.query.source === "flyer") {
+      ga.event({
+         action: "flyer-visit",
+      })
+   }
 
    const clearAll = () => {
       setSelectedCity({name: 'AllCities', code: 'ALL'});
