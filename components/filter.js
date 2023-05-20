@@ -14,39 +14,53 @@ const WithMargin = styled.div`
       margin-left: 20px; 
    `;
 
+export const cities = [
+   { name: 'AllCities', code: 'ALL' },
+   { name: 'Nicosia', code: 'NIC' },
+   { name: 'Limassol', code: 'LIM' },
+   { name: 'Larnaca', code: 'LAR' },
+   { name: 'Pafos', code: 'PAF' },
+   { name: 'Famagusta', code: 'FAM' },
+];
+
+export const getCityByCode = (code) => {
+   return cities.find(c=>c.code === code);
+}
+
+export const periods = [
+   { name: 'Anytime', code: 'ALL' },
+   { name: 'ThisWeek', code: 'THIS_WEEK' },
+   { name: 'NextWeek', code: 'NEXT_WEEK' },
+   { name: 'ThisMonth', code: 'THIS_MONTH' },
+];
+
+export const getPeriodByCode = (code) => {
+   return periods.find(p=>p.code === code);
+}
+
+export const categories = [
+   { name: 'AllCategories', code: 'ALL' },
+   { name: 'Biography', code: 'Biography' },
+   { name: 'Drama', code: 'Drama' },
+   { name: 'Comedy', code: 'Comedy' },
+   { name: 'Standup', code: 'Standup' },
+   { name: 'Historical', code: 'Historical' },
+   { name: 'Monologue', code: 'Monologue' },
+   { name: 'Musical', code: 'Musical' },
+   { name: 'Novel', code: 'Novel' },
+   { name: 'Amateur', code: 'Amateur' },
+   { name: 'Children', code: 'Children' },
+   { name: 'Tragedy', code: 'Tragedy' },
+   { name: 'Satire', code: 'Satire' },
+   { name: 'Opera', code: 'Opera' },
+];
+
+export const getCategoryByCode = (code) => {
+   return categories.find(cat=>cat.code === code);
+}
+
 export const Filter = (props) => {
-   const cities = [
-      { name: 'AllCities', code: 'ALL' },
-      { name: 'Nicosia', code: 'NIC' },
-      { name: 'Limassol', code: 'LIM' },
-      { name: 'Larnaca', code: 'LAR' },
-      { name: 'Pafos', code: 'PAF' },
-      { name: 'Famagusta', code: 'FAM' },
-   ];
 
-   const periods = [
-      { name: 'Anytime', code: 'ALL' },
-      { name: 'ThisWeek', code: 'THIS_WEEK' },
-      { name: 'NextWeek', code: 'NEXT_WEEK' },
-      { name: 'ThisMonth', code: 'THIS_MONTH' },
-   ];
-
-   const categories = [
-      { name: 'AllCategories', code: 'ALL' },
-      { name: 'Biography', code: 'Biography' },
-      { name: 'Drama', code: 'Drama' },
-      { name: 'Comedy', code: 'Comedy' },
-      { name: 'Standup', code: 'Standup' },
-      { name: 'Historical', code: 'Historical' },
-      { name: 'Monologue', code: 'Monologue' },
-      { name: 'Musical', code: 'Musical' },
-      { name: 'Novel', code: 'Novel' },
-      { name: 'Amateur', code: 'Amateur' },
-      { name: 'Children', code: 'Children' },
-      { name: 'Tragedy', code: 'Tragedy' },
-      { name: 'Satire', code: 'Satire' },
-      { name: 'Opera', code: 'Opera' },
-   ];
 
    const onCityChange = (e) => {
       props.onCityChange(e);

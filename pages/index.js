@@ -1,7 +1,15 @@
 import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
-import { Filter } from '../components/filter';
+import {
+   categories,
+   cities,
+   Filter,
+   getCategoryByCode,
+   getCityByCode,
+   getPeriodByCode,
+   periods
+} from '../components/filter';
 import { ListingEvent } from '../components/listing-event';
 import { useState, useEffect } from 'react';
 import { Paginator } from 'primereact/paginator';
@@ -9,32 +17,24 @@ import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
-import {ISSERVER, useStateFromLocalStorage, useStateFromStorage} from "../components/session-storage-state";
 import { useRouter } from "next/router";
 
-const SELECTED_CITY_KEY = 'th.selectedCity';
-const SELECTED_CATEGORY_KEY = 'th.selectedCategory';
-const SELECTED_PERIOD_KEY = 'th.selectedPeriod';
-const SELECTED_FIRST_PAGE = 'th.firstPage';
-const SELECTED_CURRENT_PAGE = 'th.currentPage';
-const SELECTED_ITEMS_PER_PAGE = 'th.itemsPerPage';
 
 export default function Home({ allEventsData }) {
    const {t, lang} = useTranslation('common');
-   const [results, setResults] = useState([]);
-   const [searchBy, setSearchBy] = useState('');
-   const [selectedCity, setSelectedCity] = useStateFromStorage({name: 'AllCities', code: 'ALL'}, SELECTED_CITY_KEY);
-   const [selectedPeriod, setSelectedPeriod] = useStateFromStorage({name: 'Anytime', code: 'ALL'}, SELECTED_PERIOD_KEY);
-   const [selectedCategory, setSelectedCategory] = useStateFromStorage({
-      name: 'AllCategories',
-      code: 'ALL'
-   }, SELECTED_CATEGORY_KEY);
-   const [pageFirst, setPageFirst] = useStateFromStorage(0, SELECTED_FIRST_PAGE);
-   const [currentPage, setCurrentPage] = useState(0);
-   const [rowsPerPage, setRowsPerPage] = useStateFromStorage(10, SELECTED_ITEMS_PER_PAGE);
-   const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
-   const [isLoading, setLoading] = useState(true);
    const router = useRouter();
+   const { pathname, query } = router
+   const [results, setResults] = useState(allEventsData);
+   const [searchBy, setSearchBy] = useState(router.query.q || '');
+   const [selectedCity, setSelectedCity] = useState(getCityByCode(router.query.city) || cities[0]);
+   const [selectedPeriod, setSelectedPeriod] = useState(getPeriodByCode(router.query.period) || periods[0]);
+   const [selectedCategory, setSelectedCategory] = useState(getCategoryByCode(router.query.category) || categories[0]);
+   const [pageFirst, setPageFirst] = useState( router.query.first || 0);
+   const [currentPage, setCurrentPage] = useState(router.query.page || 0);
+   const [rowsPerPage, setRowsPerPage] = useState(router.query.rows || 10);
+   const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
+   const [isLoading, setLoading] = useState(false);
+
 
    const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q}`;
 
@@ -45,93 +45,129 @@ export default function Home({ allEventsData }) {
    }
 
    const clearAll = () => {
-      setSelectedCity({name: 'AllCities', code: 'ALL'});
-      setSelectedPeriod({name: 'Anytime', code: 'ALL'});
-      setSelectedCategory({name: 'AllCategories', code: 'ALL'});
-      if(!ISSERVER) {
-         sessionStorage.setItem(SELECTED_CITY_KEY, '');
-         sessionStorage.setItem(SELECTED_PERIOD_KEY, '');
-         sessionStorage.setItem(SELECTED_CATEGORY_KEY, '');
-      }
-      setSearchBy('');
+      delete router.query.city;
+      delete router.query.category;
+      delete router.query.q;
+      delete router.query.period;
+      delete router.query.page;
+      delete router.query.rows;
+      router.replace({ pathname, query }, undefined, { shallow: true });
    };
 
    const clearCity = () => {
-      setSelectedCity({name: 'AllCities', code: 'ALL'});
-      if(!ISSERVER) {
-         sessionStorage.setItem(SELECTED_CITY_KEY, '');
-      }
+      delete router.query.city;
+      router.replace({ pathname, query }, undefined, { shallow: true });
    };
 
    const clearPeriod = () => {
-      setSelectedPeriod({name: 'Anytime', code: 'ALL'});
-      if(!ISSERVER) {
-         sessionStorage.setItem(SELECTED_PERIOD_KEY, '');
-      }
+      delete router.query.period;
+      router.replace({ pathname, query }, undefined, { shallow: true });
    };
 
    const clearCategory = () => {
-      setSelectedCategory({name: 'AllCategories', code: 'ALL'});
-      if(!ISSERVER) {
-         sessionStorage.setItem(SELECTED_CATEGORY_KEY, '');
-      }
+      delete router.query.category;
+      router.replace({ pathname, query }, undefined, { shallow: true });
+   };
+
+   const clearSearch = () => {
+      delete router.query.q;
+      router.replace({ pathname, query }, undefined, { shallow: true });
    };
 
 
    const handleCityChange = (e) => {
-      setLoading(true);
-      if(!ISSERVER) {
-         sessionStorage.setItem(SELECTED_CITY_KEY, JSON.stringify(e.value));
-      }
-      setSelectedCity(e.value);
+      router.push({
+             pathname: '/',
+             query: {
+                ...router.city,
+                category:e.value.code,
+             }
+          },
+      )
    };
 
    const handlePeriodChange = (e) => {
-      setLoading(true);
-      if(!ISSERVER) {
-         sessionStorage.setItem(SELECTED_PERIOD_KEY, JSON.stringify(e.value));
-      }
-      setSelectedPeriod(e.value);
+      router.push({
+             pathname: '/',
+             query: {
+                ...router.query,
+                period:e.value.code,
+             }
+          },
+      )
    };
 
    const handleCategoryChange = (e) => {
-      setLoading(true);
-      if(!ISSERVER) {
-         sessionStorage.setItem(SELECTED_CATEGORY_KEY, JSON.stringify(e.value));
-      }
-      setSelectedCategory(e.value);
+      router.push({
+             pathname: '/',
+             query: {
+                ...router.query,
+                category:e.value.code,
+             }
+          },
+      )
    };
 
-   const onBasicPageChange = (event) => {
+   const onBasicPageChange = (event, e) => {
+      console.log("e",e);
+      console.log("currentPage", currentPage);
+      console.log("ebemt page ", event.page);
+      console.log(">>> onBasicPageChange CALLED")
       setLoading(true);
-      setCurrentPage(event.page); 
-      setPageFirst(event.first);
-      setRowsPerPage(event.rows);
-      if(!ISSERVER) {
-         sessionStorage.setItem(SELECTED_FIRST_PAGE, event.first);
-         sessionStorage.setItem(SELECTED_CURRENT_PAGE, event.page);
-         sessionStorage.setItem(SELECTED_ITEMS_PER_PAGE, event.rows);
-      }
+      console.log("page event ", event);
+      router.push({
+             pathname: '/',
+             query: {
+                ...router.query,
+                page:event.page,
+                rows: event.rows,
+                first: event.first
+             }
+             },
+      )
    };
 
    const handleSearchChange = (e) => {
-      setSearchBy(e);
+      router.push({
+             pathname: '/',
+             query: {
+                ...router.query,
+                q:e,
+             }
+          },
+      )
    };
 
    useEffect(() => {
       searchEvents();
-   }, [selectedPeriod, selectedCity, selectedCategory, currentPage, rowsPerPage, searchBy]);
+      setSelectedCategory(getCategoryByCode(router.query.category) || categories[0]);
+      setSelectedPeriod(getPeriodByCode(router.query.period) || periods[0]);
+      setSelectedCity(getCityByCode(router.query.city) || cities[0]);
+      if (router.query.q) {
+         setSearchBy(router.query.q);
+      }
+      if (router.query.page || router.query.page === "0") {
+         setCurrentPage(router.query.page || 0);
+      }
+      if (router.query.first || router.query.first === "0") {
+         setPageFirst(router.query.first || 0);
+      }
+      if (router.query.rows) {
+         setRowsPerPage(router.query.rows || 10);
+      }
+   }, [router.query]);
 
    const searchEvents = () => {
-      setLoading(true);
+
       const query = {
-         city:  selectedCity.code === 'ALL'? 'ALL' : selectedCity?.name,
-         period: selectedPeriod.code,
-         category:  selectedCategory.code === 'ALL'? 'ALL' : selectedCategory?.name,
+         city:  router.query.city || 'ALL',
+         period: router.query.period || 'ALL',
+         category:  router.query.category || 'ALL',
          page: currentPage,
          rows: rowsPerPage,
          q: searchBy
       };
+      setLoading(true);
       fetch(searchEndpoint(query.city,
          query.period,
          query.category,
@@ -141,7 +177,9 @@ export default function Home({ allEventsData }) {
          .then(res => res.json())
          .then(res => {
             setResults(() => res.results);
-            setCurrentTotalCount(() => res.totalLength);
+            if (currentTotalCount !== res.totalLength) {
+               setCurrentTotalCount(() => res.totalLength);
+            }
             setLoading(false);
          });
 
@@ -184,7 +222,7 @@ export default function Home({ allEventsData }) {
                   {'\u00A0'} {t("withTitle")} {'\u00A0'}
                     <span className=" text-2xl brand-red bg-white">"{(searchBy)}"</span>
 
-                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => setSearchBy('')}></button>
+                    <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearSearch()}></button>
                </span>
                  }
                  ,
@@ -242,7 +280,7 @@ export default function Home({ allEventsData }) {
                   rows={rowsPerPage}
                   totalRecords={currentTotalCount}
                   rowsPerPageOptions={[10, 20, 30]}
-                  onPageChange={onBasicPageChange}>
+                  onPageChange={(e)=>onBasicPageChange(e)}>
        </Paginator>
        {/*<WelcomeDialog/>*/}
     </Layout>
