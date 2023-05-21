@@ -1,0 +1,15 @@
+.dateText {
+    font-size: 24px;
+}
+
+.dayText {
+    font-size: 12px;
+}
+
+.monthText {
+    font-size: 10px;
+}
+
+.activeDate {
+    border-bottom: 3px solid #fcbc18;
+}

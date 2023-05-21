@@ -18,6 +18,7 @@ import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
 import { useRouter } from "next/router";
+import {CalendarFilter} from "../components/CalendarFilter";
 
 
 export default function Home({ allEventsData }) {
@@ -196,7 +197,10 @@ export default function Home({ allEventsData }) {
    return (
     <Layout home onSearchChange={handleSearchChange} searchBy={searchBy}>
        <div className="w-full bg-gray-100">
+           <CalendarFilter/>
           <div className="max-w-screen-xl pb-6 mx-auto ">
+
+
              <div  className="pb-2 pt-2">
                 <Filter filterWidth={28}
                         onCityChange={handleCityChange}

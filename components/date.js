@@ -139,3 +139,9 @@ export function formatDate(dateString) {
   const date = Date.parse(dateString);
   return format(date, 'dd/MM/yyyy');
 }
+
+export function formatDateURL(dateString) {
+  const date = Date.parse(dateString);
+  return format(date, 'dd-MM-yyyy');
+}
+
