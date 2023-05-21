@@ -25,6 +25,8 @@ Ancient Kourion is set to come alive with the magic of Shakespeare’s timeless 
 “Come on, and kiss me, Kate.” In order for the young Bianca to be married to one of her many suitors, her elder sister Katerina must get married first. However, can anyone match up to the brash, straight talking and strong willed Katherina? Petruchio has come to Padua looking for a wife (and a dowry) and thinks he is up for the challenge. So,
 sets off a tale full of disguises, clashes and verbal sparring as well as love, understanding and compromise.
 
+***
+
 #### CAST
 
 Petruchio - Thomas Schendel\
@@ -42,30 +44,19 @@ Vincentio - Mike Crawshaw\
 Biondello - Nick Roussos\
 Servant / Widow - Linda Crawshaw
 
+***
+
 #### INFORMATION ABOUT THE PLAY
 
-Dates: Thurday June 22 | Friday 23 June | Saturday 24 June
+***Dates***: Thurday June 22 | Friday 23 June | Saturday 24 June
 
-Time: 20:00
+***Time***: 20:00
 
-Location: Ancient Kourion
+***Location***: Ancient Kourion
 
-Ticket prices: 
+***Ticket prices***:
 
 * €20 (adults) | €10 (children under 13)
 * On the door: €25 (adults) | €12 (children under 13)
 
-Selling points: Through the website Soldout and from all Stephanis stores
-
-
-
-
-
-
-
-
-
-
-
-
-
+***Selling points***: Through the website Soldout and from all Stephanis stores
