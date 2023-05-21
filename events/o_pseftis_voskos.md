@@ -2,7 +2,7 @@
 title: ο ψευτης βοσκος
 city: 'Nicosia, Limassol'
 startDate: '2023-05-19T21:00:00.000Z'
-endDate: '2023-05-20T21:00:00.000Z'
+endDate: '2023-05-21T21:00:00.000Z'
 nicosia_dates: '2023-05-20'
 limassol_dates: '2023-05-21'
 event_image: >-
