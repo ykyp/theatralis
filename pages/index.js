@@ -113,7 +113,6 @@ export default function Home({ allEventsData }) {
            setActivePaginationHandler(true);
            return;
        }
-      setLoading(true);
       router.push({
              pathname: '/',
              query: {
@@ -177,7 +176,10 @@ export default function Home({ allEventsData }) {
                setCurrentTotalCount(() => res.totalLength);
             }
             setLoading(false);
-         });
+         }).catch((error) => {
+          console.log("Error fetching events, please refresh", error);
+          setLoading(false);
+      });
 
       ga.event({
          action: "search",
