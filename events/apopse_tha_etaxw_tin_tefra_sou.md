@@ -8,5 +8,7 @@ event_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/apopse tha petaxw
   tin tefra sou.jpg
 category: monologue
+theatres:
+  - name: theatres/dimotiko-theatro-leukosias.md
 ---
 
