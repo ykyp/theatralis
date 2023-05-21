@@ -13,7 +13,10 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
     "@mailchimp/mailchimp_marketing": "^3.0.73",
+    "@mantine/core": "^6.0.11",
+    "@mantine/hooks": "^6.0.11",
     "@sendgrid/mail": "^7.4.7",
     "@tailwindcss/typography": "^0.4.0",
     "@tinacms/cli": "^1.2.1",
