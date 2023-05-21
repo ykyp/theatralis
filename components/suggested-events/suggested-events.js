@@ -47,7 +47,7 @@ const SuggestedEvents = (props) => {
          <div className=" mb-4 text-center lg:text-left text-gray-500 text-sm "> {/*bg-gray-100 text-gray-600*/}
          <Carousel responsive={responsive}>
             {results.map((event, i) => (
-               <EventCard event={event}/>
+               <EventCard event={event} key={event+i}/>
             ))}
          </Carousel>
 
