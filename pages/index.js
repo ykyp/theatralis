@@ -2,13 +2,13 @@ import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedEventsData } from '../lib/events'
 import {
-   categories,
-   cities,
-   Filter,
-   getCategoryByCode,
-   getCityByCode,
-   getPeriodByCode,
-   periods
+    categories,
+    cities,
+    Filter,
+    getCategoryByCode,
+    getCityByCode, getCityByName,
+    getPeriodByCode,
+    periods
 } from '../components/filter';
 import { ListingEvent } from '../components/listing-event';
 import { useState, useEffect } from 'react';
@@ -26,7 +26,7 @@ export default function Home({ allEventsData }) {
    const { pathname, query } = router
    const [results, setResults] = useState(allEventsData);
    const [searchBy, setSearchBy] = useState(router.query.q || '');
-   const [selectedCity, setSelectedCity] = useState(getCityByCode(router.query.city) || cities[0]);
+   const [selectedCity, setSelectedCity] = useState(getCityByName(router.query.city) || cities[0]);
    const [selectedPeriod, setSelectedPeriod] = useState(getPeriodByCode(router.query.period) || periods[0]);
    const [selectedCategory, setSelectedCategory] = useState(getCategoryByCode(router.query.category) || categories[0]);
    const [pageFirst, setPageFirst] = useState( router.query.first || 0);
@@ -80,7 +80,7 @@ export default function Home({ allEventsData }) {
              pathname: '/',
              query: {
                 ...router.city,
-                city:e.value.code,
+                city:e.value.name,
              }
           },
       )
@@ -141,7 +141,7 @@ export default function Home({ allEventsData }) {
       searchEvents();
       setSelectedCategory(getCategoryByCode(router.query.category) || categories[0]);
       setSelectedPeriod(getPeriodByCode(router.query.period) || periods[0]);
-      setSelectedCity(getCityByCode(router.query.city) || cities[0]);
+      setSelectedCity(getCityByName(router.query.city) || cities[0]);
       if (router.query.q) {
          setSearchBy(router.query.q);
       }

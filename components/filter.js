@@ -27,6 +27,11 @@ export const getCityByCode = (code) => {
    return cities.find(c=>c.code === code);
 }
 
+export const getCityByName = (name) => {
+   return cities.find(c=>c.name === name);
+}
+
+
 export const periods = [
    { name: 'Anytime', code: 'ALL' },
    { name: 'ThisWeek', code: 'THIS_WEEK' },
