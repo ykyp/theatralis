@@ -6,7 +6,7 @@ import {
     cities,
     Filter,
     getCategoryByCode,
-    getCityByCode, getCityByName,
+    getCityByName,
     getPeriodByCode,
     periods
 } from '../components/filter';
@@ -18,7 +18,7 @@ import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
 import { useRouter } from "next/router";
-import {Button, Pagination} from '@mantine/core';
+import { Pagination} from '@mantine/core';
 
 
 export default function Home({ allEventsData }) {
@@ -269,7 +269,7 @@ export default function Home({ allEventsData }) {
                     position="center"
                     radius="lg"
                     withEdges
-                    total={Math.ceil(currentTotalCount / 10)} />
+                    total={Math.ceil(currentTotalCount / (router.query.rows || 10))} />
         </div>
     </Layout>
   )
