@@ -37,7 +37,7 @@ export default function Home({ allEventsData }) {
    const [activePaginationHandler, setActivePaginationHandler] = useState(false);
 
 
-   const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q}`;
+   const searchEndpoint = (city, period, category, date, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&date=${date}&page=${page}&rows=${rows}&q=${q}`;
 
    if (router.query.source && router.query.source === "flyer") {
       ga.event({
@@ -158,6 +158,7 @@ export default function Home({ allEventsData }) {
       const query = {
          city:  router.query.city || 'ALL',
          period: router.query.period || 'ALL',
+          date: router.query.date || undefined,
          category:  router.query.category || 'ALL',
          page: currentPage,
          rows: router.query.rows || 10,

@@ -79,6 +79,21 @@ const considerCity = (results, cityProperty, selectedPeriod) => {
    });
 }
 
+
+const considerCityForSelectedDate = (results, cityProperty, selectedDate) => {
+   return results.filter(result => {
+      const cityDatesString = result[cityProperty];
+      const cityDates = cityDatesString ? cityDatesString.split(",") : cityDatesString;
+      console.log("city dates ", cityDates);
+      if (cityDates) {
+         return true;
+         // return cityDates.some(cityDate => isSameDay(cityDate, selectedDate));
+      } else {
+        return false;
+      }
+   });
+}
+
 const checkCityDates = (selectedCity, selectedPeriod, filteredResults) => {
    const cityResults = filteredResults.filter(event => {
             const cityLowercase = event.city.toLowerCase();
@@ -99,50 +114,48 @@ const checkCityDates = (selectedCity, selectedPeriod, filteredResults) => {
    }
 }
 
+
+const checkCityDatesForSpecificDate = (selectedCity, selectedDate, filteredResults) => {
+   const cityResults = filteredResults.filter(event => {
+      const cityLowercase = event.city.toLowerCase();
+      const formattedCity = cityLowercase === "paphos" ? "pafos" : cityLowercase;
+      return formattedCity.includes(selectedCity.toLowerCase())
+   })
+   const city = selectedCity.toUpperCase();
+   switch (city) {
+      case "ALL":
+         return filteredResults;
+      case "NICOSIA": return considerCityForSelectedDate(cityResults, 'nicosia_dates', selectedDate);
+      case "LIMASSOL": return considerCityForSelectedDate(cityResults, 'limassol_dates', selectedDate);
+      case "PAFOS": return considerCityForSelectedDate(cityResults, 'paphos_dates', selectedDate);
+      case "PAPHOS": return considerCityForSelectedDate(cityResults, 'paphos_dates', selectedDate);
+      case "LARNACA": return considerCityForSelectedDate(cityResults, 'larnaca_dates', selectedDate);
+      case "FAMAGUSTA": return considerCityForSelectedDate(cityResults, 'famagusta_dates', selectedDate);
+      default: return cityResults;
+   }
+}
+
 export default (req, res) => {
    let results;
    let totalLength;
    let filteredResults = {};
 
    if (req.query.city === 'ALL' && req.query.period === 'ALL'
-      && req.query.category === 'ALL') {
+      && req.query.category === 'ALL' && !req.query.date) {
       filteredResults = matchedSearchAllOtherResults(req.query, currentlyActiveEvents);
    } else {
       const matchingCityAndPeriod = checkCityDates(req.query.city, req.query.period, currentlyActiveEvents);
-      // const matchingCities = req.query.city !== 'ALL' ?
-      //    currentlyActiveEvents.filter(event => {
-      //       const cityLowercase = event.city.toLowerCase();
-      //       const formattedCity = cityLowercase === "paphos" ? "pafos" : cityLowercase;
-      //       return formattedCity.includes(req.query.city.toLowerCase())
-      //    }) : currentlyActiveEvents;
 
-      // let matchingPeriods = [];
-      // switch (req.query.period) {
-      //    case 'ALL':
-      //       matchingPeriods = currentlyActiveEvents;
-      //       break;
-      //    case 'THIS_WEEK':
-      //       matchingPeriods = currentlyActiveEvents.filter(event =>
-      //          isInThisWeek(event.startDate, event.endDate));
-      //       break;
-      //    case 'NEXT_WEEK':
-      //       matchingPeriods = currentlyActiveEvents.filter(event =>
-      //          isInNextWeek(event.startDate, event.endDate));
-      //       break;
-      //    case 'THIS_MONTH':
-      //       matchingPeriods = currentlyActiveEvents.filter(event =>
-      //          isInThisMonth(event.startDate, event.endDate));
-      //       break;
-      //    default:
-      //       matchingPeriods = currentlyActiveEvents;
-      // }
+      const matchingCityAndDate = req.query.date ?
+          checkCityDatesForSpecificDate(req.query.city, req.query.date, currentlyActiveEvents):
+          currentlyActiveEvents;
 
       const matchingAudience = req.query.category !== 'ALL' ?
          currentlyActiveEvents.filter(event => event.category ?
             event.category.toLowerCase().includes(req.query.category.toLowerCase()) : false
          ) : currentlyActiveEvents;
 
-      const intersectedFilters = intersection(matchingCityAndPeriod, matchingAudience);
+      const intersectedFilters = intersection(matchingCityAndPeriod, matchingAudience, matchingCityAndDate);
       filteredResults = matchedSearchAllOtherResults(req.query, intersectedFilters);
    }
 
