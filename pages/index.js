@@ -31,9 +31,9 @@ export default function Home({ allEventsData }) {
    const [selectedCategory, setSelectedCategory] = useState(getCategoryByCode(router.query.category) || categories[0]);
    const [pageFirst, setPageFirst] = useState( router.query.first || 0);
    const [currentPage, setCurrentPage] = useState(router.query.page || 0);
-   const [rowsPerPage, setRowsPerPage] = useState(router.query.rows || 10);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
    const [isLoading, setLoading] = useState(false);
+   const [activePaginationHandler, setActivePaginationHandler] = useState(false);
 
 
    const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q}`;
@@ -80,7 +80,7 @@ export default function Home({ allEventsData }) {
              pathname: '/',
              query: {
                 ...router.city,
-                category:e.value.code,
+                city:e.value.code,
              }
           },
       )
@@ -109,12 +109,11 @@ export default function Home({ allEventsData }) {
    };
 
    const onBasicPageChange = (event, e) => {
-      console.log("e",e);
-      console.log("currentPage", currentPage);
-      console.log("ebemt page ", event.page);
-      console.log(">>> onBasicPageChange CALLED")
+       if (!activePaginationHandler) {
+           setActivePaginationHandler(true);
+           return;
+       }
       setLoading(true);
-      console.log("page event ", event);
       router.push({
              pathname: '/',
              query: {
@@ -152,9 +151,6 @@ export default function Home({ allEventsData }) {
       if (router.query.first || router.query.first === "0") {
          setPageFirst(router.query.first || 0);
       }
-      if (router.query.rows) {
-         setRowsPerPage(router.query.rows || 10);
-      }
    }, [router.query]);
 
    const searchEvents = () => {
@@ -164,7 +160,7 @@ export default function Home({ allEventsData }) {
          period: router.query.period || 'ALL',
          category:  router.query.category || 'ALL',
          page: currentPage,
-         rows: rowsPerPage,
+         rows: router.query.rows || 10,
          q: searchBy
       };
       setLoading(true);
@@ -277,7 +273,7 @@ export default function Home({ allEventsData }) {
           </div>
           </div>
        <Paginator first={pageFirst}
-                  rows={rowsPerPage}
+                  rows={router.query.rows? Number(router.query.rows):10}
                   totalRecords={currentTotalCount}
                   rowsPerPageOptions={[10, 20, 30]}
                   onPageChange={(e)=>onBasicPageChange(e)}>
