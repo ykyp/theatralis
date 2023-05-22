@@ -27,7 +27,15 @@ Joining Giordano onstage is the talented soprano Ester Kandinova. With her cryst
 
 Don’t miss this concert 🎵 
 
-INFORMATION ABOUT THE CONCERT
+#### INFORMATION ABOUT THE CONCERT
+
+Date: Friday 26 of May 2023
+
+Time: 20:30
+
+Location: Municipal theatre of Nicosia
+
+Ticket prices: 
 
 
 
