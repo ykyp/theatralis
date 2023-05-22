@@ -8,5 +8,7 @@ event_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Opera
   Massimo_1.jpeg
 category: Opera
+theatres:
+  - name: theatres/dimotiko-theatro-leukosias.md
 ---
 
