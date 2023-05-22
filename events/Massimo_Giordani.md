@@ -27,13 +27,15 @@ Joining Giordano onstage is the talented soprano Ester Kandinova. With her cryst
 
 Don’t miss this concert 🎵 
 
+***
+
 #### INFORMATION ABOUT THE CONCERT
 
 ***Date***: Friday 26 of May 2023
 
 ***Time***: 20:30
 
-***Location***: [Municipal theatre of Nicosia](?#map)
+***Location***: [Municipal theatre of Nicosia](?#map "")
 
 ***Ticket prices***: €120 | €100 | €90 | €70 | €60 | €45 | €40 | €10 (disabled)
 
