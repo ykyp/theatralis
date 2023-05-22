@@ -1,5 +1,5 @@
 ---
-title: the taming of the shrew
+title: the taming of the shrew (in English)
 city: limassol
 startDate: '2023-06-21T21:00:00.000Z'
 endDate: '2023-06-23T21:00:00.000Z'
@@ -30,7 +30,7 @@ sets off a tale full of disguises, clashes and verbal sparring as well as love, 
 #### CAST
 
 Petruchio - Thomas Schendel\
-Tailor / Haberdasher   - Coral Bonnick-Russell\
+Tailor, Haberdasher   - Coral Bonnick-Russell\
 Katherina - Sian Fryett\
 Tranio - Sophia Panayiotou\
 Bianca - Luna Rudloff\
@@ -42,7 +42,7 @@ Gremio - Mike Ball\
 Hortensio - Samantha Rudloff\
 Vincentio - Mike Crawshaw\
 Biondello - Nick Roussos\
-Servant / Widow - Linda Crawshaw
+Servant, Widow - Linda Crawshaw
 
 ***
 
@@ -59,4 +59,4 @@ Servant / Widow - Linda Crawshaw
 * €20 (adults) | €10 (children under 13)
 * On the door: €25 (adults) | €12 (children under 13)
 
-***Selling points***: Through the website Soldout and from all Stephanis stores
+Presale of tickets: Through the website [Soldout ](https://www.soldoutticketbox.com/the-taming-of-the-shew-pacc-jun-2023/?lang=en)and from all Stephanis stores
