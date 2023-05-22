@@ -35,7 +35,9 @@ Time: 20:30
 
 Location: Municipal theatre of Nicosia
 
-Ticket prices: 
+Ticket prices: €120 | €100 | €90 | €70 | €60 | €45 | €40 | €10 (disabled)
+
+Presale of tickets: From the website of [Soldout](https://www.soldoutticketbox.com/massimo-giornado-may-2023/?lang=en)
 
 
 
