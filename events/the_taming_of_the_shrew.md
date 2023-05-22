@@ -59,4 +59,4 @@ Servant, Widow - Linda Crawshaw
 * €20 (adults) | €10 (children under 13)
 * On the door: €25 (adults) | €12 (children under 13)
 
-Presale of tickets: Through the website [Soldout ](https://www.soldoutticketbox.com/the-taming-of-the-shew-pacc-jun-2023/?lang=en)and from all Stephanis stores
+***Presale of tickets***: Through the website [Soldout ](https://www.soldoutticketbox.com/the-taming-of-the-shew-pacc-jun-2023/?lang=en)and from all Stephanis stores
