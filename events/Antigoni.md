@@ -8,5 +8,9 @@ limassol_dates: '2023-07-21'
 paphos_dates: '2023-07-18'
 event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Antigoni.jpg'
 category: tragedy
+theatres:
+  - name: theatres/amfitheatro-sxolis-tyflwn.md
+  - {}
+  - {}
 ---
 
