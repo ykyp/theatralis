@@ -1,5 +1,5 @@
 ---
-title: αντιγονη (διεθνες φεστιβαλ αρχαιου ελληνικου δραματος 2023)
+title: αντιγονη (φεστιβαλ αρχαιου ελληνικου δραματος 2023)
 city: 'Nicosia, Pafos, Limassol'
 startDate: '2023-07-09T21:00:00.000Z'
 endDate: '2023-07-20T21:00:00.000Z'
@@ -60,4 +60,4 @@ theatres:
 * €8 μειωμένο	(μαθητές, φοιτητές, εθνοφρουροί, συνταξιούχοι, άνεργοι)
 * €35 ενιαίο (ανά άτομο για παρακολούθηση τεσσάρων παραστάσεων)
 
-***Προπώληση***: Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/international-festival-of-ancient-greek-drama-2023/?lang=en), στα καταστήματα Stephanis παγκύπρια και στο περίπτερο Time Out στην Πάφο.
+***Προπώληση***: Μέσω της ιστοσελίδας [Soldout](https://www.soldoutticketbox.com/international-festival-of-ancient-greek-drama-2023/?lang=en ""), στα καταστήματα Stephanis παγκύπρια και στο περίπτερο Time Out στην Πάφο.
