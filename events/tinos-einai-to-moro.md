@@ -2,7 +2,7 @@
 title: ΤΙΝΟΣ ΕΙΝΑΙ ΤΟ ΜΩΡΟ!
 city: 'Nicosia, Larnaca'
 startDate: '2023-05-30T21:00:00.000Z'
-endDate: '2023-05-13T21:00:00.000Z'
+endDate: '2023-06-13T21:00:00.000Z'
 nicosia_dates: '2023-05-31, 2023-06-02, 2023-06-03'
 larnaca_dates: '2023-06-14'
 category: Comedy
