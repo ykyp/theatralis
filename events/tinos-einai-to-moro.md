@@ -9,7 +9,8 @@ category: Comedy
 theatres:
   - name: theatres/theatraki-toy-RIK.md
 gallery_images:
-  - {}
+  - imgSrc: >-
+      https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/tinos-einai-to-moro.jpg
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -68,7 +69,6 @@ gallery_images:
 Ώρα: 8.30 το βράδυ.
 
 Κατάλληλο για όλη την οικογένεια.
-
 
 Θα ακολουθήσει μεγάλη περιοδεία σε Δήμους και Κοινότητες
 μέχρι και τον Σεπτέμβριο .
