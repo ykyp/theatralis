@@ -62,9 +62,7 @@ const dateIsInWeek = (dateString, addWeeks) => {
   const dateToCheck = new Date(dateString.trim());
   const today = new Date();
   const todayWeek = getISOWeek(today);
-  console.log("today's week ", todayWeek);
   const weekToCompare =  addWeeks ? todayWeek + addWeeks : todayWeek;
-  console.log("week to compare", weekToCompare);
   return weekIsSameAs(today, weekToCompare, dateToCheck);
 };
 
