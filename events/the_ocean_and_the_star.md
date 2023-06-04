@@ -6,10 +6,13 @@ endDate: '2023-07-26T21:00:00.000Z'
 nicosia_dates: '2023-07-27'
 event_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/The Ocean and the
-  Star.jpg
+  Star - Instagram Image.jpg
 category: drama
 theatres:
   - name: theatres/artos_house.md
+cover_image: >-
+  https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/The Ocean and the
+  Star - Facebook Image.jpg
 ---
 
 #### SOME WORDS ABOUT THE PLAY
@@ -34,22 +37,24 @@ the human condition. It fearlessly tackles sensitive subjects, including rape, L
 reincarnation, offering a thought-provoking exploration of these crucial issues. Due to the nature of the
 subject matter, the play is recommended for audiences aged 14 and above.
 
+***
+
 #### INFORMATION ABOUT THE PLAY
 
-Date: 27th July 2023
+***Date***: 27th of July 2023
 
-Time: 18:00 & 20:00 
+***Time***: 18:00 & 20:00
 
-Location:[ Artos House](?#map)
+***Location***:[ Artos House](?#map "")
 
-Duration: 50 mins
+***Duration***: 50 mins
 
-Age guideance: 14+
+***Age guideance***: 14+
+
+***
 
 #### TICKETS
 
-Ticket price: €15
+***Ticket price***: €15
 
-Sale of tickets: Through the website of Soldout
-
-
+***Sale of tickets***: Through the website of [Soldout ](https://www.soldoutticketbox.com/the-ocean-and-the-star-artos-house-jul-2023/?lang=el)and Stephanis stores
