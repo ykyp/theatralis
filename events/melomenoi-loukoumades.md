@@ -2,7 +2,7 @@
 title: «Μελωμενοι Λουκουμαδες»
 city: Nicosia
 startDate: '2023-05-17T21:00:00.000Z'
-endDate: '2023-05-21T21:00:00.000Z'
+endDate: '2023-05-28T21:00:00.000Z'
 nicosia_dates: '2023-05-18, 2023-05-22, 2023-05-25, 2023-05-27, 2023-05-28'
 category: 'Comedy, amateur'
 theatres:

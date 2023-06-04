@@ -6,37 +6,35 @@ import {
     cities,
     Filter,
     getCategoryByCode,
-    getCityByCode, getCityByName,
+    getCityByName,
     getPeriodByCode,
     periods
 } from '../components/filter';
 import { ListingEvent } from '../components/listing-event';
-import { useState, useEffect } from 'react';
-import { Paginator } from 'primereact/paginator';
+import {useState, useEffect, useRef} from 'react';
 import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
 import { useRouter } from "next/router";
+import {Flex, Pagination, Select} from '@mantine/core';
 import {CalendarFilter} from "../components/CalendarFilter";
 
+const DEFAULT_PAGE_ITEMS = 10;
 
 export default function Home({ allEventsData }) {
    const {t, lang} = useTranslation('common');
    const router = useRouter();
    const { pathname, query } = router
-   const [results, setResults] = useState(allEventsData);
+   const [results, setResults] = useState(allEventsData.slice(0, DEFAULT_PAGE_ITEMS));
    const [searchBy, setSearchBy] = useState(router.query.q || '');
    const [selectedCity, setSelectedCity] = useState(getCityByName(router.query.city) || cities[0]);
    const [selectedPeriod, setSelectedPeriod] = useState(getPeriodByCode(router.query.period) || periods[0]);
    const [selectedCategory, setSelectedCategory] = useState(getCategoryByCode(router.query.category) || categories[0]);
-   const [pageFirst, setPageFirst] = useState( router.query.first || 0);
-   const [currentPage, setCurrentPage] = useState(router.query.page || 0);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
    const [isLoading, setLoading] = useState(false);
+   const initialLoadRef = useRef(true); // Keep track of initial load
    const [activePaginationHandler, setActivePaginationHandler] = useState(false);
-
-
    const searchEndpoint = (city, period, category, date, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&date=${date}&page=${page}&rows=${rows}&q=${q}`;
 
    if (router.query.source && router.query.source === "flyer") {
@@ -82,6 +80,7 @@ export default function Home({ allEventsData }) {
              query: {
                 ...router.city,
                 city:e.value.name,
+                 page:1
              }
           },
       )
@@ -93,6 +92,7 @@ export default function Home({ allEventsData }) {
              query: {
                 ...router.query,
                 period:e.value.code,
+                 page:1
              }
           },
       )
@@ -104,23 +104,19 @@ export default function Home({ allEventsData }) {
              query: {
                 ...router.query,
                 category:e.value.code,
+                 page:1
              }
           },
       )
    };
 
-   const onBasicPageChange = (event, e) => {
-       if (!activePaginationHandler) {
-           setActivePaginationHandler(true);
-           return;
-       }
+   const onBasicPageChange = (currentPage) => {
       router.push({
              pathname: '/',
              query: {
                 ...router.query,
-                page:event.page,
-                rows: event.rows,
-                first: event.first
+                page:currentPage,
+                rows: 10,
              }
              },
       )
@@ -131,45 +127,56 @@ export default function Home({ allEventsData }) {
              pathname: '/',
              query: {
                 ...router.query,
+                 page:1,
                 q:e,
              }
           },
       )
    };
 
+    const handleRowsChange = (value) => {
+        router.push({
+                pathname: '/',
+                query: {
+                    ...router.query,
+                    page:1,
+                    rows:value,
+                }
+            },
+        )
+    };
+
    useEffect(() => {
-      searchEvents();
-      setSelectedCategory(getCategoryByCode(router.query.category) || categories[0]);
-      setSelectedPeriod(getPeriodByCode(router.query.period) || periods[0]);
-      setSelectedCity(getCityByName(router.query.city) || cities[0]);
-      if (router.query.q) {
-         setSearchBy(router.query.q);
-      }
-      if (router.query.page || router.query.page === "0") {
-         setCurrentPage(router.query.page || 0);
-      }
-      if (router.query.first || router.query.first === "0") {
-         setPageFirst(router.query.first || 0);
-      }
+       // Skip execution on first load
+       if (initialLoadRef.current) {
+           initialLoadRef.current = false;
+           return;
+       }
+       searchEvents();
+       setSelectedCategory(getCategoryByCode(router.query.category) || categories[0]);
+       setSelectedPeriod(getPeriodByCode(router.query.period) || periods[0]);
+       setSelectedCity(getCityByName(router.query.city) || cities[0]);
+       if (router.query.q) {
+           setSearchBy(router.query.q);
+       }
    }, [router.query]);
 
    const searchEvents = () => {
-
       const query = {
          city:  router.query.city || 'ALL',
          period: router.query.period || 'ALL',
-          date: router.query.date || undefined,
          category:  router.query.category || 'ALL',
-         page: currentPage,
-         rows: router.query.rows || 10,
+          date: router.query.date || undefined,
+          page:  router.query.page-1 || 0,
+          rows:  router.query.rows || DEFAULT_PAGE_ITEMS,
          q: searchBy
       };
       setLoading(true);
       fetch(searchEndpoint(query.city,
          query.period,
          query.category,
-         query.page,
-         query.rows,
+          query.page,
+          query.rows,
          query.q))
          .then(res => res.json())
          .then(res => {
@@ -279,13 +286,34 @@ export default function Home({ allEventsData }) {
 
           </div>
           </div>
-       <Paginator first={pageFirst}
-                  rows={router.query.rows? Number(router.query.rows):10}
-                  totalRecords={currentTotalCount}
-                  rowsPerPageOptions={[10, 20, 30]}
-                  onPageChange={(e)=>onBasicPageChange(e)}>
-       </Paginator>
-       {/*<WelcomeDialog/>*/}
+
+        <Flex className="mt-4" justify={"center"}>
+
+        <Pagination value={router.query.page? Number(router.query.page):1}
+                    defaultValue={1}
+                    onChange={onBasicPageChange}
+                    position="center"
+                    radius="lg"
+                    withEdges
+                    total={Math.ceil(currentTotalCount / (router.query.rows ? Number(router.query.rows) : DEFAULT_PAGE_ITEMS))} />
+
+            <Select
+                placeholder="Rows per page"
+                ml={20}
+                w={80}
+                value={router.query.rows || DEFAULT_PAGE_ITEMS.toString()}
+                onChange={handleRowsChange}
+                data={[
+                    { value: DEFAULT_PAGE_ITEMS.toString(), label: '10' },
+                    { value: '20', label: '20' },
+                    { value: '30', label: '30' },
+                    { value: '40', label: '40' },
+                ]}
+            />
+
+        </Flex>
+
+
     </Layout>
   )
 }

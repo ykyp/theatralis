@@ -2,7 +2,7 @@
 title: Οι γυναικες επιστρεφουν
 city: Nicosia
 startDate: '2023-05-23T21:00:00.000Z'
-endDate: '2023-05-23T21:00:00.000Z'
+endDate: '2023-05-24T21:00:00.000Z'
 nicosia_dates: '2023-05-24'
 event_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Oi gynaikes
@@ -57,7 +57,7 @@ theatres:
 
 ***Ώρα Έναρξης***: 20:30
 
-***Τοποθεσία***: [Δημοτικό Θέατρο Λευκωσίας](?#map)
+***Τοποθεσία***: [Δημοτικό Θέατρο Λευκωσίας](?#map "")
 
 ***Διάρκεια***: 100 λεπτά
 
@@ -73,4 +73,4 @@ theatres:
 * ΖΩΝΗ Δ: €12 / €10 (μειωμένο)
 * Δικαιούχοι μειωμένων εισιτηρίων: Μαθητές,στρατιώτες,φοιτητές,συνταξιούχοι,πολύτεκνοι,ηθοποιοί, AMEA με παρουσίαση σχετικής ταυτότητας.
 
-***Προπώληση***: Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/oi-gyenekes-epistrefoun-may-2023/?lang=el)και σε όλα τα καταστήματα Stephanis
+***Προπώληση***: Μέσω της ιστοσελίδας [Soldout ](https://www.soldoutticketbox.com/oi-gyenekes-epistrefoun-may-2023/?lang=el "")και σε όλα τα καταστήματα Stephanis
