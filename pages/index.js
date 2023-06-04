@@ -78,7 +78,7 @@ export default function Home({ allEventsData }) {
       router.push({
              pathname: '/',
              query: {
-                ...router.city,
+                ...router.query,
                 city:e.value.name,
                  page:1
              }
@@ -175,6 +175,7 @@ export default function Home({ allEventsData }) {
       fetch(searchEndpoint(query.city,
          query.period,
          query.category,
+          query.date,
           query.page,
           query.rows,
          query.q))
