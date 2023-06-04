@@ -30,7 +30,7 @@ function App({ Component, pageProps }) {
   return <MantineProvider withGlobalStyles withNormalizeCSS theme={{
     fontFamily: 'Ubuntu, Roboto, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif',
     colors: {
-      brand: ['#780811', '#780811', '#780811', '#780811', '#780811', '#780811', '#780811', '#780811', '#780811', '#780811'],
+      brand: ['#7808111F', '#7808111F', '#7808111F', '#7808111F', '#780811', '#780811', '#780811', '#780811', '#780811', '#7808111F'],
     },
     primaryColor: 'brand',
   }}>

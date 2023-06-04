@@ -11,8 +11,7 @@ import {
     periods
 } from '../components/filter';
 import { ListingEvent } from '../components/listing-event';
-import { useState, useEffect } from 'react';
-import { Paginator } from 'primereact/paginator';
+import {useState, useEffect, useRef} from 'react';
 import * as ga from '../lib/ga'
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
@@ -20,20 +19,20 @@ import { ProgressSpinner } from 'primereact/progressspinner';
 import { useRouter } from "next/router";
 import { Pagination} from '@mantine/core';
 
+const DEFAULT_PAGE_ITEMS = 10;
 
 export default function Home({ allEventsData }) {
    const {t, lang} = useTranslation('common');
    const router = useRouter();
    const { pathname, query } = router
-   const [results, setResults] = useState(allEventsData);
+   const [results, setResults] = useState(allEventsData.slice(0, DEFAULT_PAGE_ITEMS));
    const [searchBy, setSearchBy] = useState(router.query.q || '');
    const [selectedCity, setSelectedCity] = useState(getCityByName(router.query.city) || cities[0]);
    const [selectedPeriod, setSelectedPeriod] = useState(getPeriodByCode(router.query.period) || periods[0]);
    const [selectedCategory, setSelectedCategory] = useState(getCategoryByCode(router.query.category) || categories[0]);
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
    const [isLoading, setLoading] = useState(false);
-   const [activePaginationHandler, setActivePaginationHandler] = useState(false);
-
+   const initialLoadRef = useRef(true); // Keep track of initial load
 
    const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q}`;
 
@@ -131,13 +130,18 @@ export default function Home({ allEventsData }) {
    };
 
    useEffect(() => {
-      searchEvents();
-      setSelectedCategory(getCategoryByCode(router.query.category) || categories[0]);
-      setSelectedPeriod(getPeriodByCode(router.query.period) || periods[0]);
-      setSelectedCity(getCityByName(router.query.city) || cities[0]);
-      if (router.query.q) {
-         setSearchBy(router.query.q);
-      }
+       // Skip execution on first load
+       if (initialLoadRef.current) {
+           initialLoadRef.current = false;
+           return;
+       }
+       searchEvents();
+       setSelectedCategory(getCategoryByCode(router.query.category) || categories[0]);
+       setSelectedPeriod(getPeriodByCode(router.query.period) || periods[0]);
+       setSelectedCity(getCityByName(router.query.city) || cities[0]);
+       if (router.query.q) {
+           setSearchBy(router.query.q);
+       }
    }, [router.query]);
 
    const searchEvents = () => {
@@ -269,7 +273,7 @@ export default function Home({ allEventsData }) {
                     position="center"
                     radius="lg"
                     withEdges
-                    total={Math.ceil(currentTotalCount / (router.query.rows || 10))} />
+                    total={Math.ceil(currentTotalCount / (router.query.rows || DEFAULT_PAGE_ITEMS))} />
         </div>
     </Layout>
   )
