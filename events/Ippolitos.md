@@ -6,6 +6,8 @@ endDate: '2023-08-04T21:00:00.000Z'
 limassol_dates: '2023-08-04, 2023-08-5'
 event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Ippolitos_2.jpg'
 category: tragedy
+theatres:
+  - name: theatres/arxaio_theatro_kouriou.md
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -26,7 +28,7 @@ category: tragedy
 
 ***Ώρα έναρξης***: 21:00
 
-***Τοποθεσία***: Αρχαίο Θέατρο Κουρίου
+***Τοποθεσία***: [Αρχαίο Θέατρο Κουρίου](?#map)
 
 ***
 
