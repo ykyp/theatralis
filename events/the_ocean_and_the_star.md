@@ -1,5 +1,5 @@
 ---
-title: the ocean and the star
+title: the ocean and the star (in english)
 city: Nicosia
 startDate: '2023-07-26T21:00:00.000Z'
 endDate: '2023-07-26T21:00:00.000Z'
@@ -57,4 +57,4 @@ subject matter, the play is recommended for audiences aged 14 and above.
 
 ***Ticket price***: €15
 
-***Sale of tickets***: Through the website of [Soldout ](https://www.soldoutticketbox.com/the-ocean-and-the-star-artos-house-jul-2023/?lang=el)and Stephanis stores
+***Sale of tickets***: Through the website of [Soldout ](https://www.soldoutticketbox.com/the-ocean-and-the-star-artos-house-jul-2023/?lang=el "")and Stephanis stores
