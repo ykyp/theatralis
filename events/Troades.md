@@ -7,7 +7,7 @@ limassol_dates: '2023-07-14, 2023-07-15'
 event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Troades_1.jpg'
 category: tragedy
 theatres:
-  - {}
+  - name: theatres/arxaio_theatro_kouriou.md
 gallery_images:
   - imgSrc: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Troades_2.jpg'
 ---
@@ -30,7 +30,7 @@ gallery_images:
 
 ***Ώρα έναρξης***: 21:00
 
-***Τοποθεσία***: Αρχαίο Θέατρο Κουρίου
+***Τοποθεσία***: [Αρχαίο Θέατρο Κουρίου](?#map)
 
 ***
 
