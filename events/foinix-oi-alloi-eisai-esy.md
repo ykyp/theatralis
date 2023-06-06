@@ -15,7 +15,7 @@ gallery_images:
   - imgSrc: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Finix_2.jpg'
   - imgSrc: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Finix_3.jpg'
 category: drama
-extended: false
+extended: true
 critic_link: ''
 critic_title: ''
 critic_p: ''
@@ -63,7 +63,7 @@ theatres:
 
 **Η παράσταση έχει διάρκεια 85 λεπτά.**
 
-Στην παράσταση γίνεται χρήση στρομποσκοπικού εφέ (strobe light).
+**Στην παράσταση γίνεται χρήση στρομποσκοπικού εφέ (strobe light).**
 
 ***
 
