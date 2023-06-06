@@ -9,7 +9,7 @@ event_image: >-
   Shrew.jpg
 category: tragedy
 theatres:
-  - {}
+  - name: theatres/arxaio_theatro_kouriou.md
 ---
 
 #### A FEW WORDS ABOUT THE PLAY
@@ -29,20 +29,7 @@ sets off a tale full of disguises, clashes and verbal sparring as well as love, 
 
 #### CAST
 
-Petruchio - Thomas Schendel\
-Tailor, Haberdasher   - Coral Bonnick-Russell\
-Katherina - Sian Fryett\
-Tranio - Sophia Panayiotou\
-Bianca - Luna Rudloff\
-Pedant - Peter Moore\
-Baptista - Ken McDowall\
-Grumio - Alex Firica\
-Lucentio - Thomas Wilbur\
-Gremio - Mike Ball\
-Hortensio - Samantha Rudloff\
-Vincentio - Mike Crawshaw\
-Biondello - Nick Roussos\
-Servant, Widow - Linda Crawshaw
+Petruchio - Thomas Schendel | Tailor, Haberdasher   - Coral Bonnick-Russell | Katherina - Sian Fryett | Tranio - Sophia Panayiotou | Bianca - Luna Rudloff | Pedant - Peter Moore | Baptista - Ken McDowall | Grumio - Alex Firica | Lucentio - Thomas Wilbur | Gremio - Mike Ball | Hortensio - Samantha Rudloff | Vincentio - Mike Crawshaw | Biondello - Nick Roussos | Servant, Widow - Linda Crawshaw
 
 ***
 
@@ -52,7 +39,7 @@ Servant, Widow - Linda Crawshaw
 
 ***Time***: 20:00
 
-***Location***: Ancient Kourion
+***Location***: [Ancient Kourion](?#map)
 
 ***Ticket prices***:
 
