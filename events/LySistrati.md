@@ -23,10 +23,10 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+  - name: theatres/Arxaio-theatro-kouriou.md
   - name: theatres/dimotiko-amfitheatro-deryneias.md
   - name: theatres/patticheio-dimotiko-amfitheatro-larnacas.md
   - name: theatres/Arxaio_Odeio_Pafou.md
-  - name: theatres/arxaio_theatro_kouriou.md
   - name: theatres/amfitheatro-sxolis-tyflwn.md
 ---
 
@@ -88,7 +88,7 @@ theatres:
 
 ***Ώρα έναρξης***: 21:00
 
-***Τοποθεσία***: [Αρχαίο Θέατρο Κουρίου](?#map)
+***Τοποθεσία***: [Αρχαίο Θέατρο Κουρίου](?#map "")
 
 ***
 
