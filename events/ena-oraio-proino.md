@@ -6,8 +6,9 @@ endDate: '2023-07-03T21:00:00.000Z'
 limassol_dates: '2023-07-04'
 theatres:
   - name: theatres/Arxaio-theatro-kouriou.md
+category: comedy
 ---
 
 λιγα λογια για την οαρασταση
 
-τοποθεσια: [αρχαιο θεατρο κουριου](?#map)
+τοποθεσια: [αρχαιο θεατρο κουριου](?#map "")
