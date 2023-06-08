@@ -1,14 +1,14 @@
 ---
 title: ο επιθεωρητης
 city: Nicosia
-startDate: '2023-06-09T21:00:00.000Z'
-endDate: '2023-06-09T21:00:00.000Z'
-nicosia_dates: '2023-06-10'
+startDate: '2023-06-11T21:00:00.000Z'
+endDate: '2023-06-11T21:00:00.000Z'
+nicosia_dates: '2023-06-12'
 category: amateur
 theatres:
   - name: theatres/dimotiko-theatro-strovolou.md
+event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/O epithewritis.jpg'
 ---
-
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
 
@@ -17,17 +17,10 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-Ημερομηνία: Σάββατο 10 Ιουνίου 2023
+Ημερομηνία: Δευτέρα 12 Ιουνίου 2023
 
 Ώρα έναρξης: 20:30
 
-Τοποθεσία: [Δημοτικό Θέατρο Στροβόλου](?#map)
+Τοποθεσία: [Δημοτικό Θέατρο Στροβόλου](?#map "")
 
 Η ΕΙΣΟΔΟΣ ΕΙΝΑΙ ΔΩΡΕΑΝ
-
-
-
-
-
-
-
