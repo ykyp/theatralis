@@ -10,7 +10,6 @@ event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Antigo
 category: tragedy
 theatres:
   - name: theatres/amfitheatro-sxolis-tyflwn.md
-  - name: theatres/Arxaio_Odeio_Pafou.md
   - name: theatres/arxaio_theatro_kouriou.md
 gallery_images:
   - imgSrc: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Antigoni_2.jpg'
@@ -47,7 +46,7 @@ gallery_images:
 
 ***Ώρα έναρξης***: 21:00
 
-***Τοποθεσία***: [Αρχαίο Ωδείο Πάφου](?#map)
+***Τοποθεσία***: [Αρχαίο Ωδείο Πάφου](?#map "")
 
 ***
 
@@ -57,7 +56,7 @@ gallery_images:
 
 ***Ώρα έναρξης***: 21:00
 
-***Τοποθεσία***: [Αρχαίο Θέατρο Κουρίου](?#map)
+***Τοποθεσία***: [Αρχαίο Θέατρο Κουρίου](?#map "")
 
 ***
 
