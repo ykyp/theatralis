@@ -27,8 +27,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+  - name: theatres/Dimotiko-theatro-ypsona.md
   - name: theatres/dimotiko-theatro-strovolou.md
-  - name: theatres/dimotiko_theatro_ypsona.md
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
