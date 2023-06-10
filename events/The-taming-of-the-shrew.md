@@ -9,9 +9,8 @@ event_image: >-
   Shrew.jpg
 category: tragedy
 theatres:
-  - name: theatres/arxaio_theatro_kouriou.md
+  - name: theatres/Arxaio-theatro-kouriou.md
 ---
-
 
 #### A FEW WORDS ABOUT THE PLAY
 
@@ -40,7 +39,7 @@ Petruchio - Thomas Schendel | Tailor, Haberdasher   - Coral Bonnick-Russell | 
 
 ***Time***: 20:00
 
-***Location***: [Ancient Kourion](?#map)
+***Location***: [Ancient Kourion](?#map "")
 
 ***Ticket prices***:
 
