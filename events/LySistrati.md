@@ -23,10 +23,10 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
+  - name: theatres/Arxaio-Odeio-Pafou.md
   - name: theatres/Arxaio-theatro-kouriou.md
   - name: theatres/dimotiko-amfitheatro-deryneias.md
   - name: theatres/patticheio-dimotiko-amfitheatro-larnacas.md
-  - name: theatres/Arxaio_Odeio_Pafou.md
   - name: theatres/amfitheatro-sxolis-tyflwn.md
 ---
 
