@@ -10,8 +10,8 @@ event_image: >-
   voskos.jpg
 category: children
 theatres:
+  - name: theatres/Dimotiko-theatro-ypsona.md
   - name: theatres/dimotiko-theatro-strovolou.md
-  - name: theatres/dimotiko_theatro_ypsona.md
 ---
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
