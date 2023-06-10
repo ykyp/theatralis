@@ -9,8 +9,9 @@ paphos_dates: '2023-07-18'
 event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Antigoni.jpg'
 category: tragedy
 theatres:
+  - name: theatres/Arxaio-theatro-kouriou.md
   - name: theatres/amfitheatro-sxolis-tyflwn.md
-  - name: theatres/arxaio_theatro_kouriou.md
+  - name: theatres/Arxaio-Odeio-Pafou.md
 gallery_images:
   - imgSrc: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Antigoni_2.jpg'
 ---
