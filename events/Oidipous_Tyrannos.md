@@ -11,8 +11,8 @@ event_image: >-
   Tyrannos.jpg
 category: tragedy
 theatres:
+  - name: theatres/Arxaio-theatro-kouriou.md
   - name: theatres/patticheio-dimotiko-amfitheatro-larnacas.md
-  - name: theatres/arxaio_theatro_kouriou.md
   - name: theatres/amfitheatro-sxolis-tyflwn.md
 ---
 
@@ -62,7 +62,7 @@ theatres:
 
 ***Ώρα έναρξης***: 21:00
 
-***Τοποθεσία***: [Αρχαίο Θέατρο Κουρίου](?#map)
+***Τοποθεσία***: [Αρχαίο Θέατρο Κουρίου](?#map "")
 
 ***
 
@@ -90,4 +90,4 @@ theatres:
 
 ***Τιμή***: €30 | €25 | €20
 
-***Προπώληση***: Μέσω της ιστοσελίδας [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4267)και απο όλα τα ACS courier
+***Προπώληση***: Μέσω της ιστοσελίδας [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4267 "")και απο όλα τα ACS courier
