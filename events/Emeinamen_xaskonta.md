@@ -1,15 +1,15 @@
 ---
 title: εμειναμεν χασκοντα
 city: Larnaca
-startDate: '2023-05-29T21:00:00.000Z'
-endDate: '2023-05-30T21:00:00.000Z'
-larnaca_dates: '2023-05-30'
+startDate: '2023-06-26T21:00:00.000Z'
+endDate: '2023-06-26T21:00:00.000Z'
+larnaca_dates: '2023-06-27'
 event_image: >-
-  https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Eminamen
-  xaskonta.jpg
+  https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Emeiname
+  xaskontas_2.jpg
 category: 'Comedy, amateur'
 theatres:
-  - name: theatres/patticheio-dimotiko-amfitheatro-larnacas.md
+  - name: theatres/theatro-skala.md
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -32,11 +32,11 @@ theatres:
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-***Ημερομηνία***: Τρίτη 30 Μαΐου 2023
+***Ημερομηνία***: Τρίτη 27 Ιουνίου 2023
 
 ***Ώρα έναρξης***: 20:30
 
-***Τοποθεσία***: [Παττίχειο Δημοτικό Αμφθέατρο Λάρνακας](?#map "")
+***Τοποθεσία***: [Θέατρο Σκάλα](?#map)
 
 ***
 
@@ -46,4 +46,4 @@ theatres:
 
 ***Κρατήσεις***: Στα τηλέφωνα 9949941 & 99813804
 
-***Προπώληση***: Μέσω της ιστοσελίδας [Tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4217 "")
+***Προπώληση***: Μέσω της ιστοσελίδας [Tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4273)
