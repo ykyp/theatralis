@@ -58,7 +58,7 @@ event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Ouu ge
 
 ***Ώρα έναρξης***: 20:30
 
-***Τοποθεσία***: WhereHaus	612
+***Τοποθεσία***: [WhereHaus	612](?#map)
 
 ***
 
