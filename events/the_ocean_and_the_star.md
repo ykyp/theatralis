@@ -9,7 +9,7 @@ event_image: >-
   Star - Instagram Image.jpg
 category: drama
 theatres:
-  - name: theatres/artos_house.md
+  - name: theatres/Artos-house.md
 cover_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/The Ocean and the
   Star - Facebook Image.jpg
