@@ -20,7 +20,8 @@ critic_link: ''
 critic_title: ''
 critic_p: ''
 theatres:
-  - name: theatres/cine-studio.md
+  - name: theatres/theatro_dentro.md
+  - name: theatres/savino-live.md
   - name: theatres/ravens-music-hall.md
 ---
 
@@ -44,7 +45,7 @@ theatres:
 
 ***Ώρα έναρξης:*** 20:30
 
-***Τοποθεσία:*** [Cine Studio](?#map "")
+***Τοποθεσία:*** [Cine Studio](?#map)
 
 ***
 
@@ -54,7 +55,7 @@ theatres:
 
 ***Ώρα έναρξης:*** 20:30
 
-***Τοποθεσία:*** Savino Live
+***Τοποθεσία:*** [Savino Live](?#map)
 
 ***
 
