@@ -6,6 +6,8 @@ endDate: '2023-08-08T21:00:00.000Z'
 limassol_dates: '2023-08-03,2023-08-04,2023-08-05,2023-08-06,2023-08-07'
 famagusta_dates: '2023-08-09'
 category: comedy
+event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/1.jpeg'
+cover_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/2.jpeg'
 ---
 
 #### **ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ**
