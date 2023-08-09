@@ -101,7 +101,7 @@ category: 'comedy, children'
 €10 ευρώ το άτομο
 (γενική είσοδος μικροί – μεγάλοι).Η χρέωση γίνεται από ηλικία 2 χρονών και άνω
 
-Τηλέφωνα επικοινωνίας και κρατήσεις εισιτηρίων στο τηλέφωνο 96403029 και στα  tickethour        
+Τηλέφωνα επικοινωνίας και κρατήσεις εισιτηρίων στο τηλέφωνο 96403029 και στα  [tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4317)       
 
 Email:  theatrovestiario@hotmail.com
 
