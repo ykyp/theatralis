@@ -66,7 +66,7 @@ category: 'comedy, children'
 
 Κυριακή 15 & 22 & 29 Οκτωβρίου στις 10.30 π.μ
 
-***Τοποθεσία:*** [Θέατρο Μελίνα Μερκούρη](https://www.google.com/maps/place/Melina+Merkouri+Municipal+Hall/@35.175472,33.3665275,17z/data=!3m1!4b1!4m6!3m5!1s0x14de176a732580fd:0x7b1136c77973cab8!8m2!3d35.1754677!4d33.3713984!16s%2Fg%2F1thv1lpv?entry=ttu "")
+***Τοποθεσία:*** [Θέατρο Μελίνα Μερκούρη](https://www.google.com/maps/place/Melina+Merkouri+Municipal+Hall/@35.175472,33.3665275,17z/data=!3m1!4b1!4m6!3m5!1s0x14de176a732580fd:0x7b1136c77973cab8!8m2!3d35.1754677!4d33.3713984!16s%2Fg%2F1thv1lpv?entry=ttu)
 
 ΛΕΜΕΣΟΣ
 
