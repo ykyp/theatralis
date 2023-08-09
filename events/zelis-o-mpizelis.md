@@ -72,7 +72,7 @@ category: 'comedy, children'
 
 ***Ημερομηνία και Ώρα έναρξης : *** Κυριακή 8 Οκτωβρίου στις 10.30 π.μ
 
-***Τοποθεσία: ***[Παττίχειο Δημοτικό Θέατρο Λεμεσός](?#map "")
+***Τοποθεσία: ***[Παττίχειο Δημοτικό Θέατρο Λεμεσός](https://www.google.com/maps/place/Patichion+Municipal+Theatre,+Agias+Zonis+2,+Limassol,+Cyprus/@34.6812699,33.0389611,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7330f8b4700ed:0xd66d4f231f490bbb!8m2!3d34.6813016!4d33.0438594!16s%2Fg%2F11bvthpbkr?entry=ttu "")
 
 ΛΑΡΝΑΚΑ
 
