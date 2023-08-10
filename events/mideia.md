@@ -36,7 +36,7 @@ category: tragedy
 
 Κρέοντας: Λαέρτης  Μαλκότσης
 
-Άγγελος: Αλμπέρτο Φάις 
+Άγγελος: Αλμπέρτο Φάις
 
 Χορός: Αλίκη Αβδελοπούλου, Στέλλα Ράπτη, Έλενα Χατζηαυξέντη, Μυρτώ Παπαργυροπούλου, Γωγώ Παπαϊωάννου, Μυρτώ Καστρινάκη Μεϊτάνη
 
@@ -48,11 +48,13 @@ category: tragedy
 
 Ημερομηνίες: Πέμπτη 14 Σεπτεμβρίου 2023
 
-                         Παρασκευή 15 Σεπτεμβρίου 2023
+```
+                     Παρασκευή 15 Σεπτεμβρίου 2023
+```
 
 Ώρα έναρξης: 20:30 μ.μ.
 
-Τοποθεσία: [Αμφιθέατρο Σχολής Τυφλών](https://www.google.com/maps/place/%CE%91%CE%BC%CF%86%CE%B9%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A3%CF%87%CE%BF%CE%BB%CE%AE%CF%82+%CE%A4%CF%85%CF%86%CE%BB%CF%8E%CE%BD+\(%CE%9C%CE%B1%CE%BA%CE%B1%CF%81%CE%AF%CE%BF%CF%85+%CE%93'\)/@35.1502781,33.3530564,17.1z/data=!3m1!4b1!4m6!3m5!1s0x14de19f1677fe7ff:0x14884fe0e5cf204d!8m2!3d35.1502737!4d33.3556313!16s%2Fg%2F11c54g0v_3?entry=ttu)
+Τοποθεσία: [Αμφιθέατρο Σχολής Τυφλών](https://www.google.com/maps/place/%CE%91%CE%BC%CF%86%CE%B9%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A3%CF%87%CE%BF%CE%BB%CE%AE%CF%82+%CE%A4%CF%85%CF%86%CE%BB%CF%8E%CE%BD+\(%CE%9C%CE%B1%CE%BA%CE%B1%CF%81%CE%AF%CE%BF%CF%85+%CE%93'\)/@35.1502781,33.3530564,17.1z/data=!3m1!4b1!4m6!3m5!1s0x14de19f1677fe7ff:0x14884fe0e5cf204d!8m2!3d35.1502737!4d33.3556313!16s%2Fg%2F11c54g0v_3?entry=ttu "")
 
 ΛΕΜΕΣΟΣ
 
@@ -60,10 +62,10 @@ category: tragedy
 
 Ώρα έναρξης: 20:30 μ.μ.
 
-Τοποθεσία: [Κηποθέατρο Λεμεσού-Μάριος Τόκας](https://www.google.com/maps/place/Municipal+Open+Air+Theater,+Lord+Byron+14,+Limassol,+Cyprus/@34.6831253,33.0532077,17.78z/data=!4m9!1m2!2m1!1zzrrOt8-Azr_OuM61zrHPhM-Bzr8gzrvOtc68zrXPg86_z4U!3m5!1s0x14e73315956d183f:0xd12f518bff0fa34a!8m2!3d34.6837781!4d33.0550723!16s%2Fg%2F11bw1_mlgx?entry=ttu)
+Τοποθεσία: [Κηποθέατρο Λεμεσού-Μάριος Τόκας](https://www.google.com/maps/place/Municipal+Open+Air+Theater,+Lord+Byron+14,+Limassol,+Cyprus/@34.6831253,33.0532077,17.78z/data=!4m9!1m2!2m1!1zzrrOt8-Azr_OuM61zrHPhM-Bzr8gzrvOtc68zrXPg86_z4U!3m5!1s0x14e73315956d183f:0xd12f518bff0fa34a!8m2!3d34.6837781!4d33.0550723!16s%2Fg%2F11bw1_mlgx?entry=ttu "")
 
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-#### Εισιτήρια από την	[TICKETHOUR.COM .CY](https://shop.tickethour.com/showEventInformation.html?idEvent=4315), Ταμείο Κηποθεάτρου Λεμεσού και όλα τα ACS couriers &#xA;&#xA;&#xA;&#xA;
+#### Εισιτήρια από την	[TICKETHOUR.COM .CY](https://shop.tickethour.com/showEventInformation.html?idEvent=4315 ""), Ταμείο Κηποθεάτρου Λεμεσού και όλα τα ACS couriers &#xA;&#xA;&#xA;&#xA;
