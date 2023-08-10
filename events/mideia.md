@@ -66,4 +66,4 @@ category: tragedy
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-#### Εισιτήρια από την	[TICKETHOUR.COM .CY](https://shop.tickethour.com/showEventInformation.html?idEvent=4315) , Ταμείο Κηποθεάτρου Λεμεσού και&#xA;όλα τα ACS couriers &#xA;&#xA;&#xA;&#xA;
+#### Εισιτήρια από την	[TICKETHOUR.COM .CY](https://shop.tickethour.com/showEventInformation.html?idEvent=4315), Ταμείο Κηποθεάτρου Λεμεσού και όλα τα ACS couriers &#xA;&#xA;&#xA;&#xA;
