@@ -56,18 +56,14 @@ category: tragedy
 
 ΛΕΜΕΣΟΣ
 
-
 Ημερομηνία:  Σάββατο Σεπτεμβρίου 2023
 
 Ώρα έναρξης: 20:30 μ.μ.
 
 Τοποθεσία: [Κηποθέατρο Λεμεσού-Μάριος Τόκας](https://www.google.com/maps/place/Municipal+Open+Air+Theater,+Lord+Byron+14,+Limassol,+Cyprus/@34.6831253,33.0532077,17.78z/data=!4m9!1m2!2m1!1zzrrOt8-Azr_OuM61zrHPhM-Bzr8gzrvOtc68zrXPg86_z4U!3m5!1s0x14e73315956d183f:0xd12f518bff0fa34a!8m2!3d34.6837781!4d33.0550723!16s%2Fg%2F11bw1_mlgx?entry=ttu)
 
- 
+***
 
+#### ΕΙΣΙΤΗΡΙΑ
 
-
-
-
-
-
+#### Εισιτήρια από την	[TICKETHOUR.COM .CY](https://shop.tickethour.com/showEventInformation.html?idEvent=4315) , Ταμείο Κηποθεάτρου Λεμεσού και&#xA;όλα τα ACS couriers &#xA;&#xA;&#xA;&#xA;
