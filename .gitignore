@@ -28,4 +28,4 @@ yarn-debug.log*
 yarn-error.log*
 
 node_modules
-.tina/__generated__
+tina/__generated__
