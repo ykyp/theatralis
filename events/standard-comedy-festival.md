@@ -5,6 +5,9 @@ startDate: '2023-09-21T21:00:00.000Z'
 endDate: '2023-09-23T21:00:00.000Z'
 limassol_dates: '2023-09-22, 2023-09-23, 2023-09-24'
 category: Standup
+event_image: >-
+  https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Stantar KKomety_A3
+  POSTER.jpg
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
