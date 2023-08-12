@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GMap } from 'primereact/gmap';
+// import { GMap } from 'primereact/gmap';
 
 const EventMap = ({theatreData}) => {
    const latlong = theatreData.latlong.split(",");
@@ -65,10 +65,10 @@ const EventMap = ({theatreData}) => {
    return (
       <div>
          <div className="card">
-            <GMap overlays={overlays}
-                  options={options}
-                  style={{width: '100%', minWidth:'100%', minHeight: '320px'}}
-                  onMapReady={onMapReady} />
+            {/*<GMap overlays={overlays}*/}
+            {/*      options={options}*/}
+            {/*      style={{width: '100%', minWidth:'100%', minHeight: '320px'}}*/}
+            {/*      onMapReady={onMapReady} />*/}
          </div>
       </div>
    );
