@@ -27,6 +27,14 @@ fragment EventsParts on Events {
         facebook_page
       }
       ... on Document {
+        _sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
         id
       }
     }
