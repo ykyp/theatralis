@@ -2220,7 +2220,7 @@
     typescript "^4.6.4"
     zod "^3.14.3"
 
-"@tinacms/cli@^1.2.1":
+"@tinacms/cli@^1.5.27":
   version "1.5.27"
   resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.5.27.tgz#aeaa6db39dee05e3213a12ddbc0512040ecec3e4"
   integrity sha512-a1ZjUZDMLTjYCWEDkyTBttwLfDO9mkg3KL9/kuyyRlDD4uQGYbVfhYP0bLqLXnTY1i79ukxAAFghvpgEzHnygw==
@@ -10738,7 +10738,7 @@ timers-browserify@2.0.12, timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
-tinacms@1.5.18, tinacms@^1.2.1:
+tinacms@1.5.18, tinacms@^1.5.18:
   version "1.5.18"
   resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.5.18.tgz#73d5bd219973e2c05b85c81963c50a279ba11bf2"
   integrity sha512-u87pXLEChzF/s7znoHfSJHGb22UyW7iJAxEeON3KdPFzSa2JainHMBOYMDcs6YiHqtKWUWvaY5PQv1PGWZFSHQ==
