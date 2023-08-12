@@ -15,8 +15,7 @@ const Footer = () => {
          <div className="xl:grid xl:grid-cols-3 xxl:grid xxl:grid-cols-3 lg:grid lg:grid-cols-3  md:flex md:flex-col sm:flex sm:flex-col xs:flex xs:flex-col  items-center p-6 border-b border-gray-300">
             <div className="flex col-start-2  items-center ">
                <div className="font-bold text-2xl text-gray-800">
-                  <Link href="/">
-                     <a className="flex items-center">
+                  <Link href="/" className="flex items-center">
                         <img
                            className=""
                            src="/images/theatralis_icon_colour.png"
@@ -24,7 +23,6 @@ const Footer = () => {
                            width={24}
                            alt={'Theatralis'}
                         />
-                     </a>
                   </Link>
                </div>
 
@@ -42,7 +40,7 @@ const Footer = () => {
             <div className=" col-start-3  flex  inline items-center xs:mt-3 sm:mt-3 md:mt-3 sm:text-sm">
                <div className=" lg:block">
                   <Link href="/privacy-policy" key="privacy-policy">
-                     <a >Privacy Policy</a>
+                    Privacy Policy
                   </Link>
                </div>
                <div className="ml-2 mr-2 brand-red" key="divider-6">
@@ -50,7 +48,7 @@ const Footer = () => {
                </div>
                <div className=" lg:block">
                   <Link href="/cookie-policy" key="cookie-policy">
-                     <a >Cookie Policy</a>
+                    Cookie Policy
                   </Link>
                </div>
                <div className="ml-2 mr-2 brand-red" key="divider-7">

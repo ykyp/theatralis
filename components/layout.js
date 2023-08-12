@@ -69,9 +69,8 @@ export default function Layout({ children, home, pageTitle, description, current
              return (
                 <>
                 <li className="ml-2" key={link.path}>
-                   <Link href={link.path} activeStyle={{'fontWeight': "bold"}}>
-                      <a key={index}
-                         className={router.pathname === link.path ? "active" : ""}>{t(link.key)}</a>
+                   <Link href={link.path} activeStyle={{'fontWeight': "bold"}}  className={router.pathname === link.path ? "active" : ""}>
+                        {t(link.key)}
                    </Link>
                 </li>
                 <li className="ml-2 brand-red"  key="divider-1">
@@ -82,16 +81,16 @@ export default function Layout({ children, home, pageTitle, description, current
           })}
 
           <li className={"ml-2"} key="en">
-             <Link href="/" locale="en">
-                <a  className={lang === 'en' ? "active" : ""}>EN</a>
+             <Link href="/" locale="en"  className={lang === 'en' ? "active" : ""}>
+                EN
              </Link>
           </li>
           <li className="ml-2 brand-red" key="divider-2">
              |
           </li>
           <li className={"ml-2"} key="gr">
-             <Link href="/"  locale="gr">
-                <a  className={lang === 'gr' ? "active" : ""}>ΕΛ</a>
+             <Link href="/"  locale="gr" className={lang === 'gr' ? "active" : ""}>
+                ΕΛ
              </Link>
           </li>
        </Navbar>
