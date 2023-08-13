@@ -1,4 +1,4 @@
-// .tina/config.js
+// tina/config.js
 import { defineConfig, wrapFieldsWithMeta } from "tinacms";
 var branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 var config_default = defineConfig({
