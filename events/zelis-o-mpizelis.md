@@ -1,8 +1,8 @@
 ---
 title: ΖΕΛΗΣ Ο ΜΠΙΖΕΛΗΣ
 city: 'nicosia, limassol, pafos, larnaca'
-startDate: '2023-09-22T21:00:00.000Z'
-endDate: '2023-10-28T21:00:00.000Z'
+startDate: 2023-09-22T21:00:00.000Z
+endDate: 2023-10-28T21:00:00.000Z
 nicosia_dates: >-
   2023-09-23,2023-09-24, 2023-10-15, 2023-10-21, 2023-10-22,
   2023-10-28,2023-10-29
@@ -67,7 +67,7 @@ event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/zelis.
 
 Κυριακή 15 & 22 & 29 Οκτωβρίου στις 10.30 π.μ
 
-***Τοποθεσία:*** [Θέατρο Μελίνα Μερκούρη](https://www.google.com/maps/place/Melina+Merkouri+Municipal+Hall/@35.175472,33.3665275,17z/data=!3m1!4b1!4m6!3m5!1s0x14de176a732580fd:0x7b1136c77973cab8!8m2!3d35.1754677!4d33.3713984!16s%2Fg%2F1thv1lpv?entry=ttu "")
+***Τοποθεσία:*** [Θέατρο Μελίνα Μερκούρη](https://www.google.com/maps/place/Melina+Merkouri+Municipal+Hall/@35.175472,33.3665275,17z/data=!3m1!4b1!4m6!3m5!1s0x14de176a732580fd:0x7b1136c77973cab8!8m2!3d35.1754677!4d33.3713984!16s%2Fg%2F1thv1lpv?entry=ttu)
 
 **ΛΕΜΕΣΟΣ**
 
@@ -75,15 +75,15 @@ event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/zelis.
 
 Κυριακή 8 Οκτωβρίου στις 10.30 π.μ
 
-\*\*\*Τοποθεσία: \*\*\*[Παττίχειο Δημοτικό Θέατρο Λεμεσός](https://www.google.com/maps/place/Municipal+Theatre+of+Larnaka/@34.9160578,33.6215252,17z/data=!4m6!3m5!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961!16s%2Fg%2F11h7y1sd99?entry=ttu "")
+\*\*\*Τοποθεσία:\*\*\* [Παττίχειο Δημοτικό Θέατρο Λεμεσός](https://www.google.com/maps/place/Municipal+Theatre+of+Larnaka/@34.9160578,33.6215252,17z/data=!4m6!3m5!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961!16s%2Fg%2F11h7y1sd99?entry=ttu)
 
 **ΛΑΡΝΑΚΑ**
 
-\*\*\*Ημερομηνία και Ώρα έναρξης : \*\*\*
+\*\*\*Ημερομηνία και Ώρα έναρξης:\*\*\*
 
 Σάββατο 30 Σεπτεμβρίου στις 4.00 μ.μ
 
-\*\*\*Τοποθεσία: \*\*\*[Δημοτικό Θέατρο Λάρνακας Γ. Λυκούργος](?#map "")
+\*\*\*Τοποθεσία:\*\*\* [Δημοτικό Θέατρο Λάρνακας Γ. Λυκούργος](?#map)
 
 **ΠΑΦΟΣ**
 
@@ -91,7 +91,7 @@ event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/zelis.
 
 Κυριακή 1 Οκτωβρίου στις 10.30 π.μ
 
-\*\*\*Τοποθεσία: \*\*\*[Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781642,32.4206585,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu "")
+\*\*\*Τοποθεσία:\*\*\* [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781642,32.4206585,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
 
  \*\*Οι παραστάσεις αρχίζουν στην ώρα τους ακριβώς!! Οι θεατές
 να είναι στο θέατρο τουλάχιστον 20 με 15 λεπτά πιο νωρίς για την
@@ -110,7 +110,7 @@ event_image: 'https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/zelis.
 €10 ευρώ το άτομο
 (γενική είσοδος μικροί – μεγάλοι).Η χρέωση γίνεται από ηλικία 2 χρονών και άνω
 
-Τηλέφωνα επικοινωνίας και κρατήσεις εισιτηρίων στο τηλέφωνο 96403029 και στα  [tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4317 "")       
+Τηλέφωνα επικοινωνίας και κρατήσεις εισιτηρίων στο τηλέφωνο 96403029 και στα  [tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4317)       
 
 Email:  theatrovestiario@hotmail.com
 
@@ -119,17 +119,3 @@ Email:  theatrovestiario@hotmail.com
 €12 ευρώ το άτομο
 
 (γενική είσοδος μικροί – μεγάλοι).Η χρέωση γίνεται από 2 χρονών και άνω
-
- 
-
- 
-
- 
-
- 
-
-#### &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA; 
-
- 
-
- 
