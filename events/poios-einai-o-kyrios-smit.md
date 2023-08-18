@@ -10,7 +10,8 @@ larnaca_dates: >-
 event_image: /aaascala.jpg
 category: Comedy
 theatres:
-  - name: theatres/theatro-skala.md
+  - {}
+  - name: theatres/wherehaus.md
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
