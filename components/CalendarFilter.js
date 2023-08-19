@@ -5,6 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 import styles from "./carousel-filter.module.css";
 import {useRouter} from "next/router";
 import {formatDate, formatDateURL} from "./date";
+import moment from "moment";
 
 
 const generateDayOptions = () => {
@@ -29,18 +30,45 @@ const generateDayOptions = () => {
 }
 
 export const CalendarFilter = (props) => {
-
     const router = useRouter();
     const [daysOptions, setDaysOptions] = useState(generateDayOptions());
+    const [availableDates, setAvailableDates] = useState([]);
+    const [loading, setLoading] = useState(false);
+
     const [selectedDate, setSelectedDate] = useState();
-   const handleDateClick = (date) => {
-       console.log("selected date ", date);
-       console.log("formatted date ", date.formattedDate);
+    const eventsDatesEndpoint = `/api/eventDates`;
+
+    useEffect(() => {
+        fetch(eventsDatesEndpoint)
+            .then(res => res.json())
+            .then(res => {
+                const formattedDates = res.dates.map(d=>moment(d).toDate());
+                const asDaysOptions = formattedDates.map((d, i) => {
+                    return {
+                        fullDate: d,
+                        date: d.getDate(),
+                        formattedDate: formatDateURL(d),
+                        day: getDayName(d),
+                        month: getMonthName(d),
+                        isSelected: false,
+                        disabled: false,
+                    };
+                });
+
+                setAvailableDates(() => asDaysOptions);
+                setLoading(false);
+            }).catch((error) => {
+            console.log("Error fetching events available dates", error);
+            setLoading(false);
+        });
+    }, []);
+
+    const handleDateClick = (date) => {
        router.push({
                pathname: '/',
                query: {
                    ...router.query,
-                   date:date.formattedDate,
+                   date: router.query.date && date.formattedDate === router.query.date ? undefined : date.formattedDate,
                }
            },
        )
@@ -76,15 +104,15 @@ export const CalendarFilter = (props) => {
 
 
    return (
-       <div className="pt-4 mx-auto px-4 md:px-12 max-w-2xl lg:max-w-6xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l bg-gray-100">
+       <div className="pt-4 mx-auto px-4 md:px-12 max-w-2xl lg:max-w-4xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l bg-gray-100">
            {/*<h2 lang='el' className="h4-prose text-black text-xl uppercase text-left pt-6"> day filter</h2>*/}
            <div className=" mb-4 text-center lg:text-left text-gray-500 text-sm ">
            <Carousel responsive={responsive}>
-              {daysOptions.map((item) => (
-                  <div className="my-1 px-1 flex cursor-pointer"
+              {availableDates.map((item, i) => (
+                  <div className="my-1 px-1 flex cursor-pointer" key={item.date+i}
                        onClick={()=>handleDateClick(item)}>
-                      <div className={`w-full ${selectedDate === item.formattedDate ? styles.activeDate:''}`}>
-                           <div className="my-1 px-1 flex flex-col" key={item}>
+                      <div className={`w-full ${styles.dateCard}`}>
+                           <div className={`my-1 px-1 flex flex-col text-center ${router.query.date === item.formattedDate ? styles.activeDate:''}`} key={item}>
                                <div className={styles.dayText}>
                                    {item.day}
                                </div>
@@ -97,19 +125,6 @@ export const CalendarFilter = (props) => {
                            </div>
                       </div>
                   </div>
-                  // <div className="w-full">
-                  //     <div className="my-1 px-1 flex flex-col" key={item}>
-                  //         <div className={styles.dayText}>
-                  //             {item.day}
-                  //         </div>
-                  //         <div className={styles.dateText}>
-                  //             {item.date}
-                  //         </div>
-                  //         <div className={styles.monthText}>
-                  //             {item.month}
-                  //         </div>
-                  //     </div>
-                  // </div>
               ))}
           </Carousel>
            </div>

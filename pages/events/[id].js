@@ -12,13 +12,11 @@ import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { Galleria } from 'primereact/galleria'
 import { CommentCount } from 'disqus-react';
-import {Messages} from "primereact/messages";
 import {TheatreInfo} from "../../components/theatre/theatre-info";
 import {Reviews} from "../../components/reviews/reviews";
 import {SuggestedEvents} from "../../components/suggested-events/suggested-events";
 import {BackToHome} from "../../components/navigation/backToHome";
 import * as ga from "../../lib/ga";
-import {useStateFromLocalStorage} from "../../components/session-storage-state";
 import {addToLikes, isLiked, removeFromLikes} from "../../utils/agenda-utils";
 
 export default function Event({ eventData: eventData }) {

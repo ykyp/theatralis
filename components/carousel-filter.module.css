@@ -13,3 +13,8 @@
 .activeDate {
     border-bottom: 3px solid #fcbc18;
 }
+
+.dateCard {
+  background-color: white;
+    border-radius: 10px;
+}
