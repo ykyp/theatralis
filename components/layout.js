@@ -69,7 +69,7 @@ export default function Layout({ children, home, pageTitle, description, current
              return (
                 <>
                 <li className="ml-2" key={link.path}>
-                   <Link href={link.path} activestyle={{'fontWeight': "bold"}}  className={router.pathname === link.path ? "active" : ""}>
+                   <Link href={link.path} activeStyle={{'fontWeight': "bold"}}  className={router.pathname === link.path ? "active" : ""}>
                         {t(link.key)}
                    </Link>
                 </li>
