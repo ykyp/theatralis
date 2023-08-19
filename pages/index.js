@@ -159,9 +159,7 @@ export default function Home({ allEventsData }) {
        setSelectedCategory(getCategoryByCode(router.query.category) || categories[0]);
        setSelectedPeriod(getPeriodByCode(router.query.period) || periods[0]);
        setSelectedCity(getCityByName(router.query.city) || cities[0]);
-       if (router.query.q) {
-           setSearchBy(router.query.q);
-       }
+       setSearchBy(router.query.q);
    }, [router.query]);
 
    const searchEvents = () => {
@@ -230,7 +228,7 @@ export default function Home({ allEventsData }) {
              {/*<Card className="pt-2 pb-5 pl-5 pr-5">*/}
 
               <div className={`xs:text-xs sm:text-xs text-md text-gray-500 xs:ml-2 sm:ml-2`} style={{marginTop: '0.6em'}}>
-                 {t('found')} <span className="text-black">{currentTotalCount} </span>
+                 {t('found')} <span className="highlight-green">{currentTotalCount} </span>
                  {t('events-for')}
                  {searchBy && <span className="result-filter-container ">
                   {'\u00A0'} {t("withTitle")} {'\u00A0'}

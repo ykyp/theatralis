@@ -107,7 +107,7 @@ export const CalendarFilter = (props) => {
        <div className="pt-4 mx-auto px-4 md:px-12 max-w-2xl lg:max-w-4xl md:max-w-3xl  sm:max-w-2xl xs:max-w-l bg-gray-100">
            {/*<h2 lang='el' className="h4-prose text-black text-xl uppercase text-left pt-6"> day filter</h2>*/}
            <div className=" mb-4 text-center lg:text-left text-gray-500 text-sm ">
-           <Carousel responsive={responsive}>
+           <Carousel responsive={responsive} removeArrowOnDeviceType={["tablet", "mobile"]}>
               {availableDates.map((item, i) => (
                   <div className={`my-1 px-1 flex cursor-pointer `} key={item.date+i}
                        onClick={()=>handleDateClick(item)}>
