@@ -68,7 +68,7 @@ export default function Layout({ children, home, pageTitle, description, current
           {navLinks.map((link, index) => {
              return (
                 <>
-                <li className="ml-2" key={link.path}>
+                <li className="ml-2" key={link.path+index}>
                    <Link href={link.path} activestyle={{'fontWeight': "bold"}}  className={router.pathname === link.path ? "active" : ""}>
                         {t(link.key)}
                    </Link>
