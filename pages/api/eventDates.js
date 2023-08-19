@@ -2,7 +2,6 @@ import {getSortedEventsData} from '../../lib/events'
 import {
    isInTheFuture,
 } from '../../components/date'
-import moment from "moment/moment";
 
 const events = process.env.NODE_ENV === 'production' ? require('../../cache/data').events : getSortedEventsData();
 
@@ -37,7 +36,7 @@ const getAllEventsDates = () => {
          }
       }
       return paddedDate;
-   });
+   }).filter(d=>isInTheFuture(d));
    return [...new Set(formattedDates)];
 }
 
