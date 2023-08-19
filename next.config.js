@@ -4,7 +4,6 @@ module.exports = nextTranslate({
    webpack: (config, { isServer, webpack }) => {
       return config;
    },
-   target: 'serverless',
    env: {
       BASE_URL: process.env.BASE_URL,
    },

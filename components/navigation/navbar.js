@@ -9,14 +9,12 @@ const Navbar = (props) =>  {
    <div className="max-w-screen-xl flex flex-wrap justify-between items-center py-4 px-3 mx-auto">
       <div className="font-bold text-2xl text-gray-800">
          <Link href="/">
-            <a className="flex items-center">
                <img
                   src={t('nav-image')}
                   height={"auto"}
                   width={170}
                   alt={'Theatralis'}
                />
-            </a>
          </Link>
       </div>
 
