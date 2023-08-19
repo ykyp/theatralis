@@ -184,7 +184,7 @@ export default function Home({ allEventsData }) {
       ga.event({
          action: "search",
          params : {
-            search_term: selectedCity.name + "-" + selectedPeriod.name + "-"+ selectedCategory.name + "-"+ searchBy
+            search_term: selectedCity.name + "-" + selectedPeriod.name + "-"+ selectedCategory.name + "-"+ searchBy + "-" + query.date
          }
       })
    };
