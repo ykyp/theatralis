@@ -3,7 +3,6 @@ import useTranslation from "next-translate/useTranslation";
 import { InputText } from 'primereact/inputtext';
 import {useState, useRef, useEffect} from "react";
 import useDebouncedEffect  from 'use-debounced-effect';
-import {useRouter} from "next/router";
 const name = 'Theatralis';
 
 const Hero = ({onSearchChange, searchBy}) => {
@@ -11,7 +10,6 @@ const Hero = ({onSearchChange, searchBy}) => {
    const [showSearch, setShowSearch] = useState(false);
    const inputEl = useRef(null);
    const [term, setTerm] = useState(searchBy);
-   const router = useRouter();
 
    const toggleSearch = () => {
      setShowSearch(!showSearch);
@@ -39,13 +37,6 @@ const Hero = ({onSearchChange, searchBy}) => {
    useEffect(() => {
       setTerm(searchBy);
    }, [searchBy]);
-
-   useEffect(() => {
-      setTerm(router.query.q);
-      if (!router.query.q) {
-         setShowSearch(false);
-      }
-   }, [router.query.q]);
 
 return (
    <header className="max-w-screen-l text-center mx-auto object-center">

@@ -655,26 +655,3 @@ footer hr {
     visibility: visible;
   }
 }
-
-.highlight {
-  display: inline-block;
-  background-position-y: -0%;
-  background-image: linear-gradient( transparent 50%, #FFC107 50%);
-  transition: background .3s ease;
-  background-size: 2px;
-  background-size: auto 175%;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.highlight-green {
-  display: inline-block;
-  background-position-y: -0%;
-  background-image: linear-gradient( transparent 50%, #07ffbd 50%);
-  transition: background .3s ease;
-  background-size: 2px;
-  background-size: auto 175%;
-  text-decoration: none;
-  font-weight: 600;
-  margin-right: 5px;
-}

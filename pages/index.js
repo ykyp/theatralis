@@ -18,7 +18,6 @@ import useTranslation from "next-translate/useTranslation";
 import { ProgressSpinner } from 'primereact/progressspinner';
 import { useRouter } from "next/router";
 import {Flex, Pagination, Select} from '@mantine/core';
-import {CalendarFilter} from "../components/CalendarFilter";
 
 const DEFAULT_PAGE_ITEMS = 10;
 
@@ -34,8 +33,7 @@ export default function Home({ allEventsData }) {
    const [currentTotalCount, setCurrentTotalCount] = useState(allEventsData.length);
    const [isLoading, setLoading] = useState(false);
    const initialLoadRef = useRef(true); // Keep track of initial load
-   const [activePaginationHandler, setActivePaginationHandler] = useState(false);
-   const searchEndpoint = (city, period, category, date, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&date=${date}&page=${page}&rows=${rows}&q=${q}`;
+   const searchEndpoint = (city, period, category, page, rows, q) => `/api/search?city=${city}&period=${period}&category=${category}&page=${page}&rows=${rows}&q=${q}`;
 
    if (router.query.source && router.query.source === "flyer") {
       ga.event({
@@ -50,7 +48,6 @@ export default function Home({ allEventsData }) {
       delete router.query.period;
       delete router.query.page;
       delete router.query.rows;
-      delete router.query.date;
       router.replace({ pathname, query }, undefined, { shallow: true });
    };
 
@@ -61,7 +58,6 @@ export default function Home({ allEventsData }) {
 
    const clearPeriod = () => {
       delete router.query.period;
-       delete router.query.date;
       router.replace({ pathname, query }, undefined, { shallow: true });
    };
 
@@ -80,7 +76,7 @@ export default function Home({ allEventsData }) {
       router.push({
              pathname: '/',
              query: {
-                ...router.query,
+                ...router.city,
                 city:e.value.name,
                  page:1
              }
@@ -89,7 +85,6 @@ export default function Home({ allEventsData }) {
    };
 
    const handlePeriodChange = (e) => {
-       delete router.query.date;
       router.push({
              pathname: '/',
              query: {
@@ -159,15 +154,16 @@ export default function Home({ allEventsData }) {
        setSelectedCategory(getCategoryByCode(router.query.category) || categories[0]);
        setSelectedPeriod(getPeriodByCode(router.query.period) || periods[0]);
        setSelectedCity(getCityByName(router.query.city) || cities[0]);
-       setSearchBy(router.query.q);
+       if (router.query.q) {
+           setSearchBy(router.query.q);
+       }
    }, [router.query]);
 
    const searchEvents = () => {
       const query = {
          city:  router.query.city || 'ALL',
          period: router.query.period || 'ALL',
-         category:  router.query.category || 'ALL',
-          date: router.query.date || undefined,
+         category:  router.query.category || 'ALL', 
           page:  router.query.page-1 || 0,
           rows:  router.query.rows || DEFAULT_PAGE_ITEMS,
          q: searchBy
@@ -176,7 +172,6 @@ export default function Home({ allEventsData }) {
       fetch(searchEndpoint(query.city,
          query.period,
          query.category,
-          query.date,
           query.page,
           query.rows,
          query.q))
@@ -207,10 +202,7 @@ export default function Home({ allEventsData }) {
    return (
     <Layout home onSearchChange={handleSearchChange} searchBy={searchBy}>
        <div className="w-full bg-gray-100">
-           <CalendarFilter/>
           <div className="max-w-screen-xl pb-6 mx-auto ">
-
-
              <div  className="pb-2 pt-2">
                 <Filter filterWidth={28}
                         onCityChange={handleCityChange}
@@ -228,7 +220,7 @@ export default function Home({ allEventsData }) {
              {/*<Card className="pt-2 pb-5 pl-5 pr-5">*/}
 
               <div className={`xs:text-xs sm:text-xs text-md text-gray-500 xs:ml-2 sm:ml-2`} style={{marginTop: '0.6em'}}>
-                 {t('found')} <span className="highlight-green">{currentTotalCount} </span>
+                 {t('found')} <span className="text-black">{currentTotalCount} </span>
                  {t('events-for')}
                  {searchBy && <span className="result-filter-container ">
                   {'\u00A0'} {t("withTitle")} {'\u00A0'}
@@ -241,19 +233,19 @@ export default function Home({ allEventsData }) {
 
                {selectedCity && <span className="result-filter-container">
                   {'\u00A0'}{t('at')} {'\u00A0'}
-                  <span className={selectedCity.code !== 'ALL' ? 'highlight' : `text-black`}>{(translatedCity)}</span>
+                  <span className="text-black">{(translatedCity)}</span>
                   {selectedCity.code !== 'ALL' &&
                   <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearCity()}></button> }
                </span>
                }
                 ,{'\u00A0'}
                  <span className="result-filter-container">
-                    <span className={router.query.date || selectedPeriod.code !== 'ALL' ? 'highlight' : `text-black`}> {router.query.date ? router.query.date :" " + translatedPeriod } </span>
-                    {(selectedPeriod.code !== 'ALL' || router.query.date) &&
+                    <span className="text-black"> {" " + translatedPeriod} </span>
+                    {selectedPeriod.code !== 'ALL' &&
                     <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearPeriod()}></button> }
                  </span>,{'\u00A0'}
                  <span className="result-filter-container">
-                    <span  className={selectedCategory.code !== 'ALL' ? 'highlight' : `text-black`}>{translatedAudience}.</span>
+                    <span className="text-black">{translatedAudience}.</span>
                     {selectedCategory.code !== 'ALL' &&
                     <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearCategory()}></button> }
                  </span>
