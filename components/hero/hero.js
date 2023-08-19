@@ -19,16 +19,20 @@ const Hero = ({onSearchChange, searchBy}) => {
 
    const handleSearchChange = (e) => {
       setTerm(e.target.value);
+      router.push({
+             pathname: '/',
+             query: {
+                ...router.query,
+                page:1,
+                q:e.target.value || undefined,
+             }
+          },
+      )
    };
 
    const clearSearch = () => {
-      onSearchChange("");
-      setTerm("");
+      delete router.query.q;
    };
-
-   useDebouncedEffect(()=>{
-      onSearchChange(term);
-   }, 500 ,[term]);
 
    useEffect(() => {
       if (showSearch) {
@@ -41,8 +45,9 @@ const Hero = ({onSearchChange, searchBy}) => {
    }, [searchBy]);
 
    useEffect(() => {
-      setTerm(router.query.q);
+
       if (!router.query.q) {
+         setTerm(undefined);
          setShowSearch(false);
       }
    }, [router.query.q]);

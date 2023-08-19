@@ -27,7 +27,7 @@ export default function Home({ allEventsData }) {
    const router = useRouter();
    const { pathname, query } = router
    const [results, setResults] = useState(allEventsData.slice(0, DEFAULT_PAGE_ITEMS));
-   const [searchBy, setSearchBy] = useState(router.query.q || '');
+   const [searchBy, setSearchBy] = useState(router.query.q || undefined);
    const [selectedCity, setSelectedCity] = useState(getCityByName(router.query.city) || cities[0]);
    const [selectedPeriod, setSelectedPeriod] = useState(getPeriodByCode(router.query.period) || periods[0]);
    const [selectedCategory, setSelectedCategory] = useState(getCategoryByCode(router.query.category) || categories[0]);
@@ -125,18 +125,6 @@ export default function Home({ allEventsData }) {
       )
    };
 
-   const handleSearchChange = (e) => {
-      router.push({
-             pathname: '/',
-             query: {
-                ...router.query,
-                 page:1,
-                q:e,
-             }
-          },
-      )
-   };
-
     const handleRowsChange = (value) => {
         router.push({
                 pathname: '/',
@@ -160,6 +148,7 @@ export default function Home({ allEventsData }) {
        setSelectedPeriod(getPeriodByCode(router.query.period) || periods[0]);
        setSelectedCity(getCityByName(router.query.city) || cities[0]);
        setSearchBy(router.query.q);
+
    }, [router.query]);
 
    const searchEvents = () => {
@@ -170,7 +159,7 @@ export default function Home({ allEventsData }) {
           date: router.query.date || undefined,
           page:  router.query.page-1 || 0,
           rows:  router.query.rows || DEFAULT_PAGE_ITEMS,
-         q: searchBy
+         q: router.query.q || undefined
       };
       setLoading(true);
       fetch(searchEndpoint(query.city,
@@ -205,7 +194,7 @@ export default function Home({ allEventsData }) {
    const translatedAudience = t(""+selectedCategory.name);
 
    return (
-    <Layout home onSearchChange={handleSearchChange} searchBy={searchBy}>
+    <Layout home searchBy={searchBy}>
        <div className="w-full bg-gray-100">
            <CalendarFilter/>
           <div className="max-w-screen-xl pb-6 mx-auto ">
