@@ -109,10 +109,10 @@ export const CalendarFilter = (props) => {
            <div className=" mb-4 text-center lg:text-left text-gray-500 text-sm ">
            <Carousel responsive={responsive}>
               {availableDates.map((item, i) => (
-                  <div className="my-1 px-1 flex cursor-pointer" key={item.date+i}
+                  <div className={`my-1 px-1 flex cursor-pointer `} key={item.date+i}
                        onClick={()=>handleDateClick(item)}>
-                      <div className={`w-full ${styles.dateCard}`}>
-                           <div className={`my-1 px-1 flex flex-col text-center ${router.query.date === item.formattedDate ? styles.activeDate:''}`} key={item}>
+                      <div className={`w-full ${styles.dateCard} ${router.query.date === item.formattedDate ? styles.activeDate:''}`}>
+                           <div className={`my-1 px-1 flex flex-col text-center `} key={item}>
                                <div className={styles.dayText}>
                                    {item.day}
                                </div>

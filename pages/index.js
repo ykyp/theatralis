@@ -50,6 +50,7 @@ export default function Home({ allEventsData }) {
       delete router.query.period;
       delete router.query.page;
       delete router.query.rows;
+      delete router.query.date;
       router.replace({ pathname, query }, undefined, { shallow: true });
    };
 
@@ -60,6 +61,7 @@ export default function Home({ allEventsData }) {
 
    const clearPeriod = () => {
       delete router.query.period;
+       delete router.query.date;
       router.replace({ pathname, query }, undefined, { shallow: true });
    };
 
@@ -87,6 +89,7 @@ export default function Home({ allEventsData }) {
    };
 
    const handlePeriodChange = (e) => {
+       delete router.query.date;
       router.push({
              pathname: '/',
              query: {
@@ -240,19 +243,19 @@ export default function Home({ allEventsData }) {
 
                {selectedCity && <span className="result-filter-container">
                   {'\u00A0'}{t('at')} {'\u00A0'}
-                  <span className="text-black">{(translatedCity)}</span>
+                  <span className={selectedCity.code !== 'ALL' ? 'highlight' : `text-black`}>{(translatedCity)}</span>
                   {selectedCity.code !== 'ALL' &&
                   <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearCity()}></button> }
                </span>
                }
                 ,{'\u00A0'}
                  <span className="result-filter-container">
-                    <span className="text-black"> {" " + translatedPeriod} </span>
-                    {selectedPeriod.code !== 'ALL' &&
+                    <span className={router.query.date || selectedPeriod.code !== 'ALL' ? 'highlight' : `text-black`}> {router.query.date ? router.query.date :" " + translatedPeriod } </span>
+                    {(selectedPeriod.code !== 'ALL' || router.query.date) &&
                     <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearPeriod()}></button> }
                  </span>,{'\u00A0'}
                  <span className="result-filter-container">
-                    <span className="text-black">{translatedAudience}.</span>
+                    <span  className={selectedCategory.code !== 'ALL' ? 'highlight' : `text-black`}>{translatedAudience}.</span>
                     {selectedCategory.code !== 'ALL' &&
                     <button aria-label="Clear filter" className="clear-button filter_clear" onClick={() => clearCategory()}></button> }
                  </span>
