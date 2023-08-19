@@ -2,6 +2,7 @@ import {getSortedEventsData} from '../../lib/events'
 import {
    isInTheFuture,
 } from '../../components/date'
+import moment from "moment/moment";
 
 const events = process.env.NODE_ENV === 'production' ? require('../../cache/data').events : getSortedEventsData();
 
@@ -22,7 +23,22 @@ const getAllEventsDates = () => {
       acc = [...acc, ...getEventDates(curr)];
       return acc;
    } , []);
-   return [...new Set(allDates)].sort();
+   const formattedDates = allDates.map(d=> {
+      const splittedDate = d.split("-");
+      let paddedDate = d;
+      if (splittedDate.length > 2) {
+         if (splittedDate[1].length === 1)
+         {
+            paddedDate = splittedDate[0] + "-" + "0" + splittedDate[1] + "-" + splittedDate[2];
+         }
+         if (splittedDate[2].length === 1)
+         {
+            paddedDate = splittedDate[0] + "-"  + splittedDate[1] + "-" + "0" + splittedDate[2];
+         }
+      }
+      return paddedDate;
+   });
+   return [...new Set(formattedDates)];
 }
 
 export default (req, res) => {
