@@ -3,6 +3,7 @@ import useTranslation from "next-translate/useTranslation";
 import { InputText } from 'primereact/inputtext';
 import {useState, useRef, useEffect} from "react";
 import useDebouncedEffect  from 'use-debounced-effect';
+import {useRouter} from "next/router";
 const name = 'Theatralis';
 
 const Hero = ({onSearchChange, searchBy}) => {
@@ -10,6 +11,7 @@ const Hero = ({onSearchChange, searchBy}) => {
    const [showSearch, setShowSearch] = useState(false);
    const inputEl = useRef(null);
    const [term, setTerm] = useState(searchBy);
+   const router = useRouter();
 
    const toggleSearch = () => {
      setShowSearch(!showSearch);
@@ -17,16 +19,20 @@ const Hero = ({onSearchChange, searchBy}) => {
 
    const handleSearchChange = (e) => {
       setTerm(e.target.value);
+      router.push({
+             pathname: '/',
+             query: {
+                ...router.query,
+                page:1,
+                q:e.target.value || undefined,
+             }
+          },
+      )
    };
 
    const clearSearch = () => {
-      onSearchChange("");
-      setTerm("");
+      delete router.query.q;
    };
-
-   useDebouncedEffect(()=>{
-      onSearchChange(term);
-   }, 500 ,[term]);
 
    useEffect(() => {
       if (showSearch) {
@@ -37,6 +43,14 @@ const Hero = ({onSearchChange, searchBy}) => {
    useEffect(() => {
       setTerm(searchBy);
    }, [searchBy]);
+
+   useEffect(() => {
+
+      if (!router.query.q) {
+         setTerm(undefined);
+         setShowSearch(false);
+      }
+   }, [router.query.q]);
 
 return (
    <header className="max-w-screen-l text-center mx-auto object-center">
