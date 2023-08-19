@@ -1,0 +1,63 @@
+fragment EventsParts on Events {
+  title
+  city
+  startDate
+  endDate
+  nicosia_dates
+  limassol_dates
+  larnaca_dates
+  famagusta_dates
+  paphos_dates
+  event_image
+  cover_image
+  category
+  extended
+  theatres {
+    __typename
+    name {
+      ... on Theatres {
+        name
+        city
+        google_maps_link
+        address
+        latlong
+        logo
+        website
+        instagram_page
+        facebook_page
+      }
+      ... on Document {
+        _sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        id
+      }
+    }
+  }
+  gallery_images {
+    __typename
+    imgSrc
+  }
+  body
+}
+
+fragment TheatresParts on Theatres {
+  name
+  city
+  google_maps_link
+  address
+  latlong
+  logo
+  website
+  instagram_page
+  facebook_page
+}
+
+fragment ArchiveParts on Archive {
+  body
+}
