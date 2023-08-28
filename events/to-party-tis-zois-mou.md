@@ -48,7 +48,7 @@ category: comedy
 
                          Κυριακή 8 Οκτωβρίου
 
-***Ώρα: ***20.30
+***Ώρα:*** 20.30
 
 ***Τοποθεσία:*** [Δημοτικό Θέατρο Λευκωσίας](https://www.google.com/maps/place/Nicosia+Municipal+Theatre/@35.1727497,33.3522058,17z/data=!3m1!4b1!4m6!3m5!1s0x14de17519633b289:0xf4e085228ec10fda!8m2!3d35.1727453!4d33.3547807!16s%2Fg%2F11fx_337t4?entry=ttu)
 
@@ -80,8 +80,8 @@ category: comedy
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-\*\*\* Τιμή:\*\*\* €30/25/20
+ ***Τιμή:*** €30/25/20
 
- \*\*\*Προπώληση:  \*\*\*[Tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4314)
+***Προπώληση:***  [Tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4314)
 
  
