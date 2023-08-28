@@ -51,3 +51,15 @@ category: comedy
 Ώρα: 20.30
 
 Τόπος: [Δημοτικό Θέατρο Λευκωσίας](https://www.google.com/maps/place/Nicosia+Municipal+Theatre/@35.1727497,33.3522058,17z/data=!3m1!4b1!4m6!3m5!1s0x14de17519633b289:0xf4e085228ec10fda!8m2!3d35.1727453!4d33.3547807!16s%2Fg%2F11fx_337t4?entry=ttu) 
+
+ΛΕΜΕΣΟΣ
+
+Ημερομηνίες: Τρίτη 10 Οκτωβρίου
+
+                      Τετάρτη 11 Οκτωβρίου
+
+                       Πέμπτη 12 Οκτωβρίου
+
+ Ώρα: 20.30
+
+ Τόπος: [Παττίχειο θέατρο Λεμεσού](https://www.google.com/maps/place/%CE%A0%CE%B1%CF%84%CF%84%CE%AF%CF%87%CE%B5%CE%B9%CE%BF+%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF/@34.6808975,33.0411085,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7330e3a40b37f:0xa33ce6e4d7f4bc8!8m2!3d34.6808931!4d33.0436834!16s%2Fg%2F11dx9gbl2x?entry=ttu)
