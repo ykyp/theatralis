@@ -9,6 +9,7 @@ event_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Stantar KKomety_A3
   POSTER.jpg
 gallery_images:
+  - imgSrc: /Stantar KKomety_STIN PLATEIA_Post ALL.jpg
   - imgSrc: /Stantar KKomety_MUSIC_Post copy 4.jpg
   - imgSrc: /Stantar KKomety_line up_Post copy 5.jpg
   - imgSrc: /Stantar KKomety_line up_Post copy 3.jpg
