@@ -48,6 +48,15 @@ category: drama
 
 ΤΟΠΟΘΕΣΙΑ: [Λεβέντειος Πινακοθήκη](https://www.google.com/maps/place/A.+G.+Leventis+Gallery/@35.1693794,33.3557334,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1750c7736f87:0x20e4977b50ce11ac!8m2!3d35.169375!4d33.3583083!16s%2Fm%2F0105r3kh?entry=ttu)
 
+ΛΕΜΕΣΟΣ
+
+ΗΜΕΡΟΜΗΝΙΑ: Κυριακή 15 Οκτωβρίου 2023
+
+Ώρα: 6.30 μμ
+
+Τοποθεσία: [Ξυδάδικο](https://www.google.com/maps/place/Vinegar+Factory+%7C+%CE%9E%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%BF/@34.6732254,33.0435836,15z/data=!4m6!3m5!1s0x14e73302e71e32e5:0x8b9d9b1e08087b59!8m2!3d34.6732254!4d33.0435836!16s%2Fg%2F11gd39kgbx?entry=ttu)
+
+
 \*Η παράσταση είναι ακατάλληλη για άτομα κάτω των 12 ετών.
 
 \*\* Οι θέσεις δεν είναι αριθμημένες.
