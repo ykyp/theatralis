@@ -10,7 +10,7 @@ event_image: >-
   POSTER.jpg
 gallery_images:
   - imgSrc: /Stantar KKomety_FEATURING_Post copy.jpg
-  - {}
+  - imgSrc: /Stantar KKomety_HOST_Post copy.jpg
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
