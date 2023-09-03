@@ -8,6 +8,9 @@ category: Standup
 event_image: >-
   https://assets.tina.io/de22fc98-b2e9-4a98-88ab-db440eef3dc1/Stantar KKomety_A3
   POSTER.jpg
+gallery_images:
+  - imgSrc: /Stantar KKomety_FEATURING_Post copy.jpg
+  - {}
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
