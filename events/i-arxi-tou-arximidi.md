@@ -59,6 +59,6 @@ Yπεύθυνoς φωτισμού/ήχου  : 	Κωνσταντίνος Σιαμ
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Τιμή :
+Τιμή : €13
 
-Προπώληση :
+Προπώληση : [www.soldoutticketbox.com](https://www.soldoutticketbox.com/i-arxi-tou-arximidi-sep-2023/?lang=el)
