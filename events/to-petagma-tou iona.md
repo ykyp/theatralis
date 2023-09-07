@@ -38,7 +38,7 @@ Backdrop Art:	Ιάκωβος Λοίζου
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-Ημερομηνία:
+Ημερομηνία: Κυριακή 24 Σεπτεμβίου (ΠΡΕΜΙΕΡΑ), για άλλες ημερομηνίες	[www.more.com](https://www.more.com/en/tickets/theater/children/to-petagma-tou-iona/?lang=en-US)
 
 Ώρα: 10.30 το πρωί
 
