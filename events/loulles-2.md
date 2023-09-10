@@ -67,4 +67,5 @@ Google form:
 
 [https://docs.google.com/forms/d/e/1FAIpQLSeYi7Y1cE34P00KRdJ25vKYkIpq9uxll6h-mMIoWz1eIRCoHA/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeYi7Y1cE34P00KRdJ25vKYkIpq9uxll6h-mMIoWz1eIRCoHA/viewform)
 
-[​Κρατησεις για την avant premiere στις 23 Σεπτεμβριου: https://docs.google.com/forms/d/e/1FAIpQLScjt3f86gBhizaLOIqom4c\_G95tFBXDxMICVvjT1j-3S0kX\_A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeYi7Y1cE34P00KRdJ25vKYkIpq9uxll6h-mMIoWz1eIRCoHA/viewform)
+Κρατήσεις για την avant premiere στις 23 Σεπτεμβριου:
+[https://docs.google.com/forms/d/e/1FAIpQLScjt3f86gBhizaLOIqom4c\_G95tFBXDxMICVvjT1j-3S0kX\_A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeYi7Y1cE34P00KRdJ25vKYkIpq9uxll6h-mMIoWz1eIRCoHA/viewform)
