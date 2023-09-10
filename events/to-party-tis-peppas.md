@@ -7,6 +7,7 @@ nicosia_dates: '2023-09-17'
 limassol_dates: 2023-9-16
 larnaca_dates: 2023-9-15
 category: children
+event_image: /P1336947.jpeg
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
