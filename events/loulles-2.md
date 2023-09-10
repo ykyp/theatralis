@@ -56,3 +56,15 @@ category: drama
 Ώρα: 20:30
 
 Τοποθεσία: [Ξυδαδικο](https://www.google.com/maps/place/Vinegar+Factory+%7C+%CE%9E%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%BF/@34.6732298,33.0410087,17z/data=!3m1!4b1!4m6!3m5!1s0x14e73302e71e32e5:0x8b9d9b1e08087b59!8m2!3d34.6732254!4d33.0435836!16s%2Fg%2F11gd39kgbx?entry=ttu)
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Κρατησεις απαραιτητες στο 96 52 93 46	(ωρες γραφειου η SMS) η στη 
+
+Google form:
+
+[https://docs.google.com/forms/d/e/1FAIpQLSeYi7Y1cE34P00KRdJ25vKYkIpq9uxll6h-mMIoWz1eIRCoHA/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeYi7Y1cE34P00KRdJ25vKYkIpq9uxll6h-mMIoWz1eIRCoHA/viewform)
+
+[​Κρατησεις για την avant premiere στις 23 Σεπτεμβριου: https://docs.google.com/forms/d/e/1FAIpQLScjt3f86gBhizaLOIqom4c\_G95tFBXDxMICVvjT1j-3S0kX\_A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeYi7Y1cE34P00KRdJ25vKYkIpq9uxll6h-mMIoWz1eIRCoHA/viewform)
