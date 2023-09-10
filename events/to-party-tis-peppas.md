@@ -72,3 +72,9 @@ category: children
 Τοποθεσία: [Παττίχειο Θέατρο](https://www.google.com/maps/place/%CE%A0%CE%B1%CF%84%CF%84%CE%AF%CF%87%CE%B5%CE%B9%CE%BF+%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF/@34.6808931,33.0436834,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7330e3a40b37f:0xa33ce6e4d7f4bc8!8m2!3d34.6808931!4d33.0436834!16s%2Fg%2F11dx9gbl2x?entry=ttu)
 
 ΛΑΡΝΑΚΑ
+
+Ημερομηνία:  Παρασκευή 15 Σεπτεμβρίου 2023
+
+Ώρα: 16:00  και 19:00
+
+Τοποθεσία: [Δημοτικό Θέατρο Λάρνακας](https://www.google.com/maps/place/Municipal+Theatre+of+Larnaka/@34.9160535,33.6263961,17z/data=!3m1!4b1!4m6!3m5!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961!16s%2Fg%2F11h7y1sd99?entry=ttu)
