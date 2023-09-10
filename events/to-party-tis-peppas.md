@@ -65,4 +65,10 @@ category: children
 
 ΛΕΜΕΣΟΣ
 
+Ημερομηνία: Σάββατο 16 Σεπτεμβρίου 2023
+
+Ώρα: 15:00  και 18:00
+
+Τοποθεσία: [Παττίχειο Θέατρο](https://www.google.com/maps/place/%CE%A0%CE%B1%CF%84%CF%84%CE%AF%CF%87%CE%B5%CE%B9%CE%BF+%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF/@34.6808931,33.0436834,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7330e3a40b37f:0xa33ce6e4d7f4bc8!8m2!3d34.6808931!4d33.0436834!16s%2Fg%2F11dx9gbl2x?entry=ttu)
+
 ΛΑΡΝΑΚΑ
