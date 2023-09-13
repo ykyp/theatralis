@@ -32,4 +32,10 @@ event_image: /The Black Light Theatre of Prague.png
 
 Τοποθεσία: [Παττίχειο Θέατρο](https://www.google.com/maps/place/Patichion+Municipal+Theatre,+Agias+Zonis+2,+Limassol,+Cyprus/@34.6812699,33.0412571,17z/data=!4m6!3m5!1s0x14e7330f8b4700ed:0xd66d4f231f490bbb!8m2!3d34.6813016!4d33.0438594!16s%2Fg%2F11bvthpbkr?entry=ttu)
 
-Εισιτήρια	: www.soldoutticketbox.com​
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή:  ZONE A €32 (Κανονικό) €25 (Παιδιά κάτω των 12 ετών) | ZONE B €25 (Κανονικό) , €18 (Παιδιά κάτω των 12 ετών)
+
+Προπώληση: [www.soldoutticketbox.com​](https://www.soldoutticketbox.com/black-light-theatre-of-praque-2023/)
