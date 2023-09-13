@@ -16,7 +16,7 @@ event_image: /The Black Light Theatre of Prague.png
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-ΛΕΥΚΩΣΙΑ
+**ΛΕΥΚΩΣΙΑ**
 
 Ημερομηνία: Σάββατο 14 Οκτωβρίου
 
@@ -24,4 +24,12 @@ event_image: /The Black Light Theatre of Prague.png
 
 Τοποθεσία: [Δημοτικό Θέατρο Στροβόλου](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A3%CF%84%CF%81%CE%BF%CE%B2%CF%8C%CE%BB%CE%BF%CF%85/@35.1439474,33.3406531,17z/data=!4m6!3m5!1s0x14de1a215477c475:0xca7690acc6cdd49c!8m2!3d35.143943!4d33.343228!16s%2Fg%2F11b6gk_x97?entry=ttu)
 
-ΛευκωσίαΚυριακή 15 Οκτωβρίου, στις 12.00, Παττίχειο Θέατρο, ΛεμεσόςΕισιτήρια	: www.soldoutticketbox.com​
+ΛΕΜΕΣΟΣ
+
+Ημερομηνία: Κυριακή 15 Οκτωβρίου
+
+Ώρα: 12.00
+
+Τοποθεσία: [Παττίχειο Θέατρο](https://www.google.com/maps/place/Patichion+Municipal+Theatre,+Agias+Zonis+2,+Limassol,+Cyprus/@34.6812699,33.0412571,17z/data=!4m6!3m5!1s0x14e7330f8b4700ed:0xd66d4f231f490bbb!8m2!3d34.6813016!4d33.0438594!16s%2Fg%2F11bvthpbkr?entry=ttu)
+
+Εισιτήρια	: www.soldoutticketbox.com​
