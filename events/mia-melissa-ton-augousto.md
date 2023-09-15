@@ -41,7 +41,7 @@ nicosia_dates: >-
 
 Ώρα: κάθε Παρασκευή και Σάββατο στις 20:30 και κάθε Κυριακή στις 19:00
 
-Τοποθεσία: [Αρχοντικό Αξιοθέας](https://www.google.com/maps/place/%CE%91%CF%81%CF%87%CE%BF%CE%BD%CF%84%CE%B9%CE%BA%CE%BF+%CE%91%CE%BE%CE%B9%CE%BF%CE%B8%CE%AD%CE%B1%CF%82/@35.1769448,33.3672438,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1741ca2d81c7:0x79529d88a6902b73!8m2!3d35.1769404!4d33.3698187!16s%2Fg%2F11g7218q29?entry=ttu) 15, 16 & 17 Σεπτεμβρίου και Θέατρο ένα: Από 22 Σεπτεμβρίου
+Τοποθεσία: [Αρχοντικό Αξιοθέας](https://www.google.com/maps/place/%CE%91%CF%81%CF%87%CE%BF%CE%BD%CF%84%CE%B9%CE%BA%CE%BF+%CE%91%CE%BE%CE%B9%CE%BF%CE%B8%CE%AD%CE%B1%CF%82/@35.1769448,33.3672438,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1741ca2d81c7:0x79529d88a6902b73!8m2!3d35.1769404!4d33.3698187!16s%2Fg%2F11g7218q29?entry=ttu) 15, 16 & 17 Σεπτεμβρίου και [Θέατρο ένα](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%88%CE%BD%CE%B1/@35.174884,33.3685914,17z/data=!3m1!4b1!4m6!3m5!1s0x14de17d610346927:0x63d4f1251d13c850!8m2!3d35.1748796!4d33.3711663!16s%2Fg%2F11f61gz69f?entry=ttu) Από 22 Σεπτεμβρίου
 
  
 
