@@ -54,3 +54,11 @@ Trailer: Χρηστάκης Ζάνγκουλος
 Ώρα: 20:00
 
 Τοποθεσία: [Εθνογραφικό Μουσείο Αυγόρου](https://www.google.com/maps/place/Ethnographic+Museum+of+Avgorou/@35.0397967,33.8352961,17z/data=!3m1!4b1!4m6!3m5!1s0x14dfcdc81417defd:0xdbb342ee24a6fbde!8m2!3d35.0397924!4d33.840167!16s%2Fg%2F11hdvc60d7?entry=ttu)
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: €7 κανονικό , €5 μειωμένο
+
+Προπώληση: [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4351)
