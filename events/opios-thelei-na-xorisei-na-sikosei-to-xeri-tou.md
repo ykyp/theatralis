@@ -44,7 +44,7 @@ category: comedy
 
 Ώρα: Παρασκευή - 20:30, Σάββατο - 18:00 και 20:30, Κυριακή - 18:00
 
-Τοποθεσία: Θέατρο ΘΟΚ, Νέα Σκηνή
+Τοποθεσία: [Θέατρο ΘΟΚ, Νέα Σκηνή](https://www.google.com/maps/place/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%9F%CF%81%CE%B3%CE%B1%CE%BD%CE%B9%CF%83%CE%BC%CF%8C%CF%82+%CE%9A%CF%8D%CF%80%CF%81%CE%BF%CF%85,+%CE%98%CE%9F%CE%9A+%7C+Theatre+Organisation+of+Cyprus,+THOC/@35.1627624,33.3519057,15.82z/data=!4m10!1m2!2m1!1zzpjOrc6xz4TPgc6_IM6Yzp_Omiwgzp3Orc6xIM6jzrrOt869zq4!3m6!1s0x14de1756be6f54f3:0xd51f772260b940ce!8m2!3d35.1681606!4d33.35533!15sCibOmM6tzrHPhM-Bzr8gzpjOn86aLCDOnc6tzrEgzqPOus63zr3OriIDiAEBkgEXcGVyZm9ybWluZ19hcnRzX3RoZWF0ZXLgAQA!16s%2Fg%2F11c5rtv7gt?entry=ttu)
 
 Υπερτιτλισμένες παραστάσεις
 
