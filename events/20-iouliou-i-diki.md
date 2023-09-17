@@ -46,3 +46,11 @@ Trailer: Χρηστάκης Ζάνγκουλος
 Ώρα: 20:00
 
 Τοποθεσία: [ Xenion High School](https://www.google.com/maps/place/Xenion+Education/@35.0414771,33.9759395,17z/data=!3m1!4b1!4m6!3m5!1s0x14dfc5f918b580f5:0x93bc1c31a08bad60!8m2!3d35.0414727!4d33.9785144!16s%2Fm%2F03d4ywm?entry=ttu)
+
+ΑΜΜΟΧΩΣΤΟΣ-ΑΥΓΟΡΟΥ
+
+Ημερομηνία: Τετάρτη 27 Σεπτεμβρίου 2023
+
+Ώρα: 20:00
+
+Τοποθεσία: [Εθνογραφικό Μουσείο Αυγόρου](https://www.google.com/maps/place/Ethnographic+Museum+of+Avgorou/@35.0397967,33.8352961,17z/data=!3m1!4b1!4m6!3m5!1s0x14dfcdc81417defd:0xdbb342ee24a6fbde!8m2!3d35.0397924!4d33.840167!16s%2Fg%2F11hdvc60d7?entry=ttu)
