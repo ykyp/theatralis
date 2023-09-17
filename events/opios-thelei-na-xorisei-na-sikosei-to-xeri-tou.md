@@ -66,7 +66,7 @@ category: comedy
 
 Ώρα: 20:30
 
-Τοποθεσία: Δημοτικό Θέατρο Γ. Λυκούργος
+Τοποθεσία: [Δημοτικό Θέατρο Γ. Λυκούργος](https://www.google.com/maps/place/WJ8G%2BCHC+Municipal+Theater,+Leonida+Kioupi,+Larnaca+6021,+Cyprus/@34.9160285,33.6239697,17z/data=!3m1!4b1!4m6!3m5!1s0x14e082afaf32c615:0xfceabf5700ff20cf!8m2!3d34.9160916!4d33.6265818!16s%2Fg%2F11b8tftzpz?entry=ttu)
 
 ΛΕΜΕΣΟΣ
 
