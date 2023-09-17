@@ -58,7 +58,7 @@ category: comedy
 
 Ώρα:20:30
 
-Τοποθεσία: Μαρκίδειο Θέατρο
+Τοποθεσία: [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781641,32.4183625,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
 
 ΛΑΡΝΑΚΑ
 
