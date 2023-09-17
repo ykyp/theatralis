@@ -38,3 +38,11 @@ Trailer: Χρηστάκης Ζάνγκουλος
 Ώρα: 20:30 
 
 Τοποθεσία:  [Wherehaus 612](https://www.google.com/maps/place/WhereHaus+612/@35.1776104,33.3869791,17z/data=!3m1!4b1!4m6!3m5!1s0x14de170bc4982f01:0x9c24df07f8f1017d!8m2!3d35.177606!4d33.389554!16s%2Fg%2F11r9blzdp?entry=ttu)
+
+ΑΜΜΟΧΩΣΤΟΣ-ΠΑΡΑΛΙΜΝΙ
+
+Ημερομηνία: Πέμπτη 21 Σεπτεμβρίου 2023
+
+Ώρα: 20:00
+
+Τοποθεσία: [ Xenion High School](https://www.google.com/maps/place/Xenion+Education/@35.0414771,33.9759395,17z/data=!3m1!4b1!4m6!3m5!1s0x14dfc5f918b580f5:0x93bc1c31a08bad60!8m2!3d35.0414727!4d33.9785144!16s%2Fm%2F03d4ywm?entry=ttu)
