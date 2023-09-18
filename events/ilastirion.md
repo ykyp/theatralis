@@ -4,7 +4,7 @@ city: 'nicosia, pafos, limassol'
 startDate: 2023-08-31T21:00:00.000Z
 endDate: 2023-08-31T21:00:00.000Z
 nicosia_dates: 2023-09-1
-limassol_dates: '2023-10-15'
+limassol_dates: ''
 paphos_dates: '2023-10-13'
 event_image: /Ιλαστήριον.jpg
 category: drama
