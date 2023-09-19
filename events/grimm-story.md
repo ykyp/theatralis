@@ -10,6 +10,7 @@ limassol_dates: 2023-11-4
 larnaca_dates: '2024-01-28'
 paphos_dates: '2023-10-21'
 category: children
+event_image: /Α5.jpeg
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
