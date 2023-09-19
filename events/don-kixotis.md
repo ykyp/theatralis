@@ -47,8 +47,8 @@ Video – editing: Γιώργος Αλεξάνδρου
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Τιμή:
+Τιμή:  Γενική Είσοδος €10
 
-Κρατήσεις: 
+Προπώληση εισιτηρίων:	[SOLDOUT TICKETS](https://www.soldoutticketbox.com/don-quixote-antilogos-2023/easyconsole.cfm)	και καταστήματα	Stephanis - Electronics
 
-Προπώληση εισιτηρίων:	SOLDOUT TICKETS	και καταστήματα	Stephanis - ElectronicsΠληροφορίες και κρατήσεις :	99 25 1331
+Πληροφορίες και κρατήσεις :	99 25 1331
