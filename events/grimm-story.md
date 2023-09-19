@@ -65,3 +65,11 @@ category: children
 Ώρα: 10:30μμ
 
 Τοποθεσία: [ΔΗΜΟΤΙΚΟ ΘΕΑΤΡΟ ΛΑΡΝΑΚΑΣ - ΓΙΩΡΓΟΣ ΛΥΚΟΥΡΓΟΣ](https://www.google.com/maps/place/WJ8G%2BCHC+Municipal+Theater,+Leonida+Kioupi,+Larnaca+6021,+Cyprus/@34.9160285,33.6239697,17z/data=!3m1!4b1!4m6!3m5!1s0x14e082afaf32c615:0xfceabf5700ff20cf!8m2!3d34.9160916!4d33.6265818!16s%2Fg%2F11b8tftzpz?entry=ttu)
+
+ΠΑΦΟΣ
+
+Ημερομηνία: Σάββατο 21 Οκτωβρίου 2023
+
+Ώρα: 16:30μμ
+
+Τοποθεσία: [ΜΑΡΚΙΔΕΙΟ ΘΕΑΤΡΟ](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4206585,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
