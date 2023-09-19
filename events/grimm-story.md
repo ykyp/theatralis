@@ -49,3 +49,11 @@ category: children
 Ώρα: 10:30 π.μ
 
 Τοποθεσία: [ΘΕΑΤΡΟ ΜΑΣΚΑΡΙΝΙ ](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9C%CE%B1%CF%83%CE%BA%CE%B1%CF%81%CE%AF%CE%BD%CE%B9/@35.118677,33.3761871,17z/data=!3m1!4b1!4m6!3m5!1s0x14de190879b8036b:0xa61c1fbebbf53da8!8m2!3d35.1186726!4d33.378762!16s%2Fg%2F11jy3pmbk5?entry=ttu)
+
+ΛΕΜΕΣΟΣ
+
+Ημερομηνία: Σάββατο 4 Νοεμβρίου 2023
+
+Ώρα: 16:30μμ
+
+Τοποθεσία:[ ΘΕΑΤΡΟ ΠΑΝΩ ΠΟΛΕΜΙΔΙΩΝ ](https://www.google.com/maps/place/Cultural+Hall+of+Pano+Polemidia/@34.704668,32.9893072,17z/data=!4m10!1m2!2m1!1zzrjOtc6xz4TPgc6_IM-AzrHOvc-JIM-Azr_Ou861zrzOuc60zrnPic69!3m6!1s0x14e733dfadab0899:0x47c8d1c119781452!8m2!3d34.7046059!4d32.9916242!15sCirOuM61zrHPhM-Bzr8gz4DOsc69z4kgz4DOv867zrXOvM65zrTOuc-Jzr2SAQNhcnTgAQA!16s%2Fg%2F1tdby_5l?entry=ttu)
