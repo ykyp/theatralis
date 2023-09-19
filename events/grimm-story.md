@@ -57,3 +57,5 @@ category: children
 Ώρα: 16:30μμ
 
 Τοποθεσία:[ ΘΕΑΤΡΟ ΠΑΝΩ ΠΟΛΕΜΙΔΙΩΝ ](https://www.google.com/maps/place/Cultural+Hall+of+Pano+Polemidia/@34.704668,32.9893072,17z/data=!4m10!1m2!2m1!1zzrjOtc6xz4TPgc6_IM-AzrHOvc-JIM-Azr_Ou861zrzOuc60zrnPic69!3m6!1s0x14e733dfadab0899:0x47c8d1c119781452!8m2!3d34.7046059!4d32.9916242!15sCirOuM61zrHPhM-Bzr8gz4DOsc69z4kgz4DOv867zrXOvM65zrTOuc-Jzr2SAQNhcnTgAQA!16s%2Fg%2F1tdby_5l?entry=ttu)
+
+ΛΑΡΝΑΚΑ
