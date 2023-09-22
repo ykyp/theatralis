@@ -59,3 +59,11 @@ category: children
 Ώρα: 11:00 το πρωί
 
 Τοποθεσία: [Δημοτικό Θέατρο Πεύκιος Γεωργιάδης](https://www.google.com/maps/place/Municipal+Theatre+of+Larnaka/@34.9160579,33.6238212,17z/data=!3m1!4b1!4m6!3m5!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961!16s%2Fg%2F11h7y1sd99?entry=ttu)
+
+ΛΕΜΕΣΟΣ
+
+Ημερομηνία: Κυριακή 5 ΚΑΙ 12 Οκτωβρίου 2023
+
+Ώρα: 11:00 το πρωί
+
+Τοποθεσία: [Παλιό Ξυδάδικο](https://www.google.com/maps/place/Vinegar+Factory+%7C+%CE%9E%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%BF/@34.6732298,33.0410087,17z/data=!3m1!4b1!4m6!3m5!1s0x14e73302e71e32e5:0x8b9d9b1e08087b59!8m2!3d34.6732254!4d33.0435836!16s%2Fg%2F11gd39kgbx?entry=ttu)
