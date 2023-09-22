@@ -33,3 +33,13 @@ category: children
 Μάσκες: Μάρθα  Φωκά
 
 ***
+
+#### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
+
+ΛΕΥΚΩΣΙΑ
+
+Ημερομηνία: Σάββατο 7 Οκτωβρίου 2023
+
+Ώρα: 16:00 
+
+Τοποθεσία: [ARTos HOUSE](https://www.google.com/maps/place/ARTos+House/@35.1606784,33.3483611,17z/data=!3m1!4b1!4m6!3m5!1s0x14de19f8d10d524d:0x1135d5ca6ffc0c9a!8m2!3d35.160674!4d33.350936!16s%2Fg%2F1tfv7bzq?entry=ttu)
