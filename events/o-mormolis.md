@@ -67,3 +67,14 @@ category: children
 Ώρα: 11:00 το πρωί
 
 Τοποθεσία: [Παλιό Ξυδάδικο](https://www.google.com/maps/place/Vinegar+Factory+%7C+%CE%9E%CF%85%CE%B4%CE%AC%CE%B4%CE%B9%CE%BA%CE%BF/@34.6732298,33.0410087,17z/data=!3m1!4b1!4m6!3m5!1s0x14e73302e71e32e5:0x8b9d9b1e08087b59!8m2!3d34.6732254!4d33.0435836!16s%2Fg%2F11gd39kgbx?entry=ttu)
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Προπώληση  [https://shop.tickethour.com/showEventInformation.html?idEvent=4358](https://shop.tickethour.com/showEventInformation.html?idEvent=4358)  και σε όλα τα καταστήματα ACS courier
+
+
+Πληροφορίες :  99554078.
+
+\*Η παράσταση ταξιδεύει σε σχολεία, παιδικές εκδηλώσεις κ.α. για πληροφορίες και κρατήσεις επικοινωνήστε μαζί μας στο 99554078
