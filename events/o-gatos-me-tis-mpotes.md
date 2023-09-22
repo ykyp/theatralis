@@ -60,6 +60,6 @@ category: children
 
 Τιμή: Γενική είσοδος 10 ευρώ
 
-Προπώληση εισιτηρίων:	Tickethour
+Προπώληση εισιτηρίων:	[Tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4367)
 
 Για πληροφορίες: 94409100
