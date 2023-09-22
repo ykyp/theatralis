@@ -72,7 +72,7 @@ category: children
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Προπώληση  [https://shop.tickethour.com/showEventInformation.html?idEvent=4358](https://shop.tickethour.com/showEventInformation.html?idEvent=4358)  και σε όλα τα καταστήματα ACS courier
+Προπώληση : [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4358) και σε όλα τα καταστήματα ACS courier
 
 
 Πληροφορίες :  99554078.
