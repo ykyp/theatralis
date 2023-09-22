@@ -53,3 +53,13 @@ category: children
 Ώρα: 11:00
 
 Τοποθεσία: [Α’ Λύκειο Εθνάρχη Μακαρίου Γ’ Πάφου](https://www.google.com/maps/place/%CE%9B%CF%8D%CE%BA%CE%B5%CE%B9%CE%BF+%CE%91'+%CE%95%CE%B8%CE%BD%CE%AC%CF%81%CF%87%CE%B7+%CE%9C%CE%B1%CE%BA%CE%AC%CF%81%CE%B9%CE%BF%CF%85+%CE%93'+%CE%A0%CE%AC%CF%86%CE%BF%CF%85/@34.7742795,32.4215455,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f4b2acac83:0xf30a662c2ae9e43b!8m2!3d34.7742751!4d32.4241204!16s%2Fg%2F11g6wg47jm?entry=ttu)
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: Γενική είσοδος 10 ευρώ
+
+Προπώληση εισιτηρίων:	Tickethour
+
+Για πληροφορίες: 94409100
