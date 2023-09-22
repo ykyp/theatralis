@@ -8,6 +8,7 @@ nicosia_dates: >-
   2023-10-22,2023-10-28,2023-10-29
 paphos_dates: '2023-11-12'
 category: children
+event_image: /Ο Γάτος με τις μπότες Final-01.jpeg
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
