@@ -51,3 +51,11 @@ category: children
 Ώρα: 11:00 το πρωί
 
 Τοποθεσία: [Μαρκίδειο θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781641,32.4183625,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
+
+ΛΑΡΝΑΚΑ 
+
+Ημερομηνία: Κυριακή 22 Οκτωβρίου 2023
+
+Ώρα: 11:00 το πρωί
+
+Τοποθεσία: [Δημοτικό Θέατρο Πεύκιος Γεωργιάδης](https://www.google.com/maps/place/Municipal+Theatre+of+Larnaka/@34.9160579,33.6238212,17z/data=!3m1!4b1!4m6!3m5!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961!16s%2Fg%2F11h7y1sd99?entry=ttu)
