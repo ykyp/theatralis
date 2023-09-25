@@ -5,6 +5,7 @@ startDate: 2023-10-19T21:00:00.000Z
 endDate: 2023-10-21T21:00:00.000Z
 nicosia_dates: '2023-10-20,2023-10-21, 2023-10-22'
 category: amateur
+event_image: /fcbk covers event 10-23.png
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
