@@ -39,9 +39,4 @@ O Alpha Κύπρου παρουσιάζει τη βραβευμένη με	Olivi
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**Τιμή** :  € 20 /15
-
-**Προπώληση** :
-
-* [www.rialto.com.cy](https://www.rialto.com.cy/)
-* Ταμείο Θεάτρου:	77777745 (	Δευτέρα - Παρασκευή 10:00-15:00	)
+**Προπώληση** : [soldout](https://www.soldoutticketbox.com/the-play-that-goes-wrong-new-2023/?lang=el)
