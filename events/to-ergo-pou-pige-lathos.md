@@ -39,4 +39,4 @@ O Alpha Κύπρου παρουσιάζει τη βραβευμένη με	Olivi
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-**Προπώληση** : [soldout](https://www.soldoutticketbox.com/the-play-that-goes-wrong-new-2023/?lang=el)
+**Προπώληση** : [www.soldoutticketbox.com](https://www.soldoutticketbox.com/the-play-that-goes-wrong-new-2023/?lang=el)
