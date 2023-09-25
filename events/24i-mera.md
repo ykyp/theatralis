@@ -42,4 +42,6 @@ event_image: /24th_Hour_fin.jpeg
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Εισιτήρια €10 από	tickethour	. com . cy / 7777 7040 /	ACS Courier\* Η παράσταση είναι ακατάλληλη για άτομα κάτω των 15 ετών.
+Τιμή: €10 
+
+Προπώληση: [tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4379) / 7777 7040 /ACS Courier
