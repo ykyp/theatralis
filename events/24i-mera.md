@@ -35,3 +35,7 @@ event_image: /24th_Hour_fin.jpeg
 Ώρα: κάθε Τετάρτη και Σάββατο στις 8.30μμ και Κυριακή στις 7.00μμ
 
 Χώρος: [Λεβέντειος Πινακοθήκη](https://www.google.gr/maps/place/%CE%9B%CE%B5%CE%B2%CE%AD%CE%BD%CF%84%CE%B5%CE%B9%CE%BF%CF%82+%CE%A0%CE%B9%CE%BD%CE%B1%CE%BA%CE%BF%CE%B8%CE%AE%CE%BA%CE%B7/@35.1693794,33.3557334,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1750c7736f87:0x20e4977b50ce11ac!8m2!3d35.169375!4d33.3583083!16s%2Fm%2F0105r3kh?hl=el\&entry=ttu)
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
