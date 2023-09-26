@@ -22,7 +22,7 @@ category: standup
 
 Ώρα: 21:00
 
-Χώρος: Δημοτικό Θέατρο Ύψωνα
+Χώρος: [Δημοτικό Θέατρο Ύψωνα](https://www.google.gr/maps/place/Ypsonas+Municipal+Theatre/@34.6913148,32.8794595,13z/data=!4m10!1m2!2m1!1zzrTOt868zr_PhM65zrrOvyDOuM61zrHPhM-Bzr8gz4XPiM-Jzr3OsQ!3m6!1s0x14e7319d05d6ae4f:0x7719e82bafe84be6!8m2!3d34.6913148!4d32.9556772!15sCijOtM63zrzOv8-EzrnOus6_IM64zrXOsc-Ez4HOvyDPhc-Iz4nOvc6xWioiKM60zrfOvM6_z4TOuc66zr8gzrjOtc6xz4TPgc6_IM-Fz4jPic69zrGSAQ1kcmFtYV90aGVhdGVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJLYVVsUFNGSlJFQUXgAQA!16s%2Fg%2F11tp0kw5r4?hl=el\&entry=ttu)
 
 ΛΕΥΚΩΣΙΑ
 
