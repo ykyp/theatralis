@@ -36,7 +36,7 @@ larnaca_dates: '2023-10-21'
 
 Ώρα: 20:00
 
-Χώρος: Δημοτικό θέατρο Λάρνακας
+Χώρος: [Δημοτικό θέατρο Λάρνακας](https://www.google.gr/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%AC%CF%81%CE%BD%CE%B1%CE%BA%CE%B1%CF%82/@34.9160579,33.6238212,17z/data=!3m1!4b1!4m6!3m5!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961!16s%2Fg%2F11h7y1sd99?hl=el\&entry=ttu)
 
 ΛΕΥΚΩΣΙΑ
 
