@@ -6,6 +6,7 @@ endDate: 2023-09-28T21:00:00.000Z
 nicosia_dates: '2023-09-29'
 limassol_dates: 2023-9-28
 category: standup
+event_image: /MR5_3906 (1) copy (Large).jpeg
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
