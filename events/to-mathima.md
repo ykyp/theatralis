@@ -35,4 +35,4 @@ category: comedy
 
 Ώρα: 08:30 μ.μ.
 
-Τοποθεσία  Θέατρο Ένα Λεμεσός
+Τοποθεσία  [Θέατρο Ένα ](https://www.google.gr/maps/place/%CE%92'+%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%AE+%CE%91%CE%B3%CE%BF%CF%81%CE%AC+-+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%88%CE%BD%CE%B1+%2F+%CE%98%CE%95%CE%91%CE%A4%CE%A1%CE%9F+VERSUS/@34.6727206,33.0402071,17z/data=!3m1!4b1!4m6!3m5!1s0x14e73302f4af925b:0xca71f90ee7b765c0!8m2!3d34.6727162!4d33.042782!16s%2Fg%2F11r969yhf?hl=el\&entry=ttu)Λεμεσός
