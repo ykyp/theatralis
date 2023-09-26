@@ -43,4 +43,4 @@ category: comedy
 
 Τιμή: €15
 
-Προπώληση: 
+Προπώληση: [myticketcy](http://www.myticketcy.com/event/to-mathima-tou-evgeniou-ionesko/)
