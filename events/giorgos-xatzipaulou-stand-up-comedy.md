@@ -30,4 +30,4 @@ category: standup
 
 Ώρα: 21:00
 
-Χώρος: Δημοτικό Θέατρο Λακατάμιας
+Χώρος: [Δημοτικό Θέατρο Λακατάμιας](https://www.google.gr/maps/place/%CE%91%CE%BC%CF%86%CE%B9%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CE%BA%CE%B1%CF%84%CE%AC%CE%BC%CE%B9%CE%B1%CF%82/@35.1115389,33.2961207,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1b798488aceb:0xda7e45d8eae71658!8m2!3d35.1115345!4d33.2986956!16s%2Fg%2F1th5ft6j?hl=el\&entry=ttu)
