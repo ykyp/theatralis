@@ -86,6 +86,12 @@ event_image: /D T-10.jpg
 
 Τιμή: 15 ευρώ
 
-Προπώληση εισιτηρίων:	[SOLDOUT TICKETS](https://www.soldoutticketbox.com/his-mother-antilogos-2023/?lang=el)	και καταστήματα	Stephanis - 
+Προπώληση εισιτηρίων:	[SOLDOUT TICKETS](https://www.soldoutticketbox.com/his-mother-antilogos-2023/?lang=el)	και καταστήματα	Stephanis Electronics και ιστοσελίδα θεάτρου ΡΙΑΛΤΟ για τη Λεμεσό
 
-ElectronicsΠληροφορίες και κρατήσεις :	99 25 1331Θεσμικός Χορηγός:	Υφυπουργείο ΠολιτισμούΧορηγοί:	ΟΠΑΠ Κύπρου, Laiko Cosmos TradingInstagram - ΤheatroantilogosFacebook - TheatroAntilogos
+Πληροφορίες και κρατήσεις :	99 25 1331
+
+Θεσμικός Χορηγός:	Υφυπουργείο Πολιτισμού
+
+Χορηγοί:	ΟΠΑΠ Κύπρου, Laiko Cosmos Trading
+
+Instagram - Τheatroantilogos Facebook - TheatroAntilogos
