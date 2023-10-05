@@ -70,7 +70,7 @@ event_image: /D T-10.jpg
 
 Ώρα: 20:30
 
-Χώρος: Θέατρο ΡΙΑΛΤΟ
+Χώρος: [Θέατρο ΡΙΑΛΤΟ](https://www.google.com/maps/place/Rialto+Theatre/@34.6795424,33.0432363,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.679538!4d33.0458112!16s%2Fg%2F1xb0n5zr?entry=ttu)
 
 ΠΑΦΟΣ
 
