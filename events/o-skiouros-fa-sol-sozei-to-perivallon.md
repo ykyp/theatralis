@@ -33,4 +33,12 @@ category: children
 
 Χώρος: [Ζήνα Πάλας Λευκωσίας](https://www.google.com/maps/place/Zena+Palace/@35.1679027,33.3563242,17z/data=!4m10!1m2!2m1!1zzrbOt869zrEgz4DOsc67zrvOsc-C!3m6!1s0x14de17574c21cfe3:0x917576c38fb1c7c3!8m2!3d35.1680836!4d33.358875!15sChXOts63zr3OsSDPgM6xzrvOu86xz4KSAQ1lbnRlcnRhaW5tZW504AEA!16s%2Fg%2F1tg0h7h8?entry=ttu)
 
-9Τιμή εισιτηρίου:10 ευρώ - ενήλικες8 ευρώ – παιδικόΔιάρκεια Παράστασης: 45 λεπτά χωρίς διάλειμμα
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή:10 ευρώ - ενήλικες 8 ευρώ – παιδικό
+
+Προπώληση: [tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4355)
+
+Διάρκεια Παράστασης: 45 λεπτά χωρίς διάλειμμα
