@@ -40,14 +40,17 @@ event_image: /384162829_303452182312695_4322896318333239249_n.jpeg
 
 Χώρος: [Craft Bar](https://www.google.com/maps/place/Craft+Bar/@34.7779366,32.4187393,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f50a067719:0x70674902d6dea35!8m2!3d34.7779322!4d32.4213142!16s%2Fg%2F11g9j57gvt?entry=ttu)
 
-Εισητήρια για τις παραστάσεις στη Λευκωσία εδώ: [https://www.yasemincollective.com/event-details/xwris-filtro](https://www.yasemincollective.com/event-details/xwris-filtro?fbclid=IwAR01tV4MjcCwvfQiZltWBLSgknVKhgKSBWMGhD_SEPPFNvLo0LjgNQocqjI)
+ΛΕΜΕΣΟΣ
 
+Ημερομηνία και Ώρα: 4 Νοεμβρίου στις 20:30 και 5 Νοεμβρίου στις 19:30μ.μ
 
-Craft Bar Πάφος   27 Οκτωβρίου 2023 (20:30 μ.μ.)
+Χώρος: Υπόγεια Σκηνή Συνεργείο
 
-Υπόγεια Σκηνή Συνεργείο Λεμεσός  4 Νοεμβρίου στις 20:30 και 5 Νοεμβρίου στις 19:30μ.μ.
+***
 
-Προκρατήστε έγκαιρα!!!
+#### ΕΙΣΙΤΗΡΙΑ
+
+Εισιτήρια για τις παραστάσεις στη Λευκωσία: [https://www.yasemincollective.com/eventdetails/xwris-filtro](https://www.yasemincollective.com/event-details/xwris-filtro?fbclid=IwAR01tV4MjcCwvfQiZltWBLSgknVKhgKSBWMGhD_SEPPFNvLo0LjgNQocqjI)
 
 Πληροφορίες και κρατήσεις: 97 905 185 
 
