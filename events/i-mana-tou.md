@@ -81,3 +81,11 @@ event_image: /D T-10.jpg
 Χώρος: [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4232334,15z/data=!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
 
 ***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: 15 ευρώ
+
+Προπώληση εισιτηρίων:	[SOLDOUT TICKETS](https://www.soldoutticketbox.com/his-mother-antilogos-2023/?lang=el)	και καταστήματα	Stephanis - 
+
+ElectronicsΠληροφορίες και κρατήσεις :	99 25 1331Θεσμικός Χορηγός:	Υφυπουργείο ΠολιτισμούΧορηγοί:	ΟΠΑΠ Κύπρου, Laiko Cosmos TradingInstagram - ΤheatroantilogosFacebook - TheatroAntilogos
