@@ -50,7 +50,7 @@ event_image: /384162829_303452182312695_4322896318333239249_n.jpeg
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Εισιτήρια για τις παραστάσεις στη Λευκωσία: [https://www.yasemincollective.com/eventdetails/xwris-filtro](https://www.yasemincollective.com/event-details/xwris-filtro?fbclid=IwAR01tV4MjcCwvfQiZltWBLSgknVKhgKSBWMGhD_SEPPFNvLo0LjgNQocqjI)
+Εισιτήρια για τις παραστάσεις στη Λευκωσία: [www.yasemincollective.com](https://www.yasemincollective.com/event-details/xwris-filtro?fbclid=IwAR01tV4MjcCwvfQiZltWBLSgknVKhgKSBWMGhD_SEPPFNvLo0LjgNQocqjI)
 
 Πληροφορίες και κρατήσεις: 97 905 185 
 
