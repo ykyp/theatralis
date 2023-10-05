@@ -32,7 +32,13 @@ event_image: /384162829_303452182312695_4322896318333239249_n.jpeg
 Χώρος: [Εντός των Τεχνών](https://www.google.com/maps/place/Entos+twn+Texnwn/@35.1710478,33.3606709,17z/data=!3m1!4b1!4m6!3m5!1s0x14de176141421385:0xfca5cd3b0a2a5f5b!8m2!3d35.1710434!4d33.3632458!16s%2Fg%2F11rzpjfpd_?entry=ttu) 
 -Στα πλαίσια του OpenCall πυρ\[ώ]τέχνημα-
 
+ΠΑΦΟΣ
 
+Ημερομηνία: 27 Οκτωβρίου 2023
+
+Ώρα: 20:30 μ.μ
+
+Χώρος: [Craft Bar](https://www.google.com/maps/place/Craft+Bar/@34.7779366,32.4187393,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f50a067719:0x70674902d6dea35!8m2!3d34.7779322!4d32.4213142!16s%2Fg%2F11g9j57gvt?entry=ttu)
 
 Εισητήρια για τις παραστάσεις στη Λευκωσία εδώ: [https://www.yasemincollective.com/event-details/xwris-filtro](https://www.yasemincollective.com/event-details/xwris-filtro?fbclid=IwAR01tV4MjcCwvfQiZltWBLSgknVKhgKSBWMGhD_SEPPFNvLo0LjgNQocqjI)
 
