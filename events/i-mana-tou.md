@@ -78,4 +78,4 @@ event_image: /D T-10.jpg
 
 Ώρα: 20:30
 
-Χώρος: Μαρκίδειο Θέατρο
+Χώρος: [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4232334,15z/data=!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
