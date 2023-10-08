@@ -40,7 +40,7 @@ category: standup
 
 Ώρα: 20:30
 
-Χώρος: Let Them Eat Cake
+Χώρος: [Let Them Eat Cake](https://www.google.com/maps/place/Let+Them+Eat+Cake/@34.7734618,32.4187041,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f3759cb63d:0x30cbb92fe2494b1b!8m2!3d34.7734574!4d32.421279!16s%2Fg%2F11c2kk9l7q?entry=ttu)
 
  
 
