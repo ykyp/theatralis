@@ -61,9 +61,9 @@ Trailer Παράστασης:	Χριστίνα Τρύφωνος
 
 ΕΙΣΟΔΟΣ:	€15 | €12 (μαθητές, φοιτητές, συνταξιούχοι)
 
-Εισιτήρια:	www.soldoutticketbox.com
+Εισιτήρια:	[www.soldoutticketbox.com](https://www.soldoutticketbox.com/the-hitchcock-effect-satiriko-2023/?lang=el)
 
-Πληροφορίες/Εισιτήρια:	ΣΑΤΙΡΙΚΟ ΘΕΑΤΡΟ 22312940 – 22421609
+[Πληροφορίες/Εισιτήρια:	ΣΑΤΙΡΙΚΟ ΘΕΑΤΡΟ 22312940 – 22421609](https://www.soldoutticketbox.com/the-hitchcock-effect-satiriko-2023/?lang=el)
 
 Ώρες Ταμείου: Τρίτη - Παρασκευή 11.30 - 13.30 και 18.00 - 20.00.Σάββατο: 11.30 - 13.30 και 18.30 - 21.00, Κυριακή 9.30 - 12.30 και 16.30 - 19.00.
 
