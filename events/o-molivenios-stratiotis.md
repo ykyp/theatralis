@@ -53,7 +53,7 @@ category: children
 
 Ώρα: Κυριακή - 10:30 και τετάρτη 18:00
 
-Χώρος: Θέατρο ΘΟΚ,	Αίθουσα Εύης Γαβριηλίδης
+Χώρος: [Θέατρο ΘΟΚ](https://www.google.com/maps/place/State+Theater,+Grigori+Afxentiou,+Nicosia+1096,+Cyprus/@35.1682568,33.3530665,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1756bf83f1f3:0x706bab4469a66f22!8m2!3d35.1683683!4d33.3554532!16s%2Fg%2F11bvtgm093?entry=ttu),	Αίθουσα Εύης Γαβριηλίδης
 
 Υπερτιτλισμένες παραστάσεις:
 
