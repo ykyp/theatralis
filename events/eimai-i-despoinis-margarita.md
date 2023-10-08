@@ -34,3 +34,18 @@ category: 'comedy,drama'
 Ώρα: 20:30
 
 Χώρος: [ΘΕΑΤΡΟ ΑΡΤΟΣ](https://www.google.com/maps/place/ARTos+House/@35.1606783,33.3460651,17z/data=!3m1!4b1!4m6!3m5!1s0x14de19f8d10d524d:0x1135d5ca6ffc0c9a!8m2!3d35.160674!4d33.350936!16s%2Fg%2F1tfv7bzq?entry=ttu)
+
+Διάρκεια: 75 λεπτά με διάλειμμα
+
+Ηλικίες: 16+
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή : €15 | €12 (συνταξιούχοι, ηθοποιοί, φοιτητές, μαθητές, στρατιώτες, πολύτεκνοι, μέλη του α.π.κυ.)
+
+Προπώληση: 	[SoldOut	Tickets](https://www.soldoutticketbox.com/eimai-i-despoinis-margarita-2023/?lang=el) και στα καταστήματα	Stephanis
+
+Πληροφορίες 9	9 92 93 74
+
