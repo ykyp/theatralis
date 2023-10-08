@@ -4,6 +4,7 @@ city: nicosia
 startDate: 2023-10-16T21:00:00.000Z
 endDate: 2023-11-06T22:00:00.000Z
 nicosia_dates: '2023-10-17,2023-10-23, 2023-10-24, 2023-10-30, 2023-10-31, 2023-11-6,2023-11-7'
+event_image: /margarita poster.png
 category: 'comedy,drama'
 ---
 
