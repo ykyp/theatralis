@@ -46,7 +46,7 @@ category: 'comedy,drama'
 
 Τιμή : €15 | €12 (συνταξιούχοι, ηθοποιοί, φοιτητές, μαθητές, στρατιώτες, πολύτεκνοι, μέλη του α.π.κυ.)
 
-Προπώληση: 	[SoldOut	Tickets](https://www.soldoutticketbox.com/eimai-i-despoinis-margarita-2023/?lang=el) και στα καταστήματα	Stephanis
+Προπώληση: 	[SoldOutTickets](https://www.soldoutticketbox.com/eimai-i-despoinis-margarita-2023/?lang=el) και στα καταστήματα	Stephanis
 
 Πληροφορίες 99 92 93 74
 
