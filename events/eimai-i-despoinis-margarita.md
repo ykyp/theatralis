@@ -47,5 +47,5 @@ category: 'comedy,drama'
 
 Προπώληση: 	[SoldOut	Tickets](https://www.soldoutticketbox.com/eimai-i-despoinis-margarita-2023/?lang=el) και στα καταστήματα	Stephanis
 
-Πληροφορίες 9	9 92 93 74
+Πληροφορίες 99 92 93 74
 
