@@ -30,7 +30,7 @@ category: standup
 
 Ώρα: 20:30
 
-Χώρος: Avalon
+Χώρος: [Avalon](https://www.google.com/maps/place/Avalon+Live/@34.9120134,33.6342763,17z/data=!3m1!4b1!4m6!3m5!1s0x14e082a31f21b51b:0xd5e6b1049a2809b9!8m2!3d34.912009!4d33.6368512!16s%2Fg%2F11c514fj6z?entry=ttu)
 
 ​
 
