@@ -50,7 +50,7 @@ category: standup
 
 Ώρα: 20:30
 
-Χώρος:  Ravens Music Hall
+Χώρος:  [Ravens Music Hall](https://www.google.com/maps/place/Ravens+Music+Hall/@34.674914,33.0407646,17z/data=!3m1!4b1!4m6!3m5!1s0x14e733031361b6b7:0x4e9b0f40be781e08!8m2!3d34.6749096!4d33.0433395!16s%2Fg%2F11b5qw8dgn?entry=ttu)
 
 ΛΕΥΚΩΣΙΑ
 
