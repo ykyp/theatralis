@@ -10,6 +10,7 @@ limassol_dates: 2023-11-4
 larnaca_dates: 2023-12-2
 famagusta_dates: ''
 paphos_dates: '2023-11-11'
+event_image: /«Ο μολυβένιος στρατιώτης».jpeg
 category: children
 ---
 
