@@ -1,5 +1,5 @@
 ---
-title: ΞΑΝΑ ΜΑΚΜΠΕΘ
+title: ΞΑΝΑ! ΜΑΚΜΠΕΘ
 city: nicosia
 startDate: 2023-10-14T21:00:00.000Z
 endDate: 2023-10-14T21:00:00.000Z
