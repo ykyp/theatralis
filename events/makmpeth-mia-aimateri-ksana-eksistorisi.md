@@ -1,5 +1,5 @@
 ---
-title: ΜΑΚΜΠΕΘ ΜΙΑ ΑΙΜΑΤΗΡΗ ΞΑΝΑ-ΕΞΙΣΤΟΡΗΣΗ
+title: ΞΑΝΑ ΜΑΚΜΠΕΘ
 city: nicosia
 startDate: 2023-10-14T21:00:00.000Z
 endDate: 2023-10-14T21:00:00.000Z
@@ -54,7 +54,7 @@ category: amateur
 
 Ημερομηνία: 15 Οκτωβρίου 2023
 
-Ώρα: 17:00
+Ώρα: 19:00
 
 Χώρος: [Υφαντουργείο](https://www.google.com/maps/place/Yfantourgeio+TheWorkplace/@34.7388138,31.8866779,9z/data=!4m10!1m2!2m1!1zz4XPhs6xzr3PhM6_z4XPgc6zzrXOr86_!3m6!1s0x14de1744ec32582b:0xe7c33a4b9cebdf73!8m2!3d35.1734619!4d33.3637938!15sChjPhc-GzrHOvc-Ezr_Phc-BzrPOtc6vzr-SAQ9jb3dvcmtpbmdfc3BhY2XgAQA!16s%2Fg%2F1tdhhwc5?entry=ttu)
 
