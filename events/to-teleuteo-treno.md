@@ -76,6 +76,6 @@ Movement	Picture : Petya Tsvetkova
 
 Ώρα:  08:30 μ.μ
 
-Χώρος: WhereHaus 612
+Χώρος: [WhereHaus 612](https://www.google.com/search?gs_ssp=eJzj4tFP1zc0LLJMyqlKKTBgtFI1qDA0SUk1NDdISjaxtDBKMzC0MqiwTDYySUkzME-zSDM0MDRP8eItz0gtSs1ILC1WMDM0AgCYOBOI\&q=wherehaus+612\&oq=wherehaus+\&gs_lcrp=EgZjaHJvbWUqDQgBEC4YrwEYxwEYgAQyBggAEEUYOTINCAEQLhivARjHARiABDIHCAIQABiABDIICAMQABgKGB4yBggEEAAYHjIKCAUQABgFGAoYHjIICAYQABgFGB4yBggHEAAYHtIBCDc0NjJqMGo0qAIAsAIA\&sourceid=chrome\&ie=UTF-8)
 
 Πληροφορίες στα τηλέφωνα: 24652800 και 99490102Προπώληση εισιτηρίων:	tickethour	. com . cy / ACS Courier και στο ταμείο του θεάτρου τις μέρεςτων παραστάσεων.Μέγας Θεσμικός Χορηγός:	Υφυπουργείο ΠολιτισμούΠάγιος Χορηγός:	Δήμος ΛάρνακαςΕτήσιος Χορηγός:	ΟΠΑΠ (ΚΥΠΡΟΥ) ΛΤΔΧορηγοί Παράστασης:	Συμβούλιο Αποχετεύσεων Λάρνακας,	Chihtsai Hair Care Cyprus , ΕύΚουζήν,
