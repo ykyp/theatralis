@@ -68,7 +68,7 @@ Movement	Picture : Petya Tsvetkova
 
 Ώρα: Κάθε Σάββατο, 08:30 μ.μ και κάθε Κυριακή, 06:30 μ.μ 
 
-Χώρος: θέατρο «ΣΚΑΛΑ»
+Χώρος: [θέατρο «ΣΚΑΛΑ»](https://www.google.com/maps/place/Theater+Skala+Larnaka/@34.8479788,32.3683448,9z/data=!4m17!1m9!2m8!1zzrjOtc6xz4TPgc6_IM-DzrrOsc67zrE!3m6!1zzrjOtc6xz4TPgc6_IM-DzrrOsc67zrE!2sMarkideio+Theatre!3s0x14e706f5450bd66d:0x68a598c2c5136439!4m2!1d32.4232146!2d34.7781101!3m6!1s0x14e082a6e362e26b:0x800ef26e458168d!8m2!3d34.9191021!4d33.6323324!15sChfOuM61zrHPhM-Bzr8gz4POus6xzrvOsVoZIhfOuM61zrHPhM-Bzr8gz4POus6xzrvOsZIBD3RoZWF0ZXJfY29tcGFueZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOS2NHRkxiRUZuRUFF4AEA!16s%2Fg%2F11g70j729w?entry=ttu)
 
 ΛΕΥΚΩΣΙΑ
 
