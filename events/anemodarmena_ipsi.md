@@ -9,5 +9,7 @@ nicosia_dates: >-
 limassol_dates: '2023-12-12'
 larnaca_dates: '2023-12-07'
 paphos_dates: '2023-12-14'
+event_image: /380398556_138617472643419_3970254938968314925_n.jpeg
+category: novel
 ---
 
