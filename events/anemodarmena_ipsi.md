@@ -117,3 +117,5 @@ Videos: Γιάννης Σαββίδης
 Προπώληση: [soldout ](https://www.soldoutticketbox.com/wuthering-heights-anemona-theatre-2023/?lang=el)
 
 Για την παράσταση της Λεμεσού ιστοσελίδα θεάτρου [ριάλτο](https://www.rialto.com.cy/)
+
+Πληροφορίες: TΗΛ. 70007721
