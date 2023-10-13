@@ -46,4 +46,6 @@ category: comedy
 
 #### ΕΙΣΙΤΗΡΙΑ
 
+Προπώληση: ([https://shop.tickethour.com/showEventInformation.html?idEvent=4376](https://shop.tickethour.com/showEventInformation.html?idEvent=4376))
+
 ΕΙΣΙΤΗΡΙΑ/ Πληροφορίες/ Κρατήσεις: 22348203
