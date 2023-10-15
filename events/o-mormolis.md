@@ -3,8 +3,8 @@ title: Ο ΜΟΡΜΟΛΗΣ
 city: 'nicosia, limassol, pafos, larnaca'
 startDate: 2023-10-06T21:00:00.000Z
 endDate: 2023-11-11T22:00:00.000Z
-nicosia_dates: 2023-10-7
-limassol_dates: '2023-10-5,2023-10-12'
+nicosia_dates: '2023-11-26'
+limassol_dates: '2023-11-5,2023-11-12'
 larnaca_dates: '2023-10-22'
 paphos_dates: 2023-10-8
 event_image: /Screenshot 2023-09-22 at 2.41.48 PM.png
@@ -38,9 +38,9 @@ category: children
 
 ΛΕΥΚΩΣΙΑ
 
-Ημερομηνία: Σάββατο 7 Οκτωβρίου 2023
+Ημερομηνία: Κυριακή 26 Νοεμβρίου 2023
 
-Ώρα: 16:00 
+Ώρα: 11:00
 
 Τοποθεσία: [ARTos HOUSE](https://www.google.com/maps/place/ARTos+House/@35.1606784,33.3483611,17z/data=!3m1!4b1!4m6!3m5!1s0x14de19f8d10d524d:0x1135d5ca6ffc0c9a!8m2!3d35.160674!4d33.350936!16s%2Fg%2F1tfv7bzq?entry=ttu)
 
@@ -52,7 +52,7 @@ category: children
 
 Τοποθεσία: [Μαρκίδειο θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781641,32.4183625,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
 
-ΛΑΡΝΑΚΑ 
+ΛΑΡΝΑΚΑ
 
 Ημερομηνία: Κυριακή 22 Οκτωβρίου 2023
 
@@ -62,7 +62,7 @@ category: children
 
 ΛΕΜΕΣΟΣ
 
-Ημερομηνία: Κυριακή 5 ΚΑΙ 12 Οκτωβρίου 2023
+Ημερομηνία: Κυριακή 5 ΚΑΙ 12 Νοεμβρίου 2023
 
 Ώρα: 11:00 το πρωί
 
@@ -73,7 +73,6 @@ category: children
 #### ΕΙΣΙΤΗΡΙΑ
 
 Προπώληση : [Tickethour ](https://shop.tickethour.com/showEventInformation.html?idEvent=4358) και σε όλα τα καταστήματα ACS courier
-
 
 Πληροφορίες :  99554078.
 
