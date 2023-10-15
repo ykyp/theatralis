@@ -2,7 +2,7 @@
 title: Ο ΜΟΡΜΟΛΗΣ
 city: 'nicosia, limassol, pafos, larnaca'
 startDate: 2023-10-06T21:00:00.000Z
-endDate: 2023-11-11T22:00:00.000Z
+endDate: 2023-11-25T22:00:00.000Z
 nicosia_dates: '2023-11-26'
 limassol_dates: '2023-11-5,2023-11-12'
 larnaca_dates: '2023-10-22'
