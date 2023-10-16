@@ -69,7 +69,7 @@ Trailer παράστασης/Φωτογραφίες:	Χριστίνα Τρύφω
 
 Τιμή: ΓΕΝΙΚΗ ΕΙΣΟΔΟΣ - €12
 
-Προπώληση: www.soldoutticketbox.com
+Προπώληση: [www.soldoutticketbox.com](https://www.soldoutticketbox.com/easyconsole.cfm/page/category/cat_id/3/)
 
 Πληροφορίες/Κρατήσεις/Εισιτήρια:	ΣΑΤΙΡΙΚΟ ΘΕΑΤΡΟ	22312940, 22421609
 
