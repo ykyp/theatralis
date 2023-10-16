@@ -77,6 +77,20 @@ Trailer παράστασης/Φωτογραφίες:	Χριστίνα Τρύφω
 
 Σάββατο: 11.30 - 13.30 και 18.30 - 21.00, Κυριακή 9.30 - 12.30 και 16.30 - 19.00.
 
-Email: satiriko.tameio@cytanet.com.cywww . satirikotheatro	. com
+Email: satiriko.tameio@cytanet.com.cy
 
-ΧΟΡΗΓΟΙ:Χορηγός Παράστασης:	ΟΠΑΠ ΚΥΠΡΟΥΧορηγός	Παράστασης	: ANIMAL CARE VETERINARY CENTERΧορηγός	Παράστασης	: CLIO PHARMACYΧορηγός : HYUNDAI CYPRUSΧορηγοί : BARISTO ALL DAY BAR	και PASTA STRADAΧορηγός Επικοινωνίας:	BLACK LEMON TVΧορηγός Επικοινωνίας:	ΟΜΕGA CHANNELΧορηγός Επικοινωνίας:	ΔΡΟΜΟΣ 100,5Βλαδίμηρου	Καυκαρίδη	11 – 15 | Αγλαντζιά,	Λευκωσία	2102 | Τηλ: 22426109,	22312940	| Φαξ: 22493450	1Email: satirikotheatro@cytanet.com.cy​
+ΧΟΡΗΓΟΙ:Χορηγός Παράστασης:	ΟΠΑΠ ΚΥΠΡΟΥ
+
+Χορηγός	Παράστασης	: ANIMAL CARE VETERINARY CENTER
+
+Χορηγός	Παράστασης	: CLIO PHARMACY
+
+Χορηγός : HYUNDAI CYPRUS
+
+Χορηγοί : BARISTO ALL DAY BAR	και PASTA STRADA
+
+Χορηγός Επικοινωνίας:	BLACK LEMON TV
+
+Χορηγός Επικοινωνίας:	ΟΜΕGA CHANNEL
+
+Χορηγός Επικοινωνίας:	ΔΡΟΜΟΣ 100,5 Βλαδίμηρου	Καυκαρίδη	11 – 15 | Αγλαντζιά,	Λευκωσία	2102 | Τηλ: 22426109,	22312940&#x9;
