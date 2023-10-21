@@ -44,7 +44,7 @@ category: children
 
 Τιμή: Προπώληση 8 ευρώ -  ταμείο θεάτρου 10 ευρώ
 
-Προπώληση: myticketcy.com
+Προπώληση: [myticketcy.com](https://www.myticketcy.com/)
 
  Πληροφορίες: 99 790 915
 
