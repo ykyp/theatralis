@@ -38,4 +38,16 @@ category: children
 
 Χώρος:[ Θέατρο VERSUS (Θέατρο Ένα Λεμεσός)](https://www.google.com/maps/place/ENA+Theatre/@34.6727206,33.0402071,17z/data=!3m1!4b1!4m6!3m5!1s0x14e73302f4af925b:0xca71f90ee7b765c0!8m2!3d34.6727162!4d33.042782!16s%2Fg%2F11r969yhf?entry=ttu)
 
-στο #Θέατρο #Ένα #Λεμεσός!!!Κουκλοπαίχτης: Άντρεα Κάσινου• Μουσική: Κλιφ Κλεοβούλου• Τοποθεσία: Θέατρο VERSUS (Θέατρο Ένα Λεμεσός)• Εισητήρια: myticketcy.com(προπώληση 8 ευρώ)• Εισητήρια στο ταμείο του θεάτρου 10 ευρώ• Παραστάσεις: ΚΥΡΙΑΚΕΣ22/10, 29/10 στις 11:00 π.μ.• Πληροφορίες: 99 790 915FB: Uncover Masks Puppet TheatreInsta: kouklotheatro.uncovermasks
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: Προπώληση 8 ευρώ -  ταμείο θεάτρου 10 ευρώ
+
+Προπώληση: myticketcy.com
+
+ Πληροφορίες: 99 790 915
+
+FB:Uncover Masks Puppet Theatre
+
+Insta: kouklotheatro.uncovermasks
