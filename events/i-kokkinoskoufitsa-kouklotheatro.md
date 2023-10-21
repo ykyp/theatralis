@@ -4,6 +4,7 @@ city: limassol
 startDate: 2023-10-21T21:00:00.000Z
 endDate: 2023-10-28T21:00:00.000Z
 limassol_dates: '2023-10-22,2023-10-29'
+event_image: /IMG-20230906-WA0001.jpeg
 category: children
 ---
 
