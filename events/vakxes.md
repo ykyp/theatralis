@@ -1,5 +1,6 @@
 ---
 title: ΒΑΚΧΕΣ
+event_image: '/BACCHAE00002[4].jpeg'
 category: amateur
 ---
 
