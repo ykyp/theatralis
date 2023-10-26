@@ -59,7 +59,7 @@ category: drama
 
  **Ώρα:** 8.30 μ.μ.
 
-** Τοποθεσία**:  [Θέατρο «Ριάλτο»](https://www.google.gr/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A1%CE%B9%CE%AC%CE%BB%CF%84%CE%BF/@34.679538,33.0458112,17z/data=!4m6!3m5!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.679538!4d33.0458112!16s%2Fg%2F1xb0n5zr?hl=el\&entry=ttu)
+**Τοποθεσία:**  [Θέατρο «Ριάλτο»](https://www.google.gr/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A1%CE%B9%CE%AC%CE%BB%CF%84%CE%BF/@34.679538,33.0458112,17z/data=!4m6!3m5!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.679538!4d33.0458112!16s%2Fg%2F1xb0n5zr?hl=el\&entry=ttu)
 
 ***
 
