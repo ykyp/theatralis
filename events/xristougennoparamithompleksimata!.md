@@ -63,4 +63,8 @@ category: children
 
 Χώρος:  [Θεατράκι του ΡΙΚ](https://www.google.com/maps/place/Cyprus+Broadcasting+Corporation/@35.1263687,33.3505209,14z/data=!4m10!1m2!2m1!1zzrjOtc6xz4TPgc6xzrrOuSDPgc65zro!3m6!1s0x14de19d00311c797:0xc356aa23568af3d8!8m2!3d35.1468717!4d33.3829773!15sChfOuM61zrHPhM-BzrHOus65IM-BzrnOuloZIhfOuM61zrHPhM-BzrHOus65IM-BzrnOupIBEnRlbGV2aXNpb25fc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSS0xWbHRVVmRCRUFF4AEA!16s%2Fg%2F1tfy4r6v?entry=ttu) 
 
-Λ Ε Μ Ε Σ Ο ΣΠολυχώρος Συνεργείο	Οδός Ελευθερίας 19, 3042 Λεμεσός, Κύπρος27 Δεκεμβρίου, Τετάρτη στις 4:00μμ και στις 6:00μμ
+ΛΕΜΕΣΟΣ
+
+Ημερομηνία και Ώρα έναρξης: 27 Δεκεμβρίου, Τετάρτη στις 4:00μμ και στις 6:00μμ
+
+Χώρος: Πολυχώρος Συνεργείο	Οδός Ελευθερίας 19, 3042 Λεμεσός, Κύπρος
