@@ -4,6 +4,7 @@ city: limassol
 startDate: 2023-11-03T22:00:00.000Z
 endDate: 2023-11-03T22:00:00.000Z
 limassol_dates: 2023-11-4
+event_image: /INSTAGRAM POST 1080x1080px .jpeg
 category: children
 ---
 
