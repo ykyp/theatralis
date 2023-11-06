@@ -2,10 +2,11 @@
 title: ΔΟΝ ΚΙΧΩΤΗΣ
 city: nicosia
 startDate: 2023-09-29T21:00:00.000Z
-endDate: 2023-10-27T21:00:00.000Z
-nicosia_dates: '2023-09-30,2023-10-7, 2023-10-14, 2023-10-21, 2023-10-28'
-category: children
+endDate: 2024-01-13T22:00:00.000Z
+nicosia_dates: '2023-11-19,2023-11-26'
+limassol_dates: '2023-01-14'
 event_image: /ΧΡΙΣΤΟΣ ΑΒΡΑΑΜΙΔΗΣ 2.JPG
+category: children
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
