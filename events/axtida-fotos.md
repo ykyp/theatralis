@@ -67,7 +67,7 @@ category: drama
 
 ΕΙΣΟΔΟΣ:	€15 | €12 (μαθητές, φοιτητές, συνταξιούχοι)
 
-Προπώληση:	www\.soldoutticketbox.com
+Προπώληση:	[www.soldoutticketbox.com](https://www.soldoutticketbox.com/el/home)
 
 Πληροφορίες/Εισιτήρια:	ΣΑΤΙΡΙΚΟ ΘΕΑΤΡΟ 22312940 – 22421609
 
