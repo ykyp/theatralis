@@ -1,6 +1,6 @@
 ---
 title: ΔΟΝ ΚΙΧΩΤΗΣ
-city: nicosia
+city: 'nicosia, limassol'
 startDate: 2023-09-29T21:00:00.000Z
 endDate: 2024-01-13T22:00:00.000Z
 nicosia_dates: '2023-11-19,2023-11-26'
