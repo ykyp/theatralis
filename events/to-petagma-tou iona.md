@@ -1,9 +1,9 @@
 ---
 title: ΤΟ ΠΕΤΑΓΜΑ ΤΟΥ ΙΩΝΑ
 city: nicosia
-startDate: 2023-09-23T21:00:00.000Z
-endDate: 2023-09-23T21:00:00.000Z
-nicosia_dates: '2023-09-24'
+startDate: 2023-11-18T22:00:00.000Z
+endDate: 2024-01-27T22:00:00.000Z
+nicosia_dates: '2023-11-19, 2023-11-24,2023-12-10,2023-12-16,2024-01-28'
 event_image: /RED STAGE -  TO PETAGMA TOU IONA FLYER A5.jpg
 category: 'comedy, children'
 ---
