@@ -38,16 +38,14 @@ Backdrop Art:	Ιάκωβος Λοίζου
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-Ημερομηνία: Κυριακή 24 Σεπτεμβίου (ΠΡΕΜΙΕΡΑ), για άλλες ημερομηνίες	[www.more.com](https://www.more.com/en/tickets/theater/children/to-petagma-tou-iona/?lang=en-US)
+Ημερομηνία και Ώρα έναρξης: 19 (10:30) και 24 Νοεμβρίου (10:00), 10 (10:30) και 16 (15:00) Δεκεμβρίου, 28 Ιανουαρίου 2024 διπλή παράσταση (10:30 και 16:00), για άλλες ημερομηνίες	[www.more.com](https://www.more.com/en/tickets/theater/children/to-petagma-tou-iona/?lang=en-US)
 
-Ώρα: 10.30 το πρωί
-
-Τοποθεσία: [Θέατρο Δέντρο ](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%94%CE%AD%CE%BD%CF%84%CF%81%CE%BF/@35.1786639,33.3860548,15.51z/data=!4m6!3m5!1s0x14de170b08c2c23f:0x17cd0ebf63c7196d!8m2!3d35.1778102!4d33.391543!16s%2Fg%2F11c1njb_bp?entry=ttu)
+Τοποθεσία: [Θεατράκι Ρικ](https://www.google.com/maps/place/Cyprus+Broadcasting+Corporation/@35.1468717,32.8226746,10z/data=!4m10!1m2!2m1!1zzrjOtc6xz4TPgc6xzrrOuSDPgc65zro!3m6!1s0x14de19d00311c797:0xc356aa23568af3d8!8m2!3d35.1468717!4d33.3829773!15sChfOuM61zrHPhM-BzrHOus65IM-BzrnOuloZIhfOuM61zrHPhM-BzrHOus65IM-BzrnOupIBEnRlbGV2aXNpb25fc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSS0xWbHRVVmRCRUFF4AEA!16s%2Fg%2F1tfy4r6v?entry=ttu)
 
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Τιμή:€10
+Τιμή: από €8
 
 Προπώληση: [www.more.com](https://www.more.com/en/tickets/theater/children/to-petagma-tou-iona/?lang=en-US) , 7000 28 29
