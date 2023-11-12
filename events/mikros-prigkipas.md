@@ -45,6 +45,6 @@ city: nicosia
 
 Τιμή: ΖΩΝΗ Α €70 / €65 , ΖΩΝΗ Β €55 / €50 , ΖΩΝΗ Γ €40 / €35, ΖΩΝΗ Δ €25 / €20
 
-Εισιτήρια:	[soldouticket](https://www.soldoutticketbox.com/easyconsole.cfm/page/category/cat_id/31/lang/el)
+Προπώληση: [soldouticket](https://www.soldoutticketbox.com/easyconsole.cfm/page/category/cat_id/31/lang/el)
 
-Καταστήματα	Stephanis	και το ταμείο του Δημοτικού Θεάτρου Λευκωσίας (Δευτέρα - Παρασκευή10:00-13:00)
+Καταστήματα	Stephanis και το ταμείο του Δημοτικού Θεάτρου Λευκωσίας (Δευτέρα - Παρασκευή 10:00-13:00)
