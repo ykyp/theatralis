@@ -69,11 +69,3 @@ category: comedy
 Ώρα έναρξης: Παρασκευή και Σάββατο 20:00 και Κυριακή 19:00
 
 Χώρος:  [Μαρκίδειο Δημοτικό θέατρο ](https://www.google.com/maps/place/Markideio+Theatre/@34.7781597,32.4183625,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
-
-ΠΑΡΑΛΙΜΝΙ
-
-Ημερομηνίες: 2,3,4 Φεβρουαρίου 2024
-
-Ώρα έναρξης: Παρασκευή και Σάββατο 20:00 και Κυριακή 19:00
-
-Χώρος:   [Xenion High School ](https://www.google.com/maps/place/Xenion+Education/@35.0414727,33.9759395,17z/data=!3m1!4b1!4m6!3m5!1s0x14dfc5f918b580f5:0x93bc1c31a08bad60!8m2!3d35.0414727!4d33.9785144!16s%2Fm%2F03d4ywm?entry=ttu)
