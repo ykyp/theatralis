@@ -4,6 +4,7 @@ city: nicosia
 startDate: 2023-11-16T22:00:00.000Z
 endDate: 2023-11-18T22:00:00.000Z
 nicosia_dates: '2023-11-17,2023-11-18,2023-11-19'
+event_image: /image001.png
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
