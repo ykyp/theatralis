@@ -5,6 +5,7 @@ startDate: 2023-11-24T22:00:00.000Z
 endDate: 2023-11-25T22:00:00.000Z
 nicosia_dates: '2023-11-25'
 limassol_dates: '2023-11-26'
+event_image: /ΤΡΙΓΩΝΟΨΑΡΟΥΛΗΣ THE MUSICAL 2.jpeg
 category: children
 ---
 
