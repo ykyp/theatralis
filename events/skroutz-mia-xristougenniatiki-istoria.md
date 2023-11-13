@@ -33,3 +33,13 @@ category: children
 Ημερομηνίες και Ώρα έναρξης: 10, 17, 24, 26/12 και 7/1 στις 11: 00 και 23, 24, 30/12 στις 16:00​
 
 Χώρος:  [Κινηματοθέατρο Πανόραμα Ιδαλίου](https://www.google.com/maps/place/%CE%9A%CE%B9%CE%BD%CE%B7%CE%BC%CE%B1%CF%84%CE%BF%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1+%CE%99%CE%B4%CE%B1%CE%BB%CE%AF%CE%BF%CF%85/@35.0246211,33.4159865,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1f9e7b20b091:0x2739c8ae5f8d7c4b!8m2!3d35.0246212!4d33.4208574!16s%2Fg%2F11gf96r53y?entry=ttu)
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: 15 κανονικό, 10 μειωμένο (παιδικό)
+
+Προπώληση:	[ticketmaster.cy](https://www.ticketmaster.cy/)
+
+Πληροφορίες: 94 409 100
