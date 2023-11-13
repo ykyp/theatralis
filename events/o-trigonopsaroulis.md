@@ -64,4 +64,4 @@ Artwork: Σάκης Παπαγιάννης
 
 Ώρα έναρξης: 11:30π.μ. και 3:00μ.μ
 
-Χώρος: Παττίχειο Θέατρο&#x9;
+Χώρος: [Παττίχειο Θέατρο	](https://www.google.com/maps/place/Patichion+Municipal+Theatre,+Agias+Zonis+2,+Limassol,+Cyprus/@34.6812655,33.0389611,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7330f8b4700ed:0xd66d4f231f490bbb!8m2!3d34.6813016!4d33.0438594!16s%2Fg%2F11bvthpbkr?entry=ttu)
