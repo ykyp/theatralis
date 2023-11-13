@@ -4,7 +4,7 @@ city: limassol
 startDate: 2023-11-18T22:00:00.000Z
 endDate: 2023-12-26T22:00:00.000Z
 limassol_dates: '2023-11-26,2023-12-03,2023-12-10,2023-12-17,2023-12-24,2023-12-26, 2023-12-27'
-event_image: /Screenshot_2023-10-23-09-17-41-267_com.android.thememanager.jpg
+event_image: /Screenshot 2023-11-13 at 9.26.57 PM.png
 category: children
 ---
 
