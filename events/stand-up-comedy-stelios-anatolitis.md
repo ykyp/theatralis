@@ -70,3 +70,13 @@ category: standup
 #### ΕΙΣΙΤΗΡΙΑ
 
 Προπώληση:  [www.MotionComedy.com](https://www.tickettailor.com/events/motioncomedy?)
+
+Πληροφορίες: 99865603 
+
+Χρυσός χορηγός: The Famous Grouse
+
+Χορηγός φιλοξενίας: Ξενοδοχείο Semeli
+
+Υποστηρικτής: Think Color
+
+ 
