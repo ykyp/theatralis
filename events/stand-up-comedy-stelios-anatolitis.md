@@ -47,7 +47,7 @@ category: standup
 
 Ώρα έναρξης: 21:00
 
-Χώρος: Gallery στο Σκαλί Αγλαντζιάς
+Χώρος: [Gallery στο Σκαλί Αγλαντζιάς](https://www.google.com/maps/place/%CE%A3%CE%BA%CE%B1%CE%BB%CE%AF+%CE%91%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%AC,+Michael+Karaoli,+Aglantzia+2108,+Cyprus/@35.1530233,33.3962247,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1780d2723227:0xa7c61340014f8c92!8m2!3d35.1529494!4d33.3988837!16s%2Fg%2F11b8tchwkx?entry=ttu)
 
 ΛΕΜΕΣΟΣ
 
