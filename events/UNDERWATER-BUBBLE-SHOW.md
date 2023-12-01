@@ -20,3 +20,13 @@ endDate: 2024-01-05T22:00:00.000Z
 Χώρος: [Δημοτικό Θέατρο Λευκωσίας](https://www.google.com/maps/place/Nicosia+Municipal+Theatre/@35.1726521,33.3526747,17z/data=!3m1!4b1!4m6!3m5!1s0x14de17519633b289:0xf4e085228ec10fda!8m2!3d35.1726521!4d33.3552496!16s%2Fg%2F11fx_337t4?entry=ttu)
 
 ***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: Από €40 (Ενήλικες) 
+
+Από €25 (για παιδιά κάτω των 12 ετών) 
+
+ΑΜΕΑ Δωρεάν - Συνοδός €30
+
+Προπώληση: [soldouttickets](https://www.soldoutticketbox.com/underwater-bubble-show-jan-2024/?lang=el)
