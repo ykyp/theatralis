@@ -39,3 +39,17 @@ category: comedy
 Graphic Design: ARTemis Graphics & Visual Communication
 
 ***
+
+#### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
+
+ΛΕΜΕΣΟΣ
+
+Ημερομηνίες και Ώρες έναρξης: 
+
+02, 09, 12, 15 & 16 Δεκεμβρίου 2023| 20:30
+
+03, 10 & 17 Δεκεμβρίου 2023 | 18:30
+
+Χώρος: [ΘΕΑΤΡΟ ΕΘΑΛ](https://www.google.com/maps/place/ETHAL/@34.6683736,33.0230974,17z/data=!3m1!4b1!4m6!3m5!1s0x14e73250f693fa5d:0xc7a10b3d8618708b!8m2!3d34.6683736!4d33.0256723!16s%2Fg%2F11c1q875yt?entry=ttu)
+
+ΛΕΥΚΩΣΙΑ
