@@ -37,3 +37,5 @@ category: comedy
 Φωτογραφίες: Δημήτρης Λούτσιος
 
 Graphic Design: ARTemis Graphics & Visual Communication
+
+***
