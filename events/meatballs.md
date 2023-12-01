@@ -60,6 +60,12 @@ Graphic Design: ARTemis Graphics & Visual Communication
 
 Χώρος: [ΘΕΑΤΡΟ ΔΕΝΤΡΟ](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%94%CE%AD%CE%BD%CF%84%CF%81%CE%BF/@35.1778101,33.3866721,17z/data=!3m1!4b1!4m6!3m5!1s0x14de170b08c2c23f:0x17cd0ebf63c7196d!8m2!3d35.1778102!4d33.391543!16s%2Fg%2F11c1njb_bp?entry=ttu)
 
+Κατάλληλο για άτομα άνω των 16 ετών
+
+Διάρκεια: 1 ώρα και 20 λεπτά
+
+Πληροφορίες: 25877827
+
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
