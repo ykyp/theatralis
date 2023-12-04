@@ -7,6 +7,8 @@ nicosia_dates: '2023-12-16,2023-12-17,2023-12-23'
 limassol_dates: 2023-12-9
 larnaca_dates: '2023-12-10'
 paphos_dates: '2023-12-24'
+event_image: /ΑΦΙΣΑ ΓΕΝΙΚΗ Α3 ΚΙΤΡΙΝΙΣΕ.jpeg
+category: children
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
