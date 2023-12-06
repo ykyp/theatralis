@@ -48,3 +48,7 @@ event_image: /IMG_9776.jpeg
 Τιμή: €15 Κανονικό | €12 (συνταξιούχοι, φοιτητές)
 
 Προπώληση: [soldouttickets](https://www.soldoutticketbox.com/uncle-vanya-theatro-dionysos/?lang=el)
+
+ΛΕΜΕΣΟΣ
+
+Προπώληση: [https://www.rialto.com.cy/](https://www.rialto.com.cy/)
