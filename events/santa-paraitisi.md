@@ -35,3 +35,11 @@ category: children
 ΚΥΡΙΑΚΗ 17 Δεκεμβρίου  στις 10:00π.μ.
 
 Χώρος:  [FLEA THEATRE](https://www.google.com/maps/place/Flea+Theatre/@35.1839201,33.3942607,17z/data=!3m1!4b1!4m6!3m5!1s0x14de17a904f9aabb:0x1710a1c59c41893f!8m2!3d35.1839201!4d33.3968356!16s%2Fg%2F11hb2kd45g?entry=ttu)
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: €12
+
+Προπώληση: [Soldout tickets](https://www.soldoutticketbox.com//santa-paraitisi-flea-theatre-2023/easyconsole.cfm)
