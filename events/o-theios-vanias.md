@@ -52,3 +52,5 @@ event_image: /IMG_9776.jpeg
 ΛΕΜΕΣΟΣ
 
 Προπώληση: [https://www.rialto.com.cy/](https://www.rialto.com.cy/)
+
+Πληροφορίες: 22818999& 99621845
