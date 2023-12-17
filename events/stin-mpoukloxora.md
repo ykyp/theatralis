@@ -4,6 +4,7 @@ city: nicosia
 startDate: 2023-12-22T22:00:00.000Z
 endDate: 2024-01-06T22:00:00.000Z
 nicosia_dates: '2023-12-23,2023-12-24,2023-12-26,2023-12-30,2023-12-31,2024-01-07'
+event_image: /9.jpeg
 category: children
 ---
 
