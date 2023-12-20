@@ -61,3 +61,7 @@ category: musical
 Τιμή:
 
 ΖΩΝΗ Α €35 / €30 , ΖΩΝΗ Β €30 / €25, ΖΩΝΗ Γ €25 / €20, ΖΩΝΗ Δ	€20 / €15
+
+Προπώληση: 
+
+[soldoutticketbox](https://www.soldoutticketbox.com/the-lazy-dragon-nif23/?lang=el),Καταστήματα	Stephanis	κι από το ταμείο του Δημοτικού Θεάτρου Λευκωσίας(Δευτέρα- Παρασκευή	10:00-13:00)
