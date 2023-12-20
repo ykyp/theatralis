@@ -65,3 +65,5 @@ category: musical
 Προπώληση: 
 
 [soldoutticketbox](https://www.soldoutticketbox.com/the-lazy-dragon-nif23/?lang=el),Καταστήματα	Stephanis	κι από το ταμείο του Δημοτικού Θεάτρου Λευκωσίας(Δευτέρα- Παρασκευή	10:00-13:00)
+
+Για πληροφορίες: 22797979 (Δευτέρα - Παρασκευή 10:00-13:00)
