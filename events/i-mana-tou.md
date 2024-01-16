@@ -1,11 +1,11 @@
 ---
 title: Η ΜΑΝΑ ΤΟΥ
-city: 'nicosia, limassol, pafos, larnaca'
-startDate: 2023-10-13T21:00:00.000Z
-endDate: 2023-11-25T22:00:00.000Z
-nicosia_dates: '2023-11-18,2023-11-19,2023-11-25,2023-11-26'
-limassol_dates: '2023-10-20'
-larnaca_dates: '2023-10-16'
+city: 'nicosia, larnaca'
+startDate: 2024-01-26T22:00:00.000Z
+endDate: 2024-02-01T22:00:00.000Z
+nicosia_dates: '2024-1-27,2024-1-28'
+limassol_dates: ''
+larnaca_dates: 2024-2-2
 paphos_dates: '2023-11-16'
 event_image: /D T-10.jpg
 ---
@@ -48,7 +48,7 @@ event_image: /D T-10.jpg
 
 ΛΕΥΚΩΣΙΑ
 
-Ημερομηνία: Πρεμιέρα	Σάββατο, 14 Οκτωβρίου και κάθε Σάββατο και Κυριακή μέχρι 19 Νοεμβρίου 2023
+Ημερομηνία: Σάββατο 27 Ιανουαρίου 2024 και Κυριακή 28 Ιανουαρίου 2024
 
 Ώρα: 8:00 το βράδυ
 
@@ -56,27 +56,11 @@ event_image: /D T-10.jpg
 
 ΛΑΡΝΑΚΑ
 
-Ημερομηνία: Δευτέρα, 16 Οκτωβρίου 2023
+Ημερομηνία: Παρασκευή 2 Φεβρουαρίου 2024
 
 Ώρα: 19:30
 
-Χώρος: [Θέατρο Λάρνακας Γιώργος Λυκούργος](https://www.google.com/maps/place/Municipal+Theatre+of+Larnaka/@34.9160579,33.6238212,17z/data=!3m1!4b1!4m6!3m5!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961!16s%2Fg%2F11h7y1sd99?entry=ttu)
-
-ΛΕΜΕΣΟΣ
-
-Ημερομηνία: Παρασκευή 20 Οκτωβρίου
-
-Ώρα: 20:30
-
-Χώρος: [Θέατρο ΡΙΑΛΤΟ](https://www.google.com/maps/place/Rialto+Theatre/@34.6795424,33.0432363,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.679538!4d33.0458112!16s%2Fg%2F1xb0n5zr?entry=ttu)
-
-ΠΑΦΟΣ
-
-Ημερομηνία: Πέμπτη 16 Νοεμβρίου
-
-Ώρα: 20:30
-
-Χώρος: [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781598,32.4232334,15z/data=!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
+Χώρος: [UCLAN university ](https://www.google.com/maps/place/University+of+Central+Lancashire+Cyprus/@35.008267,33.6942444,17z/data=!3m1!4b1!4m6!3m5!1s0x14de2e9ac3ff1e1d:0x96889fb656b1fa21!8m2!3d35.0082626!4d33.6968193!16s%2Fg%2F11h15myqd?entry=ttu)
 
 ***
 
