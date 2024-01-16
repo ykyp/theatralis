@@ -62,13 +62,15 @@ event_image: /D T-10.jpg
 
 Χώρος: [UCLAN university ](https://www.google.com/maps/place/University+of+Central+Lancashire+Cyprus/@35.008267,33.6942444,17z/data=!3m1!4b1!4m6!3m5!1s0x14de2e9ac3ff1e1d:0x96889fb656b1fa21!8m2!3d35.0082626!4d33.6968193!16s%2Fg%2F11h15myqd?entry=ttu)
 
+(με τουρκικούς υπέρτιτλους)
+
 ***
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Τιμή: 15 ευρώ
+Τιμή: 15 ευρώ (ΛΕΥΚΩΣΙΑ) - 10 ευρώ (ΛΑΡΝΑΚΑ)
 
-Προπώληση εισιτηρίων:	[SOLDOUT TICKETS](https://www.soldoutticketbox.com/his-mother-antilogos-2023/?lang=el)	και καταστήματα	Stephanis Electronics και ιστοσελίδα θεάτρου ΡΙΑΛΤΟ για τη Λεμεσό
+Προπώληση εισιτηρίων:	[SOLDOUT TICKETS](https://www.soldoutticketbox.com/his-mother-antilogos-2023/?lang=el)&#x9;
 
 Πληροφορίες και κρατήσεις :	99 25 1331
 
