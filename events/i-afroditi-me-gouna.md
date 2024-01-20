@@ -1,9 +1,10 @@
 ---
 title: 'Η ΑΦΡΟΔΙΤΗ ΜΕ ΓΟΥΝΑ '
-city: nicosia
-startDate: 2023-11-28T22:00:00.000Z
-endDate: 2023-12-28T22:00:00.000Z
-nicosia_dates: '2023-12-21,2023-12-27,2023-12-28,2023-12-29'
+city: 'nicosia, limassol'
+startDate: 2024-01-19T22:00:00.000Z
+endDate: 2024-02-09T22:00:00.000Z
+nicosia_dates: '2024-01-20,2024-01-21,2024-01-26,2024-01-27,2024-01-31'
+limassol_dates: '2024-02-10'
 event_image: /DSC_0244.jpeg
 category: novel
 ---
