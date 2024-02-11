@@ -51,3 +51,11 @@ category: ''
 Στάθμευση:  ενδεδειγμένοι χώροι έξω από το σπίτι και επί της οδού Αγ. Παύλου
 
 Διάρκεια: 75 λεπτά 
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: €15
+
+Προπώληση: [ticketmaster.cy](https://www.ticketmaster.cy/showEventInformation.html?idEvent=4522) / 7777 7040 / ACS Courier 
