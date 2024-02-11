@@ -80,3 +80,11 @@ Video Αrt– editing: Γιώργος Αλεξάνδρου
 Ώρα έναρξης: 20:30
 
 Χώρος: [Θέατρο Ριάλτο](https://www.google.com/maps/place/Rialto+Theatre/@34.6795424,33.0432363,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.679538!4d33.0458112!16s%2Fg%2F1xb0n5zr?entry=ttu)
+
+ΛΑΡΝΑΚΑ
+
+Ημερομηνία: Τετάρτη 27/3/24
+
+Ώρα έναρξης: 20:30
+
+Χώρος: [Θέατρο Σκάλα](https://www.google.com/maps/place/Theater+Skala+Larnaka/@34.9191065,33.6297575,17z/data=!3m1!4b1!4m6!3m5!1s0x14e082a6e362e26b:0x800ef26e458168d!8m2!3d34.9191021!4d33.6323324!16s%2Fg%2F11g70j729w?entry=ttu)
