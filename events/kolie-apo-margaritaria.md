@@ -117,3 +117,5 @@ Videos: Γιάννης Σαββίδης
 Για Λάρνακα/Πάφο/Λεμεσό Μειωμένο Εισιτήριο €10 μόνο για άτομα κάτω των 18 ετών
 
 Προπώληση: [soldoutticketbox.com](https://www.soldoutticketbox.com/event/pearl-necklace-anemona?lang=el)
+
+Για Λευκωσία ·-  Εισιτήρια και απευθείας από το ταμείο του θεάτρου
