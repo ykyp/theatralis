@@ -47,6 +47,6 @@ category: comedy
 
 Τιμή: 15 ευρώ (κανονικό), 12 ευρώ (συνταξιούχοι, φοιτητές)
 
-Αγορά εισιτηρίων: Soldouticketbox.com tinyurl.com/4f8zjna
+Αγορά εισιτηρίων: Soldouticketbox.com
 
 Πληροφορίες: 22818999 & 99621845
