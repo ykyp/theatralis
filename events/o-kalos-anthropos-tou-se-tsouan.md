@@ -51,7 +51,7 @@ event_image: /Screenshot 2024-02-27 at 9.38.56 PM.png
 
 Ημερομηνίες και Ώρα έναρξης: κάθε Παρασκευή, Σάββατο στις 20:00 και Κυριακή στις 18:00
 
-Χώρος: Θέατρο ΘΟΚ, Κεντρική Σκηνή -	Αίθουσα Εύης Γαβριηλίδης
+Χώρος: [Θέατρο ΘΟΚ](https://www.google.com/maps/place/%CE%98%CE%B5%CE%B1%CF%84%CF%81%CE%B9%CE%BA%CF%8C%CF%82+%CE%9F%CF%81%CE%B3%CE%B1%CE%BD%CE%B9%CF%83%CE%BC%CF%8C%CF%82+%CE%9A%CF%8D%CF%80%CF%81%CE%BF%CF%85,+%CE%98%CE%9F%CE%9A+%7C+Theatre+Organisation+of+Cyprus,+THOC/@35.1472989,33.3426257,14z/data=!4m10!1m2!2m1!1zzrjOtc6xz4TPgc6_IM64zr_Oug!3m6!1s0x14de1756be6f54f3:0xd51f772260b940ce!8m2!3d35.1681606!4d33.35533!15sChPOuM61zrHPhM-Bzr8gzrjOv866IgOIAQGSARdwZXJmb3JtaW5nX2FydHNfdGhlYXRlcuABAA!16s%2Fg%2F11c5rtv7gt?entry=ttu), Κεντρική Σκηνή -	Αίθουσα Εύης Γαβριηλίδης
 
 \*Υπερτιτλισμένες παραστάσεις
 
