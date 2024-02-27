@@ -49,13 +49,13 @@ category: children
 
 Τοποθεσία: [Κινηματοθέατρο Πανόραμα Ιδαλίου](https://www.google.com/maps/place/%CE%9A%CE%B9%CE%BD%CE%B7%CE%BC%CE%B1%CF%84%CE%BF%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1+%CE%99%CE%B4%CE%B1%CE%BB%CE%AF%CE%BF%CF%85/@35.0246256,33.4182825,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1f9e7b20b091:0x2739c8ae5f8d7c4b!8m2!3d35.0246212!4d33.4208574!16s%2Fg%2F11gf96r53y?entry=ttu) (Αρχιεπισκόπου Μακαρίου Γ’, Δάλι 2540)
 
-ΠΑΦΟΣ
+ΛΕΜΕΣΟΣ
 
-Ημερομηνία:  Κυριακή 12 Νοεμβρίου 2023
+Ημερομηνία:   Κυριακή 7 Απριλίου  2024
 
 Ώρα: 11:00
 
-Τοποθεσία: [Α’ Λύκειο Εθνάρχη Μακαρίου Γ’ Πάφου](https://www.google.com/maps/place/%CE%9B%CF%8D%CE%BA%CE%B5%CE%B9%CE%BF+%CE%91'+%CE%95%CE%B8%CE%BD%CE%AC%CF%81%CF%87%CE%B7+%CE%9C%CE%B1%CE%BA%CE%AC%CF%81%CE%B9%CE%BF%CF%85+%CE%93'+%CE%A0%CE%AC%CF%86%CE%BF%CF%85/@34.7742795,32.4215455,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f4b2acac83:0xf30a662c2ae9e43b!8m2!3d34.7742751!4d32.4241204!16s%2Fg%2F11g6wg47jm?entry=ttu)
+Τοποθεσία: [Θέατρο Αγίου Αθανασίου](https://www.google.com/maps/place/Municipal+Theater+Agios+Athanasios/@34.7092022,33.014726,14z/data=!4m10!1m2!2m1!1zzrjOtc6xz4TPgc6_IM6xzrPOuc6_z4UgzrHOuM6xzr3Osc-DzrnOv8-F!3m6!1s0x14e7349df0596631:0x908cd7068501c895!8m2!3d34.7092035!4d33.0497424!15sCirOuM61zrHPhM-Bzr8gzrHOs865zr_PhSDOsc64zrHOvc6xz4POuc6_z4WSAQNhcnTgAQA!16s%2Fg%2F1thszhkd?entry=ttu)
 
 ***
 
