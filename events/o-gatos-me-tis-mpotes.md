@@ -51,11 +51,19 @@ category: children
 
 ΛΕΜΕΣΟΣ
 
-Ημερομηνία:   Κυριακή 7 Απριλίου  2024
+Ημερομηνία:   Κυριακή 7 Απριλίου 2024
 
 Ώρα: 11:00
 
 Τοποθεσία: [Θέατρο Αγίου Αθανασίου](https://www.google.com/maps/place/Municipal+Theater+Agios+Athanasios/@34.7092022,33.014726,14z/data=!4m10!1m2!2m1!1zzrjOtc6xz4TPgc6_IM6xzrPOuc6_z4UgzrHOuM6xzr3Osc-DzrnOv8-F!3m6!1s0x14e7349df0596631:0x908cd7068501c895!8m2!3d34.7092035!4d33.0497424!15sCirOuM61zrHPhM-Bzr8gzrHOs865zr_PhSDOsc64zrHOvc6xz4POuc6_z4WSAQNhcnTgAQA!16s%2Fg%2F1thszhkd?entry=ttu)
+
+ΛΑΡΝΑΚΑ
+
+Ημερομηνία:   Κυριακή 26 Μαίου 2024
+
+Ώρα: 11:00
+
+Τοποθεσία: [Θέατρο Σκάλα](https://www.google.com/maps/place/Theater+Skala+Larnaka/@34.9191065,33.6297575,17z/data=!3m1!4b1!4m6!3m5!1s0x14e082a6e362e26b:0x800ef26e458168d!8m2!3d34.9191021!4d33.6323324!16s%2Fg%2F11g70j729w?entry=ttu)
 
 ***
 
