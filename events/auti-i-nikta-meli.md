@@ -44,9 +44,7 @@ category: comedy
 
 ΛΕΜΕΣΟΣ
 
-Ημερομηνίες: 22,23 Απριλίου Ιανουαρίου 2024
-
-Ώρα έναρξης: Πέμπτη, Παρασκευή, Σάββατο 20:00 ,Κυριακή 19:00, Δευτέρα 20:30
+Ημερομηνίες και Ώρα έναρξης: 22,23 Απριλίου - 20:30 
 
 Χώρος: [Παττίχειο Θέατρο Λεμεσού](https://www.google.com/maps/place/Patichion+Municipal+Theatre,+Agias+Zonis+2,+Limassol,+Cyprus/@34.6812655,33.0412571,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7330f8b4700ed:0xd66d4f231f490bbb!8m2!3d34.6813016!4d33.0438594!16s%2Fg%2F11bvthpbkr?entry=ttu)
 
@@ -56,19 +54,15 @@ category: comedy
 
 Χώρος: [Θέατρο Σκάλα](https://www.google.com/maps/place/Theater+Skala+Larnaka/@34.9191065,33.6297575,17z/data=!3m1!4b1!4m6!3m5!1s0x14e082a6e362e26b:0x800ef26e458168d!8m2!3d34.9191021!4d33.6323324!16s%2Fg%2F11g70j729w?entry=ttu)
 
-[ΠΑΦΟΣ](https://www.google.com/maps/place/Theater+Skala+Larnaka/@34.9191065,33.6297575,17z/data=!3m1!4b1!4m6!3m5!1s0x14e082a6e362e26b:0x800ef26e458168d!8m2!3d34.9191021!4d33.6323324!16s%2Fg%2F11g70j729w?entry=ttu)
+ΠΑΦΟΣ
 
-Ημερομηνίες: 26,27 Απριλίου 2024
-
-#### Ώρα έναρξης: Παρασκευή και Σάββατο 20:00 και Κυριακή 19:00
+Ημερομηνίες και Ώρες Έναρξης: 26,27 Απριλίου - 20:30
 
 Χώρος:  [Μαρκίδειο Δημοτικό θέατρο ](https://www.google.com/maps/place/Markideio+Theatre/@34.7781597,32.4183625,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
 
 ΠΑΡΑΛΙΜΝΙ
 
-Ημερομηνίες: 7,8 Απριλίου 2024
-
-Ώρα έναρξης: Παρασκευή και Σάββατο 20:00 και Κυριακή 19:00
+Ημερομηνίες και Ώρες έναρξης: 7 Απριλίου -19:00 και 8 Απριλίου-20:30
 
 Χώρος:  [Xenion High School](https://www.google.com/maps/place/Xenion+Education/@35.0414727,33.9759395,17z/data=!3m1!4b1!4m6!3m5!1s0x14dfc5f918b580f5:0x93bc1c31a08bad60!8m2!3d35.0414727!4d33.9785144!16s%2Fm%2F03d4ywm?entry=ttu)
 
@@ -78,4 +72,4 @@ category: comedy
 
 Τιμή: ΖΩΝΗ Α €20 | ΖΩΝΗ Β €15
 
-Προπώληση: [soldoutticket](https://www.soldoutticketbox.com/afti-i-nyxta-meli/?lang=el)
+Προπώληση: [soldoutticket](https://www.soldoutticketbox.com/event/afti-i-nyxta-meli?lang=el)
