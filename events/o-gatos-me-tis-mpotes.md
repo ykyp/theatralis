@@ -41,7 +41,7 @@ category: children
 
 ΛΕΥΚΩΣΙΑ
 
-Ημερομηνίες: 3/3, 10/3(carnival edition ), 24/3 και 14/4 
+Ημερομηνίες: 3/3, 10/3(carnival edition ), 24/3 και 14/4
 
 \*Στις 10/3 ελάτε μασκαρεμένοι. Θα ακολουθήσουν καρναβαλίστικα παιχνίδια – πάρτυ!
 
@@ -71,6 +71,6 @@ category: children
 
 Τιμή: Γενική είσοδος 10 ευρώ
 
-Προπώληση εισιτηρίων:	[Tickethour](https://shop.tickethour.com/showEventInformation.html?idEvent=4367)
+Προπώληση εισιτηρίων:	[ticketmaster](https://www.ticketmaster.cy/showEventInformation.html?idEvent=5547)
 
 Για πληροφορίες: 94409100
