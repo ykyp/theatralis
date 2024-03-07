@@ -93,3 +93,13 @@ category: comedy
 Οικολογία, κλιματική αλλαγή και οικολογικό άγχος.
 • Πέρσα Κορφιάτη, Ειδική εγγεγραμμένη Ψυχολόγος. Θέμα: Ψευδής ειδήσεις, θεωρίες
 συνομωσίας.
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: €15 (κανονικό) €12 (μαθητές, φοιτητές, άνεργοι, συνταξιούχοι, στρατιώτες, πολύτεκνοι και ατέλειες)
+
+Προπώληση εισιτηρίων: [https://www.more.com/en/tickets/theater/alepoudes/](https://www.more.com/en/tickets/theater/alepoudes/?fbclid=IwAR3kJYMhLgiB6Vp1wgMZzXRAYCMdN--hnJSEgRhAGUF23XSzjEuT6V_jkzk)
+Πληροφορίες: 99 122552, 99 588103, 96 160400
+Ηλεκτρ. Ταχυδρομείο: 4pointto\@gmail.com
