@@ -6,6 +6,7 @@ endDate: 2024-03-21T22:00:00.000Z
 nicosia_dates: '2024-03-19,2024-03-20'
 limassol_dates: '2024-03-22'
 paphos_dates: '2024-03-21'
+event_image: /abigier_photo-01.jpeg
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
