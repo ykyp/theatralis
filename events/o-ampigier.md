@@ -46,4 +46,4 @@ paphos_dates: '2024-03-21'
 
 Ημερομηνία και Ώρα έναρξης: 22 Μαρτίου - 20:30
 
-Χώρος: Παττίχειο Δημοτικό Θέατρο 
+Χώρος: [Παττίχειο Δημοτικό Θέατρο ](https://www.google.com/maps/place/Patichion+Municipal+Theatre,+Agias+Zonis+2,+Limassol,+Cyprus/@34.6812699,33.0412571,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7330f8b4700ed:0xd66d4f231f490bbb!8m2!3d34.6813016!4d33.0438594!16s%2Fg%2F11bvthpbkr?entry=ttu)
