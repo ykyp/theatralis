@@ -66,7 +66,7 @@ category: comedy
 
 ΕΙΣΟΔΟΣ:	€15 | €12 (μαθητές, φοιτητές, συνταξιούχοι, πολύτεκνοι)
 
-Εισιτήρια:	www\.soldoutticketbox.com	και από το ταμείο του θεάτρου από 1η Μαρτίου 2024
+Εισιτήρια:	[www.soldoutticketbox.com](https://www.soldoutticketbox.com/event/koita-pios-irthe-satiriko-2024?lang=el)	και από το ταμείο του θεάτρου από 1η Μαρτίου 2024
 
 Πληροφορίες	: ΣΑΤΙΡΙΚΟ ΘΕΑΤΡΟ 22312940 – 22421609
 
