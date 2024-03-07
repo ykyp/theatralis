@@ -34,7 +34,7 @@ paphos_dates: '2024-03-21'
 
 Ημερομηνίες και Ώρα έναρξης: 19 & 20 Μαρτίου - 20:30
 
-Χώρος: Δημοτικό θέατρο Στροβόλου&#x9;
+Χώρος: [Δημοτικό θέατρο Στροβόλου	](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A3%CF%84%CF%81%CE%BF%CE%B2%CF%8C%CE%BB%CE%BF%CF%85/@35.1439474,33.3406531,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1a215477c475:0xca7690acc6cdd49c!8m2!3d35.143943!4d33.343228!16s%2Fg%2F11b6gk_x97?entry=ttu)
 
 ΠΑΦΟΣ
 
