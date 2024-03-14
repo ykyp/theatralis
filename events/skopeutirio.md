@@ -1,8 +1,8 @@
 ---
 title: ΣΚΟΠΕΥΤΗΡΙΟ
 city: nicosia
-startDate: 2024-03-09T22:00:00.000Z
-endDate: 2024-03-10T22:00:00.000Z
+startDate: 2024-03-16T22:00:00.000Z
+endDate: 2024-04-20T21:00:00.000Z
 nicosia_dates: '2024-3-10, 2024-3-11'
 event_image: /DSC_0915 (1).jpeg
 ---
