@@ -52,9 +52,7 @@ event_image: /DSC_0915 (1).jpeg
 
 #### ΠΛΗΡΟΦΟΡΙΕΣ ΠΑΡΑΣΤΑΣΗΣ
 
-Κυριακή 10 Mαρτίου 19:00
-
-Δευτέρα 11 Μαρτίου 20:30
+ΛΕΥΚΩΣΙΑ
 
 Χώρος: [Θεάτρο Χώρα, Κοραή 1 Πλατεία Αρχιεπεισκοπής](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A7%CF%8E%CF%81%CE%B1+-+%CE%9A%CE%AD%CE%BD%CF%84%CF%81%CE%BF+%CE%A4%CE%AD%CF%87%CE%BD%CE%B7%CF%82+%CE%BA%CE%B1%CE%B9+%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CF%83%CE%BC%CE%BF%CF%8D+%CE%9A%CE%BF%CF%81%CE%B1%CE%AE+1/@35.1723472,33.3659981,17z/data=!3m1!4b1!4m6!3m5!1s0x14de175951a4d8a5:0x7428720f57424490!8m2!3d35.1723428!4d33.368573!16s%2Fg%2F11sj7xv0b_?entry=ttu)
 
