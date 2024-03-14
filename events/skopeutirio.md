@@ -1,6 +1,6 @@
 ---
 title: ΣΚΟΠΕΥΤΗΡΙΟ
-city: nicosia
+city: 'nicosia, limassol, pafos, larnaca,famagusta'
 startDate: 2024-03-16T22:00:00.000Z
 endDate: 2024-04-20T21:00:00.000Z
 nicosia_dates: '2024-3-10, 2024-3-11'
