@@ -1,12 +1,12 @@
 ---
 title: Ο ΓΑΤΟΣ ΜΕ ΤΙΣ ΜΠΟΤΕΣ
 city: 'nicosia, limassol,larnaca'
-startDate: 2023-03-02T22:00:00.000Z
+startDate: 2023-03-23T22:00:00.000Z
 endDate: 2024-05-25T21:00:00.000Z
-nicosia_dates: '2024-03-3, 2024-03-10, 2024-03-24,2024-04-14'
+nicosia_dates: '2024-03-24,2024-04-14'
 limassol_dates: 2024-04-7
 larnaca_dates: '2024-05-26'
-paphos_dates: '2023-11-12'
+paphos_dates: ''
 event_image: /Ο Γάτος με τις μπότες Final-01.jpeg
 category: children
 ---
