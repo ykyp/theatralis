@@ -57,7 +57,7 @@ category: comedy
 
 Ημερομηνίες και Ώρα έναρξης: Σάββατο 01/06/2024 - 20:30
 
-Χώρος: Ξένιον
+Χώρος: [Ξένιον](https://www.google.com/maps/place/Xenion+Education/@35.0414771,33.9759395,17z/data=!3m1!4b1!4m6!3m5!1s0x14dfc5f918b580f5:0x93bc1c31a08bad60!8m2!3d35.0414727!4d33.9785144!16s%2Fm%2F03d4ywm?entry=ttu)
 
 ΛΕΜΕΣΟΣ
 
