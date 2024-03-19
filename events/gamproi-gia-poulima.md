@@ -9,5 +9,6 @@ limassol_dates: '2024-06-02'
 larnaca_dates: '2024-06-16'
 famagusta_dates: '2024-06-01'
 paphos_dates: '2024-06-29,2024-06-30'
+event_image: /Screenshot 2024-03-19 at 8.17.37 PM.png
 ---
 
