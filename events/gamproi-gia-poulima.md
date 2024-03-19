@@ -86,3 +86,5 @@ category: comedy
 #### ΕΙΣΙΤΗΡΙΑ
 
 Προπώληση: [soldoutticketbox](https://www.soldoutticketbox.com/event/gamproi-gia-poulima?lang=el)
+
+Πληροφορίες: Πληροφορίες: 70001055
