@@ -59,7 +59,7 @@ category: drama
 
 Ώρα έναρξης: 20:30
 
-Χώρος:  Δημοτικό Θέατρο Λάρνακας
+Χώρος:  [Δημοτικό Θέατρο Λάρνακας](https://www.google.com/maps/place/Municipal+Theatre+of+Larnaka/@34.9160579,33.6238212,17z/data=!3m1!4b1!4m6!3m5!1s0x14e08357d0583743:0x9596f1dd1e03bce6!8m2!3d34.9160535!4d33.6263961!16s%2Fg%2F11h7y1sd99?entry=ttu)
 
 ΠΑΦΟΣ
 
