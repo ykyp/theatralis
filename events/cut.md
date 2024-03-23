@@ -53,4 +53,4 @@ Stage Manager : Pervin Öznergiz
 
 Τιμή: €15 | AMEA €12
 
-Πώληση: 	soldoutticketbox	ή στοταμείο του θεάτρου τη νύχτα της παράστασης
+Πώληση: 	[soldoutticketbox](https://www.google.com/maps/place/%CE%A3%CE%B1%CF%84%CE%B9%CF%81%CE%B9%CE%BA%CF%8C+-+%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CF%8C+%CE%9A%CE%AD%CE%BD%CF%84%CF%81%CE%BF+%CE%92%CE%BB%CE%B1%CE%B4%CE%AF%CE%BC%CE%B7%CF%81%CE%BF%CF%82+%CE%9A%CE%B1%CF%85%CE%BA%CE%B1%CF%81%CE%B9%CE%B4%CE%B7%CF%82/@35.1632156,33.3838906,17z/data=!3m1!4b1!4m6!3m5!1s0x14de177a40a8df55:0x5a1208ca40323c3f!8m2!3d35.1632112!4d33.3864655!16s%2Fg%2F11d_bc6l_v?entry=ttu)	ή στοταμείο του θεάτρου τη νύχτα της παράστασης
