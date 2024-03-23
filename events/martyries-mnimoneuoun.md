@@ -7,6 +7,7 @@ nicosia_dates: '2024-04-4,2024-04-9'
 limassol_dates: '2024-04-03'
 larnaca_dates: '2024-04-5,2024-04-6'
 paphos_dates: '2024-04-10'
+event_image: /Martiries-mnimonevoun-all dates 1200x1200.jpeg
 category: drama
 ---
 
