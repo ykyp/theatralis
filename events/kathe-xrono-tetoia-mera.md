@@ -105,6 +105,6 @@ Times. "Ένα έργο που συνδυάζει απολαυστικά την 
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Προπώληση: Soldout Tickets, Καταστήματα Στεφανής
+Προπώληση: [Soldout Tickets](https://www.soldoutticketbox.com/event/same-time-next-year-anemona-theatre?lang=el\&utm_source=homearticles\&utm_medium=banner\&utm_campaign=bannercampaign), Καταστήματα Στεφανής
 
 ΚΡΑΤΗΣΕΙΣ:  70007721
