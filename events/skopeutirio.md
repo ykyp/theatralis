@@ -1,14 +1,13 @@
 ---
 title: ΣΚΟΠΕΥΤΗΡΙΟ
 city: 'nicosia, limassol, pafos, larnaca,famagusta'
-startDate: 2024-03-16T22:00:00.000Z
-endDate: 2024-04-20T21:00:00.000Z
-nicosia_dates: >-
-  2024-3-17,2024-3-20,2024-3-21,2024-3-24,2024-3-25,2024-3-27,2024-3-31,2024-4-1,2024-4-2,2024-4-3,2024-4-7,2024-4-8,2024-4-21
-limassol_dates: 2024-04-5
-larnaca_dates: 2024-04-4
-famagusta_dates: '2024-04-09,2024-04-10'
-paphos_dates: '2024-04-15'
+startDate: 2024-04-26T21:00:00.000Z
+endDate: 2024-04-26T21:00:00.000Z
+nicosia_dates: 2024-4-27
+limassol_dates: ''
+larnaca_dates: ''
+famagusta_dates: ''
+paphos_dates: ''
 event_image: /DSC_0915 (1).jpeg
 ---
 
@@ -60,7 +59,7 @@ event_image: /DSC_0915 (1).jpeg
 
 ΛΑΡΝΑΚΑ
 
-Ημερομηνία και Ώρα έναρξης: ΠΕΜΠΤΗ 4/4/24 - 20.00 
+Ημερομηνία και Ώρα έναρξης: ΠΕΜΠΤΗ 4/4/24 - 20.00
 
 Χώρος:  [ΛΥΚΕΙΟ ΑΓ. ΓΕΩΡΓΙΟΥ ΛΑΡΝΑΚΑ](https://www.google.com/maps/place/%CE%9B%CE%A5%CE%9A%CE%95%CE%99%CE%9F+%CE%91%CE%93%CE%99%CE%9F%CE%A5+%CE%93%CE%95%CE%A9%CE%A1%CE%93%CE%99%CE%9F%CE%A5/@34.9226552,33.6085693,17z/data=!3m1!4b1!4m6!3m5!1s0x14e09d51a746575d:0x99fa2eddf980af33!8m2!3d34.9226508!4d33.6111442!16s%2Fg%2F1thlws__?entry=ttu)
 
@@ -76,7 +75,7 @@ event_image: /DSC_0915 (1).jpeg
 
 ΠΑΦΟΣ
 
-Ημερομηνία και Ώρα έναρξης: ΔΕΥΤΕΡΑ 15/4/24 - 20.30 
+Ημερομηνία και Ώρα έναρξης: ΔΕΥΤΕΡΑ 15/4/24 - 20.30
 
 Χώρος: [ΜΑΡΚΙΔΕΙΟ ΘΕΑΤΡΟ ](https://www.google.com/maps/place/Markideio+Theatre/@34.7781641,32.4183625,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
 
