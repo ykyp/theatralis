@@ -56,4 +56,4 @@ nicosia_dates: '2024-05-17,2024-05-18,2024-05-19'
 
 Ώρα έναρξης: 8:30μμ
 
-Χώρος:  Flea Theatre
+Χώρος:  [Flea Theatre](https://www.google.com/maps/place/Flea+Theatre/@35.1839245,33.3942607,17z/data=!3m1!4b1!4m6!3m5!1s0x14de17a904f9aabb:0x1710a1c59c41893f!8m2!3d35.1839201!4d33.3968356!16s%2Fg%2F11hb2kd45g?entry=ttu)
