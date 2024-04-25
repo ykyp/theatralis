@@ -8,6 +8,7 @@ nicosia_dates: >-
 limassol_dates: '2024-05-28,2024-05-29,2024-05-30'
 famagusta_dates: '2024-05-22'
 paphos_dates: '2024-05-16'
+event_image: /1.jpeg
 category: comedy
 ---
 
