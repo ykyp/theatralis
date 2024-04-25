@@ -53,31 +53,9 @@ event_image: /DSC_0915 (1).jpeg
 
 ΛΕΥΚΩΣΙΑ
 
-Ημερομηνίες και Ώρα έναρξης: ΚΥΡΙΑΚΗ 17/3/24 - 19.00 , ΠΕΜΠΤΗ 21/3/24 - 20.00 ((([ΚΙΝΗΜΑΤΟΘΕΑΤΡΟ ΠΑΝΟΡΑΜΑ ΙΔΑΛΙΟΥ](https://www.google.com/maps/place/%CE%9A%CE%B9%CE%BD%CE%B7%CE%BC%CE%B1%CF%84%CE%BF%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A0%CE%B1%CE%BD%CF%8C%CF%81%CE%B1%CE%BC%CE%B1+%CE%99%CE%B4%CE%B1%CE%BB%CE%AF%CE%BF%CF%85/@35.0246256,33.4182825,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1f9e7b20b091:0x2739c8ae5f8d7c4b!8m2!3d35.0246212!4d33.4208574!16s%2Fg%2F11gf96r53y?entry=ttu)))), ΤΕΤΑΡΤΗ 20/3/24 - 20.30 , ΚΥΡΙΑΚΗ 24/3/24 - 19.00, ΔΕΥΤΕΡΑ 25/3/24 - 20.30, ΤΕΤΑΡΤΗ 27/3/24- 20.30, ΚΥΡΙΑΚΗ 31/3/24 - 19.00, ΔΕΥΤΕΡΑ 1/4/24 - 20.30, ΤΡΙΤΗ 2/4/24 - 19.45 ((([ΑΙΘΟΥΣΑ ΠΟΕΔ ΛΕΥΚΩΣΙΑΣ](https://www.google.com/maps/place/%CE%A0%CE%9F%CE%95%CE%94,+%CE%A0%CE%B1%CE%B3%CE%BA%CF%8D%CF%80%CF%81%CE%B9%CE%B1+%CE%9F%CF%81%CE%B3%CE%AC%CE%BD%CF%89%CF%83%CE%B7+%CE%95%CE%BB%CE%BB%CE%AE%CE%BD%CF%89%CE%BD+%CE%94%CE%B1%CF%83%CE%BA%CE%AC%CE%BB%CF%89%CE%BD/@35.1486417,33.3751745,17z/data=!3m1!4b1!4m6!3m5!1s0x14de19db3f1990b3:0xae98da6161b9ccd5!8m2!3d35.1486373!4d33.3777494!16s%2Fg%2F11c209c3ys?entry=ttu)))), ΤΕΤΑΡΤΗ 3/4/24 - 20.30, ΚΥΡΙΑΚΗ 7/4/24 - 19.00, ΔΕΥΤΕΡΑ 8/4/24 - 20.30, ΚΥΡΙΑΚΗ 21/4/24 - 19.00 ((([ΘΕΑΤΡΟ ΠΕΟ](https://www.google.com/maps/place/PEO+\(Cyprus+Workers+Federation\)/@35.1706835,33.3678955,17z/data=!3m1!4b1!4m6!3m5!1s0x14de176846667d4f:0x1f97ec3e5c36695e!8m2!3d35.1706792!4d33.3727664!16s%2Fg%2F1ptw4y8lf?entry=ttu)))
+Ημερομηνίες και Ώρα έναρξης:  ΣΑΒΒΑΤΟ 27/4/24 - 20.30 
 
 Χώρος: [Θεάτρο Χώρα, Κοραή 1 Πλατεία Αρχιεπεισκοπής](https://www.google.com/maps/place/%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%A7%CF%8E%CF%81%CE%B1+-+%CE%9A%CE%AD%CE%BD%CF%84%CF%81%CE%BF+%CE%A4%CE%AD%CF%87%CE%BD%CE%B7%CF%82+%CE%BA%CE%B1%CE%B9+%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CF%83%CE%BC%CE%BF%CF%8D+%CE%9A%CE%BF%CF%81%CE%B1%CE%AE+1/@35.1723472,33.3659981,17z/data=!3m1!4b1!4m6!3m5!1s0x14de175951a4d8a5:0x7428720f57424490!8m2!3d35.1723428!4d33.368573!16s%2Fg%2F11sj7xv0b_?entry=ttu)
-
-ΛΑΡΝΑΚΑ
-
-Ημερομηνία και Ώρα έναρξης: ΠΕΜΠΤΗ 4/4/24 - 20.00
-
-Χώρος:  [ΛΥΚΕΙΟ ΑΓ. ΓΕΩΡΓΙΟΥ ΛΑΡΝΑΚΑ](https://www.google.com/maps/place/%CE%9B%CE%A5%CE%9A%CE%95%CE%99%CE%9F+%CE%91%CE%93%CE%99%CE%9F%CE%A5+%CE%93%CE%95%CE%A9%CE%A1%CE%93%CE%99%CE%9F%CE%A5/@34.9226552,33.6085693,17z/data=!3m1!4b1!4m6!3m5!1s0x14e09d51a746575d:0x99fa2eddf980af33!8m2!3d34.9226508!4d33.6111442!16s%2Fg%2F1thlws__?entry=ttu)
-
-ΛΕΜΕΣΟΣ
-
-Ημερομηνία και Ώρα έναρξης: ΠΑΡΑΣΚΕΥΗ 5/4/24 - 20.30
-
-Χώρος: [ΡΙΑΛΤΟ ΛΕΜΕΣΟΣ](https://www.google.com/maps/place/Rialto+Theatre/@34.6795424,33.0432363,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7331ab1ec9197:0xdf6e42bed1d077b1!8m2!3d34.679538!4d33.0458112!16s%2Fg%2F1xb0n5zr?entry=ttu)
-
-ΑΜΜΟΧΩΣΤΟΣ
-
-ΤΡΙΤΗ 9/4/24 - 20.00 (((ΔΕΡΥΝΕΙΑ ΘΕΑΤΡΑΚΙ ΤΑΚΗ ΧΡΙΣΤΟΦΙΔΗ))) ΤΕΤΑΡΤΗ 10/4/24 - 20.30 ΔΗΜ. ΘΕΑΤΡΟ ΑΓ ΝΑΠΑΣ
-
-ΠΑΦΟΣ
-
-Ημερομηνία και Ώρα έναρξης: ΔΕΥΤΕΡΑ 15/4/24 - 20.30
-
-Χώρος: [ΜΑΡΚΙΔΕΙΟ ΘΕΑΤΡΟ ](https://www.google.com/maps/place/Markideio+Theatre/@34.7781641,32.4183625,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
 
 ***
 
