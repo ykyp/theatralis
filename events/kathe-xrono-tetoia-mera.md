@@ -4,7 +4,7 @@ city: 'nicosia,pafos,limassol,famagusta'
 startDate: 2024-05-16T21:00:00.000Z
 endDate: 2024-05-29T21:00:00.000Z
 nicosia_dates: '2024-05-17,2024-05-18,2024-05-19,2024-05-24,2024-05-25,2024-05-26'
-limassol_dates: ''
+limassol_dates: '2024-05-28,2024-05-29,2024-05-30'
 famagusta_dates: '2024-05-22'
 paphos_dates: '2024-05-16'
 event_image: /1.jpeg
