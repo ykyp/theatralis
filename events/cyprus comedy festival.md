@@ -70,6 +70,10 @@ category: comedy
 
 21:30 - RAW Comedy Show (18+)
 
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
 Προπώληση εισιτηρίων: www\.MotionComedy.com
 
 Πληροφορίες: +357 99865603
