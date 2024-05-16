@@ -83,6 +83,6 @@ Video Αrt– editing: Γιώργος Αλεξάνδρου
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Τιμή: 15/12 Ευρώ
+Προπώληση εισιτηρίων: [SOLDOUT TICKETS](https://www.soldoutticketbox.com/event/the-bible-the-complete-word-of-god-theatro-antilogos-2024?lang=el)
 
-Προπώληση: [soldoutticketbox ](https://www.soldoutticketbox.com/event/the-bible-the-complete-word-of-god-theatro-antilogos-2024?lang=el\&fbclid=IwAR1KxhkP6p5saAJ4LlCJLNtweMXjucr7cBPhAHqG90MGKR0F8THsIhWkKNE), [rialto.com](https://www.rialto.com.cy/)
+Πληροφορίες και κρατήσεις : 99 25 1331
