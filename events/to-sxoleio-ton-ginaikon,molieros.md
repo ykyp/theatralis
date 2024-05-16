@@ -40,4 +40,4 @@ category: comedy
 
 και 8:00 μ.μ.
 
-Χώρος: Αίθουσα Μελίνα Μερκούρη
+Χώρος: [Αίθουσα Μελίνα Μερκούρη](https://www.google.com/maps/place/Melina+Merkouri+Municipal+Hall/@35.0677244,26.9142274,7z/data=!4m10!1m2!2m1!1zzrzOtc67zrnOvc6xIM68zrXPgc66zr_Phc-BzrcgzrHOuc64zr_Phc-DzrE!3m6!1s0x14de176a732580fd:0x7b1136c77973cab8!8m2!3d35.1754677!4d33.3713984!15sCizOvM61zrvOuc69zrEgzrzOtc-BzrrOv8-Fz4HOtyDOsc65zrjOv8-Fz4POsVouIizOvM61zrvOuc69zrEgzrzOtc-BzrrOv8-Fz4HOtyDOsc65zrjOv8-Fz4POsZIBD2N1bHR1cmFsX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSU2IwOVFVamwzUlJBQuABAA!16s%2Fg%2F1thv1lpv?entry=ttu)
