@@ -52,7 +52,7 @@ category: comedy
 
 21:30 - Κατερίνα Βρανά - Best Of
 
-Σάββατο 18 Μαΐου 2024 - Δημοτικό Θέατρο Ύψωνα, Λεμεσός
+Σάββατο 18 Μαΐου 2024 - [Δημοτικό Θέατρο Ύψωνα](https://www.google.com/maps/place/Ypsonas+Municipal+Theatre/@34.6913192,32.9531023,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7319d05d6ae4f:0x7719e82bafe84be6!8m2!3d34.6913148!4d32.9556772!16s%2Fg%2F11tp0kw5r4?entry=ttu)
 
 17:00 - ΙστοριΚων Live
 
