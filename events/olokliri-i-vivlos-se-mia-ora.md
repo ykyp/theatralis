@@ -1,12 +1,11 @@
 ---
 title: ΟΛΟΚΛΗΡΗ Η ΒΙΒΛΟΣ ΣΕ ΜΙΑ ΩΡΑ
-city: 'nicosia,limassol,larnaca'
-startDate: 2024-02-16T22:00:00.000Z
-endDate: 2024-03-30T22:00:00.000Z
-nicosia_dates: >-
-  2024-02-17,2024-02-18,2024-02-25,2024-03-02,2024-03-03,2024-03-09,2024-03-10,2024-03-16,2024-03-17,2024-03-23,2024-03-24,2024-03-30,2024-03-31,
-limassol_dates: '2024-03-06'
-larnaca_dates: 2024-3-27
+city: 'nicosia,limassol'
+startDate: 2024-05-22T21:00:00.000Z
+endDate: 2024-06-01T21:00:00.000Z
+nicosia_dates: '2024-05-23'
+limassol_dates: '2024-06-02'
+larnaca_dates: ''
 event_image: /Screenshot 2024-02-11 at 9.15.54 PM.png
 ---
 
