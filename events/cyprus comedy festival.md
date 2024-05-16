@@ -4,6 +4,8 @@ city: limassol
 startDate: 2024-05-16T21:00:00.000Z
 endDate: 2024-05-18T21:00:00.000Z
 limassol_dates: '2024-05-17,2024-05-18,2024-05-19'
+event_image: /6.jpeg
+category: comedy
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
@@ -67,3 +69,11 @@ limassol_dates: '2024-05-17,2024-05-18,2024-05-19'
 19:30 - Mixed Line Up - Χαμπής Δαμιανού, Ζαχαρίας Ζαννέττου, Χρύσα Κατσαρίνη
 
 21:30 - RAW Comedy Show (18+)
+
+Προπώληση εισιτηρίων: www\.MotionComedy.com
+
+Πληροφορίες: +357 99865603
+
+Χορηγοί: The Famous Grouse, Think Color, Moondogs Bar & Grill,
+
+Χορηγοί Επικοινωνίας: Black Lemon TV, OMEGA, OMEGA LIVE, Δρόμος FM
