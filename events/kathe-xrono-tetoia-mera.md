@@ -71,7 +71,7 @@ Times. "Ένα έργο που συνδυάζει απολαυστικά την 
 
 ΛΕΥΚΩΣΙΑ
 
-Ημερομηνία:  Πέμπτη 25 Απριλίου και κάθε Παρασκευή, Σάββατο και Κυριακή μέχρι τις 26 Μαΐου.
+Ημερομηνίας:  Παρασκευές 17 και 24 Μαΐου, Σάββατα 18 και 25 Μαΐου, Κυριακές 19 και 26 Μαΐου.
 
 Ώρα έναρξης: 20:30
 
@@ -85,14 +85,6 @@ Times. "Ένα έργο που συνδυάζει απολαυστικά την 
 
 Χώρος: [Τεχνοχώρος ΕΘΑΛ](https://www.google.com/maps/place/ETHAL/@34.668378,33.0230974,17z/data=!3m1!4b1!4m6!3m5!1s0x14e73250f693fa5d:0xc7a10b3d8618708b!8m2!3d34.6683736!4d33.0256723!16s%2Fg%2F11c1q875yt?entry=ttu)
 
-ΠΑΦΟΣ
-
-Ημερομηνία: 16 Μαΐου (Πέμπτη)
-
-Ώρα έναρξης: 20:30
-
-Χώρος: [Μαρκίδειο Θέατρο](https://www.google.com/maps/place/Markideio+Theatre/@34.7781641,32.4183625,17z/data=!3m1!4b1!4m6!3m5!1s0x14e706f5450bd66d:0x68a598c2c5136439!8m2!3d34.7781598!4d32.4232334!16s%2Fg%2F1tf4_3gh?entry=ttu)
-
 ΠΑΡΑΛΙΜΝΙ
 
 Ημερομηνία: 22 Μαΐου (Τετάρτη)
@@ -105,6 +97,6 @@ Times. "Ένα έργο που συνδυάζει απολαυστικά την 
 
 #### ΕΙΣΙΤΗΡΙΑ
 
-Προπώληση: [Soldout Tickets](https://www.soldoutticketbox.com/event/same-time-next-year-anemona-theatre?lang=el\&utm_source=homearticles\&utm_medium=banner\&utm_campaign=bannercampaign), Καταστήματα Στεφανής
+Προπώληση: [Soldout Tickets](https://www.soldoutticketbox.com/event/same-time-next-year-anemona-theatre?lang=el\&utm_source=homearticles\&utm_medium=banner\&utm_campaign=bannercampaign),  / ΤΑΜΕΙΟ ΘΕΑΤΡΟΥ
 
-ΚΡΑΤΗΣΕΙΣ:  70007721
+ΚΡΑΤΗΣΕΙΣ: 70007721
