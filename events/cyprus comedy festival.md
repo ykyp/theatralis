@@ -44,9 +44,9 @@ category: comedy
 
 ΛΕΜΕΣΟΣ
 
-Παρασκευή 17 Μαΐου 2024 - Δημοτικό Θέατρο Ύψωνα, Λεμεσός
+Παρασκευή 17 Μαΐου 2024 - [Δημοτικό Θέατρο Ύψωνα](https://www.google.com/maps/place/Ypsonas+Municipal+Theatre/@34.6913192,32.9531023,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7319d05d6ae4f:0x7719e82bafe84be6!8m2!3d34.6913148!4d32.9556772!16s%2Fg%2F11tp0kw5r4?entry=ttu)
 
-18:00 - Διαγωνισμός Open Mic
+[18:00 - Διαγωνισμός Open Mic](https://www.google.com/maps/place/Ypsonas+Municipal+Theatre/@34.6913192,32.9531023,17z/data=!3m1!4b1!4m6!3m5!1s0x14e7319d05d6ae4f:0x7719e82bafe84be6!8m2!3d34.6913148!4d32.9556772!16s%2Fg%2F11tp0kw5r4?entry=ttu)
 
 19:30 - Mixed Line Up - Γιώργος Κυριάκου, Κώστας Πρίγκιπας, Ήρα Κατσούδα
 
