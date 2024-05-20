@@ -60,3 +60,13 @@ event_image: /dl-9.jpeg
 Χώρος: [WhereHaus612](https://www.google.com/maps/place/WhereHaus+612/@35.1776104,33.3869791,17z/data=!3m1!4b1!4m6!3m5!1s0x14de170bc4982f01:0x9c24df07f8f1017d!8m2!3d35.177606!4d33.389554!16s%2Fg%2F11r9blzdp?entry=ttu) (Μιχαήλ Κουσουλίδη 5, Παλλουριώτισσα)
 
 ΄Ωρα έναρξης όλων των παραστάσεων: 20:30
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: €15 (κανονικό) / €12 (μαθητές, φοιτητές, άνεργοι, συνταξιούχοι, στρατιώτες, πολύτεκνοι και ατέλειες)
+
+Προπώληση εισιτηρίων: [https://www.more.com/en/tickets/theater/megaloprepeia/](https://www.more.com/en/tickets/theater/megaloprepeia/)
+
+Πληροφορίες/Κρατήσεις: 70007102
