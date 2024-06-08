@@ -76,3 +76,17 @@ TONY BULANDRA THEATRE, Ρουμανία
 Σάββατο, 10 Αυγούστου │ Αρχαίο Θέατρο Κουρίου
 
 Με ελληνικούς και αγγλικούς υπέρτιτλους
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμές:  €12 κανονικό - €8 μειωμένο (μαθητές, φοιτητές, εθνοφρουροί, συνταξιούχοι, πολύτεκνοι, άνεργοι) - €35 ενιαίο (ανά άτομο για παρακολούθηση τεσσάρων παραστάσεων)
+
+Προπώληση: 
+
+[SOLDOUT TICKETS](https://www.soldoutticketbox.com/event/citf-festival-ticket?lang=el\&utm_source=homearticles\&utm_medium=banner\&utm_campaign=bannercampaign)
+
+Καταστήματα STEPHANIS παγκύπρια
+
+Περίπτερο ΤΙΜΕ OUT στην Πάφο
