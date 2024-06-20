@@ -84,7 +84,7 @@ Video art: Άρτεμις Ευλογημένου
 
 Ώρα έναρξης: 21:00
 
-Χώρος: Παττίχειο Δημοτικό Αμφιθέατρο
+Χώρος: [Παττίχειο Δημοτικό Αμφιθέατρο](https://www.google.com/maps/place/%CE%A0%CE%B1%CF%84%CF%84%CE%B9%CF%87%CE%B5%CE%B9%CE%BF+%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF/@34.9058295,33.6207057,17z/data=!3m1!4b1!4m6!3m5!1s0x14e083dd21f2baff:0xfc6ec50aa9b82f69!8m2!3d34.9058296!4d33.6253138!16s%2Fg%2F11t5vf9hxh?entry=ttu)
 
 ΠΑΦΟΣ
 
