@@ -66,7 +66,7 @@ category: tragedy
 
 \*\*Περιορισμένος αριθμός θέσεων
 
-Προπώληση: 
+Προπώληση: [soldoutticketbox](https://www.soldoutticketbox.com/event/antigoni-meta-ton-sofocli?lang=el\&utm_source=homearticles\&utm_medium=banner\&utm_campaign=bannercampaign)
 
 Πληροφορίες: Θέατρο Σκάλα - 99517498
 
