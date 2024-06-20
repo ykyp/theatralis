@@ -8,6 +8,7 @@ limassol_dates: '2024-07-19,2024-07-20,'
 larnaca_dates: '2024-07-27'
 famagusta_dates: '2024-07-31'
 paphos_dates: '2024-07-24'
+event_image: /Screenshot 2024-06-20 at 9.39.32 PM.png
 ---
 
 #### ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΠΑΡΑΣΤΑΣΗ
