@@ -1,5 +1,6 @@
 ---
 title: ΑΝΤΙΓΟΝΗ
+event_image: /A4forF.jpg
 category: tragedy
 ---
 
