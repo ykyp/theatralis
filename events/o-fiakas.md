@@ -66,15 +66,15 @@ category: comedy
 
  
 
- ΛΑΡΝΑΚΑ
+ΛΑΡΝΑΚΑ
 
 Ημερομηνία: 22 Ιουλίου 2024
 
 Ώρα έναρξης: 
 
-Χώρος:  Υπαίθριο Αμφιθέατρο Λυκείου Αραδίππου "Τάσος Μητσόπουλος"
+Χώρος:  [Υπαίθριο Αμφιθέατρο Λυκείου Αραδίππου "Τάσος Μητσόπουλος"](https://www.google.com/maps/place/%CE%9B%CE%A5%CE%9A%CE%95%CE%99%CE%9F+%CE%91%CE%A1%CE%91%CE%94%CE%99%CE%A0%CE%A0%CE%9F%CE%A5+%22%CE%A4%CE%91%CE%A3%CE%9F%CE%A3+%CE%9C%CE%97%CE%A4%CE%A3%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F%CE%A3%22/@34.944145,33.5759836,17z/data=!3m1!4b1!4m6!3m5!1s0x14de2784073b5547:0x7c1b4d1857969697!8m2!3d34.944145!4d33.5785639!16s%2Fg%2F1hm519qh4?entry=ttu)
 
- 
+[ ](https://www.google.com/maps/place/%CE%9B%CE%A5%CE%9A%CE%95%CE%99%CE%9F+%CE%91%CE%A1%CE%91%CE%94%CE%99%CE%A0%CE%A0%CE%9F%CE%A5+%22%CE%A4%CE%91%CE%A3%CE%9F%CE%A3+%CE%9C%CE%97%CE%A4%CE%A3%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F%CE%A3%22/@34.944145,33.5759836,17z/data=!3m1!4b1!4m6!3m5!1s0x14de2784073b5547:0x7c1b4d1857969697!8m2!3d34.944145!4d33.5785639!16s%2Fg%2F1hm519qh4?entry=ttu)
 
 Διάρκεια: 80 λεπτά
 
