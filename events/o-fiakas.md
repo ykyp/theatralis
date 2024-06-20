@@ -48,7 +48,7 @@ category: comedy
 
 ΛΕΥΚΩΣΙΑ
 
-Ημερομηνία: 07 Ιουλίου 2024 στο [Δημοτικό Αμφιθέατρο Λακατάμιας](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%91%CE%BC%CF%86%CE%B9%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CE%BA%CE%B1%CF%84%CE%AC%CE%BC%CE%B9%CE%B1%CF%82/@35.1114544,33.2961105,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1b798488aceb:0xda7e45d8eae71658!8m2!3d35.1114544!4d33.2986908!16s%2Fg%2F1th5ft6j?entry=ttu) και 13 Ιουλίου στο Αρχοντικό Αξιοθέας (Πολιτιστικό Φεστιβάλ Πανεπιστημίου Κύπρου)
+Ημερομηνία: 07 Ιουλίου 2024 στο [Δημοτικό Αμφιθέατρο Λακατάμιας](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%91%CE%BC%CF%86%CE%B9%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CE%BA%CE%B1%CF%84%CE%AC%CE%BC%CE%B9%CE%B1%CF%82/@35.1114544,33.2961105,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1b798488aceb:0xda7e45d8eae71658!8m2!3d35.1114544!4d33.2986908!16s%2Fg%2F1th5ft6j?entry=ttu) και 13 Ιουλίου στο [Αρχοντικό Αξιοθέας](https://www.google.com/maps/place/%CE%91%CF%81%CF%87%CE%BF%CE%BD%CF%84%CE%B9%CE%BA%CE%BF+%CE%91%CE%BE%CE%B9%CE%BF%CE%B8%CE%AD%CE%B1%CF%82/@35.1769404,33.3672384,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1741ca2d81c7:0x79529d88a6902b73!8m2!3d35.1769404!4d33.3698187!16s%2Fg%2F11g7218q29?entry=ttu) (Πολιτιστικό Φεστιβάλ Πανεπιστημίου Κύπρου)
 
 Ώρα έναρξης: 
 
