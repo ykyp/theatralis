@@ -61,3 +61,11 @@ event_image: /ΗΜΕΡΟΛΟΓΙΟ ΜΗ ΣΥΜΒΑΝΤΩΝ .jpg
 Ώρα έναρξης: 20:30 
 
 Χώρος: Παλιό Ξυδάδικο
+
+***
+
+#### ΕΙΣΙΤΗΡΙΑ
+
+Τιμή: €15 | €13 \*Μειωμένο εισιτήριο: ΑμεΑ, μαθητές, φοιτητές, άνεργοι, συνταξιούχοι, ηθοποιοί. Απαιτείται επίδειξη αποδεικτικού/ταυτότητας στην είσοδο
+
+Προπώληση: [soldouttickets](https://www.soldoutticketbox.com/event/imerologio-mi-simvanton=2-24?lang=el\&utm_source=homearticles\&utm_medium=banner\&utm_campaign=bannercampaign)
