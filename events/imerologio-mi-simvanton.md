@@ -4,6 +4,7 @@ city: 'nicosia, limassol,larnaca'
 startDate: 2024-06-20T21:00:00.000Z
 endDate: 2024-07-13T21:00:00.000Z
 nicosia_dates: '2024-07-05,2024-07-06,'
+limassol_dates: '2024-07-10'
 larnaca_dates: '2024-06-23,2024-06-26,2024-06-27,2024-06-28,2024-06-29,2024-06-30,2024-07-07'
 ---
 
