@@ -63,7 +63,7 @@ media: Γιώργος Αλεξάνδρου
 
 Τιμή: 15 ευρώ /12 ευρώ (συνταξιούχοι, άνεργοι, φοιτητές, μαθητές)
 
-Προπώληση εισιτηρίων: SOLDOUT TICKETS
+Προπώληση εισιτηρίων: [SOLDOUT TICKETS](https://www.soldoutticketbox.com/event/gia-ola-fteei-i-kongoleza-antilogos-2024?lang=el\&utm_source=homearticles\&utm_medium=banner\&utm_campaign=bannercampaign)
 
 Πληροφορίες και κρατήσεις : 99 25 1331
 
