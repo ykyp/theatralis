@@ -50,9 +50,7 @@ category: comedy
 
 Ημερομηνία: 07 Ιουλίου 2024 στο [Δημοτικό Αμφιθέατρο Λακατάμιας](https://www.google.com/maps/place/%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CF%8C+%CE%91%CE%BC%CF%86%CE%B9%CE%B8%CE%AD%CE%B1%CF%84%CF%81%CE%BF+%CE%9B%CE%B1%CE%BA%CE%B1%CF%84%CE%AC%CE%BC%CE%B9%CE%B1%CF%82/@35.1114544,33.2961105,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1b798488aceb:0xda7e45d8eae71658!8m2!3d35.1114544!4d33.2986908!16s%2Fg%2F1th5ft6j?entry=ttu) και 13 Ιουλίου στο [Αρχοντικό Αξιοθέας](https://www.google.com/maps/place/%CE%91%CF%81%CF%87%CE%BF%CE%BD%CF%84%CE%B9%CE%BA%CE%BF+%CE%91%CE%BE%CE%B9%CE%BF%CE%B8%CE%AD%CE%B1%CF%82/@35.1769404,33.3672384,17z/data=!3m1!4b1!4m6!3m5!1s0x14de1741ca2d81c7:0x79529d88a6902b73!8m2!3d35.1769404!4d33.3698187!16s%2Fg%2F11g7218q29?entry=ttu) (Πολιτιστικό Φεστιβάλ Πανεπιστημίου Κύπρου)
 
-Ώρα έναρξης: 
-
-Χώρος:  
+Ώρα έναρξης:
 
  
 
@@ -62,19 +60,15 @@ category: comedy
 
 23,25,26 και 29 Ιουλίου 2024 - Θεατράκι Ηρώων Χρίστου και Μίλτου Χριστοφόρου στο Παραθαλάσσιο Πολυλειτουργικό πάρκο
 
-Ώρα έναρξης: 
-
- 
+Ώρα έναρξης:
 
 ΛΑΡΝΑΚΑ
 
 Ημερομηνία: 22 Ιουλίου 2024
 
-Ώρα έναρξης: 
+Ώρα έναρξης:
 
-Χώρος:  [Υπαίθριο Αμφιθέατρο Λυκείου Αραδίππου "Τάσος Μητσόπουλος"](https://www.google.com/maps/place/%CE%9B%CE%A5%CE%9A%CE%95%CE%99%CE%9F+%CE%91%CE%A1%CE%91%CE%94%CE%99%CE%A0%CE%A0%CE%9F%CE%A5+%22%CE%A4%CE%91%CE%A3%CE%9F%CE%A3+%CE%9C%CE%97%CE%A4%CE%A3%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F%CE%A3%22/@34.944145,33.5759836,17z/data=!3m1!4b1!4m6!3m5!1s0x14de2784073b5547:0x7c1b4d1857969697!8m2!3d34.944145!4d33.5785639!16s%2Fg%2F1hm519qh4?entry=ttu)
-
-[ ](https://www.google.com/maps/place/%CE%9B%CE%A5%CE%9A%CE%95%CE%99%CE%9F+%CE%91%CE%A1%CE%91%CE%94%CE%99%CE%A0%CE%A0%CE%9F%CE%A5+%22%CE%A4%CE%91%CE%A3%CE%9F%CE%A3+%CE%9C%CE%97%CE%A4%CE%A3%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F%CE%A3%22/@34.944145,33.5759836,17z/data=!3m1!4b1!4m6!3m5!1s0x14de2784073b5547:0x7c1b4d1857969697!8m2!3d34.944145!4d33.5785639!16s%2Fg%2F1hm519qh4?entry=ttu)
+Χώρος:  [Υπαίθριο Αμφιθέατρο Λυκείου Αραδίππου "Τάσος Μητσόπουλ](https://www.google.com/maps/place/%CE%9B%CE%A5%CE%9A%CE%95%CE%99%CE%9F+%CE%91%CE%A1%CE%91%CE%94%CE%99%CE%A0%CE%A0%CE%9F%CE%A5+%22%CE%A4%CE%91%CE%A3%CE%9F%CE%A3+%CE%9C%CE%97%CE%A4%CE%A3%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F%CE%A3%22/@34.944145,33.5759836,17z/data=!3m1!4b1!4m6!3m5!1s0x14de2784073b5547:0x7c1b4d1857969697!8m2!3d34.944145!4d33.5785639!16s%2Fg%2F1hm519qh4?entry=ttu)
 
 Διάρκεια: 80 λεπτά
 
